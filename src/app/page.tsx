@@ -1,65 +1,86 @@
-import Image from "next/image";
+import Link from "next/link";
+import { plants } from "@/data/plants";
+import PlantCard from "@/components/PlantCard";
+
+const features = [
+  {
+    href: "/taxonomy",
+    icon: "🌳",
+    title: "分類体系から見る",
+    desc: "植物のまとまりをインタラクティブな木構造で辿る",
+    color: "bg-emerald-50 border-emerald-200 hover:bg-emerald-100",
+  },
+  {
+    href: "/timeline",
+    icon: "⏳",
+    title: "進化史から見る",
+    desc: "植物がどのように出現・多様化したかをタイムラインで追う",
+    color: "bg-amber-50 border-amber-200 hover:bg-amber-100",
+  },
+  {
+    href: "/key",
+    icon: "🔍",
+    title: "検索表を使う",
+    desc: "植物の特徴を辿りながら、候補を絞り込む",
+    color: "bg-sky-50 border-sky-200 hover:bg-sky-100",
+  },
+  {
+    href: "/plants",
+    icon: "📋",
+    title: "よく見かける植物を見る",
+    desc: "日本でよく見かける植物を一覧で見る",
+    color: "bg-rose-50 border-rose-200 hover:bg-rose-100",
+  },
+];
 
 export default function Home() {
+  const featured = plants.slice(0, 4);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main>
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-green-800 to-green-600 text-white py-16 px-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="text-4xl font-bold mb-4">ぷらんつあ <span className="text-green-300 text-2xl font-normal">Plantour</span></h1>
+          <p className="text-xl text-green-100 mb-2">植物を、全体像の中で学ぶ。</p>
+          <p className="text-green-200 text-sm">
+            分類体系・進化史・検索表・個別ページを1つにつないだ日本の植物学習サービス
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* 4導線 */}
+      <section className="max-w-5xl mx-auto px-4 py-12">
+        <h2 className="text-xl font-bold text-gray-800 mb-6 text-center">4つの学び方</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {features.map((f) => (
+            <Link
+              key={f.href}
+              href={f.href}
+              className={`border rounded-xl p-6 transition-colors ${f.color}`}
+            >
+              <div className="text-3xl mb-3">{f.icon}</div>
+              <div className="font-bold text-gray-900 mb-1">{f.title}</div>
+              <div className="text-sm text-gray-600">{f.desc}</div>
+            </Link>
+          ))}
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* よく見かける植物 */}
+      <section className="max-w-5xl mx-auto px-4 pb-16">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-xl font-bold text-gray-800">よく見かける植物</h2>
+          <Link href="/plants" className="text-sm text-green-700 hover:underline">
+            すべて見る →
+          </Link>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          {featured.map((plant) => (
+            <PlantCard key={plant.id} plant={plant} />
+          ))}
+        </div>
+      </section>
+    </main>
   );
 }
