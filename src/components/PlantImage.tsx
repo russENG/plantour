@@ -7,6 +7,7 @@ interface Props {
   className?: string;
   fallbackEmoji?: string;
   fallbackClassName?: string;
+  width?: number;
 }
 
 /**
@@ -14,12 +15,21 @@ interface Props {
  * - src が未設定またはロード失敗時は fallbackEmoji を表示する。
  * - Wikimedia Commons の Special:FilePath などの外部 URL に対応。
  */
+function optimizeUrl(src: string, width?: number): string {
+  if (!width) return src;
+  if (src.includes("commons.wikimedia.org/wiki/Special:FilePath/")) {
+    return `${src}?width=${width}`;
+  }
+  return src;
+}
+
 export default function PlantImage({
   src,
   alt,
   className = "",
   fallbackEmoji = "🌿",
   fallbackClassName = "",
+  width,
 }: Props) {
   const [failed, setFailed] = useState(false);
 
@@ -37,7 +47,7 @@ export default function PlantImage({
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={src}
+      src={optimizeUrl(src, width)}
       alt={alt}
       className={`object-cover w-full h-full ${className}`}
       onError={() => setFailed(true)}

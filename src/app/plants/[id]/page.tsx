@@ -40,6 +40,7 @@ export default async function PlantPage({ params }: Props) {
             className="h-40 sm:h-56"
             fallbackClassName="h-40 sm:h-56 text-7xl sm:text-8xl"
             fallbackEmoji="🌿"
+            width={800}
           />
         </div>
 

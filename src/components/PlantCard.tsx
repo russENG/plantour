@@ -17,6 +17,7 @@ export default function PlantCard({ plant }: Props) {
             alt={plant.jaName}
             className="h-28 sm:h-36"
             fallbackClassName="h-28 sm:h-36"
+            width={400}
           />
         </div>
         <div className="p-4">
