@@ -1,3 +1,7 @@
+/**
+ * 植物データ — 分類は APG IV (2016) 準拠
+ * 科名・目名の配置は families.ts および taxonomy.ts と一致させること。
+ */
 import type { Plant } from "./types";
 
 export const plants: Plant[] = [
@@ -18,6 +22,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・公園・草地・畑",
     season: "3〜10月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Taraxacum_officinale_flowers.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セイヨウタンポポ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Taraxacum_officinale" },
@@ -58,6 +63,7 @@ export const plants: Plant[] = [
     ],
     habitat: "畑・花壇・道ばた",
     season: "7〜9月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Helianthus_annuus.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒマワリ" },
     ],
@@ -96,6 +102,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・空き地・草地",
     season: "5〜10月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Erigeron_annuus.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒメジョオン" },
     ],
@@ -134,6 +141,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・空き地・草地",
     season: "4〜6月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Erigeron_philadelphicus.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハルジオン" },
     ],
@@ -172,6 +180,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・草地・河川敷・土手",
     season: "9〜10月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Artemisia_princeps.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヨモギ" },
     ],
@@ -210,6 +219,7 @@ export const plants: Plant[] = [
     ],
     habitat: "河川敷・荒地・空き地・道ばた",
     season: "10〜11月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Solidago_canadensis.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セイタカアワダチソウ" },
     ],
@@ -248,6 +258,7 @@ export const plants: Plant[] = [
     ],
     habitat: "花壇・畑・道ばた",
     season: "7〜11月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cosmos_bipinnatus_flowers.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コスモス" },
     ],
@@ -288,6 +299,7 @@ export const plants: Plant[] = [
     ],
     habitat: "公園・街路・河川敷",
     season: "3〜4月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Prunus_×_yedoensis_01.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ソメイヨシノ" },
     ],
@@ -327,6 +339,7 @@ export const plants: Plant[] = [
     ],
     habitat: "公園・庭・梅林",
     season: "1〜3月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Prunus_mume_2.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ウメ" },
     ],
@@ -365,6 +378,7 @@ export const plants: Plant[] = [
     ],
     habitat: "野山・林縁・河川敷・道ばた",
     season: "5〜6月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_multiflora.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ノイバラ" },
     ],
@@ -405,6 +419,7 @@ export const plants: Plant[] = [
     ],
     habitat: "草地・河川敷・山野・道ばた",
     season: "8〜10月（穂）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Miscanthus_sinensis1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ススキ" },
     ],
@@ -443,6 +458,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・畑・空き地",
     season: "8〜10月（穂）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Setaria_viridis_2.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/エノコログサ" },
     ],
@@ -481,6 +497,7 @@ export const plants: Plant[] = [
     ],
     habitat: "河川敷・湖岸・湿地・水辺",
     season: "8〜10月（穂）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Phragmites_australis.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヨシ" },
     ],
@@ -521,6 +538,7 @@ export const plants: Plant[] = [
     ],
     habitat: "公園・草地・道ばた・芝生",
     season: "4〜10月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trifolium_repens.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シロツメクサ" },
     ],
@@ -560,6 +578,7 @@ export const plants: Plant[] = [
     ],
     habitat: "草地・道ばた・牧草地",
     season: "5〜8月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trifolium_pratense.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アカツメクサ" },
     ],
@@ -598,6 +617,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・草地・畑のまわり",
     season: "3〜6月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Vicia_sativa_subsp._sativa.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カラスノエンドウ" },
     ],
@@ -638,6 +658,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・畑・公園・空き地",
     season: "2〜6月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Capsella_bursa-pastoris.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ナズナ" },
     ],
@@ -676,6 +697,7 @@ export const plants: Plant[] = [
     ],
     habitat: "農地・河川敷・畑",
     season: "3〜5月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_napus_flowering.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セイヨウアブラナ" },
     ],
@@ -716,6 +738,7 @@ export const plants: Plant[] = [
     ],
     habitat: "畑・道ばた・空き地",
     season: "3〜6月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lamium_amplexicaule1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホトケノザ" },
     ],
@@ -754,6 +777,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・畑・公園",
     season: "3〜5月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lamium_purpureum.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒメオドリコソウ" },
     ],
@@ -794,6 +818,7 @@ export const plants: Plant[] = [
     ],
     habitat: "草地・道ばた・土手・草原",
     season: "5〜7月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rumex_acetosa.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スイバ" },
     ],
@@ -832,6 +857,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・荒地・河川敷・山野",
     season: "8〜10月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Reynoutria_japonica.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イタドリ" },
     ],
@@ -872,6 +898,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・畑・公園・庭",
     season: "ほぼ年中（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Stellaria_media.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハコベ" },
     ],
@@ -912,6 +939,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・踏み固められた土地・公園",
     season: "5〜9月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Plantago_major.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オオバコ" },
     ],
@@ -950,6 +978,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・畑・公園・草地",
     season: "2〜5月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Veronica_persica.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オオイヌノフグリ" },
     ],
@@ -990,6 +1019,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・林縁・草地・公園",
     season: "3〜5月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Viola_grypoceras_(200704).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/タチツボスミレ" },
     ],
@@ -1030,6 +1060,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・庭・畑・石畳の隙間",
     season: "4〜10月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oxalis_corniculata.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カタバミ" },
     ],
@@ -1068,6 +1099,7 @@ export const plants: Plant[] = [
     ],
     habitat: "道ばた・庭・公園・花壇",
     season: "4〜7月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Murasakikatabami.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ムラサキカタバミ" },
     ],
@@ -1108,6 +1140,7 @@ export const plants: Plant[] = [
     ],
     habitat: "湿った日陰・庭・道ばた・林縁",
     season: "5〜7月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Houttuynia_cordata01.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ドクダミ" },
     ],
@@ -1149,6 +1182,7 @@ export const plants: Plant[] = [
     ],
     habitat: "池・沼・湿地・河川の水辺",
     season: "7〜8月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Typha_latifolia.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ガマ" },
     ],
@@ -1189,6 +1223,7 @@ export const plants: Plant[] = [
     ],
     habitat: "高山・亜高山の湿地・尾瀬など",
     season: "4〜7月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lysichiton_camtschatcense.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミズバショウ" },
     ],
@@ -1228,6 +1263,7 @@ export const plants: Plant[] = [
     ],
     habitat: "街路・公園",
     season: "通年（葉は春〜秋）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Platanus_x_acerifolia.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/プラタナス" },
     ],
@@ -1268,6 +1304,7 @@ export const plants: Plant[] = [
     ],
     habitat: "雑木林・里山・山地",
     season: "通年（黄葉は10〜11月）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Quercus_serrata.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コナラ" },
     ],
@@ -1306,6 +1343,7 @@ export const plants: Plant[] = [
     ],
     habitat: "雑木林・里山",
     season: "通年（黄葉は10〜11月）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Quercus_acutissima.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クヌギ" },
     ],
@@ -1346,6 +1384,7 @@ export const plants: Plant[] = [
     ],
     habitat: "神社・公園・街路・西日本の暖地",
     season: "通年",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cinnamomum_camphora.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クスノキ" },
     ],
@@ -1387,6 +1426,7 @@ export const plants: Plant[] = [
     ],
     habitat: "山林・庭・公園",
     season: "12〜4月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Camellia_japonica_002.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツバキ" },
     ],
@@ -1425,6 +1465,7 @@ export const plants: Plant[] = [
     ],
     habitat: "庭・公園・生垣",
     season: "10〜12月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Camellia_sasanqua.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サザンカ" },
     ],
@@ -1465,6 +1506,7 @@ export const plants: Plant[] = [
     ],
     habitat: "山地・公園・街路",
     season: "3〜4月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia_kobus1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コブシ" },
     ],
@@ -1506,6 +1548,7 @@ export const plants: Plant[] = [
     ],
     habitat: "山地・丘陵・林",
     season: "通年",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_densiflora1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アカマツ" },
     ],
@@ -1545,6 +1588,7 @@ export const plants: Plant[] = [
     ],
     habitat: "海岸・防風林・公園・庭",
     season: "通年",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_thunbergii.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クロマツ" },
     ],
@@ -1585,6 +1629,7 @@ export const plants: Plant[] = [
     ],
     habitat: "山林・植林地",
     season: "通年",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cryptomeria_japonica_in_Nikko.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スギ" },
     ],
@@ -1626,6 +1671,7 @@ export const plants: Plant[] = [
     ],
     habitat: "街路・公園・神社仏閣",
     season: "通年（黄葉は10〜11月）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ginkgo_biloba_-_leaves.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イチョウ" },
     ],
@@ -1667,6 +1713,7 @@ export const plants: Plant[] = [
     ],
     habitat: "北海道・高原・山地",
     season: "通年（黄葉は10〜11月）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Betula_platyphylla_01-10-2005_14.55.52.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シラカバ" },
     ],
@@ -1707,6 +1754,7 @@ export const plants: Plant[] = [
     ],
     habitat: "庭・公園・寺社・道ばた",
     season: "6〜7月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hydrangea_macrophylla_3.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アジサイ" },
     ],
@@ -1747,6 +1795,7 @@ export const plants: Plant[] = [
     ],
     habitat: "公園・街路・社寺境内・山地",
     season: "通年（紅葉は10〜11月）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Zelkova_serrata.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ケヤキ" },
     ],
@@ -1787,6 +1836,7 @@ export const plants: Plant[] = [
     ],
     habitat: "花壇・垣根・学校・道ばた",
     season: "7〜10月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ipomoea_nil.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アサガオ" },
     ],
@@ -1827,6 +1877,7 @@ export const plants: Plant[] = [
     ],
     habitat: "畑・道ばた・河川敷・草地",
     season: "3〜4月（ツクシ）、4〜10月（スギナ）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_arvense.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スギナ" },
     ],
@@ -1868,6 +1919,7 @@ export const plants: Plant[] = [
     ],
     habitat: "山地・湿った林縁・谷筋・水辺",
     season: "4〜5月（若芽）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Osmunda_japonica.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ゼンマイ" },
     ],
@@ -1909,6 +1961,7 @@ export const plants: Plant[] = [
     ],
     habitat: "山地の雑木林・庭園・公園",
     season: "4月（花）・10〜11月（紅葉）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Acer_palmatum_January_2008.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イロハモミジ" },
     ],
@@ -1948,6 +2001,7 @@ export const plants: Plant[] = [
     ],
     habitat: "街路・公園（植栽）",
     season: "4月（花）・11月（紅葉）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Acer_buergerianum1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トウカエデ" },
     ],
@@ -1988,6 +2042,7 @@ export const plants: Plant[] = [
     ],
     habitat: "公園・街路・庭園（植栽）",
     season: "4月（花）・10〜11月（紅葉・実）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cornus_florida.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハナミズキ" },
     ],
@@ -2029,6 +2084,7 @@ export const plants: Plant[] = [
     ],
     habitat: "水辺・川沿い・公園（植栽）",
     season: "3〜4月（花・展葉）・5〜6月（柳絮）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Salix_babylonica.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シダレヤナギ" },
     ],
@@ -2070,6 +2126,7 @@ export const plants: Plant[] = [
     ],
     habitat: "山地の雑木林・里山・栽培",
     season: "6〜7月（花）・9〜10月（実）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Castanea_crenata.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クリ" },
     ],
@@ -2111,6 +2168,7 @@ export const plants: Plant[] = [
     ],
     habitat: "山地（植林・自生）",
     season: "通年（常緑）・3〜4月（花粉飛散）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chamaecyparis_obtusa.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒノキ" },
     ],
@@ -2134,6 +2192,460 @@ export const plants: Plant[] = [
     },
   },
 
+  // ── ヒガンバナ科 ──────────────────────────────────────
+  {
+    id: "higanbana",
+    jaName: "ヒガンバナ",
+    enName: "Red Spider Lily",
+    scientificName: "Lycoris radiata",
+    familyId: "amaryllidaceae",
+    familyJaName: "ヒガンバナ科",
+    description:
+      "秋のお彼岸ごろに真っ赤な花を一斉に咲かせる多年草。花が咲いている間は葉がなく、花が終わった後に葉が伸びる「葉見ず花見ず」の植物。田のあぜ道・墓地・里山に群生し、全草有毒（リコリン等を含む）。モグラ・ネズミ忌避のため水田周辺に意図的に植えられてきた歴史がある。",
+    identificationPoints: [
+      "真っ赤な花（花被片が反り返る）、葉がない状態で開花",
+      "細い花被片6枚が大きく反り返り、雄しべ・雌しべが長く突き出る",
+      "葉は冬〜春に伸び、夏に枯れる",
+      "田のあぜ・墓地に群生することが多い",
+    ],
+    habitat: "田のあぜ・墓地・林縁・里山",
+    season: "9〜10月（花）・11〜翌6月（葉）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lycoris_radiata_002.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒガンバナ" },
+    ],
+    evolutionNote: "ヒガンバナ科は単子葉類の中で比較的早期に分岐。球根による休眠・再生戦略が季節変動の激しい環境への適応。",
+    tags: ["草本", "球根", "有毒", "秋", "赤花", "田のあぜ", "群生"],
+    sources: [
+      {
+        type: "claude_ai",
+        label: "Claude AI生成（未確認）",
+        note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。",
+      },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヒガンバナ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+  {
+    id: "nobiru",
+    jaName: "ノビル",
+    enName: "Wild Chive",
+    scientificName: "Allium macrostemon",
+    familyId: "amaryllidaceae",
+    familyJaName: "ヒガンバナ科",
+    description:
+      "道ばたや草地に生える多年草。地下に小さな球根（鱗茎）をもち、葉・鱗茎ともに食用になる。春に若い葉をちぎるとネギに似た香りがする。花茎の先に白い小花と珠芽（むかご）をつける。",
+    identificationPoints: [
+      "葉はネギ・ニラに似た線形で中実（断面が丸い）",
+      "ちぎるとネギ・ニンニクに似た香り",
+      "春〜夏に白〜淡紫色の小花を散形につける",
+      "花に混じって珠芽（むかご）をつけることが多い",
+    ],
+    habitat: "道ばた・草地・農地周辺・土手",
+    season: "4〜6月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Allium_macrostemon.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ノビル" },
+    ],
+    tags: ["草本", "多年草", "食用", "春", "白花", "道ばた"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ノビル" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── ツユクサ科 ──────────────────────────────────────
+  {
+    id: "tsuyukusa",
+    jaName: "ツユクサ",
+    enName: "Asiatic Dayflower",
+    scientificName: "Commelina communis",
+    familyId: "commelinaceae",
+    familyJaName: "ツユクサ科",
+    description:
+      "夏から秋にかけて、鮮やかな青い花を咲かせる一年草。花は朝に開いて昼には閉じる一日花。茎が地面を這って節から根を出す。青い花弁2枚と白い小さな花弁1枚の組み合わせが特徴的。古くは「月草」とも呼ばれ、青い汁で着物を染めた。",
+    identificationPoints: [
+      "鮮やかな青い花弁2枚＋白い小花弁1枚",
+      "朝に開いて午前中に閉じる一日花",
+      "茎が地面を這い、節から根が出る",
+      "葉は披針形〜卵形、葉鞘をもつ",
+    ],
+    habitat: "道ばた・畑・草地・庭",
+    season: "6〜10月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Commelina_communis_01.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツユクサ" },
+    ],
+    tags: ["草本", "一年草", "夏秋", "青花", "道ばた"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ツユクサ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── スミレ科 ──────────────────────────────────────
+  {
+    id: "sumire",
+    jaName: "スミレ",
+    enName: "Manchurian Violet",
+    scientificName: "Viola mandshurica",
+    familyId: "violaceae",
+    familyJaName: "スミレ科",
+    description:
+      "春に紫色の花を咲かせる小型の多年草。日当たりのよい道ばたや草地によく見られる。スミレの仲間は日本に約50〜60種あり同定が難しい。花には距（きょ）とよばれる突起があり、蜜を蓄える。春に咲く「開放花」の他に、夏〜秋に地中で閉じたまま結実する「閉鎖花（閉花受粉）」もつける。",
+    identificationPoints: [
+      "紫色の5弁花、側花弁に白い毛（ひげ状）",
+      "花の後ろに距（蜜を入れた突起）がある",
+      "葉は三角状卵形〜長三角形、鋸歯あり",
+      "根生葉が地表に直接つく（茎葉がない）",
+    ],
+    habitat: "道ばた・草地・土手・日当たりのよい場所",
+    season: "3〜5月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Viola_mandshurica1.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スミレ" },
+    ],
+    evolutionNote: "スミレ科は閉鎖花（閉花受粉）という独特の繁殖戦略を進化させ、悪天候でも確実な結実を保証する。",
+    tags: ["草本", "多年草", "春", "紫花", "道ばた", "小型"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/スミレ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── キク科（追加種） ──────────────────────────────────────
+  {
+    id: "noazami",
+    jaName: "ノアザミ",
+    enName: "Japanese Thistle",
+    scientificName: "Cirsium japonicum",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "日本在来のアザミの代表種。春から初夏に赤紫色のとげとげした頭状花序を咲かせる多年草。葉や総苞にするどいとげがある。山野・土手・道ばたに広く分布し、蝶や蜂が蜜を求めてよく訪れる。",
+    identificationPoints: [
+      "赤紫色の頭状花序、総苞が丸みを帯びる",
+      "総苞片が粘り気をもつ（粘液を分泌）",
+      "葉・茎・総苞に鋭いとげがある",
+      "春〜初夏に咲く（夏以降のアザミと区別可）",
+    ],
+    habitat: "草地・土手・道ばた・山野",
+    season: "5〜8月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cirsium_japonicum_flower.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ノアザミ" },
+    ],
+    tags: ["草本", "多年草", "夏", "紫花", "とげ", "草地"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ノアザミ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+  {
+    id: "fuki",
+    jaName: "フキ",
+    enName: "Japanese Butterbur",
+    scientificName: "Petasites japonicus",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "日本原産の多年草。早春に花（フキノトウ）が葉より先に地表に顔を出す。葉は大きくハス形で、葉柄（フキ）は食用になる。地下茎で広がりコロニーを形成。雌雄異株で、ふきのとうは花茎の若い状態。",
+    identificationPoints: [
+      "早春に出るフキノトウ（包葉に包まれた花穂）",
+      "葉は大きな腎臓〜ハス形（直径30〜80cm）",
+      "葉柄（フキ）は緑色で断面が丸く中空",
+      "地下茎で繁殖し群生をつくる",
+    ],
+    habitat: "湿った草地・川沿い・林縁・農地周辺",
+    season: "3〜4月（花・フキノトウ）・4〜9月（葉）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Petasites_japonicus_1.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フキ" },
+    ],
+    evolutionNote: "フキは葉の出る前に花を咲かせる「葉より先に花」の戦略をとり、春先の送粉者を効率よく利用する。",
+    tags: ["草本", "多年草", "食用", "春", "大葉", "川沿い"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/フキ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+  {
+    id: "kosendan",
+    jaName: "コセンダングサ",
+    enName: "Hairy Beggarticks",
+    scientificName: "Bidens pilosa",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "秋に道ばたでズボンや靴下に引っかかる「ひっつき虫」として知られる一年草。熱帯アメリカ原産の帰化植物。白い舌状花が目立つものはシロノセンダングサ、舌状花がほとんどないものがコセンダングサ。果実の先に2〜4本の刺があり衣服や動物の毛に刺さる。",
+    identificationPoints: [
+      "果実に2〜4本の逆刺がありひっつく（ひっつき虫）",
+      "葉は羽状複葉〜単葉、対生",
+      "白い舌状花（あるいは花弁なし）と黄色い筒状花",
+      "秋の道ばたに普通",
+    ],
+    habitat: "道ばた・空き地・農地周辺",
+    season: "9〜11月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Bidens_pilosa_flowers.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コセンダングサ" },
+    ],
+    tags: ["草本", "一年草", "秋", "帰化植物", "ひっつき虫", "道ばた"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/コセンダングサ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── バラ科（追加） ──────────────────────────────────────
+  {
+    id: "hebi_ichigo",
+    jaName: "ヘビイチゴ",
+    enName: "Mock Strawberry",
+    scientificName: "Potentilla indica",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "春〜初夏に黄色い5弁花を咲かせ、その後イチゴに似た赤い実をつける多年草。实はほぼ無味で食べても害はないが美味しくない。ランナー（匍匐茎）で広がる。よく似た本物のイチゴ（オランダイチゴ）は白い花。名前の由来は「蛇がいるような場所に生える」から、またはヘビがエサとして誘う毒草と誤解されたことから。",
+    identificationPoints: [
+      "黄色い5弁花（本物のイチゴは白）",
+      "赤い果実はつやつやしているが味がない",
+      "3出複葉（小葉が3枚）",
+      "ランナーで地面を這う",
+    ],
+    habitat: "道ばた・草地・土手・庭",
+    season: "4〜6月（花）・5〜8月（実）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Potentilla_indica1.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヘビイチゴ" },
+    ],
+    tags: ["草本", "多年草", "春", "黄色花", "赤い実", "道ばた"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヘビイチゴ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── イネ科（追加） ──────────────────────────────────────
+  {
+    id: "chigaya",
+    jaName: "チガヤ",
+    enName: "Cogon Grass",
+    scientificName: "Imperata cylindrica",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "日当たりのよい草地・土手・荒れ地に群生するイネ科の多年草。春に白い綿毛状の穂（花穂）をつけ風景を彩る。強い地下茎をもち除草困難な雑草としても知られる。若い穂は甘みがあり「チバンコ」「チンバコ」などと呼ばれ子供のおやつになった。",
+    identificationPoints: [
+      "春に白い絹糸状の長毛に包まれた穂をつける",
+      "葉は線形で硬く、縁で手が切れることがある",
+      "強い地下茎（根茎）で広がる",
+      "日当たりのよい乾いた場所に多い",
+    ],
+    habitat: "草地・土手・道ばた・荒れ地",
+    season: "4〜6月（花・穂）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Imperata_cylindrica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/チガヤ" },
+    ],
+    tags: ["草本", "多年草", "春", "白穂", "草地", "土手"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/チガヤ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── タデ科（追加） ──────────────────────────────────────
+  {
+    id: "mizuhiki",
+    jaName: "ミズヒキ",
+    enName: "Japanese Jumpseed",
+    scientificName: "Persicaria filiformis",
+    familyId: "polygonaceae",
+    familyJaName: "タデ科",
+    description:
+      "林縁や山道わきに見られる多年草。細い花茎に小さな赤い花が一列に並ぶ様子が水引（祝儀袋の飾り紐）に似ることから「ミズヒキ」の名がついた。花を上から見ると赤、下から見ると白く見える。",
+    identificationPoints: [
+      "細長い花穂に小さな赤い花が一列に並ぶ",
+      "花は上面が赤、下面が白（二色）",
+      "葉は大型の卵形〜広卵形、しばしば暗紫色の斑紋あり",
+      "林縁・山道わきの半日陰に多い",
+    ],
+    habitat: "林縁・山道・半日陰の草地",
+    season: "8〜10月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Persicaria_filiformis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミズヒキ" },
+    ],
+    tags: ["草本", "多年草", "秋", "赤花", "林縁", "半日陰"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ミズヒキ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── フウロソウ科 ──────────────────────────────────────
+  {
+    id: "gennosyoko",
+    jaName: "ゲンノショウコ",
+    enName: "Thunberg's Geranium",
+    scientificName: "Geranium thunbergii",
+    familyId: "geraniaceae",
+    familyJaName: "フウロソウ科",
+    description:
+      "夏〜秋に白〜淡紅色の花を咲かせる多年草。日本三大民間薬のひとつで、下痢止め・整腸剤として「現の証拠（飲めばすぐ効く）」という意味の名がついた。果実が熟すと爆発的に反り返り種子を飛ばす（弾き飛ばし散布）。西日本では白花、東日本では淡紫花が多い傾向がある。",
+    identificationPoints: [
+      "5花弁の小さな花（白〜淡紫）",
+      "葉は掌状に3〜5裂",
+      "果実は細長い嘴（くちばし）状で、熟すと弾ける",
+      "茎・葉に開出毛が多い",
+    ],
+    habitat: "道ばた・草地・林縁",
+    season: "7〜10月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Geranium_thunbergii01.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ゲンノショウコ" },
+    ],
+    tags: ["草本", "多年草", "夏秋", "白花", "薬草", "道ばた"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ゲンノショウコ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── ユリ科 ──────────────────────────────────────
+  {
+    id: "katakuri",
+    jaName: "カタクリ",
+    enName: "Dogtooth Violet",
+    scientificName: "Erythronium japonicum",
+    familyId: "liliaceae",
+    familyJaName: "ユリ科",
+    description:
+      "春の林床に咲く多年草で「春の妖精（スプリング・エフェメラル）」の代表種。種から開花するまで7〜9年かかる。花は下向きに咲き、花被片が大きく反り返る独特の形。初夏には地上部が枯れて夏〜翌春まで地下で過ごす。根から取れるデンプンが「片栗粉」の原料（現在は市販品のほとんどがジャガイモデンプン）。",
+    identificationPoints: [
+      "春にピンク〜淡紫色の花被片が大きく反り返る（下向き開花）",
+      "葉は2枚のみ、紫色の斑紋がある",
+      "地上部は春のみで初夏に枯れる",
+      "落葉広葉樹林の林床に群生",
+    ],
+    habitat: "落葉広葉樹林の林床",
+    season: "3〜5月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Erythronium_japonicum_4.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カタクリ" },
+    ],
+    evolutionNote: "スプリング・エフェメラルは落葉樹林の葉が展開する前の「光の窓」を利用して開花・結実し、地下で夏を越す戦略を進化させた。",
+    tags: ["草本", "多年草", "春", "ピンク花", "林床", "球根", "スプリングエフェメラル"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カタクリ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── キキョウ科 ──────────────────────────────────────
+  {
+    id: "kikyo",
+    jaName: "キキョウ",
+    enName: "Balloon Flower",
+    scientificName: "Platycodon grandiflorus",
+    familyId: "campanulaceae",
+    familyJaName: "キキョウ科",
+    description:
+      "秋の七草のひとつ。夏〜初秋に紫青色の星形の花を咲かせる多年草。つぼみの段階では風船状に膨らんで見える（英名 Balloon Flower）。山野では数が減り準絶滅危惧種に指定される地域もある。根（桔梗根）は漢方・薬用として使われ、食用にもなる。",
+    identificationPoints: [
+      "青紫色の星形5弁花",
+      "つぼみは風船状に膨らむ",
+      "葉は互生〜対生・輪生が混在、鋸歯あり",
+      "茎を折ると白い乳液が出る",
+    ],
+    habitat: "日当たりのよい山野・草地",
+    season: "7〜9月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Platycodon_grandiflorus_1.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キキョウ" },
+    ],
+    evolutionNote: "キキョウ科はキク目に位置し、筒状〜鐘形の合弁花が特定の花粉媒介者に適応した進化を示す。",
+    tags: ["草本", "多年草", "夏秋", "青紫花", "秋の七草", "薬草"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/キキョウ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── セリ科 ──────────────────────────────────────
+  {
+    id: "seri",
+    jaName: "セリ",
+    enName: "Japanese Parsley",
+    scientificName: "Oenanthe javanica",
+    familyId: "apiaceae",
+    familyJaName: "セリ科",
+    description:
+      "春の七草のひとつ。水田の畔や水辺に生える多年草で、葉・茎は独特の香りがあり食用になる。白い小花を複散形花序につける。匍匐茎（ほふくけい）で広がり、節から根が出る。七草がゆに使われる「セリ」はこの植物。",
+    identificationPoints: [
+      "水辺・湿地に生える",
+      "葉は1〜2回羽状複葉、小葉は卵形〜菱形",
+      "独特の強い香りがある（セリ臭）",
+      "白い小花が複散形花序につく",
+      "茎の節から根と匍匐枝を出す",
+    ],
+    habitat: "水田の畔・水路・湿地・川岸",
+    season: "7〜8月（花）・通年（葉）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oenanthe_javanica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セリ" },
+    ],
+    tags: ["草本", "多年草", "食用", "春の七草", "水辺", "白花"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/セリ" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
+  // ── キジカクシ科 ──────────────────────────────────────
+  {
+    id: "yabran",
+    jaName: "ヤブラン",
+    enName: "Lily Turf",
+    scientificName: "Liriope muscari",
+    familyId: "asparagaceae",
+    familyJaName: "キジカクシ科",
+    description:
+      "常緑の多年草で、庭園や公園の日陰の下草・地被植物として広く利用される。夏〜初秋に淡紫〜紫色の小花を穂状につけ、秋〜冬に黒い球状の果実をつける。耐陰性・耐乾性が高く管理が容易。斑入り品種（ハナヤブラン）が庭園でよく栽培される。",
+    identificationPoints: [
+      "常緑の線形の葉がアーチ状に広がる",
+      "夏〜秋に淡紫色の小花を穂状につける",
+      "秋〜冬に黒い光沢のある球状果実",
+      "日陰でも育つ耐陰性の強い植物",
+    ],
+    habitat: "林縁・庭園・公園（地被）",
+    season: "8〜10月（花）・11〜12月（実）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Liriope_muscari_flowers.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤブラン" },
+    ],
+    tags: ["草本", "常緑", "多年草", "夏秋", "紫花", "地被", "耐陰性"],
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヤブラン" },
+    ],
+    review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
+  },
+
   // ── マメ科（追加） ──────────────────────────────────────
   {
     id: "nemu",
@@ -2152,6 +2664,7 @@ export const plants: Plant[] = [
     ],
     habitat: "河原・道ばた・公園・山野",
     season: "6〜8月（花）",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Albizia_julibrissin.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ネムノキ" },
     ],

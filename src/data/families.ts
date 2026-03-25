@@ -1,3 +1,13 @@
+/**
+ * 採用分類体系: APG IV (2016)
+ * Angiosperm Phylogeny Group, Botanical Journal of the Linnean Society 181(1): 1–20 (2016)
+ * https://doi.org/10.1111/boj.12385
+ *
+ * - 被子植物の分類・科の配置はすべて APG IV に準拠
+ * - 裸子植物（イチョウ科・マツ科・ヒノキ科）は APG の対象外。伝統的な裸子植物分類を使用。
+ * - シダ植物（トクサ科・ゼンマイ科）は APG の対象外。PPG I (2016) に基づく。
+ * - APG V は2026年3月時点で未発行。APweb (mobot.org) を補完情報として参照。
+ */
 import type { Family } from "./types";
 
 export const families: Family[] = [
@@ -849,6 +859,199 @@ export const families: Family[] = [
     evolutionEvents: ["綿毛つき種子による遠距離風散布の獲得", "水辺環境への適応（柔軟な枝・根系）"],
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤナギ科" },
+    ],
+  },
+
+  // ── ヒガンバナ科 ──────────────────────────────────────
+  {
+    id: "amaryllidaceae",
+    jaName: "ヒガンバナ科",
+    enName: "Amaryllis family",
+    scientificName: "Amaryllidaceae",
+    order: "キジカクシ目",
+    overview:
+      "ヒガンバナ・スイセン・ネギ・ニラなどを含む科。APG体系でネギ亜科（旧ユリ科・旧ネギ科）を統合した。花の構造が美しく、観賞用として広く栽培される種が多い。アルカロイド系の毒（リコリン等）を含む種がある。",
+    characteristics: [
+      "花被片6枚が2輪に並ぶ",
+      "地下に鱗茎（球根）をもつ種が多い",
+      "葉は線形〜帯状",
+      "アルカロイドを含む有毒種がある",
+    ],
+    phylogeneticPosition: "被子植物 > 単子葉類 > キジカクシ目 > ヒガンバナ科",
+    divergenceEra: "白亜紀後期〜古第三紀",
+    representativeGenera: [
+      "ヒガンバナ属（Lycoris）",
+      "スイセン属（Narcissus）",
+      "ネギ属（Allium）",
+    ],
+    evolutionEvents: ["鱗茎による養分貯蔵と季節的休眠の獲得", "リコリン等アルカロイドによる草食動物忌避"],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒガンバナ科" },
+    ],
+  },
+
+  // ── ツユクサ科 ──────────────────────────────────────
+  {
+    id: "commelinaceae",
+    jaName: "ツユクサ科",
+    enName: "Dayflower family",
+    scientificName: "Commelinaceae",
+    order: "ツユクサ目",
+    overview:
+      "ツユクサ・ムラサキツユクサなどを含む単子葉植物の科。朝に咲いて昼には閉じる「一日花」が特徴。熱帯・亜熱帯に多く分布し、細胞・遺伝学研究の材料として使われた歴史がある。",
+    characteristics: [
+      "1日限りで閉じる一日花",
+      "花被片3枚（外花被）＋3枚（内花被、うち2枚が青く目立つ）",
+      "茎の節が膨らみ、节から根が出やすい",
+      "葉は互生、葉鞘をもつ",
+    ],
+    phylogeneticPosition: "被子植物 > 単子葉類 > ツユクサ目 > ツユクサ科",
+    divergenceEra: "古第三紀",
+    representativeGenera: [
+      "ツユクサ属（Commelina）",
+      "ムラサキツユクサ属（Tradescantia）",
+    ],
+    evolutionEvents: ["一日花による効率的な送粉", "節からの不定根発生による栄養繁殖"],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツユクサ科" },
+    ],
+  },
+
+  // ── ユリ科 ──────────────────────────────────────────
+  {
+    id: "liliaceae",
+    jaName: "ユリ科",
+    enName: "Lily family",
+    scientificName: "Liliaceae",
+    order: "ユリ目",
+    overview:
+      "APG体系で大幅に再編され、旧ユリ科の多くがキジカクシ科・ヒガンバナ科などに移行した。現在の狭義ユリ科はユリ属・チューリップ属・カタクリ属など地下に鱗茎をもつ多年草を中心とする。",
+    characteristics: [
+      "地下に鱗茎（球根）をもつ",
+      "花被片6枚（外3＋内3）",
+      "葉脈は平行脈（単子葉類）",
+      "花が大きく目立つ種が多い",
+    ],
+    phylogeneticPosition: "被子植物 > 単子葉類 > ユリ目 > ユリ科",
+    divergenceEra: "白亜紀後期",
+    representativeGenera: [
+      "ユリ属（Lilium）",
+      "チューリップ属（Tulipa）",
+      "カタクリ属（Erythronium）",
+    ],
+    evolutionEvents: ["鱗茎による越冬・養分蓄積戦略", "大型花による送粉者誘引"],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ユリ科" },
+    ],
+  },
+
+  // ── フウロソウ科 ──────────────────────────────────────
+  {
+    id: "geraniaceae",
+    jaName: "フウロソウ科",
+    enName: "Geranium family",
+    scientificName: "Geraniaceae",
+    order: "フウロソウ目",
+    overview:
+      "フウロソウ属（ゲンノショウコ等）・テンジクアオイ属（ゼラニウム）などを含む科。果実が熟すと弾ける爆発的散布（弾性散布）が特徴的。民間薬（ゲンノショウコ）として知られる種もある。",
+    characteristics: [
+      "5花弁の花",
+      "果実が成熟すると反り返り種子を飛ばす（弾性散布）",
+      "葉は掌状〜羽状複葉、多くに独特の香り",
+      "茎・葉に腺毛をもつ種が多い",
+    ],
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > フウロソウ目 > フウロソウ科",
+    divergenceEra: "古第三紀",
+    representativeGenera: [
+      "フウロソウ属（Geranium）",
+      "テンジクアオイ属（Pelargonium）",
+    ],
+    evolutionEvents: ["弾性果実（爆弾状散布）による効率的な種子散布"],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フウロソウ科" },
+    ],
+  },
+
+  // ── キキョウ科 ──────────────────────────────────────
+  {
+    id: "campanulaceae",
+    jaName: "キキョウ科",
+    enName: "Bellflower family",
+    scientificName: "Campanulaceae",
+    order: "キク目",
+    overview:
+      "キキョウ・ホタルブクロなどを含む科。鐘形または星形の花が特徴。APG体系では広義にキク目に位置づけられ、ロベリア科を統合した分類もある。日本では秋の七草のひとつとして親しまれるキキョウが代表種。",
+    characteristics: [
+      "合弁花で鐘形〜星形",
+      "花弁5枚が合着",
+      "乳液（白い汁）を含む種が多い",
+      "葉は互生、単葉",
+    ],
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > キク目 > キキョウ科",
+    divergenceEra: "白亜紀後期〜古第三紀",
+    representativeGenera: [
+      "キキョウ属（Platycodon）",
+      "ホタルブクロ属（Campanula）",
+    ],
+    evolutionEvents: ["鐘形花冠による特定ハチ類との送粉共生"],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キキョウ科" },
+    ],
+  },
+
+  // ── セリ科 ──────────────────────────────────────────
+  {
+    id: "apiaceae",
+    jaName: "セリ科",
+    enName: "Carrot family",
+    scientificName: "Apiaceae",
+    order: "セリ目",
+    overview:
+      "セリ・ミツバ・ニンジン・パセリなどを含む科。多数の小花が傘状に集まる「複散形花序」が特徴。食用・薬用・有毒種が混在し、見た目が似ていることから混同しないよう注意が必要。",
+    characteristics: [
+      "複散形花序（傘状に広がる）",
+      "茎は中空または髄がある",
+      "葉は羽状複葉が多く、葉鞘をもつ",
+      "精油を含み独特の香り",
+    ],
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > セリ目 > セリ科",
+    divergenceEra: "白亜紀後期〜古第三紀",
+    representativeGenera: [
+      "セリ属（Oenanthe）",
+      "ニンジン属（Daucus）",
+      "ドクニンジン属（Conium）",
+    ],
+    evolutionEvents: ["複散形花序による多数の小花の集合で送粉効率を向上"],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セリ科" },
+    ],
+  },
+
+  // ── キジカクシ科 ──────────────────────────────────────
+  {
+    id: "asparagaceae",
+    jaName: "キジカクシ科",
+    enName: "Asparagus family",
+    scientificName: "Asparagaceae",
+    order: "キジカクシ目",
+    overview:
+      "APG体系でクサスギカズラ科・ヒヤシンス科・ムスカリ科・ユッカ科など多くの科を統合した大きな科。アスパラガス・ヤブラン・オモト・スズラン・ムスカリなどを含む。日陰や乾燥に強い地被植物として重要。",
+    characteristics: [
+      "花被片6枚（3＋3）",
+      "地下茎・球根・根茎をもつ種が多い",
+      "耐陰性が高く、林床・日陰でも生育",
+      "葉脈は平行脈（単子葉類）",
+    ],
+    phylogeneticPosition: "被子植物 > 単子葉類 > キジカクシ目 > キジカクシ科",
+    divergenceEra: "白亜紀後期",
+    representativeGenera: [
+      "クサスギカズラ属（Asparagus）",
+      "ヤブラン属（Liriope）",
+      "スズラン属（Convallaria）",
+    ],
+    evolutionEvents: ["耐陰性の獲得による林床環境への進出"],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キジカクシ科" },
     ],
   },
 ];

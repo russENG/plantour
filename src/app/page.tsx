@@ -39,10 +39,10 @@ export default function Home() {
   return (
     <main>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-green-800 to-green-600 text-white py-16 px-4">
+      <section className="bg-gradient-to-br from-green-800 to-green-600 text-white py-10 sm:py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-4">ぷらんつあ <span className="text-green-300 text-2xl font-normal">Plantour</span></h1>
-          <p className="text-xl text-green-100 mb-2">植物を、全体像の中で学ぶ。</p>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4">ぷらんつあ <span className="text-green-300 text-xl sm:text-2xl font-normal">Plantour</span></h1>
+          <p className="text-lg sm:text-xl text-green-100 mb-2">植物を、全体像の中で学ぶ。</p>
           <p className="text-green-200 text-sm">
             分類体系・進化史・検索表・個別ページを1つにつないだ日本の植物学習サービス
           </p>

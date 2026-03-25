@@ -40,7 +40,7 @@ export default async function FamilyPage({ params }: Props) {
           <div className="flex items-start justify-between mb-4">
             <div>
               <div className="flex items-center gap-2 flex-wrap mb-1">
-                <h1 className="text-3xl font-bold text-gray-900">{family.jaName}</h1>
+                <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">{family.jaName}</h1>
                 <ReviewBadge review={family.review} />
               </div>
               <p className="text-gray-500 text-sm italic mt-1">{family.scientificName}</p>
@@ -135,10 +135,10 @@ export default async function FamilyPage({ params }: Props) {
           {/* 導線 */}
           <section className="mb-6 flex flex-wrap gap-3">
             <Link
-              href="/taxonomy"
-              className="text-sm border border-gray-300 text-gray-600 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors"
+              href={`/taxonomy?family=${family.id}`}
+              className="text-sm border border-green-300 text-green-700 px-4 py-2 rounded-lg hover:bg-green-50 transition-colors"
             >
-              分類体系で位置を見る
+              🌿 分類体系で位置を見る
             </Link>
           </section>
 

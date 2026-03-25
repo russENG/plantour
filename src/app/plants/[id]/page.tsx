@@ -3,6 +3,7 @@ import Link from "next/link";
 import { plants } from "@/data/plants";
 import ReviewBadge from "@/components/ReviewBadge";
 import SourcesList from "@/components/SourcesList";
+import PlantImage from "@/components/PlantImage";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -13,9 +14,11 @@ export default async function PlantPage({ params }: Props) {
   const plant = plants.find((p) => p.id === id);
   if (!plant) notFound();
 
+  const pageUrl = `https://plantour.app/plants/${plant.id}`;
   const xShareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-    `${plant.jaName}（${plant.scientificName}）— Plantour で学ぶ`
+    `${plant.jaName}（${plant.scientificName}）— Plantour で学ぶ\n${pageUrl}`
   )}`;
+  const taxonomyUrl = `/taxonomy?plant=${plant.id}`;
 
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
@@ -30,8 +33,14 @@ export default async function PlantPage({ params }: Props) {
 
       <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
         {/* ヘッダー画像エリア */}
-        <div className="h-48 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center text-8xl">
-          🌿
+        <div className="h-40 sm:h-56 overflow-hidden">
+          <PlantImage
+            src={plant.imageUrl}
+            alt={plant.jaName}
+            className="h-40 sm:h-56"
+            fallbackClassName="h-40 sm:h-56 text-7xl sm:text-8xl"
+            fallbackEmoji="🌿"
+          />
         </div>
 
         <div className="p-6">
@@ -39,7 +48,7 @@ export default async function PlantPage({ params }: Props) {
           <div className="flex items-start justify-between mb-4">
             <div>
               <div className="flex items-center gap-2 flex-wrap mb-1">
-                <h1 className="text-3xl font-bold text-gray-900">{plant.jaName}</h1>
+                <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">{plant.jaName}</h1>
                 <ReviewBadge review={plant.review} />
               </div>
               <p className="text-gray-500 italic text-sm mt-1">{plant.scientificName}</p>
@@ -90,7 +99,7 @@ export default async function PlantPage({ params }: Props) {
           </section>
 
           {/* 基本データ */}
-          <section className="mb-6 grid grid-cols-2 gap-3">
+          <section className="mb-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div className="bg-gray-50 rounded-lg p-3">
               <p className="text-xs text-gray-400 mb-1">生育環境</p>
               <p className="text-sm text-gray-700">{plant.habitat}</p>
@@ -123,10 +132,10 @@ export default async function PlantPage({ params }: Props) {
               {plant.familyJaName}のページを見る
             </Link>
             <Link
-              href="/taxonomy"
-              className="text-sm border border-gray-300 text-gray-600 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors"
+              href={taxonomyUrl}
+              className="text-sm border border-green-300 text-green-700 px-4 py-2 rounded-lg hover:bg-green-50 transition-colors"
             >
-              分類体系で位置を見る
+              🌿 分類体系で位置を見る
             </Link>
           </section>
 

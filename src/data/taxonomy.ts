@@ -1,3 +1,8 @@
+/**
+ * 分類体系ツリー — APG IV (2016) 準拠
+ * 被子植物の目・科の配置は APG IV に基づく。
+ * 裸子植物・シダ植物は APG 対象外のため伝統的分類を使用。
+ */
 import type { TaxonomyNode } from "./types";
 
 export const taxonomyTree: TaxonomyNode = {
@@ -134,6 +139,13 @@ export const taxonomyTree: TaxonomyNode = {
                     { id: "kobushi", name: "コブシ", rank: "species", plantId: "kobushi" },
                   ],
                 },
+              ],
+            },
+            {
+              id: "laurales",
+              name: "クスノキ目",
+              rank: "order",
+              children: [
                 {
                   id: "lauraceae",
                   name: "クスノキ科",
@@ -314,6 +326,13 @@ export const taxonomyTree: TaxonomyNode = {
                     { id: "keyaki", name: "ケヤキ", rank: "species", plantId: "keyaki" },
                   ],
                 },
+              ],
+            },
+            {
+              id: "fabales",
+              name: "マメ目",
+              rank: "order",
+              children: [
                 {
                   id: "fabaceae",
                   name: "マメ科",

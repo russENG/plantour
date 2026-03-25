@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Plant } from "@/data/types";
 import ReviewBadge from "@/components/ReviewBadge";
+import PlantImage from "@/components/PlantImage";
 
 interface Props {
   plant: Plant;
@@ -10,8 +11,13 @@ export default function PlantCard({ plant }: Props) {
   return (
     <Link href={`/plants/${plant.id}`} className="block group">
       <div className="border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white">
-        <div className="h-36 bg-green-50 flex items-center justify-center text-5xl">
-          🌿
+        <div className="h-28 sm:h-36 overflow-hidden">
+          <PlantImage
+            src={plant.imageUrl}
+            alt={plant.jaName}
+            className="h-28 sm:h-36"
+            fallbackClassName="h-28 sm:h-36"
+          />
         </div>
         <div className="p-4">
           <p className="text-lg font-bold text-gray-900 group-hover:text-green-700 transition-colors">

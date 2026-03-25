@@ -52,7 +52,7 @@ export default function PlantsPage() {
           <button
             key={tag}
             onClick={() => setSelectedTag(selectedTag === tag ? "" : tag)}
-            className={`text-xs px-3 py-1 rounded-full border transition-colors ${
+            className={`text-xs px-3 py-1.5 rounded-full border transition-colors ${
               selectedTag === tag
                 ? "bg-green-700 text-white border-green-700"
                 : "bg-white text-gray-600 border-gray-300 hover:border-green-400"

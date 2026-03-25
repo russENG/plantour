@@ -1,12 +1,9 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import * as d3 from "d3";
 import Link from "next/link";
 import type { TaxonomyNode } from "@/data/types";
-
-interface Props {
-  data: TaxonomyNode;
-}
 
 const rankColors: Record<string, string> = {
   kingdom: "#166534",
@@ -18,9 +15,14 @@ const rankColors: Record<string, string> = {
   species: "#bbf7d0",
 };
 
-interface D3Node extends d3.HierarchyPointNode<TaxonomyNode> {}
+interface Props {
+  data: TaxonomyNode;
+}
 
 export default function TaxonomyTree({ data }: Props) {
+  const searchParams = useSearchParams();
+  const highlightPlantId  = searchParams.get("plant")  ?? undefined;
+  const highlightFamilyId = searchParams.get("family") ?? undefined;
   const svgRef = useRef<SVGSVGElement>(null);
   const [selected, setSelected] = useState<TaxonomyNode | null>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 800 });
@@ -41,7 +43,6 @@ export default function TaxonomyTree({ data }: Props) {
     const radius = Math.min(width, height) / 2 - 80;
 
     const root = d3.hierarchy<TaxonomyNode>(data, (d) => d.children);
-    // d3.tree() uses the tidy-tree algorithm which prevents line crossings
     const treeLayout = d3
       .tree<TaxonomyNode>()
       .size([2 * Math.PI, radius])
@@ -57,13 +58,32 @@ export default function TaxonomyTree({ data }: Props) {
       .append("g")
       .attr("transform", `translate(${width / 2},${height / 2})`);
 
-    // ズーム
+    // ズーム倍率に応じてラベルの表示深度とフォントサイズを更新
+    let rafId: ReturnType<typeof requestAnimationFrame> | null = null;
+    function updateLabels(k: number) {
+      if (rafId !== null) cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => {
+        // 案B: 倍率に応じて表示する深度を決定
+        const maxDepth = k < 0.8 ? 1 : k < 1.5 ? 3 : k < 2.5 ? 4 : 5;
+        // 案A: フォントサイズを sqrt(k) で逆スケール（最小 7px）
+        g.selectAll<SVGTextElement, d3.HierarchyPointNode<TaxonomyNode>>("text")
+          .transition().duration(150)
+          .attr("opacity", d => d.depth <= maxDepth ? 1 : 0)
+          .attr("font-size", d => {
+            const base = d.depth <= 1 ? 12 : d.depth <= 3 ? 10 : 9;
+            return Math.max(7, base / Math.sqrt(k));
+          });
+        rafId = null;
+      });
+    }
+
     const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.3, 4]).on("zoom", (event) => {
-      g.attr("transform", `translate(${event.transform.x + width / 2},${event.transform.y + height / 2}) scale(${event.transform.k})`);
+      const { x, y, k } = event.transform;
+      g.attr("transform", `translate(${x + width / 2},${y + height / 2}) scale(${k})`);
+      updateLabels(k);
     });
     svg.call(zoom);
 
-    // リンク
     const linkRadial = d3
       .linkRadial<d3.HierarchyPointLink<TaxonomyNode>, d3.HierarchyPointNode<TaxonomyNode>>()
       .angle((d) => d.x)
@@ -78,15 +98,14 @@ export default function TaxonomyTree({ data }: Props) {
       .attr("stroke-width", 1.5)
       .attr("d", linkRadial);
 
-    // ノード
     const node = g
       .append("g")
       .selectAll("g")
       .data(root.descendants())
       .join("g")
       .attr("transform", (d) => {
-        const angle = (d as D3Node).x - Math.PI / 2;
-        const r = (d as D3Node).y;
+        const angle = (d as d3.HierarchyPointNode<TaxonomyNode>).x - Math.PI / 2;
+        const r = (d as d3.HierarchyPointNode<TaxonomyNode>).y;
         return `translate(${r * Math.cos(angle)},${r * Math.sin(angle)})`;
       })
       .style("cursor", "pointer")
@@ -102,17 +121,45 @@ export default function TaxonomyTree({ data }: Props) {
     node
       .append("text")
       .attr("dy", "0.31em")
-      .attr("x", (d) => ((d as D3Node).x < Math.PI === !d.children ? 8 : -8))
-      .attr("text-anchor", (d) => ((d as D3Node).x < Math.PI === !d.children ? "start" : "end"))
+      .attr("x", (d) => ((d as d3.HierarchyPointNode<TaxonomyNode>).x < Math.PI === !d.children ? 8 : -8))
+      .attr("text-anchor", (d) => ((d as d3.HierarchyPointNode<TaxonomyNode>).x < Math.PI === !d.children ? "start" : "end"))
       .attr("transform", (d) => {
-        const angle = ((d as D3Node).x * 180) / Math.PI - 90;
-        return `rotate(${(d as D3Node).x >= Math.PI ? angle + 180 : angle})`;
+        const angle = ((d as d3.HierarchyPointNode<TaxonomyNode>).x * 180) / Math.PI - 90;
+        return `rotate(${(d as d3.HierarchyPointNode<TaxonomyNode>).x >= Math.PI ? angle + 180 : angle})`;
       })
       .attr("font-size", (d) => (d.depth <= 1 ? 12 : d.depth <= 3 ? 10 : 9))
       .attr("font-weight", (d) => (d.depth <= 2 ? "bold" : "normal"))
       .attr("fill", "#1f2937")
       .text((d) => d.data.name);
-  }, [data, dimensions]);
+
+    // ハイライト対象ノードを探してズーム
+    const targetNode = root.descendants().find(d =>
+      (highlightPlantId && d.data.plantId === highlightPlantId) ||
+      (highlightFamilyId && d.data.familyId === highlightFamilyId)
+    ) as d3.HierarchyPointNode<TaxonomyNode> | undefined;
+
+    if (targetNode) {
+      // ハイライトリング
+      node
+        .filter(d =>
+          (!!highlightPlantId && d.data.plantId === highlightPlantId) ||
+          (!!highlightFamilyId && d.data.familyId === highlightFamilyId)
+        )
+        .select("circle")
+        .attr("stroke", "#f59e0b")
+        .attr("stroke-width", 3)
+        .attr("r", (d) => (d.depth <= 2 ? 10 : 8));
+
+      // ノードの直交座標を計算してズーム・パン
+      const nx = targetNode.y * Math.cos(targetNode.x - Math.PI / 2);
+      const ny = targetNode.y * Math.sin(targetNode.x - Math.PI / 2);
+      const k = 3;
+      svg.call(zoom.transform, d3.zoomIdentity.translate(-nx * k, -ny * k).scale(k));
+    } else {
+      // ハイライトなしの初期状態
+      updateLabels(1);
+    }
+  }, [data, dimensions, highlightPlantId, highlightFamilyId]);
 
   return (
     <div className="relative">
@@ -123,7 +170,6 @@ export default function TaxonomyTree({ data }: Props) {
         <svg ref={svgRef} className="w-full" style={{ maxHeight: "80vh" }} />
       </div>
 
-      {/* 凡例 */}
       <div className="flex flex-wrap gap-3 mt-4 justify-center">
         {Object.entries(rankColors).map(([rank, color]) => (
           <div key={rank} className="flex items-center gap-1.5">
@@ -133,9 +179,8 @@ export default function TaxonomyTree({ data }: Props) {
         ))}
       </div>
 
-      {/* 選択ノード詳細 */}
       {selected && (
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 w-80 bg-white border border-gray-200 rounded-xl shadow-lg p-4 z-50">
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 w-11/12 max-w-sm bg-white border border-gray-200 rounded-xl shadow-lg p-4 z-50">
           <button
             onClick={() => setSelected(null)}
             className="absolute top-3 right-3 text-gray-400 hover:text-gray-600 text-lg leading-none"

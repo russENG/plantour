@@ -38,7 +38,8 @@ export default function TimelinePage() {
         </p>
       </div>
 
-      {/* 時間軸スクロールエリア */}
+      {/* 時間軸スクロールエリア（横スクロール） */}
+      <p className="text-xs text-gray-400 mb-2 sm:hidden">← 左右にスクロールできます →</p>
       <div className="overflow-x-auto pb-4">
         <div className="relative" style={{ minWidth: `${containerWidth}px`, height: "560px" }}>
           {/* 時間軸ライン */}
