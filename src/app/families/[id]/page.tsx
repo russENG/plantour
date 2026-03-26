@@ -4,6 +4,8 @@ import { families } from "@/data/families";
 import { plants } from "@/data/plants";
 import ReviewBadge from "@/components/ReviewBadge";
 import SourcesList from "@/components/SourcesList";
+import PlantImage from "@/components/PlantImage";
+import ImageAttribution from "@/components/ImageAttribution";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -32,11 +34,24 @@ export default async function FamilyPage({ params }: Props) {
       </nav>
 
       <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
-        <div className="h-32 bg-gradient-to-br from-emerald-100 to-teal-200 flex items-center justify-center">
-          <span className="text-lg font-bold text-teal-800">{family.scientificName}</span>
+        <div className="h-40 sm:h-52 overflow-hidden relative">
+          <PlantImage
+            src={family.imageUrl}
+            alt={family.jaName}
+            className="h-40 sm:h-52"
+            fallbackClassName="h-40 sm:h-52"
+            fallbackEmoji="🌿"
+            width={800}
+          />
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/40 to-transparent px-4 py-2">
+            <span className="text-sm font-medium text-white/90 italic">{family.scientificName}</span>
+          </div>
+        </div>
+        <div className="px-6 pt-1">
+          <ImageAttribution src={family.imageUrl} />
         </div>
 
-        <div className="p-6">
+        <div className="p-6 pt-2">
           <div className="flex items-start justify-between mb-4">
             <div>
               <div className="flex items-center gap-2 flex-wrap mb-1">

@@ -69,6 +69,7 @@ export interface Family {
   representativeGenera: string[];
   evolutionEvents: string[];
   externalLinks: ExternalLink[];
+  imageUrl?: string;
   // 出典・レビュー
   sources?: DataSource[];
   review?: ReviewMeta;

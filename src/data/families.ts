@@ -14,6 +14,7 @@ export const families: Family[] = [
   // ── キク科 ──────────────────────────────────────────
   {
     id: "asteraceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Helianthus_annuus.jpg",
     jaName: "キク科",
     enName: "Daisy family",
     scientificName: "Asteraceae",
@@ -45,6 +46,7 @@ export const families: Family[] = [
   // ── バラ科 ──────────────────────────────────────────
   {
     id: "rosaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_canina_3.jpg",
     jaName: "バラ科",
     enName: "Rose family",
     scientificName: "Rosaceae",
@@ -76,6 +78,7 @@ export const families: Family[] = [
   // ── イネ科 ──────────────────────────────────────────
   {
     id: "poaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oryza_sativa_-_Tianshui,_Gansu,_China.jpg",
     jaName: "イネ科",
     enName: "Grass family",
     scientificName: "Poaceae",
@@ -108,6 +111,7 @@ export const families: Family[] = [
   // ── マメ科 ──────────────────────────────────────────
   {
     id: "fabaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trifolium_repens_-_Köhler–s_Medizinal-Pflanzen-274.jpg",
     jaName: "マメ科",
     enName: "Legume family",
     scientificName: "Fabaceae",
@@ -137,6 +141,7 @@ export const families: Family[] = [
   // ── アブラナ科 ──────────────────────────────────────
   {
     id: "brassicaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_napus_Rapsfeld.jpg",
     jaName: "アブラナ科",
     enName: "Mustard family",
     scientificName: "Brassicaceae",
@@ -166,6 +171,7 @@ export const families: Family[] = [
   // ── シソ科 ──────────────────────────────────────────
   {
     id: "lamiaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Perilla_frutescens_var_crispa.jpg",
     jaName: "シソ科",
     enName: "Mint family",
     scientificName: "Lamiaceae",
@@ -196,6 +202,7 @@ export const families: Family[] = [
   // ── タデ科 ──────────────────────────────────────────
   {
     id: "polygonaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rumex_acetosa.jpg",
     jaName: "タデ科",
     enName: "Knotweed family",
     scientificName: "Polygonaceae",
@@ -225,6 +232,7 @@ export const families: Family[] = [
   // ── ナデシコ科 ──────────────────────────────────────
   {
     id: "caryophyllaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Stellaria_media_002.jpg",
     jaName: "ナデシコ科",
     enName: "Pink family",
     scientificName: "Caryophyllaceae",
@@ -253,6 +261,7 @@ export const families: Family[] = [
   // ── オオバコ科 ──────────────────────────────────────
   {
     id: "plantaginaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Plantago_major_Broadleaf_Plantain.jpg",
     jaName: "オオバコ科",
     enName: "Plantain family",
     scientificName: "Plantaginaceae",
@@ -281,6 +290,7 @@ export const families: Family[] = [
   // ── スミレ科 ──────────────────────────────────────
   {
     id: "violaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Viola_odorata_fg01.jpg",
     jaName: "スミレ科",
     enName: "Violet family",
     scientificName: "Violaceae",
@@ -307,6 +317,7 @@ export const families: Family[] = [
   // ── カタバミ科 ──────────────────────────────────────
   {
     id: "oxalidaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oxalis_acetosella_flowers.jpg",
     jaName: "カタバミ科",
     enName: "Wood-sorrel family",
     scientificName: "Oxalidaceae",
@@ -331,6 +342,7 @@ export const families: Family[] = [
   // ── ドクダミ科 ──────────────────────────────────────
   {
     id: "saururaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Houttuynia_cordata02.jpg",
     jaName: "ドクダミ科",
     enName: "Lizard's-tail family",
     scientificName: "Saururaceae",
@@ -355,6 +367,7 @@ export const families: Family[] = [
   // ── ガマ科 ──────────────────────────────────────────
   {
     id: "typhaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Typha_latifolia.jpg",
     jaName: "ガマ科",
     enName: "Cattail family",
     scientificName: "Typhaceae",
@@ -382,6 +395,7 @@ export const families: Family[] = [
   // ── サトイモ科 ──────────────────────────────────────
   {
     id: "araceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Zantedeschia_aethiopica_flowers.jpg",
     jaName: "サトイモ科",
     enName: "Arum family",
     scientificName: "Araceae",
@@ -410,6 +424,7 @@ export const families: Family[] = [
   // ── スズカケノキ科 ──────────────────────────────────
   {
     id: "platanaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Platanus_x_hispanica_-_Barcelona.jpg",
     jaName: "スズカケノキ科",
     enName: "Plane-tree family",
     scientificName: "Platanaceae",
@@ -434,6 +449,7 @@ export const families: Family[] = [
   // ── ブナ科 ──────────────────────────────────────────
   {
     id: "fagaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Quercus_robur.jpg",
     jaName: "ブナ科",
     enName: "Beech family",
     scientificName: "Fagaceae",
@@ -463,6 +479,7 @@ export const families: Family[] = [
   // ── クスノキ科 ──────────────────────────────────────
   {
     id: "lauraceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Laurus_nobilis_tree.jpg",
     jaName: "クスノキ科",
     enName: "Laurel family",
     scientificName: "Lauraceae",
@@ -491,6 +508,7 @@ export const families: Family[] = [
   // ── ツバキ科 ──────────────────────────────────────
   {
     id: "theaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Camellia_japonica_flowers.jpg",
     jaName: "ツバキ科",
     enName: "Tea family",
     scientificName: "Theaceae",
@@ -517,6 +535,7 @@ export const families: Family[] = [
   // ── モクレン科 ──────────────────────────────────────
   {
     id: "magnoliaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia_liliiflora1.jpg",
     jaName: "モクレン科",
     enName: "Magnolia family",
     scientificName: "Magnoliaceae",
@@ -544,6 +563,7 @@ export const families: Family[] = [
   // ── マツ科 ──────────────────────────────────────────
   {
     id: "pinaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_sylvestris1.jpg",
     jaName: "マツ科",
     enName: "Pine family",
     scientificName: "Pinaceae",
@@ -573,6 +593,7 @@ export const families: Family[] = [
   // ── ヒノキ科 ──────────────────────────────────────
   {
     id: "cupressaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cryptomeria_japonica_05.jpg",
     jaName: "ヒノキ科",
     enName: "Cypress family",
     scientificName: "Cupressaceae",
@@ -602,6 +623,7 @@ export const families: Family[] = [
   // ── イチョウ科 ──────────────────────────────────────
   {
     id: "ginkgoaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ginkgo_biloba_at_The_Morton_Arboretum_(30176248105).jpg",
     jaName: "イチョウ科",
     enName: "Ginkgo family",
     scientificName: "Ginkgoaceae",
@@ -626,6 +648,7 @@ export const families: Family[] = [
   // ── カバノキ科 ──────────────────────────────────────
   {
     id: "betulaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Betula_pendula_Roth_1.jpg",
     jaName: "カバノキ科",
     enName: "Birch family",
     scientificName: "Betulaceae",
@@ -654,6 +677,7 @@ export const families: Family[] = [
   // ── アジサイ科 ──────────────────────────────────────
   {
     id: "hydrangeaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hydrangea_macrophylla_in_Shukkei-en.jpg",
     jaName: "アジサイ科",
     enName: "Hydrangea family",
     scientificName: "Hydrangeaceae",
@@ -681,6 +705,7 @@ export const families: Family[] = [
   // ── ニレ科 ──────────────────────────────────────────
   {
     id: "ulmaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Zelkova_serrata_in_Kobe_Oji_Zoo.jpg",
     jaName: "ニレ科",
     enName: "Elm family",
     scientificName: "Ulmaceae",
@@ -709,6 +734,7 @@ export const families: Family[] = [
   // ── ヒルガオ科 ──────────────────────────────────────
   {
     id: "convolvulaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ipomoea_nil_(Morning_glory)_in_Kadavoor.jpg",
     jaName: "ヒルガオ科",
     enName: "Morning Glory family",
     scientificName: "Convolvulaceae",
@@ -736,6 +762,7 @@ export const families: Family[] = [
   // ── トクサ科 ──────────────────────────────────────
   {
     id: "equisetaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_arvense.jpg",
     jaName: "トクサ科",
     enName: "Horsetail family",
     scientificName: "Equisetaceae",
@@ -760,6 +787,7 @@ export const families: Family[] = [
   // ── ゼンマイ科 ──────────────────────────────────────
   {
     id: "osmundaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Osmunda_regalis_Habitus.jpg",
     jaName: "ゼンマイ科",
     enName: "Royal Fern family",
     scientificName: "Osmundaceae",
@@ -784,6 +812,7 @@ export const families: Family[] = [
   // ── ムクロジ科 ──────────────────────────────────────
   {
     id: "sapindaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Acer_palmatum_autumn_leaves.jpg",
     jaName: "ムクロジ科",
     enName: "Soapberry family",
     scientificName: "Sapindaceae",
@@ -812,6 +841,7 @@ export const families: Family[] = [
   // ── ミズキ科 ──────────────────────────────────────
   {
     id: "cornaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cornus_florida_flowers.jpg",
     jaName: "ミズキ科",
     enName: "Dogwood family",
     scientificName: "Cornaceae",
@@ -838,6 +868,7 @@ export const families: Family[] = [
   // ── ヤナギ科 ──────────────────────────────────────
   {
     id: "salicaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Salix_babylonica_by_kenpei.jpg",
     jaName: "ヤナギ科",
     enName: "Willow family",
     scientificName: "Salicaceae",
@@ -865,6 +896,7 @@ export const families: Family[] = [
   // ── ヒガンバナ科 ──────────────────────────────────────
   {
     id: "amaryllidaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Narcissus_poeticus.jpg",
     jaName: "ヒガンバナ科",
     enName: "Amaryllis family",
     scientificName: "Amaryllidaceae",
@@ -893,6 +925,7 @@ export const families: Family[] = [
   // ── ツユクサ科 ──────────────────────────────────────
   {
     id: "commelinaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Commelina_communis.jpg",
     jaName: "ツユクサ科",
     enName: "Dayflower family",
     scientificName: "Commelinaceae",
@@ -920,6 +953,7 @@ export const families: Family[] = [
   // ── ユリ科 ──────────────────────────────────────────
   {
     id: "liliaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lilium_candidum_L.jpg",
     jaName: "ユリ科",
     enName: "Lily family",
     scientificName: "Liliaceae",
@@ -948,6 +982,7 @@ export const families: Family[] = [
   // ── フウロソウ科 ──────────────────────────────────────
   {
     id: "geraniaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Geranium_pratense_a1.jpg",
     jaName: "フウロソウ科",
     enName: "Geranium family",
     scientificName: "Geraniaceae",
@@ -975,6 +1010,7 @@ export const families: Family[] = [
   // ── キキョウ科 ──────────────────────────────────────
   {
     id: "campanulaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Platycodon_grandiflorus_01.jpg",
     jaName: "キキョウ科",
     enName: "Bellflower family",
     scientificName: "Campanulaceae",
@@ -1002,6 +1038,7 @@ export const families: Family[] = [
   // ── セリ科 ──────────────────────────────────────────
   {
     id: "apiaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Daucus_carota_subsp._carota_white_flowers.jpg",
     jaName: "セリ科",
     enName: "Carrot family",
     scientificName: "Apiaceae",
@@ -1030,6 +1067,7 @@ export const families: Family[] = [
   // ── キジカクシ科 ──────────────────────────────────────
   {
     id: "asparagaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Asparagus_officinalis_Meyers_Gross-Konversations-Lexikon.jpg",
     jaName: "キジカクシ科",
     enName: "Asparagus family",
     scientificName: "Asparagaceae",

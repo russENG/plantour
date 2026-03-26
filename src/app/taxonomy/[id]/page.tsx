@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { findTaxonomyNode, listTaxonomyPageIds } from "@/data/taxonomy";
 import PlantImage from "@/components/PlantImage";
+import ImageAttribution from "@/components/ImageAttribution";
 
 const rankLabels: Record<string, string> = {
   kingdom: "界",
@@ -45,7 +46,7 @@ export default async function TaxonomyNodePage({
       </nav>
 
       {/* ヘッダー */}
-      <div className="h-48 sm:h-64 overflow-hidden rounded-xl mb-6">
+      <div className="h-48 sm:h-64 overflow-hidden rounded-xl">
         <PlantImage
           src={node.imageUrl}
           alt={node.name}
@@ -55,8 +56,9 @@ export default async function TaxonomyNodePage({
           width={800}
         />
       </div>
+      <ImageAttribution src={node.imageUrl} />
 
-      <p className="text-xs font-medium text-green-700 uppercase mb-1">
+      <p className="text-xs font-medium text-green-700 uppercase mb-1 mt-4">
         {rankLabels[node.rank] ?? node.rank}（{node.rank}）
       </p>
       <h1 className="text-2xl font-bold text-gray-900 mb-3">{node.name}</h1>

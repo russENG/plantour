@@ -4,6 +4,7 @@ import { plants } from "@/data/plants";
 import ReviewBadge from "@/components/ReviewBadge";
 import SourcesList from "@/components/SourcesList";
 import PlantImage from "@/components/PlantImage";
+import ImageAttribution from "@/components/ImageAttribution";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -42,6 +43,9 @@ export default async function PlantPage({ params }: Props) {
             fallbackEmoji="🌿"
             width={800}
           />
+        </div>
+        <div className="px-6 pt-1">
+          <ImageAttribution src={plant.imageUrl} />
         </div>
 
         <div className="p-6">
