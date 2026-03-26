@@ -21,7 +21,10 @@ export default function PlantsPage() {
 
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">
-      <h1 className="text-2xl font-bold text-gray-900 mb-6">植物一覧</h1>
+      <div className="flex items-baseline gap-3 mb-6">
+        <h1 className="text-2xl font-bold text-gray-900">植物一覧</h1>
+        <span className="text-sm text-gray-500">{plants.length} 種収録</span>
+      </div>
 
       {/* 検索 */}
       <div className="flex flex-col sm:flex-row gap-3 mb-6">

@@ -70,6 +70,8 @@ export interface Family {
   evolutionEvents: string[];
   externalLinks: ExternalLink[];
   imageUrl?: string;
+  /** 日本産種数（YList準拠）。ラジアルツリーのノードサイズに使用 */
+  japaneseSpeciesCount?: number;
   // 出典・レビュー
   sources?: DataSource[];
   review?: ReviewMeta;

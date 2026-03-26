@@ -46,6 +46,9 @@ export default function Home() {
           <p className="text-green-200 text-sm">
             分類体系・進化史・検索表・個別ページを1つにつないだ日本の植物学習サービス
           </p>
+          <p className="text-green-300 text-sm mt-3">
+            現在 <span className="font-bold text-white">{plants.length}</span> 種を収録
+          </p>
         </div>
       </section>
 
