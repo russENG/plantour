@@ -15,6 +15,16 @@ const rankColors: Record<string, string> = {
   species: "#bbf7d0",
 };
 
+const rankLabels: Record<string, string> = {
+  kingdom: "界",
+  phylum: "門",
+  class: "綱",
+  order: "目",
+  family: "科",
+  genus: "属",
+  species: "種",
+};
+
 interface Props {
   data: TaxonomyNode;
 }
@@ -174,7 +184,7 @@ export default function TaxonomyTree({ data }: Props) {
         {Object.entries(rankColors).map(([rank, color]) => (
           <div key={rank} className="flex items-center gap-1.5">
             <div className="w-3 h-3 rounded-full" style={{ backgroundColor: color }} />
-            <span className="text-xs text-gray-500">{rank}</span>
+            <span className="text-xs text-gray-500">{rankLabels[rank]}（{rank}）</span>
           </div>
         ))}
       </div>
@@ -207,6 +217,14 @@ export default function TaxonomyTree({ data }: Props) {
                 className="text-xs bg-green-600 text-white px-3 py-1.5 rounded-lg hover:bg-green-700"
               >
                 種ページへ
+              </Link>
+            )}
+            {selected.rank !== "family" && selected.rank !== "species" && (
+              <Link
+                href={`/taxonomy/${selected.id}`}
+                className="text-xs bg-gray-700 text-white px-3 py-1.5 rounded-lg hover:bg-gray-800"
+              >
+                詳細ページへ
               </Link>
             )}
           </div>

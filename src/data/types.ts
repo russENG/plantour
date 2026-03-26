@@ -89,6 +89,7 @@ export interface TaxonomyNode {
   familyId?: string;
   plantId?: string;
   description?: string;
+  imageUrl?: string;
 }
 
 // ─── 進化史タイムライン ────────────────────────────────────

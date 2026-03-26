@@ -10,15 +10,17 @@ export const taxonomyTree: TaxonomyNode = {
   name: "植物界（広義）",
   rank: "kingdom",
   description: "光合成を行う生物の総称（コケ・シダ・種子植物など）",
+  imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Diversity_of_plants_image_version_5.png",
   children: [
     {
       id: "bryophyta",
       name: "コケ植物",
       rank: "phylum",
       description: "維管束をもたない陸上植物。蘚類・苔類・ツノゴケ類からなる。",
+      imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Tortula_muralis_Habitus.jpeg",
       children: [
-        { id: "musci", name: "蘚類（スギゴケなど）", rank: "class" },
-        { id: "hepaticae", name: "苔類（ゼニゴケなど）", rank: "class" },
+        { id: "musci", name: "蘚類（スギゴケなど）", rank: "class", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Polytrichum_commune.jpg" },
+        { id: "hepaticae", name: "苔類（ゼニゴケなど）", rank: "class", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Marchantia_polymorpha.jpg" },
         { id: "anthocerotae", name: "ツノゴケ類", rank: "class" },
       ],
     },
@@ -27,11 +29,13 @@ export const taxonomyTree: TaxonomyNode = {
       name: "シダ植物",
       rank: "phylum",
       description: "維管束をもつが種子をもたない植物。胞子で繁殖する。",
+      imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dryopteris_filix-mas.jpg",
       children: [
         {
           id: "equisetopsida",
           name: "トクサ類",
           rank: "class",
+          imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_arvense.jpg",
           children: [
             {
               id: "equisetaceae",
@@ -67,11 +71,13 @@ export const taxonomyTree: TaxonomyNode = {
       name: "裸子植物",
       rank: "phylum",
       description: "種子をもつが、種子が果実に包まれない植物。針葉樹など。",
+      imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_sylvestris_forest_Elet.jpg",
       children: [
         {
           id: "ginkgoales",
           name: "イチョウ目",
           rank: "order",
+          imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ginkgo_biloba_at_The_Morton_Arboretum_(30176248105).jpg",
           children: [
             {
               id: "ginkgoaceae",
@@ -88,6 +94,7 @@ export const taxonomyTree: TaxonomyNode = {
           id: "coniferales",
           name: "マツ目（針葉樹）",
           rank: "order",
+          imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_sylvestris_Taiga_trees.jpg",
           children: [
             {
               id: "pinaceae",
@@ -118,17 +125,20 @@ export const taxonomyTree: TaxonomyNode = {
       name: "被子植物",
       rank: "phylum",
       description: "種子が果実（子房）に包まれた植物。花を咲かせる。現存植物の大多数を占める。",
+      imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Flower_poster_2.jpg",
       children: [
         {
           id: "basal_angiosperm",
           name: "基部被子植物",
           rank: "class",
           description: "被子植物の初期分岐群。モクレン類・コショウ目など。",
+          imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia_liliiflora1.jpg",
           children: [
             {
               id: "magnoliales",
               name: "モクレン目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia_liliiflora1.jpg",
               children: [
                 {
                   id: "magnoliaceae",
@@ -145,6 +155,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "laurales",
               name: "クスノキ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Laurus_nobilis_tree.jpg",
               children: [
                 {
                   id: "lauraceae",
@@ -161,6 +172,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "piperales",
               name: "コショウ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Houttuynia_cordata02.jpg",
               children: [
                 {
                   id: "saururaceae",
@@ -180,11 +192,13 @@ export const taxonomyTree: TaxonomyNode = {
           name: "単子葉類",
           rank: "class",
           description: "発芽時の子葉が1枚。葉脈は平行脈が多い。イネ・ユリなど。",
+          imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oryza_sativa_-_Tianshui,_Gansu,_China.jpg",
           children: [
             {
               id: "alismatales",
               name: "オモダカ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alisma_plantago-aquatica_Sturm57.jpg",
               children: [
                 {
                   id: "araceae",
@@ -201,6 +215,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "poales",
               name: "イネ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_close-up.JPG",
               children: [
                 {
                   id: "poaceae",
@@ -231,11 +246,13 @@ export const taxonomyTree: TaxonomyNode = {
           name: "真正双子葉類",
           rank: "class",
           description: "発芽時の子葉が2枚。花粉に3つの溝をもつ。被子植物の過半数を占める。",
+          imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aquilegia_vulgaris_drawing.jpg",
           children: [
             {
               id: "proteales",
               name: "ヤマモガシ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Platanus_x_hispanica_-_Barcelona.jpg",
               children: [
                 {
                   id: "platanaceae",
@@ -252,6 +269,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "fagales",
               name: "ブナ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fagus_sylvatica_forest_in_autumn.jpg",
               children: [
                 {
                   id: "fagaceae",
@@ -279,6 +297,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "caryophyllales",
               name: "ナデシコ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dianthus_caryophyllus_Wild_carnation.jpg",
               children: [
                 {
                   id: "caryophyllaceae",
@@ -305,6 +324,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "rosales",
               name: "バラ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_canina_Ozarks.jpg",
               children: [
                 {
                   id: "rosaceae",
@@ -332,6 +352,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "fabales",
               name: "マメ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trifolium_repens_-_Köhler–s_Medizinal-Pflanzen-274.jpg",
               children: [
                 {
                   id: "fabaceae",
@@ -351,6 +372,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "oxalidales",
               name: "カタバミ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oxalis_acetosella_flowers.jpg",
               children: [
                 {
                   id: "oxalidaceae",
@@ -368,6 +390,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "malpighiales",
               name: "キントラノオ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Viola_odorata_fg01.jpg",
               children: [
                 {
                   id: "violaceae",
@@ -393,6 +416,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "brassicales",
               name: "アブラナ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_napus_Rapsfeld.jpg",
               children: [
                 {
                   id: "brassicaceae",
@@ -410,6 +434,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "ericales",
               name: "ツツジ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rhododendron_ferrugineum_flowers.jpg",
               children: [
                 {
                   id: "theaceae",
@@ -427,6 +452,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "cornales",
               name: "ミズキ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cornus_florida_flowers.jpg",
               children: [
                 {
                   id: "hydrangeaceae",
@@ -452,6 +478,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "solanales",
               name: "ナス目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ipomoea_nil_(Morning_glory)_in_Kadavoor.jpg",
               children: [
                 {
                   id: "convolvulaceae",
@@ -468,6 +495,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "lamiales",
               name: "シソ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Perilla_frutescens_var_crispa.jpg",
               children: [
                 {
                   id: "lamiaceae",
@@ -495,6 +523,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "sapindales",
               name: "ムクロジ目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Acer_palmatum_autumn_leaves.jpg",
               children: [
                 {
                   id: "sapindaceae",
@@ -512,6 +541,7 @@ export const taxonomyTree: TaxonomyNode = {
               id: "asterales",
               name: "キク目",
               rank: "order",
+              imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Helianthus_annuus.jpg",
               children: [
                 {
                   id: "asteraceae",
@@ -536,3 +566,29 @@ export const taxonomyTree: TaxonomyNode = {
     },
   ],
 };
+
+/** ツリーを再帰的に探索してIDが一致するノードを返す */
+export function findTaxonomyNode(
+  id: string,
+  node: TaxonomyNode = taxonomyTree,
+  ancestors: TaxonomyNode[] = []
+): { node: TaxonomyNode; ancestors: TaxonomyNode[] } | null {
+  if (node.id === id) return { node, ancestors };
+  for (const child of node.children ?? []) {
+    const result = findTaxonomyNode(id, child, [...ancestors, node]);
+    if (result) return result;
+  }
+  return null;
+}
+
+/** family・species を除く全ノードのIDを列挙 */
+export function listTaxonomyPageIds(node: TaxonomyNode = taxonomyTree): string[] {
+  const ids: string[] = [];
+  if (node.rank !== "family" && node.rank !== "species") {
+    ids.push(node.id);
+  }
+  for (const child of node.children ?? []) {
+    ids.push(...listTaxonomyPageIds(child));
+  }
+  return ids;
+}
