@@ -1,9 +1,10 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { keyNodes, keyStartNodeId } from "@/data/key";
 import { plants } from "@/data/plants";
 import { families } from "@/data/families";
+import { getMaxDepth } from "@/data/keyUtils";
 import type { KeyOption } from "@/data/types";
 
 interface HistoryEntry {
@@ -12,12 +13,23 @@ interface HistoryEntry {
   optionLabel: string;
 }
 
-export default function PlantKey() {
+interface PlantKeyProps {
+  /** 現在のノードIDが変わったときに呼ばれるコールバック */
+  onNodeChange?: (nodeId: string) => void;
+}
+
+export default function PlantKey({ onNodeChange }: PlantKeyProps) {
   const [currentNodeId, setCurrentNodeId] = useState(keyStartNodeId);
   const [history, setHistory] = useState<HistoryEntry[]>([]);
   const [result, setResult] = useState<{ familyIds: string[]; plantIds: string[] } | null>(null);
 
   const currentNode = keyNodes[currentNodeId];
+  const totalSteps = getMaxDepth(keyStartNodeId);
+
+  // ノード変更を親に通知
+  useEffect(() => {
+    onNodeChange?.(currentNodeId);
+  }, [currentNodeId, onNodeChange]);
 
   const handleOption = (option: KeyOption) => {
     const entry: HistoryEntry = {
@@ -54,14 +66,13 @@ export default function PlantKey() {
   };
 
   const progress = history.length;
-  const totalSteps = 5; // 概算
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div>
       {/* 進捗バー */}
       <div className="mb-6">
         <div className="flex items-center justify-between text-xs text-gray-400 mb-1">
-          <span>ステップ {progress + 1}</span>
+          <span>ステップ {progress + 1} / 最大 {totalSteps}</span>
           <button onClick={handleReset} className="hover:text-gray-600 transition-colors">
             最初からやり直す
           </button>
@@ -78,12 +89,14 @@ export default function PlantKey() {
       {history.length > 0 && (
         <div className="mb-6 space-y-1">
           {history.map((h, i) => (
-            <div key={i} className="flex items-center gap-2 text-sm text-gray-400">
-              <span className="w-5 h-5 rounded-full bg-gray-100 flex items-center justify-center text-xs flex-shrink-0">
+            <div key={i} className="flex items-start gap-2 text-sm text-gray-400">
+              <span className="w-5 h-5 rounded-full bg-gray-100 flex items-center justify-center text-xs flex-shrink-0 mt-0.5">
                 {i + 1}
               </span>
-              <span className="line-through">{keyNodes[h.nodeId]?.question}</span>
-              <span className="text-green-600 not-italic">→ {h.optionLabel}</span>
+              <span>
+                <span className="line-through">{keyNodes[h.nodeId]?.question}</span>
+                <span className="text-green-600 ml-1">→ {h.optionLabel}</span>
+              </span>
             </div>
           ))}
         </div>
@@ -94,9 +107,9 @@ export default function PlantKey() {
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6">
           <div className="text-center mb-6">
             <div className="text-4xl mb-3">🔍</div>
-            <h2 className="text-xl font-bold text-gray-900 mb-2">{currentNode?.question}</h2>
+            <h2 className="text-lg font-bold text-gray-900 mb-2">{currentNode?.question}</h2>
             {currentNode?.hint && (
-              <p className="text-sm text-gray-500 bg-blue-50 rounded-lg px-4 py-2">
+              <p className="text-sm text-gray-500 bg-blue-50 rounded-lg px-4 py-2 text-left">
                 💡 {currentNode.hint}
               </p>
             )}
@@ -128,7 +141,7 @@ export default function PlantKey() {
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6">
           <div className="text-center mb-6">
             <div className="text-4xl mb-3">🌿</div>
-            <h2 className="text-xl font-bold text-gray-900">候補が絞り込まれました</h2>
+            <h2 className="text-lg font-bold text-gray-900">候補が絞り込まれました</h2>
           </div>
 
           {result.plantIds.length > 0 || result.familyIds.length > 0 ? (
@@ -151,7 +164,7 @@ export default function PlantKey() {
                             <div className="font-bold text-gray-900 text-sm">{plant.jaName}</div>
                             <div className="text-xs text-gray-500 italic">{plant.scientificName}</div>
                           </div>
-                          <span className="ml-auto text-green-600 text-xs">詳細を見る →</span>
+                          <span className="ml-auto text-green-600 text-xs">詳細 →</span>
                         </Link>
                       );
                     })}
@@ -161,8 +174,10 @@ export default function PlantKey() {
 
               {result.familyIds.length > 0 && (
                 <div className="mb-4">
-                  <h3 className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">該当する科</h3>
-                  <div className="space-y-2">
+                  <h3 className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">
+                    該当する科（{result.familyIds.length}科）
+                  </h3>
+                  <div className="space-y-2 max-h-80 overflow-y-auto">
                     {result.familyIds.map((id) => {
                       const family = families.find((f) => f.id === id);
                       if (!family) return null;
@@ -177,7 +192,7 @@ export default function PlantKey() {
                             <div className="font-bold text-gray-900 text-sm">{family.jaName}</div>
                             <div className="text-xs text-gray-500 italic">{family.scientificName}</div>
                           </div>
-                          <span className="ml-auto text-teal-600 text-xs">科ページへ →</span>
+                          <span className="ml-auto text-teal-600 text-xs flex-shrink-0">科ページ →</span>
                         </Link>
                       );
                     })}
@@ -187,7 +202,7 @@ export default function PlantKey() {
             </>
           ) : (
             <p className="text-center text-gray-400 py-4">
-              現在のデータではこの条件に一致する植物が登録されていません。
+              この分類群は科レベルのデータが未登録です。<Link href="/taxonomy" className="text-green-600 hover:underline">分類体系ページ</Link>で確認できます。
             </p>
           )}
 

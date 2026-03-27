@@ -3,6 +3,7 @@ import Link from "next/link";
 import { findTaxonomyNode, listTaxonomyPageIds } from "@/data/taxonomy";
 import PlantImage from "@/components/PlantImage";
 import ImageAttribution from "@/components/ImageAttribution";
+import TaxonomyListView from "@/components/TaxonomyListView";
 
 const rankLabels: Record<string, string> = {
   kingdom: "界",
@@ -66,44 +67,11 @@ export default async function TaxonomyNodePage({
         <p className="text-sm text-gray-600 leading-relaxed mb-8">{node.description}</p>
       )}
 
-      {/* 子ノード一覧 */}
+      {/* 子ノード一覧（TaxonomyListView 共有コンポーネント） */}
       {node.children && node.children.length > 0 && (
         <section>
           <h2 className="text-sm font-semibold text-gray-500 uppercase mb-3">下位分類</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {node.children.map((child) => {
-              const href =
-                child.rank === "species" && child.plantId
-                  ? `/plants/${child.plantId}`
-                  : child.rank === "family" && child.familyId
-                  ? `/families/${child.familyId}`
-                  : `/taxonomy/${child.id}`;
-              return (
-                <Link
-                  key={child.id}
-                  href={href}
-                  className="flex items-center gap-3 border border-gray-200 rounded-xl p-3 hover:shadow-md transition-shadow bg-white"
-                >
-                  <div className="w-14 h-14 rounded-lg overflow-hidden flex-shrink-0">
-                    <PlantImage
-                      src={child.imageUrl}
-                      alt={child.name}
-                      className="w-14 h-14"
-                      fallbackClassName="w-14 h-14"
-                      fallbackEmoji="🌿"
-                      width={200}
-                    />
-                  </div>
-                  <div>
-                    <p className="text-xs text-green-700 font-medium">
-                      {rankLabels[child.rank] ?? child.rank}
-                    </p>
-                    <p className="text-sm font-bold text-gray-900">{child.name}</p>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
+          <TaxonomyListView root={node} maxDepth={2} />
         </section>
       )}
 
