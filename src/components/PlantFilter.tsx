@@ -126,11 +126,9 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
   const toggleFilter = useCallback((groupId: string, value: string) => {
     setFilters((prev) => {
       const current = prev[groupId] ?? [];
-      const next = current.includes(value)
-        ? current.filter((v) => v !== value)
-        : [...current, value];
-      const updated = { ...prev, [groupId]: next };
-      return updated;
+      // ラジオボタン式: 同じ値なら解除、違う値なら切替（1つだけ選択）
+      const next = current.includes(value) ? [] : [value];
+      return { ...prev, [groupId]: next };
     });
   }, []);
 
