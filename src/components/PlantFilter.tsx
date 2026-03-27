@@ -4,6 +4,7 @@ import { useState, useMemo, useCallback } from "react";
 import Link from "next/link";
 import { familyTraits, seedPlantFamilyIds, type FamilyTraits } from "@/data/familyTraits";
 import { families } from "@/data/families";
+import { plants } from "@/data/plants";
 
 // ── フィルタグループ定義 ──────────────────────────────────────
 interface FilterOption {
@@ -132,14 +133,20 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
     });
   }, []);
 
-  const matchedIds = useMemo(() => filterFamilies(filters), [filters]);
+  const matchedFamilyIds = useMemo(() => filterFamilies(filters), [filters]);
+
+  // 候補科に属する種を抽出
+  const matchedPlants = useMemo(() => {
+    const famSet = new Set(matchedFamilyIds);
+    return plants.filter((p) => famSet.has(p.familyId));
+  }, [matchedFamilyIds]);
 
   // 親コンポーネントに通知
   const matchedSet = useMemo(() => {
-    const s = new Set(matchedIds);
+    const s = new Set(matchedFamilyIds);
     onFilterChange?.(s);
     return s;
-  }, [matchedIds, onFilterChange]);
+  }, [matchedFamilyIds, onFilterChange]);
 
   const activeCount = Object.values(filters).filter((v) => v.length > 0).length;
 
@@ -157,8 +164,10 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
       {/* フィルタ数 + リセット */}
       <div className="flex items-center justify-between mb-4">
         <div className="text-sm text-gray-500">
-          <span className="text-2xl font-bold text-green-700">{matchedIds.length}</span>
-          <span className="ml-1">科が候補</span>
+          <span className="text-2xl font-bold text-green-700">{matchedFamilyIds.length}</span>
+          <span className="ml-1">科</span>
+          <span className="text-lg font-bold text-green-600 ml-2">{matchedPlants.length}</span>
+          <span className="ml-1">種が候補</span>
           {activeCount > 0 && (
             <span className="text-gray-400 ml-2">（{activeCount} フィルタ適用中）</span>
           )}
@@ -211,33 +220,63 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
         );
       })}
 
+      {/* 候補の種 */}
+      {matchedPlants.length > 0 && matchedPlants.length <= 100 && (
+        <div className="mt-6 pt-4 border-t">
+          <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-3">
+            候補の種（{matchedPlants.length}）
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-80 overflow-y-auto">
+            {matchedPlants.map((p) => (
+              <Link
+                key={p.id}
+                href={`/plants/${p.id}`}
+                className="flex items-center gap-2 p-2 rounded-lg border border-gray-100 hover:border-green-300 hover:bg-green-50 transition-colors"
+              >
+                <span className="w-2 h-2 rounded-full bg-green-500 flex-shrink-0" />
+                <div className="min-w-0">
+                  <span className="text-xs font-medium text-gray-700 block truncate">{p.jaName}</span>
+                  <span className="text-[10px] text-gray-400 block truncate">{p.familyJaName} / <i>{p.scientificName}</i></span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* 候補科リスト */}
       <div className="mt-6 pt-4 border-t">
         <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-3">
-          候補の科（{matchedIds.length}）
+          候補の科（{matchedFamilyIds.length}）
         </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-72 overflow-y-auto">
-          {matchedIds.slice(0, 50).map((id) => {
-            const family = families.find((f) => f.id === id);
-            if (!family) return null;
-            return (
-              <Link
-                key={id}
-                href={`/families/${id}`}
-                className="flex items-center gap-2 p-2 rounded-lg border border-gray-100 hover:border-green-300 hover:bg-green-50 transition-colors"
-              >
-                <span className="w-2 h-2 rounded-full bg-green-400 flex-shrink-0" />
-                <span className="text-xs font-medium text-gray-700 truncate">{family.jaName}</span>
-                <span className="text-[10px] text-gray-400 italic truncate">{family.scientificName}</span>
-              </Link>
-            );
-          })}
-          {matchedIds.length > 50 && (
-            <div className="col-span-full text-xs text-gray-400 text-center py-2">
-              他 {matchedIds.length - 50} 科...フィルタを追加して絞り込んでください
-            </div>
-          )}
-        </div>
+        {matchedFamilyIds.length <= 80 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-72 overflow-y-auto">
+            {matchedFamilyIds.map((id) => {
+              const family = families.find((f) => f.id === id);
+              if (!family) return null;
+              const plantCount = matchedPlants.filter((p) => p.familyId === id).length;
+              return (
+                <Link
+                  key={id}
+                  href={`/families/${id}`}
+                  className="flex items-center gap-2 p-2 rounded-lg border border-gray-100 hover:border-teal-300 hover:bg-teal-50 transition-colors"
+                >
+                  <span className="w-2 h-2 rounded-full bg-teal-400 flex-shrink-0" />
+                  <span className="text-xs font-medium text-gray-700 truncate">{family.jaName}</span>
+                  {plantCount > 0 && (
+                    <span className="text-[10px] bg-green-100 text-green-700 rounded-full px-1.5 flex-shrink-0">
+                      {plantCount}種
+                    </span>
+                  )}
+                </Link>
+              );
+            })}
+          </div>
+        ) : (
+          <p className="text-xs text-gray-400">
+            フィルタを追加して絞り込んでください（現在 {matchedFamilyIds.length} 科）
+          </p>
+        )}
       </div>
     </div>
   );
