@@ -4,8 +4,12 @@ import { useState, useCallback } from "react";
 import Link from "next/link";
 import PlantFilter from "@/components/PlantFilter";
 import TaxonomyListView from "@/components/TaxonomyListView";
-import { taxonomyTree } from "@/data/taxonomy";
+import { findTaxonomyNode } from "@/data/taxonomy";
 import { seedPlantFamilyIds } from "@/data/familyTraits";
+
+// 種子植物ノードをサイドバーのルートにする
+const spermatophytaResult = findTaxonomyNode("spermatophyta");
+const spermatophytaNode = spermatophytaResult?.node ?? null;
 
 export default function KeyPage() {
   const [activeFamilyIds, setActiveFamilyIds] = useState<Set<string>>(
@@ -23,7 +27,10 @@ export default function KeyPage() {
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-gray-900 mb-2">植物検索表</h1>
         <p className="text-sm text-gray-500">
-          葉や植物体の特徴でフィルタを切り替えて、候補の科を絞り込みます。対象は種子植物（裸子＋被子植物）です。
+          葉や植物体の特徴でフィルタを切り替えて、候補の科を絞り込みます。
+        </p>
+        <p className="text-xs text-gray-400 mt-1">
+          ※ 現在は種子植物（裸子植物＋被子植物）のみ対応しています。コケ植物・シダ植物は対象外です。
         </p>
       </div>
 
@@ -50,18 +57,22 @@ export default function KeyPage() {
             <div className="rounded-2xl border border-gray-200 bg-white shadow-sm p-4 max-h-[85vh] overflow-y-auto">
               <h2 className="text-sm font-bold text-gray-600 mb-3 flex items-center gap-2">
                 <span className="w-2.5 h-2.5 rounded-full bg-green-500" />
-                分類体系
+                種子植物の分類
                 {isFiltered && (
                   <span className="text-xs text-gray-400 font-normal">
                     （{activeFamilyIds.size} 科が候補）
                   </span>
                 )}
               </h2>
-              <TaxonomyListView
-                root={taxonomyTree}
-                activeFamilyIds={isFiltered ? activeFamilyIds : undefined}
-                compact
-              />
+              {spermatophytaNode ? (
+                <TaxonomyListView
+                  root={spermatophytaNode}
+                  activeFamilyIds={isFiltered ? activeFamilyIds : undefined}
+                  compact
+                />
+              ) : (
+                <p className="text-xs text-gray-400">分類データを読み込めません</p>
+              )}
             </div>
           </div>
         </div>
@@ -90,17 +101,17 @@ function MobileSidebar({
       >
         <span className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-green-500" />
-          分類体系を表示
+          種子植物の分類を表示
           {isFiltered && (
             <span className="text-xs text-gray-400">（{activeFamilyIds.size} 科が候補）</span>
           )}
         </span>
         <span className="text-gray-400">{open ? "▲" : "▼"}</span>
       </button>
-      {open && (
+      {open && spermatophytaNode && (
         <div className="mt-2 rounded-xl border border-gray-200 bg-white shadow-sm p-4 max-h-[60vh] overflow-y-auto">
           <TaxonomyListView
-            root={taxonomyTree}
+            root={spermatophytaNode}
             activeFamilyIds={isFiltered ? activeFamilyIds : undefined}
             compact
           />
