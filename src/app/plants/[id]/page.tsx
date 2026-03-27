@@ -118,6 +118,90 @@ export default async function PlantPage({ params }: Props) {
             </div>
           </section>
 
+          {/* 形態特性（検索表連動） */}
+          {plant.traits && Object.keys(plant.traits).length > 0 && (
+            <section className="mb-6">
+              <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-2">
+                形態特性
+                <span className="text-[10px] font-normal text-amber-500 ml-2 normal-case">AI推定・要確認</span>
+              </h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                {plant.traits.leafArr && (
+                  <div className="bg-gray-50 rounded-lg px-3 py-2">
+                    <p className="text-[10px] text-gray-400">葉序</p>
+                    <p className="text-xs text-gray-700 font-medium">
+                      {{ alt: "互生", opp: "対生", whor: "輪生" }[plant.traits.leafArr]}
+                    </p>
+                  </div>
+                )}
+                {plant.traits.leafType && (
+                  <div className="bg-gray-50 rounded-lg px-3 py-2">
+                    <p className="text-[10px] text-gray-400">葉の型</p>
+                    <p className="text-xs text-gray-700 font-medium">
+                      {{ simple: "単葉", compound: "複葉" }[plant.traits.leafType]}
+                    </p>
+                  </div>
+                )}
+                {plant.traits.venation && (
+                  <div className="bg-gray-50 rounded-lg px-3 py-2">
+                    <p className="text-[10px] text-gray-400">葉脈</p>
+                    <p className="text-xs text-gray-700 font-medium">
+                      {{ parallel: "平行脈", reticulate: "網状脈" }[plant.traits.venation]}
+                    </p>
+                  </div>
+                )}
+                {plant.traits.margin && (
+                  <div className="bg-gray-50 rounded-lg px-3 py-2">
+                    <p className="text-[10px] text-gray-400">葉の縁</p>
+                    <p className="text-xs text-gray-700 font-medium">
+                      {{ entire: "全縁", serrate: "鋸歯縁", lobed: "裂片状" }[plant.traits.margin]}
+                    </p>
+                  </div>
+                )}
+                {plant.traits.shape && (
+                  <div className="bg-gray-50 rounded-lg px-3 py-2">
+                    <p className="text-[10px] text-gray-400">葉の形</p>
+                    <p className="text-xs text-gray-700 font-medium">
+                      {{ linear: "線形", ovate: "卵形", cordate: "心形", needle: "針形", round: "円形", palmate: "掌状" }[plant.traits.shape]}
+                    </p>
+                  </div>
+                )}
+                {plant.traits.habit && (
+                  <div className="bg-gray-50 rounded-lg px-3 py-2">
+                    <p className="text-[10px] text-gray-400">生活形</p>
+                    <p className="text-xs text-gray-700 font-medium">
+                      {{ tree: "高木", shrub: "低木", herb: "草本", vine: "つる" }[plant.traits.habit]}
+                    </p>
+                  </div>
+                )}
+                {plant.traits.deciduous && (
+                  <div className="bg-gray-50 rounded-lg px-3 py-2">
+                    <p className="text-[10px] text-gray-400">常緑/落葉</p>
+                    <p className="text-xs text-gray-700 font-medium">
+                      {{ evergreen: "常緑", deciduous: "落葉" }[plant.traits.deciduous]}
+                    </p>
+                  </div>
+                )}
+                {plant.traits.petalCount && (
+                  <div className="bg-gray-50 rounded-lg px-3 py-2">
+                    <p className="text-[10px] text-gray-400">花弁数</p>
+                    <p className="text-xs text-gray-700 font-medium">
+                      {plant.traits.petalCount === "many" ? "多数" : `${plant.traits.petalCount}枚`}
+                    </p>
+                  </div>
+                )}
+                {plant.traits.petalFusion && (
+                  <div className="bg-gray-50 rounded-lg px-3 py-2">
+                    <p className="text-[10px] text-gray-400">花弁合着</p>
+                    <p className="text-xs text-gray-700 font-medium">
+                      {{ fused: "合弁", free: "離弁", none: "花弁なし" }[plant.traits.petalFusion]}
+                    </p>
+                  </div>
+                )}
+              </div>
+            </section>
+          )}
+
           {/* 進化メモ */}
           {plant.evolutionNote && (
             <section className="mb-6">

@@ -36,6 +36,19 @@ export interface ReviewMeta {
 
 // ─── 植物データ ──────────────────────────────────────────────
 
+/** 種レベルの形態特性（検索表フィルタ用） */
+export interface PlantTraits {
+  leafArr?: "alt" | "opp" | "whor";
+  leafType?: "simple" | "compound";
+  venation?: "parallel" | "reticulate";
+  margin?: "entire" | "serrate" | "lobed";
+  shape?: "linear" | "ovate" | "cordate" | "needle" | "round" | "palmate";
+  habit?: "tree" | "shrub" | "herb" | "vine";
+  deciduous?: "evergreen" | "deciduous";
+  petalCount?: 3 | 4 | 5 | "many";
+  petalFusion?: "fused" | "free" | "none";
+}
+
 export interface Plant {
   id: string;
   jaName: string;
@@ -51,6 +64,8 @@ export interface Plant {
   externalLinks: ExternalLink[];
   evolutionNote?: string;
   tags: string[];
+  /** 形態特性（検索表フィルタ用） */
+  traits?: PlantTraits;
   // 出典・レビュー
   sources: DataSource[];
   review: ReviewMeta;

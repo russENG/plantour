@@ -5,6 +5,7 @@ import Link from "next/link";
 import { familyTraits, seedPlantFamilyIds, type FamilyTraits } from "@/data/familyTraits";
 import { families } from "@/data/families";
 import { plants } from "@/data/plants";
+import type { Plant, PlantTraits } from "@/data/types";
 
 // ── フィルタグループ定義 ──────────────────────────────────────
 interface FilterOption {
@@ -74,22 +75,37 @@ const FILTER_GROUPS: FilterGroup[] = [
 type ActiveFilters = Record<string, string[]>;
 
 // ── フィルタロジック ──────────────────────────────────────────
-function filterFamilies(filters: ActiveFilters): string[] {
-  const activeGroups = Object.entries(filters).filter(([, vals]) => vals.length > 0);
-  if (activeGroups.length === 0) return seedPlantFamilyIds;
 
-  return seedPlantFamilyIds.filter((id) => {
-    const traits = familyTraits[id];
-    if (!traits) return true; // データ未登録はスルー
+/** 種レベルでフィルタ: traits があればそれを使い、なければ科のデフォルトにフォールバック */
+function filterPlants(filters: ActiveFilters): Plant[] {
+  const activeGroups = Object.entries(filters).filter(([, vals]) => vals.length > 0);
+  if (activeGroups.length === 0) return plants;
+
+  return plants.filter((p) => {
+    const plantT = p.traits;
+    const familyT = familyTraits[p.familyId];
+
     for (const [groupId, selectedValues] of activeGroups) {
-      const traitValues = traits[groupId as keyof FamilyTraits];
-      if (!traitValues || traitValues.length === 0) continue; // trait未定義ならスキップ
-      // グループ内OR: 科のtraitに選択値のどれかが含まれるか
-      const match = (traitValues as string[]).some((v) => selectedValues.includes(String(v)));
-      if (!match) return false;
+      const key = groupId as keyof PlantTraits;
+      // 種レベルの値を優先、なければ科レベルにフォールバック
+      const plantVal = plantT?.[key];
+      if (plantVal !== undefined) {
+        if (!selectedValues.includes(String(plantVal))) return false;
+      } else {
+        // 科レベルのフォールバック
+        const famVals = familyT?.[groupId as keyof FamilyTraits];
+        if (!famVals || famVals.length === 0) continue;
+        const match = (famVals as string[]).some((v) => selectedValues.includes(String(v)));
+        if (!match) return false;
+      }
     }
     return true;
   });
+}
+
+/** 種の結果から候補科IDを抽出 */
+function extractFamilyIds(matchedPlants: Plant[]): string[] {
+  return [...new Set(matchedPlants.map((p) => p.familyId))];
 }
 
 // ── トグルボタン ──────────────────────────────────────────────
@@ -133,13 +149,9 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
     });
   }, []);
 
-  const matchedFamilyIds = useMemo(() => filterFamilies(filters), [filters]);
-
-  // 候補科に属する種を抽出
-  const matchedPlants = useMemo(() => {
-    const famSet = new Set(matchedFamilyIds);
-    return plants.filter((p) => famSet.has(p.familyId));
-  }, [matchedFamilyIds]);
+  // 種レベルでフィルタ → 科IDを抽出
+  const matchedPlants = useMemo(() => filterPlants(filters), [filters]);
+  const matchedFamilyIds = useMemo(() => extractFamilyIds(matchedPlants), [matchedPlants]);
 
   // 親コンポーネントに通知
   const matchedSet = useMemo(() => {
