@@ -436,35 +436,6 @@ export default function TimelineView({
 
   const modalEvent = timelineEvents.find((e) => e.id === modalId) ?? null;
 
-  // URL ハッシュからイベントへジャンプ
-  useEffect(() => {
-    const hash = window.location.hash.slice(1);
-    if (!hash) return;
-    const event = timelineEvents.find((e) => e.id === hash);
-    if (!event) return;
-    setSelectedId(hash);
-    setModalId(hash);
-    if (scrollRef.current && !event.section) {
-      const targetLeft = mya2left(event.mya);
-      scrollRef.current.scrollLeft = targetLeft - scrollRef.current.clientWidth / 2;
-    }
-  }, []);
-
-  function handleSelect(id: string) {
-    const next = id === selectedId ? null : id;
-    setSelectedId(next);
-    if (next) {
-      setModalId(next);
-      if (scrollRef.current) {
-        const event = timelineEvents.find((e) => e.id === next);
-        if (event && !event.section) {
-          const targetLeft = mya2left(event.mya);
-          scrollRef.current.scrollLeft = targetLeft - scrollRef.current.clientWidth / 2;
-        }
-      }
-    }
-  }
-
   const mainEvents    = timelineEvents.filter((e) => !e.section);
   const prehistEvents = timelineEvents.filter((e) => e.section === "prehistory");
   const modernEvents  = timelineEvents.filter((e) => e.section === "modern");
@@ -482,6 +453,48 @@ export default function TimelineView({
   prehistEvents.forEach((e, i) => {
     prehistCenters[e.id] = 40 + i * 90;
   });
+
+  /** タイムライン上の指定イベントへ横スクロール */
+  function scrollToEvent(event: TimelineEvent) {
+    if (!scrollRef.current) return;
+    let targetLeft: number;
+    if (event.section === "prehistory") {
+      targetLeft = prehistCenters[event.id] ?? 90;
+    } else if (event.section === "modern") {
+      targetLeft = modernCenters[event.id] ?? MODERN_BREAK + BREAK_W + 80;
+    } else {
+      targetLeft = mya2left(event.mya);
+    }
+    scrollRef.current.scrollLeft = targetLeft - scrollRef.current.clientWidth / 2;
+  }
+
+  // URL ハッシュからイベントへジャンプ
+  useEffect(() => {
+    const hash = window.location.hash.slice(1);
+    if (!hash) return;
+    const event = timelineEvents.find((e) => e.id === hash);
+    if (!event) return;
+    setSelectedId(hash);
+    setModalId(hash);
+    // DOM描画完了を待ってからスクロール（2フレーム後）
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        scrollToEvent(event);
+      });
+    });
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  function handleSelect(id: string) {
+    const next = id === selectedId ? null : id;
+    setSelectedId(next);
+    if (next) {
+      setModalId(next);
+      const event = timelineEvents.find((e) => e.id === next);
+      if (event) {
+        requestAnimationFrame(() => scrollToEvent(event));
+      }
+    }
+  }
 
   return (
     <div>

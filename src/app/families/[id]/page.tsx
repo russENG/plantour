@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { families } from "@/data/families";
 import { plants } from "@/data/plants";
+import { familyIdToTimelineEvent } from "@/data/timeline";
 import ReviewBadge from "@/components/ReviewBadge";
 import SourcesList from "@/components/SourcesList";
 import PlantImage from "@/components/PlantImage";
@@ -120,7 +121,7 @@ export default async function FamilyPage({ params }: Props) {
                     <li key={i} className="text-sm text-amber-800">・{e}</li>
                   ))}
                 </ul>
-                <Link href="/timeline" className="text-xs text-amber-600 hover:underline mt-2 inline-block">
+                <Link href={familyIdToTimelineEvent[id] ? `/timeline#${familyIdToTimelineEvent[id]}` : "/timeline"} className="text-xs text-amber-600 hover:underline mt-2 inline-block">
                   進化史タイムラインで見る →
                 </Link>
               </div>

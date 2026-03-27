@@ -143,7 +143,6 @@ export default function TaxonomyTree({ data }: Props) {
         const visibleDepth = calcMaxDepthCached(k);
         const hl = highlightedIds.size > 0;
         g.selectAll<SVGTextElement, d3.HierarchyPointNode<TaxonomyNode>>("text")
-          .interrupt()
           .attr("opacity", d => {
             if (hl && !highlightedIds.has(d.data.id)) return 0;
             return d.depth <= visibleDepth ? 1 : 0;

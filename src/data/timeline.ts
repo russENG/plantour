@@ -124,7 +124,7 @@ export const timelineEvents: TimelineEvent[] = [
     description:
       "水・栄養分を効率よく運ぶ維管束（木部・師部）を獲得。初期の維管束植物 *Cooksonia* はシルル紀前期（約433 Ma）に出現し、430 Ma頃に多様化が始まった。維管束の獲得により植物は数十cm〜数mへの大型化が可能となり、陸上への本格進出が始まった。",
     isMajor: true,
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cooksonia_pertoni.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cooksonia_NMNH.jpg",
     color: "#22c55e",
     sources: [
       {
@@ -146,7 +146,7 @@ export const timelineEvents: TimelineEvent[] = [
     description:
       "最初の種子植物の化石は後期デボン紀（約385–365 Ma）にさかのぼる。前胚珠（*Runcaria* ~385 Ma）→ 種子シダ（*Elkinsia* ~365 Ma）へと段階的に進化。種子は乾燥に耐える保護組織と栄養を持ち、水なしに受精できる花粉管の進化と相まって植物の陸上分布域を劇的に拡大した。",
     isMajor: true,
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Seed_of_Morinda_citrifolia.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A0%D0%B0%D0%B7%D0%BD%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D0%B5_%D1%81%D0%B5%D0%BC%D1%8F%D0%BD.jpg",
     color: "#16a34a",
     sources: [
       {
@@ -168,7 +168,7 @@ export const timelineEvents: TimelineEvent[] = [
     description:
       "針葉樹（マツ・スギなど）・イチョウ・ソテツなどの裸子植物が石炭紀〜ペルム紀に多様化。中生代（三畳紀〜白亜紀）には陸上植生の主役となり、恐竜と共存した。果実（被覆組織）で種子を包まない点が被子植物との大きな違い。",
     isMajor: true,
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_sylvestris_Mugo.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Skuleskogen_pine.jpg",
     color: "#15803d",
     groupId: "gymnospermae",
     sources: [
@@ -190,7 +190,7 @@ export const timelineEvents: TimelineEvent[] = [
     description:
       "花・果実・被覆種子をもつ被子植物（顕花植物）が白亜紀前期（145–100 Ma）に急速に出現・多様化。ダーウィンが「忌まわしい謎（abominable mystery）」と呼んだ急激な多様化は、送粉者（昆虫・鳥など）との共進化が促進したと考えられている。現在の陸上植物種の約90%が被子植物。",
     isMajor: true,
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Magnoliaceae_magnolia.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia_sieboldii_flower_1.jpg",
     color: "#f97316",
     sources: [
       {
@@ -212,7 +212,7 @@ export const timelineEvents: TimelineEvent[] = [
     description:
       "被子植物が単子葉類（Monocotyledoneae：イネ・ユリ・ラン・ヤシなど）と真正双子葉類（Eudicots：バラ・キク・マメ・ブナなど）に大きく分岐。子葉の枚数（単子葉:1枚 / 双子葉:2枚）・葉脈の形（平行脈 / 網状脈）・維管束の配置などで両者は明確に異なる。",
     isMajor: true,
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Monocot_and_Dicot_plant.png",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Monocot_vs_dicot_crop_Pengo.jpg",
     color: "#ef4444",
     sources: [
       {
