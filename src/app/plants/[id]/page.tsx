@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { plants } from "@/data/plants";
+import { familyIdToTimelineEvent } from "@/data/timeline";
 import ReviewBadge from "@/components/ReviewBadge";
 import SourcesList from "@/components/SourcesList";
 import PlantImage from "@/components/PlantImage";
@@ -20,6 +21,8 @@ export default async function PlantPage({ params }: Props) {
     `${plant.jaName}（${plant.scientificName}）— Plantour で学ぶ\n${pageUrl}`
   )}`;
   const taxonomyUrl = `/taxonomy?plant=${plant.id}`;
+  const timelineEventId = familyIdToTimelineEvent[plant.familyId];
+  const timelineUrl = timelineEventId ? `/timeline#${timelineEventId}` : "/timeline";
 
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
@@ -121,7 +124,7 @@ export default async function PlantPage({ params }: Props) {
               <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-2">進化・系統メモ</h2>
               <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
                 <p className="text-sm text-amber-800">{plant.evolutionNote}</p>
-                <Link href="/timeline" className="text-xs text-amber-600 hover:underline mt-2 inline-block">
+                <Link href={timelineUrl} className="text-xs text-amber-600 hover:underline mt-2 inline-block">
                   進化史タイムラインで見る →
                 </Link>
               </div>

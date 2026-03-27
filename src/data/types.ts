@@ -103,6 +103,15 @@ export interface TimelineEvent {
   mya: number; // million years ago
   title: string;
   description: string;
+  isMajor: boolean;
+  /** 中学生向けの平易な概要（1〜2文） */
+  summary?: string;
+  /** 代表画像 URL (Wikimedia Commons など) */
+  imageUrl?: string;
+  /** "prehistory": >500 Ma の文脈イベント（左端に表示）
+   *  "modern": <1 Ma の現代イベント（右端に表示）
+   *  undefined: メイン500-0 Maタイムライン上に表示 */
+  section?: "prehistory" | "modern";
   groupId?: string;
   familyIds?: string[];
   color: string;
