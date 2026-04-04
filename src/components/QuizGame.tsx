@@ -21,14 +21,14 @@ function pickRandom(): Plant {
 
 const dict = {
   ja: {
-    heading: "植物クイ��",
+    heading: "植物クイズ",
     description:
       "写真の植物を、検索表のフィルタを使って特定してください。候補を絞り込んだら、種を選んで回答しましょう。",
     start: "クイズを始める",
     nextQuestion: "次の問題",
     correct: "正解！",
     incorrect: "不正解…",
-    correctAnswer: (name: string) => `正解は ${name} ���した`,
+    correctAnswer: (name: string) => `正解は ${name} でした`,
     score: (c: number, t: number) => `スコア: ${c} / ${t}`,
     identifyThis: "この植物は？",
     viewPlant: "この植物のページを見る →",
