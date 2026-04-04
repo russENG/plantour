@@ -1,7 +1,9 @@
 import type { DataSource } from "@/data/types";
+import type { Locale } from "@/dictionaries";
 
 interface Props {
   sources: DataSource[] | undefined;
+  lang?: Locale;
 }
 
 const sourceIcons: Record<string, string> = {
@@ -18,7 +20,7 @@ const sourceIcons: Record<string, string> = {
   other: "🔗",
 };
 
-export default function SourcesList({ sources }: Props) {
+export default function SourcesList({ sources, lang = "ja" }: Props) {
   if (!sources || sources.length === 0) return null;
 
   const verifiable = sources.filter((s) => s.url);
@@ -27,7 +29,7 @@ export default function SourcesList({ sources }: Props) {
   return (
     <section>
       <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">
-        データ出典・WEBで確認
+        {lang === "en" ? "Sources & References" : "データ出典・WEBで確認"}
       </h2>
       <div className="space-y-2">
         {verifiable.map((source, i) => (

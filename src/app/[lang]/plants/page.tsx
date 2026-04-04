@@ -1,36 +1,67 @@
 "use client";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { plants } from "@/data/plants";
 import PlantCard from "@/components/PlantCard";
+import type { Locale } from "@/dictionaries";
 
 const allTags = Array.from(new Set(plants.flatMap((p) => p.tags))).sort();
+const allEnTags = Array.from(new Set(plants.flatMap((p) => p.enTags ?? []))).sort();
+
+const dict = {
+  ja: {
+    heading: "植物一覧",
+    count: (n: number) => `${n} 種収録`,
+    searchPlaceholder: "和名・学名・科名で検索...",
+    filterByTag: "タグで絞り込む",
+    resultCount: (n: number) => `${n} 件`,
+    noResults: "該当する植物が見つかりませんでした",
+  },
+  en: {
+    heading: "Plant List",
+    count: (n: number) => `${n} species`,
+    searchPlaceholder: "Search by name, scientific name, or family...",
+    filterByTag: "Filter by tag",
+    resultCount: (n: number) => `${n} results`,
+    noResults: "No matching plants found",
+  },
+};
 
 export default function PlantsPage() {
+  const pathname = usePathname();
+  const lang: Locale = pathname.startsWith("/en") ? "en" : "ja";
+  const t = dict[lang];
+
+  const tags = lang === "en" && allEnTags.length > 0 ? allEnTags : allTags;
+
   const [query, setQuery] = useState("");
   const [selectedTag, setSelectedTag] = useState("");
 
   const filtered = plants.filter((p) => {
+    const q = query.toLowerCase();
     const matchQuery =
       !query ||
       p.jaName.includes(query) ||
-      p.scientificName.toLowerCase().includes(query.toLowerCase()) ||
-      p.familyJaName.includes(query);
-    const matchTag = !selectedTag || p.tags.includes(selectedTag);
+      (p.enName ?? "").toLowerCase().includes(q) ||
+      p.scientificName.toLowerCase().includes(q) ||
+      p.familyJaName.includes(query) ||
+      (p.familyEnName ?? "").toLowerCase().includes(q);
+    const matchTag = !selectedTag || p.tags.includes(selectedTag) || (p.enTags ?? []).includes(selectedTag);
     return matchQuery && matchTag;
   });
 
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">
       <div className="flex items-baseline gap-3 mb-6">
-        <h1 className="text-2xl font-bold text-gray-900">植物一覧</h1>
-        <span className="text-sm text-gray-500">{plants.length} 種収録</span>
+        <h1 className="text-2xl font-bold text-gray-900">{t.heading}</h1>
+        <span className="text-sm text-gray-500">{t.count(plants.length)}</span>
       </div>
 
       {/* 検索 */}
       <div className="flex flex-col sm:flex-row gap-3 mb-6">
         <input
           type="text"
-          placeholder="和名・学名・科名で検索..."
+          placeholder={t.searchPlaceholder}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="flex-1 border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400"
@@ -40,8 +71,8 @@ export default function PlantsPage() {
           onChange={(e) => setSelectedTag(e.target.value)}
           className="border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400"
         >
-          <option value="">タグで絞り込む</option>
-          {allTags.map((tag) => (
+          <option value="">{t.filterByTag}</option>
+          {tags.map((tag) => (
             <option key={tag} value={tag}>
               {tag}
             </option>
@@ -51,7 +82,7 @@ export default function PlantsPage() {
 
       {/* タグフィルター */}
       <div className="flex flex-wrap gap-2 mb-6">
-        {allTags.map((tag) => (
+        {tags.map((tag) => (
           <button
             key={tag}
             onClick={() => setSelectedTag(selectedTag === tag ? "" : tag)}
@@ -66,16 +97,16 @@ export default function PlantsPage() {
         ))}
       </div>
 
-      <p className="text-sm text-gray-500 mb-4">{filtered.length} 件</p>
+      <p className="text-sm text-gray-500 mb-4">{t.resultCount(filtered.length)}</p>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {filtered.map((plant) => (
-          <PlantCard key={plant.id} plant={plant} />
+          <PlantCard key={plant.id} plant={plant} lang={lang} />
         ))}
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-gray-400 py-16">該当する植物が見つかりませんでした</p>
+        <p className="text-center text-gray-400 py-16">{t.noResults}</p>
       )}
     </main>
   );

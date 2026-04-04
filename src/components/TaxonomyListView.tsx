@@ -5,6 +5,8 @@ import Link from "next/link";
 import type { TaxonomyNode } from "@/data/types";
 import { cladeColors, defaultCladeColors, cladeRootIds } from "@/data/cladeColors";
 import { getActiveAncestors } from "@/data/keyUtils";
+import { getFamilyEmoji } from "@/lib/emoji";
+import type { Locale } from "@/dictionaries";
 
 // ── Props ─────────────────────────────────────────────────────
 export interface TaxonomyListViewProps {
@@ -16,12 +18,18 @@ export interface TaxonomyListViewProps {
   maxDepth?: number;
   /** コンパクト表示（サイドバー向け: 画像なし・小フォント） */
   compact?: boolean;
+  /** 言語 */
+  lang?: Locale;
 }
 
-// ── ランク日本語 ──────────────────────────────────────────────
-const rankLabels: Record<string, string> = {
+// ── ランクラベル ──────────────────────────────────────────────
+const rankLabelsJa: Record<string, string> = {
   kingdom: "界", phylum: "門", class: "綱", order: "目",
   family: "科", genus: "属", species: "種",
+};
+const rankLabelsEn: Record<string, string> = {
+  kingdom: "Kingdom", phylum: "Phylum", class: "Class", order: "Order",
+  family: "Family", genus: "Genus", species: "Species",
 };
 
 // ── 色計算 ────────────────────────────────────────────────────
@@ -45,6 +53,7 @@ function TreeBranch({
   activeFamilyIds,
   filtering,
   ancestorClade,
+  lang = "ja",
 }: {
   node: TaxonomyNode;
   depth: number;
@@ -54,7 +63,9 @@ function TreeBranch({
   activeFamilyIds: Set<string> | undefined;
   filtering: boolean;
   ancestorClade: string | null;
+  lang?: Locale;
 }) {
+  const rankLabels = lang === "en" ? rankLabelsEn : rankLabelsJa;
   const clade = cladeRootIds.has(node.id) ? node.id : ancestorClade;
   const color = resolveColor(node.id, node.rank, clade);
   const hasChildren = node.children && node.children.length > 0;
@@ -69,10 +80,10 @@ function TreeBranch({
   // リンク先
   const href =
     node.rank === "species" && node.plantId
-      ? `/plants/${node.plantId}`
+      ? `/${lang}/plants/${node.plantId}`
       : node.rank === "family" && node.familyId
-      ? `/families/${node.familyId}`
-      : `/taxonomy/${node.id}`;
+      ? `/${lang}/families/${node.familyId}`
+      : `/${lang}/taxonomy/${node.id}`;
 
   // 葉ノード or 深さ上限 → リンクのみ
   if (!hasChildren || depthExceeded) {
@@ -92,7 +103,7 @@ function TreeBranch({
             style={{ backgroundColor: color }}
           />
           <span className={compact ? "text-xs" : "text-sm"}>
-            <span className="font-medium text-gray-800">{node.name}</span>
+            <span className="font-medium text-gray-800">{node.name}{node.familyId && getFamilyEmoji(node.familyId) && <span className="ml-1">{getFamilyEmoji(node.familyId)}</span>}</span>
             {!compact && (
               <span className="text-gray-400 ml-1 text-xs">
                 {rankLabels[node.rank] ?? node.rank}
@@ -147,6 +158,7 @@ function TreeBranch({
               activeFamilyIds={activeFamilyIds}
               filtering={filtering}
               ancestorClade={clade}
+              lang={lang}
             />
           ))}
         </ul>
@@ -171,10 +183,10 @@ export default function TaxonomyListView({
   activeFamilyIds,
   maxDepth,
   compact = false,
+  lang = "ja",
 }: TaxonomyListViewProps) {
   const filtering = activeFamilyIds !== undefined && activeFamilyIds.size > 0;
 
-  // フィルタモード時: アクティブ科の祖先ノードを事前計算
   const activeNodeIds = useMemo(() => {
     if (!filtering || !activeFamilyIds) return new Set<string>();
     return getActiveAncestors(root, activeFamilyIds);
@@ -184,7 +196,9 @@ export default function TaxonomyListView({
     <div className={compact ? "text-xs" : "text-sm"}>
       {filtering && (
         <div className="text-xs text-gray-400 mb-2">
-          {activeFamilyIds!.size} 科が候補に残っています
+          {lang === "en"
+            ? `${activeFamilyIds!.size} candidate families remaining`
+            : `${activeFamilyIds!.size} 科が候補に残っています`}
         </div>
       )}
       <ul className="space-y-0.5">
@@ -200,10 +214,13 @@ export default function TaxonomyListView({
               activeFamilyIds={activeFamilyIds}
               filtering={filtering}
               ancestorClade={null}
+              lang={lang}
             />
           ))
         ) : (
-          <li className="text-gray-400 py-2">子ノードがありません</li>
+          <li className="text-gray-400 py-2">
+            {lang === "en" ? "No child nodes" : "子ノードがありません"}
+          </li>
         )}
       </ul>
     </div>

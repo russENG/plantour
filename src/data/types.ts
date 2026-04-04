@@ -47,6 +47,9 @@ export interface PlantTraits {
   deciduous?: "evergreen" | "deciduous";
   petalCount?: 3 | 4 | 5 | "many";
   petalFusion?: "fused" | "free" | "none";
+  flowerColor?: "white" | "yellow" | "pink" | "red" | "purple" | "blue" | "orange" | "green" | "brown" | "none";
+  floweringSeason?: "spring" | "summer" | "fall" | "winter" | "spring-summer" | "summer-fall" | "year-round";
+  habitat?: "roadside" | "grassland" | "mountain" | "forest" | "wetland" | "aquatic" | "coastal" | "cultivated";
 }
 
 export interface Plant {
@@ -56,14 +59,23 @@ export interface Plant {
   scientificName: string;
   familyId: string;
   familyJaName: string;
+  familyEnName?: string;
   description: string;
+  enDescription?: string;
   identificationPoints: string[];
+  enIdentificationPoints?: string[];
   habitat: string;
+  enHabitat?: string;
   season: string;
+  enSeason?: string;
   imageUrl?: string;
+  /** 画像に関する注記（代替画像など）。ページ上に表示される。 */
+  imageNote?: string;
   externalLinks: ExternalLink[];
   evolutionNote?: string;
+  enEvolutionNote?: string;
   tags: string[];
+  enTags?: string[];
   /** 形態特性（検索表フィルタ用） */
   traits?: PlantTraits;
   // 出典・レビュー
@@ -78,11 +90,16 @@ export interface Family {
   scientificName: string;
   order: string;
   overview: string;
+  enOverview?: string;
   characteristics: string[];
+  enCharacteristics?: string[];
   phylogeneticPosition: string;
+  enPhylogeneticPosition?: string;
   divergenceEra: string;
+  enDivergenceEra?: string;
   representativeGenera: string[];
   evolutionEvents: string[];
+  enEvolutionEvents?: string[];
   externalLinks: ExternalLink[];
   imageUrl?: string;
   /** 日本産種数（YList準拠）。ラジアルツリーのノードサイズに使用 */
@@ -115,12 +132,16 @@ export interface TaxonomyNode {
 export interface TimelineEvent {
   id: string;
   era: string;
+  enEra?: string;
   mya: number; // million years ago
   title: string;
+  enTitle?: string;
   description: string;
+  enDescription?: string;
   isMajor: boolean;
   /** 中学生向けの平易な概要（1〜2文） */
   summary?: string;
+  enSummary?: string;
   /** 代表画像 URL (Wikimedia Commons など) */
   imageUrl?: string;
   /** "prehistory": >500 Ma の文脈イベント（左端に表示）
@@ -139,13 +160,16 @@ export interface TimelineEvent {
 export interface KeyNode {
   id: string;
   question: string;
+  enQuestion?: string;
   hint?: string;
+  enHint?: string;
   options: KeyOption[];
 }
 
 export interface KeyOption {
   id: string;
   label: string;
+  enLabel?: string;
   nextNodeId?: string;
   resultFamilyIds?: string[];
   resultPlantIds?: string[];

@@ -154,11 +154,27 @@ function EventModal({
   event,
   relatedFamilies,
   onClose,
+  lang = "ja",
 }: {
   event: TimelineEvent;
-  relatedFamilies: Array<{ id: string; jaName: string }>;
+  relatedFamilies: Array<{ id: string; jaName: string; enName?: string }>;
   onClose: () => void;
+  lang?: "ja" | "en";
 }) {
+  const T = lang === "en" ? {
+    majorEvent: "Major event", simplified: "In simple terms",
+    relatedFamilies: "Related families", sourcesLabel: "Sources",
+    about: "About", mya: "million years ago",
+    tenThousandYearsAgo: "ten thousand years ago",
+    thousandYearsAgo: "thousand years ago",
+  } : {
+    majorEvent: "主要イベント", simplified: "やさしく言うと",
+    relatedFamilies: "このイベントに関係する科", sourcesLabel: "出典",
+    about: "約", mya: "百万年前",
+    tenThousandYearsAgo: "万年前",
+    thousandYearsAgo: "千年前",
+  };
+
   // ESC で閉じる
   useEffect(() => {
     const handler = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
@@ -168,10 +184,10 @@ function EventModal({
 
   const myaLabel =
     event.mya >= 1
-      ? `約 ${event.mya} 百万年前`
+      ? `${T.about} ${event.mya} ${T.mya}`
       : event.mya >= 0.001
-      ? `約 ${Math.round(event.mya * 10000) / 10}万年前`
-      : `約 ${Math.round(event.mya * 1000 * 10) / 10}千年前`;
+      ? `${T.about} ${Math.round(event.mya * 10000) / 10}${T.tenThousandYearsAgo}`
+      : `${T.about} ${Math.round(event.mya * 1000 * 10) / 10}${T.thousandYearsAgo}`;
 
   return (
     /* backdrop */
@@ -210,7 +226,7 @@ function EventModal({
                     className="text-[10px] font-bold px-2 py-0.5 rounded-full"
                     style={{ backgroundColor: event.color + "22", color: event.color }}
                   >
-                    主要イベント
+                    {T.majorEvent}
                   </span>
                 )}
               </div>
@@ -231,7 +247,7 @@ function EventModal({
               style={{ backgroundColor: event.color + "12", borderLeft: `3px solid ${event.color}` }}
             >
               <div className="text-[10px] font-bold uppercase tracking-wider mb-1" style={{ color: event.color }}>
-                やさしく言うと
+                {T.simplified}
               </div>
               <p className="text-gray-700">{event.summary}</p>
             </div>
@@ -244,13 +260,13 @@ function EventModal({
           {relatedFamilies.length > 0 && (
             <div className="mb-5">
               <div className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-2">
-                このイベントに関係する科
+                {T.relatedFamilies}
               </div>
               <div className="flex flex-wrap gap-2">
                 {relatedFamilies.map((f) => (
                   <Link
                     key={f.id}
-                    href={`/families/${f.id}`}
+                    href={`/${lang}/families/${f.id}`}
                     onClick={onClose}
                     className="text-xs px-3 py-1.5 rounded-full border font-medium transition-colors hover:text-white"
                     style={{
@@ -266,7 +282,7 @@ function EventModal({
                       (e.currentTarget as HTMLElement).style.color = event.color;
                     }}
                   >
-                    {f.jaName}
+                    {lang === "en" && f.enName ? f.enName : f.jaName}
                   </Link>
                 ))}
               </div>
@@ -276,7 +292,7 @@ function EventModal({
           {/* 出典 */}
           {event.sources && event.sources.length > 0 && (
             <div className="border-t pt-4">
-              <div className="text-xs font-bold text-gray-400 uppercase tracking-wide mb-2">出典</div>
+              <div className="text-xs font-bold text-gray-400 uppercase tracking-wide mb-2">{T.sourcesLabel}</div>
               <ul className="space-y-1">
                 {event.sources.map((s, i) => (
                   <li key={i} className="text-xs text-gray-500 flex gap-1.5">
@@ -310,11 +326,29 @@ function EventCardList({
   selectedId,
   relatedFamiliesByEvent,
   onSelect,
+  lang = "ja",
 }: {
   selectedId: string | null;
-  relatedFamiliesByEvent: Record<string, Array<{ id: string; jaName: string }>>;
+  relatedFamiliesByEvent: Record<string, Array<{ id: string; jaName: string; enName?: string }>>;
   onSelect: (id: string) => void;
+  lang?: "ja" | "en";
 }) {
+  const T = lang === "en" ? {
+    secPrehistory: "Prehistory (Proterozoic)",
+    secMajor: "Major Events (Plant Evolution)",
+    secOther: "Other Events",
+    secModern: "Modern (Humans & Agriculture)",
+    thousandYearsAgo: "thousand years ago",
+    tenThousandYearsAgo: "ten thousand years ago",
+  } : {
+    secPrehistory: "先史（原生代）",
+    secMajor: "主要イベント（植物進化）",
+    secOther: "その他のイベント",
+    secModern: "現代（人類・農業）",
+    thousandYearsAgo: "千年前",
+    tenThousandYearsAgo: "万年前",
+  };
+
   const prehistory = timelineEvents.filter((e) => e.section === "prehistory");
   const major = timelineEvents.filter((e) => e.isMajor && !e.section);
   const minor = timelineEvents.filter((e) => !e.isMajor && !e.section);
@@ -327,8 +361,8 @@ function EventCardList({
       event.mya >= 1
         ? `${event.mya} Ma`
         : event.mya >= 0.001
-        ? `${Math.round(event.mya * 10000) / 10}万年前`
-        : `${Math.round(event.mya * 1000 * 10) / 10}千年前`;
+        ? `${Math.round(event.mya * 10000) / 10}${T.tenThousandYearsAgo}`
+        : `${Math.round(event.mya * 1000 * 10) / 10}${T.thousandYearsAgo}`;
 
     return (
       <button
@@ -376,7 +410,7 @@ function EventCardList({
                       className="text-[10px] px-1.5 py-0.5 rounded-full"
                       style={{ backgroundColor: event.color + "18", color: event.color }}
                     >
-                      {f.jaName}
+                      {lang === "en" && f.enName ? f.enName : f.jaName}
                     </span>
                   ))}
                   {related.length > 4 && (
@@ -416,10 +450,10 @@ function EventCardList({
 
   return (
     <div className="mt-10 space-y-8">
-      {prehistory.length > 0 && <Section label="先史（原生代）" events={prehistory} />}
-      <Section label="主要イベント（植物進化）" events={major} />
-      <Section label="その他のイベント" events={minor} />
-      {modern.length > 0 && <Section label="現代（人類・農業）" events={modern} />}
+      {prehistory.length > 0 && <Section label={T.secPrehistory} events={prehistory} />}
+      <Section label={T.secMajor} events={major} />
+      <Section label={T.secOther} events={minor} />
+      {modern.length > 0 && <Section label={T.secModern} events={modern} />}
     </div>
   );
 }
@@ -427,9 +461,47 @@ function EventCardList({
 // ── メインコンポーネント ──────────────────────────────────────
 export default function TimelineView({
   relatedFamiliesByEvent,
+  lang = "ja",
 }: {
-  relatedFamiliesByEvent: Record<string, Array<{ id: string; jaName: string }>>;
+  relatedFamiliesByEvent: Record<string, Array<{ id: string; jaName: string; enName?: string }>>;
+  lang?: "ja" | "en";
 }) {
+  const T = lang === "en" ? {
+    scrollHint: "\u2190 Scroll to see the full timeline \u2192",
+    prehistory: "Proterozoic (off scale)",
+    modern: "Holocene\u2013Present (off scale)",
+    now: "Present",
+    majorEvent: "Major event",
+    simplified: "In simple terms",
+    relatedFamilies: "Related families",
+    sourcesLabel: "Sources",
+    secPrehistory: "Prehistory (Proterozoic)",
+    secMajor: "Major Events (Plant Evolution)",
+    secOther: "Other Events",
+    secModern: "Modern (Humans & Agriculture)",
+    thousandYearsAgo: "thousand years ago",
+    tenThousandYearsAgo: "ten thousand years ago",
+    about: "About",
+    mya: "million years ago",
+  } : {
+    scrollHint: "← スクロールして全体を見る →",
+    prehistory: "原生代（スケール外）",
+    modern: "完新世〜現在（スケール外）",
+    now: "現在",
+    majorEvent: "主要イベント",
+    simplified: "やさしく言うと",
+    relatedFamilies: "このイベントに関係する科",
+    sourcesLabel: "出典",
+    secPrehistory: "先史（原生代）",
+    secMajor: "主要イベント（植物進化）",
+    secOther: "その他のイベント",
+    secModern: "現代（人類・農業）",
+    thousandYearsAgo: "千年前",
+    tenThousandYearsAgo: "万年前",
+    about: "約",
+    mya: "百万年前",
+  };
+
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [modalId, setModalId] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -499,7 +571,7 @@ export default function TimelineView({
   return (
     <div>
       {/* ── 横スクロールタイムライン ─────────────────────────────── */}
-      <p className="text-xs text-gray-400 mb-2">← スクロールして全体を見る →</p>
+      <p className="text-xs text-gray-400 mb-2">{T.scrollHint}</p>
       <div ref={scrollRef} className="overflow-x-auto pb-1 rounded-xl border bg-white shadow-sm">
         <div className="relative" style={{ width: CONTAINER_W, height: CONTAINER_H }}>
 
@@ -509,7 +581,7 @@ export default function TimelineView({
             style={{ left: 0, width: PREHIST_W, backgroundColor: "#dbeafe" }}
           >
             <div className="absolute bottom-3 left-0 right-0 text-center text-[10px] text-blue-400 font-medium">
-              原生代（スケール外）
+              {T.prehistory}
             </div>
           </div>
 
@@ -542,7 +614,7 @@ export default function TimelineView({
             style={{ left: MODERN_BREAK + BREAK_W, width: MODERN_W, backgroundColor: "#fef9c3" }}
           >
             <div className="absolute bottom-3 left-0 right-0 text-center text-[10px] text-yellow-600 font-medium">
-              完新世〜現在（スケール外）
+              {T.modern}
             </div>
           </div>
 
@@ -569,7 +641,7 @@ export default function TimelineView({
               <div key={mya} className="absolute" style={{ left: left - 18, top: AXIS_Y + 5 }}>
                 <div className="w-px h-3 bg-gray-500 mx-auto" />
                 <div className="text-xs font-medium text-gray-600 text-center w-9 mt-0.5">
-                  {mya === 0 ? "現在" : `${mya}Ma`}
+                  {mya === 0 ? T.now : `${mya}Ma`}
                 </div>
               </div>
             );
@@ -636,6 +708,7 @@ export default function TimelineView({
           event={modalEvent}
           relatedFamilies={relatedFamiliesByEvent[modalEvent.id] ?? []}
           onClose={() => { setModalId(null); setSelectedId(null); }}
+          lang={lang}
         />
       )}
 
@@ -644,6 +717,7 @@ export default function TimelineView({
         selectedId={selectedId}
         relatedFamiliesByEvent={relatedFamiliesByEvent}
         onSelect={handleSelect}
+        lang={lang}
       />
     </div>
   );

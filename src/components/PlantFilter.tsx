@@ -6,69 +6,100 @@ import { familyTraits, seedPlantFamilyIds, type FamilyTraits } from "@/data/fami
 import { families } from "@/data/families";
 import { plants } from "@/data/plants";
 import type { Plant, PlantTraits } from "@/data/types";
+import type { Locale } from "@/dictionaries";
 
 // ── フィルタグループ定義 ──────────────────────────────────────
 interface FilterOption {
   value: string;
-  label: string;
+  labelJa: string;
+  labelEn: string;
 }
 interface FilterGroup {
-  id: keyof FamilyTraits;
-  label: string;
-  section: "leaf" | "habit" | "flower";
+  id: keyof PlantTraits;
+  labelJa: string;
+  labelEn: string;
+  section: "leaf" | "habit" | "flower" | "ecology";
   options: FilterOption[];
 }
 
 const FILTER_GROUPS: FilterGroup[] = [
-  // 葉の特徴
-  { id: "leafArr", label: "葉序（葉のつき方）", section: "leaf", options: [
-    { value: "alt", label: "互生" },
-    { value: "opp", label: "対生" },
-    { value: "whor", label: "輪生" },
+  { id: "leafArr", labelJa: "葉序（葉のつき方）", labelEn: "Leaf arrangement", section: "leaf", options: [
+    { value: "alt", labelJa: "互生", labelEn: "Alternate" },
+    { value: "opp", labelJa: "対生", labelEn: "Opposite" },
+    { value: "whor", labelJa: "輪生", labelEn: "Whorled" },
   ]},
-  { id: "leafType", label: "葉の型", section: "leaf", options: [
-    { value: "simple", label: "単葉" },
-    { value: "compound", label: "複葉" },
+  { id: "leafType", labelJa: "葉の型", labelEn: "Leaf type", section: "leaf", options: [
+    { value: "simple", labelJa: "単葉", labelEn: "Simple" },
+    { value: "compound", labelJa: "複葉", labelEn: "Compound" },
   ]},
-  { id: "venation", label: "葉脈", section: "leaf", options: [
-    { value: "parallel", label: "平行脈" },
-    { value: "reticulate", label: "網状脈" },
+  { id: "venation", labelJa: "葉脈", labelEn: "Venation", section: "leaf", options: [
+    { value: "parallel", labelJa: "平行脈", labelEn: "Parallel" },
+    { value: "reticulate", labelJa: "網状脈", labelEn: "Reticulate" },
   ]},
-  { id: "margin", label: "葉の縁", section: "leaf", options: [
-    { value: "entire", label: "全縁" },
-    { value: "serrate", label: "鋸歯縁" },
-    { value: "lobed", label: "裂片状" },
+  { id: "margin", labelJa: "葉の縁", labelEn: "Leaf margin", section: "leaf", options: [
+    { value: "entire", labelJa: "全縁", labelEn: "Entire" },
+    { value: "serrate", labelJa: "鋸歯縁", labelEn: "Serrate" },
+    { value: "lobed", labelJa: "裂片状", labelEn: "Lobed" },
   ]},
-  { id: "shape", label: "葉の形", section: "leaf", options: [
-    { value: "linear", label: "線形" },
-    { value: "ovate", label: "卵形" },
-    { value: "cordate", label: "心形" },
-    { value: "needle", label: "針形" },
-    { value: "round", label: "円形" },
-    { value: "palmate", label: "掌状" },
+  { id: "shape", labelJa: "葉の形", labelEn: "Leaf shape", section: "leaf", options: [
+    { value: "linear", labelJa: "線形", labelEn: "Linear" },
+    { value: "ovate", labelJa: "卵形", labelEn: "Ovate" },
+    { value: "cordate", labelJa: "心形", labelEn: "Cordate" },
+    { value: "needle", labelJa: "針形", labelEn: "Needle" },
+    { value: "round", labelJa: "円形", labelEn: "Round" },
+    { value: "palmate", labelJa: "掌状", labelEn: "Palmate" },
   ]},
-  // 植物体
-  { id: "habit", label: "生活形", section: "habit", options: [
-    { value: "tree", label: "高木" },
-    { value: "shrub", label: "低木" },
-    { value: "herb", label: "草本" },
-    { value: "vine", label: "つる" },
+  { id: "habit", labelJa: "生活形", labelEn: "Growth form", section: "habit", options: [
+    { value: "tree", labelJa: "高木", labelEn: "Tree" },
+    { value: "shrub", labelJa: "低木", labelEn: "Shrub" },
+    { value: "herb", labelJa: "草本", labelEn: "Herb" },
+    { value: "vine", labelJa: "つる", labelEn: "Vine" },
   ]},
-  { id: "deciduous", label: "常緑 / 落葉", section: "habit", options: [
-    { value: "evergreen", label: "常緑" },
-    { value: "deciduous", label: "落葉" },
+  { id: "deciduous", labelJa: "常緑 / 落葉", labelEn: "Evergreen / Deciduous", section: "habit", options: [
+    { value: "evergreen", labelJa: "常緑", labelEn: "Evergreen" },
+    { value: "deciduous", labelJa: "落葉", labelEn: "Deciduous" },
   ]},
-  // 花（見えるとき）
-  { id: "petalCount", label: "花弁の数", section: "flower", options: [
-    { value: "3", label: "3枚" },
-    { value: "4", label: "4枚" },
-    { value: "5", label: "5枚" },
-    { value: "many", label: "多数" },
+  { id: "petalCount", labelJa: "花弁の数", labelEn: "Petal count", section: "flower", options: [
+    { value: "3", labelJa: "3枚", labelEn: "3" },
+    { value: "4", labelJa: "4枚", labelEn: "4" },
+    { value: "5", labelJa: "5枚", labelEn: "5" },
+    { value: "many", labelJa: "多数", labelEn: "Many" },
   ]},
-  { id: "petalFusion", label: "花弁の合着", section: "flower", options: [
-    { value: "fused", label: "合弁" },
-    { value: "free", label: "離弁" },
-    { value: "none", label: "花弁なし" },
+  { id: "petalFusion", labelJa: "花弁の合着", labelEn: "Petal fusion", section: "flower", options: [
+    { value: "fused", labelJa: "合弁", labelEn: "Fused" },
+    { value: "free", labelJa: "離弁", labelEn: "Free" },
+    { value: "none", labelJa: "花弁なし", labelEn: "No petals" },
+  ]},
+  { id: "flowerColor", labelJa: "花の色", labelEn: "Flower color", section: "flower", options: [
+    { value: "white",  labelJa: "白",   labelEn: "White" },
+    { value: "yellow", labelJa: "黄",   labelEn: "Yellow" },
+    { value: "pink",   labelJa: "桃",   labelEn: "Pink" },
+    { value: "red",    labelJa: "赤",   labelEn: "Red" },
+    { value: "purple", labelJa: "紫",   labelEn: "Purple" },
+    { value: "blue",   labelJa: "青",   labelEn: "Blue" },
+    { value: "orange", labelJa: "橙",   labelEn: "Orange" },
+    { value: "green",  labelJa: "緑",   labelEn: "Green" },
+    { value: "brown",  labelJa: "褐",   labelEn: "Brown" },
+    { value: "none",   labelJa: "花なし", labelEn: "No flowers" },
+  ]},
+  { id: "floweringSeason", labelJa: "開花期", labelEn: "Flowering season", section: "ecology", options: [
+    { value: "spring",        labelJa: "春",    labelEn: "Spring" },
+    { value: "summer",        labelJa: "夏",    labelEn: "Summer" },
+    { value: "fall",          labelJa: "秋",    labelEn: "Autumn" },
+    { value: "winter",        labelJa: "冬",    labelEn: "Winter" },
+    { value: "spring-summer", labelJa: "春〜夏", labelEn: "Spring\u2013Summer" },
+    { value: "summer-fall",   labelJa: "夏〜秋", labelEn: "Summer\u2013Autumn" },
+    { value: "year-round",    labelJa: "通年",  labelEn: "Year-round" },
+  ]},
+  { id: "habitat", labelJa: "生育地", labelEn: "Habitat", section: "ecology", options: [
+    { value: "roadside",   labelJa: "道ばた",    labelEn: "Roadside" },
+    { value: "grassland",  labelJa: "草地・原野", labelEn: "Grassland" },
+    { value: "mountain",   labelJa: "山地",      labelEn: "Mountain" },
+    { value: "forest",     labelJa: "林内",      labelEn: "Forest" },
+    { value: "wetland",    labelJa: "湿地・水辺", labelEn: "Wetland" },
+    { value: "aquatic",    labelJa: "水生",      labelEn: "Aquatic" },
+    { value: "coastal",    labelJa: "海岸",      labelEn: "Coastal" },
+    { value: "cultivated", labelJa: "栽培",      labelEn: "Cultivated" },
   ]},
 ];
 
@@ -76,12 +107,15 @@ type ActiveFilters = Record<string, string[]>;
 
 // ── フィルタロジック ──────────────────────────────────────────
 
+/** 検索表対象：種子植物のみ */
+const seedPlants = plants.filter((p) => seedPlantFamilyIds.includes(p.familyId));
+
 /** 種レベルでフィルタ: traits があればそれを使い、なければ科のデフォルトにフォールバック */
 function filterPlants(filters: ActiveFilters): Plant[] {
   const activeGroups = Object.entries(filters).filter(([, vals]) => vals.length > 0);
-  if (activeGroups.length === 0) return plants;
+  if (activeGroups.length === 0) return seedPlants;
 
-  return plants.filter((p) => {
+  return seedPlants.filter((p) => {
     const plantT = p.traits;
     const familyT = familyTraits[p.familyId];
 
@@ -135,9 +169,11 @@ function ToggleButton({
 // ── メインコンポーネント ──────────────────────────────────────
 interface PlantFilterProps {
   onFilterChange?: (familyIds: Set<string>) => void;
+  lang?: Locale;
 }
 
-export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
+export default function PlantFilter({ onFilterChange, lang = "ja" }: PlantFilterProps) {
+  const L = (ja: string, en: string) => lang === "en" ? en : ja;
   const [filters, setFilters] = useState<ActiveFilters>({});
 
   const toggleFilter = useCallback((groupId: string, value: string) => {
@@ -166,9 +202,10 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
 
   // セクション別にグループ化
   const sections = [
-    { key: "leaf", label: "葉の特徴", hint: "年間を通じて観察できます" },
-    { key: "habit", label: "植物体", hint: "" },
-    { key: "flower", label: "花の特徴", hint: "花が見えるときだけ" },
+    { key: "leaf",    label: L("葉の特徴", "Leaf Traits"),       hint: L("年間を通じて観察できます", "Observable year-round") },
+    { key: "habit",   label: L("植物体", "Plant Form"),          hint: "" },
+    { key: "flower",  label: L("花の特徴", "Flower Traits"),     hint: L("花が見えるときだけ", "Only when flowers are visible") },
+    { key: "ecology", label: L("生態・環境", "Ecology & Habitat"), hint: "" },
   ];
 
   return (
@@ -177,11 +214,11 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
       <div className="flex items-center justify-between mb-4">
         <div className="text-sm text-gray-500">
           <span className="text-2xl font-bold text-green-700">{matchedFamilyIds.length}</span>
-          <span className="ml-1">科</span>
+          <span className="ml-1">{L("科", "families")}</span>
           <span className="text-lg font-bold text-green-600 ml-2">{matchedPlants.length}</span>
-          <span className="ml-1">種が候補</span>
+          <span className="ml-1">{L("種が候補", "candidate species")}</span>
           {activeCount > 0 && (
-            <span className="text-gray-400 ml-2">（{activeCount} フィルタ適用中）</span>
+            <span className="text-gray-400 ml-2">{L(`（${activeCount} フィルタ適用中）`, `(${activeCount} filters applied)`)}</span>
           )}
         </div>
         {activeCount > 0 && (
@@ -189,7 +226,7 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
             onClick={handleReset}
             className="text-xs text-gray-400 hover:text-gray-600 border border-gray-200 rounded-lg px-3 py-1.5 hover:bg-gray-50 transition-colors"
           >
-            すべて解除
+            {L("すべて解除", "Clear all")}
           </button>
         )}
       </div>
@@ -213,13 +250,13 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
               {groups.map((group) => (
                 <div key={group.id} className="flex items-start gap-3">
                   <span className="text-xs text-gray-500 w-24 flex-shrink-0 pt-1.5 text-right">
-                    {group.label}
+                    {lang === "en" ? group.labelEn : group.labelJa}
                   </span>
                   <div className="flex flex-wrap gap-2">
                     {group.options.map((opt) => (
                       <ToggleButton
                         key={opt.value}
-                        label={opt.label}
+                        label={lang === "en" ? opt.labelEn : opt.labelJa}
                         active={(filters[group.id] ?? []).includes(opt.value)}
                         onClick={() => toggleFilter(group.id, opt.value)}
                       />
@@ -236,19 +273,23 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
       {matchedPlants.length > 0 && matchedPlants.length <= 100 && (
         <div className="mt-6 pt-4 border-t">
           <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-3">
-            候補の種（{matchedPlants.length}）
+            {L(`候補の種（${matchedPlants.length}）`, `Candidate species (${matchedPlants.length})`)}
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-80 overflow-y-auto">
             {matchedPlants.map((p) => (
               <Link
                 key={p.id}
-                href={`/plants/${p.id}`}
+                href={`/${lang}/plants/${p.id}`}
                 className="flex items-center gap-2 p-2 rounded-lg border border-gray-100 hover:border-green-300 hover:bg-green-50 transition-colors"
               >
                 <span className="w-2 h-2 rounded-full bg-green-500 flex-shrink-0" />
                 <div className="min-w-0">
-                  <span className="text-xs font-medium text-gray-700 block truncate">{p.jaName}</span>
-                  <span className="text-[10px] text-gray-400 block truncate">{p.familyJaName} / <i>{p.scientificName}</i></span>
+                  <span className="text-xs font-medium text-gray-700 block truncate">
+                    {lang === "en" && p.enName ? p.enName : p.jaName}
+                  </span>
+                  <span className="text-[10px] text-gray-400 block truncate">
+                    {lang === "en" ? p.familyEnName ?? p.familyJaName : p.familyJaName} / <i>{p.scientificName}</i>
+                  </span>
                 </div>
               </Link>
             ))}
@@ -259,7 +300,7 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
       {/* 候補科リスト */}
       <div className="mt-6 pt-4 border-t">
         <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-3">
-          候補の科（{matchedFamilyIds.length}）
+          {L(`候補の科（${matchedFamilyIds.length}）`, `Candidate families (${matchedFamilyIds.length})`)}
         </h3>
         {matchedFamilyIds.length <= 80 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-72 overflow-y-auto">
@@ -270,14 +311,16 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
               return (
                 <Link
                   key={id}
-                  href={`/families/${id}`}
+                  href={`/${lang}/families/${id}`}
                   className="flex items-center gap-2 p-2 rounded-lg border border-gray-100 hover:border-teal-300 hover:bg-teal-50 transition-colors"
                 >
                   <span className="w-2 h-2 rounded-full bg-teal-400 flex-shrink-0" />
-                  <span className="text-xs font-medium text-gray-700 truncate">{family.jaName}</span>
+                  <span className="text-xs font-medium text-gray-700 truncate">
+                    {lang === "en" ? family.enName : family.jaName}
+                  </span>
                   {plantCount > 0 && (
                     <span className="text-[10px] bg-green-100 text-green-700 rounded-full px-1.5 flex-shrink-0">
-                      {plantCount}種
+                      {plantCount}{L("種", "spp.")}
                     </span>
                   )}
                 </Link>
@@ -286,7 +329,10 @@ export default function PlantFilter({ onFilterChange }: PlantFilterProps) {
           </div>
         ) : (
           <p className="text-xs text-gray-400">
-            フィルタを追加して絞り込んでください（現在 {matchedFamilyIds.length} 科）
+            {L(
+              `フィルタを追加して絞り込んでください（現在 ${matchedFamilyIds.length} 科）`,
+              `Add filters to narrow down (currently ${matchedFamilyIds.length} families)`
+            )}
           </p>
         )}
       </div>
