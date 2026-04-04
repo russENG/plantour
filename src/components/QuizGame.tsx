@@ -18,6 +18,7 @@ interface QuizState {
   currentNodeId: string;
   history: Array<{ nodeId: string; chosenOptionId: string }>;
   result: "correct" | "incorrect" | null;
+  lastChosenOption?: KeyOption;
 }
 
 function pickRandom(): Plant {
@@ -26,6 +27,14 @@ function pickRandom(): Plant {
 
 /** Check if a terminal option's result families contain the plant's family */
 function checkAnswer(option: KeyOption, plant: Plant): "correct" | "incorrect" {
+  console.log("[Quiz] checkAnswer:", {
+    plantId: plant.id,
+    plantFamilyId: plant.familyId,
+    optionId: option.id,
+    resultFamilyIds: option.resultFamilyIds,
+    resultPlantIds: option.resultPlantIds,
+    familyMatch: option.resultFamilyIds?.includes(plant.familyId),
+  });
   if (option.resultPlantIds?.includes(plant.id)) return "correct";
   if (option.resultFamilyIds?.includes(plant.familyId)) return "correct";
   return "incorrect";
@@ -100,6 +109,7 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
           ...prev,
           history: [...prev.history, { nodeId: prev.currentNodeId, chosenOptionId: option.id }],
           result,
+          lastChosenOption: option,
         };
       }
 
@@ -216,6 +226,14 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
             <p className="font-bold text-gray-800">{name}</p>
             <p className="text-sm text-gray-500 italic">{state.plant.scientificName}</p>
             <p className="text-xs text-green-600 mt-1">{famName}</p>
+          </div>
+
+          {/* Debug info */}
+          <div className="bg-gray-100 rounded-lg p-2 mb-4 text-[10px] text-gray-500 font-mono">
+            <p>plant.familyId: {state.plant.familyId}</p>
+            <p>option.id: {state.lastChosenOption?.id}</p>
+            <p>option.resultFamilyIds: {JSON.stringify(state.lastChosenOption?.resultFamilyIds)}</p>
+            <p>includes: {String(state.lastChosenOption?.resultFamilyIds?.includes(state.plant.familyId))}</p>
           </div>
 
           <div className="flex flex-wrap gap-3">
