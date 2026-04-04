@@ -1,162 +1,118 @@
 "use client";
 
-import { useState, useCallback, useMemo } from "react";
+import { useState, useCallback, useMemo, useRef } from "react";
 import Link from "next/link";
 import { plants } from "@/data/plants";
 import { families } from "@/data/families";
-import { keyNodes, keyStartNodeId } from "@/data/key";
+import PlantFilter from "@/components/PlantFilter";
 import PlantImage from "@/components/PlantImage";
-import type { Plant, KeyOption } from "@/data/types";
+import type { Plant } from "@/data/types";
 import type { Locale } from "@/dictionaries";
-import { keyQuestion, keyHint, keyOptionLabel, plantName, plantFamilyName } from "@/lib/i18n-helpers";
+import { plantName, plantFamilyName } from "@/lib/i18n-helpers";
 
-// Only plants with images
-const quizPlants = plants.filter((p) => p.imageUrl);
-
-interface QuizState {
-  plant: Plant;
-  currentNodeId: string;
-  history: Array<{ nodeId: string; chosenOptionId: string }>;
-  result: "correct" | "incorrect" | null;
-  lastChosenOption?: KeyOption;
-}
+// Only seed plants with images (matching key page scope)
+const quizPlants = plants.filter(
+  (p) => p.imageUrl && p.traits && Object.keys(p.traits).length > 0,
+);
 
 function pickRandom(): Plant {
   return quizPlants[Math.floor(Math.random() * quizPlants.length)];
 }
 
-/** Check if a terminal option's result families contain the plant's family */
-function checkAnswer(option: KeyOption, plant: Plant): "correct" | "incorrect" {
-  console.log("[Quiz] checkAnswer:", {
-    plantId: plant.id,
-    plantFamilyId: plant.familyId,
-    optionId: option.id,
-    resultFamilyIds: option.resultFamilyIds,
-    resultPlantIds: option.resultPlantIds,
-    familyMatch: option.resultFamilyIds?.includes(plant.familyId),
-  });
-  if (option.resultPlantIds?.includes(plant.id)) return "correct";
-  if (option.resultFamilyIds?.includes(plant.familyId)) return "correct";
-  return "incorrect";
-}
-
 const dict = {
   ja: {
-    heading: "植物クイズ",
-    description: "写真の植物を、検索表の質問に答えて特定してください。",
+    heading: "植物クイ��",
+    description:
+      "写真の植物を、検索表のフィルタを使って特定してください。候補を絞り込んだら、種を選んで回答しましょう。",
     start: "クイズを始める",
     nextQuestion: "次の問題",
     correct: "正解！",
     incorrect: "不正解…",
-    correctAnswer: (name: string) => `正解は ${name} でした`,
+    correctAnswer: (name: string) => `正解は ${name} ���した`,
     score: (c: number, t: number) => `スコア: ${c} / ${t}`,
-    showHint: "ヒントを見る",
     identifyThis: "この植物は？",
-    back: "前に戻る",
-    restart: "最初からやり直す",
     viewPlant: "この植物のページを見る →",
-    family: "科",
-    step: (n: number) => `ステップ ${n}`,
+    giveUp: "ギブアップ（答えを見る）",
+    selectSpecies: "この種で回答",
+    candidateSpecies: (n: number) => `候補の種（${n}）`,
+    candidateFamilies: (n: number) => `候補の科（${n}）`,
+    narrow: "フィルタで候補を絞り込んでから、種を選んで回答してください。",
+    skipPlant: "この植物をスキップ",
   },
   en: {
     heading: "Plant Quiz",
-    description: "Identify the plant in the photo by answering identification key questions.",
+    description:
+      "Identify the plant in the photo using the identification key filters. Narrow down the candidates, then select a species to answer.",
     start: "Start Quiz",
     nextQuestion: "Next Question",
     correct: "Correct!",
     incorrect: "Incorrect\u2026",
     correctAnswer: (name: string) => `The answer was ${name}`,
     score: (c: number, t: number) => `Score: ${c} / ${t}`,
-    showHint: "Show hint",
     identifyThis: "What plant is this?",
-    back: "Go back",
-    restart: "Start over",
     viewPlant: "View this plant\u2019s page \u2192",
-    family: "family",
-    step: (n: number) => `Step ${n}`,
+    giveUp: "Give up (show answer)",
+    selectSpecies: "Answer with this species",
+    candidateSpecies: (n: number) => `Candidate species (${n})`,
+    candidateFamilies: (n: number) => `Candidate families (${n})`,
+    narrow: "Use the filters to narrow down candidates, then select a species to answer.",
+    skipPlant: "Skip this plant",
   },
 };
+
+type Result = "correct" | "incorrect" | null;
 
 export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
   const t = dict[lang];
 
-  const [state, setState] = useState<QuizState | null>(null);
+  const [targetPlant, setTargetPlant] = useState<Plant | null>(null);
+  const [result, setResult] = useState<Result>(null);
+  const [chosenPlant, setChosenPlant] = useState<Plant | null>(null);
   const [score, setScore] = useState({ correct: 0, total: 0 });
-  const [showHint, setShowHint] = useState(false);
+  const [activeFamilyIds, setActiveFamilyIds] = useState<Set<string>>(new Set());
+  // Key to force PlantFilter to remount (reset filters) on new round
+  const [filterKey, setFilterKey] = useState(0);
 
   const startNewRound = useCallback(() => {
-    setState({
-      plant: pickRandom(),
-      currentNodeId: keyStartNodeId,
-      history: [],
-      result: null,
-    });
-    setShowHint(false);
+    setTargetPlant(pickRandom());
+    setResult(null);
+    setChosenPlant(null);
+    setFilterKey((k) => k + 1);
   }, []);
 
-  const handleOptionClick = useCallback((option: KeyOption) => {
-    setState((prev) => {
-      if (!prev || prev.result) return prev;
-
-      // Terminal node — check answer
-      if (option.resultFamilyIds || option.resultPlantIds) {
-        const result = checkAnswer(option, prev.plant);
-        setScore((s) => ({
-          correct: s.correct + (result === "correct" ? 1 : 0),
-          total: s.total + 1,
-        }));
-        return {
-          ...prev,
-          history: [...prev.history, { nodeId: prev.currentNodeId, chosenOptionId: option.id }],
-          result,
-          lastChosenOption: option,
-        };
-      }
-
-      // Navigate to next node
-      if (option.nextNodeId) {
-        return {
-          ...prev,
-          currentNodeId: option.nextNodeId,
-          history: [...prev.history, { nodeId: prev.currentNodeId, chosenOptionId: option.id }],
-        };
-      }
-
-      return prev;
-    });
-    setShowHint(false);
+  const handleFilterChange = useCallback((ids: Set<string>) => {
+    setActiveFamilyIds(ids);
   }, []);
 
-  const handleBack = useCallback(() => {
-    setState((prev) => {
-      if (!prev || prev.history.length === 0) return prev;
-      const newHistory = prev.history.slice(0, -1);
-      const prevNodeId = newHistory.length > 0
-        ? prev.history[prev.history.length - 2]?.nodeId
-        : keyStartNodeId;
-      // If the last entry was the question node, go back to it
-      const lastEntry = prev.history[prev.history.length - 1];
-      return {
-        ...prev,
-        currentNodeId: lastEntry.nodeId,
-        history: newHistory,
-        result: null,
-      };
-    });
-    setShowHint(false);
-  }, []);
+  const handleAnswer = useCallback(
+    (plant: Plant) => {
+      if (!targetPlant || result) return;
+      const isCorrect = plant.id === targetPlant.id;
+      setChosenPlant(plant);
+      setResult(isCorrect ? "correct" : "incorrect");
+      setScore((s) => ({
+        correct: s.correct + (isCorrect ? 1 : 0),
+        total: s.total + 1,
+      }));
+    },
+    [targetPlant, result],
+  );
 
-  const currentNode = state ? keyNodes[state.currentNodeId] : null;
+  const handleGiveUp = useCallback(() => {
+    if (!targetPlant || result) return;
+    setChosenPlant(null);
+    setResult("incorrect");
+    setScore((s) => ({ ...s, total: s.total + 1 }));
+  }, [targetPlant, result]);
 
-  // Lookup the correct family name
-  const correctFamilyName = useMemo(() => {
-    if (!state) return "";
-    const family = families.find((f) => f.id === state.plant.familyId);
-    return family ? (lang === "en" ? family.enName : family.jaName) : "";
-  }, [state, lang]);
+  // Filtered candidate plants (from PlantFilter's active families)
+  const candidatePlants = useMemo(() => {
+    if (activeFamilyIds.size === 0) return [];
+    return quizPlants.filter((p) => activeFamilyIds.has(p.familyId));
+  }, [activeFamilyIds]);
 
   // Not started
-  if (!state) {
+  if (!targetPlant) {
     return (
       <div className="text-center py-16">
         <div className="text-6xl mb-6">🌿</div>
@@ -169,17 +125,19 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
           {t.start}
         </button>
         {score.total > 0 && (
-          <p className="text-sm text-gray-400 mt-4">{t.score(score.correct, score.total)}</p>
+          <p className="text-sm text-gray-400 mt-4">
+            {t.score(score.correct, score.total)}
+          </p>
         )}
       </div>
     );
   }
 
-  const name = plantName(state.plant, lang);
-  const famName = plantFamilyName(state.plant, lang);
+  const name = plantName(targetPlant, lang);
+  const famName = plantFamilyName(targetPlant, lang);
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div>
       {/* Score bar */}
       {score.total > 0 && (
         <div className="text-right text-sm text-gray-400 mb-2">
@@ -189,51 +147,56 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
 
       {/* Plant image */}
       <div className="rounded-2xl overflow-hidden shadow-md border border-gray-200 mb-6">
-        <div className="h-56 sm:h-72">
+        <div className="h-56 sm:h-72 relative">
           <PlantImage
-            src={state.plant.imageUrl}
+            src={targetPlant.imageUrl}
             alt={t.identifyThis}
             className="h-56 sm:h-72"
             fallbackClassName="h-56 sm:h-72 text-7xl"
             fallbackEmoji="🌿"
             width={800}
           />
+          <div className="absolute top-3 left-3 bg-black/50 text-white text-xs px-3 py-1.5 rounded-full">
+            {t.identifyThis}
+          </div>
         </div>
       </div>
 
       {/* Result display */}
-      {state.result && (
-        <div className={`rounded-xl p-5 mb-6 border ${
-          state.result === "correct"
-            ? "bg-green-50 border-green-200"
-            : "bg-red-50 border-red-200"
-        }`}>
+      {result && (
+        <div
+          className={`rounded-xl p-5 mb-6 border ${
+            result === "correct"
+              ? "bg-green-50 border-green-200"
+              : "bg-red-50 border-red-200"
+          }`}
+        >
           <div className="flex items-center gap-3 mb-3">
-            <span className="text-3xl">{state.result === "correct" ? "🎉" : "😢"}</span>
+            <span className="text-3xl">
+              {result === "correct" ? "🎉" : "😢"}
+            </span>
             <div>
-              <p className={`font-bold text-lg ${
-                state.result === "correct" ? "text-green-700" : "text-red-700"
-              }`}>
-                {state.result === "correct" ? t.correct : t.incorrect}
+              <p
+                className={`font-bold text-lg ${
+                  result === "correct" ? "text-green-700" : "text-red-700"
+                }`}
+              >
+                {result === "correct" ? t.correct : t.incorrect}
               </p>
-              {state.result === "incorrect" && (
-                <p className="text-sm text-gray-600">{t.correctAnswer(name)}</p>
+              {result === "incorrect" && (
+                <p className="text-sm text-gray-600">
+                  {t.correctAnswer(name)}
+                </p>
               )}
             </div>
           </div>
 
           <div className="bg-white rounded-lg p-3 mb-4">
             <p className="font-bold text-gray-800">{name}</p>
-            <p className="text-sm text-gray-500 italic">{state.plant.scientificName}</p>
+            <p className="text-sm text-gray-500 italic">
+              {targetPlant.scientificName}
+            </p>
             <p className="text-xs text-green-600 mt-1">{famName}</p>
-          </div>
-
-          {/* Debug info */}
-          <div className="bg-gray-100 rounded-lg p-2 mb-4 text-[10px] text-gray-500 font-mono">
-            <p>plant.familyId: {state.plant.familyId}</p>
-            <p>option.id: {state.lastChosenOption?.id}</p>
-            <p>option.resultFamilyIds: {JSON.stringify(state.lastChosenOption?.resultFamilyIds)}</p>
-            <p>includes: {String(state.lastChosenOption?.resultFamilyIds?.includes(state.plant.familyId))}</p>
           </div>
 
           <div className="flex flex-wrap gap-3">
@@ -244,7 +207,7 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
               {t.nextQuestion}
             </button>
             <Link
-              href={`/${lang}/plants/${state.plant.id}`}
+              href={`/${lang}/plants/${targetPlant.id}`}
               className="px-6 py-2.5 border border-gray-300 text-gray-600 rounded-xl hover:bg-gray-50 transition-colors text-sm"
             >
               {t.viewPlant}
@@ -253,67 +216,67 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
         </div>
       )}
 
-      {/* Question */}
-      {!state.result && currentNode && (
-        <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-5">
-          <div className="flex items-center justify-between mb-1">
-            <span className="text-xs text-gray-400">
-              {t.step(state.history.length + 1)}
-            </span>
-            {state.history.length > 0 && (
-              <button
-                onClick={handleBack}
-                className="text-xs text-gray-400 hover:text-gray-600"
-              >
-                ← {t.back}
-              </button>
-            )}
-          </div>
+      {/* Identification key (PlantFilter) */}
+      {!result && (
+        <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-5 mb-4">
+          <PlantFilter
+            key={filterKey}
+            onFilterChange={handleFilterChange}
+            lang={lang}
+          />
 
-          <h3 className="text-lg font-bold text-gray-800 mb-2">
-            {keyQuestion(currentNode, lang)}
-          </h3>
-
-          {/* Hint */}
-          {currentNode.hint && (
-            <div className="mb-4">
-              {showHint ? (
-                <p className="text-sm text-gray-500 bg-gray-50 rounded-lg p-3">
-                  {keyHint(currentNode, lang)}
-                </p>
-              ) : (
-                <button
-                  onClick={() => setShowHint(true)}
-                  className="text-xs text-blue-500 hover:text-blue-700"
-                >
-                  💡 {t.showHint}
-                </button>
-              )}
+          {/* Candidate species - clickable answer buttons */}
+          {candidatePlants.length > 0 && candidatePlants.length <= 50 && (
+            <div className="mt-6 pt-4 border-t border-dashed border-green-300">
+              <h3 className="text-xs font-bold text-green-700 uppercase tracking-wider mb-3">
+                {t.candidateSpecies(candidatePlants.length)}
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-80 overflow-y-auto">
+                {candidatePlants.map((p) => (
+                  <button
+                    key={p.id}
+                    onClick={() => handleAnswer(p)}
+                    className="flex items-center gap-2 p-2 rounded-lg border border-green-200 hover:border-green-500 hover:bg-green-50 transition-colors text-left"
+                  >
+                    <span className="w-2 h-2 rounded-full bg-green-500 flex-shrink-0" />
+                    <div className="min-w-0">
+                      <span className="text-xs font-medium text-gray-700 block truncate">
+                        {lang === "en" && p.enName ? p.enName : p.jaName}
+                      </span>
+                      <span className="text-[10px] text-gray-400 block truncate">
+                        {lang === "en"
+                          ? p.familyEnName ?? p.familyJaName
+                          : p.familyJaName}{" "}
+                        / <i>{p.scientificName}</i>
+                      </span>
+                    </div>
+                  </button>
+                ))}
+              </div>
             </div>
           )}
 
-          {/* Options */}
-          <div className="space-y-2">
-            {currentNode.options.map((option) => (
-              <button
-                key={option.id}
-                onClick={() => handleOptionClick(option)}
-                className="w-full text-left p-3.5 rounded-xl border border-gray-200 hover:border-green-400 hover:bg-green-50 transition-all text-sm text-gray-700"
-              >
-                {keyOptionLabel(option, lang)}
-              </button>
-            ))}
-          </div>
-
-          {/* Restart */}
-          {state.history.length > 0 && (
-            <button
-              onClick={startNewRound}
-              className="mt-4 text-xs text-gray-400 hover:text-gray-600"
-            >
-              {t.restart}
-            </button>
+          {candidatePlants.length > 50 && (
+            <p className="mt-4 text-xs text-gray-400">{t.narrow}</p>
           )}
+        </div>
+      )}
+
+      {/* Give up / Skip */}
+      {!result && (
+        <div className="flex justify-center gap-4">
+          <button
+            onClick={handleGiveUp}
+            className="text-xs text-gray-400 hover:text-red-500 transition-colors"
+          >
+            {t.giveUp}
+          </button>
+          <button
+            onClick={startNewRound}
+            className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            {t.skipPlant}
+          </button>
         </div>
       )}
     </div>

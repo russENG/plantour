@@ -6,7 +6,7 @@ export default async function QuizPage({ params }: { params: Promise<{ lang: str
   const locale = (lang === "en" ? "en" : "ja") as Locale;
 
   return (
-    <main className="max-w-3xl mx-auto px-4 py-10">
+    <main className="max-w-5xl mx-auto px-4 py-10">
       <QuizGame lang={locale} />
     </main>
   );
