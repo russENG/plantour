@@ -334,9 +334,17 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
               allow="autoplay; fullscreen; xr-spatial-tracking"
               allowFullScreen
             />
-            <div className="absolute top-3 left-3 bg-black/60 text-white text-xs px-3 py-1.5 rounded-full pointer-events-none">
-              {t.identifyThis}
+            {/* Full-width opaque top bar — masks Sketchfab's title/link overlay
+                that slides in on hover or interaction. Doubles as the quiz label. */}
+            <div className="absolute top-0 left-0 right-0 h-14 bg-gray-900 flex items-center justify-center px-3 z-10 border-b border-gray-700">
+              <span className="text-white text-sm font-bold">
+                {t.identifyThis}
+              </span>
             </div>
+            {/* Mask Sketchfab bottom-right watermark/link (always visible for free embeds). */}
+            <div className="absolute bottom-0 right-0 w-44 h-14 bg-gray-900 z-10" />
+            {/* Mask bottom-left author/model info that may slide in on interaction. */}
+            <div className="absolute bottom-0 left-0 w-44 h-14 bg-gray-900 z-10" />
           </div>
         </div>
       )}
