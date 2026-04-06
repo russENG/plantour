@@ -6,6 +6,8 @@ import { familyIdToTimelineEvent } from "@/data/timeline";
 import SourcesList from "@/components/SourcesList";
 import PlantImage from "@/components/PlantImage";
 import ImageAttribution from "@/components/ImageAttribution";
+import SketchfabViewer from "@/components/SketchfabViewer";
+import { sketchfabModels } from "@/data/sketchfab";
 import { getPlantEmoji } from "@/lib/emoji";
 import { getPlantAffiliateLinks } from "@/lib/affiliate";
 import { getDictionary, type Locale } from "@/dictionaries";
@@ -126,6 +128,16 @@ export default async function PlantPage({ params }: Props) {
               <p className="text-sm text-gray-700">{plantSeason(plant, locale)}</p>
             </div>
           </section>
+
+          {/* 3D 標本モデル */}
+          {sketchfabModels[plant.id] && (
+            <SketchfabViewer
+              model={sketchfabModels[plant.id]}
+              plantJaName={plant.jaName}
+              plantEnName={plant.enName}
+              locale={locale}
+            />
+          )}
 
           {/* 形態特性 */}
           {plant.traits && Object.keys(plant.traits).length > 0 && (
