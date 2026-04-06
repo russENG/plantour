@@ -6,17 +6,35 @@ import { plants } from "@/data/plants";
 import { families } from "@/data/families";
 import PlantFilter from "@/components/PlantFilter";
 import PlantImage from "@/components/PlantImage";
+import { sketchfabModels } from "@/data/sketchfab";
 import type { Plant } from "@/data/types";
 import type { Locale } from "@/dictionaries";
 import { plantName, plantFamilyName } from "@/lib/i18n-helpers";
+
+type QuizMode = "images" | "3d";
 
 // Only seed plants with images (matching key page scope)
 const quizPlants = plants.filter(
   (p) => p.imageUrl && p.traits && Object.keys(p.traits).length > 0,
 );
 
-function pickRandom(): Plant {
-  return quizPlants[Math.floor(Math.random() * quizPlants.length)];
+// Plants with an exact-match Sketchfab 3D model and traits (for 3D quiz mode).
+// Non-exact matches would reveal a different species name and mislead players.
+const quizPlants3d = plants.filter(
+  (p) =>
+    p.traits &&
+    Object.keys(p.traits).length > 0 &&
+    sketchfabModels[p.id]?.matchLevel === "exact",
+);
+
+function pickRandom(mode: QuizMode): Plant {
+  const pool = mode === "3d" ? quizPlants3d : quizPlants;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+/** Sketchfab embed URL with model info hidden (for quiz — must not reveal species name). */
+function quizSketchfabEmbedUrl(uid: string): string {
+  return `https://sketchfab.com/models/${uid}/embed?autostart=1&ui_theme=dark&transparent=1&ui_infos=0&ui_watermark=0&ui_annotations=0&ui_inspector=0&ui_help=0&ui_settings=0&ui_vr=0&ui_hint=0`;
 }
 
 /** Fetch additional images from Wikimedia Commons category for a species */
@@ -60,6 +78,14 @@ const dict = {
     skipPlant: "この植物をスキップ",
     photos: "写真",
     loadingImages: "画像を読み込み中…",
+    chooseMode: "出題形式を選択",
+    modeImages: "写真で識別",
+    modeImagesDesc: "Wikimedia Commons の複数枚の写真を見て同定します",
+    mode3d: "3D モデルで識別",
+    mode3dDesc: "九州大学の3D標本モデルを回転・拡大しながら同定します",
+    viewImages: "写真",
+    view3d: "3D モデル",
+    no3d: "この種の3Dモデルは利用できません",
   },
   en: {
     heading: "Plant Quiz",
@@ -82,6 +108,14 @@ const dict = {
     skipPlant: "Skip this plant",
     photos: "Photos",
     loadingImages: "Loading images\u2026",
+    chooseMode: "Choose quiz format",
+    modeImages: "Identify by photos",
+    modeImagesDesc: "Examine multiple photos from Wikimedia Commons",
+    mode3d: "Identify by 3D model",
+    mode3dDesc: "Rotate and zoom 3D specimen models from Kyushu University",
+    viewImages: "Photos",
+    view3d: "3D Model",
+    no3d: "No 3D model is available for this species",
   },
 };
 
@@ -90,6 +124,8 @@ type Result = "correct" | "incorrect" | null;
 export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
   const t = dict[lang];
 
+  const [quizMode, setQuizMode] = useState<QuizMode>("images");
+  const [viewMode, setViewMode] = useState<QuizMode>("images");
   const [targetPlant, setTargetPlant] = useState<Plant | null>(null);
   const [result, setResult] = useState<Result>(null);
   const [chosenPlant, setChosenPlant] = useState<Plant | null>(null);
@@ -130,12 +166,22 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
     return [original, ...filtered];
   }, [targetPlant, extraImages]);
 
-  const startNewRound = useCallback(() => {
-    setTargetPlant(pickRandom());
-    setResult(null);
-    setChosenPlant(null);
-    setFilterKey((k) => k + 1);
-  }, []);
+  const startNewRound = useCallback(
+    (mode?: QuizMode) => {
+      const m = mode ?? quizMode;
+      setQuizMode(m);
+      setViewMode(m);
+      setTargetPlant(pickRandom(m));
+      setResult(null);
+      setChosenPlant(null);
+      setFilterKey((k) => k + 1);
+    },
+    [quizMode],
+  );
+
+  // Sketchfab model for the current target (if any)
+  const sketchfabModel = targetPlant ? sketchfabModels[targetPlant.id] : undefined;
+  const has3dForCurrent = sketchfabModel?.matchLevel === "exact";
 
   const handleFilterChange = useCallback((ids: Set<string>) => {
     setActiveFamilyIds(ids);
@@ -190,8 +236,41 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
           )}
         </div>
 
+        {/* Mode selection */}
+        <div className="max-w-lg mx-auto mb-6">
+          <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-3">
+            {t.chooseMode}
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <button
+              onClick={() => setQuizMode("images")}
+              className={`p-4 rounded-xl border-2 text-left transition-colors ${
+                quizMode === "images"
+                  ? "border-green-500 bg-green-50"
+                  : "border-gray-200 hover:border-gray-300"
+              }`}
+            >
+              <div className="text-2xl mb-1">📷</div>
+              <div className="font-bold text-sm text-gray-800">{t.modeImages}</div>
+              <div className="text-[11px] text-gray-500 mt-1">{t.modeImagesDesc}</div>
+            </button>
+            <button
+              onClick={() => setQuizMode("3d")}
+              className={`p-4 rounded-xl border-2 text-left transition-colors ${
+                quizMode === "3d"
+                  ? "border-green-500 bg-green-50"
+                  : "border-gray-200 hover:border-gray-300"
+              }`}
+            >
+              <div className="text-2xl mb-1">🧊</div>
+              <div className="font-bold text-sm text-gray-800">{t.mode3d}</div>
+              <div className="text-[11px] text-gray-500 mt-1">{t.mode3dDesc}</div>
+            </button>
+          </div>
+        </div>
+
         <button
-          onClick={startNewRound}
+          onClick={() => startNewRound()}
           className="px-8 py-3 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition-colors shadow-md"
         >
           {t.start}
@@ -217,7 +296,53 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
         </div>
       )}
 
+      {/* View toggle (only when 3D model is also available) */}
+      {has3dForCurrent && (
+        <div className="flex gap-2 mb-2">
+          <button
+            onClick={() => setViewMode("images")}
+            className={`flex-1 py-2 text-xs font-bold rounded-lg border transition-colors ${
+              viewMode === "images"
+                ? "bg-green-600 text-white border-green-600"
+                : "bg-white text-gray-600 border-gray-300 hover:border-green-400"
+            }`}
+          >
+            📷 {t.viewImages}
+          </button>
+          <button
+            onClick={() => setViewMode("3d")}
+            className={`flex-1 py-2 text-xs font-bold rounded-lg border transition-colors ${
+              viewMode === "3d"
+                ? "bg-green-600 text-white border-green-600"
+                : "bg-white text-gray-600 border-gray-300 hover:border-green-400"
+            }`}
+          >
+            🧊 {t.view3d}
+          </button>
+        </div>
+      )}
+
+      {/* 3D model viewer */}
+      {viewMode === "3d" && sketchfabModel && (
+        <div className="rounded-2xl overflow-hidden shadow-md border border-gray-200 mb-4 bg-gray-900">
+          <div className="relative w-full" style={{ paddingBottom: "75%" }}>
+            <iframe
+              key={sketchfabModel.uid}
+              title={t.identifyThis}
+              src={quizSketchfabEmbedUrl(sketchfabModel.uid)}
+              className="absolute inset-0 w-full h-full"
+              allow="autoplay; fullscreen; xr-spatial-tracking"
+              allowFullScreen
+            />
+            <div className="absolute top-3 left-3 bg-black/60 text-white text-xs px-3 py-1.5 rounded-full pointer-events-none">
+              {t.identifyThis}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Plant image gallery */}
+      {viewMode === "images" && (
       <div className="rounded-2xl overflow-hidden shadow-md border border-gray-200 mb-4">
         {/* Main image */}
         <div className="h-56 sm:h-72 relative bg-gray-100">
@@ -283,6 +408,7 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
           </div>
         )}
       </div>
+      )}
 
       {/* Result display */}
       {result && (
@@ -323,7 +449,7 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
 
           <div className="flex flex-wrap gap-3">
             <button
-              onClick={startNewRound}
+              onClick={() => startNewRound()}
               className="px-6 py-2.5 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition-colors"
             >
               {t.nextQuestion}
@@ -394,7 +520,7 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
             {t.giveUp}
           </button>
           <button
-            onClick={startNewRound}
+            onClick={() => startNewRound()}
             className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
           >
             {t.skipPlant}
