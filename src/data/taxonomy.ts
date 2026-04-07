@@ -1147,6 +1147,10 @@ export const taxonomyTree: TaxonomyNode = {
                         { id: "mansaku", name: "マンサク", rank: "species", plantId: "mansaku" },
 
                       ] },
+                    { id: "altingiaceae", name: "フウ科", rank: "family", familyId: "altingiaceae", children: [
+                        { id: "fuu", name: "フウ", rank: "species", plantId: "fuu" },
+                        { id: "momijiba_fuu", name: "モミジバフウ", rank: "species", plantId: "momijiba_fuu" },
+                      ] },
                     { id: "cercidiphyllaceae", name: "カツラ科", rank: "family", familyId: "cercidiphyllaceae", children: [
 
                         { id: "katsura", name: "カツラ", rank: "species", plantId: "katsura" },

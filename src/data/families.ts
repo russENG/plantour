@@ -5673,6 +5673,53 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
+  // ── フウ科 ──────────────────────────────────────────
+  {
+    id: "altingiaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Liquidambar_styraciflua_JPG1Fu.jpg",
+    jaName: "フウ科",
+    enName: "Sweetgum family",
+    scientificName: "Altingiaceae",
+    order: "ユキノシタ目",
+    overview:
+      "落葉高木からなる小さな科で、フウ属（Liquidambar）を中心に約15種が知られる。アジア・北米・地中海東部に隔離分布する。掌状に裂ける葉と、とげ状の突起をもつ球形の集合果が特徴。日本では中国原産のフウ、北米原産のモミジバフウが街路樹・公園樹として広く植栽される。かつてはマンサク科に含まれていたが、APG II（2003）以降に独立科として分離された。",
+    enOverview: "A small family of deciduous trees, with about 15 species centered on the genus Liquidambar. Disjunctly distributed across Asia, North America, and the eastern Mediterranean. Characterized by palmately lobed leaves and spiky spherical compound fruits. In Japan, the Chinese sweetgum (Liquidambar formosana) and American sweetgum (L. styraciflua) are widely planted as street and park trees. Formerly included within Hamamelidaceae, it was separated as an independent family from APG II (2003) onward.",
+    characteristics: [
+      "落葉高木で、樹皮はしばしばコルク質で割れる",
+      "葉は互生し、掌状に3〜7裂、長い葉柄をもつ",
+      "雌雄同株で、雌花序・雄花序ともに球状",
+      "果実は木質の蒴果が集まった球形の集合果で、表面にとげ状突起",
+      "種子は小型で翼をもち、風散布",
+    ],
+    enCharacteristics: [
+      "Deciduous trees, often with corky, fissured bark",
+      "Leaves alternate, palmately 3- to 7-lobed, with long petioles",
+      "Monoecious, with both female and male inflorescences spherical",
+      "Fruit a spiky spherical aggregate of woody capsules",
+      "Seeds small and winged, dispersed by wind",
+    ],
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > ユキノシタ目 > フウ科",
+    enPhylogeneticPosition: "Angiosperms > Eudicots > Core eudicots > Saxifragales > Altingiaceae",
+    divergenceEra: "白亜紀後期（約9000万〜7000万年前）",
+    enDivergenceEra: "Late Cretaceous (approx. 90–70 million years ago)",
+    representativeGenera: [
+      "フウ属（Liquidambar）",
+    ],
+    evolutionEvents: [
+      "マンサク科からの分離独立（APG II, 2003）",
+      "アジア・北米・地中海東部への隔離分布の成立",
+    ],
+    enEvolutionEvents: [
+      "Separation from Hamamelidaceae (APG II, 2003)",
+      "Establishment of disjunct distribution across Asia, North America, and the eastern Mediterranean",
+    ],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フウ科" },
+    ],
+    japaneseSpeciesCount: 0,
+    review: { status: "ai_generated" },
+  },
+
   // ── カツラ科 ──────────────────────────────────────────
   {
     id: "cercidiphyllaceae",
