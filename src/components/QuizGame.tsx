@@ -464,6 +464,8 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
             </button>
             <Link
               href={`/${lang}/plants/${targetPlant.id}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-2.5 border border-gray-300 text-gray-600 rounded-xl hover:bg-gray-50 transition-colors text-sm"
             >
               {t.viewPlant}
