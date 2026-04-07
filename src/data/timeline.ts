@@ -63,6 +63,22 @@ export const familyIdToTimelineEvent: Record<string, string> = {
   typhaceae:       "monocot_eudicot_split",
   araceae:         "monocot_eudicot_split",
   poaceae:         "grass_origin",
+  // 追加: フウ科ほか（バラ類）
+  altingiaceae:    "rosid_diversify",
+  // 追加: ツツジ目・キク類
+  pentaphylacaceae:"asterid_diversify",
+  garryaceae:      "asterid_diversify",
+  mazaceae:        "asterid_diversify",
+  // 追加: 単子葉
+  asphodelaceae:   "monocot_eudicot_split",
+  // コケ植物（蘚類・苔類）
+  polytrichaceae:  "bryophyte_diverge",
+  bartramiaceae:   "bryophyte_diverge",
+  bryaceae:        "bryophyte_diverge",
+  hypnaceae:       "bryophyte_diverge",
+  climaciaceae:    "bryophyte_diverge",
+  marchantiaceae:  "bryophyte_diverge",
+  conocephalaceae: "bryophyte_diverge",
 };
 
 export const timelineEvents: TimelineEvent[] = [
@@ -92,6 +108,93 @@ export const timelineEvents: TimelineEvent[] = [
         label: "Great Oxidation Event – Wikipedia EN",
         url: "https://en.wikipedia.org/wiki/Great_Oxidation_Event",
         note: "accepted range 2460–2060 Ma",
+      },
+    ],
+    review: { status: "reviewed" },
+  },
+  {
+    id: "mitochondria_endosymbiosis",
+    era: "原生代",
+    enEra: "Proterozoic",
+    mya: 1800,
+    title: "ミトコンドリアの共生",
+    enTitle: "Mitochondrial Endosymbiosis",
+    summary:
+      "酸素を使ってエネルギーを作るバクテリア（α-プロテオバクテリア）が別の細胞の中に住みつき、やがて「ミトコンドリア」という細胞の発電所になりました。これが真核生物（核を持つ生き物）の始まりです。",
+    enSummary:
+      "An oxygen-using bacterium (an alpha-proteobacterium) moved inside another cell and eventually became the 'mitochondrion' — the powerhouse of the cell. This was the beginning of eukaryotes, the cells with nuclei from which all plants and animals descend.",
+    description:
+      "好気性のα-プロテオバクテリアが古細菌系統の宿主細胞に取り込まれ、ミトコンドリアへと進化した「一次共生（serial endosymbiosis）」事件。化石・分子時計証拠から約20億〜15億年前に起きたとされ、最古の真核生物化石（*Grypania* など）は約1.85 Ga。ミトコンドリアの獲得により細胞は酸素呼吸で大量のATPを得られるようになり、複雑な真核生物進化の前提となった。植物・動物・菌類を含むすべての真核生物の共通祖先がもつ。",
+    enDescription:
+      "An aerobic alpha-proteobacterium was engulfed by an archaeal host cell and evolved into the mitochondrion — the foundational event of eukaryotic evolution (serial endosymbiosis theory, Margulis 1967). Fossil and molecular-clock evidence place this between roughly 2.0 and 1.5 Ga; the oldest probable eukaryotic fossils (*Grypania*) are about 1.85 Ga. Mitochondria enabled large-scale ATP production via oxygen respiration, a prerequisite for complex eukaryotic life. Every eukaryote — plants, animals, and fungi — inherits this single ancient symbiosis.",
+    isMajor: true,
+    section: "prehistory",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Animal_mitochondrion_diagram_en.svg",
+    color: "#7c3aed",
+    sources: [
+      {
+        type: "wikipedia_en",
+        label: "Symbiogenesis – Wikipedia EN",
+        url: "https://en.wikipedia.org/wiki/Symbiogenesis",
+        note: "mitochondrial origin ~2.0–1.5 Ga; alphaproteobacterial ancestor",
+      },
+    ],
+    review: { status: "reviewed" },
+  },
+  {
+    id: "plastid_endosymbiosis",
+    era: "原生代",
+    enEra: "Proterozoic",
+    mya: 1600,
+    title: "葉緑体の共生（植物の誕生）",
+    enTitle: "Plastid Endosymbiosis (Birth of Plants)",
+    summary:
+      "光合成をするバクテリア（シアノバクテリア）が、すでにミトコンドリアを持っていた細胞の中に取り込まれて「葉緑体」になりました。これが「植物（の祖先）」が生まれた瞬間です。",
+    enSummary:
+      "A photosynthetic bacterium (a cyanobacterium) was taken inside a cell that already had mitochondria, and became the 'chloroplast.' This was the very moment that the ancestor of all plants was born.",
+    description:
+      "シアノバクテリアが既存の真核細胞（ミトコンドリアを持つもの）に取り込まれ、葉緑体（プラスチド）として定着した「一次プラスチド共生（primary plastid endosymbiosis）」事件。約16〜10億年前に1度だけ起きたと考えられ、緑色植物（緑藻＋陸上植物）・紅藻・灰色藻を含む系統「アーケプラスチダ（Archaeplastida）」の共通祖先が生まれた。葉緑体ゲノムはシアノバクテリアと相同。後の二次・三次共生によって藻類の多くの系統に光合成能力が伝播した。",
+    enDescription:
+      "A cyanobacterium was engulfed by a eukaryotic host (already containing mitochondria) and became established as the chloroplast (plastid) — the primary plastid endosymbiosis. This is thought to have occurred only once, between approximately 1.6 and 1.0 Ga, giving rise to the common ancestor of Archaeplastida: green plants (green algae plus land plants), red algae, and glaucophytes. Chloroplast genomes remain homologous to cyanobacterial DNA. Later secondary and tertiary endosymbioses spread photosynthesis to many other algal lineages.",
+    isMajor: true,
+    section: "prehistory",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Plagiomnium_affine_laminazellen.jpeg",
+    color: "#16a34a",
+    sources: [
+      {
+        type: "wikipedia_en",
+        label: "Plastid – Wikipedia EN",
+        url: "https://en.wikipedia.org/wiki/Plastid",
+        note: "primary endosymbiosis ~1.6–1.0 Ga; single origin of Archaeplastida",
+      },
+    ],
+    review: { status: "reviewed" },
+  },
+  {
+    id: "snowball_earth",
+    era: "クライオジェニアン",
+    enEra: "Cryogenian",
+    mya: 700,
+    title: "全球凍結（スノーボールアース）",
+    enTitle: "Snowball Earth",
+    summary:
+      "地球全体が赤道までほぼ氷で覆われた時代がありました。生き物には大ピンチでしたが、この凍結を乗り越えた後に多細胞生物が一気に多様化しました。",
+    enSummary:
+      "There was a time when nearly the entire Earth — even the equator — was covered in ice. It was a tough crisis for life, but after surviving the freeze, multicellular organisms exploded in diversity.",
+    description:
+      "クライオジェニアン紀（約720–635 Ma）に、氷床が赤道域まで達したとされる地球規模の氷河期。スターチアン氷期（~717–660 Ma）とマリノアン氷期（~650–635 Ma）の少なくとも2回起きた。海洋化学・大気CO₂・酸素レベルが大きく変動し、解氷後のエディアカラ紀には多細胞真核生物が急速に多様化した。",
+    enDescription:
+      "Global glaciation events during the Cryogenian (~720–635 Ma), when ice sheets are thought to have extended to the equator. At least two episodes occurred: the Sturtian (~717–660 Ma) and the Marinoan (~650–635 Ma). Ocean chemistry, atmospheric CO\u2082, and oxygen levels fluctuated dramatically, and the deglaciation was followed by the rapid diversification of multicellular eukaryotes during the Ediacaran.",
+    isMajor: false,
+    section: "prehistory",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Snowball_Earth.jpg",
+    color: "#60a5fa",
+    sources: [
+      {
+        type: "wikipedia_en",
+        label: "Snowball Earth – Wikipedia EN",
+        url: "https://en.wikipedia.org/wiki/Snowball_Earth",
+        note: "Sturtian 717–660 Ma, Marinoan 650–635 Ma",
       },
     ],
     review: { status: "reviewed" },
@@ -487,6 +590,175 @@ export const timelineEvents: TimelineEvent[] = [
         label: "Poaceae – Wikipedia EN",
         url: "https://en.wikipedia.org/wiki/Poaceae",
         note: "oldest confirmed microfossils Albian ~113–100 Ma; dinosaur coprolite evidence ~66 Ma",
+      },
+    ],
+    review: { status: "reviewed" },
+  },
+
+  {
+    id: "mycorrhiza_origin",
+    era: "デボン紀前期",
+    enEra: "Early Devonian",
+    mya: 407,
+    title: "菌根（植物と菌の共生）の確立",
+    enTitle: "Origin of Mycorrhizal Symbiosis",
+    summary:
+      "植物の根と菌（カビのなかま）が手を組むしくみ「菌根」がはっきりと残されています。植物は栄養を、菌は糖を受け取る助け合いで、植物の陸上進出を支えました。",
+    enSummary:
+      "Plant roots and fungi formed a partnership called 'mycorrhiza,' clearly preserved in fossils. Plants get nutrients, fungi get sugars — a mutual help that powered the colonization of land.",
+    description:
+      "スコットランドのライニーチャート（約407 Ma、前期デボン紀）から、現生のアーバスキュラー菌根（AM菌、グロムス門）と同じ構造をもつ菌根化石が発見されている。菌は植物にリン酸など土壌養分を、植物は菌に光合成産物を供給する相互共生で、最初期の陸上植物が貧栄養の土壌に進出する上で決定的な役割を果たした。現在も陸上植物の80%以上が何らかの菌根を形成する。",
+    enDescription:
+      "Fossils from the Rhynie chert in Scotland (~407 Ma, Early Devonian) preserve mycorrhizal structures essentially identical to modern arbuscular mycorrhizae (AM fungi, Glomeromycota). In this mutualism the fungus supplies the plant with phosphate and other soil nutrients, while the plant provides photosynthate. It was decisive in enabling the earliest land plants to thrive on nutrient-poor soils, and over 80% of extant land plants still form some kind of mycorrhizal association.",
+    isMajor: false,
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Arbuscular_mycorrhiza_microscope.jpg",
+    color: "#a16207",
+    sources: [
+      {
+        type: "wikipedia_en",
+        label: "Mycorrhiza – Wikipedia EN",
+        url: "https://en.wikipedia.org/wiki/Mycorrhiza",
+        note: "Rhynie chert ~407 Ma; Glomeromycota arbuscular mycorrhizae",
+      },
+    ],
+    review: { status: "reviewed" },
+  },
+  {
+    id: "first_forests",
+    era: "デボン紀後期",
+    enEra: "Late Devonian",
+    mya: 385,
+    title: "最初の森林の出現",
+    enTitle: "Origin of the First Forests",
+    summary:
+      "高さ10m以上にもなる「本物の木」が地球に初めて現れました。アルカエオプテリスという木は、根を深く張って大地の風景を一変させました。",
+    enSummary:
+      "True trees over 10 meters tall appeared on Earth for the first time. *Archaeopteris* spread deep roots and completely transformed the landscape.",
+    description:
+      "*Archaeopteris*（アルカエオプテリス、前裸子植物）が後期デボン紀に出現し、樹高20–30m、深根をもつ初の本格的な樹木として地球史上最初の森林を形成。同時期にニューヨーク州ギルボアの化石林（*Eospermatopteris*、約385 Ma）も知られる。森林の出現は土壌形成を加速し、大気CO₂を急減させ、後期デボン紀の地球寒冷化と海洋無酸素事件にも影響したと考えられる。",
+    enDescription:
+      "*Archaeopteris*, a progymnosperm, appeared in the Late Devonian as the first true tree — reaching 20–30 m in height with deep root systems and forming Earth's first real forests. The Gilboa fossil forest in New York (*Eospermatopteris*, ~385 Ma) dates from the same interval. The rise of forests accelerated soil formation, drew down atmospheric CO\u2082 sharply, and is thought to have contributed to Late Devonian cooling and ocean anoxia.",
+    isMajor: false,
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Archaeopteris_hibernica.jpg",
+    color: "#15803d",
+    sources: [
+      {
+        type: "wikipedia_en",
+        label: "Archaeopteris – Wikipedia EN",
+        url: "https://en.wikipedia.org/wiki/Archaeopteris",
+      },
+    ],
+    review: { status: "reviewed" },
+  },
+  {
+    id: "carboniferous_coal_forest",
+    era: "石炭紀",
+    enEra: "Carboniferous",
+    mya: 310,
+    title: "石炭紀の巨大森林と高酸素大気",
+    enTitle: "Carboniferous Coal Forests and High-Oxygen Atmosphere",
+    summary:
+      "シダや木性シダの巨大な森が地球を覆い、その遺骸が地中に埋もれて石炭となりました。大気中の酸素は今より高い約30%にまで上がり、巨大な昆虫が飛び回りました。",
+    enSummary:
+      "Vast forests of giant ferns and tree ferns covered Earth, and their remains piled up to become coal. Atmospheric oxygen rose to about 30% — higher than today — and giant insects flew through the skies.",
+    description:
+      "石炭紀（359–299 Ma）には鱗木（*Lepidodendron*）・蘆木（*Calamites*）・木性シダなどが熱帯湿地で巨大な森林を形成。リグニンを分解する菌類がまだ十分発達していなかったため、植物遺骸が分解されずに堆積し石炭層となった。大気中O₂濃度は約30%にまで上昇し、メガネウラ（翼開長70cm級のトンボ類）など巨大節足動物が栄えた。",
+    enDescription:
+      "During the Carboniferous (359–299 Ma), tropical wetlands were dominated by enormous lycopsid trees (*Lepidodendron*), giant horsetails (*Calamites*), and tree ferns. Because lignin-degrading fungi had not yet fully evolved, plant remains accumulated undecayed and were buried as the world's principal coal deposits. Atmospheric O\u2082 climbed to roughly 30%, supporting giant arthropods such as *Meganeura* (a dragonfly relative with a 70-cm wingspan).",
+    isMajor: false,
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Meyers_b15_s0272a.jpg",
+    color: "#166534",
+    groupId: "ferns",
+    sources: [
+      {
+        type: "wikipedia_en",
+        label: "Carboniferous – Wikipedia EN",
+        url: "https://en.wikipedia.org/wiki/Carboniferous",
+      },
+    ],
+    review: { status: "reviewed" },
+  },
+  {
+    id: "pt_extinction",
+    era: "ペルム紀末",
+    enEra: "End-Permian",
+    mya: 252,
+    title: "P-T 境界・史上最大の大量絶滅",
+    enTitle: "End-Permian Mass Extinction",
+    summary:
+      "地球史上もっともひどい絶滅事件で、海の生き物の約9割が消えました。陸の植物の世界もリセットされ、その後にソテツや針葉樹の時代が本格的に始まりました。",
+    enSummary:
+      "The worst extinction event in Earth's history wiped out about 90% of marine species. Land plant communities were reset, and afterwards the age of cycads and conifers began in earnest.",
+    description:
+      "約2億5190万年前のペルム紀末に起きた史上最大の大量絶滅。シベリア・トラップの大規模火山活動による温室効果と海洋酸性化・海洋無酸素化が原因とされる。海洋無脊椎動物の約81%、陸上脊椎動物の約70%が絶滅。陸上植物相も大きく入れ替わり、グロッソプテリス相が消え、中生代型の裸子植物（ソテツ・針葉樹）が優勢となった。",
+    enDescription:
+      "The largest mass extinction in Earth's history, ~251.9 Ma at the Permian–Triassic boundary. It is attributed to massive volcanism of the Siberian Traps, which triggered greenhouse warming, ocean acidification, and ocean anoxia. About 81% of marine invertebrate species and ~70% of terrestrial vertebrate species went extinct. Land floras turned over dramatically: the Glossopteris flora vanished, and Mesozoic-type gymnosperms (cycads, conifers) came to dominate.",
+    isMajor: false,
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Extinction_intensity.svg",
+    color: "#991b1b",
+    sources: [
+      {
+        type: "wikipedia_en",
+        label: "Permian–Triassic extinction event – Wikipedia EN",
+        url: "https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event",
+        note: "251.9 Ma; Siberian Traps trigger",
+      },
+    ],
+    review: { status: "reviewed" },
+  },
+  {
+    id: "kpg_extinction",
+    era: "白亜紀末",
+    enEra: "End-Cretaceous",
+    mya: 66,
+    title: "K-Pg 境界・恐竜の絶滅",
+    enTitle: "K–Pg Extinction (End of the Dinosaurs)",
+    summary:
+      "巨大隕石がメキシコのユカタン半島に衝突し、恐竜（鳥以外）が絶滅しました。植物の世界では一時的にシダが大繁殖（シダスパイク）し、その後 被子植物がさらに広がっていきました。",
+    enSummary:
+      "A giant asteroid struck the Yucatán Peninsula in Mexico, ending the age of (non-avian) dinosaurs. In the plant world, ferns briefly bloomed everywhere (the 'fern spike'), and afterwards angiosperms spread even further.",
+    description:
+      "約6600万年前、直径約10kmの小惑星がメキシコ・ユカタン半島（チクシュルーブ・クレーター）に衝突し、白亜紀–古第三紀（K-Pg）境界の大量絶滅を引き起こした。鳥類を除く恐竜・アンモナイト・多くの海生爬虫類が絶滅。境界層直上では一時的にシダ胞子が異常に増える「シダスパイク」が世界中で観察される。被子植物は大きな打撃を受けつつも回復し、新生代に向けて多様性をさらに増した。",
+    enDescription:
+      "Approximately 66 Ma, a ~10 km asteroid struck the Yucatán Peninsula in Mexico (Chicxulub crater), causing the Cretaceous–Paleogene (K–Pg) mass extinction. Non-avian dinosaurs, ammonites, and many marine reptiles went extinct. Just above the boundary layer, a worldwide 'fern spike' of anomalously abundant fern spores is recorded. Angiosperms suffered heavy losses but recovered and diversified further heading into the Cenozoic.",
+    isMajor: false,
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chicxulub_impact_-_artist_impression.jpg",
+    color: "#dc2626",
+    sources: [
+      {
+        type: "wikipedia_en",
+        label: "Cretaceous–Paleogene extinction event – Wikipedia EN",
+        url: "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event",
+        note: "Chicxulub impact ~66 Ma",
+      },
+    ],
+    review: { status: "reviewed" },
+  },
+  {
+    id: "c4_evolution",
+    era: "漸新世〜中新世",
+    enEra: "Oligocene\u2013Miocene",
+    mya: 30,
+    title: "C4光合成の進化と草原の拡大",
+    enTitle: "Evolution of C\u2084 Photosynthesis and Grassland Expansion",
+    summary:
+      "イネ科の一部の植物が、暑くて乾いた場所でも効率よく光合成できる「C4」という新しいしくみを発明しました。これがサバンナや大草原を作り、馬やシマウマが進化する舞台を整えました。",
+    enSummary:
+      "Some grasses invented a new 'C4' photosynthesis pathway that works efficiently even in hot, dry places. This created savannas and prairies, setting the stage for horses and zebras to evolve.",
+    description:
+      "C4光合成は CO₂をいったん4炭素化合物として濃縮することで、高温・低CO₂条件でも光呼吸ロスを減らせる代謝経路。最古の証拠は漸新世（約30 Ma）にさかのぼり、独立に60回以上進化したと考えられる。中新世後期（約8–3 Ma）にはC4イネ科草本が急速に広がり、サバンナ・ステップ・大草原を形成。これに伴い有蹄類（馬・ウシ）の歯や脚も草食適応した。",
+    enDescription:
+      "C\u2084 photosynthesis concentrates CO\u2082 by first fixing it into 4-carbon compounds, reducing photorespiratory losses under hot, low-CO\u2082 conditions. The earliest evidence dates to the Oligocene (~30 Ma), and the pathway has evolved independently more than 60 times. In the late Miocene (~8–3 Ma), C\u2084 grasses spread rapidly and formed savannas, steppes, and prairies. Ungulates (horses, cattle) co-evolved teeth and limbs adapted to grazing in these new ecosystems.",
+    isMajor: false,
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Serengeti_Lion_Running_saturated.jpg",
+    color: "#84cc16",
+    groupId: "monocots",
+    sources: [
+      {
+        type: "wikipedia_en",
+        label: "C4 carbon fixation – Wikipedia EN",
+        url: "https://en.wikipedia.org/wiki/C4_carbon_fixation",
+        note: "oldest C4 ~30 Ma; grassland expansion 8–3 Ma",
       },
     ],
     review: { status: "reviewed" },
