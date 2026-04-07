@@ -123,7 +123,11 @@ export default function TaxonomyTree({ data }: Props) {
           .attr("font-size", d => {
             const base = d.depth <= 1 ? 13 : d.depth <= 3 ? 11 : 9;
             const minScreenPx = d.depth <= 2 ? 11 : 0;
-            return Math.max(7, Math.max(minScreenPx / k, base));
+            // Screen-pixel cap: at high zoom, labels would otherwise grow as base*k
+            // and overlap so badly that scheduleHideOverlapping hides large numbers of them.
+            // Cap with an inverse-scale ceiling so on-screen size stays bounded.
+            const maxScreenPx = d.depth <= 1 ? 18 : d.depth <= 3 ? 16 : 14;
+            return Math.max(minScreenPx / k, Math.min(base, maxScreenPx / k));
           });
         rafId = null;
       });
