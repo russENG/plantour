@@ -22,8 +22,43 @@ export const taxonomyTree: TaxonomyNode = {
       description: "維管束をもたない陸上植物。蘚類・苔類・ツノゴケ類からなる。",
       imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Tortula_muralis_Habitus.jpeg",
       children: [
-        { id: "musci", name: "蘚類（スギゴケなど）", rank: "class", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Polytrichum_commune.jpg" },
-        { id: "hepaticae", name: "苔類（ゼニゴケなど）", rank: "class", imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Marchantia_polymorpha.jpg" },
+        {
+          id: "musci",
+          name: "蘚類（スギゴケなど）",
+          rank: "class",
+          imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Polytrichum_commune.jpg",
+          children: [
+            { id: "polytrichaceae", name: "スギゴケ科", rank: "family", familyId: "polytrichaceae", children: [
+                { id: "kosugigoke", name: "コスギゴケ", rank: "species", plantId: "kosugigoke" },
+              ] },
+            { id: "bartramiaceae", name: "タマゴケ科", rank: "family", familyId: "bartramiaceae", children: [
+                { id: "tamagoke", name: "タマゴケ", rank: "species", plantId: "tamagoke" },
+              ] },
+            { id: "bryaceae", name: "ハリガネゴケ科", rank: "family", familyId: "bryaceae", children: [
+                { id: "ookasagoke", name: "オオカサゴケ", rank: "species", plantId: "ookasagoke" },
+              ] },
+            { id: "hypnaceae", name: "ハイゴケ科", rank: "family", familyId: "hypnaceae", children: [
+                { id: "kusagoke", name: "クサゴケ", rank: "species", plantId: "kusagoke" },
+              ] },
+            { id: "climaciaceae", name: "コウヤノマンネングサ科", rank: "family", familyId: "climaciaceae", children: [
+                { id: "kouya_mannengusa", name: "コウヤノマンネングサ", rank: "species", plantId: "kouya_mannengusa" },
+              ] },
+          ],
+        },
+        {
+          id: "hepaticae",
+          name: "苔類（ゼニゴケなど）",
+          rank: "class",
+          imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Marchantia_polymorpha.jpg",
+          children: [
+            { id: "marchantiaceae", name: "ゼニゴケ科", rank: "family", familyId: "marchantiaceae", children: [
+                { id: "zenigoke", name: "ゼニゴケ", rank: "species", plantId: "zenigoke" },
+              ] },
+            { id: "conocephalaceae", name: "ジャゴケ科", rank: "family", familyId: "conocephalaceae", children: [
+                { id: "jagoke", name: "ジャゴケ", rank: "species", plantId: "jagoke" },
+              ] },
+          ],
+        },
         { id: "anthocerotae", name: "ツノゴケ類", rank: "class" },
       ],
     },
@@ -823,6 +858,12 @@ export const taxonomyTree: TaxonomyNode = {
                     { id: "aloe", name: "アロエ", rank: "species", plantId: "aloe" },
 
                   ] },
+                { id: "asphodelaceae", name: "ワスレグサ科", rank: "family", familyId: "asphodelaceae", children: [
+                    { id: "yabukanzou", name: "ヤブカンゾウ", rank: "species", plantId: "yabukanzou" },
+                    { id: "ezo_kisuge", name: "エゾキスゲ", rank: "species", plantId: "ezo_kisuge" },
+                    { id: "ezo_zenteika", name: "エゾゼンテイカ", rank: "species", plantId: "ezo_zenteika" },
+                    { id: "nokanzou", name: "ノカンゾウ", rank: "species", plantId: "nokanzou" },
+                  ] },
               ],
             },
             {
@@ -1436,6 +1477,7 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "sakura", name: "ソメイヨシノ", rank: "species", plantId: "sakura" },
                                 { id: "ume", name: "ウメ", rank: "species", plantId: "ume" },
                                 { id: "noibara", name: "ノイバラ", rank: "species", plantId: "noibara" },
+                                { id: "tsukushi_ibara", name: "ツクシイバラ", rank: "species", plantId: "tsukushi_ibara" },
                               ],
                             },
                             {
@@ -1904,6 +1946,9 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "tocyuu", name: "トチュウ", rank: "species", plantId: "tocyuu" },
 
                               ] },
+                            { id: "garryaceae", name: "ガリア科", rank: "family", familyId: "garryaceae", children: [
+                                { id: "aoki", name: "アオキ", rank: "species", plantId: "aoki" },
+                              ] },
                           ],
                         },
                         {
@@ -2020,6 +2065,9 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "haedoku_sou", name: "ハエドクソウ", rank: "species", plantId: "haedoku_sou" },
 
                               ] },
+                            { id: "mazaceae", name: "サギゴケ科", rank: "family", familyId: "mazaceae", children: [
+                                { id: "sagigoke", name: "サギゴケ", rank: "species", plantId: "sagigoke" },
+                              ] },
                             { id: "orobanchaceae", name: "ハマウツボ科", rank: "family", familyId: "orobanchaceae", children: [
 
                                 { id: "nanban_giseru", name: "ナンバンギセル", rank: "species", plantId: "nanban_giseru" },
@@ -2089,6 +2137,10 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "sazanka", name: "サザンカ", rank: "species", plantId: "sazanka" },
                               ],
                             },
+                            { id: "pentaphylacaceae", name: "サカキ科", rank: "family", familyId: "pentaphylacaceae", children: [
+                                { id: "sakaki", name: "サカキ", rank: "species", plantId: "sakaki" },
+                                { id: "hisakaki", name: "ヒサカキ", rank: "species", plantId: "hisakaki" },
+                              ] },
                             { id: "balsaminaceae", name: "ツリフネソウ科", rank: "family", familyId: "balsaminaceae", children: [
 
                                 { id: "tsurifune_sou", name: "ツリフネソウ", rank: "species", plantId: "tsurifune_sou" },

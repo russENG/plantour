@@ -10287,4 +10287,438 @@ export const families: Family[] = [
     japaneseSpeciesCount: 1,
     review: { status: "ai_generated" },
   },
+
+  // ── ワスレグサ科 ────────────────────────────────────
+  {
+    id: "asphodelaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hemerocallis_fulva.jpg",
+    jaName: "ワスレグサ科",
+    enName: "Daylily / Asphodel family",
+    scientificName: "Asphodelaceae",
+    order: "キジカクシ目",
+    overview:
+      "APG IV でツルボラン科・アロエ科・ワスレグサ科（ヘメロカリス科）を統合した科。日本ではワスレグサ属（ヤブカンゾウ・ノカンゾウ・エゾキスゲなど）が湿原や草地に広く自生する。多くは1日花で、夏に咲く。",
+    enOverview: "Under APG IV, this family unites the former Xanthorrhoeaceae, Aloeaceae, and Hemerocallidaceae. In Japan, daylilies (Hemerocallis) are widely distributed in wetlands and grasslands. Many species bear short-lived (one-day) flowers in summer.",
+    characteristics: [
+      "葉は線形または剣状で根元から束生",
+      "花は3数性、6枚の花被片、しばしばラッパ状",
+      "1日花が多く、開花期間は短い",
+      "果実は蒴果",
+    ],
+    enCharacteristics: [
+      "Leaves linear or sword-shaped, clustered at the base",
+      "Flowers trimerous with 6 tepals, often funnel-shaped",
+      "Many flowers are ephemeral, lasting only one day",
+      "Fruit is a capsule",
+    ],
+    phylogeneticPosition: "被子植物 > 単子葉類 > キジカクシ目 > ワスレグサ科",
+    enPhylogeneticPosition: "Angiosperms > Monocots > Asparagales > Asphodelaceae",
+    divergenceEra: "白亜紀後期",
+    enDivergenceEra: "Late Cretaceous",
+    representativeGenera: [
+      "ワスレグサ属（Hemerocallis）",
+      "ツルボラン属（Asphodelus）",
+    ],
+    evolutionEvents: [
+      "1日花による効率的な送粉戦略の進化",
+    ],
+    enEvolutionEvents: [
+      "Evolution of one-day flowers as an efficient pollination strategy",
+    ],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ワスレグサ科" },
+    ],
+    review: { status: "ai_generated" },
+  },
+
+  // ── ガリア科 ────────────────────────────────────────
+  {
+    id: "garryaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aucuba_japonica1.jpg",
+    jaName: "ガリア科",
+    enName: "Silk-tassel family",
+    scientificName: "Garryaceae",
+    order: "ガリア目",
+    overview:
+      "常緑の低木〜小高木からなる小さな科。アオキ属（Aucuba）とガリア属（Garrya）の2属からなり、日本ではアオキが林床に広く分布する。雌雄異株で、雌株は赤い液果をつける。APG II 以降にアオキ科（Aucubaceae）を統合した。",
+    enOverview: "A small family of evergreen shrubs and small trees comprising two genera, Aucuba and Garrya. In Japan, Aucuba japonica is widespread in the forest understory. Plants are dioecious; female plants bear red berries. APG II merged the former Aucubaceae into this family.",
+    characteristics: [
+      "常緑、葉は対生で革質",
+      "雌雄異株",
+      "雌花序・雄花序ともに尾状花序",
+      "果実は赤色の液果",
+    ],
+    enCharacteristics: [
+      "Evergreen with opposite, leathery leaves",
+      "Dioecious",
+      "Both female and male inflorescences are catkin-like",
+      "Fruit is a red berry",
+    ],
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > キク類 > ラミアナ類 > ガリア目 > ガリア科",
+    enPhylogeneticPosition: "Angiosperms > Eudicots > Asterids > Lamiids > Garryales > Garryaceae",
+    divergenceEra: "古第三紀",
+    enDivergenceEra: "Paleogene",
+    representativeGenera: [
+      "アオキ属（Aucuba）",
+      "ガリア属（Garrya）",
+    ],
+    evolutionEvents: [
+      "アオキ科（Aucubaceae）との統合（APG II, 2003）",
+    ],
+    enEvolutionEvents: [
+      "Merger with the former Aucubaceae (APG II, 2003)",
+    ],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ガリア科" },
+    ],
+    review: { status: "ai_generated" },
+  },
+
+  // ── サギゴケ科 ──────────────────────────────────────
+  {
+    id: "mazaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Mazus_miquelii.jpg",
+    jaName: "サギゴケ科",
+    enName: "Mazaceae",
+    scientificName: "Mazaceae",
+    order: "シソ目",
+    overview:
+      "小型の多年草からなる科で、日本ではサギゴケ・トキワハゼなどが田の畔や湿った草地に普通に見られる。かつてはゴマノハグサ科、その後ハエドクソウ科に含まれていたが、分子系統解析により独立科として APG IV で認知された。",
+    enOverview: "A family of small perennial herbs. In Japan, Mazus miquelii and Mazus pumilus are common in paddy edges and damp grasslands. Formerly placed in Scrophulariaceae, then in Phrymaceae, the group was recognized as an independent family in APG IV based on molecular phylogenetics.",
+    characteristics: [
+      "草本で匍匐茎をもつものが多い",
+      "葉は対生またはロゼット状",
+      "唇形花、紫または白",
+      "蒴果",
+    ],
+    enCharacteristics: [
+      "Herbaceous, often with creeping stems",
+      "Leaves opposite or in basal rosettes",
+      "Flowers two-lipped, purple or white",
+      "Fruit a capsule",
+    ],
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > キク類 > ラミアナ類 > シソ目 > サギゴケ科",
+    enPhylogeneticPosition: "Angiosperms > Eudicots > Asterids > Lamiids > Lamiales > Mazaceae",
+    divergenceEra: "古第三紀",
+    enDivergenceEra: "Paleogene",
+    representativeGenera: [
+      "サギゴケ属（Mazus）",
+    ],
+    evolutionEvents: [
+      "ハエドクソウ科からの分離独立（APG IV, 2016）",
+    ],
+    enEvolutionEvents: [
+      "Separation from Phrymaceae (APG IV, 2016)",
+    ],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サギゴケ科" },
+    ],
+    review: { status: "ai_generated" },
+  },
+
+  // ── サカキ科 ────────────────────────────────────────
+  {
+    id: "pentaphylacaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cleyera_japonica1.jpg",
+    jaName: "サカキ科",
+    enName: "Pentaphylacaceae",
+    scientificName: "Pentaphylacaceae",
+    order: "ツツジ目",
+    overview:
+      "常緑の木本からなる科で、日本ではサカキ・ヒサカキが照葉樹林に普通に分布する。サカキは古来より神事に用いられる神聖な木として知られる。かつてはツバキ科に含まれていたが、APG II 以降にサカキ亜科を独立科として分離。",
+    enOverview: "A family of evergreen trees and shrubs. In Japan, Cleyera japonica (sakaki) and Eurya japonica (hisakaki) are common in evergreen broad-leaved forests. Sakaki has been used in Shinto rituals as a sacred tree since ancient times. Originally part of Theaceae, the subfamily was separated as an independent family from APG II onward.",
+    characteristics: [
+      "常緑で葉は互生、革質",
+      "花は小型で白色〜淡黄色、5数性",
+      "果実は液果または蒴果",
+      "雌雄異株または両性",
+    ],
+    enCharacteristics: [
+      "Evergreen with alternate, leathery leaves",
+      "Flowers small, white to pale yellow, 5-merous",
+      "Fruits are berries or capsules",
+      "Dioecious or hermaphroditic",
+    ],
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > キク類 > ツツジ目 > サカキ科",
+    enPhylogeneticPosition: "Angiosperms > Eudicots > Asterids > Ericales > Pentaphylacaceae",
+    divergenceEra: "白亜紀後期",
+    enDivergenceEra: "Late Cretaceous",
+    representativeGenera: [
+      "サカキ属（Cleyera）",
+      "ヒサカキ属（Eurya）",
+    ],
+    evolutionEvents: [
+      "ツバキ科からの分離独立（APG II, 2003）",
+    ],
+    enEvolutionEvents: [
+      "Separation from Theaceae (APG II, 2003)",
+    ],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サカキ科" },
+    ],
+    review: { status: "ai_generated" },
+  },
+
+  // ── スギゴケ科 ──────────────────────────────────────
+  {
+    id: "polytrichaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Polytrichum_commune.jpg",
+    jaName: "スギゴケ科",
+    enName: "Haircap moss family",
+    scientificName: "Polytrichaceae",
+    order: "スギゴケ目",
+    overview:
+      "蘚類の中では大型で立ち上がる茎をもつ独特な科。葉に縦走するラメラ（薄板）があり、内部に水を保持して乾燥に耐える。日本ではスギゴケ・コスギゴケが庭園・林床で広く見られる。",
+    enOverview: "A distinctive moss family with relatively large, erect stems. Leaves bear longitudinal lamellae that retain water internally, helping the plants withstand drought. In Japan, Polytrichum and Pogonatum are commonly seen in gardens and forest floors.",
+    characteristics: [
+      "茎は直立し、しばしば数cmに達する",
+      "葉に縦走するラメラ（薄板）をもつ",
+      "胞子体（蒴）に毛のような帽（カリプトラ）をかぶる",
+    ],
+    enCharacteristics: [
+      "Erect stems, often several centimeters tall",
+      "Leaves bear longitudinal lamellae (vertical plates)",
+      "Sporophyte capsule covered by a hairy calyptra",
+    ],
+    phylogeneticPosition: "コケ植物 > 蘚類 > スギゴケ目 > スギゴケ科",
+    enPhylogeneticPosition: "Bryophyta > Mosses > Polytrichales > Polytrichaceae",
+    divergenceEra: "石炭紀以降",
+    enDivergenceEra: "Carboniferous onward",
+    representativeGenera: [
+      "スギゴケ属（Polytrichum）",
+      "コスギゴケ属（Pogonatum）",
+    ],
+    evolutionEvents: [
+      "ラメラによる内部貯水機構の獲得",
+    ],
+    enEvolutionEvents: [
+      "Acquisition of internal water storage via lamellae",
+    ],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スギゴケ科" },
+    ],
+    review: { status: "ai_generated" },
+  },
+
+  // ── タマゴケ科 ──────────────────────────────────────
+  {
+    id: "bartramiaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Bartramia_pomiformis.jpg",
+    jaName: "タマゴケ科",
+    enName: "Apple moss family",
+    scientificName: "Bartramiaceae",
+    order: "ハリガネゴケ目",
+    overview:
+      "蘚類の科で、球形の蒴（さく）が熟すと小さなリンゴのように見えることから英名は「Apple moss」。日本では林床や岩上にタマゴケが分布する。",
+    enOverview: "A moss family known for spherical capsules that resemble tiny apples when mature, giving rise to the English name 'apple moss.' Bartramia pomiformis grows on forest floors and rocks in Japan.",
+    characteristics: [
+      "葉は線状披針形",
+      "蒴は球形でしばしば直立",
+      "中肋が長く伸びる",
+    ],
+    enCharacteristics: [
+      "Leaves linear-lanceolate",
+      "Capsules spherical, often erect",
+      "Costa long and prominent",
+    ],
+    phylogeneticPosition: "コケ植物 > 蘚類 > ハリガネゴケ目 > タマゴケ科",
+    enPhylogeneticPosition: "Bryophyta > Mosses > Bryales > Bartramiaceae",
+    divergenceEra: "中生代以降",
+    enDivergenceEra: "Mesozoic onward",
+    representativeGenera: [
+      "タマゴケ属（Bartramia）",
+    ],
+    evolutionEvents: [],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/タマゴケ科" },
+    ],
+    review: { status: "ai_generated" },
+  },
+
+  // ── ハリガネゴケ科 ──────────────────────────────────
+  {
+    id: "bryaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rhodobryum_giganteum.jpg",
+    jaName: "ハリガネゴケ科",
+    enName: "Bryaceae",
+    scientificName: "Bryaceae",
+    order: "ハリガネゴケ目",
+    overview:
+      "蘚類の代表的な科で、世界中に広く分布する。ハリガネゴケ・オオカサゴケなどを含み、土上・岩上・コンクリートなどさまざまな基物に生える。",
+    enOverview: "A widespread and species-rich moss family found worldwide. Includes Bryum and Rhodobryum and grows on soil, rocks, and even concrete surfaces.",
+    characteristics: [
+      "葉は卵形〜広披針形、中肋がある",
+      "蒴はしばしば下垂",
+      "胞子体は赤褐色のことが多い",
+    ],
+    enCharacteristics: [
+      "Leaves ovate to broadly lanceolate, with a costa",
+      "Capsules often pendulous",
+      "Sporophytes often reddish-brown",
+    ],
+    phylogeneticPosition: "コケ植物 > 蘚類 > ハリガネゴケ目 > ハリガネゴケ科",
+    enPhylogeneticPosition: "Bryophyta > Mosses > Bryales > Bryaceae",
+    divergenceEra: "中生代以降",
+    enDivergenceEra: "Mesozoic onward",
+    representativeGenera: [
+      "ハリガネゴケ属（Bryum）",
+      "オオカサゴケ属（Rhodobryum）",
+    ],
+    evolutionEvents: [],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハリガネゴケ科" },
+    ],
+    review: { status: "ai_generated" },
+  },
+
+  // ── ハイゴケ科 ──────────────────────────────────────
+  {
+    id: "hypnaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hypnum_cupressiforme.jpg",
+    jaName: "ハイゴケ科",
+    enName: "Hypnaceae",
+    scientificName: "Hypnaceae",
+    order: "ハイゴケ目",
+    overview:
+      "匍匐性の蘚類からなる大きな科で、樹幹・岩上・地表などにマット状に広がる。日本ではハイゴケ・クサゴケなどが普通に見られる。",
+    enOverview: "A large family of pleurocarpous mosses that form mats on tree trunks, rocks, and the ground. Hypnum and Callicladium are common in Japan.",
+    characteristics: [
+      "茎は匍匐性で羽状に分枝",
+      "葉は瓦状に重なる",
+      "蒴は側生",
+    ],
+    enCharacteristics: [
+      "Stems creeping, pinnately branched",
+      "Leaves imbricate (overlapping like roof tiles)",
+      "Capsules borne laterally",
+    ],
+    phylogeneticPosition: "コケ植物 > 蘚類 > ハイゴケ目 > ハイゴケ科",
+    enPhylogeneticPosition: "Bryophyta > Mosses > Hypnales > Hypnaceae",
+    divergenceEra: "中生代以降",
+    enDivergenceEra: "Mesozoic onward",
+    representativeGenera: [
+      "ハイゴケ属（Hypnum）",
+      "クサゴケ属（Callicladium）",
+    ],
+    evolutionEvents: [],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハイゴケ科" },
+    ],
+    review: { status: "ai_generated" },
+  },
+
+  // ── コウヤノマンネングサ科 ──────────────────────────
+  {
+    id: "climaciaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Climacium_dendroides.jpg",
+    jaName: "コウヤノマンネングサ科",
+    enName: "Tree moss family",
+    scientificName: "Climaciaceae",
+    order: "ハイゴケ目",
+    overview:
+      "蘚類の中でも独特な「樹状」の形態をもつ科。地下茎から直立した幹が伸び、その先に枝を放射状に広げて小さな樹のように見える。日本では林床にコウヤノマンネングサが分布する。",
+    enOverview: "A moss family with a distinctive 'tree-like' growth form: erect stems rise from a creeping rhizome and bear radiating branches at the top, resembling miniature trees. Climacium japonicum is found on forest floors in Japan.",
+    characteristics: [
+      "地下茎から直立茎を伸ばす樹状の形態",
+      "枝は頂部で放射状に広がる",
+      "葉は卵状披針形",
+    ],
+    enCharacteristics: [
+      "Tree-like growth: erect stems from a creeping rhizome",
+      "Branches radiate from the top",
+      "Leaves ovate-lanceolate",
+    ],
+    phylogeneticPosition: "コケ植物 > 蘚類 > ハイゴケ目 > コウヤノマンネングサ科",
+    enPhylogeneticPosition: "Bryophyta > Mosses > Hypnales > Climaciaceae",
+    divergenceEra: "中生代以降",
+    enDivergenceEra: "Mesozoic onward",
+    representativeGenera: [
+      "コウヤノマンネングサ属（Climacium）",
+    ],
+    evolutionEvents: [
+      "樹状成長型の進化",
+    ],
+    enEvolutionEvents: [
+      "Evolution of the tree-like growth form",
+    ],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コウヤノマンネングサ科" },
+    ],
+    review: { status: "ai_generated" },
+  },
+
+  // ── ゼニゴケ科 ──────────────────────────────────────
+  {
+    id: "marchantiaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Marchantia_polymorpha.jpg",
+    jaName: "ゼニゴケ科",
+    enName: "Liverwort family",
+    scientificName: "Marchantiaceae",
+    order: "ゼニゴケ目",
+    overview:
+      "苔類（ハイゴケ類とは別系統）の代表的な科で、平たい葉状体と特徴的な傘状の生殖器官（雄器托・雌器托）をもつ。湿った地表に広がり、無性芽（杯状体）でも繁殖する。",
+    enOverview: "A flagship family of liverworts (a lineage distinct from mosses), with flat thalloid bodies and characteristic umbrella-shaped reproductive structures (antheridiophores and archegoniophores). They spread on damp soil and also reproduce vegetatively via gemma cups.",
+    characteristics: [
+      "葉状体（平たい葉状の体）",
+      "雄器托・雌器托が傘状",
+      "杯状体（gemma cup）で無性繁殖",
+    ],
+    enCharacteristics: [
+      "Thalloid body (flat, ribbon-like)",
+      "Umbrella-shaped antheridiophores and archegoniophores",
+      "Asexual reproduction via gemma cups",
+    ],
+    phylogeneticPosition: "コケ植物 > 苔類 > ゼニゴケ目 > ゼニゴケ科",
+    enPhylogeneticPosition: "Bryophyta > Liverworts > Marchantiales > Marchantiaceae",
+    divergenceEra: "古生代以降",
+    enDivergenceEra: "Paleozoic onward",
+    representativeGenera: [
+      "ゼニゴケ属（Marchantia）",
+    ],
+    evolutionEvents: [
+      "杯状体による無性繁殖の進化",
+    ],
+    enEvolutionEvents: [
+      "Evolution of asexual reproduction via gemma cups",
+    ],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ゼニゴケ科" },
+    ],
+    review: { status: "ai_generated" },
+  },
+
+  // ── ジャゴケ科 ──────────────────────────────────────
+  {
+    id: "conocephalaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Conocephalum_conicum.jpg",
+    jaName: "ジャゴケ科",
+    enName: "Snakeskin liverwort family",
+    scientificName: "Conocephalaceae",
+    order: "ゼニゴケ目",
+    overview:
+      "苔類の科で、葉状体の表面に多角形の気室パターンが浮き出して蛇の皮のように見えることが和名・英名の由来。日本では渓流沿いの湿った岩や土上にジャゴケが普通に生える。",
+    enOverview: "A liverwort family whose name comes from the polygonal air chamber pattern on the thallus surface, resembling snakeskin. Conocephalum conicum is common on damp rocks and soil along streams in Japan.",
+    characteristics: [
+      "葉状体の表面に多角形の気室パターン",
+      "強い香気をもつ種が多い",
+      "雄器托・雌器托は柄をもつ",
+    ],
+    enCharacteristics: [
+      "Polygonal air chamber pattern on the thallus surface",
+      "Many species are strongly aromatic",
+      "Antheridiophores and archegoniophores stalked",
+    ],
+    phylogeneticPosition: "コケ植物 > 苔類 > ゼニゴケ目 > ジャゴケ科",
+    enPhylogeneticPosition: "Bryophyta > Liverworts > Marchantiales > Conocephalaceae",
+    divergenceEra: "古生代以降",
+    enDivergenceEra: "Paleozoic onward",
+    representativeGenera: [
+      "ジャゴケ属（Conocephalum）",
+    ],
+    evolutionEvents: [],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ジャゴケ科" },
+    ],
+    review: { status: "ai_generated" },
+  },
 ];

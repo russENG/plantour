@@ -14456,9 +14456,9 @@ export const plants: Plant[] = [
       id: "tsukushi_ibara",
       jaName: "ツクシイバラ",
       enName: "Tsukushi Rose",
-      scientificName: "",
-      familyId: "unknown",
-      familyJaName: "不明科",
+      scientificName: "Rosa multiflora var. adenochaeta",
+      familyId: "rosaceae",
+      familyJaName: "バラ科",
       description: "バラ科のつる性落葉低木で、九州（筑紫）周辺の河川敷に分布する野生バラ。初夏に淡紅色の花を咲かせる。",
       identificationPoints: [
         "茎にとげが多い",
