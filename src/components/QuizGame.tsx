@@ -341,10 +341,9 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
                 {t.identifyThis}
               </span>
             </div>
-            {/* Mask Sketchfab bottom-right watermark/link (always visible for free embeds). */}
-            <div className="absolute bottom-0 right-0 w-44 h-14 bg-gray-900 z-10" />
-            {/* Mask bottom-left author/model info that may slide in on interaction. */}
-            <div className="absolute bottom-0 left-0 w-44 h-14 bg-gray-900 z-10" />
+            {/* Full-width opaque bottom bar — masks Sketchfab's title/author/watermark
+                strip that appears centered along the bottom and reveals the species name. */}
+            <div className="absolute bottom-0 left-0 right-0 h-14 bg-gray-900 z-10 border-t border-gray-700" />
           </div>
         </div>
       )}
