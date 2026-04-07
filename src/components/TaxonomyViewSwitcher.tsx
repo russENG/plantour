@@ -40,7 +40,7 @@ export default function TaxonomyViewSwitcher({ data, lang = "ja" }: { data: Taxo
       {/* 表示 */}
       {view === "tree" ? (
         <Suspense fallback={<div className="text-sm text-gray-400 text-center py-16">{lang === "en" ? "Loading\u2026" : "読み込み中…"}</div>}>
-          <TaxonomyTree data={data} />
+          <TaxonomyTree data={data} lang={lang} />
         </Suspense>
       ) : (
         <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-5 max-h-[75vh] overflow-y-auto">

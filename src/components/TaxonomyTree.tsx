@@ -6,12 +6,14 @@ import Link from "next/link";
 import type { TaxonomyNode } from "@/data/types";
 import { families } from "@/data/families";
 import { cladeColors, defaultCladeColors, cladeRootIds, cladeLegend } from "@/data/cladeColors";
+import type { Locale } from "@/dictionaries";
 
 interface Props {
   data: TaxonomyNode;
+  lang?: Locale;
 }
 
-export default function TaxonomyTree({ data }: Props) {
+export default function TaxonomyTree({ data, lang = "ja" }: Props) {
   const searchParams = useSearchParams();
   const highlightPlantId  = searchParams.get("plant")  ?? undefined;
   const highlightFamilyId = searchParams.get("family") ?? undefined;
@@ -133,35 +135,11 @@ export default function TaxonomyTree({ data }: Props) {
       });
     }
 
-    // 衝突検出はズーム終了時のみ実行（高コストな getBoundingClientRect を限定）
-    let hideRafId: ReturnType<typeof requestAnimationFrame> | null = null;
-    let hideTimer: ReturnType<typeof setTimeout> | null = null;
-    function scheduleHideOverlapping() {
-      if (hideTimer !== null) clearTimeout(hideTimer);
-      hideTimer = setTimeout(() => {
-        if (hideRafId !== null) cancelAnimationFrame(hideRafId);
-        hideRafId = requestAnimationFrame(() => {
-          const items: Array<{ el: SVGTextElement; rect: DOMRect; depth: number }> = [];
-          g.selectAll<SVGTextElement, d3.HierarchyPointNode<TaxonomyNode>>("text").each(function (d) {
-            if (parseFloat(this.getAttribute("opacity") ?? "0") < 0.5) return;
-            const rect = this.getBoundingClientRect();
-            if (rect.width > 0) items.push({ el: this, rect, depth: d.depth });
-          });
-          items.sort((a, b) => a.depth - b.depth);
-          const shown: DOMRect[] = [];
-          for (const { el, rect } of items) {
-            const overlaps = shown.some(
-              sr => rect.left < sr.right + 2 && rect.right > sr.left - 2 &&
-                    rect.top  < sr.bottom + 2 && rect.bottom > sr.top  - 2
-            );
-            if (!overlaps) shown.push(rect);
-            else el.setAttribute("opacity", "0");
-          }
-          hideRafId = null;
-        });
-        hideTimer = null;
-      }, 150);
-    }
+    // NOTE: A post-hoc "hide overlapping labels" pass used to run on zoom-end,
+    // but getBoundingClientRect returns axis-aligned boxes for rotated radial
+    // text — the inflated AABBs produced false-positive overlaps and hid labels
+    // that didn't actually collide. Depth-based culling plus the inverse-scale
+    // font cap now handle density correctly, so the post-hoc hider is removed.
 
     // ズーム変換：ツリー全体の回転 rotRef を含めて適用
     const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.1, 8])
@@ -174,8 +152,7 @@ export default function TaxonomyTree({ data }: Props) {
         g.selectAll<SVGPathElement, unknown>("path").attr("stroke-width", sw);
         g.selectAll<SVGCircleElement, unknown>("circle").attr("stroke-width", Math.min(2, Math.max(0.5, 1.5 / k)));
         updateLabels(k);
-      })
-      .on("end", () => scheduleHideOverlapping());
+      });
     svg.call(zoom);
 
     const linkRadial = d3
@@ -372,7 +349,6 @@ export default function TaxonomyTree({ data }: Props) {
         d3.zoomIdentity.translate(svgW / 2 - nx * k, svgH / 2 - ny * k).scale(k)
       );
       updateTextAngles(targetRot, 0);
-      setTimeout(() => scheduleHideOverlapping(), 50);
     } else {
       // 初期表示：ツリー全体がビューポートに収まるようフィット
       const kFit = Math.min(svgW, svgH) / svgSize * 0.92;
@@ -421,26 +397,26 @@ export default function TaxonomyTree({ data }: Props) {
           <div className="flex gap-2 mt-3">
             {selected.familyId && (
               <Link
-                href={`/families/${selected.familyId}`}
+                href={`/${lang}/families/${selected.familyId}`}
                 className="text-xs bg-teal-600 text-white px-3 py-1.5 rounded-lg hover:bg-teal-700"
               >
-                科ページへ
+                {lang === "en" ? "Family page" : "科ページへ"}
               </Link>
             )}
             {selected.plantId && (
               <Link
-                href={`/plants/${selected.plantId}`}
+                href={`/${lang}/plants/${selected.plantId}`}
                 className="text-xs bg-green-600 text-white px-3 py-1.5 rounded-lg hover:bg-green-700"
               >
-                種ページへ
+                {lang === "en" ? "Species page" : "種ページへ"}
               </Link>
             )}
             {selected.rank !== "family" && selected.rank !== "species" && (
               <Link
-                href={`/taxonomy/${selected.id}`}
+                href={`/${lang}/taxonomy/${selected.id}`}
                 className="text-xs bg-gray-700 text-white px-3 py-1.5 rounded-lg hover:bg-gray-800"
               >
-                詳細ページへ
+                {lang === "en" ? "Details" : "詳細ページへ"}
               </Link>
             )}
           </div>

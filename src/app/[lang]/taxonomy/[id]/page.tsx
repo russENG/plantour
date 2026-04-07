@@ -20,9 +20,10 @@ export function generateStaticParams() {
 export default async function TaxonomyNodePage({
   params,
 }: {
-  params: Promise<{ id: string }>;
+  params: Promise<{ lang: string; id: string }>;
 }) {
-  const { id } = await params;
+  const { lang, id } = await params;
+  const locale = lang === "en" ? "en" : "ja";
   const result = findTaxonomyNode(id);
   if (!result) notFound();
   const { node, ancestors } = result;
@@ -31,12 +32,12 @@ export default async function TaxonomyNodePage({
     <main className="max-w-3xl mx-auto px-4 py-10">
       {/* パンくず */}
       <nav className="flex flex-wrap items-center gap-1 text-xs text-gray-400 mb-6">
-        <Link href="/taxonomy" className="hover:text-green-700">分類体系</Link>
+        <Link href={`/${locale}/taxonomy`} className="hover:text-green-700">分類体系</Link>
         {ancestors.map((a) => (
           a.rank !== "family" && a.rank !== "species" ? (
             <span key={a.id} className="flex items-center gap-1">
               <span>›</span>
-              <Link href={`/taxonomy/${a.id}`} className="hover:text-green-700">{a.name}</Link>
+              <Link href={`/${locale}/taxonomy/${a.id}`} className="hover:text-green-700">{a.name}</Link>
             </span>
           ) : null
         ))}
@@ -76,7 +77,7 @@ export default async function TaxonomyNodePage({
       )}
 
       <div className="mt-8">
-        <Link href="/taxonomy" className="text-sm text-green-700 hover:underline">
+        <Link href={`/${locale}/taxonomy`} className="text-sm text-green-700 hover:underline">
           ← 分類体系ツリーに戻る
         </Link>
       </div>
