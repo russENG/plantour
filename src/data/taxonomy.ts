@@ -347,6 +347,9 @@ export const taxonomyTree: TaxonomyNode = {
                     { id: "uragesida", name: "ウラゲシダ", rank: "species", plantId: "uragesida" },
 
                   ] },
+                { id: "onocleaceae", name: "コウヤワラビ科", rank: "family", familyId: "onocleaceae", children: [
+                    { id: "kogomi", name: "コゴミ", rank: "species", plantId: "kogomi" },
+                  ] },
               ],
             },
             {

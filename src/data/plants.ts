@@ -2329,6 +2329,56 @@ export const plants: Plant[] = [
     },
   },
 
+  // ── コウヤワラビ科（シダ植物） ──────────────────────────────
+  {
+    id: "kogomi",
+    jaName: "コゴミ",
+    enName: "Ostrich Fern",
+    scientificName: "Matteuccia struthiopteris",
+    familyId: "onocleaceae",
+    familyJaName: "コウヤワラビ科",
+    description:
+      "山地の湿った林縁や谷沿いに群生する大型シダ植物。春に出る若芽は渦巻き状に巻いており、アクが少なくそのまま茹でて食べられる人気の山菜。栄養葉は花瓶状に広がり1mを超えることもある。秋に中心から胞子葉が直立し、数珠状に丸まった独特の形態をとる。",
+    enDescription: "A large fern that grows in colonies along moist forest edges and stream valleys in mountain areas. The young fiddleheads (kogomi) that emerge in spring are a popular edible wild vegetable with little bitterness, enjoyed simply blanched. Sterile fronds spread in a vase-like shape, sometimes exceeding 1 m. In autumn, distinctive fertile fronds with bead-like rolled pinnae emerge upright from the center.",
+    identificationPoints: [
+      "若芽は渦巻き状で表面に褐色の鱗片",
+      "栄養葉は花瓶状に広がる大型の羽状複葉",
+      "胞子葉は秋に直立し、数珠状に丸まった小羽片",
+      "地下茎で群生する",
+    ],
+    enIdentificationPoints: ["Young fiddleheads are coiled with brown scales on the surface", "Sterile fronds are large, pinnately compound, spreading in a vase-like shape", "Fertile fronds emerge upright in autumn with bead-like rolled pinnae", "Forms colonies via rhizomes"],
+    habitat: "山地の湿った林縁・谷筋・沢沿い",
+    enHabitat: "Moist forest edges, stream valleys, and along brooks in mountain areas",
+    season: "4〜5月（若芽）／9〜10月（胞子葉）",
+    enSeason: "April to May (young fiddleheads) / September to October (fertile fronds)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Matteuccia_struthiopteris_-_Strau%C3%9Fenfarn.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クサソテツ" },
+    ],
+    evolutionNote: "コウヤワラビ科は白亜紀に分岐したシダ植物で、栄養葉と胞子葉の二形性が顕著な進化的特徴。",
+    enEvolutionNote: "Onocleaceae diverged in the Cretaceous. The pronounced dimorphism between sterile and fertile fronds is a distinctive evolutionary feature.",
+    tags: ["シダ植物", "多年草", "山野", "食用", "水辺"],
+    enTags: ["Fern", "Perennial", "Mountain meadows", "Edible", "Waterside"],
+    traits: { leafArr: "alt", leafType: "compound", venation: "reticulate", margin: "entire", shape: "ovate", habit: "herb", deciduous: "deciduous",
+    habitat: "wetland",},
+    sources: [
+      {
+        type: "claude_ai",
+        label: "Claude AI生成（未確認）",
+        note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。",
+      },
+      {
+        type: "wikipedia_ja",
+        label: "Wikipedia 日本語版",
+        url: "https://ja.wikipedia.org/wiki/クサソテツ",
+      },
+    ],
+    review: {
+      status: "ai_generated",
+      note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
+    },
+  },
+
   // ── ムクロジ科 ──────────────────────────────────────
   {
     id: "iroha_momiji",
@@ -14679,6 +14729,7 @@ export const plants: Plant[] = [
       scientificName: "Hibiscus cv",
       familyId: "malvaceae",
       familyJaName: "アオイ科",
+      imageUrl: "/images/plants/hibiscus.jpg",
       description: "アオイ科の常緑低木で、熱帯原産の園芸種ハイビスカス。一日花だが次々と大型の花を咲かせ、暖地で生垣や鉢植えに利用される。",
       identificationPoints: [
         "大型の5弁花で雄しべ柱が突き出る",
@@ -15239,6 +15290,7 @@ export const plants: Plant[] = [
       scientificName: "Rosa rugosa",
       familyId: "rosaceae",
       familyJaName: "バラ科",
+      imageUrl: "/images/plants/hamanasu.jpg",
       description: "バラ科の落葉低木で、北日本の海岸砂地に群生する。大型の紅紫色の花は芳香が強く、果実は球形でハマナシとも呼ばれる。",
       identificationPoints: [
         "茎にとげが密生",
@@ -15579,6 +15631,7 @@ export const plants: Plant[] = [
       scientificName: "Prunus avium",
       familyId: "rosaceae",
       familyJaName: "バラ科",
+      imageUrl: "/images/plants/sakuranbo.jpg",
       description: "バラ科の落葉小高木で、果樹のセイヨウミザクラの果実。春に白い花を咲かせ、初夏に赤い小さな果実が熟す。",
       identificationPoints: [
         "花は白色5弁、葉と同時に開花",

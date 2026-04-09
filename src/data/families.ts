@@ -947,6 +947,36 @@ export const families: Family[] = [
     ],
   },
 
+  // ── コウヤワラビ科 ──────────────────────────────────────
+  {
+    id: "onocleaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Matteuccia_struthiopteris_-_Strau%C3%9Fenfarn.jpg",
+    jaName: "コウヤワラビ科",
+    enName: "Sensitive Fern family",
+    scientificName: "Onocleaceae",
+    order: "シダ目",
+    overview:
+      "コウヤワラビ・クサソテツ（コゴミ）・イヌガンソクなどを含む小さな科。栄養葉と胞子葉の二形性が顕著で、胞子葉は球状に丸まった小羽片が数珠状に連なる独特の形態をとる。北半球の温帯に分布。",
+    enOverview: "A small fern family including Onoclea, Matteuccia (ostrich fern / kogomi), and Pentarhizidium. Notable for pronounced frond dimorphism: fertile fronds bear bead-like, tightly rolled pinnae. Distributed in temperate regions of the Northern Hemisphere.",
+    characteristics: [
+      "栄養葉と胞子葉の二形性が顕著",
+      "胞子葉は球状に丸まった小羽片が数珠状",
+      "栄養葉は大型の羽状複葉",
+      "湿った林床や水辺に生育",
+    ],
+    enCharacteristics: ["Pronounced dimorphism between sterile and fertile fronds", "Fertile fronds with bead-like, tightly rolled pinnae", "Sterile fronds large, pinnately compound", "Grows in moist forest floors and near water"],
+    phylogeneticPosition: "維管束植物 > シダ植物 > シダ目 > コウヤワラビ科",
+    enPhylogeneticPosition: "Vascular plants > Ferns > Polypodiales > Onocleaceae",
+    divergenceEra: "白亜紀（約1億年前〜）",
+    enDivergenceEra: "Cretaceous (approx. 100 million years ago onward)",
+    representativeGenera: ["コウヤワラビ属（Onoclea）", "クサソテツ属（Matteuccia）"],
+    evolutionEvents: ["胞子葉の二形性という独自の進化"],
+    enEvolutionEvents: ["Distinctive evolution of frond dimorphism for spore dispersal"],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コウヤワラビ科" },
+    ],
+  },
+
   // ── ムクロジ科 ──────────────────────────────────────
   {
     id: "sapindaceae",
