@@ -7,6 +7,7 @@ import { families } from "@/data/families";
 import { plants } from "@/data/plants";
 import type { Plant, PlantTraits } from "@/data/types";
 import type { Locale } from "@/dictionaries";
+import { getTraitIcon } from "@/components/TraitIcons";
 
 // ── フィルタグループ定義 ──────────────────────────────────────
 interface FilterOption {
@@ -147,20 +148,23 @@ function ToggleButton({
   label,
   active,
   onClick,
+  icon,
 }: {
   label: string;
   active: boolean;
   onClick: () => void;
+  icon?: React.ReactNode;
 }) {
   return (
     <button
       onClick={onClick}
-      className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all border ${
+      className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all border inline-flex items-center gap-1.5 ${
         active
           ? "bg-green-600 text-white border-green-600 shadow-sm"
           : "bg-white text-gray-600 border-gray-200 hover:border-green-300 hover:bg-green-50"
       }`}
     >
+      {icon && <span className={active ? "opacity-90" : ""}>{icon}</span>}
       {label}
     </button>
   );
@@ -259,6 +263,7 @@ export default function PlantFilter({ onFilterChange, lang = "ja" }: PlantFilter
                         label={lang === "en" ? opt.labelEn : opt.labelJa}
                         active={(filters[group.id] ?? []).includes(opt.value)}
                         onClick={() => toggleFilter(group.id, opt.value)}
+                        icon={getTraitIcon(group.id, opt.value)}
                       />
                     ))}
                   </div>
