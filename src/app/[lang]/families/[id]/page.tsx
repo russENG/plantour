@@ -29,6 +29,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `${name} (${family.scientificName}) - Plantour`
     : `${name}（${family.scientificName}）- Plantour`;
   const description = overview.length > 160 ? overview.slice(0, 157) + "..." : overview;
+  const memberPlant = plants.find((p) => p.familyId === id && p.imageUrl);
+  const ogImage = family.imageUrl ?? memberPlant?.imageUrl;
   return {
     title,
     description,
@@ -46,10 +48,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "Plantour",
       locale: locale === "en" ? "en_US" : "ja_JP",
       type: "article",
-      ...(family.imageUrl ? { images: [family.imageUrl] } : {}),
+      ...(ogImage ? { images: [ogImage] } : {}),
     },
     twitter: {
-      card: family.imageUrl ? "summary_large_image" : "summary",
+      card: ogImage ? "summary_large_image" : "summary",
       title,
       description,
     },
@@ -67,6 +69,7 @@ export default async function FamilyPage({ params }: Props) {
 
   const memberPlants = plants.filter((p) => p.familyId === id);
   const name = familyName(family, locale);
+  const displayImage = family.imageUrl ?? memberPlants.find((p) => p.imageUrl)?.imageUrl;
 
   const xShareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
     `${name}（${family.scientificName}）— Plantour`
@@ -80,7 +83,7 @@ export default async function FamilyPage({ params }: Props) {
     headline: name,
     description: familyOverview(family, locale),
     url: `${BASE_URL}/${locale}/families/${family.id}`,
-    ...(family.imageUrl ? { image: family.imageUrl } : {}),
+    ...(displayImage ? { image: displayImage } : {}),
     publisher: { "@type": "Organization", name: "Plantour" },
     about: {
       "@type": "Thing",
@@ -106,7 +109,7 @@ export default async function FamilyPage({ params }: Props) {
       <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
         <div className="h-40 sm:h-52 overflow-hidden relative">
           <PlantImage
-            src={family.imageUrl}
+            src={displayImage}
             alt={name}
             className="h-40 sm:h-52"
             fallbackClassName="h-40 sm:h-52"
@@ -118,7 +121,7 @@ export default async function FamilyPage({ params }: Props) {
           </div>
         </div>
         <div className="px-6 pt-1">
-          <ImageAttribution src={family.imageUrl} lang={locale} />
+          <ImageAttribution src={displayImage} lang={locale} />
         </div>
 
         <div className="p-6 pt-2">
