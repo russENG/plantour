@@ -6,6 +6,13 @@ import Link from "next/link";
 import { timelineEvents, geoEras } from "@/data/timeline";
 import type { TimelineEvent } from "@/data/types";
 
+/** 言語に応じたイベントフィールド取得ヘルパー */
+function eTitle(e: TimelineEvent, lang: "ja" | "en") { return lang === "en" && e.enTitle ? e.enTitle : e.title; }
+function eDesc(e: TimelineEvent, lang: "ja" | "en") { return lang === "en" && e.enDescription ? e.enDescription : e.description; }
+function eEra(e: TimelineEvent, lang: "ja" | "en") { return lang === "en" && e.enEra ? e.enEra : e.era; }
+function eSummary(e: TimelineEvent, lang: "ja" | "en") { return lang === "en" && e.enSummary ? e.enSummary : e.summary; }
+function geoName(era: { name: string; enName?: string }, lang: "ja" | "en") { return lang === "en" && era.enName ? era.enName : era.name; }
+
 // ── レイアウト定数 ────────────────────────────────────────────
 const PREHIST_W = 180;  // 先史セクション幅（GOE 等）
 const BREAK_W   = 32;   // スケールブレーク幅
@@ -27,7 +34,7 @@ function mya2left(mya: number): number {
 }
 
 // ── スケールブレーク記号 ─────────────────────────────────────
-function ScaleBreak({ x }: { x: number }) {
+function ScaleBreak({ x, lang = "ja" }: { x: number; lang?: "ja" | "en" }) {
   return (
     <div
       className="absolute flex items-center justify-center"
@@ -38,7 +45,7 @@ function ScaleBreak({ x }: { x: number }) {
           <div key={i} className="w-0.5 h-4 bg-gray-300 rotate-12" />
         ))}
         <span className="text-[9px] text-gray-400 font-medium" style={{ writingMode: "vertical-rl" }}>
-          スケール省略
+          {lang === "en" ? "Scale break" : "スケール省略"}
         </span>
       </div>
     </div>
@@ -52,12 +59,14 @@ function MajorCard({
   centerX,
   selected,
   onClick,
+  lang = "ja",
 }: {
   event: TimelineEvent;
   index: number;
   centerX: number;
   selected: boolean;
   onClick: () => void;
+  lang?: "ja" | "en";
 }) {
   const CARD_W = 144;
   const isAbove = index % 2 === 0;
@@ -73,12 +82,12 @@ function MajorCard({
       }}
     >
       <div className="text-[10px] font-bold mb-0.5" style={{ color: event.color }}>
-        {event.era}
+        {eEra(event, lang)}
       </div>
       <div className="text-[10px] text-gray-400 mb-1">
-        {event.mya >= 1 ? `${event.mya} Ma` : `${Math.round(event.mya * 1000)}千年前`}
+        {event.mya >= 1 ? `${event.mya} Ma` : `${Math.round(event.mya * 1000)}${lang === "en" ? " ka" : "千年前"}`}
       </div>
-      <div className="font-bold text-gray-900 text-xs leading-snug">{event.title}</div>
+      <div className="font-bold text-gray-900 text-xs leading-snug">{eTitle(event, lang)}</div>
     </button>
   );
 
@@ -122,16 +131,18 @@ function MinorDot({
   centerX,
   selected,
   onClick,
+  lang = "ja",
 }: {
   event: TimelineEvent;
   centerX: number;
   selected: boolean;
   onClick: () => void;
+  lang?: "ja" | "en";
 }) {
   return (
     <button
       id={event.id}
-      title={`${event.title} — ${event.mya >= 1 ? `${event.mya} Ma` : `${Math.round(event.mya * 1000)}千年前`}`}
+      title={`${eTitle(event, lang)} — ${event.mya >= 1 ? `${event.mya} Ma` : `${Math.round(event.mya * 1000)}${lang === "en" ? " ka" : "千年前"}`}`}
       onClick={onClick}
       className="absolute cursor-pointer group"
       style={{ left: centerX - 5, top: AXIS_Y - 5, width: 10, height: 10 }}
@@ -204,7 +215,7 @@ function EventModal({
           <div className="relative h-44 sm:h-56 overflow-hidden rounded-t-2xl bg-gray-100">
             <Image
               src={event.imageUrl}
-              alt={event.title}
+              alt={eTitle(event, lang)}
               fill
               className="object-cover"
               unoptimized
@@ -218,7 +229,7 @@ function EventModal({
             <div>
               <div className="flex items-center gap-2 flex-wrap mb-1">
                 <span className="text-xs font-bold" style={{ color: event.color }}>
-                  {event.era}
+                  {eEra(event, lang)}
                 </span>
                 <span className="text-sm text-gray-500">{myaLabel}</span>
                 {event.isMajor && (
@@ -230,7 +241,7 @@ function EventModal({
                   </span>
                 )}
               </div>
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900">{event.title}</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900">{eTitle(event, lang)}</h2>
             </div>
             <button
               onClick={onClose}
@@ -241,7 +252,7 @@ function EventModal({
           </div>
 
           {/* 要約（中学生向け） */}
-          {event.summary && (
+          {eSummary(event, lang) && (
             <div
               className="rounded-xl p-4 mb-4 text-sm leading-relaxed"
               style={{ backgroundColor: event.color + "12", borderLeft: `3px solid ${event.color}` }}
@@ -249,12 +260,12 @@ function EventModal({
               <div className="text-[10px] font-bold uppercase tracking-wider mb-1" style={{ color: event.color }}>
                 {T.simplified}
               </div>
-              <p className="text-gray-700">{event.summary}</p>
+              <p className="text-gray-700">{eSummary(event, lang)}</p>
             </div>
           )}
 
           {/* 詳細説明 */}
-          <p className="text-sm text-gray-600 leading-relaxed mb-5">{event.description}</p>
+          <p className="text-sm text-gray-600 leading-relaxed mb-5">{eDesc(event, lang)}</p>
 
           {/* 関連する科へのリンク */}
           {relatedFamilies.length > 0 && (
@@ -381,7 +392,7 @@ function EventCardList({
               <div className="flex-shrink-0 w-14 h-14 rounded-lg overflow-hidden bg-gray-100">
                 <Image
                   src={event.imageUrl}
-                  alt={event.title}
+                  alt={eTitle(event, lang)}
                   width={56}
                   height={56}
                   className="object-cover w-full h-full"
@@ -392,15 +403,15 @@ function EventCardList({
             <div className="flex-1 min-w-0">
               <div className="flex items-center gap-2 mb-0.5 flex-wrap">
                 <span className="text-xs font-bold" style={{ color: event.color }}>
-                  {event.era}
+                  {eEra(event, lang)}
                 </span>
                 <span className="text-xs text-gray-400">{myaLabel}</span>
               </div>
-              <div className="font-bold text-gray-900 text-sm mb-1">{event.title}</div>
-              {event.summary ? (
-                <p className="text-xs text-gray-500 line-clamp-2">{event.summary}</p>
+              <div className="font-bold text-gray-900 text-sm mb-1">{eTitle(event, lang)}</div>
+              {eSummary(event, lang) ? (
+                <p className="text-xs text-gray-500 line-clamp-2">{eSummary(event, lang)}</p>
               ) : (
-                <p className="text-xs text-gray-500 line-clamp-2">{event.description}</p>
+                <p className="text-xs text-gray-500 line-clamp-2">{eDesc(event, lang)}</p>
               )}
               {related.length > 0 && (
                 <div className="mt-1.5 flex flex-wrap gap-1">
@@ -586,7 +597,7 @@ export default function TimelineView({
           </div>
 
           {/* スケールブレーク（左） */}
-          <ScaleBreak x={PREHIST_W} />
+          <ScaleBreak x={PREHIST_W} lang={lang} />
 
           {/* 地質時代 背景バンド（メイン区間） */}
           {geoEras.map((era) => {
@@ -599,14 +610,14 @@ export default function TimelineView({
                 style={{ left, width, backgroundColor: era.color }}
               >
                 <div className="absolute bottom-3 left-0 right-0 text-center text-[10px] text-gray-500 font-medium truncate px-0.5">
-                  {era.name}
+                  {geoName(era, lang)}
                 </div>
               </div>
             );
           })}
 
           {/* スケールブレーク（右） */}
-          <ScaleBreak x={MODERN_BREAK} />
+          <ScaleBreak x={MODERN_BREAK} lang={lang} />
 
           {/* 現代セクション背景 */}
           <div
@@ -656,6 +667,7 @@ export default function TimelineView({
               centerX={mya2left(event.mya)}
               selected={event.id === selectedId}
               onClick={() => handleSelect(event.id)}
+              lang={lang}
             />
           ))}
 
@@ -667,6 +679,7 @@ export default function TimelineView({
               centerX={mya2left(event.mya)}
               selected={event.id === selectedId}
               onClick={() => handleSelect(event.id)}
+              lang={lang}
             />
           ))}
 
@@ -681,6 +694,7 @@ export default function TimelineView({
                 centerX={cx}
                 selected={event.id === selectedId}
                 onClick={() => handleSelect(event.id)}
+                lang={lang}
               />
             );
           })}
@@ -696,6 +710,7 @@ export default function TimelineView({
                 centerX={cx}
                 selected={event.id === selectedId}
                 onClick={() => handleSelect(event.id)}
+                lang={lang}
               />
             );
           })}
