@@ -9,6 +9,9 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: "Plantour",
+  verification: {
+    google: "RwZ03yRjgPJiRY13gx5cg-2HYyY0Jh-kQEjBFDAs_ck",
+  },
 };
 
 export default function RootLayout({
