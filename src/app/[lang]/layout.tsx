@@ -57,8 +57,8 @@ export default async function LangLayout({
       <div className="flex-1">{children}</div>
       <footer className="bg-green-900 text-green-300 text-xs text-center py-4">
         {locale === "en"
-          ? "Plantour \u2014 A Japanese plant learning service (in development)"
-          : "ぷらんつあ Plantour \u2014 日本の植物学習サービス（開発中）"}
+          ? "Plantour \u2014 A Japanese plant learning service"
+          : "ぷらんつあ Plantour \u2014 日本の植物学習サービス"}
       </footer>
       <GoogleAnalytics gaId="G-K657FP7CTE" />
     </>

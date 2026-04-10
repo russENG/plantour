@@ -3,6 +3,7 @@
 import { useState, useCallback, useMemo } from "react";
 import Link from "next/link";
 import { families } from "@/data/families";
+import PlantImage from "@/components/PlantImage";
 import type { Family } from "@/data/types";
 import type { Locale } from "@/dictionaries";
 import { familyName, familyChars, familyOverview } from "@/lib/i18n-helpers";
@@ -206,12 +207,24 @@ export default function FamilyQuiz({ lang = "ja" }: { lang?: Locale }) {
             </div>
           </div>
 
-          {/* Show overview of the correct family */}
-          <div className="bg-white rounded-lg p-3 mb-4">
-            <p className="font-bold text-gray-800">{targetName}</p>
-            <p className="text-xs text-gray-400 italic mb-2">{question.target.scientificName}</p>
-            <p className="text-xs font-bold text-gray-500 uppercase mb-1">{t.overview}</p>
-            <p className="text-sm text-gray-600">{familyOverview(question.target, lang)}</p>
+          {/* Show image + overview of the correct family */}
+          <div className="bg-white rounded-lg overflow-hidden mb-4">
+            {question.target.imageUrl && (
+              <PlantImage
+                src={question.target.imageUrl}
+                alt={targetName}
+                className="h-40 sm:h-52"
+                fallbackClassName="h-40 sm:h-52"
+                fallbackEmoji="🌿"
+                width={800}
+              />
+            )}
+            <div className="p-3">
+              <p className="font-bold text-gray-800">{targetName}</p>
+              <p className="text-xs text-gray-400 italic mb-2">{question.target.scientificName}</p>
+              <p className="text-xs font-bold text-gray-500 uppercase mb-1">{t.overview}</p>
+              <p className="text-sm text-gray-600">{familyOverview(question.target, lang)}</p>
+            </div>
           </div>
 
           <div className="flex flex-wrap gap-3">
