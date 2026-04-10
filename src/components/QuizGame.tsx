@@ -10,6 +10,7 @@ import { sketchfabModels } from "@/data/sketchfab";
 import type { Plant } from "@/data/types";
 import type { Locale } from "@/dictionaries";
 import { plantName, plantFamilyName } from "@/lib/i18n-helpers";
+import StreakShareButton from "@/components/StreakShareButton";
 
 type QuizMode = "images" | "3d";
 
@@ -130,6 +131,7 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
   const [result, setResult] = useState<Result>(null);
   const [chosenPlant, setChosenPlant] = useState<Plant | null>(null);
   const [score, setScore] = useState({ correct: 0, total: 0 });
+  const [streak, setStreak] = useState(0);
   const [activeFamilyIds, setActiveFamilyIds] = useState<Set<string>>(new Set());
   const [filterKey, setFilterKey] = useState(0);
   const [showHowTo, setShowHowTo] = useState(false);
@@ -197,6 +199,7 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
         correct: s.correct + (isCorrect ? 1 : 0),
         total: s.total + 1,
       }));
+      setStreak((s) => (isCorrect ? s + 1 : 0));
     },
     [targetPlant, result],
   );
@@ -206,6 +209,7 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
     setChosenPlant(null);
     setResult("incorrect");
     setScore((s) => ({ ...s, total: s.total + 1 }));
+    setStreak(0);
   }, [targetPlant, result]);
 
   const candidatePlants = useMemo(() => {
@@ -454,7 +458,9 @@ export default function QuizGame({ lang = "ja" }: { lang?: Locale }) {
             <p className="text-xs text-green-600 mt-1">{famName}</p>
           </div>
 
-          <div className="flex flex-wrap gap-3">
+          <StreakShareButton streak={streak} quizType="species" lang={lang} />
+
+          <div className="flex flex-wrap gap-3 mt-3">
             <button
               onClick={() => startNewRound()}
               className="px-6 py-2.5 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition-colors"

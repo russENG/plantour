@@ -7,6 +7,7 @@ import PlantImage from "@/components/PlantImage";
 import type { Family } from "@/data/types";
 import type { Locale } from "@/dictionaries";
 import { familyName, familyChars, familyOverview } from "@/lib/i18n-helpers";
+import StreakShareButton from "@/components/StreakShareButton";
 
 // 特徴データが十分な科だけ対象（characteristics が 2 つ以上）
 const quizFamilies = families.filter(
@@ -83,6 +84,7 @@ export default function FamilyQuiz({ lang = "ja" }: { lang?: Locale }) {
   const [question, setQuestion] = useState<QuestionState | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [score, setScore] = useState({ correct: 0, total: 0 });
+  const [streak, setStreak] = useState(0);
 
   const isAnswered = selected !== null;
   const isCorrect = selected === question?.target.id;
@@ -95,11 +97,13 @@ export default function FamilyQuiz({ lang = "ja" }: { lang?: Locale }) {
   const handleAnswer = useCallback(
     (familyId: string) => {
       if (isAnswered || !question) return;
+      const correct = familyId === question.target.id;
       setSelected(familyId);
       setScore((s) => ({
-        correct: s.correct + (familyId === question.target.id ? 1 : 0),
+        correct: s.correct + (correct ? 1 : 0),
         total: s.total + 1,
       }));
+      setStreak((s) => (correct ? s + 1 : 0));
     },
     [isAnswered, question],
   );
@@ -227,7 +231,9 @@ export default function FamilyQuiz({ lang = "ja" }: { lang?: Locale }) {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-3">
+          <StreakShareButton streak={streak} quizType="family" lang={lang} />
+
+          <div className="flex flex-wrap gap-3 mt-3">
             <button
               onClick={startNewRound}
               className="px-6 py-2.5 bg-teal-600 text-white font-bold rounded-xl hover:bg-teal-700 transition-colors"
