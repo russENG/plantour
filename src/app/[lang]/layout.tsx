@@ -6,11 +6,39 @@ export async function generateStaticParams() {
   return [{ lang: "ja" }, { lang: "en" }];
 }
 
+const BASE_URL = "https://plantour-pearl.vercel.app";
+
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  return lang === "en"
-    ? { title: "Plantour - Learn Plants in Context", description: "Learn about Japanese plants through taxonomy, evolution, identification keys, and species pages." }
-    : { title: "ぷらんつあ Plantour - 植物を全体像で学ぶ", description: "日本の植物を分類体系・進化史・検索表でつないで学ぶWEBサービス" };
+  const isEn = lang === "en";
+  const title = isEn
+    ? "Plantour - Learn Plants in Context"
+    : "ぷらんつあ Plantour - 植物を全体像で学ぶ";
+  const description = isEn
+    ? "Learn about Japanese plants through taxonomy, evolution, identification keys, and species pages."
+    : "日本の植物を分類体系・進化史・検索表でつないで学ぶWEBサービス";
+  return {
+    title,
+    description,
+    metadataBase: new URL(BASE_URL),
+    alternates: {
+      canonical: `${BASE_URL}/${lang}`,
+      languages: { ja: `${BASE_URL}/ja`, en: `${BASE_URL}/en` },
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${BASE_URL}/${lang}`,
+      siteName: "Plantour",
+      locale: isEn ? "en_US" : "ja_JP",
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+  };
 }
 
 export default async function LangLayout({

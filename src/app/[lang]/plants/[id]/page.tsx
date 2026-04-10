@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { plants } from "@/data/plants";
@@ -13,8 +14,48 @@ import { getPlantAffiliateLinks } from "@/lib/affiliate";
 import { getDictionary, type Locale } from "@/dictionaries";
 import { plantName, plantDesc, plantHabitat, plantSeason, plantIdPoints, plantTags, plantEvoNote, plantFamilyName, familyPhylo, familyDivergence } from "@/lib/i18n-helpers";
 
+const BASE_URL = "https://plantour-pearl.vercel.app";
+
 interface Props {
   params: Promise<{ lang: string; id: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { lang, id } = await params;
+  const locale = (lang === "en" ? "en" : "ja") as Locale;
+  const plant = plants.find((p) => p.id === id);
+  if (!plant) return {};
+  const name = plantName(plant, locale);
+  const desc = plantDesc(plant, locale);
+  const title = locale === "en"
+    ? `${name} (${plant.scientificName}) - Plantour`
+    : `${name}（${plant.scientificName}）- Plantour`;
+  const description = desc.length > 160 ? desc.slice(0, 157) + "..." : desc;
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE_URL}/${lang}/plants/${id}`,
+      languages: {
+        ja: `${BASE_URL}/ja/plants/${id}`,
+        en: `${BASE_URL}/en/plants/${id}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${BASE_URL}/${lang}/plants/${id}`,
+      siteName: "Plantour",
+      locale: locale === "en" ? "en_US" : "ja_JP",
+      type: "article",
+      ...(plant.imageUrl ? { images: [plant.imageUrl] } : {}),
+    },
+    twitter: {
+      card: plant.imageUrl ? "summary_large_image" : "summary",
+      title,
+      description,
+    },
+  };
 }
 
 export default async function PlantPage({ params }: Props) {
@@ -40,8 +81,28 @@ export default async function PlantPage({ params }: Props) {
   const t = dict.plantDetail;
   const tt = dict.traits;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    name: name,
+    headline: name,
+    description: plantDesc(plant, locale),
+    url: `${BASE_URL}/${locale}/plants/${plant.id}`,
+    ...(plant.imageUrl ? { image: plant.imageUrl } : {}),
+    publisher: { "@type": "Organization", name: "Plantour" },
+    about: {
+      "@type": "Thing",
+      name: plant.scientificName,
+      alternateName: locale === "ja" ? plant.enName : plant.jaName,
+    },
+  };
+
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* パンくず */}
       <nav className="text-xs text-gray-500 mb-6 flex gap-2">
         <Link href={`/${locale}`} className="hover:underline">{t.breadcrumbHome}</Link>

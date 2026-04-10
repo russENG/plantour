@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { families } from "@/data/families";
@@ -11,8 +12,48 @@ import { getFamilyAffiliateLinks } from "@/lib/affiliate";
 import { getDictionary, type Locale } from "@/dictionaries";
 import { familyName, familyOverview, familyChars, familyPhylo, familyDivergence, familyEvoEvents, plantName } from "@/lib/i18n-helpers";
 
+const BASE_URL = "https://plantour-pearl.vercel.app";
+
 interface Props {
   params: Promise<{ lang: string; id: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { lang, id } = await params;
+  const locale = (lang === "en" ? "en" : "ja") as Locale;
+  const family = families.find((f) => f.id === id);
+  if (!family) return {};
+  const name = familyName(family, locale);
+  const overview = familyOverview(family, locale);
+  const title = locale === "en"
+    ? `${name} (${family.scientificName}) - Plantour`
+    : `${name}（${family.scientificName}）- Plantour`;
+  const description = overview.length > 160 ? overview.slice(0, 157) + "..." : overview;
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE_URL}/${lang}/families/${id}`,
+      languages: {
+        ja: `${BASE_URL}/ja/families/${id}`,
+        en: `${BASE_URL}/en/families/${id}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${BASE_URL}/${lang}/families/${id}`,
+      siteName: "Plantour",
+      locale: locale === "en" ? "en_US" : "ja_JP",
+      type: "article",
+      ...(family.imageUrl ? { images: [family.imageUrl] } : {}),
+    },
+    twitter: {
+      card: family.imageUrl ? "summary_large_image" : "summary",
+      title,
+      description,
+    },
+  };
 }
 
 export default async function FamilyPage({ params }: Props) {
@@ -32,8 +73,28 @@ export default async function FamilyPage({ params }: Props) {
   )}`;
   const timelineUrl = familyIdToTimelineEvent[id] ? `/${locale}/timeline#${familyIdToTimelineEvent[id]}` : `/${locale}/timeline`;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    name: name,
+    headline: name,
+    description: familyOverview(family, locale),
+    url: `${BASE_URL}/${locale}/families/${family.id}`,
+    ...(family.imageUrl ? { image: family.imageUrl } : {}),
+    publisher: { "@type": "Organization", name: "Plantour" },
+    about: {
+      "@type": "Thing",
+      name: family.scientificName,
+      alternateName: locale === "ja" ? family.enName : family.jaName,
+    },
+  };
+
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <nav className="text-xs text-gray-500 mb-6 flex gap-2">
         <Link href={`/${locale}`} className="hover:underline">{t.breadcrumbHome}</Link>
         <span>/</span>

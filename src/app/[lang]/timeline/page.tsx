@@ -1,8 +1,30 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import TimelineView from "@/components/TimelineView";
 import { families } from "@/data/families";
 import { familyIdToTimelineEvent } from "@/data/timeline";
 import { getDictionary, type Locale } from "@/dictionaries";
+
+const BASE_URL = "https://plantour-pearl.vercel.app";
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const isEn = lang === "en";
+  const title = isEn ? "Evolution Timeline - Plantour" : "進化史タイムライン - Plantour";
+  const description = isEn
+    ? "Explore the evolutionary history of plants from 4.6 billion years ago to the present day."
+    : "46億年前から現代までの植物の進化史をタイムラインで辿ります。";
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE_URL}/${lang}/timeline`,
+      languages: { ja: `${BASE_URL}/ja/timeline`, en: `${BASE_URL}/en/timeline` },
+    },
+    openGraph: { title, description, url: `${BASE_URL}/${lang}/timeline`, siteName: "Plantour", locale: isEn ? "en_US" : "ja_JP", type: "website" },
+    twitter: { card: "summary", title, description },
+  };
+}
 
 /** 科ルックアップ（id → jaName / enName）*/
 const familyMap = Object.fromEntries(families.map((f) => [f.id, { jaName: f.jaName, enName: f.enName }]));
