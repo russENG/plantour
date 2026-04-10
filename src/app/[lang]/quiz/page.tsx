@@ -1,4 +1,4 @@
-import QuizGame from "@/components/QuizGame";
+import QuizSelector from "@/components/QuizSelector";
 import type { Locale } from "@/dictionaries";
 
 export default async function QuizPage({ params }: { params: Promise<{ lang: string }> }) {
@@ -7,7 +7,7 @@ export default async function QuizPage({ params }: { params: Promise<{ lang: str
 
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">
-      <QuizGame lang={locale} />
+      <QuizSelector lang={locale} />
     </main>
   );
 }
