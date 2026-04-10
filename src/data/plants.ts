@@ -6728,7 +6728,7 @@ export const plants: Plant[] = [
     enName: "Barringtonia",
     scientificName: "Barringtonia asiatica",
     familyId: "lecythidaceae",
-    familyJaName: "サルノコシカケノキ科",
+    familyJaName: "サガリバナ科",
     description:
       "インド洋〜太平洋の熱帯海岸に分布する常緑高木で、日本では沖縄の海岸林に自生する。夜間に白〜淡紅色の大きな花を咲かせ、甘い香りを放つ。実は四角いコルク質で海流散布される。",
     enDescription: "An evergreen tall tree distributed along tropical coasts from the Indian Ocean to the Pacific, found wild in coastal forests of Okinawa, Japan. It produces large white to pale pink flowers at night, emitting a sweet fragrance. The square, corky fruits are dispersed by ocean currents.",
@@ -6746,7 +6746,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/モモタマナ" },
     ],
-    evolutionNote: "レキチス科（サルノコシカケノキ科）はブラジルナッツを含む熱帯植物の科。コルク質の海流散布型果実は長距離の島嶼間分散を可能にした進化的適応。",
+    evolutionNote: "サガリバナ科はブラジルナッツを含む熱帯植物の科。コルク質の海流散布型果実は長距離の島嶼間分散を可能にした進化的適応。",
     enEvolutionNote: "Lecythidaceae is a tropical family that includes the Brazil nut. The corky, sea-dispersed fruits represent an evolutionary adaptation enabling long-distance dispersal between islands.",
     tags: ["木本", "常緑", "高木", "南西諸島", "海岸", "夜咲き"],
     enTags: ["Woody", "Evergreen", "Tall tree", "Ryukyu Islands", "Coastal", "Night-blooming"],

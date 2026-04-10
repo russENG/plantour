@@ -9489,10 +9489,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── サルノコシカケノキ科 ──────────────────────────────────────────
+  // ── サガリバナ科 ──────────────────────────────────────────
   {
     id: "lecythidaceae",
-    jaName: "サルノコシカケノキ科",
+    jaName: "サガリバナ科",
     enName: "Brazil nut family",
     scientificName: "Lecythidaceae A.Rich.",
     order: "ツツジ目",
@@ -9506,7 +9506,7 @@ export const families: Family[] = [
       "果実は大型の木質蒴果または液果",
     ],
     enCharacteristics: ["Large evergreen tropical trees", "Flowers are large and bisexual with 4–6 sepals and petals", "Stamens are numerous, asymmetrically arranged with a hood-like structure (ligule)", "Fruit is a large woody capsule (pyxidium) or berry"],
-    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > ツツジ目 > サルノコシカケノキ科",
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > ツツジ目 > サガリバナ科",
     enPhylogeneticPosition: "Angiosperms > Eudicots > Core Eudicots > Ericales > Lecythidaceae",
     divergenceEra: "白亜紀後期〜古第三紀（約8000万年前）",
     enDivergenceEra: "Late Cretaceous to Paleogene (ca. 80 million years ago)",
@@ -9521,7 +9521,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Specialization for bee pollination through hood-like staminal structures", "Adaptation to mammal-mediated dispersal through large woody fruits"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サルノコシカケノキ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サガリバナ科" },
     ],
     japaneseSpeciesCount: 5,
     review: { status: "ai_generated" },

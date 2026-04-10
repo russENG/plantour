@@ -2154,7 +2154,7 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "hana_shinobu", name: "ハナシノブ", rank: "species", plantId: "hana_shinobu" },
 
                               ] },
-                            { id: "lecythidaceae", name: "サルノコシカケ科", rank: "family", familyId: "lecythidaceae", children: [
+                            { id: "lecythidaceae", name: "サガリバナ科", rank: "family", familyId: "lecythidaceae", children: [
 
                                 { id: "brazil_nut_family", name: "サガリバナ", rank: "species", plantId: "brazil_nut_family" },
 
