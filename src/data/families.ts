@@ -2635,10 +2635,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── カルジオプテリス科 ──────────────────────────────────────
+  // ── ヤマイモモドキ科 ──────────────────────────────────────
   {
     id: "cardiopteridaceae",
-    jaName: "カルジオプテリス科",
+    jaName: "ヤマイモモドキ科",
     enName: "Cardiopteris family",
     scientificName: "Cardiopteridaceae",
     order: "アキノキリンソウ目",
@@ -2652,7 +2652,7 @@ export const families: Family[] = [
       "果実は翼をもつことがある",
     ],
     enCharacteristics: ["Mostly trees or woody climbers", "Leaves simple and alternate", "Flowers small, in cymose inflorescences", "Fruits sometimes winged"],
-    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > アキノキリンソウ目 > カルジオプテリス科",
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > アキノキリンソウ目 > ヤマイモモドキ科",
     enPhylogeneticPosition: "Angiosperms > Eudicots > Core eudicots > Aquifoliales > Cardiopteridaceae",
     divergenceEra: "古第三紀〜新第三紀",
     enDivergenceEra: "Paleogene to Neogene",
@@ -2665,7 +2665,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Establishment of distribution range in tropical Asia"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カルジオプテリス科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤマイモモドキ科" },
     ],
     japaneseSpeciesCount: 2,
     review: { status: "ai_generated" },
@@ -2946,10 +2946,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── ペトロサヴィア科 ──────────────────────────────────
+  // ── サクライソウ科 ──────────────────────────────────
   {
     id: "petrosaviaceae",
-    jaName: "ペトロサヴィア科",
+    jaName: "サクライソウ科",
     enName: "Petrosavia family",
     scientificName: "Petrosaviaceae",
     order: "ペトロサヴィア目",
@@ -2963,7 +2963,7 @@ export const families: Family[] = [
       "熱帯〜亜熱帯の薄暗い林床に生育",
     ],
     enCharacteristics: ["Achlorophyllous mycoheterotrophic (saprophytic) plants", "Leaves reduced to scales, non-photosynthetic", "6 tepals and 6 stamens", "Grows on dim forest floors in tropical to subtropical regions"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > ペトロサヴィア目 > ペトロサヴィア科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > ペトロサヴィア目 > サクライソウ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Petrosaviales > Petrosaviaceae",
     divergenceEra: "白亜紀（単子葉類の初期分岐、約1億2000万年前以降）",
     enDivergenceEra: "Cretaceous (early divergence within monocots, ca. 120 Ma onwards)",
@@ -3058,10 +3058,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── シャクジョウソウ科 ────────────────────────────────
+  // ── ホンゴウソウ科 ────────────────────────────────
   {
     id: "triuridaceae",
-    jaName: "シャクジョウソウ科",
+    jaName: "ホンゴウソウ科",
     enName: "Triuris family",
     scientificName: "Triuridaceae",
     order: "パンダナレス目",
@@ -3075,7 +3075,7 @@ export const families: Family[] = [
       "地下茎で菌根菌に依存して栄養を得る",
     ],
     enCharacteristics: ["Completely achlorophyllous mycoheterotrophic (saprophytic) plants", "Leaves reduced to scales", "Flowers unisexual or bisexual; tepals often with long appendages", "Underground stems depend on mycorrhizal fungi for nutrition"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > パンダナレス目 > シャクジョウソウ科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > パンダナレス目 > ホンゴウソウ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Pandanales > Triuridaceae",
     divergenceEra: "白亜紀後期〜古第三紀",
     enDivergenceEra: "Late Cretaceous to Paleogene",
@@ -3089,7 +3089,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Transition to a fully mycoheterotrophic lifestyle within monocots", "Evolution of pollinator attraction through specialized tepals (appendages and glandular hairs)"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シャクジョウソウ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホンゴウソウ科" },
     ],
     japaneseSpeciesCount: 22,
     review: { status: "ai_generated" },
@@ -3441,10 +3441,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── フィリドルム科 ────────────────────────────────────
+  // ── タヌキアヤメ科 ────────────────────────────────────
   {
     id: "philydraceae",
-    jaName: "フィリドルム科",
+    jaName: "タヌキアヤメ科",
     enName: "Philydrum family",
     scientificName: "Philydraceae",
     order: "ツユクサ目",
@@ -3458,7 +3458,7 @@ export const families: Family[] = [
       "湿地・水辺の浅水域に生育",
     ],
     enCharacteristics: ["Stems are erect; leaves are elongate, flat, and distichous", "Flowers are yellow, zygomorphic with four tepals", "Spike inflorescences", "Grows in shallow water of wetlands and waterside habitats"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > ツユクサ目 > フィリドルム科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > ツユクサ目 > タヌキアヤメ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Commelinales > Philydraceae",
     divergenceEra: "古第三紀",
     enDivergenceEra: "Paleogene",
@@ -3783,10 +3783,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── キバナノイグサ科 ──────────────────────────────────
+  // ── トウエンソウ科 ──────────────────────────────────
   {
     id: "xyridaceae",
-    jaName: "キバナノイグサ科",
+    jaName: "トウエンソウ科",
     enName: "Yellow-eyed grass family",
     scientificName: "Xyridaceae",
     order: "イネ目",
@@ -3800,7 +3800,7 @@ export const families: Family[] = [
       "貧栄養・酸性の湿地に特徴的",
     ],
     enCharacteristics: ["Narrow elongate leaves form basal rosettes", "Flowers are trimerous, yellow (rarely white or blue)", "Spike inflorescences enclosed in hard bracts", "Characteristic of nutrient-poor, acidic wetlands"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > イネ目 > キバナノイグサ科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > イネ目 > トウエンソウ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Poales > Xyridaceae",
     divergenceEra: "古第三紀",
     enDivergenceEra: "Paleogene",
@@ -3813,7 +3813,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Range restriction through specialization to nutrient-poor wetlands", "Convergent adaptation to waterside ecosystems within Poales"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キバナノイグサ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トウエンソウ科" },
     ],
     japaneseSpeciesCount: 1,
     review: { status: "ai_generated" },
@@ -3943,13 +3943,13 @@ export const families: Family[] = [
     scientificName: "Centrolepidaceae",
     order: "イネ目",
     overview:
-      "オーストラリア・ニュージーランド・東南アジアに分布する小さな科。日本には分布しない。極めて小型の草本で、湿地・岩場に生育する。花は高度に退化・単純化しており、APG体系でレスチオ科に近縁。",
+      "オーストラリア・ニュージーランド・東南アジアに分布する小さな科。日本には分布しない。極めて小型の草本で、湿地・岩場に生育する。花は高度に退化・単純化しており、APG体系でサンアソウ科に近縁。",
     enOverview: "A small family distributed in Australia, New Zealand, and Southeast Asia. Not found in Japan. Extremely small herbs growing in wetlands and rocky habitats. Flowers are highly reduced and simplified; closely related to Restionaceae under the APG system.",
     characteristics: [
       "極めて小型で、葉は糸状〜毛状",
       "花は非常に単純で花被を欠くか退化",
       "湿地・岩場の貧栄養環境に生育",
-      "APG体系でレスチオ科に近縁",
+      "APG体系でサンアソウ科に近縁",
     ],
     enCharacteristics: ["Extremely small plants with thread-like to hair-like leaves", "Flowers are very simple, lacking or with reduced perianth", "Grows in nutrient-poor wetland and rocky habitats", "Closely related to Restionaceae under the APG system"],
     phylogeneticPosition: "被子植物 > 単子葉類 > イネ目 > ホソバノイグサ科",
@@ -3971,10 +3971,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── レスチオ科 ────────────────────────────────────────
+  // ── サンアソウ科 ────────────────────────────────────────
   {
     id: "restionaceae",
-    jaName: "レスチオ科",
+    jaName: "サンアソウ科",
     enName: "Restio family",
     scientificName: "Restionaceae",
     order: "イネ目",
@@ -3988,7 +3988,7 @@ export const families: Family[] = [
       "貧栄養・乾燥した砂質土に適応",
     ],
     enCharacteristics: ["Leaves are reduced; green stems perform photosynthesis", "Stems are slender and elongate, with bracts at internodes", "Wind-pollinated with spikelet-like inflorescences", "Adapted to nutrient-poor, dry sandy soils"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > イネ目 > レスチオ科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > イネ目 > サンアソウ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Poales > Restionaceae",
     divergenceEra: "白亜紀後期〜古第三紀",
     enDivergenceEra: "Late Cretaceous to Paleogene",
@@ -4002,16 +4002,16 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Specialized adaptation to nutrient-poor Southern Hemisphere soils (fynbos and scrub)", "Transfer of photosynthetic function from leaves to stems"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/レスチオ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サンアソウ科" },
     ],
     japaneseSpeciesCount: 1,
     review: { status: "ai_generated" },
   },
 
-  // ── トウアズキ科 ──────────────────────────────────────
+  // ── トウツルモドキ科 ──────────────────────────────────────
   {
     id: "flagellariaceae",
-    jaName: "トウアズキ科",
+    jaName: "トウツルモドキ科",
     enName: "Flagellaria family",
     scientificName: "Flagellariaceae",
     order: "イネ目",
@@ -4025,7 +4025,7 @@ export const families: Family[] = [
       "果実は球形の液果",
     ],
     enCharacteristics: ["Leaf tips are modified into tendrils that twine around other plants", "Stems are slender and elongate, climbing along forest edges", "Flowers are small, white, in panicle inflorescences", "Fruit is a spherical berry"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > イネ目 > トウアズキ科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > イネ目 > トウツルモドキ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Poales > Flagellariaceae",
     divergenceEra: "古第三紀",
     enDivergenceEra: "Paleogene",
@@ -4038,7 +4038,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Structural innovation toward climbing habit through tendril modification of leaf tips", "Wide dispersal along tropical coasts of the Indian and Pacific Oceans"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トウアズキ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トウツルモドキ科" },
     ],
     japaneseSpeciesCount: 3,
     review: { status: "ai_generated" },
@@ -4388,10 +4388,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── コンナラス科 ──────────────────────────────────────
+  // ── マメモドキ科 ──────────────────────────────────────
   {
     id: "connaraceae",
-    jaName: "コンナラス科",
+    jaName: "マメモドキ科",
     enName: "Connarus family",
     scientificName: "Connaraceae",
     order: "ニシキギ目",
@@ -4405,7 +4405,7 @@ export const families: Family[] = [
       "果実は革質の袋果（のう果）で熟すと裂け、橙赤色の仮種皮をもつ種子を露出する",
     ],
     enCharacteristics: ["Woody climbers or shrubs and small trees", "Leaves are odd-pinnately compound", "Flowers are pentamerous, small, sometimes fragrant", "Fruit is a leathery follicle that dehisces when ripe, exposing seeds with orange-red arils"],
-    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > ニシキギ目 > コンナラス科",
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > ニシキギ目 > マメモドキ科",
     enPhylogeneticPosition: "Angiosperms > Eudicots > Core eudicots > Celastrales > Connaraceae",
     divergenceEra: "白亜紀後期〜古第三紀",
     enDivergenceEra: "Late Cretaceous to Paleogene",
@@ -4418,7 +4418,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Establishment of the woody climbing life form in tropical forests"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コンナラス科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マメモドキ科" },
     ],
     japaneseSpeciesCount: 5,
     review: { status: "ai_generated" },
@@ -4652,10 +4652,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── ミズハコベ科 ──────────────────────────────────────
+  // ── ミゾハコベ科 ──────────────────────────────────────
   {
     id: "elatinaceae",
-    jaName: "ミズハコベ科",
+    jaName: "ミゾハコベ科",
     enName: "Waterwort family",
     scientificName: "Elatinaceae",
     order: "キントラノオ目",
@@ -4669,7 +4669,7 @@ export const families: Family[] = [
       "果実はさく果",
     ],
     enCharacteristics: ["Small wetland and aquatic herbs", "Leaves are opposite, simple, and very small", "Flowers are dimerous to tetramerous, very small, with white to pale pink petals", "Fruit is a capsule"],
-    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > キントラノオ目 > ミズハコベ科",
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > キントラノオ目 > ミゾハコベ科",
     enPhylogeneticPosition: "Angiosperms > Eudicots > Core eudicots > Malpighiales > Elatinaceae",
     divergenceEra: "古第三紀",
     enDivergenceEra: "Paleogene",
@@ -4682,17 +4682,17 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Adaptation to wetland and waterside environments through miniaturization"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミズハコベ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミゾハコベ科" },
     ],
     japaneseSpeciesCount: 11,
     review: { status: "ai_generated" },
   },
 
-  // ── マルピーギア科 ──────────────────────────────────────
+  // ── キントラノオ科 ──────────────────────────────────────
   {
     id: "malpighiaceae",
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Malpighia_glabra.jpg",
-    jaName: "マルピーギア科",
+    jaName: "キントラノオ科",
     enName: "Barbados cherry family",
     scientificName: "Malpighiaceae",
     order: "キントラノオ目",
@@ -4706,7 +4706,7 @@ export const families: Family[] = [
       "木本のつる植物が多い",
     ],
     enCharacteristics: ["T-shaped or Y-shaped glandular hairs (Malpighian trichomes) on leaf surfaces", "One of five petals is enlarged as a banner petal with a developed claw", "Fruits are schizocarps (samaras), many adapted for wind dispersal", "Mostly woody climbers"],
-    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > キントラノオ目 > マルピーギア科",
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > キントラノオ目 > キントラノオ科",
     enPhylogeneticPosition: "Angiosperms > Eudicots > Core eudicots > Malpighiales > Malpighiaceae",
     divergenceEra: "古第三紀（約6000万〜5000万年前）",
     enDivergenceEra: "Paleogene (about 60–50 million years ago)",
@@ -4721,7 +4721,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Diverse evolution of wind dispersal through winged fruits (samaras)", "Specialization of Malpighian trichomes (T-shaped glandular hairs)"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マルピーギア科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キントラノオ科" },
     ],
     japaneseSpeciesCount: 12,
     review: { status: "ai_generated" },
@@ -5037,10 +5037,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── シロタマモドキ科 ──────────────────────────────────────
+  // ── クリソバラヌス科 ──────────────────────────────────────
   {
     id: "chrysobalanaceae",
-    jaName: "シロタマモドキ科",
+    jaName: "クリソバラヌス科",
     enName: "Coco plum family",
     scientificName: "Chrysobalanaceae",
     order: "バラ目",
@@ -5054,7 +5054,7 @@ export const families: Family[] = [
       "葉は単葉で互生、全縁",
     ],
     enCharacteristics: ["Woody plants (trees to shrubs) bearing drupes", "Flowers pentamerous, often zygomorphic", "Numerous stamens developing asymmetrically to one side", "Leaves simple, alternate, entire-margined"],
-    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > バラ目 > シロタマモドキ科",
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > バラ目 > クリソバラヌス科",
     enPhylogeneticPosition: "Angiosperms > Eudicots > Core eudicots > Rosales > Chrysobalanaceae",
     divergenceEra: "古第三紀（約5500万〜5000万年前）",
     enDivergenceEra: "Paleogene (approx. 55–50 million years ago)",
@@ -5069,16 +5069,16 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Separation from Rosaceae through molecular phylogenetic reassessment", "Diversification of species dominant as tropical rainforest canopy trees"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シロタマモドキ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クリソバラヌス科" },
     ],
     japaneseSpeciesCount: 4,
     review: { status: "ai_generated" },
   },
 
-  // ── ジカペタラム科 ──────────────────────────────────────
+  // ── カイナンボク科 ──────────────────────────────────────
   {
     id: "dichapetalaceae",
-    jaName: "ジカペタラム科",
+    jaName: "カイナンボク科",
     enName: "Dichapetalum family",
     scientificName: "Dichapetalaceae",
     order: "キントラノオ目",
@@ -5092,7 +5092,7 @@ export const families: Family[] = [
       "花序が葉柄または主脈に着生することがある",
     ],
     enCharacteristics: ["Woody climbers or shrubs", "Leaves alternate, simple", "Petals bifid at the apex (the basis of the genus name)", "Inflorescences sometimes borne on the petiole or midrib"],
-    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > キントラノオ目 > ジカペタラム科",
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > キントラノオ目 > カイナンボク科",
     enPhylogeneticPosition: "Angiosperms > Eudicots > Core eudicots > Malpighiales > Dichapetalaceae",
     divergenceEra: "古第三紀（約5000万年前）",
     enDivergenceEra: "Paleogene (approx. 50 million years ago)",
@@ -5106,7 +5106,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Evolution of fluorofatty acids (monofluoroacetic acid) as a specialized chemical defense", "Evolution of the distinctive bifid petal morphology"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ジカペタラム科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カイナンボク科" },
     ],
     japaneseSpeciesCount: 1,
     review: { status: "ai_generated" },
@@ -6687,7 +6687,7 @@ export const families: Family[] = [
   // ── キジノオシダ科（Cheiropleuriaceae） ──────────────────────
   {
     id: "cheiropleuriaceae",
-    jaName: "キジノオシダ科",
+    jaName: "スジヒトツバ科",
     enName: "Cheiropleuria family",
     scientificName: "Cheiropleuriaceae",
     order: "ウラボシ目",
@@ -6701,7 +6701,7 @@ export const families: Family[] = [
       "着生または岩上生の常緑多年草",
     ],
     enCharacteristics: ["Simple leaves with dichotomous venation", "Sporangia scattered uniformly across the entire abaxial surface (not forming discrete sori)", "Exindusiate (without indusia)", "Evergreen perennials, epiphytic or epilithic"],
-    phylogeneticPosition: "維管束植物 > シダ植物門 > ポリポジウム綱 > ウラボシ目 > キジノオシダ科",
+    phylogeneticPosition: "維管束植物 > シダ植物門 > ポリポジウム綱 > ウラボシ目 > スジヒトツバ科",
     enPhylogeneticPosition: "Vascular plants > Polypodiophyta > Polypodiopsida > Polypodiales > Cheiropleuriaceae",
     divergenceEra: "白亜紀（約1億年前〜）",
     enDivergenceEra: "Cretaceous (approx. 100 million years ago onward)",
@@ -6712,7 +6712,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Retention of conserved venation patterns as an early-diverging lineage within Polypodiales", "Preservation of a primitive sporangial arrangement with sporangia scattered across the entire leaf undersurface"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キジノオシダ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スジヒトツバ科" },
     ],
     japaneseSpeciesCount: 3,
     review: { status: "ai_generated" },
@@ -6868,7 +6868,7 @@ export const families: Family[] = [
   // ── キジノオシダ科（Plagiogyriaceae） ────────────────────────
   {
     id: "plagiogyriaceae",
-    jaName: "プラギオギリア科",
+    jaName: "キジノオシダ科",
     enName: "Plagiogyria family",
     scientificName: "Plagiogyriaceae",
     order: "ゼンマイ目",
@@ -6882,7 +6882,7 @@ export const families: Family[] = [
       "同形胞子性",
     ],
     enCharacteristics: ["Dimorphic fronds (sterile and fertile fronds distinctly different)", "Fertile frond margins revolute, forming a false indusium", "Rhizome thick, erect or ascending", "Homosporous"],
-    phylogeneticPosition: "維管束植物 > シダ植物門 > ポリポジウム綱 > ゼンマイ目 > プラギオギリア科",
+    phylogeneticPosition: "維管束植物 > シダ植物門 > ポリポジウム綱 > ゼンマイ目 > キジノオシダ科",
     enPhylogeneticPosition: "Vascular plants > Polypodiophyta > Polypodiopsida > Osmundales > Plagiogyriaceae",
     divergenceEra: "白亜紀（約9000万年前〜）",
     enDivergenceEra: "Cretaceous (ca. 90 million years ago–)",
@@ -7316,10 +7316,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── ヒモカズラ科 ──────────────────────────────────────────
+  // ── ナナバケシダ科 ──────────────────────────────────────────
   {
     id: "lomariopsidaceae",
-    jaName: "ヒモカズラ科",
+    jaName: "ナナバケシダ科",
     enName: "Lomariopsis family",
     scientificName: "Lomariopsidaceae",
     order: "ウラボシ目",
@@ -7333,7 +7333,7 @@ export const families: Family[] = [
       "着生または地生",
     ],
     enCharacteristics: ["Once-pinnate fronds with numerous pinnae", "Rhizomes creeping, with some species producing slender stolons", "Sori covered by round to reniform indusia", "Epiphytic or terrestrial"],
-    phylogeneticPosition: "維管束植物 > シダ植物門 > ポリポジウム綱 > ウラボシ目 > ヒモカズラ科",
+    phylogeneticPosition: "維管束植物 > シダ植物門 > ポリポジウム綱 > ウラボシ目 > ナナバケシダ科",
     enPhylogeneticPosition: "Vascular plants > Polypodiophyta > Polypodiopsida > Polypodiales > Lomariopsidaceae",
     divergenceEra: "白亜紀〜古第三紀（約7000万年前〜）",
     enDivergenceEra: "Cretaceous to Paleogene (ca. 70 million years ago–)",
@@ -7347,7 +7347,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Highly efficient vegetative reproduction via stolons", "Plastic adaptation between epiphytic and terrestrial lifestyles"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒモカズラ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ナナバケシダ科" },
     ],
     japaneseSpeciesCount: 39,
     review: { status: "ai_generated" },
@@ -7461,10 +7461,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── ウラゲシダ科 ──────────────────────────────────────────
+  // ── ヒメウラボシ科 ──────────────────────────────────────────
   {
     id: "grammitidaceae",
-    jaName: "ウラゲシダ科",
+    jaName: "ヒメウラボシ科",
     enName: "Grammitid fern family",
     scientificName: "Grammitidaceae",
     order: "ウラボシ目",
@@ -7478,7 +7478,7 @@ export const families: Family[] = [
       "胞子嚢柄が1列の細胞列からなる",
     ],
     enCharacteristics: ["Small epiphytic ferns", "Sori exindusiate (lacking indusia)", "Abaxial surface often densely covered with multicellular hairs", "Sporangial stalks consisting of a single row of cells"],
-    phylogeneticPosition: "維管束植物 > シダ植物門 > ポリポジウム綱 > ウラボシ目 > ウラゲシダ科",
+    phylogeneticPosition: "維管束植物 > シダ植物門 > ポリポジウム綱 > ウラボシ目 > ヒメウラボシ科",
     enPhylogeneticPosition: "Vascular plants > Polypodiophyta > Polypodiopsida > Polypodiales > Grammitidaceae",
     divergenceEra: "古第三紀（約5000万年前〜）",
     enDivergenceEra: "Paleogene (ca. 50 million years ago–)",
@@ -7489,7 +7489,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Specialization for cloud forest and high-humidity montane environments (ultra-small epiphytic niche)", "Reduction of sporangial stalks to a single cell row (phylogenetic divergence from Polypodiaceae)"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ウラゲシダ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒメウラボシ科" },
     ],
     japaneseSpeciesCount: 75,
     review: { status: "ai_generated" },
@@ -7680,13 +7680,13 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── トチカガミ目ブトムス科 ──────────────────────────────────────────
+  // ── ハナイ科 ──────────────────────────────────────────
   {
     id: "butomaceae",
-    jaName: "トチカガミ目ブトムス科",
+    jaName: "ハナイ科",
     enName: "Flowering rush family",
     scientificName: "Butomaceae Rich.",
-    order: "トチカガミ目",
+    order: "オモダカ目",
     overview:
       "ユーラシア原産の水生・湿生植物の科。1属1種（Butomus umbellatus、ハナイ）のみからなる単型科。花は美しいピンク色で散形花序を形成し、観賞用に栽培されることもある。日本では帰化植物として確認されている。",
     enOverview: "A family of aquatic and wetland plants native to Eurasia. A monotypic family consisting of a single species, Butomus umbellatus (flowering rush). Flowers are an attractive pink, forming umbel-like inflorescences, and the plant is sometimes cultivated as an ornamental. It has been recorded as a naturalized species in Japan.",
@@ -7697,7 +7697,7 @@ export const families: Family[] = [
       "水辺・湿地に生育する多年草",
     ],
     enCharacteristics: ["Leaves elongated and triangular in cross-section, erect", "Flowers trimerous, pink, with 6 tepals", "Umbel-like inflorescence bearing numerous flowers", "Perennial growing in waterside and wetland habitats"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > トチカガミ目 > ブトムス科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > オモダカ目 > ハナイ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Alismatales > Butomaceae",
     divergenceEra: "白亜紀後期〜古第三紀（約8500万年前）",
     enDivergenceEra: "Late Cretaceous to Paleogene (ca. 85 million years ago)",
@@ -7716,10 +7716,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── ヒルムシロ目シュークゼリア科 ──────────────────────────────────────────
+  // ── ヒルムシロ目ホロムイソウ科 ──────────────────────────────────────────
   {
     id: "scheuchzeriaceae",
-    jaName: "シュークゼリア科",
+    jaName: "ホロムイソウ科",
     enName: "Rannoch-rush family",
     scientificName: "Scheuchzeriaceae F.Rudolphi",
     order: "オモダカ目",
@@ -7733,7 +7733,7 @@ export const families: Family[] = [
       "泥炭地・高層湿原の特殊環境に生育",
     ],
     enCharacteristics: ["Leaves elongated and narrow, with a basal sheath", "Tepals 6, stamens 6", "Fruit a follicle", "Grows in specialized peatland and raised bog environments"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > オモダカ目 > シュークゼリア科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > オモダカ目 > ホロムイソウ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Alismatales > Scheuchzeriaceae",
     divergenceEra: "白亜紀後期（約8000万年前）",
     enDivergenceEra: "Late Cretaceous (ca. 80 million years ago)",
@@ -7746,16 +7746,16 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Divergence from the monocot aquatic lineage", "Adaptation to cold wetlands of the Northern Hemisphere"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シュークゼリア科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホロムイソウ科" },
     ],
     japaneseSpeciesCount: 1,
     review: { status: "ai_generated" },
   },
 
-  // ── ミズスギナ科 ──────────────────────────────────────────
+  // ── レースソウ科 ──────────────────────────────────────────
   {
     id: "aponogetonaceae",
-    jaName: "ミズスギナ科",
+    jaName: "レースソウ科",
     enName: "Cape-pondweed family",
     scientificName: "Aponogetonaceae J.Agardh",
     order: "オモダカ目",
@@ -7769,7 +7769,7 @@ export const families: Family[] = [
       "根茎（塊茎）から生育する多年草",
     ],
     enCharacteristics: ["Leaves submerged or floating, elongated or elliptic", "Flowers in spicate or branched spicate inflorescences", "Tepals 1 to 3, white or pale-colored", "Perennial growing from a rhizome (tuber)"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > オモダカ目 > ミズスギナ科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > オモダカ目 > レースソウ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Alismatales > Aponogetonaceae",
     divergenceEra: "白亜紀後期（約8000万年前）",
     enDivergenceEra: "Late Cretaceous (ca. 80 million years ago)",
@@ -7782,16 +7782,16 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Divergence as a monocot aquatic lineage", "Development of submerged leaves and adaptation to hydrophilous pollination"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミズスギナ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/レースソウ科" },
     ],
     japaneseSpeciesCount: 6,
     review: { status: "ai_generated" },
   },
 
-  // ── イグサモ科 ──────────────────────────────────────────
+  // ── シバナ科 ──────────────────────────────────────────
   {
     id: "juncaginaceae",
-    jaName: "イグサモ科",
+    jaName: "シバナ科",
     enName: "Arrow-grass family",
     scientificName: "Juncaginaceae Rich.",
     order: "オモダカ目",
@@ -7805,7 +7805,7 @@ export const families: Family[] = [
       "塩性湿地に適応した塩生植物を含む",
     ],
     enCharacteristics: ["Leaves narrow-linear, tufted from the base", "Flowers small, trimerous, in spicate inflorescences", "Fruit a dehiscent schizocarp", "Includes halophytes adapted to salt marshes"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > オモダカ目 > イグサモ科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > オモダカ目 > シバナ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Alismatales > Juncaginaceae",
     divergenceEra: "白亜紀後期（約8000万年前）",
     enDivergenceEra: "Late Cretaceous (ca. 80 million years ago)",
@@ -7828,7 +7828,7 @@ export const families: Family[] = [
   // ── クワズイモ目クルクリゴ科 ──────────────────────────────────────────
   {
     id: "cyclanthaceae",
-    jaName: "クルクリゴ目クルクリゴ科",
+    jaName: "パナマソウ科",
     enName: "Panama-hat family",
     scientificName: "Cyclanthaceae Poit. ex A.Rich.",
     order: "タコノキ目",
@@ -7842,7 +7842,7 @@ export const families: Family[] = [
       "果実は集合して肉質の集合果となる",
     ],
     enCharacteristics: ["Leaves large, fan-shaped or bifid, with a palm-like appearance", "Monoecious, flowers densely packed in a spadix", "Distinctive inflorescence with male and female flowers alternately arranged", "Fruits aggregate into fleshy multiple fruits"],
-    phylogeneticPosition: "被子植物 > 単子葉類 > タコノキ目 > クルクリゴ科",
+    phylogeneticPosition: "被子植物 > 単子葉類 > タコノキ目 > パナマソウ科",
     enPhylogeneticPosition: "Angiosperms > Monocots > Pandanales > Cyclanthaceae",
     divergenceEra: "白亜紀後期〜古第三紀（約8000万年前）",
     enDivergenceEra: "Late Cretaceous to Paleogene (ca. 80 million years ago)",
@@ -7942,10 +7942,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── カリオカル科 ──────────────────────────────────────────
+  // ── バターナット科 ──────────────────────────────────────────
   {
     id: "caryocaraceae",
-    jaName: "カリオカル科",
+    jaName: "バターナット科",
     enName: "Souari family",
     scientificName: "Caryocaraceae Voigt",
     order: "キントラノオ目",
@@ -7959,7 +7959,7 @@ export const families: Family[] = [
       "常緑の大高木",
     ],
     enCharacteristics: ["Large, opposite, trifoliate compound leaves", "Flowers large, yellow to white, with numerous conspicuous stamens", "Fruit a large drupe with seeds enclosed in a hard endocarp", "Evergreen large trees"],
-    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > キントラノオ目 > カリオカル科",
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > キントラノオ目 > バターナット科",
     enPhylogeneticPosition: "Angiosperms > Eudicots > Core eudicots > Malpighiales > Caryocaraceae",
     divergenceEra: "白亜紀後期（約8000万年前）",
     enDivergenceEra: "Late Cretaceous (ca. 80 million years ago)",
@@ -9877,10 +9877,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── ミトラステモン科 ──────────────────────────────────────────
+  // ── ヤッコソウ科 ──────────────────────────────────────────
   {
     id: "mitrastemonaceae",
-    jaName: "ミトラステモン科",
+    jaName: "ヤッコソウ科",
     enName: "Mitrastemon family",
     scientificName: "Mitrastemonaceae Makino",
     order: "ツツジ目",
@@ -9894,7 +9894,7 @@ export const families: Family[] = [
       "雄しべは輪状に癒合し帽子状（ミトラ状）になる",
     ],
     enCharacteristics: ["Holoparasitic plant lacking chlorophyll (host: Fagaceae roots)", "Stems and leaves are vestigial; only flowers emerge above ground", "Flowers are bisexual with fused petals and sepals forming a tube", "Stamens are fused into a ring forming a cap-like (mitrate) structure"],
-    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > ツツジ目 > ミトラステモン科",
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > ツツジ目 > ヤッコソウ科",
     enPhylogeneticPosition: "Angiosperms > Eudicots > Core Eudicots > Ericales > Mitrastemonaceae",
     divergenceEra: "古第三紀〜新第三紀（約3000万年前）",
     enDivergenceEra: "Paleogene to Neogene (ca. 30 million years ago)",
@@ -9908,7 +9908,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Acquisition of holoparasitism (complete loss of photosynthetic ability)", "Reduction of stems and leaves with specialization to subterranean parasitic structures", "Evolution of a unique pollination morphology through cap-like fusion of stamens"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミトラステモン科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤッコソウ科" },
     ],
     japaneseSpeciesCount: 4,
     review: { status: "ai_generated" },
@@ -9957,10 +9957,10 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── カツラギ科 ──────────────────────────────────────────
+  // ── クロタキカズラ科 ──────────────────────────────────────────
   {
     id: "icacinaceae",
-    jaName: "カツラギ科",
+    jaName: "クロタキカズラ科",
     enName: "Icacina family",
     scientificName: "Icacinaceae Miers",
     order: "アスター類（系統的位置再検討中）",
@@ -9989,7 +9989,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Adaptation to woody liana habit within tropical rainforests", "Taxonomic instability (molecular phylogenetics suggests multiple instances of convergent evolution)"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カツラギ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クロタキカズラ科" },
     ],
     japaneseSpeciesCount: 17,
     review: { status: "ai_generated" },
@@ -10115,11 +10115,11 @@ export const families: Family[] = [
     review: { status: "ai_generated" },
   },
 
-  // ── フジウツギ科 ──────────────────────────────────────────
+  // ── マチン科 ──────────────────────────────────────────
   {
     id: "loganiaceae",
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Strychnos_nux-vomica.jpg",
-    jaName: "フジウツギ科",
+    jaName: "マチン科",
     enName: "Logania family",
     scientificName: "Loganiaceae R.Br. ex Mart.",
     order: "リンドウ目",
@@ -10133,7 +10133,7 @@ export const families: Family[] = [
       "果実は蒴果または液果",
     ],
     enCharacteristics: ["Leaves are simple, opposite, entire to serrate", "Interpetiolar stipules present (or as an interpetiolar line)", "Corolla is sympetalous, 4- to 5-lobed", "Fruit is a capsule or berry"],
-    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > リンドウ目 > フジウツギ科",
+    phylogeneticPosition: "被子植物 > 真正双子葉類 > コア真正双子葉類 > リンドウ目 > マチン科",
     enPhylogeneticPosition: "Angiosperms > Eudicots > Core Eudicots > Gentianales > Loganiaceae",
     divergenceEra: "古第三紀（約5000万年前）",
     enDivergenceEra: "Paleogene (ca. 50 million years ago)",
@@ -10148,7 +10148,7 @@ export const families: Family[] = [
     ],
     enEvolutionEvents: ["Evolution of highly toxic alkaloids such as strychnine and brucine (Strychnos)", "Adaptation of Buddleja to butterfly pollination (fragrance and dense inflorescences)"],
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フジウツギ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マチン科" },
     ],
     japaneseSpeciesCount: 23,
     review: { status: "ai_generated" },

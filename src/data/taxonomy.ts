@@ -722,7 +722,7 @@ export const taxonomyTree: TaxonomyNode = {
                     { id: "umishiba", name: "ウミシバ", rank: "species", plantId: "umishiba" },
 
                   ] },
-                { id: "scheuchzeriaceae", name: "ミズハコベ科", rank: "family", familyId: "scheuchzeriaceae", children: [
+                { id: "scheuchzeriaceae", name: "ミゾハコベ科", rank: "family", familyId: "scheuchzeriaceae", children: [
 
                     { id: "scheuchzeria", name: "ヒメミクリ", rank: "species", plantId: "scheuchzeria" },
 
@@ -756,7 +756,7 @@ export const taxonomyTree: TaxonomyNode = {
               name: "ペトロサヴィア目",
               rank: "order",
               children: [
-                { id: "petrosaviaceae", name: "ペトロサヴィア科", rank: "family", familyId: "petrosaviaceae", children: [
+                { id: "petrosaviaceae", name: "サクライソウ科", rank: "family", familyId: "petrosaviaceae", children: [
 
                     { id: "petrosavia", name: "ペトロサヴィア", rank: "species", plantId: "petrosavia" },
 
@@ -1615,7 +1615,7 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "toudaigusa", name: "トウダイグサ", rank: "species", plantId: "toudaigusa" },
 
                               ] },
-                            { id: "elatinaceae", name: "ミズハコベ科", rank: "family", familyId: "elatinaceae", children: [
+                            { id: "elatinaceae", name: "ミゾハコベ科", rank: "family", familyId: "elatinaceae", children: [
 
                                 { id: "mizuhakobe", name: "ミズハコベ", rank: "species", plantId: "mizuhakobe" },
 
@@ -1667,7 +1667,7 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "hime_hagi", name: "ヒメハギ", rank: "species", plantId: "hime_hagi" },
 
                               ] },
-                            { id: "caryocaraceae", name: "カリオカル科", rank: "family", familyId: "caryocaraceae", children: [
+                            { id: "caryocaraceae", name: "バターナット科", rank: "family", familyId: "caryocaraceae", children: [
 
                                 { id: "caryocar", name: "カリオカル", rank: "species", plantId: "caryocar" },
 
@@ -1969,7 +1969,7 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "rindo", name: "リンドウ", rank: "species", plantId: "rindo" },
 
                               ] },
-                            { id: "loganiaceae", name: "フジウツギ科", rank: "family", familyId: "loganiaceae", children: [
+                            { id: "loganiaceae", name: "マチン科", rank: "family", familyId: "loganiaceae", children: [
 
                                 { id: "fuji_utsugi", name: "フジウツギ", rank: "species", plantId: "fuji_utsugi" },
 
@@ -2204,7 +2204,7 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "ryobu", name: "リョウブ", rank: "species", plantId: "ryobu" },
 
                               ] },
-                            { id: "mitrastemonaceae", name: "ミトラステモン科", rank: "family", familyId: "mitrastemonaceae", children: [
+                            { id: "mitrastemonaceae", name: "ヤッコソウ科", rank: "family", familyId: "mitrastemonaceae", children: [
 
                                 { id: "mitrasutemon", name: "ミトラステモン", rank: "species", plantId: "mitrasutemon" },
 
@@ -2221,7 +2221,7 @@ export const taxonomyTree: TaxonomyNode = {
                           name: "アキノキリンソウ目",
                           rank: "order",
                           children: [
-                            { id: "cardiopteridaceae", name: "カルジオプテリス科", rank: "family", familyId: "cardiopteridaceae", children: [
+                            { id: "cardiopteridaceae", name: "ヤマイモモドキ科", rank: "family", familyId: "cardiopteridaceae", children: [
 
                                 { id: "cardiopteris", name: "カルジオプテリス", rank: "species", plantId: "cardiopteris" },
 

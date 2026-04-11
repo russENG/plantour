@@ -3830,7 +3830,7 @@ export const plants: Plant[] = [
     enName: "Bristle Fern",
     scientificName: "Microlepia strigosa",
     familyId: "grammitidaceae",
-    familyJaName: "ウラゲシダ科",
+    familyJaName: "ヒメウラボシ科",
     description:
       "暖地の林床や崖に生える大型のシダ。2〜3回羽状複葉で全体に毛が多い。ソーラスは辺縁近くにカップ形（苞膜）に包まれてつく。",
     enDescription: "A large fern growing on the forest floor and cliff faces in warm regions. The fronds are bi- to tripinnate and densely hairy throughout. Sori are located near the leaf margins, enclosed in cup-shaped indusia.",
@@ -3848,7 +3848,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ウラゲシダ" },
     ],
-    evolutionNote: "ウラゲシダ科（広義）はシダ植物の中で熱帯から温帯にかけて広く分布し、林床環境への適応を示す多様な種群を含む。",
+    evolutionNote: "ヒメウラボシ科（広義）はシダ植物の中で熱帯から温帯にかけて広く分布し、林床環境への適応を示す多様な種群を含む。",
     enEvolutionNote: "The broadly defined family including Microlepia is widely distributed from the tropics to temperate zones and contains a diverse range of species adapted to forest floor environments.",
     tags: ["シダ", "多年草", "常緑", "林床", "暖地"],
     enTags: ["Fern", "Perennial", "Evergreen", "Forest floor", "Warm-temperate"],
@@ -4033,7 +4033,7 @@ export const plants: Plant[] = [
     scientificName: "Lomariopsis japonica",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Lomariopsis_marginata_%28Schrad.%29_Kuhn_%288288892864%29.jpg/330px-Lomariopsis_marginata_%28Schrad.%29_Kuhn_%288288892864%29.jpg",
     familyId: "lomariopsidaceae",
-    familyJaName: "ヒモカズラ科",
+    familyJaName: "ナナバケシダ科",
     description:
       "南西諸島・九州南部の林内に生える着生・匍匐性のシダ。細い茎を長く伸ばし岩や木の幹を這う。羽状複葉の葉が特徴的。",
     enDescription: "An epiphytic and creeping fern found in forests of the Nansei Islands and southern Kyushu. It extends slender stems along rocks and tree trunks. The pinnately compound fronds are distinctive.",
@@ -4050,7 +4050,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒモカズラ" },
     ],
-    evolutionNote: "ヒモカズラ科は着生・匍匐性への特殊化を示すシダ植物で、熱帯性の系統から日本南部へ分布を広げた。",
+    evolutionNote: "ナナバケシダ科は着生・匍匐性への特殊化を示すシダ植物で、熱帯性の系統から日本南部へ分布を広げた。",
     enEvolutionNote: "Lomariopsidaceae is a fern family showing specialization for epiphytic and creeping habits, having expanded its range from tropical lineages into southern Japan.",
     tags: ["シダ", "常緑", "着生", "暖地", "南西諸島"],
     enTags: ["Fern", "Evergreen", "Epiphytic", "Warm-temperate", "Nansei Islands"],
@@ -4374,9 +4374,9 @@ export const plants: Plant[] = [
     scientificName: "Gomphandra tetrandra",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Gomphandra_australiana.jpg/330px-Gomphandra_australiana.jpg",
     familyId: "icacinaceae",
-    familyJaName: "カツラギ科",
+    familyJaName: "クロタキカズラ科",
     description:
-      "南西諸島（八重山諸島など）の林内に生える常緑低木〜小高木。カツラギ科は熱帯に多く分布し、日本には数種が南西諸島に産する。",
+      "南西諸島（八重山諸島など）の林内に生える常緑低木〜小高木。クロタキカズラ科は熱帯に多く分布し、日本には数種が南西諸島に産する。",
     enDescription: "An evergreen shrub to small tree found in forests of the Nansei Islands (Yaeyama Islands, etc.). Icacinaceae is primarily distributed in the tropics, with a few species occurring in the Nansei Islands of Japan.",
     identificationPoints: [
       "葉は楕円形〜卵形の単葉、互生",
@@ -4391,7 +4391,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Icacinaceae" },
     ],
-    evolutionNote: "カツラギ科はキク上群の比較的原始的な系統で、熱帯アジア・アフリカを中心に分布する。",
+    evolutionNote: "クロタキカズラ科はキク上群の比較的原始的な系統で、熱帯アジア・アフリカを中心に分布する。",
     enEvolutionNote: "Icacinaceae is a relatively primitive lineage within the asterid superorder, distributed mainly in tropical Asia and Africa.",
     tags: ["木本", "常緑", "低木", "南西諸島", "熱帯"],
     enTags: ["Woody", "Evergreen", "Shrub", "Nansei Islands", "Tropical"],
@@ -4542,7 +4542,7 @@ export const plants: Plant[] = [
     enName: "Acerola",
     scientificName: "Malpighia emarginata",
     familyId: "malpighiaceae",
-    familyJaName: "マルピーギア科",
+    familyJaName: "キントラノオ科",
     description:
       "西インド諸島原産の常緑低木〜小高木。ビタミンCを非常に多く含む赤い果実で知られ、沖縄では栽培されている。ピンクの小花が愛らしい。",
     enDescription: "An evergreen shrub to small tree native to the West Indies. Known for its red fruits with exceptionally high vitamin C content; cultivated in Okinawa. Bears charming small pink flowers.",
@@ -4560,7 +4560,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アセロラ" },
     ],
-    evolutionNote: "マルピーギア科はアブラナ目に属し、多くの種が花弁に油腺をもつ特殊な構造で油を集めるハナバチ（マルピーギアバチ）と共進化した。",
+    evolutionNote: "キントラノオ科はアブラナ目に属し、多くの種が花弁に油腺をもつ特殊な構造で油を集めるハナバチ（マルピーギアバチ）と共進化した。",
     enEvolutionNote: "Malpighiaceae belongs to Malpighiales, and many species have co-evolved with oil-collecting bees through specialized oil glands on their petals.",
     tags: ["木本", "常緑", "低木", "果物", "栽培", "沖縄", "熱帯"],
     enTags: ["Woody", "Evergreen", "Shrub", "Fruit tree", "Cultivated", "Okinawa", "Tropical"],
@@ -4745,7 +4745,7 @@ export const plants: Plant[] = [
     enName: "Cape Pondweed",
     scientificName: "Aponogeton distachyos",
     familyId: "aponogetonaceae",
-    familyJaName: "ミズスギナ科",
+    familyJaName: "レースソウ科",
     description:
       "南アフリカ原産の水生多年草。池や水槽で観賞用に栽培される。水面に葉を浮かべ、白い花を咲かせる。日本には帰化例もある。",
     enDescription: "An aquatic perennial native to South Africa. Cultivated ornamentally in ponds and aquariums. It floats leaves on the water surface and produces white flowers. Naturalized occurrences have been reported in Japan.",
@@ -4763,7 +4763,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Aponogeton_distachyos" },
     ],
-    evolutionNote: "ミズスギナ科は単子葉植物の中で水生生活に特化した古い系統で、アフリカ・アジアに約60種が分布する。",
+    evolutionNote: "レースソウ科は単子葉植物の中で水生生活に特化した古い系統で、アフリカ・アジアに約60種が分布する。",
     enEvolutionNote: "Aponogetonaceae is an ancient monocot lineage specialized for aquatic life, with about 60 species distributed across Africa and Asia.",
     tags: ["草本", "多年草", "水生植物", "栽培", "観賞"],
     enTags: ["Herb", "Perennial", "Aquatic", "Cultivated", "Ornamental"],
@@ -4914,7 +4914,7 @@ export const plants: Plant[] = [
     scientificName: "Mitrastemon yamamotoi",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Yakkosou01.jpg/330px-Yakkosou01.jpg",
     familyId: "mitrastemonaceae",
-    familyJaName: "ミトラステモン科",
+    familyJaName: "ヤッコソウ科",
     description:
       "カシ類の根に全寄生する非常に珍しい植物。葉緑素をもたず、全体が白〜淡赤色。日本の固有変種が四国・九州・南西諸島に産する。",
     enDescription: "A highly unusual holoparasitic plant that parasitizes the roots of evergreen oaks (Quercus/Castanopsis). Lacking chlorophyll, the entire plant is white to pale reddish. An endemic variety occurs in Shikoku, Kyushu, and the Nansei Islands.",
@@ -4931,7 +4931,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミトラステモン" },
     ],
-    evolutionNote: "ミトラステモン科は独立の科とされる全寄生植物で、ラフレシアに近縁とも言われる。完全に光合成能力を失い、宿主植物への依存に特化した極端な進化形態。",
+    evolutionNote: "ヤッコソウ科は独立の科とされる全寄生植物で、ラフレシアに近縁とも言われる。完全に光合成能力を失い、宿主植物への依存に特化した極端な進化形態。",
     enEvolutionNote: "Mitrastemonaceae is an independent holoparasitic family, sometimes considered related to Rafflesiaceae. It has completely lost photosynthetic ability, representing an extreme evolutionary specialization in host dependency.",
     tags: ["草本", "全寄生植物", "林床", "珍しい", "固有種"],
     enTags: ["Herb", "Holoparasitic", "Forest floor", "Rare", "Endemic"],
@@ -4982,7 +4982,7 @@ export const plants: Plant[] = [
     scientificName: "Plagiogyria japonica",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/8460-Plagiogyria_tuberculata-Kemiri.JPG/330px-8460-Plagiogyria_tuberculata-Kemiri.JPG",
     familyId: "cheiropleuriaceae",
-    familyJaName: "キジノオシダ科",
+    familyJaName: "スジヒトツバ科",
     description:
       "山地の湿った林床に生えるシダ。胞子葉は栄養葉より細く立ち上がり、雉の尾羽に例えられる。古い系統に属する独特の形態をもつ。",
     enDescription: "A fern growing on moist mountain forest floors. The fertile fronds are narrower than the sterile ones and stand erect, likened to the tail feathers of a pheasant ('Kiji'). It possesses a distinctive morphology belonging to an ancient lineage.",
@@ -5017,7 +5017,7 @@ export const plants: Plant[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/56/Cardiopteris_moluccana_101711103.jpg",
     imageNote: "画像は同属別種 Cardiopteris moluccana の写真です（quinqueloba の画像は現在未収載）。",
     familyId: "cardiopteridaceae",
-    familyJaName: "カルジオプテリス科",
+    familyJaName: "ヤマイモモドキ科",
     description:
       "東南アジア・南アジアに分布するつる性木本。日本には沖縄に自生する。小さな花と翼のある果実をもつ。非常に小さな科で日本には限られた分布をもつ。",
     enDescription: "A woody climber distributed in Southeast and South Asia. Native to Okinawa in Japan. It bears small flowers and winged fruits. A very small family with limited distribution in Japan.",
@@ -5034,7 +5034,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Cardiopteridaceae" },
     ],
-    evolutionNote: "カルジオプテリス科はキク上群の比較的古い系統に位置し、東南アジアを中心に分布する小科。",
+    evolutionNote: "ヤマイモモドキ科はキク上群の比較的古い系統に位置し、東南アジアを中心に分布する小科。",
     enEvolutionNote: "Cardiopteridaceae is a small family positioned in a relatively ancient lineage of the asterid superorder, centered in Southeast Asia.",
     tags: ["木本", "つる植物", "南西諸島", "熱帯"],
     enTags: ["Woody", "Vine/Climber", "Nansei Islands", "Tropical"],
@@ -5118,7 +5118,7 @@ export const plants: Plant[] = [
     scientificName: "Xyris pauciflora",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/N_Xyrc_D9741.JPG/330px-N_Xyrc_D9741.JPG",
     familyId: "xyridaceae",
-    familyJaName: "キバナノイグサ科",
+    familyJaName: "トウエンソウ科",
     description:
       "九州南部・南西諸島の湿地に生える小型の多年草。細い葉の束から花茎を伸ばし、先端に小さな黄色い花を咲かせる。湿地の減少により希少になっている。",
     enDescription: "A small perennial herb growing in wetlands of southern Kyushu and the Nansei Islands. Flower scapes emerge from tufts of narrow leaves, bearing small yellow flowers at the tip. It has become rare due to wetland loss.",
@@ -5135,7 +5135,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Xyridaceae" },
     ],
-    evolutionNote: "キバナノイグサ科はツユクサ目に属し、熱帯を中心に約500種が分布する湿地性植物の科。",
+    evolutionNote: "トウエンソウ科はツユクサ目に属し、熱帯を中心に約500種が分布する湿地性植物の科。",
     enEvolutionNote: "Xyridaceae belongs to the order Commelinales, a family of wetland plants with about 500 species distributed mainly in the tropics.",
     tags: ["草本", "多年草", "湿地", "南西諸島", "希少"],
     enTags: ["Herb", "Perennial", "Wetlands", "Nansei Islands", "Rare"],
@@ -5220,7 +5220,7 @@ export const plants: Plant[] = [
     scientificName: "Scheuchzeria palustris",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Scheuchzeria_palustris_-_flowering.jpg/330px-Scheuchzeria_palustris_-_flowering.jpg",
     familyId: "scheuchzeriaceae",
-    familyJaName: "シュークゼリア科",
+    familyJaName: "ホロムイソウ科",
     description:
       "北半球の冷帯〜寒帯の泥炭湿地（ミズゴケ湿原）に生える多年草。日本では北海道・本州中部以北の高層湿原に産する希少種。",
     enDescription: "A perennial herb growing in peat bogs (Sphagnum mires) of the boreal to subarctic zones of the Northern Hemisphere. A rare species in Japan, found in raised bogs of Hokkaido and central to northern Honshu.",
@@ -5237,7 +5237,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒメミクリ" },
     ],
-    evolutionNote: "シュークゼリア科は単子葉植物の初期分岐系統のひとつで、1属1種の単型科。水生〜湿地適応の古い形質を残す。",
+    evolutionNote: "ホロムイソウ科は単子葉植物の初期分岐系統のひとつで、1属1種の単型科。水生〜湿地適応の古い形質を残す。",
     enEvolutionNote: "Scheuchzeriaceae is one of the early-diverging monocot lineages, a monotypic family (1 genus, 1 species) retaining ancient traits of aquatic-to-wetland adaptation.",
     tags: ["草本", "多年草", "湿地", "高山", "北海道", "希少"],
     enTags: ["Herb", "Perennial", "Wetlands", "Alpine", "Hokkaido", "Rare"],
@@ -6262,7 +6262,7 @@ export const plants: Plant[] = [
     enName: "Butterfly Bush",
     scientificName: "Buddleja japonica",
     familyId: "loganiaceae",
-    familyJaName: "フジウツギ科",
+    familyJaName: "マチン科",
     description:
       "日本の山地の渓谷や岩場に自生する落葉低木。夏に淡紫色の小花を穂状に密集して咲かせる。チョウが好んで集まることから英名「Butterfly Bush」ともいう。同属のブッドレアが観賞用に広く栽培される。",
     enDescription: "A deciduous shrub native to mountain valleys and rocky sites in Japan. In summer, it produces dense spikes of pale purple flowers. Commonly known as 'Butterfly Bush' for its strong attraction to butterflies. The related ornamental Buddleja species are widely cultivated.",
@@ -6280,7 +6280,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フジウツギ" },
     ],
-    evolutionNote: "フジウツギ科（広義のゴマノハグサ目）はチョウを主な送粉者とする花の形態を進化させた。蜜の多い合弁花はチョウ媒花の典型例。",
+    evolutionNote: "マチン科（広義のゴマノハグサ目）はチョウを主な送粉者とする花の形態を進化させた。蜜の多い合弁花はチョウ媒花の典型例。",
     enEvolutionNote: "Loganiaceae (in the broad sense of Scrophulariales) evolved floral morphology adapted for butterfly pollination. The nectar-rich sympetalous flowers are a classic example of psychophily (butterfly pollination).",
     tags: ["木本", "落葉", "低木", "山地", "紫花", "チョウ"],
     enTags: ["Woody", "Deciduous", "Shrub", "Mountains", "Purple flowers", "Butterfly-attracting"],
@@ -6515,7 +6515,7 @@ export const plants: Plant[] = [
     enName: "Waterwort",
     scientificName: "Elatine triandra",
     familyId: "elatinaceae",
-    familyJaName: "ミズハコベ科",
+    familyJaName: "ミゾハコベ科",
     description:
       "日本各地の水田や池沼の浅水部に生える小型の一年草。茎は地を這うか、水中を浮遊して広がる。葉は小さな楕円形で対生し、夏に極めて小さな白色〜淡紅色の花を葉腋につける。",
     enDescription: "A small annual herb growing in shallow waters of rice paddies and ponds throughout Japan. Stems are creeping or floating in water. Leaves are small, elliptical, and opposite. In summer, extremely small white to pale pink flowers appear in leaf axils.",
@@ -6533,7 +6533,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミズハコベ" },
     ],
-    evolutionNote: "ミズハコベ科は小型の水生植物のみからなる小科で、花が3数性（花弁・雄しべ3個）という特徴をもつ。農薬や除草剤の影響を受けやすく、水田生態系の環境指標となっている。",
+    evolutionNote: "ミゾハコベ科は小型の水生植物のみからなる小科で、花が3数性（花弁・雄しべ3個）という特徴をもつ。農薬や除草剤の影響を受けやすく、水田生態系の環境指標となっている。",
     enEvolutionNote: "Elatinaceae is a small family consisting solely of small aquatic plants, characterized by trimerous flowers (3 petals and 3 stamens). Sensitive to pesticides and herbicides, it serves as an environmental indicator of paddy field ecosystems.",
     tags: ["草本", "水生植物", "一年草", "水田"],
     enTags: ["Herb", "Aquatic plant", "Annual", "Rice paddies"],
@@ -7159,7 +7159,7 @@ export const plants: Plant[] = [
     enName: "Flagellaria",
     scientificName: "Flagellaria indica",
     familyId: "flagellariaceae",
-    familyJaName: "トウアズキ科",
+    familyJaName: "トウツルモドキ科",
     description:
       "東南アジア〜太平洋島嶼原産のつる性多年草で、日本では沖縄・南西諸島の海岸林に自生する。葉の先端が巻きひげ状になって他の植物に絡みつく。茎は細く丈夫で竹に似た節をもち、かつてはかご・バスケットの材料に使われた。",
     enDescription: "A climbing perennial herb native to Southeast Asia and Pacific islands, found wild in coastal forests of Okinawa and the Ryukyu Islands. Leaf tips are modified into tendrils that grasp other plants. Stems are slender but tough with bamboo-like nodes, once used for basket weaving.",
@@ -7177,7 +7177,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Flagellaria_indica" },
     ],
-    evolutionNote: "トウアズキ科（Flagellariaceae）はイネ目の基底に位置する単型科で、単子葉類がつる性になった珍しい例。葉先巻きひげはイネ科には見られない収斂進化的特徴。",
+    evolutionNote: "トウツルモドキ科（Flagellariaceae）はイネ目の基底に位置する単型科で、単子葉類がつる性になった珍しい例。葉先巻きひげはイネ科には見られない収斂進化的特徴。",
     enEvolutionNote: "Flagellariaceae is a monotypic family at the base of Poales, a rare example of a climbing monocot. Leaf-tip tendrils represent a convergent evolutionary trait not seen in grasses.",
     tags: ["草本", "つる性", "常緑", "多年草", "南西諸島"],
     enTags: ["Herb", "Vine/Climber", "Evergreen", "Perennial", "Ryukyu Islands"],
@@ -7266,7 +7266,7 @@ export const plants: Plant[] = [
     enName: "Roureopsis",
     scientificName: "Rourea minor",
     familyId: "connaraceae",
-    familyJaName: "コンナラス科",
+    familyJaName: "マメモドキ科",
     description:
       "東南アジア〜太平洋諸島に分布するつる性低木で、日本では沖縄・南西諸島の林内に自生する。奇数羽状複葉の葉と、実が割れて赤い仮種皮に包まれた種子を出す姿が特徴的。日本では分布が限られた植物。",
     enDescription: "A climbing shrub distributed from Southeast Asia to Pacific islands, found wild in forests of Okinawa and the Ryukyu Islands. Characterized by odd-pinnately compound leaves and dehiscent fruits that reveal seeds with red arils. Its distribution in Japan is very limited.",
@@ -7284,7 +7284,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Connaraceae" },
     ],
-    evolutionNote: "コンナラス科（Connaraceae）はマメ目に近縁の熱帯性の科で、鮮やかな仮種皮による鳥散布を進化させた。日本では南西諸島がほぼ北限となる。",
+    evolutionNote: "マメモドキ科（Connaraceae）はマメ目に近縁の熱帯性の科で、鮮やかな仮種皮による鳥散布を進化させた。日本では南西諸島がほぼ北限となる。",
     enEvolutionNote: "Connaraceae is a tropical family related to Fabales, having evolved bird dispersal through colorful arils. The Ryukyu Islands represent nearly the northern limit of its distribution in Japan.",
     tags: ["木本", "つる性", "常緑", "南西諸島", "熱帯植物"],
     enTags: ["Woody", "Vine/Climber", "Evergreen", "Ryukyu Islands", "Tropical plant"],
@@ -7301,7 +7301,7 @@ export const plants: Plant[] = [
     enName: "Dichapetalum",
     scientificName: "Dichapetalum gelonioides",
     familyId: "dichapetalaceae",
-    familyJaName: "ジカペタラム科",
+    familyJaName: "カイナンボク科",
     description:
       "東南アジアに分布するつる性木本で、日本では南西諸島（西表島周辺）に記録がある非常に稀な植物。フルオロ酢酸（強毒）を含む種子を持つことが知られ、分類・生態学的に興味深い科。",
     enDescription: "A woody climber distributed in Southeast Asia, recorded very rarely in the Ryukyu Islands (around Iriomote Island) in Japan. Known for seeds containing fluoroacetic acid (a potent toxin), making it a taxonomically and ecologically intriguing family.",
@@ -7319,7 +7319,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Dichapetalaceae" },
     ],
-    evolutionNote: "ジカペタラム科（Dichapetalaceae）はマルピーギア目に属す熱帯性の小科で、フルオロ酢酸という細胞毒性の高い化合物を含む種が知られる。日本では極めて稀。",
+    evolutionNote: "カイナンボク科（Dichapetalaceae）はマルピーギア目に属す熱帯性の小科で、フルオロ酢酸という細胞毒性の高い化合物を含む種が知られる。日本では極めて稀。",
     enEvolutionNote: "Dichapetalaceae is a small tropical family in Malpighiales, with some species known to contain fluoroacetic acid, a highly cytotoxic compound. Extremely rare in Japan.",
     tags: ["木本", "つる性", "常緑", "南西諸島", "熱帯植物", "稀少種"],
     enTags: ["Woody", "Vine/Climber", "Evergreen", "Ryukyu Islands", "Tropical plant", "Rare species"],
@@ -7336,7 +7336,7 @@ export const plants: Plant[] = [
     enName: "Curculigo",
     scientificName: "Curculigo capitulata",
     familyId: "cyclanthaceae",
-    familyJaName: "クルクリゴ目クルクリゴ科",
+    familyJaName: "パナマソウ科",
     description:
       "東南アジア原産の多年草で、日本では南西諸島の林内に自生するほか観葉植物として温室で栽培される。大型のアヤメ状の葉が株立ちになる姿が目を引く。ヤシ目やショウガ目の近縁として分類されてきたが、系統位置はAPGでも議論がある。",
     enDescription: "A perennial herb native to Southeast Asia, found wild in forests of the Ryukyu Islands and cultivated in greenhouses as an ornamental. Its striking clumping habit with large iris-like leaves is eye-catching. Classified near Arecales or Zingiberales, its phylogenetic placement remains debated even under the APG system.",
@@ -8889,7 +8889,7 @@ export const plants: Plant[] = [
     scientificName: "Triglochin palustre",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Triglochium_palustris_BotGartBln310505.JPG/330px-Triglochium_palustris_BotGartBln310505.JPG",
     familyId: "juncaginaceae",
-    familyJaName: "イグサモ科",
+    familyJaName: "シバナ科",
     description:
       "塩性湿地や内陸湿地に生える多年草。細長い棒状の葉とイネ科のような穂状花序が特徴。葉や根に青酸配糖体を含み有毒。日本では北海道の湿原に稀に見られる。",
     enDescription: "A perennial herb growing in salt marshes and inland wetlands. Characterized by slender, rod-shaped leaves and grass-like spicate inflorescences. Contains cyanogenic glycosides in the leaves and roots and is poisonous. Rarely found in the wetlands of Hokkaido, Japan.",
@@ -8906,7 +8906,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒメイグサモ" },
     ],
-    evolutionNote: "イグサモ科は単子葉植物の初期系統に属し、シンプルな花構造と水辺・湿地への古い適応を持つ。",
+    evolutionNote: "シバナ科は単子葉植物の初期系統に属し、シンプルな花構造と水辺・湿地への古い適応を持つ。",
     enEvolutionNote: "Juncaginaceae belongs to an early-diverging monocot lineage, retaining simple floral structure and ancient adaptations to wetland and waterside habitats.",
     tags: ["草本", "多年草", "水辺", "塩生植物", "有毒"],
     enTags: ["Herb", "Perennial", "Waterside", "Halophyte", "Poisonous"],
@@ -9118,7 +9118,7 @@ export const plants: Plant[] = [
     scientificName: "Butomus umbellatus",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Butomus_umbellatus_-_harilik_luigelill_Keilas.jpg/330px-Butomus_umbellatus_-_harilik_luigelill_Keilas.jpg",
     familyId: "butomaceae",
-    familyJaName: "トチカガミ目ブトムス科",
+    familyJaName: "ハナイ科",
     description:
       "ユーラシア原産の多年性水生植物。日本では稀に帰化が確認されている。三稜のある細長い葉を直立させ、夏に長い花茎の頂部に散形花序をつけ、淡紅色の美しい6花被片の花を咲かせる。",
     enDescription: "A perennial aquatic plant native to Eurasia. Rarely confirmed as naturalized in Japan. It bears erect, triangular, slender leaves and produces an umbellate inflorescence atop a long flowering stalk in summer, with beautiful pale pink flowers having 6 tepals.",
@@ -9183,7 +9183,7 @@ export const plants: Plant[] = [
     scientificName: "Restio tetraphyllus",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Baloskion_tetraphyllum_clump_good.jpg/330px-Baloskion_tetraphyllum_clump_good.jpg",
     familyId: "restionaceae",
-    familyJaName: "レスチオ科",
+    familyJaName: "サンアソウ科",
     description:
       "主に南アフリカ（フィンボス）とオーストラリアに分布する単子葉植物。葉が退化して緑色の茎が光合成を担う。日本ではガーデニング素材として一部流通しているが自生はしない。",
     enDescription: "A monocot distributed mainly in South Africa (fynbos) and Australia. The leaves are reduced and green stems perform photosynthesis. In Japan, it is available to a limited extent as a garden plant but does not grow wild.",
@@ -9200,7 +9200,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Restionaceae" },
     ],
-    evolutionNote: "レスチオ科はイネ目に属し、南半球の貧栄養・乾燥地（フィンボスなど）に特化して多様化した。葉の茎への機能的置換（茎光合成）は乾燥・貧栄養への適応進化。",
+    evolutionNote: "サンアソウ科はイネ目に属し、南半球の貧栄養・乾燥地（フィンボスなど）に特化して多様化した。葉の茎への機能的置換（茎光合成）は乾燥・貧栄養への適応進化。",
     enEvolutionNote: "Restionaceae belongs to Poales and diversified in nutrient-poor, arid environments of the Southern Hemisphere (such as fynbos). The functional replacement of leaves by photosynthetic stems is an adaptive evolution to drought and nutrient-poor conditions.",
     tags: ["草本", "常緑", "南半球植物", "乾燥適応", "栽培"],
     enTags: ["Herb", "Evergreen", "Southern Hemisphere", "Drought-adapted", "Cultivated"],
@@ -10257,7 +10257,7 @@ export const plants: Plant[] = [
     scientificName: "Sciaphila secundiflora",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sciaphila_secundiflora_Thwaites_ex_Benth._%E9%8C%AB%E8%98%AD%E9%9C%89%E8%8D%89_%2815098081173%29.jpg/330px-Sciaphila_secundiflora_Thwaites_ex_Benth._%E9%8C%AB%E8%98%AD%E9%9C%89%E8%8D%89_%2815098081173%29.jpg",
     familyId: "triuridaceae",
-    familyJaName: "シャクジョウソウ科",
+    familyJaName: "ホンゴウソウ科",
     description:
       "腐生性の単子葉植物で、葉緑素をもたず菌類に寄生して生活する。茎は細く赤褐色〜白色で地上に短期間だけ姿を現す。南西諸島の湿潤な林床に生育する。",
     enDescription: "A mycoheterotrophic monocot lacking chlorophyll, living parasitically on fungi. The stem is slender, reddish-brown to white, appearing above ground only briefly. Found on humid forest floors of the Southwest Islands.",
@@ -10274,7 +10274,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホウガンラン" },
     ],
-    evolutionNote: "シャクジョウソウ科は腐生性の単子葉植物の一科で、葉緑素の完全消失と菌従属栄養への適応が高度に進んでいる。",
+    evolutionNote: "ホンゴウソウ科は腐生性の単子葉植物の一科で、葉緑素の完全消失と菌従属栄養への適応が高度に進んでいる。",
     enEvolutionNote: "Triuridaceae is a family of mycoheterotrophic monocots with complete loss of chlorophyll and highly advanced adaptation to mycoheterotrophy.",
     tags: ["草本", "腐生植物", "単子葉", "南西諸島"],
     enTags: ["Herb", "Mycoheterotroph", "Monocot", "Southwest Islands"],
@@ -10828,9 +10828,9 @@ export const plants: Plant[] = [
     scientificName: "Parinari laurina",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Parinarium_glaberrimum-Atuna_racemosa.jpg/330px-Parinarium_glaberrimum-Atuna_racemosa.jpg",
     familyId: "chrysobalanaceae",
-    familyJaName: "シロタマモドキ科",
+    familyJaName: "クリソバラヌス科",
     description:
-      "沖縄・南西諸島の海岸林に生える常緑高木。シロタマモドキ科は熱帯に広く分布するバラ目の科で、日本では南西諸島に少数の種が知られる。堅硬な核果をつける。",
+      "沖縄・南西諸島の海岸林に生える常緑高木。クリソバラヌス科は熱帯に広く分布するバラ目の科で、日本では南西諸島に少数の種が知られる。堅硬な核果をつける。",
     enDescription: "An evergreen tall tree growing in coastal forests of Okinawa and the Southwest Islands. Chrysobalanaceae is a family of Rosales widely distributed in the tropics; in Japan, only a few species are known from the Southwest Islands. It bears hard drupes.",
     identificationPoints: [
       "葉は革質・楕円形で互生",
@@ -10843,9 +10843,9 @@ export const plants: Plant[] = [
     season: "4〜6月（花）",
     enSeason: "April–June (flowers)",
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シロタマモドキ科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クリソバラヌス科" },
     ],
-    evolutionNote: "シロタマモドキ科はバラ目に属し、堅い核果は動物による種子散布と耐塩性海岸環境への適応を兼ねる。",
+    evolutionNote: "クリソバラヌス科はバラ目に属し、堅い核果は動物による種子散布と耐塩性海岸環境への適応を兼ねる。",
     enEvolutionNote: "Chrysobalanaceae belongs to Rosales; the hard drupes serve dual roles of animal seed dispersal and adaptation to salt-tolerant coastal environments.",
     tags: ["木本", "常緑", "高木", "南西諸島", "海岸"],
     enTags: ["Woody", "Evergreen", "Tall tree", "Southwest Islands", "Coastal"],
@@ -10896,7 +10896,7 @@ export const plants: Plant[] = [
     scientificName: "Petrosavia sakuraii",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Petrosavia_sakuraii_ihenglan_1.jpg/330px-Petrosavia_sakuraii_ihenglan_1.jpg",
     familyId: "petrosaviaceae",
-    familyJaName: "ペトロサヴィア科",
+    familyJaName: "サクライソウ科",
     description:
       "腐生性の単子葉植物で、山地の暗い林床に生える。葉緑素をもたず、菌類を介して有機物を得る菌従属栄養植物。日本では本州・四国・九州に稀に見られる。",
     enDescription: "A mycoheterotrophic monocot growing on dark mountain forest floors. Lacking chlorophyll, it obtains organic matter through fungi. Rarely found in Honshu, Shikoku, and Kyushu in Japan.",
@@ -10913,7 +10913,7 @@ export const plants: Plant[] = [
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ペトロサヴィア" },
     ],
-    evolutionNote: "ペトロサヴィア科は単子葉植物の基部近くに位置する小さな科で、腐生性への移行が独自の系統で起こった珍しいグループ。",
+    evolutionNote: "サクライソウ科は単子葉植物の基部近くに位置する小さな科で、腐生性への移行が独自の系統で起こった珍しいグループ。",
     enEvolutionNote: "Petrosaviaceae is a small family positioned near the base of monocots; the transition to mycoheterotrophy occurred independently in this unique lineage.",
     tags: ["草本", "多年草", "腐生植物", "単子葉", "山地"],
     enTags: ["Herb", "Perennial", "Mycoheterotroph", "Monocot", "Mountains"],
@@ -11065,7 +11065,7 @@ export const plants: Plant[] = [
     scientificName: "Philydrum lanuginosum",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/7_January_2009_7_wooly_frogmouth.jpg/330px-7_January_2009_7_wooly_frogmouth.jpg",
     familyId: "philydraceae",
-    familyJaName: "フィリドルム科",
+    familyJaName: "タヌキアヤメ科",
     description:
       "東アジア〜オーストラリアに分布する水生の多年草で、日本では本州西部・四国・九州に分布する。湿地や水田周辺に生え、夏に黄色の花を穂状に咲かせる。",
     enDescription: "An aquatic perennial herb distributed from East Asia to Australia; in Japan, found in western Honshu, Shikoku, and Kyushu. It grows in wetlands and around rice paddies, bearing yellow flowers in spike-like inflorescences in summer.",
@@ -11080,9 +11080,9 @@ export const plants: Plant[] = [
     season: "7〜9月（花）",
     enSeason: "July–September (flowers)",
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フィリドルム科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/タヌキアヤメ科" },
     ],
-    evolutionNote: "フィリドルム科は単子葉植物の中で独立した系統に位置し、水生環境への適応をもつ小さな科として系統学的に重要。",
+    evolutionNote: "タヌキアヤメ科は単子葉植物の中で独立した系統に位置し、水生環境への適応をもつ小さな科として系統学的に重要。",
     enEvolutionNote: "Philydraceae occupies an independent lineage among monocots and is phylogenetically significant as a small family adapted to aquatic environments.",
     tags: ["草本", "多年草", "水生植物", "単子葉"],
     enTags: ["Herb", "Perennial", "Aquatic plant", "Monocot"],
@@ -11201,7 +11201,7 @@ export const plants: Plant[] = [
     scientificName: "Caryocar brasiliense",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pequi01.JPG/330px-Pequi01.JPG",
     familyId: "caryocaraceae",
-    familyJaName: "カリオカル科",
+    familyJaName: "バターナット科",
     description:
       "南アメリカ原産の常緑高木で、日本では植物園のみに栽培される。果実は大きく堅い核果で食用になる。ブラジルのセラード（サバンナ）を代表する樹種のひとつ。",
     enDescription: "An evergreen tall tree native to South America, cultivated only in botanical gardens in Japan. The fruit is a large, hard drupe that is edible. It is one of the representative tree species of the Brazilian cerrado (savanna).",
@@ -11216,9 +11216,9 @@ export const plants: Plant[] = [
     season: "（熱帯・周年）",
     enSeason: "Year-round (tropical)",
     externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カリオカル科" },
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/バターナット科" },
     ],
-    evolutionNote: "カリオカル科はキントラノオ目に属し、堅い核果は大型哺乳類（アグーチなど）による散布に依存した大型種子散布の好例。",
+    evolutionNote: "バターナット科はキントラノオ目に属し、堅い核果は大型哺乳類（アグーチなど）による散布に依存した大型種子散布の好例。",
     enEvolutionNote: "Caryocaraceae belongs to Malpighiales. Its hard drupes are an excellent example of megafaunal seed dispersal, dependent on large mammals such as agoutis.",
     tags: ["木本", "常緑", "高木", "栽培", "食用"],
     enTags: ["Woody", "Evergreen", "Tall tree", "Cultivated", "Edible"],
