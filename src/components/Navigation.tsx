@@ -4,12 +4,12 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import type { Locale } from "@/dictionaries";
 
-const navKeys = ["home", "plants", "taxonomy", "timeline", "key", "quiz"] as const;
-const navPaths = ["", "/plants", "/taxonomy", "/timeline", "/key", "/quiz"];
+const navKeys = ["home", "plants", "taxonomy", "timeline", "key", "quiz", "columns"] as const;
+const navPaths = ["", "/plants", "/taxonomy", "/timeline", "/key", "/quiz", "/columns"];
 
 const labels: Record<Locale, Record<(typeof navKeys)[number], string>> = {
-  ja: { home: "トップ", plants: "植物一覧", taxonomy: "分類体系", timeline: "進化史", key: "検索表", quiz: "クイズ" },
-  en: { home: "Home", plants: "Plants", taxonomy: "Taxonomy", timeline: "Evolution", key: "Key", quiz: "Quiz" },
+  ja: { home: "トップ", plants: "植物一覧", taxonomy: "分類体系", timeline: "進化史", key: "検索表", quiz: "クイズ", columns: "コラム" },
+  en: { home: "Home", plants: "Plants", taxonomy: "Taxonomy", timeline: "Evolution", key: "Key", quiz: "Quiz", columns: "Columns" },
 };
 
 export default function Navigation({ lang }: { lang: Locale }) {
