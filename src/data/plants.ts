@@ -14323,6 +14323,84 @@ export const plants: Plant[] = [
       review: { status: "ai_generated" as const },
     },
     {
+      id: "kantou_tanpopo",
+      jaName: "カントウタンポポ",
+      enName: "Kanto Dandelion",
+      scientificName: "Taraxacum platycarpum",
+      familyId: "asteraceae",
+      familyJaName: "キク科",
+      description:
+        "キク科の多年草で、関東から東北南部にかけて分布する代表的な在来タンポポ。セイヨウタンポポとの違いは総苞外片（花の裏側の小さな緑色の葉）が反り返らずまっすぐ上を向くこと。春にのみ花を咲かせる有性生殖の2倍体で、花粉と卵の受粉によって種子を作る。",
+      enDescription:
+        "A native Japanese dandelion distributed from the Kanto region to southern Tohoku. Distinguished from the introduced Taraxacum officinale by involucral bracts that stand upright (rather than reflexing). A sexual diploid that flowers only in spring, producing seeds through normal pollination.",
+      identificationPoints: [
+        "外総苞片が反り返らず上を向く（最大の識別点）",
+        "舌状花は黄色",
+        "開花は春のみ（3〜5月）",
+        "葉はロゼット状で切れ込む",
+      ],
+      enIdentificationPoints: [
+        "Outer involucral bracts stand upright (not reflexed) — the key identification point",
+        "Yellow ligulate florets",
+        "Flowers only in spring (March–May)",
+        "Rosette of lobed leaves",
+      ],
+      habitat: "本州（関東〜東北南部）の草地・道ばた・土手",
+      enHabitat: "Grasslands, roadsides, and embankments in Honshu (Kanto to southern Tohoku)",
+      season: "3〜5月（花）",
+      enSeason: "March to May (flowers)",
+      externalLinks: [
+        { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カントウタンポポ" },
+      ],
+      evolutionNote:
+        "在来タンポポはほとんどが2倍体（染色体セットが2つ）で、花粉を介した有性生殖を行う。そのため春の一時期にまとめて咲き、夏〜冬は休眠する。対する外来のセイヨウタンポポは3倍体クローン（アポミクシス）で年中花を咲かせる。都市部ではこの2種の雑種が増えており、純粋な在来個体は郊外や里山に押されつつある。",
+      enEvolutionNote:
+        "Native Japanese dandelions are mostly diploid (two chromosome sets) and reproduce sexually, flowering briefly in spring. Meanwhile, the introduced Western dandelion is a triploid apomict that clones itself and blooms year-round. In urban Japan, hybrids between the two are expanding, pushing pure natives toward suburbs and satoyama.",
+      tags: ["草本", "多年草", "黄色花", "在来種", "タンポポ"],
+      enTags: ["Herb", "Perennial", "Yellow flowers", "Native", "Dandelion"],
+      sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      review: { status: "ai_generated" as const },
+    },
+    {
+      id: "kansai_tanpopo",
+      jaName: "カンサイタンポポ",
+      enName: "Kansai Dandelion",
+      scientificName: "Taraxacum japonicum",
+      familyId: "asteraceae",
+      familyJaName: "キク科",
+      description:
+        "キク科の多年草で、近畿〜中国・四国・九州に分布する西日本の代表的な在来タンポポ。カントウタンポポ同様に総苞外片が反り返らず、春のみ花を咲かせる2倍体の有性生殖種。カントウタンポポより頭花がやや小さく総苞も細い。",
+      enDescription:
+        "A native Japanese dandelion distributed from Kansai to Chugoku, Shikoku, and Kyushu. Like the Kanto dandelion, its involucral bracts do not reflex, and it is a sexual diploid that flowers only in spring. Slightly smaller flower heads and narrower involucres than the Kanto species.",
+      identificationPoints: [
+        "外総苞片が反り返らず上を向く",
+        "頭花はカントウタンポポよりやや小さい",
+        "舌状花は黄色",
+        "開花は春のみ",
+      ],
+      enIdentificationPoints: [
+        "Outer involucral bracts stand upright (not reflexed)",
+        "Flower heads slightly smaller than the Kanto dandelion",
+        "Yellow ligulate florets",
+        "Flowers only in spring",
+      ],
+      habitat: "本州（近畿以西）・四国・九州の草地・田の畦",
+      enHabitat: "Grasslands and paddy edges in western Honshu, Shikoku, Kyushu",
+      season: "3〜5月（花）",
+      enSeason: "March to May (flowers)",
+      externalLinks: [
+        { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カンサイタンポポ" },
+      ],
+      evolutionNote:
+        "カントウタンポポと同じく2倍体の有性生殖種。日本のタンポポは地域ごとに微妙に異なる在来種が分化しており、西日本はこの種が主力。外来のセイヨウタンポポとの競合と雑種化は関西圏の都市部でも進行している。",
+      enEvolutionNote:
+        "Like the Kanto dandelion, a diploid sexual species. Japan's native dandelions diversified into regional forms, and this is the dominant native in western Japan. Competition and hybridization with the Western dandelion is ongoing in urban Kansai as well.",
+      tags: ["草本", "多年草", "黄色花", "在来種", "タンポポ"],
+      enTags: ["Herb", "Perennial", "Yellow flowers", "Native", "Dandelion"],
+      sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      review: { status: "ai_generated" as const },
+    },
+    {
       id: "sumomo",
       jaName: "スモモ",
       enName: "Japanese Plum",
@@ -14539,6 +14617,45 @@ export const plants: Plant[] = [
       season: "4〜6月（花）",
       externalLinks: [],
       tags: ["草本", "越年草", "春の七草", "黄色花", "在来種"],
+      sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      review: { status: "ai_generated" as const },
+    },
+    {
+      id: "koonitabirako",
+      jaName: "コオニタビラコ",
+      enName: "Nipplewort (Japanese)",
+      scientificName: "Lapsanastrum apogonoides",
+      familyId: "asteraceae",
+      familyJaName: "キク科",
+      description:
+        "キク科の越年草で、春の七草「ほとけのざ」の正体。水田や田の畦に生える小型のロゼット植物で、黄色い小さな舌状花だけからなる頭花をつける。現代のホトケノザ（シソ科 Lamium amplexicaule）とは全くの別種で、食用になるのはこちら。",
+      enDescription:
+        "A small winter annual in the Asteraceae. This is the true 'hotokenoza' of Japan's seven herbs of spring, not the modern plant of the same name (which is Lamium amplexicaule in the Lamiaceae). Grows as a flat rosette on paddy edges and wet fields, with small yellow ligulate heads.",
+      identificationPoints: [
+        "地面に張りつくロゼット状の葉",
+        "葉は羽状に切れ込む（大型のタンポポ葉に似る）",
+        "頭花は舌状花のみで黄色",
+        "茎を折ると白い乳液が出る",
+      ],
+      enIdentificationPoints: [
+        "Flat rosette of leaves pressed against the ground",
+        "Leaves pinnately lobed, resembling a small dandelion leaf",
+        "Flower heads yellow, composed only of ligulate florets",
+        "Exudes white latex when the stem is broken",
+      ],
+      habitat: "本州・四国・九州の水田・田の畦",
+      enHabitat: "Paddy fields and rice paddy edges in Honshu, Shikoku, Kyushu",
+      season: "3〜5月（花）",
+      enSeason: "March to May (flowers)",
+      externalLinks: [
+        { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コオニタビラコ" },
+      ],
+      evolutionNote:
+        "キク科は約4,000〜5,000万年前に爆発的に多様化した新しい科。コオニタビラコのようにタンポポ亜科（Cichorioideae）の種は舌状花だけで頭花を構成する極端な戦略を取る。春の七草「ほとけのざ」はこの種を指し、現代のホトケノザ（シソ科 Lamium amplexicaule）とは約1億年前に分岐した別系統であることに注意。",
+      enEvolutionNote:
+        "The Asteraceae underwent explosive diversification roughly 40–50 million years ago. Species in Cichorioideae such as this one take the extreme strategy of building flower heads entirely from ligulate florets. The seven-herbs 'hotokenoza' refers to this species; the modern 'hotokenoza' (Lamium amplexicaule, Lamiaceae) diverged from it roughly 100 million years ago.",
+      tags: ["草本", "越年草", "春の七草", "黄色花", "水田", "在来種"],
+      enTags: ["Herb", "Biennial", "Seven herbs of spring", "Yellow flowers", "Paddy", "Native"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
       review: { status: "ai_generated" as const },
     },
@@ -15682,6 +15799,43 @@ export const plants: Plant[] = [
       season: "5〜6月（花）",
       externalLinks: [],
       tags: ["草本", "多年草", "黄色花", "湿地", "帰化植物"],
+      sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      review: { status: "ai_generated" as const },
+    },
+    {
+      id: "kabu",
+      jaName: "カブ",
+      enName: "Turnip",
+      scientificName: "Brassica rapa var. rapa",
+      familyId: "brassicaceae",
+      familyJaName: "アブラナ科",
+      description:
+        "アブラナ科の越年草で、春の七草「すずな」の正体。地中海沿岸〜中央アジア原産で、肥大した地下部（胚軸と根）を食用にする。黄色い4弁花の総状花序を伸ばす。ハクサイやコマツナと同じ *Brassica rapa* の品種群に属する。",
+      enDescription:
+        "A winter annual in the Brassicaceae. This is the 'suzuna' of Japan's seven herbs of spring. Native to the Mediterranean and Central Asia, grown for its swollen hypocotyl and taproot. Bears yellow 4-petaled flowers in a raceme. Belongs to the same species (*Brassica rapa*) as napa cabbage and komatsuna.",
+      identificationPoints: [
+        "球状に肥大した白または赤紫色の胚軸・根",
+        "葉はロゼット状で毛がある（ハクサイよりやや粗い）",
+        "黄色い4弁花がアブラナ科特有の総状花序",
+      ],
+      enIdentificationPoints: [
+        "Rounded, swollen white or purple hypocotyl and root",
+        "Rosette leaves with hairs (coarser than napa cabbage)",
+        "Yellow 4-petaled flowers in a typical Brassicaceae raceme",
+      ],
+      habitat: "栽培（畑）",
+      enHabitat: "Cultivated (fields)",
+      season: "3〜5月（花）・秋〜冬（収穫）",
+      enSeason: "March to May (flowers); autumn to winter (harvest)",
+      externalLinks: [
+        { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カブ" },
+      ],
+      evolutionNote:
+        "アブラナ科はグルコシノレート（芥子油配糖体）という防御物質を進化させ、すりおろすと酵素反応で辛味成分（イソチオシアネート）を放出する。カブはハクサイ・コマツナ・ノザワナなどと同じ *Brassica rapa* の変種で、人類は同一種から極めて多様な野菜を作り分けてきた。",
+      enEvolutionNote:
+        "The Brassicaceae evolved glucosinolates as a chemical defense; grating or chewing releases pungent isothiocyanates via an enzymatic reaction. Turnip, napa cabbage, komatsuna, and nozawana are all varieties of the same species (*Brassica rapa*) — humans have bred a remarkable diversity of vegetables from a single species.",
+      tags: ["草本", "越年草", "栽培", "野菜", "春の七草", "アブラナ科"],
+      enTags: ["Herb", "Biennial", "Cultivated", "Vegetable", "Seven herbs of spring", "Brassicaceae"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
       review: { status: "ai_generated" as const },
     },

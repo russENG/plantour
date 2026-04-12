@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import ColumnComments from "@/components/ColumnComments";
+import ColumnShareButton from "@/components/ColumnShareButton";
 import { getColumn, getColumns } from "@/data/columns";
 import type { Locale } from "@/dictionaries";
 
@@ -120,6 +122,10 @@ export default async function ColumnDetailPage({
       <article className="prose prose-slate max-w-none prose-headings:font-bold prose-h1:text-2xl sm:prose-h1:text-3xl prose-h2:text-xl sm:prose-h2:text-2xl prose-h3:text-lg sm:prose-h3:text-xl prose-a:text-green-700 prose-a:no-underline hover:prose-a:underline prose-img:rounded-xl prose-img:shadow-sm prose-hr:my-8">
         <Post />
       </article>
+
+      <ColumnShareButton title={col.title} lang={locale} slug={slug} />
+
+      <ColumnComments lang={locale} slug={slug} />
 
       <div className="mt-10">
         <Link href={`/${locale}/columns`} className="text-sm text-green-700 hover:underline">
