@@ -26,7 +26,7 @@ export const plants: Plant[] = [
     enHabitat: "Roadsides, parks, grasslands, fields",
     season: "3〜10月（花）",
     enSeason: "March to October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Taraxacum_officinale_flowers.jpg",
+    imageUrl: "/columns/tanpopo-war/taraxacum-officinale.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セイヨウタンポポ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Taraxacum_officinale" },
@@ -894,7 +894,7 @@ export const plants: Plant[] = [
     enHabitat: "Fields, roadsides, vacant lots",
     season: "3〜6月（花）",
     enSeason: "March to June (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lamium_amplexicaule1.jpg",
+    imageUrl: "/columns/nanakusa-apg/lamium-amplexicaule.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホトケノザ" },
     ],
@@ -3208,7 +3208,7 @@ export const plants: Plant[] = [
     enHabitat: "Paddy field ridges, waterways, wetlands, and riverbanks",
     season: "7〜8月（花）・通年（葉）",
     enSeason: "July–August (flowers); year-round (leaves)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oenanthe_javanica.jpg",
+    imageUrl: "/columns/nanakusa-apg/oenanthe-javanica.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セリ" },
     ],
@@ -14317,6 +14317,7 @@ export const plants: Plant[] = [
       ],
       habitat: "本州（関東以西）・四国・九州の野原・道ばた",
       season: "3〜5月（花）",
+      imageUrl: "/columns/tanpopo-war/taraxacum-albidum.jpg",
       externalLinks: [],
       tags: ["草本", "多年草", "白花", "在来種", "タンポポ"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
@@ -14349,6 +14350,7 @@ export const plants: Plant[] = [
       enHabitat: "Grasslands, roadsides, and embankments in Honshu (Kanto to southern Tohoku)",
       season: "3〜5月（花）",
       enSeason: "March to May (flowers)",
+      imageUrl: "/columns/tanpopo-war/taraxacum-platycarpum.jpg",
       externalLinks: [
         { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カントウタンポポ" },
       ],

@@ -1687,6 +1687,7 @@ export const taxonomyTree: TaxonomyNode = {
                               familyId: "brassicaceae",
                               children: [
                                 { id: "daikon", name: "ダイコン", rank: "species", plantId: "daikon" },
+                                { id: "kabu", name: "カブ", rank: "species", plantId: "kabu" },
                                 { id: "kyabetsu", name: "キャベツ", rank: "species", plantId: "kyabetsu" },
                                 { id: "wasabi", name: "ワサビ", rank: "species", plantId: "wasabi" },
                                 { id: "nazuna", name: "ナズナ", rank: "species", plantId: "nazuna" },
@@ -2290,6 +2291,10 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "fuki", name: "フキ", rank: "species", plantId: "fuki" },
                                 { id: "kosendan", name: "コセンダングサ", rank: "species", plantId: "kosendan" },
                                 { id: "tanpopo", name: "セイヨウタンポポ", rank: "species", plantId: "tanpopo" },
+                                { id: "kantou_tanpopo", name: "カントウタンポポ", rank: "species", plantId: "kantou_tanpopo" },
+                                { id: "kansai_tanpopo", name: "カンサイタンポポ", rank: "species", plantId: "kansai_tanpopo" },
+                                { id: "koonitabirako", name: "コオニタビラコ", rank: "species", plantId: "koonitabirako" },
+                                { id: "hahakogusa", name: "ハハコグサ", rank: "species", plantId: "hahakogusa" },
                                 { id: "himawari", name: "ヒマワリ", rank: "species", plantId: "himawari" },
                                 { id: "himejoon", name: "ヒメジョオン", rank: "species", plantId: "himejoon" },
                                 { id: "harujion", name: "ハルジオン", rank: "species", plantId: "harujion" },
