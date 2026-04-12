@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="600" height="300" fill="#fafaf8" rx="12"/>
+  <text x="300" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">「小さい花を集める」ふたつの答え</text>
+
+  <!-- Left: Capitulum (Asteraceae) -->
+  <g transform="translate(150,170)">
+    <rect x="-125" y="-120" width="250" height="210" rx="10" fill="#fefce8" stroke="#fde68a" stroke-width="1.5"/>
+    <text x="0" y="-96" text-anchor="middle" font-size="13" font-weight="bold" fill="#a16207">頭状花序</text>
+    <text x="0" y="-80" text-anchor="middle" font-size="10" fill="#6b7280">キク科（ゴギョウ）</text>
+
+    <!-- Compact disk of florets -->
+    <ellipse cx="0" cy="10" rx="52" ry="20" fill="#a3e635" stroke="#65a30d" stroke-width="1"/>
+    <!-- Packed florets on disk -->
+    <g>
+      <rect x="-4" y="-50" width="4" height="50" rx="1.5" fill="#fbbf24" transform="rotate(-3)"/>
+      <rect x="4" y="-52" width="4" height="52" rx="1.5" fill="#f59e0b" transform="rotate(2)"/>
+      <rect x="-12" y="-46" width="4" height="46" rx="1.5" fill="#fbbf24" transform="rotate(-8)"/>
+      <rect x="12" y="-48" width="4" height="48" rx="1.5" fill="#f59e0b" transform="rotate(6)"/>
+      <rect x="-20" y="-40" width="4" height="40" rx="1.5" fill="#fbbf24" transform="rotate(-15)"/>
+      <rect x="20" y="-42" width="4" height="42" rx="1.5" fill="#f59e0b" transform="rotate(12)"/>
+      <rect x="-30" y="-32" width="4" height="32" rx="1.5" fill="#fbbf24" transform="rotate(-25)"/>
+      <rect x="30" y="-34" width="4" height="34" rx="1.5" fill="#f59e0b" transform="rotate(22)"/>
+      <rect x="-40" y="-22" width="4" height="26" rx="1.5" fill="#fbbf24" transform="rotate(-40)"/>
+      <rect x="40" y="-24" width="4" height="28" rx="1.5" fill="#f59e0b" transform="rotate(36)"/>
+    </g>
+    <!-- Stem -->
+    <rect x="-3" y="24" width="6" height="40" fill="#6b8e5a" rx="2"/>
+
+    <text x="0" y="78" text-anchor="middle" font-size="9" fill="#374151">花が円盤上にぎゅっと密集</text>
+  </g>
+
+  <!-- VS -->
+  <text x="300" y="175" text-anchor="middle" font-size="22" font-weight="bold" fill="#d1d5db">vs</text>
+
+  <!-- Right: Compound umbel (Apiaceae) -->
+  <g transform="translate(450,170)">
+    <rect x="-125" y="-120" width="250" height="210" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+    <text x="0" y="-96" text-anchor="middle" font-size="13" font-weight="bold" fill="#166534">複散形花序</text>
+    <text x="0" y="-80" text-anchor="middle" font-size="10" fill="#6b7280">セリ科（セリ）</text>
+
+    <!-- Umbrella-like structure -->
+    <rect x="-2" y="20" width="4" height="44" fill="#6b8e5a" rx="1.5"/>
+    <!-- Rays spreading from center -->
+    <line x1="0" y1="20" x2="0" y2="-40" stroke="#6b8e5a" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="40" y2="-30" stroke="#6b8e5a" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="60" y2="-10" stroke="#6b8e5a" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="-40" y2="-30" stroke="#6b8e5a" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="-60" y2="-10" stroke="#6b8e5a" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="25" y2="-38" stroke="#6b8e5a" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="-25" y2="-38" stroke="#6b8e5a" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="55" y2="-22" stroke="#6b8e5a" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="-55" y2="-22" stroke="#6b8e5a" stroke-width="1.5"/>
+    <!-- Small flower clusters at tips -->
+    <circle cx="0" cy="-44" r="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <circle cx="40" cy="-34" r="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <circle cx="60" cy="-14" r="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <circle cx="-40" cy="-34" r="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <circle cx="-60" cy="-14" r="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <circle cx="25" cy="-42" r="5" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <circle cx="-25" cy="-42" r="5" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <circle cx="55" cy="-26" r="5" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <circle cx="-55" cy="-26" r="5" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <!-- Tiny dots in each cluster -->
+    <g fill="#fbbf24">
+      <circle cx="0" cy="-44" r="1.5"/><circle cx="40" cy="-34" r="1.5"/><circle cx="60" cy="-14" r="1.5"/>
+      <circle cx="-40" cy="-34" r="1.5"/><circle cx="-60" cy="-14" r="1.5"/>
+    </g>
+
+    <text x="0" y="78" text-anchor="middle" font-size="9" fill="#374151">花が傘状に放射して広がる</text>
+  </g>
+
+  <!-- Bottom note -->
+  <rect x="110" y="262" width="380" height="26" rx="8" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+  <text x="300" y="280" text-anchor="middle" font-size="10" fill="#92400e">戦略は同じ「小花の集合」。でも形は全く違う → 収斂進化の好例</text>
+</svg>

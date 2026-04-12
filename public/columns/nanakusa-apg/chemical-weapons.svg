@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="620" height="300" fill="#fafaf8" rx="12"/>
+  <text x="310" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">七草の「化学兵器」 ── 科ごとの防御物質</text>
+
+  <!-- Brassicaceae -->
+  <g transform="translate(15,48)">
+    <rect width="138" height="230" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+    <text x="69" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d4ed8">アブラナ科</text>
+    <text x="69" y="42" text-anchor="middle" font-size="9" fill="#6b7280">Brassicaceae</text>
+    <!-- Icon -->
+    <text x="69" y="76" text-anchor="middle" font-size="28">🌶️</text>
+    <text x="69" y="102" text-anchor="middle" font-size="10" font-weight="bold" fill="#374151">グルコシノレート</text>
+    <text x="69" y="118" text-anchor="middle" font-size="9" fill="#6b7280">（芥子油配糖体）</text>
+    <line x1="20" y1="128" x2="118" y2="128" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="69" y="146" text-anchor="middle" font-size="10" fill="#374151">味: ツーンと辛い</text>
+    <text x="69" y="162" text-anchor="middle" font-size="9" fill="#6b7280">ダイコンおろしの辛さ</text>
+    <line x1="20" y1="172" x2="118" y2="172" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="69" y="192" text-anchor="middle" font-size="10" fill="#374151">ナズナ</text>
+    <text x="69" y="208" text-anchor="middle" font-size="10" fill="#374151">カブ（スズナ）</text>
+    <text x="69" y="224" text-anchor="middle" font-size="10" fill="#374151">ダイコン（スズシロ）</text>
+  </g>
+
+  <!-- Apiaceae -->
+  <g transform="translate(163,48)">
+    <rect width="138" height="230" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+    <text x="69" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="#166534">セリ科</text>
+    <text x="69" y="42" text-anchor="middle" font-size="9" fill="#6b7280">Apiaceae</text>
+    <text x="69" y="76" text-anchor="middle" font-size="28">🌿</text>
+    <text x="69" y="102" text-anchor="middle" font-size="10" font-weight="bold" fill="#374151">精油（テルペン類）</text>
+    <text x="69" y="118" text-anchor="middle" font-size="9" fill="#6b7280">（セリ臭の正体）</text>
+    <line x1="20" y1="128" x2="118" y2="128" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="69" y="146" text-anchor="middle" font-size="10" fill="#374151">味: 独特の香り</text>
+    <text x="69" y="162" text-anchor="middle" font-size="9" fill="#6b7280">セロリ、パセリも同系統</text>
+    <line x1="20" y1="172" x2="118" y2="172" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="69" y="196" text-anchor="middle" font-size="10" fill="#374151">セリ</text>
+  </g>
+
+  <!-- Asteraceae -->
+  <g transform="translate(311,48)">
+    <rect width="138" height="230" rx="10" fill="#fefce8" stroke="#fde68a" stroke-width="1.5"/>
+    <text x="69" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="#a16207">キク科</text>
+    <text x="69" y="42" text-anchor="middle" font-size="9" fill="#6b7280">Asteraceae</text>
+    <text x="69" y="76" text-anchor="middle" font-size="28">☕</text>
+    <text x="69" y="102" text-anchor="middle" font-size="10" font-weight="bold" fill="#374151">セスキテルペン</text>
+    <text x="69" y="118" text-anchor="middle" font-size="9" fill="#6b7280">（ラクトン類）</text>
+    <line x1="20" y1="128" x2="118" y2="128" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="69" y="146" text-anchor="middle" font-size="10" fill="#374151">味: ほろ苦い</text>
+    <text x="69" y="162" text-anchor="middle" font-size="9" fill="#6b7280">ヨモギ、ゴボウも同系統</text>
+    <line x1="20" y1="172" x2="118" y2="172" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="69" y="192" text-anchor="middle" font-size="10" fill="#374151">ハハコグサ（ゴギョウ）</text>
+    <text x="69" y="208" text-anchor="middle" font-size="10" fill="#374151">コオニタビラコ</text>
+  </g>
+
+  <!-- Caryophyllaceae -->
+  <g transform="translate(459,48)">
+    <rect width="146" height="230" rx="10" fill="#faf5ff" stroke="#c4b5fd" stroke-width="1.5"/>
+    <text x="73" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="#7e22ce">ナデシコ科</text>
+    <text x="73" y="42" text-anchor="middle" font-size="9" fill="#6b7280">Caryophyllaceae</text>
+    <text x="73" y="76" text-anchor="middle" font-size="28">🧴</text>
+    <text x="73" y="102" text-anchor="middle" font-size="10" font-weight="bold" fill="#374151">サポニン</text>
+    <text x="73" y="118" text-anchor="middle" font-size="9" fill="#6b7280">（界面活性成分）</text>
+    <line x1="20" y1="128" x2="126" y2="128" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="73" y="146" text-anchor="middle" font-size="10" fill="#374151">味: えぐみ</text>
+    <text x="73" y="162" text-anchor="middle" font-size="9" fill="#6b7280">石鹸にも使われた</text>
+    <line x1="20" y1="172" x2="126" y2="172" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="73" y="196" text-anchor="middle" font-size="10" fill="#374151">コハコベ（ハコベラ）</text>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="600" height="320" fill="#fafaf8" rx="12"/>
+  <!-- Title -->
+  <text x="300" y="32" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">総苞外片（そうほうがいへん）の違い</text>
+
+  <!-- Native (left) -->
+  <g transform="translate(150,180)">
+    <!-- Stem -->
+    <rect x="-4" y="0" width="8" height="80" fill="#6b8e5a" rx="3"/>
+    <!-- Flower head -->
+    <ellipse cx="0" cy="-10" rx="38" ry="18" fill="#fcd34d"/>
+    <!-- Involucral bracts - upright -->
+    <path d="M-30,2 C-32,-12 -22,-20 -18,-8" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-22,6 C-24,-8 -16,-18 -12,-4" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-12,8 C-13,-4 -8,-16 -5,-2" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M30,2 C32,-12 22,-20 18,-8" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M22,6 C24,-8 16,-18 12,-4" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M12,8 C13,-4 8,-16 5,-2" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Arrow pointing to bracts -->
+    <line x1="-55" y1="-5" x2="-35" y2="-5" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrowB)"/>
+    <text x="-58" y="-1" text-anchor="end" font-size="10" fill="#2563eb">上向き</text>
+  </g>
+
+  <!-- Western (right) -->
+  <g transform="translate(450,180)">
+    <!-- Stem -->
+    <rect x="-4" y="0" width="8" height="80" fill="#6b8e5a" rx="3"/>
+    <!-- Flower head -->
+    <ellipse cx="0" cy="-10" rx="38" ry="18" fill="#fcd34d"/>
+    <!-- Involucral bracts - reflexed (curled back) -->
+    <path d="M-30,2 C-34,10 -38,22 -32,30" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-20,6 C-24,14 -28,26 -22,32" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-10,8 C-13,16 -16,28 -10,34" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M30,2 C34,10 38,22 32,30" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M20,6 C24,14 28,26 22,32" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M10,8 C13,16 16,28 10,34" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Arrow pointing to bracts -->
+    <line x1="55" y1="20" x2="38" y2="20" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arrowR)"/>
+    <text x="58" y="24" text-anchor="start" font-size="10" fill="#dc2626">反り返り</text>
+  </g>
+
+  <!-- Labels -->
+  <text x="150" y="290" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">在来タンポポ</text>
+  <text x="150" y="308" text-anchor="middle" font-size="11" fill="#6b7280">Native dandelion</text>
+  <text x="450" y="290" text-anchor="middle" font-size="14" font-weight="bold" fill="#991b1b">セイヨウタンポポ</text>
+  <text x="450" y="308" text-anchor="middle" font-size="11" fill="#6b7280">Western dandelion</text>
+
+  <!-- VS -->
+  <text x="300" y="190" text-anchor="middle" font-size="22" font-weight="bold" fill="#d1d5db">vs</text>
+
+  <!-- Check / Cross icons -->
+  <circle cx="150" cy="62" r="16" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="150" y="68" text-anchor="middle" font-size="18" fill="#16a34a">✓</text>
+  <text x="150" y="90" text-anchor="middle" font-size="11" fill="#374151">総苞外片が直立</text>
+
+  <circle cx="450" cy="62" r="16" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="450" y="68" text-anchor="middle" font-size="18" fill="#dc2626">↓</text>
+  <text x="450" y="90" text-anchor="middle" font-size="11" fill="#374151">総苞外片が反り返る</text>
+
+  <defs>
+    <marker id="arrowB" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowR" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#dc2626"/>
+    </marker>
+  </defs>
+</svg>

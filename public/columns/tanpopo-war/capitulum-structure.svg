@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="500" height="320" fill="#fafaf8" rx="12"/>
+  <text x="250" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">タンポポの頭状花序（とうじょうかじょ）</text>
+
+  <!-- Cross-section view -->
+  <g transform="translate(250,180)">
+    <!-- Receptacle (base) -->
+    <ellipse cx="0" cy="30" rx="100" ry="18" fill="#a3e635" stroke="#65a30d" stroke-width="1.5"/>
+    <text x="0" y="35" text-anchor="middle" font-size="9" fill="#365314">花床（かしょう）</text>
+
+    <!-- Individual ligulate florets -->
+    <g>
+      <!-- Center florets -->
+      <rect x="-6" y="-80" width="5" height="92" rx="2" fill="#fbbf24" transform="rotate(-2)"/>
+      <rect x="2" y="-85" width="5" height="95" rx="2" fill="#f59e0b" transform="rotate(1)"/>
+      <rect x="10" y="-78" width="5" height="88" rx="2" fill="#fbbf24" transform="rotate(4)"/>
+      <rect x="-14" y="-76" width="5" height="86" rx="2" fill="#f59e0b" transform="rotate(-5)"/>
+
+      <!-- Inner florets -->
+      <rect x="20" y="-72" width="5" height="82" rx="2" fill="#fbbf24" transform="rotate(10)"/>
+      <rect x="30" y="-65" width="5" height="78" rx="2" fill="#f59e0b" transform="rotate(16)"/>
+      <rect x="-24" y="-70" width="5" height="80" rx="2" fill="#fbbf24" transform="rotate(-12)"/>
+      <rect x="-34" y="-62" width="5" height="76" rx="2" fill="#f59e0b" transform="rotate(-18)"/>
+
+      <!-- Outer florets - spreading -->
+      <rect x="40" y="-55" width="5" height="72" rx="2" fill="#fbbf24" transform="rotate(25)"/>
+      <rect x="50" y="-42" width="5" height="66" rx="2" fill="#f59e0b" transform="rotate(35)"/>
+      <rect x="56" y="-28" width="5" height="58" rx="2" fill="#fbbf24" transform="rotate(48)"/>
+      <rect x="-44" y="-52" width="5" height="70" rx="2" fill="#f59e0b" transform="rotate(-27)"/>
+      <rect x="-54" y="-38" width="5" height="64" rx="2" fill="#fbbf24" transform="rotate(-38)"/>
+      <rect x="-60" y="-24" width="5" height="56" rx="2" fill="#f59e0b" transform="rotate(-50)"/>
+
+      <!-- Outermost florets -->
+      <rect x="58" y="-10" width="5" height="48" rx="2" fill="#fbbf24" transform="rotate(62)"/>
+      <rect x="54" y="6" width="5" height="42" rx="2" fill="#f59e0b" transform="rotate(76)"/>
+      <rect x="-62" y="-6" width="5" height="46" rx="2" fill="#fbbf24" transform="rotate(-65)"/>
+      <rect x="-58" y="10" width="5" height="40" rx="2" fill="#f59e0b" transform="rotate(-78)"/>
+    </g>
+
+    <!-- Involucral bracts -->
+    <path d="M-90,20 C-95,10 -80,-5 -70,15" stroke="#3d7a3d" stroke-width="2.5" fill="#4ade80" fill-opacity="0.3" stroke-linecap="round"/>
+    <path d="M-80,25 C-85,15 -72,0 -62,18" stroke="#3d7a3d" stroke-width="2.5" fill="#4ade80" fill-opacity="0.3" stroke-linecap="round"/>
+    <path d="M90,20 C95,10 80,-5 70,15" stroke="#3d7a3d" stroke-width="2.5" fill="#4ade80" fill-opacity="0.3" stroke-linecap="round"/>
+    <path d="M80,25 C85,15 72,0 62,18" stroke="#3d7a3d" stroke-width="2.5" fill="#4ade80" fill-opacity="0.3" stroke-linecap="round"/>
+
+    <!-- Stem -->
+    <rect x="-5" y="38" width="10" height="50" fill="#6b8e5a" rx="4"/>
+  </g>
+
+  <!-- Annotations -->
+  <!-- Single floret callout -->
+  <line x1="330" y1="110" x2="280" y2="130" stroke="#6b7280" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="330" y="90" width="140" height="64" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="400" y="110" text-anchor="middle" font-size="10" fill="#374151" font-weight="bold">1本 = 舌状花 1つ</text>
+  <text x="400" y="126" text-anchor="middle" font-size="9" fill="#6b7280">これが 100〜200本集まって</text>
+  <text x="400" y="140" text-anchor="middle" font-size="9" fill="#6b7280">「1つの花」に見える</text>
+
+  <!-- Involucre callout -->
+  <line x1="100" y1="220" x2="170" y2="200" stroke="#6b7280" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="20" y="218" width="130" height="38" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="85" y="234" text-anchor="middle" font-size="10" fill="#374151" font-weight="bold">総苞（そうほう）</text>
+  <text x="85" y="248" text-anchor="middle" font-size="9" fill="#6b7280">花全体を包む緑の葉</text>
+
+  <!-- Bottom note -->
+  <rect x="100" y="280" width="300" height="28" rx="8" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+  <text x="250" y="299" text-anchor="middle" font-size="11" fill="#92400e">虫から見ると「大きな花1つ」に見える → 効率よく受粉</text>
+</svg>
