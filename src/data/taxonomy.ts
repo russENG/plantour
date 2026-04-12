@@ -2277,7 +2277,7 @@ export const taxonomyTree: TaxonomyNode = {
                           id: "asterales",
                           name: "キク目",
                           rank: "order",
-                          imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Helianthus_annuus.jpg",
+                          imageUrl: "/columns/tanpopo-war/asteraceae-grid.svg",
                           children: [
                             {
                               id: "asteraceae",
