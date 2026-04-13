@@ -71,8 +71,8 @@
     "taxonomyLink": "\ud83c\udf3f View in taxonomy"
   },
   "taxonomy": {
-    "heading": "Taxonomy",
-    "description": "Tree view: Click nodes for details. Pinch/scroll to zoom, drag to pan.",
+    "heading": "Taxonomy (APG IV)",
+    "description": "Angiosperm classification follows the APG IV (2016) system. Tree view: Click nodes for details. Pinch/scroll to zoom, drag to pan.",
     "treeView": "Tree",
     "listView": "List",
     "loading": "Loading\u2026",
@@ -158,8 +158,8 @@
     "options": {
       "alt": "Alternate", "opp": "Opposite", "whor": "Whorled",
       "simple": "Simple", "compound": "Compound",
-      "parallel": "Parallel", "reticulate": "Reticulate",
-      "entire": "Entire", "serrate": "Serrate", "lobed": "Lobed",
+      "pinnate": "Pinnate", "palmate": "Palmate", "parallel": "Parallel",
+      "entire": "Entire", "serrate": "Serrate", "crenate": "Crenate", "dentate": "Dentate",
       "linear": "Linear", "ovate": "Ovate", "cordate": "Cordate",
       "needle": "Needle", "round": "Round", "palmate": "Palmate",
       "tree": "Tree", "shrub": "Shrub", "herb": "Herb", "vine": "Vine",
@@ -177,28 +177,31 @@
     }
   },
   "traits": {
-    "leafArr": "Leaf arrangement",
-    "leafType": "Leaf type",
-    "venation": "Venation",
-    "margin": "Leaf margin",
-    "shape": "Leaf shape",
-    "habit": "Growth form",
-    "deciduous": "Evergreen/Deciduous",
-    "petalCount": "Petal count",
-    "petalFusion": "Petal fusion",
-    "petalCountUnit": " petals",
-    "petalCountMany": "Many",
-    "values": {
-      "alt": "Alternate", "opp": "Opposite", "whor": "Whorled",
-      "simple": "Simple", "compound": "Compound",
-      "parallel": "Parallel", "reticulate": "Reticulate",
-      "entire": "Entire", "serrate": "Serrate", "lobed": "Lobed",
-      "linear": "Linear", "ovate": "Ovate", "cordate": "Cordate",
-      "needle": "Needle", "round": "Round", "palmate": "Palmate",
-      "tree": "Tree", "shrub": "Shrub", "herb": "Herb", "vine": "Vine",
-      "evergreen": "Evergreen", "deciduousVal": "Deciduous",
-      "fused": "Fused", "free": "Free", "none": "No petals"
-    }
+    "heading": "Morphological Traits",
+    "fields": {
+      "leafArr": { "label": "Leaf arrangement", "values": { "alt": "Alternate", "opp": "Opposite", "whor": "Whorled" } },
+      "leafType": { "label": "Leaf type", "values": { "simple": "Simple", "compound": "Compound" } },
+      "compoundType": { "label": "Compound type", "values": { "pinnate": "Pinnate", "palmate": "Palmate", "ternate": "Ternate", "bipinnate": "Bipinnate" } },
+      "venation": { "label": "Venation", "values": { "pinnate": "Pinnate", "palmate": "Palmate", "parallel": "Parallel" } },
+      "margin": { "label": "Leaf margin", "values": { "entire": "Entire", "serrate": "Serrate", "crenate": "Crenate", "dentate": "Dentate" } },
+      "shape": { "label": "Leaf shape", "values": { "linear": "Linear", "ovate": "Ovate", "cordate": "Cordate", "needle": "Needle", "round": "Round", "palmate": "Palmate" } },
+      "dissection": { "label": "Leaf dissection", "values": { "entire": "Undivided", "dissected": "Dissected" } },
+      "stipules": { "label": "Stipules", "values": { "present": "Present", "absent": "Absent" } },
+      "habit": { "label": "Growth form", "values": { "tree": "Tree", "shrub": "Shrub", "herb": "Herb", "vine": "Vine" } },
+      "deciduous": { "label": "Evergreen/Deciduous", "values": { "evergreen": "Evergreen", "deciduous": "Deciduous" } },
+      "latex": { "label": "Latex", "values": { "present": "Present", "absent": "Absent" } },
+      "aromatic": { "label": "Aromatic", "values": { "aromatic": "Aromatic", "foetid": "Foetid", "none": "None" } },
+      "flowerSymmetry": { "label": "Flower symmetry", "values": { "actinomorphic": "Actinomorphic", "zygomorphic": "Zygomorphic" } },
+      "petalCount": { "label": "Petal count", "unit": " petals", "values": { "many": "Many", "none": "No petals" } },
+      "petalFusion": { "label": "Petal fusion", "values": { "fused": "Fused", "free": "Free", "none": "No petals" } },
+      "ovaryPosition": { "label": "Ovary position", "values": { "superior": "Superior", "inferior": "Inferior", "half_inferior": "Half-inferior" } },
+      "plantSex": { "label": "Plant sex", "values": { "hermaphrodite": "Hermaphrodite", "monoecious": "Monoecious", "dioecious": "Dioecious" } },
+      "stamenCount": { "label": "Stamen count", "values": {} },
+      "flowerColor": { "label": "Flower color", "values": { "white": "White", "yellow": "Yellow", "pink": "Pink", "red": "Red", "purple": "Purple", "blue": "Blue", "orange": "Orange", "green": "Green", "brown": "Brown", "none": "No flowers" } },
+      "floweringSeason": { "label": "Flowering season", "values": { "spring": "Spring", "summer": "Summer", "fall": "Autumn", "winter": "Winter", "spring-summer": "Spring\u2013Summer", "summer-fall": "Summer\u2013Autumn", "year-round": "Year-round" } },
+      "habitat": { "label": "Habitat", "values": { "roadside": "Roadside", "grassland": "Grassland", "mountain": "Mountain", "forest": "Forest", "wetland": "Wetland", "aquatic": "Aquatic", "coastal": "Coastal", "cultivated": "Cultivated" } }
+    },
+    "aiNote": "AI-generated data \u2014 needs verification"
   },
   "sources": {
     "heading": "Sources & References"

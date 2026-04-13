@@ -20,15 +20,15 @@ export const defaultCladeColors: Record<string, string> = {
 
 export const cladeRootIds = new Set(Object.keys(cladeColors));
 
-export const cladeLegend: { id: string; label: string }[] = [
-  { id: "bryophyta",      label: "コケ植物" },
-  { id: "pteridophyta",   label: "シダ植物" },
-  { id: "gymnospermae",   label: "裸子植物" },
-  { id: "ana_grade",      label: "被子: ANA基部群" },
-  { id: "magnoliids",     label: "被子: モクレン類" },
-  { id: "monocots",       label: "被子: 単子葉類" },
-  { id: "basal_eudicots", label: "被子: 基部真正双子葉" },
-  { id: "core_eudicots",  label: "被子: コア真正双子葉" },
+export const cladeLegend: { id: string; label: string; labelEn: string }[] = [
+  { id: "bryophyta",      label: "コケ植物",              labelEn: "Bryophytes" },
+  { id: "pteridophyta",   label: "シダ植物",              labelEn: "Ferns" },
+  { id: "gymnospermae",   label: "裸子植物",              labelEn: "Gymnosperms" },
+  { id: "ana_grade",      label: "被子: ANA基部群",       labelEn: "Angio: ANA grade" },
+  { id: "magnoliids",     label: "被子: モクレン類",      labelEn: "Angio: Magnoliids" },
+  { id: "monocots",       label: "被子: 単子葉類",        labelEn: "Angio: Monocots" },
+  { id: "basal_eudicots", label: "被子: 基部真正双子葉",  labelEn: "Angio: Basal eudicots" },
+  { id: "core_eudicots",  label: "被子: コア真正双子葉",  labelEn: "Angio: Core eudicots" },
 ];
 
 /**

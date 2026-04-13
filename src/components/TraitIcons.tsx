@@ -81,6 +81,113 @@ function LeafCompound() {
   );
 }
 
+// ── 複葉の型（compoundType）──────────────────────────────────
+
+/** 羽状複葉: 小葉が軸に沿って左右に並ぶ */
+function CompoundPinnate() {
+  return (
+    <Svg>
+      <line x1="14" y1="26" x2="14" y2="3" stroke="#6b7280" strokeWidth="1.2" />
+      {/* 小葉ペア */}
+      <ellipse cx="8" cy="7" rx="4" ry="2" transform="rotate(-20 8 7)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="20" cy="7" rx="4" ry="2" transform="rotate(20 20 7)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="8" cy="13" rx="4" ry="2" transform="rotate(-20 8 13)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="20" cy="13" rx="4" ry="2" transform="rotate(20 20 13)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="8" cy="19" rx="4" ry="2" transform="rotate(-20 8 19)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="20" cy="19" rx="4" ry="2" transform="rotate(20 20 19)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+    </Svg>
+  );
+}
+
+/** 掌状複葉: 小葉が1点から放射状に出る */
+function CompoundPalmate() {
+  return (
+    <Svg>
+      <line x1="14" y1="26" x2="14" y2="16" stroke="#6b7280" strokeWidth="1.2" />
+      {/* 5枚の小葉が放射 */}
+      <ellipse cx="14" cy="7" rx="2.5" ry="7" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="7" cy="9" rx="2.5" ry="6" transform="rotate(30 7 9)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="21" cy="9" rx="2.5" ry="6" transform="rotate(-30 21 9)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="4" cy="13" rx="2" ry="5" transform="rotate(55 4 13)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="24" cy="13" rx="2" ry="5" transform="rotate(-55 24 13)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+    </Svg>
+  );
+}
+
+/** 三出複葉: 3枚の小葉 */
+function CompoundTernate() {
+  return (
+    <Svg>
+      <line x1="14" y1="26" x2="14" y2="16" stroke="#6b7280" strokeWidth="1.2" />
+      {/* 3枚の小葉 */}
+      <ellipse cx="14" cy="8" rx="3.5" ry="6" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="6" cy="14" rx="3.5" ry="5.5" transform="rotate(35 6 14)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+      <ellipse cx="22" cy="14" rx="3.5" ry="5.5" transform="rotate(-35 22 14)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.7" />
+    </Svg>
+  );
+}
+
+/** 二回羽状複葉: 小葉がさらに羽状に分かれる */
+function CompoundBipinnate() {
+  return (
+    <Svg>
+      {/* 主軸 */}
+      <line x1="14" y1="26" x2="14" y2="3" stroke="#6b7280" strokeWidth="1.2" />
+      {/* 左側の小軸+小小葉 */}
+      <line x1="14" y1="8" x2="5" y2="5" stroke="#6b7280" strokeWidth="0.7" />
+      <ellipse cx="4" cy="3" rx="2" ry="1.2" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.5" />
+      <ellipse cx="8" cy="5" rx="2" ry="1.2" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.5" />
+      {/* 右側の小軸+小小葉 */}
+      <line x1="14" y1="8" x2="23" y2="5" stroke="#6b7280" strokeWidth="0.7" />
+      <ellipse cx="20" cy="5" rx="2" ry="1.2" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.5" />
+      <ellipse cx="24" cy="3" rx="2" ry="1.2" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.5" />
+      {/* 下段 */}
+      <line x1="14" y1="16" x2="5" y2="13" stroke="#6b7280" strokeWidth="0.7" />
+      <ellipse cx="4" cy="11" rx="2" ry="1.2" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.5" />
+      <ellipse cx="8" cy="13" rx="2" ry="1.2" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.5" />
+      <line x1="14" y1="16" x2="23" y2="13" stroke="#6b7280" strokeWidth="0.7" />
+      <ellipse cx="20" cy="13" rx="2" ry="1.2" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.5" />
+      <ellipse cx="24" cy="11" rx="2" ry="1.2" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.5" />
+    </Svg>
+  );
+}
+
+// ── 托葉（stipules）──────────────────────────────────────────
+
+/** 托葉あり: 葉柄の基部に付属体がある */
+function StipulesPresent() {
+  return (
+    <Svg>
+      {/* 茎 */}
+      <line x1="14" y1="26" x2="14" y2="6" stroke="#6b7280" strokeWidth="1.2" />
+      {/* 葉 */}
+      <ellipse cx="21" cy="10" rx="5" ry="3.5" transform="rotate(20 21 10)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.8" />
+      {/* 葉柄 */}
+      <line x1="14" y1="14" x2="17" y2="11" stroke="#6b7280" strokeWidth="0.8" />
+      {/* 托葉（小さな三角形2つ） */}
+      <path d="M13 15 L11 12 L14 13Z" fill="#fde68a" stroke="#d97706" strokeWidth="0.6" />
+      <path d="M15 15 L17 16 L14 16Z" fill="#fde68a" stroke="#d97706" strokeWidth="0.6" />
+    </Svg>
+  );
+}
+
+/** 托葉なし */
+function StipulesAbsent() {
+  return (
+    <Svg>
+      {/* 茎 */}
+      <line x1="14" y1="26" x2="14" y2="6" stroke="#6b7280" strokeWidth="1.2" />
+      {/* 葉 */}
+      <ellipse cx="21" cy="10" rx="5" ry="3.5" transform="rotate(20 21 10)" fill="#bbf7d0" stroke="#22c55e" strokeWidth="0.8" />
+      {/* 葉柄 */}
+      <line x1="14" y1="14" x2="17" y2="11" stroke="#6b7280" strokeWidth="0.8" />
+      {/* × マーク（托葉の位置） */}
+      <line x1="11" y1="13" x2="14" y2="16" stroke="#ef4444" strokeWidth="0.8" opacity="0.6" />
+      <line x1="14" y1="13" x2="11" y2="16" stroke="#ef4444" strokeWidth="0.8" opacity="0.6" />
+    </Svg>
+  );
+}
+
 // ── 葉脈（venation）──────────────────────────────────────────
 
 /** 平行脈 */
@@ -96,8 +203,8 @@ function VenationParallel() {
   );
 }
 
-/** 網状脈 */
-function VenationReticulate() {
+/** 羽状脈: 主脈から側脈が羽状に出る */
+function VenationPinnate() {
   return (
     <Svg>
       <ellipse cx="14" cy="14" rx="7" ry="11" fill="#dcfce7" stroke="#22c55e" strokeWidth="1" />
@@ -116,6 +223,21 @@ function VenationReticulate() {
   );
 }
 
+/** 掌状脈: 基部から複数の主脈が放射状に出る */
+function VenationPalmate() {
+  return (
+    <Svg>
+      <ellipse cx="14" cy="13" rx="9" ry="10" fill="#dcfce7" stroke="#22c55e" strokeWidth="1" />
+      {/* 基部から放射する主脈 */}
+      <line x1="14" y1="22" x2="14" y2="4" stroke="#22c55e" strokeWidth="0.6" />
+      <line x1="14" y1="22" x2="6" y2="7" stroke="#22c55e" strokeWidth="0.5" opacity="0.7" />
+      <line x1="14" y1="22" x2="22" y2="7" stroke="#22c55e" strokeWidth="0.5" opacity="0.7" />
+      <line x1="14" y1="22" x2="5" y2="14" stroke="#22c55e" strokeWidth="0.4" opacity="0.6" />
+      <line x1="14" y1="22" x2="23" y2="14" stroke="#22c55e" strokeWidth="0.4" opacity="0.6" />
+    </Svg>
+  );
+}
+
 // ── 葉の縁（margin）──────────────────────────────────────────
 
 /** 全縁: 滑らかな縁 */
@@ -128,7 +250,7 @@ function MarginEntire() {
   );
 }
 
-/** 鋸歯縁: ギザギザの縁 */
+/** 鋸歯縁: 鋭い歯が前方（先端方向）を向く */
 function MarginSerrate() {
   return (
     <Svg>
@@ -138,11 +260,21 @@ function MarginSerrate() {
   );
 }
 
-/** 裂片状: 大きく切れ込みが入る */
-function MarginLobed() {
+/** 鈍鋸歯縁: 丸みのある波状の縁 */
+function MarginCrenate() {
   return (
     <Svg>
-      <path d="M14 3 C17 5, 20 4, 22 7 C20 9, 20 11, 22 14 C20 16, 20 19, 22 22 C19 23, 16 22, 14 25 C12 22, 9 23, 6 22 C8 19, 8 16, 6 14 C8 11, 8 9, 6 7 C8 4, 11 5, 14 3Z" fill="#dcfce7" stroke="#22c55e" strokeWidth="0.8" />
+      <path d="M14 3 C16 5, 18 4, 19 6 Q21 7, 21 9 Q22 11, 21 13 Q22 15, 21 17 Q21 19, 19 20 C18 22, 16 21, 14 25 C12 21, 10 22, 9 20 Q7 19, 7 17 Q6 15, 7 13 Q6 11, 7 9 Q7 7, 9 6 C10 4, 12 5, 14 3Z" fill="#dcfce7" stroke="#22c55e" strokeWidth="0.8" />
+      <line x1="14" y1="4" x2="14" y2="24" stroke="#22c55e" strokeWidth="0.5" />
+    </Svg>
+  );
+}
+
+/** 歯牙縁: 鋭い歯が外側を向く */
+function MarginDentate() {
+  return (
+    <Svg>
+      <path d="M14 3 L15.5 5.5 L19 4 L18.5 7.5 L22 8 L20.5 11 L23 13 L20.5 15 L22 18 L18.5 18.5 L19 22 L15.5 20.5 L14 25 L12.5 20.5 L9 22 L9.5 18.5 L6 18 L7.5 15 L5 13 L7.5 11 L6 8 L9.5 7.5 L9 4 L12.5 5.5 Z" fill="#dcfce7" stroke="#22c55e" strokeWidth="0.8" />
       <line x1="14" y1="4" x2="14" y2="24" stroke="#22c55e" strokeWidth="0.5" />
     </Svg>
   );
@@ -277,13 +409,23 @@ export function getTraitIcon(groupId: string, value: string): React.ReactNode | 
     // 葉の型
     case "leafType:simple":   return <LeafSimple />;
     case "leafType:compound": return <LeafCompound />;
+    // 複葉の型
+    case "compoundType:pinnate":   return <CompoundPinnate />;
+    case "compoundType:palmate":   return <CompoundPalmate />;
+    case "compoundType:ternate":   return <CompoundTernate />;
+    case "compoundType:bipinnate": return <CompoundBipinnate />;
+    // 托葉
+    case "stipules:present": return <StipulesPresent />;
+    case "stipules:absent":  return <StipulesAbsent />;
     // 葉脈
+    case "venation:pinnate":    return <VenationPinnate />;
+    case "venation:palmate":    return <VenationPalmate />;
     case "venation:parallel":   return <VenationParallel />;
-    case "venation:reticulate": return <VenationReticulate />;
     // 葉の縁
     case "margin:entire":  return <MarginEntire />;
     case "margin:serrate": return <MarginSerrate />;
-    case "margin:lobed":   return <MarginLobed />;
+    case "margin:crenate": return <MarginCrenate />;
+    case "margin:dentate": return <MarginDentate />;
     // 葉の形
     case "shape:linear":  return <ShapeLinear />;
     case "shape:ovate":   return <ShapeOvate />;

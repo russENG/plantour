@@ -10,6 +10,8 @@ import ImageAttribution from "@/components/ImageAttribution";
 import { getFamilyEmoji } from "@/lib/emoji";
 import { getFamilyAffiliateLinks } from "@/lib/affiliate";
 import { getDictionary, type Locale } from "@/dictionaries";
+import { familyTraits } from "@/data/familyTraits";
+import { getTraitIcon } from "@/components/TraitIcons";
 import { familyName, familyOverview, familyChars, familyPhylo, familyDivergence, familyEvoEvents, plantName } from "@/lib/i18n-helpers";
 
 const BASE_URL = "https://plantour-pearl.vercel.app";
@@ -63,6 +65,7 @@ export default async function FamilyPage({ params }: Props) {
   const locale = (lang === "en" ? "en" : "ja") as Locale;
   const dict = await getDictionary(locale);
   const t = dict.familyDetail;
+  const tt = dict.traits;
 
   const family = families.find((f) => f.id === id);
   if (!family) notFound();
@@ -158,6 +161,43 @@ export default async function FamilyPage({ params }: Props) {
               ))}
             </ul>
           </section>
+
+          {/* 形態特性カード */}
+          {familyTraits[id] && (
+            <section className="mb-6">
+              <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-1">
+                {tt.heading}
+              </h2>
+              <p className="text-[10px] text-gray-400 mb-3">
+                {locale === "en"
+                  ? "A family may include species with different trait values — multiple values indicate the range within the family."
+                  : "科には形質の異なる種が含まれます。複数の値がある場合、科全体で見られるパターンの幅を示しています。"}
+              </p>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                {Object.entries(familyTraits[id]).map(([key, vals]) => {
+                  if (!vals || (Array.isArray(vals) && vals.length === 0)) return null;
+                  const field = (tt.fields as Record<string, { label: string; unit?: string; values: Record<string, string> }>)[key];
+                  if (!field) return null;
+                  const arr = vals as (string | number)[];
+                  // アイコンは最初の値で決定
+                  const icon = getTraitIcon(key, String(arr[0]));
+                  const labels = arr.map((v) => {
+                    const s = String(v);
+                    return field.values[s] ?? (field.unit ? `${v}${field.unit}` : s);
+                  });
+                  return (
+                    <div key={key} className="bg-gray-50 rounded-lg px-3 py-2 flex items-center gap-2">
+                      {icon && <span className="flex-shrink-0">{icon}</span>}
+                      <div>
+                        <p className="text-[10px] text-gray-400">{field.label}</p>
+                        <p className="text-xs text-gray-700 font-medium">{labels.join(" / ")}</p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
 
           <section className="mb-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div className="bg-gray-50 rounded-lg p-3">

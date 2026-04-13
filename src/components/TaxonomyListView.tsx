@@ -3,10 +3,27 @@
 import { useMemo } from "react";
 import Link from "next/link";
 import type { TaxonomyNode } from "@/data/types";
+import { families } from "@/data/families";
+import { plants } from "@/data/plants";
 import { cladeColors, defaultCladeColors, cladeRootIds } from "@/data/cladeColors";
 import { getActiveAncestors } from "@/data/keyUtils";
 import { getFamilyEmoji } from "@/lib/emoji";
 import type { Locale } from "@/dictionaries";
+
+/** ノード表示名をロケールに応じて返す */
+function getNodeName(node: TaxonomyNode, locale: Locale): string {
+  if (locale === "ja") return node.name;
+  if (node.enName) return node.enName;
+  if (node.familyId) {
+    const fam = families.find((f) => f.id === node.familyId);
+    if (fam?.enName) return fam.enName;
+  }
+  if (node.plantId) {
+    const pl = plants.find((p) => p.id === node.plantId);
+    if (pl?.enName) return pl.enName;
+  }
+  return node.name;
+}
 
 // ── Props ─────────────────────────────────────────────────────
 export interface TaxonomyListViewProps {
@@ -103,7 +120,7 @@ function TreeBranch({
             style={{ backgroundColor: color }}
           />
           <span className={compact ? "text-xs" : "text-sm"}>
-            <span className="font-medium text-gray-800">{node.name}{node.familyId && getFamilyEmoji(node.familyId) && <span className="ml-1">{getFamilyEmoji(node.familyId)}</span>}</span>
+            <span className="font-medium text-gray-800">{getNodeName(node, lang)}{node.familyId && getFamilyEmoji(node.familyId) && <span className="ml-1">{getFamilyEmoji(node.familyId)}</span>}</span>
             {!compact && (
               <span className="text-gray-400 ml-1 text-xs">
                 {rankLabels[node.rank] ?? node.rank}
@@ -132,7 +149,7 @@ function TreeBranch({
           style={{ borderLeft: `3px solid ${color}` }}
         >
           <span className={`font-semibold ${compact ? "text-xs" : "text-sm"}`} style={{ color }}>
-            {node.name}
+            {getNodeName(node, lang)}
           </span>
           {!compact && (
             <span className="text-gray-400 text-xs">

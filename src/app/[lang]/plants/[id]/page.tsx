@@ -10,6 +10,7 @@ import ImageAttribution from "@/components/ImageAttribution";
 import SketchfabViewer from "@/components/SketchfabViewer";
 import { sketchfabModels } from "@/data/sketchfab";
 import { getPlantEmoji } from "@/lib/emoji";
+import { getTraitIcon } from "@/components/TraitIcons";
 import { getPlantAffiliateLinks } from "@/lib/affiliate";
 import { getDictionary, type Locale } from "@/dictionaries";
 import { plantName, plantDesc, plantHabitat, plantSeason, plantIdPoints, plantTags, plantEvoNote, plantFamilyName, familyPhylo, familyDivergence } from "@/lib/i18n-helpers";
@@ -208,66 +209,26 @@ export default async function PlantPage({ params }: Props) {
                 <span className="text-[10px] font-normal text-amber-500 ml-2 normal-case">{t.traitsAiNote}</span>
               </h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-                {plant.traits.leafArr && (
-                  <div className="bg-gray-50 rounded-lg px-3 py-2">
-                    <p className="text-[10px] text-gray-400">{tt.leafArr}</p>
-                    <p className="text-xs text-gray-700 font-medium">{tt.values[plant.traits.leafArr]}</p>
-                  </div>
-                )}
-                {plant.traits.leafType && (
-                  <div className="bg-gray-50 rounded-lg px-3 py-2">
-                    <p className="text-[10px] text-gray-400">{tt.leafType}</p>
-                    <p className="text-xs text-gray-700 font-medium">{tt.values[plant.traits.leafType]}</p>
-                  </div>
-                )}
-                {plant.traits.venation && (
-                  <div className="bg-gray-50 rounded-lg px-3 py-2">
-                    <p className="text-[10px] text-gray-400">{tt.venation}</p>
-                    <p className="text-xs text-gray-700 font-medium">{tt.values[plant.traits.venation]}</p>
-                  </div>
-                )}
-                {plant.traits.margin && (
-                  <div className="bg-gray-50 rounded-lg px-3 py-2">
-                    <p className="text-[10px] text-gray-400">{tt.margin}</p>
-                    <p className="text-xs text-gray-700 font-medium">{tt.values[plant.traits.margin]}</p>
-                  </div>
-                )}
-                {plant.traits.shape && (
-                  <div className="bg-gray-50 rounded-lg px-3 py-2">
-                    <p className="text-[10px] text-gray-400">{tt.shape}</p>
-                    <p className="text-xs text-gray-700 font-medium">{tt.values[plant.traits.shape]}</p>
-                  </div>
-                )}
-                {plant.traits.habit && (
-                  <div className="bg-gray-50 rounded-lg px-3 py-2">
-                    <p className="text-[10px] text-gray-400">{tt.habit}</p>
-                    <p className="text-xs text-gray-700 font-medium">{tt.values[plant.traits.habit]}</p>
-                  </div>
-                )}
-                {plant.traits.deciduous && plant.traits.habit !== "herb" && (
-                  <div className="bg-gray-50 rounded-lg px-3 py-2">
-                    <p className="text-[10px] text-gray-400">{tt.deciduous}</p>
-                    <p className="text-xs text-gray-700 font-medium">
-                      {plant.traits.deciduous === "evergreen" ? tt.values.evergreen : (tt.values as Record<string, string>).deciduousVal}
-                    </p>
-                  </div>
-                )}
-                {plant.traits.petalCount && (
-                  <div className="bg-gray-50 rounded-lg px-3 py-2">
-                    <p className="text-[10px] text-gray-400">{tt.petalCount}</p>
-                    <p className="text-xs text-gray-700 font-medium">
-                      {plant.traits.petalCount === "many" ? tt.petalCountMany : `${plant.traits.petalCount}${tt.petalCountUnit}`}
-                    </p>
-                  </div>
-                )}
-                {plant.traits.petalFusion && (
-                  <div className="bg-gray-50 rounded-lg px-3 py-2">
-                    <p className="text-[10px] text-gray-400">{tt.petalFusion}</p>
-                    <p className="text-xs text-gray-700 font-medium">
-                      {plant.traits.petalFusion === "none" ? tt.values.none : tt.values[plant.traits.petalFusion]}
-                    </p>
-                  </div>
-                )}
+                {(Object.entries(plant.traits) as [string, string | number][])
+                  .filter(([, v]) => v !== undefined)
+                  .map(([key, val]) => {
+                    const field = (tt.fields as Record<string, { label: string; unit?: string; values: Record<string, string> }>)[key];
+                    if (!field) return null;
+                    // 草本は常緑/落葉を表示しない
+                    if (key === "deciduous" && plant.traits?.habit === "herb") return null;
+                    const strVal = String(val);
+                    const display = field.values[strVal] ?? (field.unit ? `${val}${field.unit}` : strVal);
+                    const icon = getTraitIcon(key, strVal);
+                    return (
+                      <div key={key} className="bg-gray-50 rounded-lg px-3 py-2 flex items-center gap-2">
+                        {icon && <span className="flex-shrink-0">{icon}</span>}
+                        <div>
+                          <p className="text-[10px] text-gray-400">{field.label}</p>
+                          <p className="text-xs text-gray-700 font-medium">{display}</p>
+                        </div>
+                      </div>
+                    );
+                  })}
               </div>
             </section>
           )}

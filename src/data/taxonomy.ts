@@ -8,6 +8,7 @@ import type { TaxonomyNode } from "./types";
 export const taxonomyTree: TaxonomyNode = {
   id: "plantae",
   name: "植物界（広義）",
+  enName: "Plantae (Plants)",
   rank: "kingdom",
   description: "光合成を行う生物の総称（コケ・シダ・種子植物など）",
   imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Diversity_of_plants_image_version_5.png",
@@ -18,6 +19,7 @@ export const taxonomyTree: TaxonomyNode = {
     {
       id: "bryophyta",
       name: "コケ植物",
+      enName: "Bryophytes",
       rank: "phylum",
       description: "維管束をもたない陸上植物。蘚類・苔類・ツノゴケ類からなる。",
       imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Tortula_muralis_Habitus.jpeg",
@@ -25,6 +27,7 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "musci",
           name: "蘚類（スギゴケなど）",
+          enName: "Mosses",
           rank: "class",
           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Polytrichum_commune.jpg",
           children: [
@@ -48,6 +51,7 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "hepaticae",
           name: "苔類（ゼニゴケなど）",
+          enName: "Liverworts",
           rank: "class",
           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Marchantia_polymorpha.jpg",
           children: [
@@ -59,7 +63,7 @@ export const taxonomyTree: TaxonomyNode = {
               ] },
           ],
         },
-        { id: "anthocerotae", name: "ツノゴケ類", rank: "class" },
+        { id: "anthocerotae", name: "ツノゴケ類", enName: "Hornworts", rank: "class" },
       ],
     },
     // ─────────────────────────────────────────────────────
@@ -68,6 +72,7 @@ export const taxonomyTree: TaxonomyNode = {
     {
       id: "pteridophyta",
       name: "シダ植物",
+      enName: "Pteridophytes (Ferns & allies)",
       rank: "phylum",
       description: "維管束をもつが種子をもたない植物。胞子で繁殖する。",
       imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dryopteris_filix-mas.jpg",
@@ -76,11 +81,13 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "lycopodiopsida",
           name: "ヒカゲノカズラ類",
+          enName: "Lycophytes",
           rank: "class",
           children: [
             {
               id: "lycopodiales",
               name: "ヒカゲノカズラ目",
+              enName: "Lycopodiales",
               rank: "order",
               children: [
                 { id: "lycopodiaceae", name: "ヒカゲノカズラ科", rank: "family", familyId: "lycopodiaceae", children: [
@@ -93,18 +100,23 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "selaginellales",
               name: "イワヒバ目",
+              enName: "Selaginellales",
               rank: "order",
               children: [
                 { id: "selaginellaceae", name: "イワヒバ科", rank: "family", familyId: "selaginellaceae", children: [
 
                     { id: "iwahiba", name: "イワヒバ", rank: "species", plantId: "iwahiba" },
 
-                  ] },
+                  
+
+                    { id: "katahiba", name: "カタヒバ", rank: "species", plantId: "katahiba" },
+] },
               ],
             },
             {
               id: "isoetales",
               name: "ミズニラ目",
+              enName: "Isoetales",
               rank: "order",
               children: [
                 { id: "isoetaceae", name: "ミズニラ科", rank: "family", familyId: "isoetaceae", children: [
@@ -120,12 +132,14 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "equisetopsida",
           name: "トクサ類",
+          enName: "Horsetails",
           rank: "class",
           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_arvense.jpg",
           children: [
             {
               id: "equisetales",
               name: "トクサ目",
+              enName: "Equisetales",
               rank: "order",
               children: [
                 {
@@ -145,23 +159,29 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "polypodiopsida",
           name: "シダ類",
+          enName: "Ferns",
           rank: "class",
           children: [
             {
               id: "ophioglossales",
               name: "ハナヤスリ目",
+              enName: "Ophioglossales",
               rank: "order",
               children: [
                 { id: "ophioglossaceae", name: "ハナヤスリ科", rank: "family", familyId: "ophioglossaceae", children: [
 
                     { id: "hana_yasuri", name: "ハナヤスリ", rank: "species", plantId: "hana_yasuri" },
 
-                  ] },
+                  
+
+                    { id: "oohana_warabi", name: "オオハナワラビ", rank: "species", plantId: "oohana_warabi" },
+] },
               ],
             },
             {
               id: "psilotales",
               name: "マツバラン目",
+              enName: "Psilotales",
               rank: "order",
               children: [
                 { id: "psilotaceae", name: "マツバラン科", rank: "family", familyId: "psilotaceae", children: [
@@ -174,6 +194,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "marattiales",
               name: "リュウビンタイ目",
+              enName: "Marattiales",
               rank: "order",
               children: [
                 { id: "marattiaceae", name: "リュウビンタイ科", rank: "family", familyId: "marattiaceae", children: [
@@ -186,6 +207,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "osmundales",
               name: "ゼンマイ目",
+              enName: "Osmundales",
               rank: "order",
               children: [
                 {
@@ -197,16 +219,13 @@ export const taxonomyTree: TaxonomyNode = {
                     { id: "zenmai", name: "ゼンマイ", rank: "species", plantId: "zenmai" },
                   ],
                 },
-                { id: "plagiogyriaceae", name: "キジノオシダ科", rank: "family", familyId: "plagiogyriaceae", children: [
-
-                    { id: "kansen_shida", name: "カンセンシダ", rank: "species", plantId: "kansen_shida" },
-
-                  ] },
+                { id: "plagiogyriaceae", name: "キジノオシダ科", rank: "family", familyId: "plagiogyriaceae", children: [] },
               ],
             },
             {
               id: "hymenophyllales",
               name: "コケシノブ目",
+              enName: "Hymenophyllales",
               rank: "order",
               children: [
                 { id: "hymenophyllaceae", name: "コケシノブ科", rank: "family", familyId: "hymenophyllaceae", children: [
@@ -219,6 +238,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "gleicheniales",
               name: "コシダ目",
+              enName: "Gleicheniales",
               rank: "order",
               children: [
                 { id: "gleicheniaceae", name: "コシダ科", rank: "family", familyId: "gleicheniaceae", children: [
@@ -236,6 +256,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "schizaeales",
               name: "カニクサ目",
+              enName: "Schizaeales",
               rank: "order",
               children: [
                 { id: "schizaeaceae", name: "カニクサ科", rank: "family", familyId: "schizaeaceae", children: [
@@ -248,6 +269,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "cyatheales",
               name: "ヘゴ目",
+              enName: "Cyatheales",
               rank: "order",
               children: [
                 { id: "dicksoniaceae", name: "コバノイシカグマ科", rank: "family", familyId: "dicksoniaceae", children: [
@@ -265,6 +287,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "polypodiales",
               name: "ウラボシ目",
+              enName: "Polypodiales",
               rank: "order",
               children: [
                 { id: "cheiropleuriaceae", name: "チェイロプレウリア科", rank: "family", familyId: "cheiropleuriaceae", children: [
@@ -311,7 +334,10 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "hime_shida", name: "ヒメシダ", rank: "species", plantId: "hime_shida" },
 
-                  ] },
+                  
+
+                    { id: "gejigejishida", name: "ゲジゲジシダ", rank: "species", plantId: "gejigejishida" },
+] },
                 { id: "blechnaceae", name: "シシガシラ科", rank: "family", familyId: "blechnaceae", children: [
 
                     { id: "shishigashira", name: "シシガシラ", rank: "species", plantId: "shishigashira" },
@@ -321,7 +347,10 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "oni_yabusoba", name: "オニヤブソテツ", rank: "species", plantId: "oni_yabusoba" },
 
-                  ] },
+                  
+
+                    { id: "benishida", name: "ベニシダ", rank: "species", plantId: "benishida" },
+] },
                 { id: "lomariopsidaceae", name: "ロマリオプシス科", rank: "family", familyId: "lomariopsidaceae", children: [
 
                     { id: "himo_kazura", name: "ヒメヒモカズラ", rank: "species", plantId: "himo_kazura" },
@@ -341,7 +370,16 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "nokigiku_shida", name: "ノキシノブ", rank: "species", plantId: "nokigiku_shida" },
 
-                  ] },
+                  
+
+                    { id: "aonekazura", name: "アオネカズラ", rank: "species", plantId: "aonekazura" },
+
+                    { id: "mitsude_uraboshi", name: "ミツデウラボシ", rank: "species", plantId: "mitsude_uraboshi" },
+
+                    { id: "hime_nokishinobu", name: "ヒメノキシノブ", rank: "species", plantId: "hime_nokishinobu" },
+
+                    { id: "kuriharan", name: "クリハラン", rank: "species", plantId: "kuriharan" },
+] },
                 { id: "grammitidaceae", name: "グラミティス科", rank: "family", familyId: "grammitidaceae", children: [
 
                     { id: "uragesida", name: "ウラゲシダ", rank: "species", plantId: "uragesida" },
@@ -355,6 +393,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "salviniales",
               name: "サンショウモ目",
+              enName: "Salviniales",
               rank: "order",
               children: [
                 { id: "marsileaceae", name: "デンジソウ科", rank: "family", familyId: "marsileaceae", children: [
@@ -384,6 +423,7 @@ export const taxonomyTree: TaxonomyNode = {
     {
       id: "spermatophyta",
       name: "種子植物",
+      enName: "Spermatophytes (Seed plants)",
       rank: "phylum",
       description: "種子によって繁殖する植物。裸子植物と被子植物からなる。",
       imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_sylvestris_forest_Elet.jpg",
@@ -391,6 +431,7 @@ export const taxonomyTree: TaxonomyNode = {
     {
       id: "gymnospermae",
       name: "裸子植物",
+      enName: "Gymnosperms",
       rank: "class",
       description: "種子をもつが、種子が果実に包まれない植物。針葉樹など。",
       imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_sylvestris_forest_Elet.jpg",
@@ -398,6 +439,7 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "cycadales",
           name: "ソテツ目",
+          enName: "Cycadales",
           rank: "order",
           children: [
             { id: "cycadaceae", name: "ソテツ科", rank: "family", familyId: "cycadaceae", children: [
@@ -410,6 +452,7 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "ginkgoales",
           name: "イチョウ目",
+          enName: "Ginkgoales",
           rank: "order",
           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ginkgo_biloba_at_The_Morton_Arboretum_(30176248105).jpg",
           children: [
@@ -427,6 +470,7 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "coniferales",
           name: "マツ目",
+          enName: "Coniferales",
           rank: "order",
           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_sylvestris_Taiga_trees.jpg",
           children: [
@@ -438,7 +482,12 @@ export const taxonomyTree: TaxonomyNode = {
               children: [
                 { id: "akamatsu", name: "アカマツ", rank: "species", plantId: "akamatsu" },
                 { id: "kuromatsu", name: "クロマツ", rank: "species", plantId: "kuromatsu" },
-              ],
+              
+                { id: "karamatsu", name: "カラマツ", rank: "species", plantId: "karamatsu" },
+                { id: "momi", name: "モミ", rank: "species", plantId: "momi" },
+                { id: "himalaya_sugi", name: "ヒマラヤスギ", rank: "species", plantId: "himalaya_sugi" },
+                { id: "tsuga", name: "ツガ", rank: "species", plantId: "tsuga" },
+],
             },
             {
               id: "cupressaceae",
@@ -448,7 +497,9 @@ export const taxonomyTree: TaxonomyNode = {
               children: [
                 { id: "sugi", name: "スギ", rank: "species", plantId: "sugi" },
                 { id: "hinoki", name: "ヒノキ", rank: "species", plantId: "hinoki" },
-              ],
+              
+                { id: "metasequoia", name: "メタセコイア", rank: "species", plantId: "metasequoia" },
+],
             },
             { id: "sciadopityaceae", name: "コウヤマキ科", rank: "family", familyId: "sciadopityaceae", children: [
 
@@ -474,12 +525,16 @@ export const taxonomyTree: TaxonomyNode = {
 
                 { id: "ichii", name: "イチイ", rank: "species", plantId: "ichii" },
 
-              ] },
+              
+
+                { id: "kaya", name: "カヤ", rank: "species", plantId: "kaya" },
+] },
           ],
         },
         {
           id: "gnetales",
           name: "グネツム目",
+          enName: "Gnetales",
           rank: "order",
           children: [
             { id: "ephedraceae", name: "マオウ科", rank: "family", familyId: "ephedraceae", children: [
@@ -507,6 +562,7 @@ export const taxonomyTree: TaxonomyNode = {
     {
       id: "angiospermae",
       name: "被子植物",
+      enName: "Angiosperms",
       rank: "class",
       description: "種子が果実（子房）に包まれた植物。花を咲かせる。現存植物の大多数を占める。",
       imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Flower_poster_2.jpg",
@@ -521,6 +577,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "nymphaeales",
               name: "スイレン目",
+              enName: "Nymphaeales",
               rank: "order",
               children: [
                 { id: "cabombaceae", name: "ジュンサイ科", rank: "family", familyId: "cabombaceae", children: [
@@ -532,19 +589,26 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "hasu", name: "ハス", rank: "species", plantId: "hasu" },
 
-                  ] },
+                  
+
+                    { id: "kouhone", name: "コウホネ", rank: "species", plantId: "kouhone" },
+] },
               ],
             },
             {
               id: "austrobaileyales",
               name: "マツブサ目",
+              enName: "Austrobaileyales",
               rank: "order",
               children: [
                 { id: "schisandraceae", name: "マツブサ科", rank: "family", familyId: "schisandraceae", children: [
 
                     { id: "sane_kazura", name: "サネカズラ", rank: "species", plantId: "sane_kazura" },
 
-                  ] },
+                  
+
+                    { id: "shikimi", name: "シキミ", rank: "species", plantId: "shikimi" },
+] },
               ],
             },
           ],
@@ -553,6 +617,7 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "magnoliids",
           name: "マグノリア類",
+          enName: "Magnoliids",
           rank: "class",
           description: "被子植物の初期分岐群のひとつ。モクレン目・クスノキ目など。",
           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia_liliiflora1.jpg",
@@ -560,6 +625,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "chloranthales",
               name: "センリョウ目",
+              enName: "Chloranthales",
               rank: "order",
               children: [
                 { id: "chloranthaceae", name: "センリョウ科", rank: "family", familyId: "chloranthaceae", children: [
@@ -572,6 +638,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "piperales",
               name: "コショウ目",
+              enName: "Piperales",
               rank: "order",
               imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Houttuynia_cordata02.jpg",
               children: [
@@ -582,7 +649,9 @@ export const taxonomyTree: TaxonomyNode = {
                   familyId: "saururaceae",
                   children: [
                     { id: "dokudami", name: "ドクダミ", rank: "species", plantId: "dokudami" },
-                  ],
+                  
+                    { id: "hangeshou", name: "ハンゲショウ", rank: "species", plantId: "hangeshou" },
+],
                 },
                 { id: "piperaceae", name: "コショウ科", rank: "family", familyId: "piperaceae", children: [
 
@@ -599,6 +668,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "magnoliales",
               name: "モクレン目",
+              enName: "Magnoliales",
               rank: "order",
               imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia_liliiflora1.jpg",
               children: [
@@ -609,7 +679,10 @@ export const taxonomyTree: TaxonomyNode = {
                   familyId: "magnoliaceae",
                   children: [
                     { id: "kobushi", name: "コブシ", rank: "species", plantId: "kobushi" },
-                  ],
+                  
+                    { id: "haku_mokuren", name: "ハクモクレン", rank: "species", plantId: "haku_mokuren" },
+                    { id: "shimokuren", name: "シモクレン", rank: "species", plantId: "shimokuren" },
+],
                 },
                 { id: "annonaceae", name: "バンレイシ科", rank: "family", familyId: "annonaceae", children: [
 
@@ -631,6 +704,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "laurales",
               name: "クスノキ目",
+              enName: "Laurales",
               rank: "order",
               imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Laurus_nobilis_tree.jpg",
               children: [
@@ -641,7 +715,10 @@ export const taxonomyTree: TaxonomyNode = {
                   familyId: "lauraceae",
                   children: [
                     { id: "kusunoki", name: "クスノキ", rank: "species", plantId: "kusunoki" },
-                  ],
+                  
+                    { id: "tabunoki", name: "タブノキ", rank: "species", plantId: "tabunoki" },
+                    { id: "shirodamo", name: "シロダモ", rank: "species", plantId: "shirodamo" },
+],
                 },
                 { id: "calycanthaceae", name: "ロウバイ科", rank: "family", familyId: "calycanthaceae", children: [
 
@@ -661,6 +738,7 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "monocots",
           name: "単子葉類",
+          enName: "Monocots",
           rank: "class",
           description: "発芽時の子葉が1枚。葉脈は平行脈が多い。イネ・ユリなど。",
           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oryza_sativa_-_Tianshui,_Gansu,_China.jpg",
@@ -668,6 +746,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "acorales",
               name: "ショウブ目",
+              enName: "Acorales",
               rank: "order",
               children: [
                 { id: "acoraceae", name: "ショウブ科", rank: "family", familyId: "acoraceae", children: [
@@ -680,6 +759,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "alismatales",
               name: "オモダカ目",
+              enName: "Alismatales",
               rank: "order",
               imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alisma_plantago-aquatica_Sturm57.jpg",
               children: [
@@ -690,7 +770,13 @@ export const taxonomyTree: TaxonomyNode = {
                   familyId: "araceae",
                   children: [
                     { id: "mizubasho", name: "ミズバショウ", rank: "species", plantId: "mizubasho" },
-                  ],
+                  
+                    { id: "musashi_abumi", name: "ムサシアブミ", rank: "species", plantId: "musashi_abumi" },
+                    { id: "kantou_mamushigusa", name: "カントウマムシグサ", rank: "species", plantId: "kantou_mamushigusa" },
+                    { id: "satoimo", name: "サトイモ", rank: "species", plantId: "satoimo" },
+                    { id: "mamushigusa", name: "マムシグサ", rank: "species", plantId: "mamushigusa" },
+                    { id: "hitoyoshi_tennanshou", name: "ヒトヨシテンナンショウ", rank: "species", plantId: "hitoyoshi_tennanshou" },
+],
                 },
                 { id: "alismataceae", name: "オモダカ科", rank: "family", familyId: "alismataceae", children: [
 
@@ -701,7 +787,10 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "kanadasoukimo", name: "カナダモ", rank: "species", plantId: "kanadasoukimo" },
 
-                  ] },
+                  
+
+                    { id: "ookanadamo", name: "オオカナダモ", rank: "species", plantId: "ookanadamo" },
+] },
                 { id: "zosteraceae", name: "アマモ科", rank: "family", familyId: "zosteraceae", children: [
 
                     { id: "amamo", name: "アマモ", rank: "species", plantId: "amamo" },
@@ -754,6 +843,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "petrosaviales",
               name: "ペトロサヴィア目",
+              enName: "Petrosaviales",
               rank: "order",
               children: [
                 { id: "petrosaviaceae", name: "サクライソウ科", rank: "family", familyId: "petrosaviaceae", children: [
@@ -766,6 +856,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "dioscoreales",
               name: "ヤマノイモ目",
+              enName: "Dioscoreales",
               rank: "order",
               children: [
                 { id: "burmanniaceae", name: "ヒナノシャクジョウ科", rank: "family", familyId: "burmanniaceae", children: [
@@ -777,12 +868,16 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "yama_no_imo", name: "ヤマノイモ", rank: "species", plantId: "yama_no_imo" },
 
-                  ] },
+                  
+
+                    { id: "tsukumeimo", name: "ツクネイモ", rank: "species", plantId: "tsukumeimo" },
+] },
               ],
             },
             {
               id: "pandanales",
               name: "パンダナレス目",
+              enName: "Pandanales",
               rank: "order",
               children: [
                 { id: "triuridaceae", name: "ホナガソウ科", rank: "family", familyId: "triuridaceae", children: [
@@ -810,13 +905,23 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "liliales",
               name: "ユリ目",
+              enName: "Liliales",
               rank: "order",
               children: [
                 { id: "liliaceae", name: "ユリ科", rank: "family", familyId: "liliaceae", children: [
 
                     { id: "katakuri", name: "カタクリ", rank: "species", plantId: "katakuri" },
 
-                  ] },
+                  
+
+                    { id: "tulip", name: "チューリップ", rank: "species", plantId: "tulip" },
+
+                    { id: "kooniyuri", name: "コオニユリ", rank: "species", plantId: "kooniyuri" },
+
+                    { id: "oniyuri", name: "オニユリ", rank: "species", plantId: "oniyuri" },
+
+                    { id: "ezo_sukashi_yuri", name: "エゾスカシユリ", rank: "species", plantId: "ezo_sukashi_yuri" },
+] },
                 { id: "smilacaceae", name: "サルトリイバラ科", rank: "family", familyId: "smilacaceae", children: [
 
                     { id: "saru_tori_ibara", name: "サルトリイバラ", rank: "species", plantId: "saru_tori_ibara" },
@@ -827,6 +932,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "asparagales",
               name: "キジカクシ目",
+              enName: "Asparagales",
               rank: "order",
               children: [
                 { id: "amaryllidaceae", name: "ヒガンバナ科", rank: "family", familyId: "amaryllidaceae", children: [
@@ -835,7 +941,20 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "nobiru", name: "ノビル", rank: "species", plantId: "nobiru" },
 
-                  ] },
+                  
+
+                    { id: "tamanegi", name: "タマネギ", rank: "species", plantId: "tamanegi" },
+
+                    { id: "negi", name: "ネギ", rank: "species", plantId: "negi" },
+
+                    { id: "ninniku", name: "ニンニク", rank: "species", plantId: "ninniku" },
+
+                    { id: "suisen", name: "スイセン", rank: "species", plantId: "suisen" },
+
+                    { id: "shirobana_manjushage", name: "シロバナマンジュシャゲ", rank: "species", plantId: "shirobana_manjushage" },
+
+                    { id: "snowdrop", name: "スノードロップ", rank: "species", plantId: "snowdrop" },
+] },
                 { id: "asparagaceae", name: "キジカクシ科", rank: "family", familyId: "asparagaceae", children: [
 
                     { id: "yabran", name: "ヤブラン", rank: "species", plantId: "yabran" },
@@ -845,7 +964,12 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "ebine", name: "エビネ", rank: "species", plantId: "ebine" },
 
-                  ] },
+                  
+
+                    { id: "sahairan", name: "サイハイラン", rank: "species", plantId: "sahairan" },
+
+                    { id: "shiran", name: "シラン", rank: "species", plantId: "shiran" },
+] },
                 { id: "hypoxidaceae", name: "キキョウラン科", rank: "family", familyId: "hypoxidaceae", children: [
 
                     { id: "kinbai_zasa", name: "キンバイザサ", rank: "species", plantId: "kinbai_zasa" },
@@ -855,7 +979,14 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "hanashobu", name: "ハナショウブ", rank: "species", plantId: "hanashobu" },
 
-                  ] },
+                  
+
+                    { id: "hime_hiougi_zuisen", name: "ヒメヒオウギズイセン", rank: "species", plantId: "hime_hiougi_zuisen" },
+
+                    { id: "shaga", name: "シャガ", rank: "species", plantId: "shaga" },
+
+                    { id: "kishoubu", name: "キショウブ", rank: "species", plantId: "kishoubu" },
+] },
                 { id: "xanthorrhoeaceae", name: "ツルボラン科", rank: "family", familyId: "xanthorrhoeaceae", children: [
 
                     { id: "aloe", name: "アロエ", rank: "species", plantId: "aloe" },
@@ -872,6 +1003,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "arecales",
               name: "ヤシ目",
+              enName: "Arecales",
               rank: "order",
               children: [
                 { id: "arecaceae", name: "ヤシ科", rank: "family", familyId: "arecaceae", children: [
@@ -884,6 +1016,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "zingiberales",
               name: "ショウガ目",
+              enName: "Zingiberales",
               rank: "order",
               children: [
                 { id: "strelitziaceae", name: "ゴクラクチョウカ科", rank: "family", familyId: "strelitziaceae", children: [
@@ -900,7 +1033,10 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "basho", name: "バショウ", rank: "species", plantId: "basho" },
 
-                  ] },
+                  
+
+                    { id: "banana", name: "バナナ", rank: "species", plantId: "banana" },
+] },
                 { id: "cannaceae", name: "カンナ科", rank: "family", familyId: "cannaceae", children: [
 
                     { id: "kanna", name: "カンナ", rank: "species", plantId: "kanna" },
@@ -916,19 +1052,26 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "myouga", name: "ミョウガ", rank: "species", plantId: "myouga" },
 
-                  ] },
+                  
+
+                    { id: "shoga", name: "ショウガ", rank: "species", plantId: "shoga" },
+] },
               ],
             },
             {
               id: "commelinales",
               name: "ツユクサ目",
+              enName: "Commelinales",
               rank: "order",
               children: [
                 { id: "commelinaceae", name: "ツユクサ科", rank: "family", familyId: "commelinaceae", children: [
 
                     { id: "tsuyukusa", name: "ツユクサ", rank: "species", plantId: "tsuyukusa" },
 
-                  ] },
+                  
+
+                    { id: "yabumyouga", name: "ヤブミョウガ", rank: "species", plantId: "yabumyouga" },
+] },
                 { id: "hanguanaceae", name: "ハングアナ科", rank: "family", familyId: "hanguanaceae", children: [
 
                     { id: "hanguana", name: "ハングアナ", rank: "species", plantId: "hanguana" },
@@ -949,6 +1092,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "poales",
               name: "イネ目",
+              enName: "Poales",
               rank: "order",
               imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat_close-up.JPG",
               children: [
@@ -967,7 +1111,13 @@ export const taxonomyTree: TaxonomyNode = {
                     { id: "susuki", name: "ススキ", rank: "species", plantId: "susuki" },
                     { id: "enokoro", name: "エノコログサ", rank: "species", plantId: "enokoro" },
                     { id: "yoshi", name: "ヨシ", rank: "species", plantId: "yoshi" },
-                  ],
+                  
+                    { id: "kumazasa", name: "クマザサ", rank: "species", plantId: "kumazasa" },
+                    { id: "hoteichiku", name: "ホテイチク", rank: "species", plantId: "hoteichiku" },
+                    { id: "akino_enokoro", name: "アキノエノコログサ", rank: "species", plantId: "akino_enokoro" },
+                    { id: "hachiku", name: "ハチク", rank: "species", plantId: "hachiku" },
+                    { id: "madake", name: "マダケ", rank: "species", plantId: "madake" },
+],
                 },
                 {
                   id: "typhaceae",
@@ -997,7 +1147,10 @@ export const taxonomyTree: TaxonomyNode = {
 
                     { id: "kaya_tsuri_gusa", name: "カヤツリグサ", rank: "species", plantId: "kaya_tsuri_gusa" },
 
-                  ] },
+                  
+
+                    { id: "kangarei", name: "カンガレイ", rank: "species", plantId: "kangarei" },
+] },
                 { id: "centrolepidaceae", name: "ケントロレピス科", rank: "family", familyId: "centrolepidaceae", children: [
 
                     { id: "hosoba_igusa_fam", name: "ホソバノイグサ", rank: "species", plantId: "hosoba_igusa_fam" },
@@ -1026,6 +1179,7 @@ export const taxonomyTree: TaxonomyNode = {
         {
           id: "eudicots",
           name: "真正双子葉類",
+          enName: "Eudicots",
           rank: "class",
           description: "発芽時の子葉が2枚。花粉に3つの溝をもつ。被子植物の過半数を占める。",
           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aquilegia_vulgaris_drawing.jpg",
@@ -1034,6 +1188,7 @@ export const taxonomyTree: TaxonomyNode = {
             {
               id: "basal_eudicots",
               name: "基部真正双子葉類",
+              enName: "Basal eudicots",
               rank: "class",
               children: [
                 {
@@ -1051,18 +1206,27 @@ export const taxonomyTree: TaxonomyNode = {
                 {
                   id: "ranunculales",
                   name: "キンポウゲ目",
+                  enName: "Ranunculales",
                   rank: "order",
                   children: [
                     { id: "papaveraceae", name: "ケシ科", rank: "family", familyId: "papaveraceae", children: [
 
                         { id: "kusa_no_ou", name: "クサノオウ", rank: "species", plantId: "kusa_no_ou" },
 
-                      ] },
+                      
+
+                        { id: "nagami_hinageshi", name: "ナガミヒナゲシ", rank: "species", plantId: "nagami_hinageshi" },
+
+                        { id: "murasaki_keman", name: "ムラサキケマン", rank: "species", plantId: "murasaki_keman" },
+] },
                     { id: "lardizabalaceae", name: "アケビ科", rank: "family", familyId: "lardizabalaceae", children: [
 
                         { id: "akebi", name: "アケビ", rank: "species", plantId: "akebi" },
 
-                      ] },
+                      
+
+                        { id: "mube", name: "ムベ", rank: "species", plantId: "mube" },
+] },
                     { id: "menispermaceae", name: "ツヅラフジ科", rank: "family", familyId: "menispermaceae", children: [
 
                         { id: "aote_kazura", name: "アオツヅラフジ", rank: "species", plantId: "aote_kazura" },
@@ -1077,7 +1241,20 @@ export const taxonomyTree: TaxonomyNode = {
 
                         { id: "kikuzaki_ichige", name: "キクザキイチゲ", rank: "species", plantId: "kikuzaki_ichige" },
 
-                      ] },
+                      
+
+                        { id: "togemino_kitsune_no_botan", name: "トゲミノキツネノボタン", rank: "species", plantId: "togemino_kitsune_no_botan" },
+
+                        { id: "kitsune_no_botan", name: "キツネノボタン", rank: "species", plantId: "kitsune_no_botan" },
+
+                        { id: "ryuukinka", name: "リュウキンカ", rank: "species", plantId: "ryuukinka" },
+
+                        { id: "senninsou", name: "センニンソウ", rank: "species", plantId: "senninsou" },
+
+                        { id: "umano_ashigata", name: "ウマノアシガタ", rank: "species", plantId: "umano_ashigata" },
+
+                        { id: "kekitsune_no_botan", name: "ケキツネノボタン", rank: "species", plantId: "kekitsune_no_botan" },
+] },
                   ],
                 },
                 {
@@ -1095,6 +1272,7 @@ export const taxonomyTree: TaxonomyNode = {
                 {
                   id: "proteales",
                   name: "ヤマモガシ目",
+                  enName: "Proteales",
                   rank: "order",
                   imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Platanus_x_hispanica_-_Barcelona.jpg",
                   children: [
@@ -1122,6 +1300,7 @@ export const taxonomyTree: TaxonomyNode = {
                 {
                   id: "trochodendrales",
                   name: "ヤマグルマ目",
+                  enName: "Trochodendrales",
                   rank: "order",
                   children: [
                     { id: "trochodendraceae", name: "ヤマグルマ科", rank: "family", familyId: "trochodendraceae", children: [
@@ -1134,6 +1313,7 @@ export const taxonomyTree: TaxonomyNode = {
                 {
                   id: "buxales",
                   name: "ツゲ目",
+                  enName: "Buxales",
                   rank: "order",
                   children: [
                     { id: "buxaceae", name: "ツゲ科", rank: "family", familyId: "buxaceae", children: [
@@ -1146,6 +1326,7 @@ export const taxonomyTree: TaxonomyNode = {
                 {
                   id: "gunnerales",
                   name: "グンネラ目",
+                  enName: "Gunnerales",
                   rank: "order",
                   children: [
                     { id: "gunneraceae", name: "グンネラ科", rank: "family", familyId: "gunneraceae", children: [
@@ -1158,6 +1339,7 @@ export const taxonomyTree: TaxonomyNode = {
                 {
                   id: "dilleniales",
                   name: "ビワモドキ目",
+                  enName: "Dilleniales",
                   rank: "order",
                   children: [
                     { id: "dilleniaceae", name: "ビワモドキ科", rank: "family", familyId: "dilleniaceae", children: [
@@ -1179,6 +1361,7 @@ export const taxonomyTree: TaxonomyNode = {
                 {
                   id: "saxifragales",
                   name: "ユキノシタ目",
+                  enName: "Saxifragales",
                   rank: "order",
                   children: [
                     { id: "paeoniaceae", name: "ボタン科", rank: "family", familyId: "paeoniaceae", children: [
@@ -1214,7 +1397,10 @@ export const taxonomyTree: TaxonomyNode = {
 
                         { id: "yukino_shita", name: "ユキノシタ", rank: "species", plantId: "yukino_shita" },
 
-                      ] },
+                      
+
+                        { id: "yamanekonomesou", name: "ヤマネコノメソウ", rank: "species", plantId: "yamanekonomesou" },
+] },
                     { id: "crassulaceae", name: "ベンケイソウ科", rank: "family", familyId: "crassulaceae", children: [
 
                         { id: "benkei_sou", name: "マンネングサ", rank: "species", plantId: "benkei_sou" },
@@ -1229,6 +1415,7 @@ export const taxonomyTree: TaxonomyNode = {
                 {
                   id: "santalales",
                   name: "ビャクダン目",
+                  enName: "Santalales",
                   rank: "order",
                   children: [
                     { id: "balanophoraceae", name: "ツチトリモチ科", rank: "family", familyId: "balanophoraceae", children: [
@@ -1262,19 +1449,24 @@ export const taxonomyTree: TaxonomyNode = {
                 {
                   id: "vitales",
                   name: "ブドウ目",
+                  enName: "Vitales",
                   rank: "order",
                   children: [
                     { id: "vitaceae", name: "ブドウ科", rank: "family", familyId: "vitaceae", children: [
 
                         { id: "budo", name: "ブドウ", rank: "species", plantId: "budo" },
 
-                      ] },
+                      
+
+                        { id: "tsuta", name: "ツタ", rank: "species", plantId: "tsuta" },
+] },
                   ],
                 },
                 // ナデシコ目
                 {
                   id: "caryophyllales",
                   name: "ナデシコ目",
+                  enName: "Caryophyllales",
                   rank: "order",
                   imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dianthus_caryophyllus_Wild_carnation.jpg",
                   children: [
@@ -1288,7 +1480,11 @@ export const taxonomyTree: TaxonomyNode = {
                         { id: "mizuhiki", name: "ミズヒキ", rank: "species", plantId: "mizuhiki" },
                         { id: "suiba", name: "スイバ", rank: "species", plantId: "suiba" },
                         { id: "itadori", name: "イタドリ", rank: "species", plantId: "itadori" },
-                      ],
+                      
+                        { id: "mizosoba", name: "ミゾソバ", rank: "species", plantId: "mizosoba" },
+                        { id: "gishigishi", name: "ギシギシ", rank: "species", plantId: "gishigishi" },
+                        { id: "inutade", name: "イヌタデ", rank: "species", plantId: "inutade" },
+],
                     },
                     {
                       id: "caryophyllaceae",
@@ -1297,7 +1493,9 @@ export const taxonomyTree: TaxonomyNode = {
                       familyId: "caryophyllaceae",
                       children: [
                         { id: "hakobe", name: "ハコベ", rank: "species", plantId: "hakobe" },
-                      ],
+                      
+                        { id: "oranda_miminagusa", name: "オランダミミナグサ", rank: "species", plantId: "oranda_miminagusa" },
+],
                     },
                     { id: "tamaricaceae", name: "ギョリュウ科", rank: "family", familyId: "tamaricaceae", children: [
 
@@ -1308,7 +1506,10 @@ export const taxonomyTree: TaxonomyNode = {
 
                         { id: "hamahisakaki", name: "ハマヒサカキ", rank: "species", plantId: "hamahisakaki" },
 
-                      ] },
+                      
+
+                        { id: "statice", name: "スターチス", rank: "species", plantId: "statice" },
+] },
                     { id: "droseraceae", name: "モウセンゴケ科", rank: "family", familyId: "droseraceae", children: [
 
                         { id: "mousenngoke", name: "モウセンゴケ", rank: "species", plantId: "mousenngoke" },
@@ -1328,7 +1529,10 @@ export const taxonomyTree: TaxonomyNode = {
 
                         { id: "houkei_amaranth", name: "ホウキギ", rank: "species", plantId: "houkei_amaranth" },
 
-                      ] },
+                      
+
+                        { id: "hourensou", name: "ホウレンソウ", rank: "species", plantId: "hourensou" },
+] },
                     { id: "aizoaceae", name: "ハマミズナ科", rank: "family", familyId: "aizoaceae", children: [
 
                         { id: "tsuru_na", name: "ツルナ", rank: "species", plantId: "tsuru_na" },
@@ -1363,13 +1567,17 @@ export const taxonomyTree: TaxonomyNode = {
 
                         { id: "saboten", name: "ウチワサボテン", rank: "species", plantId: "saboten" },
 
-                      ] },
+                      
+
+                        { id: "sennin_saboten", name: "センニンサボテン", rank: "species", plantId: "sennin_saboten" },
+] },
                   ],
                 },
                 // ロシド類
                 {
                   id: "rosids",
                   name: "ロシド類",
+                  enName: "Rosids",
                   rank: "class",
                   children: [
                     // マメ類
@@ -1381,6 +1589,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "cucurbitales",
                           name: "ウリ目",
+                          enName: "Cucurbitales",
                           rank: "order",
                           children: [
                             { id: "coriariaceae", name: "ドクウツギ科", rank: "family", familyId: "coriariaceae", children: [
@@ -1392,7 +1601,16 @@ export const taxonomyTree: TaxonomyNode = {
 
                                 { id: "karasuuri", name: "カラスウリ", rank: "species", plantId: "karasuuri" },
 
-                              ] },
+                              
+
+                                { id: "kyuuri", name: "キュウリ", rank: "species", plantId: "kyuuri" },
+
+                                { id: "kabocha", name: "ニホンカボチャ（カボチャ）", rank: "species", plantId: "kabocha" },
+
+                                { id: "suika", name: "スイカ", rank: "species", plantId: "suika" },
+
+                                { id: "melon", name: "メロン", rank: "species", plantId: "melon" },
+] },
                             { id: "datiscaceae", name: "ダティスカ科", rank: "family", familyId: "datiscaceae", children: [
 
                                 { id: "datisca", name: "ダティスカ", rank: "species", plantId: "datisca" },
@@ -1413,6 +1631,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "fagales",
                           name: "ブナ目",
+                          enName: "Fagales",
                           rank: "order",
                           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fagus_sylvatica_forest_in_autumn.jpg",
                           children: [
@@ -1426,7 +1645,12 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "konara", name: "コナラ", rank: "species", plantId: "konara" },
                                 { id: "kunugi", name: "クヌギ", rank: "species", plantId: "kunugi" },
                                 { id: "kuri", name: "クリ", rank: "species", plantId: "kuri" },
-                              ],
+                              
+                                { id: "sudajii", name: "スダジイ", rank: "species", plantId: "sudajii" },
+                                { id: "ichiigashi", name: "イチイガシ", rank: "species", plantId: "ichiigashi" },
+                                { id: "arakashi", name: "アラカシ", rank: "species", plantId: "arakashi" },
+                                { id: "matebashii", name: "マテバシイ", rank: "species", plantId: "matebashii" },
+],
                             },
                             {
                               id: "betulaceae",
@@ -1462,6 +1686,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "rosales",
                           name: "バラ目",
+                          enName: "Rosales",
                           rank: "order",
                           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_canina_Ozarks.jpg",
                           children: [
@@ -1481,7 +1706,20 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "ume", name: "ウメ", rank: "species", plantId: "ume" },
                                 { id: "noibara", name: "ノイバラ", rank: "species", plantId: "noibara" },
                                 { id: "tsukushi_ibara", name: "ツクシイバラ", rank: "species", plantId: "tsukushi_ibara" },
-                              ],
+                              
+                                { id: "ooshima_zakura", name: "オオシマザクラ", rank: "species", plantId: "ooshima_zakura" },
+                                { id: "yamazakura", name: "ヤマザクラ", rank: "species", plantId: "yamazakura" },
+                                { id: "biwa", name: "ビワ", rank: "species", plantId: "biwa" },
+                                { id: "anzu", name: "アンズ", rank: "species", plantId: "anzu" },
+                                { id: "sumomo", name: "スモモ", rank: "species", plantId: "sumomo" },
+                                { id: "kawazu_zakura", name: "カワヅザクラ", rank: "species", plantId: "kawazu_zakura" },
+                                { id: "seiyou_nashi", name: "セイヨウナシ", rank: "species", plantId: "seiyou_nashi" },
+                                { id: "hamanasu", name: "ハマナス", rank: "species", plantId: "hamanasu" },
+                                { id: "kijimushiro", name: "キジムシロ", rank: "species", plantId: "kijimushiro" },
+                                { id: "sakuranbo", name: "サクランボ", rank: "species", plantId: "sakuranbo" },
+                                { id: "kusaichigo", name: "クサイチゴ", rank: "species", plantId: "kusaichigo" },
+                                { id: "yukiyanagi", name: "ユキヤナギ", rank: "species", plantId: "yukiyanagi" },
+],
                             },
                             {
                               id: "ulmaceae",
@@ -1511,12 +1749,24 @@ export const taxonomyTree: TaxonomyNode = {
 
                                 { id: "kannabis", name: "カラハナソウ", rank: "species", plantId: "kannabis" },
 
-                              ] },
+                              
+
+                                { id: "enoki", name: "エノキ", rank: "species", plantId: "enoki" },
+] },
                             { id: "moraceae", name: "クワ科", rank: "family", familyId: "moraceae", children: [
 
                                 { id: "kuwa", name: "マグワ", rank: "species", plantId: "kuwa" },
 
-                              ] },
+                              
+
+                                { id: "inubiwa", name: "イヌビワ", rank: "species", plantId: "inubiwa" },
+
+                                { id: "gajumaru", name: "ガジュマル", rank: "species", plantId: "gajumaru" },
+
+                                { id: "akou", name: "アコウ", rank: "species", plantId: "akou" },
+
+                                { id: "giran_inubiwa", name: "ギランイヌビワ", rank: "species", plantId: "giran_inubiwa" },
+] },
                             { id: "urticaceae", name: "イラクサ科", rank: "family", familyId: "urticaceae", children: [
 
                                 { id: "mukagoigokusa", name: "ムカゴイラクサ", rank: "species", plantId: "mukagoigokusa" },
@@ -1527,6 +1777,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "fabales",
                           name: "マメ目",
+                          enName: "Fabales",
                           rank: "order",
                           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Trifolium_repens_-_Köhler–s_Medizinal-Pflanzen-274.jpg",
                           children: [
@@ -1543,7 +1794,14 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "aka_tsumekusa", name: "アカツメクサ", rank: "species", plantId: "aka_tsumekusa" },
                                 { id: "karasu_endou", name: "カラスノエンドウ", rank: "species", plantId: "karasu_endou" },
                                 { id: "nemu", name: "ネムノキ", rank: "species", plantId: "nemu" },
-                              ],
+                              
+                                { id: "genge", name: "ゲンゲ", rank: "species", plantId: "genge" },
+                                { id: "yamafuji", name: "ヤマフジ", rank: "species", plantId: "yamafuji" },
+                                { id: "sendai_hagi", name: "センダイハギ", rank: "species", plantId: "sendai_hagi" },
+                                { id: "endou", name: "エンドウ", rank: "species", plantId: "endou" },
+                                { id: "kometsubu_tsumekusa", name: "コメツブツメクサ", rank: "species", plantId: "kometsubu_tsumekusa" },
+                                { id: "enju", name: "エンジュ", rank: "species", plantId: "enju" },
+],
                             },
                             { id: "surianaceae", name: "スリアナ科", rank: "family", familyId: "surianaceae", children: [
 
@@ -1555,6 +1813,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "oxalidales",
                           name: "カタバミ目",
+                          enName: "Oxalidales",
                           rank: "order",
                           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oxalis_acetosella_flowers.jpg",
                           children: [
@@ -1578,6 +1837,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "malpighiales",
                           name: "キントラノオ目",
+                          enName: "Malpighiales",
                           rank: "order",
                           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Viola_odorata_fg01.jpg",
                           children: [
@@ -1677,6 +1937,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "brassicales",
                           name: "アブラナ目",
+                          enName: "Brassicales",
                           rank: "order",
                           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_napus_Rapsfeld.jpg",
                           children: [
@@ -1692,7 +1953,12 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "wasabi", name: "ワサビ", rank: "species", plantId: "wasabi" },
                                 { id: "nazuna", name: "ナズナ", rank: "species", plantId: "nazuna" },
                                 { id: "nanohana", name: "セイヨウアブラナ", rank: "species", plantId: "nanohana" },
-                              ],
+                              
+                                { id: "stock", name: "ストック", rank: "species", plantId: "stock" },
+                                { id: "ooba_tanetsukebana", name: "オオバタネツケバナ", rank: "species", plantId: "ooba_tanetsukebana" },
+                                { id: "ooaraseitou", name: "オオアラセイトウ", rank: "species", plantId: "ooaraseitou" },
+                                { id: "hakusai", name: "ハクサイ", rank: "species", plantId: "hakusai" },
+],
                             },
                             { id: "tropaeolaceae", name: "ノウゼンハレン科", rank: "family", familyId: "tropaeolaceae", children: [
 
@@ -1724,13 +1990,17 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "celastrales",
                           name: "ニシキギ目",
+                          enName: "Celastrales",
                           rank: "order",
                           children: [
                             { id: "celastraceae", name: "ニシキギ科", rank: "family", familyId: "celastraceae", children: [
 
                                 { id: "nishikigi", name: "ニシキギ", rank: "species", plantId: "nishikigi" },
 
-                              ] },
+                              
+
+                                { id: "masaki", name: "マサキ", rank: "species", plantId: "masaki" },
+] },
                             { id: "connaraceae", name: "コンナルス科", rank: "family", familyId: "connaraceae", children: [
 
                                 { id: "rourea", name: "ロウレア", rank: "species", plantId: "rourea" },
@@ -1750,12 +2020,18 @@ export const taxonomyTree: TaxonomyNode = {
 
                                 { id: "mehirugi", name: "メヒルギ", rank: "species", plantId: "mehirugi" },
 
-                              ] },
+                              
+
+                                { id: "ohirugi", name: "オヒルギ", rank: "species", plantId: "ohirugi" },
+
+                                { id: "yaeyama_hirugi", name: "ヤエヤマヒルギ", rank: "species", plantId: "yaeyama_hirugi" },
+] },
                           ],
                         },
                         {
                           id: "geraniales",
                           name: "フウロソウ目",
+                          enName: "Geraniales",
                           rank: "order",
                           children: [
                             { id: "geraniaceae", name: "フウロソウ科", rank: "family", familyId: "geraniaceae", children: [
@@ -1776,13 +2052,19 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "malvales",
                           name: "アオイ目",
+                          enName: "Malvales",
                           rank: "order",
                           children: [
                             { id: "malvaceae", name: "アオイ科", rank: "family", familyId: "malvaceae", children: [
 
                                 { id: "fuyu_aoi", name: "フユアオイ", rank: "species", plantId: "fuyu_aoi" },
 
-                              ] },
+                              
+
+                                { id: "hamabou", name: "ハマボウ", rank: "species", plantId: "hamabou" },
+
+                                { id: "hibiscus", name: "ハイビスカス", rank: "species", plantId: "hibiscus" },
+] },
                             { id: "thymelaeaceae", name: "ジンチョウゲ科", rank: "family", familyId: "thymelaeaceae", children: [
 
                                 { id: "jinchoge", name: "ジンチョウゲ", rank: "species", plantId: "jinchoge" },
@@ -1808,6 +2090,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "sapindales",
                           name: "ムクロジ目",
+                          enName: "Sapindales",
                           rank: "order",
                           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Acer_palmatum_autumn_leaves.jpg",
                           children: [
@@ -1819,7 +2102,9 @@ export const taxonomyTree: TaxonomyNode = {
                               children: [
                                 { id: "iroha_momiji", name: "イロハモミジ", rank: "species", plantId: "iroha_momiji" },
                                 { id: "tou_kaede", name: "トウカエデ", rank: "species", plantId: "tou_kaede" },
-                              ],
+                              
+                                { id: "tochinoki", name: "トチノキ", rank: "species", plantId: "tochinoki" },
+],
                             },
                             { id: "burseraceae", name: "カンラン科", rank: "family", familyId: "burseraceae", children: [
 
@@ -1830,12 +2115,32 @@ export const taxonomyTree: TaxonomyNode = {
 
                                 { id: "urushi", name: "ウルシ", rank: "species", plantId: "urushi" },
 
-                              ] },
+                              
+
+                                { id: "hazenoki", name: "ハゼノキ", rank: "species", plantId: "hazenoki" },
+
+                                { id: "mango", name: "マンゴー", rank: "species", plantId: "mango" },
+] },
                             { id: "rutaceae", name: "ミカン科", rank: "family", familyId: "rutaceae", children: [
 
                                 { id: "yuzu", name: "ユズ", rank: "species", plantId: "yuzu" },
 
-                              ] },
+                              
+
+                                { id: "mikan", name: "ウンシュウミカン（ミカン）", rank: "species", plantId: "mikan" },
+
+                                { id: "sansho", name: "サンショウ", rank: "species", plantId: "sansho" },
+
+                                { id: "hassaku", name: "ハッサク", rank: "species", plantId: "hassaku" },
+
+                                { id: "shiranuhi", name: "シラヌヒ", rank: "species", plantId: "shiranuhi" },
+
+                                { id: "natsumikan", name: "ナツミカン", rank: "species", plantId: "natsumikan" },
+
+                                { id: "zabon", name: "ザボン", rank: "species", plantId: "zabon" },
+
+                                { id: "lemon", name: "レモン", rank: "species", plantId: "lemon" },
+] },
                             { id: "simaroubaceae", name: "ニガキ科", rank: "family", familyId: "simaroubaceae", children: [
 
                                 { id: "nigaki", name: "ニガキ", rank: "species", plantId: "nigaki" },
@@ -1851,6 +2156,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "crossosomatales",
                           name: "クロッソソマ目",
+                          enName: "Crossosomatales",
                           rank: "order",
                           children: [
                             { id: "staphyleaceae", name: "ミツバウツギ科", rank: "family", familyId: "staphyleaceae", children: [
@@ -1868,6 +2174,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "myrtales",
                           name: "フトモモ目",
+                          enName: "Myrtales",
                           rank: "order",
                           children: [
                             { id: "combretaceae", name: "シクンシ科", rank: "family", familyId: "combretaceae", children: [
@@ -1879,7 +2186,14 @@ export const taxonomyTree: TaxonomyNode = {
 
                                 { id: "misohagi", name: "ミソハギ", rank: "species", plantId: "misohagi" },
 
-                              ] },
+                              
+
+                                { id: "toubishi", name: "トウビシ", rank: "species", plantId: "toubishi" },
+
+                                { id: "sarusuberi", name: "サルスベリ", rank: "species", plantId: "sarusuberi" },
+
+                                { id: "koonibishi", name: "コオニビシ", rank: "species", plantId: "koonibishi" },
+] },
                             { id: "onagraceae", name: "アカバナ科", rank: "family", familyId: "onagraceae", children: [
 
                                 { id: "akabana", name: "アカバナ", rank: "species", plantId: "akabana" },
@@ -1903,6 +2217,7 @@ export const taxonomyTree: TaxonomyNode = {
                     {
                       id: "cornales",
                       name: "ミズキ目",
+                      enName: "Cornales",
                       rank: "order",
                       imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cornus_florida_flowers.jpg",
                       children: [
@@ -1913,7 +2228,10 @@ export const taxonomyTree: TaxonomyNode = {
                           familyId: "hydrangeaceae",
                           children: [
                             { id: "ajisai", name: "アジサイ", rank: "species", plantId: "ajisai" },
-                          ],
+                          
+                            { id: "maruba_utsugi", name: "マルバウツギ", rank: "species", plantId: "maruba_utsugi" },
+                            { id: "utsugi", name: "ウツギ", rank: "species", plantId: "utsugi" },
+],
                         },
                         {
                           id: "cornaceae",
@@ -1922,7 +2240,9 @@ export const taxonomyTree: TaxonomyNode = {
                           familyId: "cornaceae",
                           children: [
                             { id: "hana_mizuki", name: "ハナミズキ", rank: "species", plantId: "hana_mizuki" },
-                          ],
+                          
+                            { id: "yamaboushi", name: "ヤマボウシ", rank: "species", plantId: "yamaboushi" },
+],
                         },
                       ],
                     },
@@ -1932,6 +2252,7 @@ export const taxonomyTree: TaxonomyNode = {
                 {
                   id: "asterids",
                   name: "アステリド類",
+                  enName: "Asterids",
                   rank: "class",
                   children: [
                     // ラミアナ類
@@ -1943,6 +2264,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "garryales",
                           name: "ガリア目",
+                          enName: "Garryales",
                           rank: "order",
                           children: [
                             { id: "eucommiaceae", name: "トチュウ科", rank: "family", familyId: "eucommiaceae", children: [
@@ -1958,18 +2280,25 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "gentianales",
                           name: "リンドウ目",
+                          enName: "Gentianales",
                           rank: "order",
                           children: [
                             { id: "rubiaceae", name: "アカネ科", rank: "family", familyId: "rubiaceae", children: [
 
                                 { id: "kuchinashi", name: "クチナシ", rank: "species", plantId: "kuchinashi" },
 
-                              ] },
+                              
+
+                                { id: "satsuma_inamori", name: "サツマイナモリ", rank: "species", plantId: "satsuma_inamori" },
+] },
                             { id: "gentianaceae", name: "リンドウ科", rank: "family", familyId: "gentianaceae", children: [
 
                                 { id: "rindo", name: "リンドウ", rank: "species", plantId: "rindo" },
 
-                              ] },
+                              
+
+                                { id: "fude_rindou", name: "フデリンドウ", rank: "species", plantId: "fude_rindou" },
+] },
                             { id: "loganiaceae", name: "マチン科", rank: "family", familyId: "loganiaceae", children: [
 
                                 { id: "fuji_utsugi", name: "フジウツギ", rank: "species", plantId: "fuji_utsugi" },
@@ -1979,12 +2308,16 @@ export const taxonomyTree: TaxonomyNode = {
 
                                 { id: "kyouchiku_tou", name: "キョウチクトウ", rank: "species", plantId: "kyouchiku_tou" },
 
-                              ] },
+                              
+
+                                { id: "keteika_kazura", name: "ケテイカカズラ", rank: "species", plantId: "keteika_kazura" },
+] },
                           ],
                         },
                         {
                           id: "solanales",
                           name: "ナス目",
+                          enName: "Solanales",
                           rank: "order",
                           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ipomoea_nil_(Morning_glory)_in_Kadavoor.jpg",
                           children: [
@@ -2002,12 +2335,18 @@ export const taxonomyTree: TaxonomyNode = {
 
                                 { id: "nasu", name: "ナス", rank: "species", plantId: "nasu" },
 
-                              ] },
+                              
+
+                                { id: "tomato", name: "トマト", rank: "species", plantId: "tomato" },
+
+                                { id: "jagaimo", name: "ジャガイモ", rank: "species", plantId: "jagaimo" },
+] },
                           ],
                         },
                         {
                           id: "boraginales",
                           name: "ムラサキ目",
+                          enName: "Boraginales",
                           rank: "order",
                           children: [
                             { id: "boraginaceae", name: "ムラサキ科", rank: "family", familyId: "boraginaceae", children: [
@@ -2020,6 +2359,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "lamiales",
                           name: "シソ目",
+                          enName: "Lamiales",
                           rank: "order",
                           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Perilla_frutescens_var_crispa.jpg",
                           children: [
@@ -2032,7 +2372,10 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "shiso", name: "シソ", rank: "species", plantId: "shiso" },
                                 { id: "hotokenoza", name: "ホトケノザ", rank: "species", plantId: "hotokenoza" },
                                 { id: "hime_odoriko", name: "ヒメオドリコソウ", rank: "species", plantId: "hime_odoriko" },
-                              ],
+                              
+                                { id: "kakidooshi", name: "カキドオシ", rank: "species", plantId: "kakidooshi" },
+                                { id: "odorikosou", name: "オドリコソウ", rank: "species", plantId: "odorikosou" },
+],
                             },
                             {
                               id: "plantaginaceae",
@@ -2042,7 +2385,9 @@ export const taxonomyTree: TaxonomyNode = {
                               children: [
                                 { id: "ooba_plantain", name: "オオバコ", rank: "species", plantId: "ooba_plantain" },
                                 { id: "ooinunofuguri", name: "オオイヌノフグリ", rank: "species", plantId: "ooinunofuguri" },
-                              ],
+                              
+                                { id: "seriba_oobako", name: "セリバオオバコ", rank: "species", plantId: "seriba_oobako" },
+],
                             },
                             { id: "oleaceae", name: "モクセイ科", rank: "family", familyId: "oleaceae", children: [
 
@@ -2108,6 +2453,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "icacinales",
                           name: "アスター類（系統的位置再検討中）",
+                          enName: "Icacinales",
                           rank: "order",
                           children: [
                             { id: "icacinaceae", name: "カマツカ科", rank: "family", familyId: "icacinaceae", children: [
@@ -2128,6 +2474,7 @@ export const taxonomyTree: TaxonomyNode = {
                         {
                           id: "ericales",
                           name: "ツツジ目",
+                          enName: "Ericales",
                           rank: "order",
                           imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rhododendron_ferrugineum_flowers.jpg",
                           children: [
@@ -2139,7 +2486,10 @@ export const taxonomyTree: TaxonomyNode = {
                               children: [
                                 { id: "tsubaki", name: "ツバキ", rank: "species", plantId: "tsubaki" },
                                 { id: "sazanka", name: "サザンカ", rank: "species", plantId: "sazanka" },
-                              ],
+                              
+                                { id: "chanoki", name: "チャノキ", rank: "species", plantId: "chanoki" },
+                                { id: "himeshara", name: "ヒメシャラ", rank: "species", plantId: "himeshara" },
+],
                             },
                             { id: "pentaphylacaceae", name: "サカキ科", rank: "family", familyId: "pentaphylacaceae", children: [
                                 { id: "sakaki", name: "サカキ", rank: "species", plantId: "sakaki" },
@@ -2214,12 +2564,24 @@ export const taxonomyTree: TaxonomyNode = {
 
                                 { id: "tsutsuji", name: "ヤマツツジ", rank: "species", plantId: "tsutsuji" },
 
-                              ] },
+                              
+
+                                { id: "yama_tsutsuji", name: "ヤマツツジ", rank: "species", plantId: "yama_tsutsuji" },
+
+                                { id: "hirado_tsutsuji", name: "ヒラドツツジ", rank: "species", plantId: "hirado_tsutsuji" },
+
+                                { id: "asebi", name: "アセビ", rank: "species", plantId: "asebi" },
+
+                                { id: "satsuki", name: "サツキ", rank: "species", plantId: "satsuki" },
+
+                                { id: "karafuto_isotsutsuji", name: "カラフトイソツツジ", rank: "species", plantId: "karafuto_isotsutsuji" },
+] },
                           ],
                         },
                         {
                           id: "aquifoliales",
                           name: "アキノキリンソウ目",
+                          enName: "Aquifoliales",
                           rank: "order",
                           children: [
                             { id: "cardiopteridaceae", name: "ヤマイモモドキ科", rank: "family", familyId: "cardiopteridaceae", children: [
@@ -2231,36 +2593,54 @@ export const taxonomyTree: TaxonomyNode = {
 
                                 { id: "mochi_no_ki", name: "モチノキ", rank: "species", plantId: "mochi_no_ki" },
 
-                              ] },
+                              
+
+                                { id: "kuroganemochi", name: "クロガネモチ", rank: "species", plantId: "kuroganemochi" },
+
+                                { id: "tarayou", name: "タラヨウ", rank: "species", plantId: "tarayou" },
+] },
                           ],
                         },
                         {
                           id: "dipsacales",
                           name: "マツムシソウ目",
+                          enName: "Dipsacales",
                           rank: "order",
                           children: [
                             { id: "adoxaceae", name: "レンプクソウ科", rank: "family", familyId: "adoxaceae", children: [
 
                                 { id: "niwatoko", name: "ニワトコ", rank: "species", plantId: "niwatoko" },
 
-                              ] },
+                              
+
+                                { id: "miyama_gamazumi", name: "ミヤマガマズミ", rank: "species", plantId: "miyama_gamazumi" },
+] },
                             { id: "caprifoliaceae", name: "スイカズラ科", rank: "family", familyId: "caprifoliaceae", children: [
 
                                 { id: "suikazura", name: "スイカズラ", rank: "species", plantId: "suikazura" },
 
-                              ] },
+                              
+
+                                { id: "nishiki_utsugi", name: "ニシキウツギ", rank: "species", plantId: "nishiki_utsugi" },
+] },
                           ],
                         },
                         {
                           id: "apiales",
                           name: "セリ目",
+                          enName: "Apiales",
                           rank: "order",
                           children: [
                             { id: "apiaceae", name: "セリ科", rank: "family", familyId: "apiaceae", children: [
 
                                 { id: "seri", name: "セリ", rank: "species", plantId: "seri" },
 
-                              ] },
+                              
+
+                                { id: "ninjin", name: "ニンジン", rank: "species", plantId: "ninjin" },
+
+                                { id: "hanaudo", name: "ハナウド", rank: "species", plantId: "hanaudo" },
+] },
                             { id: "pittosporaceae", name: "トベラ科", rank: "family", familyId: "pittosporaceae", children: [
 
                                 { id: "tobera", name: "トベラ", rank: "species", plantId: "tobera" },
@@ -2270,12 +2650,18 @@ export const taxonomyTree: TaxonomyNode = {
 
                                 { id: "yatsude", name: "ヤツデ", rank: "species", plantId: "yatsude" },
 
-                              ] },
+                              
+
+                                { id: "taranoki", name: "タラノキ", rank: "species", plantId: "taranoki" },
+
+                                { id: "kiduta", name: "キヅタ", rank: "species", plantId: "kiduta" },
+] },
                           ],
                         },
                         {
                           id: "asterales",
                           name: "キク目",
+                          enName: "Asterales",
                           rank: "order",
                           imageUrl: "/columns/tanpopo-war/asteraceae-grid.svg",
                           children: [
@@ -2301,7 +2687,14 @@ export const taxonomyTree: TaxonomyNode = {
                                 { id: "yomogi", name: "ヨモギ", rank: "species", plantId: "yomogi" },
                                 { id: "seitage", name: "セイタカアワダチソウ", rank: "species", plantId: "seitage" },
                                 { id: "cosmos", name: "コスモス", rank: "species", plantId: "cosmos" },
-                              ],
+                              
+                                { id: "ooonamomi", name: "オオオナモミ", rank: "species", plantId: "ooonamomi" },
+                                { id: "shima_kangiku", name: "シマカンギク", rank: "species", plantId: "shima_kangiku" },
+                                { id: "shirobana_tanpopo", name: "シロバナタンポポ", rank: "species", plantId: "shirobana_tanpopo" },
+                                { id: "tsuwabuki", name: "ツワブキ", rank: "species", plantId: "tsuwabuki" },
+                                { id: "oni_tabirako", name: "オニタビラコ", rank: "species", plantId: "oni_tabirako" },
+                                { id: "oninogeshi", name: "オニノゲシ", rank: "species", plantId: "oninogeshi" },
+],
                             },
                             { id: "campanulaceae", name: "キキョウ科", rank: "family", familyId: "campanulaceae", children: [
 

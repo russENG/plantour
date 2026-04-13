@@ -14,7 +14,7 @@ export const families: Family[] = [
   // ── キク科 ──────────────────────────────────────────
   {
     id: "asteraceae",
-    imageUrl: "/columns/tanpopo-war/asteraceae-grid.svg",
+    imageUrl: "/columns/tanpopo-war/asteraceae-grid.jpg",
     jaName: "キク科",
     enName: "Daisy family",
     scientificName: "Asteraceae",

@@ -20,6 +20,7 @@ interface FilterGroup {
   labelJa: string;
   labelEn: string;
   section: "leaf" | "habit" | "flower" | "ecology";
+  hint?: { ja: string; en: string };
   options: FilterOption[];
 }
 
@@ -29,18 +30,30 @@ const FILTER_GROUPS: FilterGroup[] = [
     { value: "opp", labelJa: "対生", labelEn: "Opposite" },
     { value: "whor", labelJa: "輪生", labelEn: "Whorled" },
   ]},
-  { id: "leafType", labelJa: "葉の型", labelEn: "Leaf type", section: "leaf", options: [
+  { id: "leafType", labelJa: "葉の型", labelEn: "Leaf type", section: "leaf", hint: { ja: "単葉＝1枚の葉身。複葉＝小葉が複数つく", en: "Simple = one blade. Compound = multiple leaflets" }, options: [
     { value: "simple", labelJa: "単葉", labelEn: "Simple" },
     { value: "compound", labelJa: "複葉", labelEn: "Compound" },
   ]},
   { id: "venation", labelJa: "葉脈", labelEn: "Venation", section: "leaf", options: [
+    { value: "pinnate", labelJa: "羽状脈", labelEn: "Pinnate" },
+    { value: "palmate", labelJa: "掌状脈", labelEn: "Palmate" },
     { value: "parallel", labelJa: "平行脈", labelEn: "Parallel" },
-    { value: "reticulate", labelJa: "網状脈", labelEn: "Reticulate" },
   ]},
-  { id: "margin", labelJa: "葉の縁", labelEn: "Leaf margin", section: "leaf", options: [
+  { id: "margin", labelJa: "葉の縁", labelEn: "Leaf margin", section: "leaf", hint: { ja: "全縁＝滑らか　鋸歯＝鋭く前向き　鈍鋸歯＝丸い波状　歯牙＝鋭く外向き", en: "Entire = smooth. Serrate = sharp, forward-pointing. Crenate = rounded. Dentate = sharp, outward" }, options: [
     { value: "entire", labelJa: "全縁", labelEn: "Entire" },
     { value: "serrate", labelJa: "鋸歯縁", labelEn: "Serrate" },
-    { value: "lobed", labelJa: "裂片状", labelEn: "Lobed" },
+    { value: "crenate", labelJa: "鈍鋸歯縁", labelEn: "Crenate" },
+    { value: "dentate", labelJa: "歯牙縁", labelEn: "Dentate" },
+  ]},
+  { id: "compoundType", labelJa: "複葉の型", labelEn: "Compound type", section: "leaf", hint: { ja: "葉の型が「複葉」の場合の細分類", en: "Subtypes when leaf type is compound" }, options: [
+    { value: "pinnate", labelJa: "羽状複葉", labelEn: "Pinnate" },
+    { value: "palmate", labelJa: "掌状複葉", labelEn: "Palmate" },
+    { value: "ternate", labelJa: "三出複葉", labelEn: "Ternate" },
+    { value: "bipinnate", labelJa: "二回羽状", labelEn: "Bipinnate" },
+  ]},
+  { id: "stipules", labelJa: "托葉", labelEn: "Stipules", section: "leaf", hint: { ja: "葉柄の基部にある小さな付属体", en: "Small appendages at the base of a leaf stalk" }, options: [
+    { value: "present", labelJa: "あり", labelEn: "Present" },
+    { value: "absent", labelJa: "なし", labelEn: "Absent" },
   ]},
   { id: "shape", labelJa: "葉の形", labelEn: "Leaf shape", section: "leaf", options: [
     { value: "linear", labelJa: "線形", labelEn: "Linear" },
@@ -64,12 +77,28 @@ const FILTER_GROUPS: FilterGroup[] = [
     { value: "3", labelJa: "3枚", labelEn: "3" },
     { value: "4", labelJa: "4枚", labelEn: "4" },
     { value: "5", labelJa: "5枚", labelEn: "5" },
+    { value: "6", labelJa: "6枚", labelEn: "6" },
     { value: "many", labelJa: "多数", labelEn: "Many" },
+    { value: "none", labelJa: "花弁なし", labelEn: "None" },
   ]},
   { id: "petalFusion", labelJa: "花弁の合着", labelEn: "Petal fusion", section: "flower", options: [
     { value: "fused", labelJa: "合弁", labelEn: "Fused" },
     { value: "free", labelJa: "離弁", labelEn: "Free" },
     { value: "none", labelJa: "花弁なし", labelEn: "No petals" },
+  ]},
+  { id: "flowerSymmetry", labelJa: "花の対称性", labelEn: "Flower symmetry", section: "flower", options: [
+    { value: "actinomorphic", labelJa: "放射相称", labelEn: "Actinomorphic" },
+    { value: "zygomorphic", labelJa: "左右相称", labelEn: "Zygomorphic" },
+  ]},
+  { id: "ovaryPosition", labelJa: "子房の位置", labelEn: "Ovary position", section: "flower", options: [
+    { value: "superior", labelJa: "上位", labelEn: "Superior" },
+    { value: "inferior", labelJa: "下位", labelEn: "Inferior" },
+    { value: "half_inferior", labelJa: "中位", labelEn: "Half-inferior" },
+  ]},
+  { id: "plantSex", labelJa: "性表現", labelEn: "Plant sex", section: "flower", options: [
+    { value: "hermaphrodite", labelJa: "両性", labelEn: "Hermaphrodite" },
+    { value: "monoecious", labelJa: "雌雄同株", labelEn: "Monoecious" },
+    { value: "dioecious", labelJa: "雌雄異株", labelEn: "Dioecious" },
   ]},
   { id: "flowerColor", labelJa: "花の色", labelEn: "Flower color", section: "flower", options: [
     { value: "white",  labelJa: "白",   labelEn: "White" },
@@ -253,9 +282,16 @@ export default function PlantFilter({ onFilterChange, lang = "ja" }: PlantFilter
             <div className="space-y-3">
               {groups.map((group) => (
                 <div key={group.id} className="flex items-start gap-3">
-                  <span className="text-xs text-gray-500 w-24 flex-shrink-0 pt-1.5 text-right">
-                    {lang === "en" ? group.labelEn : group.labelJa}
-                  </span>
+                  <div className="w-24 flex-shrink-0 pt-1.5 text-right">
+                    <span className="text-xs text-gray-500">
+                      {lang === "en" ? group.labelEn : group.labelJa}
+                    </span>
+                    {group.hint && (
+                      <span className="block text-[9px] text-gray-400 leading-tight mt-0.5">
+                        {lang === "en" ? group.hint.en : group.hint.ja}
+                      </span>
+                    )}
+                  </div>
                   <div className="flex flex-wrap gap-2">
                     {group.options.map((opt) => (
                       <ToggleButton

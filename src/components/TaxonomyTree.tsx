@@ -5,8 +5,25 @@ import * as d3 from "d3";
 import Link from "next/link";
 import type { TaxonomyNode } from "@/data/types";
 import { families } from "@/data/families";
+import { plants } from "@/data/plants";
 import { cladeColors, defaultCladeColors, cladeRootIds, cladeLegend } from "@/data/cladeColors";
 import type { Locale } from "@/dictionaries";
+
+/** ノードの表示名を言語に応じて返す */
+function getNodeName(node: TaxonomyNode, locale: Locale): string {
+  if (locale === "ja") return node.name;
+  // 英語: enName → families/plants の英語名 → 日本語名フォールバック
+  if (node.enName) return node.enName;
+  if (node.familyId) {
+    const fam = families.find((f) => f.id === node.familyId);
+    if (fam?.enName) return fam.enName;
+  }
+  if (node.plantId) {
+    const pl = plants.find((p) => p.id === node.plantId);
+    if (pl?.enName) return pl.enName;
+  }
+  return node.name;
+}
 
 interface Props {
   data: TaxonomyNode;
@@ -292,7 +309,7 @@ export default function TaxonomyTree({ data, lang = "ja" }: Props) {
         return "normal";
       })
       .attr("fill", "#1f2937")
-      .text((d) => d.data.name);
+      .text((d) => getNodeName(d.data, lang));
 
     // ツリー回転後にテキスト角度を再計算（逆さま防止）
     // グループ自体が rotDeg 回転するため、textAngle = desiredScreenAngle - rotDeg とする
@@ -363,21 +380,25 @@ export default function TaxonomyTree({ data, lang = "ja" }: Props) {
   return (
     <div className="relative">
       <div className="text-xs text-gray-400 mb-2 text-center">
-        ピンチ/スクロールでズームすると詳細が表示されます。ドラッグで移動、ノードをクリックで詳細表示
+        {lang === "en"
+          ? "Pinch/scroll to zoom for details. Drag to pan, click a node for info."
+          : "ピンチ/スクロールでズームすると詳細が表示されます。ドラッグで移動、ノードをクリックで詳細表示"}
       </div>
       <div ref={containerRef} className="rounded-xl border border-gray-200 bg-white shadow-sm overflow-hidden">
         <svg ref={svgRef} style={{ display: "block" }} />
       </div>
 
       <div className="flex flex-wrap gap-3 mt-4 justify-center">
-        {cladeLegend.map(({ id, label }) => (
+        {cladeLegend.map(({ id, label, labelEn }) => (
           <div key={id} className="flex items-center gap-1.5">
             <div className="w-3 h-3 rounded-full" style={{ backgroundColor: cladeColors[id].order }} />
-            <span className="text-xs text-gray-500">{label}</span>
+            <span className="text-xs text-gray-500">{lang === "en" ? labelEn : label}</span>
           </div>
         ))}
         <div className="w-full text-center text-xs text-gray-400 mt-1">
-          濃色 = 上位分類（界・門）　淡色 = 下位分類（科・種）
+          {lang === "en"
+            ? "Dark = higher ranks (kingdom, phylum)   Light = lower ranks (family, species)"
+            : "濃色 = 上位分類（界・門）　淡色 = 下位分類（科・種）"}
         </div>
       </div>
 
@@ -390,7 +411,10 @@ export default function TaxonomyTree({ data, lang = "ja" }: Props) {
             ×
           </button>
           <p className="text-xs text-gray-400 uppercase mb-1">{selected.rank}</p>
-          <p className="font-bold text-gray-900 text-lg">{selected.name}</p>
+          <p className="font-bold text-gray-900 text-lg">{getNodeName(selected, lang)}</p>
+          {lang === "en" && getNodeName(selected, lang) !== selected.name && (
+            <p className="text-xs text-gray-400">{selected.name}</p>
+          )}
           {selected.description && (
             <p className="text-sm text-gray-600 mt-2">{selected.description}</p>
           )}

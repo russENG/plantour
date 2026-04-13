@@ -36,20 +36,62 @@ export interface ReviewMeta {
 
 // ─── 植物データ ──────────────────────────────────────────────
 
+// ─── 形質の値型 ──────────────────────────────────────────────
+
+export type LeafArr = "alt" | "opp" | "whor";
+export type LeafType = "simple" | "compound";
+export type CompoundType = "ternate" | "pinnate" | "palmate" | "bipinnate";
+export type Venation = "pinnate" | "palmate" | "parallel";
+export type VenationNet = "reticulate" | "open";
+export type Margin = "entire" | "crenate" | "serrate" | "dentate";
+export type LeafShape = "linear" | "ovate" | "cordate" | "needle" | "round" | "palmate";
+export type Dissection = "entire" | "dissected";
+export type Stipules = "present" | "absent";
+export type Habit = "tree" | "shrub" | "herb" | "vine";
+export type LeafLongevity = "evergreen" | "deciduous";
+export type Latex = "present" | "absent";
+export type Aromatic = "aromatic" | "foetid" | "none";
+export type GlandDotted = "present" | "absent";
+export type StemSection = "round" | "square" | "triangle";
+export type FlowerSymmetry = "actinomorphic" | "zygomorphic";
+export type PetalCount = 3 | 4 | 5 | 6 | "many" | "none";
+export type PetalFusion = "fused" | "free" | "none";
+export type OvaryPosition = "superior" | "inferior" | "half_inferior";
+export type StamenCount = "1-2" | "3-4" | "5" | "6" | "7-10" | "many";
+export type PlantSex = "hermaphrodite" | "monoecious" | "dioecious";
+export type FlowerColor = "white" | "yellow" | "pink" | "red" | "purple" | "blue" | "orange" | "green" | "brown" | "none";
+export type FloweringSeason = "spring" | "summer" | "fall" | "winter" | "spring-summer" | "summer-fall" | "year-round";
+export type Habitat = "roadside" | "grassland" | "mountain" | "forest" | "wetland" | "aquatic" | "coastal" | "cultivated";
+
 /** 種レベルの形態特性（検索表フィルタ用） */
 export interface PlantTraits {
-  leafArr?: "alt" | "opp" | "whor";
-  leafType?: "simple" | "compound";
-  venation?: "parallel" | "reticulate";
-  margin?: "entire" | "serrate" | "lobed";
-  shape?: "linear" | "ovate" | "cordate" | "needle" | "round" | "palmate";
-  habit?: "tree" | "shrub" | "herb" | "vine";
-  deciduous?: "evergreen" | "deciduous";
-  petalCount?: 3 | 4 | 5 | "many";
-  petalFusion?: "fused" | "free" | "none";
-  flowerColor?: "white" | "yellow" | "pink" | "red" | "purple" | "blue" | "orange" | "green" | "brown" | "none";
-  floweringSeason?: "spring" | "summer" | "fall" | "winter" | "spring-summer" | "summer-fall" | "year-round";
-  habitat?: "roadside" | "grassland" | "mountain" | "forest" | "wetland" | "aquatic" | "coastal" | "cultivated";
+  // ── 葉・茎（通年観察可能） ──
+  leafArr?: LeafArr;
+  leafType?: LeafType;
+  compoundType?: CompoundType;
+  venation?: Venation;              // 旧: "parallel"|"reticulate" → "pinnate"|"palmate"|"parallel"
+  venationNet?: VenationNet;
+  margin?: Margin;                  // 旧: "entire"|"serrate"|"lobed" → W&D準拠4値
+  shape?: LeafShape;
+  dissection?: Dissection;
+  stipules?: Stipules;
+  habit?: Habit;
+  deciduous?: LeafLongevity;
+  latex?: Latex;
+  aromatic?: Aromatic;
+  glandDotted?: GlandDotted;
+  stemSection?: StemSection;
+  // ── 花・果実（開花期に観察） ──
+  flowerSymmetry?: FlowerSymmetry;
+  petalCount?: PetalCount;
+  petalFusion?: PetalFusion;
+  ovaryPosition?: OvaryPosition;
+  stamenCount?: StamenCount;
+  plantSex?: PlantSex;
+  // ── 種レベル固有（科に無い） ──
+  flowerColor?: FlowerColor;
+  floweringSeason?: FloweringSeason;
+  habitat?: Habitat;
 }
 
 export interface Plant {
@@ -119,6 +161,7 @@ export interface ExternalLink {
 export interface TaxonomyNode {
   id: string;
   name: string;
+  enName?: string;
   rank: "domain" | "kingdom" | "phylum" | "class" | "order" | "family" | "genus" | "species";
   children?: TaxonomyNode[];
   familyId?: string;
