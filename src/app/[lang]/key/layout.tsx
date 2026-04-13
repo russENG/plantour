@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     description,
     alternates: {
       canonical: `${BASE_URL}/${lang}/key`,
-      languages: { ja: `${BASE_URL}/ja/key`, en: `${BASE_URL}/en/key` },
+      languages: { ja: `${BASE_URL}/ja/key`, en: `${BASE_URL}/en/key`, "x-default": `${BASE_URL}/ja/key` },
     },
     openGraph: { title, description, url: `${BASE_URL}/${lang}/key`, siteName: "Plantour", locale: isEn ? "en_US" : "ja_JP", type: "website" },
     twitter: { card: "summary", title, description },

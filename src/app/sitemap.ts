@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           ja: `${BASE_URL}/ja${page}`,
           en: `${BASE_URL}/en${page}`,
+          "x-default": `${BASE_URL}/ja${page}`,
         },
       },
     },
@@ -32,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           ja: `${BASE_URL}/ja${page}`,
           en: `${BASE_URL}/en${page}`,
+          "x-default": `${BASE_URL}/ja${page}`,
         },
       },
     },
@@ -48,6 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           ja: `${BASE_URL}/ja/plants/${p.id}`,
           en: `${BASE_URL}/en/plants/${p.id}`,
+          "x-default": `${BASE_URL}/ja/plants/${p.id}`,
         },
       },
     },
@@ -60,6 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           ja: `${BASE_URL}/ja/plants/${p.id}`,
           en: `${BASE_URL}/en/plants/${p.id}`,
+          "x-default": `${BASE_URL}/ja/plants/${p.id}`,
         },
       },
     },
@@ -76,6 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           ja: `${BASE_URL}/ja/families/${f.id}`,
           en: `${BASE_URL}/en/families/${f.id}`,
+          "x-default": `${BASE_URL}/ja/families/${f.id}`,
         },
       },
     },
@@ -88,6 +93,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           ja: `${BASE_URL}/ja/families/${f.id}`,
           en: `${BASE_URL}/en/families/${f.id}`,
+          "x-default": `${BASE_URL}/ja/families/${f.id}`,
         },
       },
     },
@@ -109,6 +115,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           ja: `${BASE_URL}/ja/columns/${slug}`,
           en: `${BASE_URL}/en/columns/${slug}`,
+          "x-default": `${BASE_URL}/ja/columns/${slug}`,
         },
       },
     },
@@ -121,6 +128,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: {
           ja: `${BASE_URL}/ja/columns/${slug}`,
           en: `${BASE_URL}/en/columns/${slug}`,
+          "x-default": `${BASE_URL}/ja/columns/${slug}`,
         },
       },
     },

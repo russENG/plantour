@@ -38,6 +38,7 @@ export async function generateMetadata({
       languages: {
         ja: `${BASE_URL}/ja/columns/${slug}`,
         en: `${BASE_URL}/en/columns/${slug}`,
+        "x-default": `${BASE_URL}/ja/columns/${slug}`,
       },
     },
     openGraph: {
