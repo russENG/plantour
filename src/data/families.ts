@@ -1177,6 +1177,39 @@ export const families: Family[] = [
     ],
   },
 
+  // ── イヌサフラン科 ──────────────────────────────────────
+  {
+    id: "colchicaceae",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Colchicum_autumnale.jpg",
+    jaName: "イヌサフラン科",
+    enName: "Autumn crocus family",
+    scientificName: "Colchicaceae",
+    order: "ユリ目",
+    overview:
+      "ユリ目に属する多年草の科。球茎または塊茎をもち、欧州・アフリカ・アジア・オーストラリアの温帯〜熱帯に広く分布。Colchicum（イヌサフラン属）・Gloriosa（キツネユリ属）など約20属を含む。全草に有毒アルカロイド「コルヒチン」を含み、痛風治療薬・植物の倍数体作成に利用される。",
+    enOverview: "A family of perennials in Liliales, with corms or tubers. Distributed across temperate to tropical regions of Europe, Africa, Asia, and Australia. Contains about 20 genera including Colchicum (autumn crocus) and Gloriosa (glory lily). All parts contain the toxic alkaloid colchicine, used medicinally to treat gout and in laboratories to produce polyploid plants.",
+    characteristics: [
+      "球茎または塊茎をもつ多年草",
+      "花被片6枚（単子葉類）",
+      "全草にコルヒチン（有毒・薬用アルカロイド）を含む",
+      "秋咲きの種では葉のないまま花が咲く",
+    ],
+    enCharacteristics: ["Perennials with corms or tubers", "6 tepals (monocot)", "All parts contain colchicine (toxic and medicinal alkaloid)", "Autumn-flowering species bloom from bare ground, without leaves"],
+    phylogeneticPosition: "被子植物 > 単子葉類 > ユリ目 > イヌサフラン科",
+    enPhylogeneticPosition: "Angiosperms > Monocots > Liliales > Colchicaceae",
+    divergenceEra: "白亜紀後期〜古第三紀",
+    enDivergenceEra: "Late Cretaceous to Paleogene",
+    representativeGenera: [
+      "イヌサフラン属（Colchicum）",
+      "キツネユリ属（Gloriosa）",
+    ],
+    evolutionEvents: ["コルヒチンによる化学防御", "球茎による乾季越冬戦略"],
+    enEvolutionEvents: ["Chemical defense via colchicine", "Dry-season survival strategy using corms"],
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イヌサフラン科" },
+    ],
+  },
+
   // ── フウロソウ科 ──────────────────────────────────────
   {
     id: "geraniaceae",

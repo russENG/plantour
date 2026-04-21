@@ -34,6 +34,20 @@ export interface ReviewMeta {
   reviewedAt?: string; // 確認日（ISO8601）
 }
 
+// ─── 人気度（採用根拠） ──────────────────────────────────────
+/** 種の「主要度」を示す外部ソース由来のスナップショット。現状は Wikipedia 日本語版の月別ページビュー。 */
+export interface PopularitySnapshot {
+  source: "wikipedia_ja_pageviews";
+  /** Wiki 記事の解決後タイトル（リダイレクト追跡済み） */
+  wikiTitle: string;
+  /** 期間中の合計ページビュー */
+  totalViews: number;
+  /** 月別内訳。month は "YYYYMM" 形式 */
+  months: { month: string; views: number }[];
+  /** 集計ウィンドウ。例 "202504-202603"（12ヶ月） */
+  window: string;
+}
+
 // ─── 植物データ ──────────────────────────────────────────────
 
 // ─── 形質の値型 ──────────────────────────────────────────────
@@ -123,6 +137,8 @@ export interface Plant {
   // 出典・レビュー
   sources: DataSource[];
   review: ReviewMeta;
+  /** Wikipedia 閲覧数などの「主要度」スナップショット。採用根拠として保存。 */
+  popularity?: PopularitySnapshot;
 }
 
 export interface Family {

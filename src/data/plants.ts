@@ -50,6 +50,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/セイヨウタンポポ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "セイヨウタンポポ", totalViews: 23898, window: "202504-202603", months: [{ month: "202504", views: 7453 }, { month: "202505", views: 5453 }, { month: "202506", views: 1934 }, { month: "202507", views: 1190 }, { month: "202508", views: 1053 }, { month: "202509", views: 829 }, { month: "202510", views: 892 }, { month: "202511", views: 950 }, { month: "202512", views: 832 }, { month: "202601", views: 883 }, { month: "202602", views: 865 }, { month: "202603", views: 1564 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -98,6 +99,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ヒマワリ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒマワリ", totalViews: 114747, window: "202504-202603", months: [{ month: "202504", views: 8429 }, { month: "202505", views: 10684 }, { month: "202506", views: 12864 }, { month: "202507", views: 18886 }, { month: "202508", views: 18489 }, { month: "202509", views: 10241 }, { month: "202510", views: 7000 }, { month: "202511", views: 6241 }, { month: "202512", views: 4901 }, { month: "202601", views: 5534 }, { month: "202602", views: 5536 }, { month: "202603", views: 5942 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -145,6 +147,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ヒメジョオン",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒメジョオン", totalViews: 36263, window: "202504-202603", months: [{ month: "202504", views: 4713 }, { month: "202505", views: 9876 }, { month: "202506", views: 6838 }, { month: "202507", views: 3519 }, { month: "202508", views: 2586 }, { month: "202509", views: 1680 }, { month: "202510", views: 1654 }, { month: "202511", views: 1483 }, { month: "202512", views: 913 }, { month: "202601", views: 890 }, { month: "202602", views: 968 }, { month: "202603", views: 1143 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -193,6 +196,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ハルジオン",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハルジオン", totalViews: 59055, window: "202504-202603", months: [{ month: "202504", views: 10572 }, { month: "202505", views: 17205 }, { month: "202506", views: 7677 }, { month: "202507", views: 3394 }, { month: "202508", views: 3280 }, { month: "202509", views: 2060 }, { month: "202510", views: 2513 }, { month: "202511", views: 3026 }, { month: "202512", views: 2068 }, { month: "202601", views: 1689 }, { month: "202602", views: 2061 }, { month: "202603", views: 3510 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -239,6 +243,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ヨモギ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヨモギ", totalViews: 62431, window: "202504-202603", months: [{ month: "202504", views: 9218 }, { month: "202505", views: 8901 }, { month: "202506", views: 5554 }, { month: "202507", views: 4351 }, { month: "202508", views: 4300 }, { month: "202509", views: 4583 }, { month: "202510", views: 5224 }, { month: "202511", views: 3797 }, { month: "202512", views: 3453 }, { month: "202601", views: 3778 }, { month: "202602", views: 3640 }, { month: "202603", views: 5632 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -287,6 +292,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/セイタカアワダチソウ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "セイタカアワダチソウ", totalViews: 130850, window: "202504-202603", months: [{ month: "202504", views: 5223 }, { month: "202505", views: 8499 }, { month: "202506", views: 7708 }, { month: "202507", views: 7483 }, { month: "202508", views: 9835 }, { month: "202509", views: 11582 }, { month: "202510", views: 46820 }, { month: "202511", views: 15832 }, { month: "202512", views: 5467 }, { month: "202601", views: 3431 }, { month: "202602", views: 4443 }, { month: "202603", views: 4527 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -335,6 +341,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/コスモス",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コスモス", totalViews: 65037, window: "202504-202603", months: [{ month: "202504", views: 3183 }, { month: "202505", views: 4040 }, { month: "202506", views: 3652 }, { month: "202507", views: 3447 }, { month: "202508", views: 5237 }, { month: "202509", views: 10973 }, { month: "202510", views: 13003 }, { month: "202511", views: 6478 }, { month: "202512", views: 3635 }, { month: "202601", views: 5892 }, { month: "202602", views: 2733 }, { month: "202603", views: 2764 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -387,6 +394,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ソメイヨシノ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ソメイヨシノ", totalViews: 132724, window: "202504-202603", months: [{ month: "202504", views: 44102 }, { month: "202505", views: 9486 }, { month: "202506", views: 4891 }, { month: "202507", views: 4245 }, { month: "202508", views: 3539 }, { month: "202509", views: 3740 }, { month: "202510", views: 3885 }, { month: "202511", views: 3797 }, { month: "202512", views: 3871 }, { month: "202601", views: 4751 }, { month: "202602", views: 7429 }, { month: "202603", views: 38988 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -435,6 +443,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ウメ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウメ", totalViews: 93080, window: "202504-202603", months: [{ month: "202504", views: 8298 }, { month: "202505", views: 8815 }, { month: "202506", views: 11136 }, { month: "202507", views: 6404 }, { month: "202508", views: 5752 }, { month: "202509", views: 5764 }, { month: "202510", views: 4744 }, { month: "202511", views: 4660 }, { month: "202512", views: 4918 }, { month: "202601", views: 10271 }, { month: "202602", views: 12360 }, { month: "202603", views: 9958 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -482,6 +491,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ノイバラ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ノイバラ", totalViews: 32426, window: "202504-202603", months: [{ month: "202504", views: 3670 }, { month: "202505", views: 9492 }, { month: "202506", views: 4152 }, { month: "202507", views: 1783 }, { month: "202508", views: 1652 }, { month: "202509", views: 1755 }, { month: "202510", views: 1887 }, { month: "202511", views: 1986 }, { month: "202512", views: 1629 }, { month: "202601", views: 1490 }, { month: "202602", views: 1324 }, { month: "202603", views: 1606 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -531,6 +541,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ススキ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ススキ", totalViews: 47423, window: "202504-202603", months: [{ month: "202504", views: 2258 }, { month: "202505", views: 3061 }, { month: "202506", views: 2818 }, { month: "202507", views: 2747 }, { month: "202508", views: 3652 }, { month: "202509", views: 7050 }, { month: "202510", views: 9640 }, { month: "202511", views: 5536 }, { month: "202512", views: 3722 }, { month: "202601", views: 2717 }, { month: "202602", views: 2231 }, { month: "202603", views: 1991 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -578,6 +589,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/エノコログサ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "エノコログサ", totalViews: 57400, window: "202504-202603", months: [{ month: "202504", views: 2684 }, { month: "202505", views: 3583 }, { month: "202506", views: 4891 }, { month: "202507", views: 7540 }, { month: "202508", views: 10436 }, { month: "202509", views: 9162 }, { month: "202510", views: 6089 }, { month: "202511", views: 4573 }, { month: "202512", views: 2462 }, { month: "202601", views: 2274 }, { month: "202602", views: 1857 }, { month: "202603", views: 1849 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -624,6 +636,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ヨシ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヨシ", totalViews: 50387, window: "202504-202603", months: [{ month: "202504", views: 4645 }, { month: "202505", views: 5118 }, { month: "202506", views: 4793 }, { month: "202507", views: 4221 }, { month: "202508", views: 4153 }, { month: "202509", views: 4044 }, { month: "202510", views: 4628 }, { month: "202511", views: 3829 }, { month: "202512", views: 3517 }, { month: "202601", views: 4365 }, { month: "202602", views: 3514 }, { month: "202603", views: 3560 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -674,6 +687,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/シロツメクサ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シロツメクサ", totalViews: 70939, window: "202504-202603", months: [{ month: "202504", views: 10129 }, { month: "202505", views: 16259 }, { month: "202506", views: 8874 }, { month: "202507", views: 5341 }, { month: "202508", views: 4836 }, { month: "202509", views: 3599 }, { month: "202510", views: 4038 }, { month: "202511", views: 3336 }, { month: "202512", views: 3073 }, { month: "202601", views: 3325 }, { month: "202602", views: 3238 }, { month: "202603", views: 4891 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -721,6 +735,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/アカツメクサ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ムラサキツメクサ", totalViews: 17880, window: "202504-202603", months: [{ month: "202504", views: 1838 }, { month: "202505", views: 4975 }, { month: "202506", views: 2671 }, { month: "202507", views: 1776 }, { month: "202508", views: 1377 }, { month: "202509", views: 1026 }, { month: "202510", views: 907 }, { month: "202511", views: 724 }, { month: "202512", views: 497 }, { month: "202601", views: 656 }, { month: "202602", views: 559 }, { month: "202603", views: 874 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -769,6 +784,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/カラスノエンドウ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤハズエンドウ", totalViews: 48176, window: "202504-202603", months: [{ month: "202504", views: 18689 }, { month: "202505", views: 12837 }, { month: "202506", views: 3081 }, { month: "202507", views: 1305 }, { month: "202508", views: 1484 }, { month: "202509", views: 1138 }, { month: "202510", views: 938 }, { month: "202511", views: 889 }, { month: "202512", views: 876 }, { month: "202601", views: 927 }, { month: "202602", views: 1184 }, { month: "202603", views: 4828 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -819,6 +835,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ナズナ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナズナ", totalViews: 54065, window: "202504-202603", months: [{ month: "202504", views: 8091 }, { month: "202505", views: 6467 }, { month: "202506", views: 3970 }, { month: "202507", views: 3188 }, { month: "202508", views: 2873 }, { month: "202509", views: 2463 }, { month: "202510", views: 2484 }, { month: "202511", views: 2537 }, { month: "202512", views: 2912 }, { month: "202601", views: 8891 }, { month: "202602", views: 3445 }, { month: "202603", views: 6744 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -866,6 +883,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/セイヨウアブラナ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "セイヨウアブラナ", totalViews: 15415, window: "202504-202603", months: [{ month: "202504", views: 3322 }, { month: "202505", views: 1714 }, { month: "202506", views: 925 }, { month: "202507", views: 796 }, { month: "202508", views: 852 }, { month: "202509", views: 731 }, { month: "202510", views: 802 }, { month: "202511", views: 818 }, { month: "202512", views: 817 }, { month: "202601", views: 1126 }, { month: "202602", views: 1041 }, { month: "202603", views: 2471 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -916,6 +934,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ホトケノザ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホトケノザ", totalViews: 55022, window: "202504-202603", months: [{ month: "202504", views: 11040 }, { month: "202505", views: 4419 }, { month: "202506", views: 1614 }, { month: "202507", views: 1239 }, { month: "202508", views: 938 }, { month: "202509", views: 928 }, { month: "202510", views: 1145 }, { month: "202511", views: 1974 }, { month: "202512", views: 2336 }, { month: "202601", views: 7515 }, { month: "202602", views: 6128 }, { month: "202603", views: 15746 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -964,6 +983,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ヒメオドリコソウ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒメオドリコソウ", totalViews: 34045, window: "202504-202603", months: [{ month: "202504", views: 16096 }, { month: "202505", views: 6550 }, { month: "202506", views: 883 }, { month: "202507", views: 487 }, { month: "202508", views: 413 }, { month: "202509", views: 330 }, { month: "202510", views: 460 }, { month: "202511", views: 519 }, { month: "202512", views: 433 }, { month: "202601", views: 584 }, { month: "202602", views: 1549 }, { month: "202603", views: 5741 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1012,6 +1032,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/スイバ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スイバ", totalViews: 28629, window: "202504-202603", months: [{ month: "202504", views: 5270 }, { month: "202505", views: 5807 }, { month: "202506", views: 2733 }, { month: "202507", views: 1728 }, { month: "202508", views: 1564 }, { month: "202509", views: 1494 }, { month: "202510", views: 1860 }, { month: "202511", views: 1558 }, { month: "202512", views: 1314 }, { month: "202601", views: 1403 }, { month: "202602", views: 1615 }, { month: "202603", views: 2283 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1058,6 +1079,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/イタドリ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イタドリ", totalViews: 108079, window: "202504-202603", months: [{ month: "202504", views: 17977 }, { month: "202505", views: 21002 }, { month: "202506", views: 11991 }, { month: "202507", views: 7950 }, { month: "202508", views: 7289 }, { month: "202509", views: 7778 }, { month: "202510", views: 8089 }, { month: "202511", views: 5392 }, { month: "202512", views: 4542 }, { month: "202601", views: 5288 }, { month: "202602", views: 5122 }, { month: "202603", views: 5659 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1108,6 +1130,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ハコベ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コハコベ", totalViews: 6908, window: "202504-202603", months: [{ month: "202504", views: 1907 }, { month: "202505", views: 1238 }, { month: "202506", views: 521 }, { month: "202507", views: 243 }, { month: "202508", views: 288 }, { month: "202509", views: 202 }, { month: "202510", views: 204 }, { month: "202511", views: 198 }, { month: "202512", views: 226 }, { month: "202601", views: 484 }, { month: "202602", views: 409 }, { month: "202603", views: 988 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1156,6 +1179,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/オオバコ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "セイヨウオオバコ", totalViews: 3853, window: "202504-202603", months: [{ month: "202504", views: 772 }, { month: "202505", views: 1463 }, { month: "202506", views: 430 }, { month: "202507", views: 292 }, { month: "202508", views: 208 }, { month: "202509", views: 132 }, { month: "202510", views: 139 }, { month: "202511", views: 111 }, { month: "202512", views: 80 }, { month: "202601", views: 71 }, { month: "202602", views: 57 }, { month: "202603", views: 98 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1204,6 +1228,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/オオイヌノフグリ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオイヌノフグリ", totalViews: 70143, window: "202504-202603", months: [{ month: "202504", views: 19964 }, { month: "202505", views: 9523 }, { month: "202506", views: 3461 }, { month: "202507", views: 2446 }, { month: "202508", views: 2821 }, { month: "202509", views: 2475 }, { month: "202510", views: 2646 }, { month: "202511", views: 1959 }, { month: "202512", views: 1941 }, { month: "202601", views: 2672 }, { month: "202602", views: 6315 }, { month: "202603", views: 13920 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1254,6 +1279,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/タチツボスミレ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タチツボスミレ", totalViews: 10725, window: "202504-202603", months: [{ month: "202504", views: 3774 }, { month: "202505", views: 1736 }, { month: "202506", views: 617 }, { month: "202507", views: 323 }, { month: "202508", views: 312 }, { month: "202509", views: 340 }, { month: "202510", views: 296 }, { month: "202511", views: 299 }, { month: "202512", views: 263 }, { month: "202601", views: 313 }, { month: "202602", views: 332 }, { month: "202603", views: 2120 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1303,6 +1329,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/カタバミ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カタバミ", totalViews: 75939, window: "202504-202603", months: [{ month: "202504", views: 11283 }, { month: "202505", views: 15302 }, { month: "202506", views: 8957 }, { month: "202507", views: 6418 }, { month: "202508", views: 5117 }, { month: "202509", views: 4076 }, { month: "202510", views: 4354 }, { month: "202511", views: 4867 }, { month: "202512", views: 3408 }, { month: "202601", views: 4455 }, { month: "202602", views: 3245 }, { month: "202603", views: 4457 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1350,6 +1377,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ムラサキカタバミ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ムラサキカタバミ", totalViews: 21002, window: "202504-202603", months: [{ month: "202504", views: 2446 }, { month: "202505", views: 8055 }, { month: "202506", views: 5047 }, { month: "202507", views: 1124 }, { month: "202508", views: 487 }, { month: "202509", views: 473 }, { month: "202510", views: 742 }, { month: "202511", views: 765 }, { month: "202512", views: 446 }, { month: "202601", views: 415 }, { month: "202602", views: 366 }, { month: "202603", views: 636 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1400,6 +1428,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ドクダミ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ドクダミ", totalViews: 101426, window: "202504-202603", months: [{ month: "202504", views: 7390 }, { month: "202505", views: 22458 }, { month: "202506", views: 21510 }, { month: "202507", views: 12925 }, { month: "202508", views: 8730 }, { month: "202509", views: 6238 }, { month: "202510", views: 4078 }, { month: "202511", views: 3790 }, { month: "202512", views: 3248 }, { month: "202601", views: 3163 }, { month: "202602", views: 2767 }, { month: "202603", views: 5129 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1448,6 +1477,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ガマ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ガマ", totalViews: 43903, window: "202504-202603", months: [{ month: "202504", views: 2634 }, { month: "202505", views: 3264 }, { month: "202506", views: 5446 }, { month: "202507", views: 5434 }, { month: "202508", views: 5948 }, { month: "202509", views: 4245 }, { month: "202510", views: 3621 }, { month: "202511", views: 3947 }, { month: "202512", views: 2474 }, { month: "202601", views: 2395 }, { month: "202602", views: 2373 }, { month: "202603", views: 2122 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1497,6 +1527,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ミズバショウ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミズバショウ", totalViews: 28969, window: "202504-202603", months: [{ month: "202504", views: 5267 }, { month: "202505", views: 6372 }, { month: "202506", views: 3982 }, { month: "202507", views: 2285 }, { month: "202508", views: 1845 }, { month: "202509", views: 1625 }, { month: "202510", views: 1364 }, { month: "202511", views: 1209 }, { month: "202512", views: 934 }, { month: "202601", views: 994 }, { month: "202602", views: 1107 }, { month: "202603", views: 1985 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1544,6 +1575,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/プラタナス",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "モミジバスズカケノキ", totalViews: 7036, window: "202504-202603", months: [{ month: "202504", views: 631 }, { month: "202505", views: 745 }, { month: "202506", views: 538 }, { month: "202507", views: 442 }, { month: "202508", views: 494 }, { month: "202509", views: 509 }, { month: "202510", views: 563 }, { month: "202511", views: 1200 }, { month: "202512", views: 607 }, { month: "202601", views: 459 }, { month: "202602", views: 338 }, { month: "202603", views: 510 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1591,6 +1623,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/コナラ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コナラ", totalViews: 25234, window: "202504-202603", months: [{ month: "202504", views: 2147 }, { month: "202505", views: 2656 }, { month: "202506", views: 2100 }, { month: "202507", views: 2232 }, { month: "202508", views: 2133 }, { month: "202509", views: 2166 }, { month: "202510", views: 2702 }, { month: "202511", views: 2713 }, { month: "202512", views: 2016 }, { month: "202601", views: 1626 }, { month: "202602", views: 1412 }, { month: "202603", views: 1331 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1636,6 +1669,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/クヌギ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クヌギ", totalViews: 45132, window: "202504-202603", months: [{ month: "202504", views: 3505 }, { month: "202505", views: 3735 }, { month: "202506", views: 3662 }, { month: "202507", views: 4581 }, { month: "202508", views: 4263 }, { month: "202509", views: 3916 }, { month: "202510", views: 4775 }, { month: "202511", views: 4762 }, { month: "202512", views: 3411 }, { month: "202601", views: 3042 }, { month: "202602", views: 2478 }, { month: "202603", views: 3002 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1686,6 +1720,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/クスノキ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クスノキ", totalViews: 86905, window: "202504-202603", months: [{ month: "202504", views: 7618 }, { month: "202505", views: 12330 }, { month: "202506", views: 7386 }, { month: "202507", views: 6192 }, { month: "202508", views: 9109 }, { month: "202509", views: 6354 }, { month: "202510", views: 6463 }, { month: "202511", views: 6388 }, { month: "202512", views: 6373 }, { month: "202601", views: 7432 }, { month: "202602", views: 5594 }, { month: "202603", views: 5666 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1735,6 +1770,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ツバキ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツバキ", totalViews: 118729, window: "202504-202603", months: [{ month: "202504", views: 16304 }, { month: "202505", views: 9568 }, { month: "202506", views: 6659 }, { month: "202507", views: 5615 }, { month: "202508", views: 6611 }, { month: "202509", views: 5745 }, { month: "202510", views: 6795 }, { month: "202511", views: 8453 }, { month: "202512", views: 11243 }, { month: "202601", views: 14400 }, { month: "202602", views: 12220 }, { month: "202603", views: 15116 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1782,6 +1818,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/サザンカ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サザンカ", totalViews: 71614, window: "202504-202603", months: [{ month: "202504", views: 4262 }, { month: "202505", views: 3500 }, { month: "202506", views: 2928 }, { month: "202507", views: 2660 }, { month: "202508", views: 2935 }, { month: "202509", views: 3058 }, { month: "202510", views: 6025 }, { month: "202511", views: 9650 }, { month: "202512", views: 12137 }, { month: "202601", views: 11870 }, { month: "202602", views: 6858 }, { month: "202603", views: 5731 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1834,6 +1871,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/コブシ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コブシ", totalViews: 57679, window: "202504-202603", months: [{ month: "202504", views: 12547 }, { month: "202505", views: 4705 }, { month: "202506", views: 2988 }, { month: "202507", views: 2373 }, { month: "202508", views: 2501 }, { month: "202509", views: 2663 }, { month: "202510", views: 2583 }, { month: "202511", views: 2360 }, { month: "202512", views: 2072 }, { month: "202601", views: 2526 }, { month: "202602", views: 3246 }, { month: "202603", views: 17115 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1884,6 +1922,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/アカマツ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アカマツ", totalViews: 25629, window: "202504-202603", months: [{ month: "202504", views: 2265 }, { month: "202505", views: 2662 }, { month: "202506", views: 1991 }, { month: "202507", views: 1842 }, { month: "202508", views: 2108 }, { month: "202509", views: 2179 }, { month: "202510", views: 2716 }, { month: "202511", views: 2384 }, { month: "202512", views: 1987 }, { month: "202601", views: 1991 }, { month: "202602", views: 1852 }, { month: "202603", views: 1652 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1930,6 +1969,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/クロマツ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クロマツ", totalViews: 17698, window: "202504-202603", months: [{ month: "202504", views: 1667 }, { month: "202505", views: 2063 }, { month: "202506", views: 1559 }, { month: "202507", views: 1316 }, { month: "202508", views: 1495 }, { month: "202509", views: 1305 }, { month: "202510", views: 1432 }, { month: "202511", views: 1545 }, { month: "202512", views: 1511 }, { month: "202601", views: 1523 }, { month: "202602", views: 1136 }, { month: "202603", views: 1146 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -1979,6 +2019,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/スギ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スギ", totalViews: 64628, window: "202504-202603", months: [{ month: "202504", views: 6742 }, { month: "202505", views: 6271 }, { month: "202506", views: 4376 }, { month: "202507", views: 4030 }, { month: "202508", views: 3821 }, { month: "202509", views: 3821 }, { month: "202510", views: 4396 }, { month: "202511", views: 4640 }, { month: "202512", views: 4156 }, { month: "202601", views: 4127 }, { month: "202602", views: 6294 }, { month: "202603", views: 11954 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2029,6 +2070,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/イチョウ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イチョウ", totalViews: 138147, window: "202504-202603", months: [{ month: "202504", views: 7991 }, { month: "202505", views: 10088 }, { month: "202506", views: 7361 }, { month: "202507", views: 6507 }, { month: "202508", views: 7226 }, { month: "202509", views: 9669 }, { month: "202510", views: 17113 }, { month: "202511", views: 31108 }, { month: "202512", views: 15705 }, { month: "202601", views: 11273 }, { month: "202602", views: 6440 }, { month: "202603", views: 7666 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2076,6 +2118,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/シラカバ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シラカンバ", totalViews: 42766, window: "202504-202603", months: [{ month: "202504", views: 4296 }, { month: "202505", views: 5466 }, { month: "202506", views: 3480 }, { month: "202507", views: 2857 }, { month: "202508", views: 3836 }, { month: "202509", views: 3638 }, { month: "202510", views: 3614 }, { month: "202511", views: 3218 }, { month: "202512", views: 2553 }, { month: "202601", views: 2669 }, { month: "202602", views: 2820 }, { month: "202603", views: 4319 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2124,6 +2167,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/アジサイ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アジサイ", totalViews: 134304, window: "202504-202603", months: [{ month: "202504", views: 8663 }, { month: "202505", views: 23501 }, { month: "202506", views: 51413 }, { month: "202507", views: 12593 }, { month: "202508", views: 7007 }, { month: "202509", views: 5398 }, { month: "202510", views: 4632 }, { month: "202511", views: 4182 }, { month: "202512", views: 3702 }, { month: "202601", views: 4326 }, { month: "202602", views: 3779 }, { month: "202603", views: 5108 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2172,6 +2216,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ケヤキ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ケヤキ", totalViews: 63600, window: "202504-202603", months: [{ month: "202504", views: 6394 }, { month: "202505", views: 7873 }, { month: "202506", views: 5875 }, { month: "202507", views: 4877 }, { month: "202508", views: 5050 }, { month: "202509", views: 5092 }, { month: "202510", views: 5273 }, { month: "202511", views: 6384 }, { month: "202512", views: 5235 }, { month: "202601", views: 4137 }, { month: "202602", views: 3383 }, { month: "202603", views: 4027 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2222,6 +2267,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/アサガオ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アサガオ", totalViews: 72401, window: "202504-202603", months: [{ month: "202504", views: 4168 }, { month: "202505", views: 6541 }, { month: "202506", views: 8572 }, { month: "202507", views: 10867 }, { month: "202508", views: 12481 }, { month: "202509", views: 8221 }, { month: "202510", views: 6104 }, { month: "202511", views: 3738 }, { month: "202512", views: 3235 }, { month: "202601", views: 3045 }, { month: "202602", views: 2563 }, { month: "202603", views: 2866 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2273,6 +2319,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/スギナ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スギナ", totalViews: 88099, window: "202504-202603", months: [{ month: "202504", views: 18811 }, { month: "202505", views: 14572 }, { month: "202506", views: 9211 }, { month: "202507", views: 5456 }, { month: "202508", views: 5873 }, { month: "202509", views: 4226 }, { month: "202510", views: 3522 }, { month: "202511", views: 2923 }, { month: "202512", views: 2429 }, { month: "202601", views: 2928 }, { month: "202602", views: 3380 }, { month: "202603", views: 14768 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2323,6 +2370,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ゼンマイ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゼンマイ", totalViews: 29256, window: "202504-202603", months: [{ month: "202504", views: 4055 }, { month: "202505", views: 4654 }, { month: "202506", views: 3186 }, { month: "202507", views: 1948 }, { month: "202508", views: 2237 }, { month: "202509", views: 1807 }, { month: "202510", views: 1620 }, { month: "202511", views: 1706 }, { month: "202512", views: 1641 }, { month: "202601", views: 1825 }, { month: "202602", views: 1979 }, { month: "202603", views: 2598 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2373,6 +2421,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/クサソテツ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クサソテツ", totalViews: 24161, window: "202504-202603", months: [{ month: "202504", views: 7604 }, { month: "202505", views: 7103 }, { month: "202506", views: 1711 }, { month: "202507", views: 951 }, { month: "202508", views: 828 }, { month: "202509", views: 701 }, { month: "202510", views: 634 }, { month: "202511", views: 592 }, { month: "202512", views: 554 }, { month: "202601", views: 675 }, { month: "202602", views: 1007 }, { month: "202603", views: 1801 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2423,6 +2472,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/イロハモミジ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イロハモミジ", totalViews: 46388, window: "202504-202603", months: [{ month: "202504", views: 5919 }, { month: "202505", views: 6756 }, { month: "202506", views: 3081 }, { month: "202507", views: 2346 }, { month: "202508", views: 2317 }, { month: "202509", views: 2417 }, { month: "202510", views: 3234 }, { month: "202511", views: 11722 }, { month: "202512", views: 3657 }, { month: "202601", views: 1742 }, { month: "202602", views: 1419 }, { month: "202603", views: 1778 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2469,6 +2519,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/トウカエデ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トウカエデ", totalViews: 12217, window: "202504-202603", months: [{ month: "202504", views: 957 }, { month: "202505", views: 1558 }, { month: "202506", views: 1008 }, { month: "202507", views: 780 }, { month: "202508", views: 819 }, { month: "202509", views: 864 }, { month: "202510", views: 1022 }, { month: "202511", views: 2716 }, { month: "202512", views: 1102 }, { month: "202601", views: 500 }, { month: "202602", views: 425 }, { month: "202603", views: 466 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2521,6 +2572,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ハナミズキ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハナミズキ", totalViews: 120989, window: "202504-202603", months: [{ month: "202504", views: 33717 }, { month: "202505", views: 17598 }, { month: "202506", views: 8469 }, { month: "202507", views: 6925 }, { month: "202508", views: 6696 }, { month: "202509", views: 6691 }, { month: "202510", views: 7487 }, { month: "202511", views: 7838 }, { month: "202512", views: 5079 }, { month: "202601", views: 5481 }, { month: "202602", views: 5477 }, { month: "202603", views: 9531 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2571,6 +2623,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/シダレヤナギ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シダレヤナギ", totalViews: 8553, window: "202504-202603", months: [{ month: "202504", views: 916 }, { month: "202505", views: 842 }, { month: "202506", views: 682 }, { month: "202507", views: 628 }, { month: "202508", views: 726 }, { month: "202509", views: 761 }, { month: "202510", views: 643 }, { month: "202511", views: 670 }, { month: "202512", views: 580 }, { month: "202601", views: 581 }, { month: "202602", views: 554 }, { month: "202603", views: 970 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2621,6 +2674,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/クリ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クリ", totalViews: 57397, window: "202504-202603", months: [{ month: "202504", views: 2100 }, { month: "202505", views: 3088 }, { month: "202506", views: 3716 }, { month: "202507", views: 3176 }, { month: "202508", views: 4078 }, { month: "202509", views: 9983 }, { month: "202510", views: 11069 }, { month: "202511", views: 6497 }, { month: "202512", views: 4300 }, { month: "202601", views: 3756 }, { month: "202602", views: 2786 }, { month: "202603", views: 2848 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2670,6 +2724,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ヒノキ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒノキ", totalViews: 54988, window: "202504-202603", months: [{ month: "202504", views: 7650 }, { month: "202505", views: 5121 }, { month: "202506", views: 4198 }, { month: "202507", views: 5906 }, { month: "202508", views: 3899 }, { month: "202509", views: 3340 }, { month: "202510", views: 3730 }, { month: "202511", views: 3838 }, { month: "202512", views: 3594 }, { month: "202601", views: 3442 }, { month: "202602", views: 3534 }, { month: "202603", views: 6736 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -2717,6 +2772,7 @@ export const plants: Plant[] = [
       },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヒガンバナ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒガンバナ", totalViews: 261035, window: "202504-202603", months: [{ month: "202504", views: 10420 }, { month: "202505", views: 11428 }, { month: "202506", views: 10735 }, { month: "202507", views: 11149 }, { month: "202508", views: 16313 }, { month: "202509", views: 92160 }, { month: "202510", views: 54085 }, { month: "202511", views: 14915 }, { month: "202512", views: 11790 }, { month: "202601", views: 9261 }, { month: "202602", views: 8271 }, { month: "202603", views: 10508 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
   {
@@ -2754,6 +2810,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ノビル" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ノビル", totalViews: 58867, window: "202504-202603", months: [{ month: "202504", views: 11023 }, { month: "202505", views: 10826 }, { month: "202506", views: 5774 }, { month: "202507", views: 2558 }, { month: "202508", views: 2713 }, { month: "202509", views: 3842 }, { month: "202510", views: 3318 }, { month: "202511", views: 2926 }, { month: "202512", views: 2373 }, { month: "202601", views: 2469 }, { month: "202602", views: 3811 }, { month: "202603", views: 7234 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -2793,6 +2850,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ツユクサ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツユクサ", totalViews: 53048, window: "202504-202603", months: [{ month: "202504", views: 2874 }, { month: "202505", views: 6894 }, { month: "202506", views: 7310 }, { month: "202507", views: 6633 }, { month: "202508", views: 7135 }, { month: "202509", views: 9240 }, { month: "202510", views: 4895 }, { month: "202511", views: 1834 }, { month: "202512", views: 1548 }, { month: "202601", views: 1563 }, { month: "202602", views: 1460 }, { month: "202603", views: 1662 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -2834,6 +2892,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/スミレ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スミレ", totalViews: 56995, window: "202504-202603", months: [{ month: "202504", views: 10905 }, { month: "202505", views: 5962 }, { month: "202506", views: 3395 }, { month: "202507", views: 2780 }, { month: "202508", views: 3071 }, { month: "202509", views: 3511 }, { month: "202510", views: 3353 }, { month: "202511", views: 3101 }, { month: "202512", views: 2662 }, { month: "202601", views: 3209 }, { month: "202602", views: 3336 }, { month: "202603", views: 11710 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -2873,6 +2932,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ノアザミ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ノアザミ", totalViews: 10281, window: "202504-202603", months: [{ month: "202504", views: 1018 }, { month: "202505", views: 2037 }, { month: "202506", views: 1871 }, { month: "202507", views: 1057 }, { month: "202508", views: 930 }, { month: "202509", views: 770 }, { month: "202510", views: 743 }, { month: "202511", views: 501 }, { month: "202512", views: 363 }, { month: "202601", views: 328 }, { month: "202602", views: 277 }, { month: "202603", views: 386 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
   {
@@ -2910,6 +2970,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/フキ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フキ", totalViews: 56979, window: "202504-202603", months: [{ month: "202504", views: 12618 }, { month: "202505", views: 9588 }, { month: "202506", views: 4344 }, { month: "202507", views: 2942 }, { month: "202508", views: 2572 }, { month: "202509", views: 2294 }, { month: "202510", views: 2288 }, { month: "202511", views: 2432 }, { month: "202512", views: 2234 }, { month: "202601", views: 3021 }, { month: "202602", views: 4638 }, { month: "202603", views: 8008 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
   {
@@ -2946,6 +3007,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/コセンダングサ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コセンダングサ", totalViews: 15967, window: "202504-202603", months: [{ month: "202504", views: 933 }, { month: "202505", views: 1228 }, { month: "202506", views: 1024 }, { month: "202507", views: 900 }, { month: "202508", views: 924 }, { month: "202509", views: 1080 }, { month: "202510", views: 2562 }, { month: "202511", views: 2661 }, { month: "202512", views: 1626 }, { month: "202601", views: 888 }, { month: "202602", views: 1534 }, { month: "202603", views: 607 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -2985,6 +3047,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヘビイチゴ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤブヘビイチゴ", totalViews: 12951, window: "202504-202603", months: [{ month: "202504", views: 1415 }, { month: "202505", views: 6570 }, { month: "202506", views: 1927 }, { month: "202507", views: 659 }, { month: "202508", views: 391 }, { month: "202509", views: 307 }, { month: "202510", views: 291 }, { month: "202511", views: 274 }, { month: "202512", views: 242 }, { month: "202601", views: 261 }, { month: "202602", views: 249 }, { month: "202603", views: 365 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -3023,6 +3086,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/チガヤ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "チガヤ", totalViews: 39189, window: "202504-202603", months: [{ month: "202504", views: 2849 }, { month: "202505", views: 8242 }, { month: "202506", views: 6321 }, { month: "202507", views: 3138 }, { month: "202508", views: 3451 }, { month: "202509", views: 3110 }, { month: "202510", views: 3035 }, { month: "202511", views: 2189 }, { month: "202512", views: 1956 }, { month: "202601", views: 1582 }, { month: "202602", views: 1399 }, { month: "202603", views: 1917 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -3062,6 +3126,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ミズヒキ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミズヒキ", totalViews: 7142, window: "202504-202603", months: [{ month: "202504", views: 358 }, { month: "202505", views: 927 }, { month: "202506", views: 658 }, { month: "202507", views: 381 }, { month: "202508", views: 691 }, { month: "202509", views: 1351 }, { month: "202510", views: 1463 }, { month: "202511", views: 583 }, { month: "202512", views: 225 }, { month: "202601", views: 169 }, { month: "202602", views: 165 }, { month: "202603", views: 171 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -3101,6 +3166,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ゲンノショウコ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゲンノショウコ", totalViews: 32864, window: "202504-202603", months: [{ month: "202504", views: 3161 }, { month: "202505", views: 4314 }, { month: "202506", views: 3140 }, { month: "202507", views: 2266 }, { month: "202508", views: 3426 }, { month: "202509", views: 4696 }, { month: "202510", views: 2858 }, { month: "202511", views: 2647 }, { month: "202512", views: 1663 }, { month: "202601", views: 1372 }, { month: "202602", views: 1368 }, { month: "202603", views: 1953 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -3142,6 +3208,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カタクリ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カタクリ", totalViews: 59263, window: "202504-202603", months: [{ month: "202504", views: 13720 }, { month: "202505", views: 7297 }, { month: "202506", views: 4371 }, { month: "202507", views: 2898 }, { month: "202508", views: 3977 }, { month: "202509", views: 2804 }, { month: "202510", views: 2710 }, { month: "202511", views: 2681 }, { month: "202512", views: 2676 }, { month: "202601", views: 2683 }, { month: "202602", views: 2932 }, { month: "202603", views: 10514 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -3182,6 +3249,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/キキョウ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キキョウ", totalViews: 63485, window: "202504-202603", months: [{ month: "202504", views: 4200 }, { month: "202505", views: 4919 }, { month: "202506", views: 6035 }, { month: "202507", views: 6585 }, { month: "202508", views: 7098 }, { month: "202509", views: 9103 }, { month: "202510", views: 7145 }, { month: "202511", views: 4354 }, { month: "202512", views: 3398 }, { month: "202601", views: 3691 }, { month: "202602", views: 3096 }, { month: "202603", views: 3861 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -3222,6 +3290,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/セリ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "セリ", totalViews: 45829, window: "202504-202603", months: [{ month: "202504", views: 5760 }, { month: "202505", views: 5235 }, { month: "202506", views: 3044 }, { month: "202507", views: 2373 }, { month: "202508", views: 2460 }, { month: "202509", views: 2233 }, { month: "202510", views: 2380 }, { month: "202511", views: 3753 }, { month: "202512", views: 4009 }, { month: "202601", views: 6801 }, { month: "202602", views: 3803 }, { month: "202603", views: 3978 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -3260,6 +3329,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。YList・Wikipedia等での点検が必要。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヤブラン" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤブラン", totalViews: 20559, window: "202504-202603", months: [{ month: "202504", views: 1375 }, { month: "202505", views: 1488 }, { month: "202506", views: 1077 }, { month: "202507", views: 1066 }, { month: "202508", views: 2146 }, { month: "202509", views: 5548 }, { month: "202510", views: 3113 }, { month: "202511", views: 1223 }, { month: "202512", views: 849 }, { month: "202601", views: 858 }, { month: "202602", views: 711 }, { month: "202603", views: 1105 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。" },
   },
 
@@ -3308,6 +3378,7 @@ export const plants: Plant[] = [
         url: "https://ja.wikipedia.org/wiki/ネムノキ",
       },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ネムノキ", totalViews: 48894, window: "202504-202603", months: [{ month: "202504", views: 3016 }, { month: "202505", views: 4736 }, { month: "202506", views: 10186 }, { month: "202507", views: 9045 }, { month: "202508", views: 4977 }, { month: "202509", views: 3861 }, { month: "202510", views: 2896 }, { month: "202511", views: 2433 }, { month: "202512", views: 1943 }, { month: "202601", views: 1910 }, { month: "202602", views: 1782 }, { month: "202603", views: 2109 }] },
     review: {
       status: "ai_generated",
       note: "Claude AIが生成。学名・和名・分類・説明文すべて要確認。",
@@ -3345,6 +3416,7 @@ export const plants: Plant[] = [
     enTags: ["Fern", "Evergreen", "Perennial", "Stone walls"],
     traits: { leafArr: "alt", leafType: "compound", venation: "pinnate", margin: "entire", shape: "linear", habit: "herb", deciduous: "evergreen" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イノモトソウ", totalViews: 2269, window: "202504-202603", months: [{ month: "202504", views: 177 }, { month: "202505", views: 320 }, { month: "202506", views: 244 }, { month: "202507", views: 177 }, { month: "202508", views: 236 }, { month: "202509", views: 185 }, { month: "202510", views: 149 }, { month: "202511", views: 149 }, { month: "202512", views: 188 }, { month: "202601", views: 170 }, { month: "202602", views: 128 }, { month: "202603", views: 146 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3380,6 +3452,7 @@ export const plants: Plant[] = [
     floweringSeason: "spring",
     habitat: "forest", ovaryPosition: "superior", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キクザキイチゲ", totalViews: 8570, window: "202504-202603", months: [{ month: "202504", views: 3094 }, { month: "202505", views: 1441 }, { month: "202506", views: 397 }, { month: "202507", views: 185 }, { month: "202508", views: 130 }, { month: "202509", views: 142 }, { month: "202510", views: 148 }, { month: "202511", views: 124 }, { month: "202512", views: 144 }, { month: "202601", views: 205 }, { month: "202602", views: 375 }, { month: "202603", views: 2185 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3413,6 +3486,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Shrub", "Garden tree", "Fragrant"],
     traits: {  leafArr: "opp", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "ovate", habit: "shrub", deciduous: "evergreen", petalCount: 4, petalFusion: "fused", stipules: "present", flowerSymmetry: "actinomorphic", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クチナシ", totalViews: 81089, window: "202504-202603", months: [{ month: "202504", views: 6339 }, { month: "202505", views: 8799 }, { month: "202506", views: 15009 }, { month: "202507", views: 7234 }, { month: "202508", views: 5594 }, { month: "202509", views: 5764 }, { month: "202510", views: 6590 }, { month: "202511", views: 5345 }, { month: "202512", views: 4898 }, { month: "202601", views: 4630 }, { month: "202602", views: 4379 }, { month: "202603", views: 6508 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3447,6 +3521,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "opp", leafType: "simple", venation: "pinnate", margin: "serrate", shape: "ovate", habit: "vine", deciduous: "evergreen", petalCount: 5, petalFusion: "fused",
     habitat: "forest", ovaryPosition: "inferior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スイカズラ", totalViews: 48497, window: "202504-202603", months: [{ month: "202504", views: 3456 }, { month: "202505", views: 14017 }, { month: "202506", views: 6570 }, { month: "202507", views: 2871 }, { month: "202508", views: 3182 }, { month: "202509", views: 2483 }, { month: "202510", views: 3068 }, { month: "202511", views: 2690 }, { month: "202512", views: 2331 }, { month: "202601", views: 2313 }, { month: "202602", views: 3080 }, { month: "202603", views: 2436 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3515,6 +3590,7 @@ export const plants: Plant[] = [
     floweringSeason: "summer",
     habitat: "cultivated", stipules: "absent", ovaryPosition: "superior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナス", totalViews: 80184, window: "202504-202603", months: [{ month: "202504", views: 5951 }, { month: "202505", views: 8290 }, { month: "202506", views: 8933 }, { month: "202507", views: 10638 }, { month: "202508", views: 12717 }, { month: "202509", views: 8149 }, { month: "202510", views: 5667 }, { month: "202511", views: 4393 }, { month: "202512", views: 3734 }, { month: "202601", views: 4202 }, { month: "202602", views: 3480 }, { month: "202603", views: 4030 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3549,6 +3625,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "opp", margin: "serrate",
     habitat: "cultivated", venation: "pinnate", petalCount: "many", stipules: "absent", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "1-2", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "バーベナ", totalViews: 19785, window: "202504-202603", months: [{ month: "202504", views: 2335 }, { month: "202505", views: 3402 }, { month: "202506", views: 2314 }, { month: "202507", views: 1806 }, { month: "202508", views: 1846 }, { month: "202509", views: 1532 }, { month: "202510", views: 1375 }, { month: "202511", views: 1083 }, { month: "202512", views: 865 }, { month: "202601", views: 880 }, { month: "202602", views: 880 }, { month: "202603", views: 1467 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3583,6 +3660,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "linear", habit: "herb", deciduous: "deciduous", petalCount: 4, petalFusion: "free",
     habitat: "roadside", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "1-2", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クサノオウ", totalViews: 13357, window: "202504-202603", months: [{ month: "202504", views: 3394 }, { month: "202505", views: 3542 }, { month: "202506", views: 1338 }, { month: "202507", views: 851 }, { month: "202508", views: 657 }, { month: "202509", views: 620 }, { month: "202510", views: 539 }, { month: "202511", views: 449 }, { month: "202512", views: 342 }, { month: "202601", views: 374 }, { month: "202602", views: 376 }, { month: "202603", views: 875 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3617,6 +3695,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "ovate", habit: "tree", deciduous: "deciduous", petalFusion: "none",
     habitat: "cultivated", stipules: "present", flowerSymmetry: "actinomorphic", latex: "present", stamenCount: "1-2", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クワ", totalViews: 62791, window: "202504-202603", months: [{ month: "202504", views: 4511 }, { month: "202505", views: 10229 }, { month: "202506", views: 11261 }, { month: "202507", views: 5525 }, { month: "202508", views: 5000 }, { month: "202509", views: 4955 }, { month: "202510", views: 4425 }, { month: "202511", views: 3989 }, { month: "202512", views: 3329 }, { month: "202601", views: 3011 }, { month: "202602", views: 3379 }, { month: "202603", views: 3177 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3651,6 +3730,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "aquatic", leafArr: "alt", leafType: "simple", venation: "parallel", petalFusion: "free", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stemSection: "round" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イグサ", totalViews: 27190, window: "202504-202603", months: [{ month: "202504", views: 2290 }, { month: "202505", views: 3105 }, { month: "202506", views: 2899 }, { month: "202507", views: 2552 }, { month: "202508", views: 2836 }, { month: "202509", views: 2257 }, { month: "202510", views: 2390 }, { month: "202511", views: 2134 }, { month: "202512", views: 1799 }, { month: "202601", views: 1726 }, { month: "202602", views: 1526 }, { month: "202603", views: 1676 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3685,6 +3765,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "round", habit: "vine", deciduous: "deciduous", petalCount: 5, petalFusion: "free",
     habitat: "cultivated", stipules: "present", flowerSymmetry: "actinomorphic", ovaryPosition: "superior" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヨーロッパブドウ", totalViews: 5223, window: "202504-202603", months: [{ month: "202504", views: 386 }, { month: "202505", views: 422 }, { month: "202506", views: 520 }, { month: "202507", views: 508 }, { month: "202508", views: 502 }, { month: "202509", views: 727 }, { month: "202510", views: 526 }, { month: "202511", views: 418 }, { month: "202512", views: 328 }, { month: "202601", views: 337 }, { month: "202602", views: 256 }, { month: "202603", views: 293 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3720,6 +3801,7 @@ export const plants: Plant[] = [
     floweringSeason: "summer",
     habitat: "wetland", dissection: "entire", plantSex: "hermaphrodite", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハナショウブ", totalViews: 30809, window: "202504-202603", months: [{ month: "202504", views: 3388 }, { month: "202505", views: 8349 }, { month: "202506", views: 7701 }, { month: "202507", views: 1627 }, { month: "202508", views: 1471 }, { month: "202509", views: 1290 }, { month: "202510", views: 1146 }, { month: "202511", views: 1136 }, { month: "202512", views: 1081 }, { month: "202601", views: 1091 }, { month: "202602", views: 1059 }, { month: "202603", views: 1470 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3754,6 +3836,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", shape: "linear",
     habitat: "aquatic", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", petalFusion: "free", dissection: "entire", ovaryPosition: "superior", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホシクサ", totalViews: 858, window: "202504-202603", months: [{ month: "202504", views: 50 }, { month: "202505", views: 82 }, { month: "202506", views: 62 }, { month: "202507", views: 77 }, { month: "202508", views: 88 }, { month: "202509", views: 135 }, { month: "202510", views: 98 }, { month: "202511", views: 74 }, { month: "202512", views: 46 }, { month: "202601", views: 45 }, { month: "202602", views: 41 }, { month: "202603", views: 60 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3787,6 +3870,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Deciduous", "Tall tree", "Poisonous", "Warm-temperate"],
     traits: {  habit: "tree", deciduous: "deciduous", leafType: "compound", margin: "serrate", venation: "pinnate", petalCount: 5, stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", aromatic: "aromatic", latex: "present", stamenCount: "1-2", venationNet: "reticulate", glandDotted: "present" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "センダン", totalViews: 82001, window: "202504-202603", months: [{ month: "202504", views: 6393 }, { month: "202505", views: 16863 }, { month: "202506", views: 6878 }, { month: "202507", views: 4731 }, { month: "202508", views: 5079 }, { month: "202509", views: 5147 }, { month: "202510", views: 5337 }, { month: "202511", views: 6526 }, { month: "202512", views: 6381 }, { month: "202601", views: 7718 }, { month: "202602", views: 5585 }, { month: "202603", views: 5363 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3888,6 +3972,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Deciduous", "Tall tree", "Toxic", "Useful plant", "Autumn foliage"],
     traits: {  habit: "tree", deciduous: "deciduous", leafType: "compound", leafArr: "alt", venation: "pinnate", margin: "entire", petalFusion: "fused", stipules: "absent", flowerSymmetry: "actinomorphic" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウルシ", totalViews: 18177, window: "202504-202603", months: [{ month: "202504", views: 1501 }, { month: "202505", views: 1990 }, { month: "202506", views: 1841 }, { month: "202507", views: 1650 }, { month: "202508", views: 1622 }, { month: "202509", views: 1671 }, { month: "202510", views: 1607 }, { month: "202511", views: 1840 }, { month: "202512", views: 1193 }, { month: "202601", views: 1133 }, { month: "202602", views: 996 }, { month: "202603", views: 1133 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3922,6 +4007,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     floweringSeason: "summer-fall", leafArr: "alt", venation: "palmate", stipules: "present", ovaryPosition: "inferior", plantSex: "monoecious", compoundType: "palmate", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シュウカイドウ", totalViews: 15973, window: "202504-202603", months: [{ month: "202504", views: 1083 }, { month: "202505", views: 1173 }, { month: "202506", views: 1022 }, { month: "202507", views: 1011 }, { month: "202508", views: 1850 }, { month: "202509", views: 3117 }, { month: "202510", views: 2743 }, { month: "202511", views: 1214 }, { month: "202512", views: 714 }, { month: "202601", views: 650 }, { month: "202602", views: 620 }, { month: "202603", views: 776 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3955,6 +4041,7 @@ export const plants: Plant[] = [
     enTags: ["Fern", "Evergreen", "Epiphytic", "Ornamental", "Stone walls"],
     traits: { deciduous: "evergreen", leafType: "compound" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シノブ", totalViews: 6208, window: "202504-202603", months: [{ month: "202504", views: 531 }, { month: "202505", views: 770 }, { month: "202506", views: 826 }, { month: "202507", views: 700 }, { month: "202508", views: 534 }, { month: "202509", views: 467 }, { month: "202510", views: 398 }, { month: "202511", views: 463 }, { month: "202512", views: 401 }, { month: "202601", views: 369 }, { month: "202602", views: 289 }, { month: "202603", views: 460 }] },
     review: { status: "ai_generated" },
   },
   
@@ -3989,6 +4076,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "deciduous", margin: "serrate", shape: "linear",
     floweringSeason: "spring", leafArr: "alt", leafType: "simple", stipules: "present", flowerSymmetry: "actinomorphic", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マンサク", totalViews: 17104, window: "202504-202603", months: [{ month: "202504", views: 2765 }, { month: "202505", views: 1039 }, { month: "202506", views: 684 }, { month: "202507", views: 582 }, { month: "202508", views: 666 }, { month: "202509", views: 758 }, { month: "202510", views: 776 }, { month: "202511", views: 848 }, { month: "202512", views: 826 }, { month: "202601", views: 1380 }, { month: "202602", views: 3410 }, { month: "202603", views: 3370 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4023,6 +4111,7 @@ export const plants: Plant[] = [
     traits: {  habit: "shrub", deciduous: "evergreen",
     habitat: "mountain", leafArr: "alt", leafType: "simple", venation: "pinnate", petalCount: "many", petalFusion: "free", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イワウメ", totalViews: 1578, window: "202504-202603", months: [{ month: "202504", views: 79 }, { month: "202505", views: 134 }, { month: "202506", views: 253 }, { month: "202507", views: 247 }, { month: "202508", views: 173 }, { month: "202509", views: 140 }, { month: "202510", views: 127 }, { month: "202511", views: 85 }, { month: "202512", views: 78 }, { month: "202601", views: 92 }, { month: "202602", views: 84 }, { month: "202603", views: 86 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4091,6 +4180,7 @@ export const plants: Plant[] = [
     floweringSeason: "fall",
     habitat: "wetland", leafType: "simple", venation: "pinnate", petalFusion: "free", dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツリフネソウ", totalViews: 7441, window: "202504-202603", months: [{ month: "202504", views: 313 }, { month: "202505", views: 457 }, { month: "202506", views: 512 }, { month: "202507", views: 523 }, { month: "202508", views: 799 }, { month: "202509", views: 2376 }, { month: "202510", views: 1189 }, { month: "202511", views: 418 }, { month: "202512", views: 205 }, { month: "202601", views: 229 }, { month: "202602", views: 197 }, { month: "202603", views: 223 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4124,6 +4214,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Tall tree", "Conifer", "Garden tree", "Hedge", "Warm-temperate"],
     traits: {  habit: "tree", deciduous: "evergreen", shape: "linear", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", petalFusion: "none", stipules: "absent", ovaryPosition: "superior", plantSex: "dioecious" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イヌマキ", totalViews: 27178, window: "202504-202603", months: [{ month: "202504", views: 1989 }, { month: "202505", views: 2406 }, { month: "202506", views: 2351 }, { month: "202507", views: 1860 }, { month: "202508", views: 2445 }, { month: "202509", views: 2640 }, { month: "202510", views: 3150 }, { month: "202511", views: 2741 }, { month: "202512", views: 2480 }, { month: "202601", views: 1902 }, { month: "202602", views: 1517 }, { month: "202603", views: 1697 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4158,6 +4249,7 @@ export const plants: Plant[] = [
     traits: {  habit: "vine", deciduous: "deciduous", shape: "round",
     habitat: "mountain", leafArr: "alt", leafType: "simple", venation: "pinnate", petalCount: "many", stipules: "present", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マタタビ", totalViews: 66290, window: "202504-202603", months: [{ month: "202504", views: 8193 }, { month: "202505", views: 8100 }, { month: "202506", views: 8583 }, { month: "202507", views: 6208 }, { month: "202508", views: 5186 }, { month: "202509", views: 5182 }, { month: "202510", views: 4089 }, { month: "202511", views: 3987 }, { month: "202512", views: 3992 }, { month: "202601", views: 4076 }, { month: "202602", views: 3842 }, { month: "202603", views: 4852 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4193,6 +4285,7 @@ export const plants: Plant[] = [
     floweringSeason: "fall",
     habitat: "cultivated", leafType: "simple", venation: "pinnate", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カキノキ", totalViews: 93460, window: "202504-202603", months: [{ month: "202504", views: 3401 }, { month: "202505", views: 4673 }, { month: "202506", views: 3794 }, { month: "202507", views: 3650 }, { month: "202508", views: 4231 }, { month: "202509", views: 6235 }, { month: "202510", views: 17742 }, { month: "202511", views: 25441 }, { month: "202512", views: 11844 }, { month: "202601", views: 5209 }, { month: "202602", views: 3703 }, { month: "202603", views: 3537 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4227,6 +4320,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen", leafArr: "alt", shape: "round",
     habitat: "cultivated", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: "many", petalFusion: "fused", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "バンレイシ", totalViews: 21322, window: "202504-202603", months: [{ month: "202504", views: 1439 }, { month: "202505", views: 1577 }, { month: "202506", views: 1610 }, { month: "202507", views: 1550 }, { month: "202508", views: 1966 }, { month: "202509", views: 2541 }, { month: "202510", views: 2031 }, { month: "202511", views: 1784 }, { month: "202512", views: 1843 }, { month: "202601", views: 1786 }, { month: "202602", views: 1654 }, { month: "202603", views: 1541 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4262,6 +4356,7 @@ export const plants: Plant[] = [
     floweringSeason: "summer-fall",
     habitat: "cultivated", leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: 6, dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "inferior", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "かんな", totalViews: 3660, window: "202504-202603", months: [{ month: "202504", views: 281 }, { month: "202505", views: 275 }, { month: "202506", views: 221 }, { month: "202507", views: 237 }, { month: "202508", views: 230 }, { month: "202509", views: 263 }, { month: "202510", views: 224 }, { month: "202511", views: 328 }, { month: "202512", views: 346 }, { month: "202601", views: 232 }, { month: "202602", views: 282 }, { month: "202603", views: 741 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4296,6 +4391,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "coastal", leafType: "simple", dissection: "entire", flowerSymmetry: "actinomorphic", stamenCount: "1-2" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツルナ", totalViews: 7303, window: "202504-202603", months: [{ month: "202504", views: 734 }, { month: "202505", views: 1031 }, { month: "202506", views: 966 }, { month: "202507", views: 810 }, { month: "202508", views: 813 }, { month: "202509", views: 558 }, { month: "202510", views: 423 }, { month: "202511", views: 436 }, { month: "202512", views: 342 }, { month: "202601", views: 372 }, { month: "202602", views: 384 }, { month: "202603", views: 434 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4329,6 +4425,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Small tree", "Warm-temperate"],
     traits: {  habit: "tree", deciduous: "evergreen", margin: "serrate", shape: "round", leafArr: "alt", leafType: "simple", venation: "pinnate", petalCount: "many", petalFusion: "fused", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アワブキ", totalViews: 1428, window: "202504-202603", months: [{ month: "202504", views: 97 }, { month: "202505", views: 187 }, { month: "202506", views: 202 }, { month: "202507", views: 155 }, { month: "202508", views: 138 }, { month: "202509", views: 105 }, { month: "202510", views: 117 }, { month: "202511", views: 113 }, { month: "202512", views: 73 }, { month: "202601", views: 78 }, { month: "202602", views: 85 }, { month: "202603", views: 78 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4364,6 +4461,7 @@ export const plants: Plant[] = [
     floweringSeason: "summer",
     habitat: "aquatic", petalCount: 6, dissection: "entire", ovaryPosition: "superior", plantSex: "hermaphrodite", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミズアオイ", totalViews: 7583, window: "202504-202603", months: [{ month: "202504", views: 507 }, { month: "202505", views: 598 }, { month: "202506", views: 716 }, { month: "202507", views: 687 }, { month: "202508", views: 1387 }, { month: "202509", views: 1138 }, { month: "202510", views: 639 }, { month: "202511", views: 390 }, { month: "202512", views: 365 }, { month: "202601", views: 371 }, { month: "202602", views: 393 }, { month: "202603", views: 392 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4431,6 +4529,7 @@ export const plants: Plant[] = [
     traits: { habit: "vine",
     habitat: "forest",},
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カニクサ", totalViews: 4410, window: "202504-202603", months: [{ month: "202504", views: 204 }, { month: "202505", views: 486 }, { month: "202506", views: 453 }, { month: "202507", views: 454 }, { month: "202508", views: 606 }, { month: "202509", views: 468 }, { month: "202510", views: 463 }, { month: "202511", views: 368 }, { month: "202512", views: 270 }, { month: "202601", views: 233 }, { month: "202602", views: 180 }, { month: "202603", views: 225 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4465,6 +4564,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen", margin: "serrate", shape: "needle",
     habitat: "roadside", leafArr: "alt", leafType: "simple", venation: "pinnate", aromatic: "aromatic", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマモモ", totalViews: 53842, window: "202504-202603", months: [{ month: "202504", views: 3171 }, { month: "202505", views: 6323 }, { month: "202506", views: 16126 }, { month: "202507", views: 7464 }, { month: "202508", views: 3578 }, { month: "202509", views: 2701 }, { month: "202510", views: 2725 }, { month: "202511", views: 2594 }, { month: "202512", views: 2217 }, { month: "202601", views: 2494 }, { month: "202602", views: 2013 }, { month: "202603", views: 2436 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4533,6 +4633,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "opp", margin: "serrate", shape: "round",
     habitat: "forest", leafType: "simple", venation: "pinnate", petalCount: 5, petalFusion: "fused", stipules: "absent", dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハエドクソウ", totalViews: 2542, window: "202504-202603", months: [{ month: "202504", views: 132 }, { month: "202505", views: 198 }, { month: "202506", views: 381 }, { month: "202507", views: 542 }, { month: "202508", views: 338 }, { month: "202509", views: 267 }, { month: "202510", views: 185 }, { month: "202511", views: 144 }, { month: "202512", views: 91 }, { month: "202601", views: 89 }, { month: "202602", views: 88 }, { month: "202603", views: 87 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4567,6 +4668,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen", leafArr: "opp", shape: "round",
     habitat: "cultivated", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: "many", petalFusion: "free", dissection: "entire", ovaryPosition: "superior", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アセロラ", totalViews: 23190, window: "202504-202603", months: [{ month: "202504", views: 2092 }, { month: "202505", views: 2881 }, { month: "202506", views: 2397 }, { month: "202507", views: 2611 }, { month: "202508", views: 2206 }, { month: "202509", views: 1644 }, { month: "202510", views: 1761 }, { month: "202511", views: 1436 }, { month: "202512", views: 1387 }, { month: "202601", views: 1483 }, { month: "202602", views: 1638 }, { month: "202603", views: 1654 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4601,6 +4703,7 @@ export const plants: Plant[] = [
     traits: {  habit: "shrub", deciduous: "deciduous", leafArr: "opp", shape: "round",
     floweringSeason: "winter", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: "many", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", venationNet: "reticulate", glandDotted: "present" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ロウバイ", totalViews: 59443, window: "202504-202603", months: [{ month: "202504", views: 2699 }, { month: "202505", views: 2138 }, { month: "202506", views: 1602 }, { month: "202507", views: 1027 }, { month: "202508", views: 1083 }, { month: "202509", views: 1197 }, { month: "202510", views: 1358 }, { month: "202511", views: 1530 }, { month: "202512", views: 3556 }, { month: "202601", views: 22861 }, { month: "202602", views: 15024 }, { month: "202603", views: 5368 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4635,6 +4738,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "opp", dissection: "dissected", shape: "needle",
     habitat: "cultivated", leafType: "simple", venation: "pinnate", petalCount: "many", petalFusion: "fused", stipules: "absent", flowerSymmetry: "zygomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゴマ", totalViews: 46284, window: "202504-202603", months: [{ month: "202504", views: 4005 }, { month: "202505", views: 4619 }, { month: "202506", views: 3858 }, { month: "202507", views: 3717 }, { month: "202508", views: 4129 }, { month: "202509", views: 3949 }, { month: "202510", views: 3861 }, { month: "202511", views: 3907 }, { month: "202512", views: 3111 }, { month: "202601", views: 3478 }, { month: "202602", views: 3718 }, { month: "202603", views: 3932 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4668,6 +4772,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Small tree", "Hemiparasitic", "Aromatic/Perfumery", "Buddhist culture"],
     traits: {  habit: "tree", deciduous: "evergreen", leafArr: "opp", shape: "round", leafType: "simple", venation: "pinnate", petalCount: 3, stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ビャクダン", totalViews: 48412, window: "202504-202603", months: [{ month: "202504", views: 4616 }, { month: "202505", views: 5083 }, { month: "202506", views: 4476 }, { month: "202507", views: 3965 }, { month: "202508", views: 4111 }, { month: "202509", views: 4218 }, { month: "202510", views: 5001 }, { month: "202511", views: 4073 }, { month: "202512", views: 3364 }, { month: "202601", views: 3242 }, { month: "202602", views: 2922 }, { month: "202603", views: 3341 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4702,6 +4807,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "wetland", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", petalCount: 6, dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", aromatic: "aromatic" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ショウブ", totalViews: 37505, window: "202504-202603", months: [{ month: "202504", views: 4528 }, { month: "202505", views: 11668 }, { month: "202506", views: 5308 }, { month: "202507", views: 1995 }, { month: "202508", views: 1874 }, { month: "202509", views: 1795 }, { month: "202510", views: 1728 }, { month: "202511", views: 1610 }, { month: "202512", views: 1702 }, { month: "202601", views: 1708 }, { month: "202602", views: 1487 }, { month: "202603", views: 2102 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4736,6 +4842,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", shape: "round",
     habitat: "cultivated", leafArr: "alt", leafType: "simple", venation: "pinnate", petalCount: 6, dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "inferior", plantSex: "hermaphrodite" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゴクラクチョウカ属", totalViews: 15704, window: "202504-202603", months: [{ month: "202504", views: 1669 }, { month: "202505", views: 1774 }, { month: "202506", views: 1531 }, { month: "202507", views: 1602 }, { month: "202508", views: 1121 }, { month: "202509", views: 1088 }, { month: "202510", views: 1412 }, { month: "202511", views: 1252 }, { month: "202512", views: 1153 }, { month: "202601", views: 1041 }, { month: "202602", views: 925 }, { month: "202603", views: 1136 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4770,6 +4877,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", shape: "round",
     habitat: "aquatic", leafArr: "alt", leafType: "simple", venation: "parallel", petalCount: 3, flowerSymmetry: "zygomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", latex: "present", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミズスギナ", totalViews: 448, window: "202504-202603", months: [{ month: "202504", views: 47 }, { month: "202505", views: 52 }, { month: "202506", views: 35 }, { month: "202507", views: 45 }, { month: "202508", views: 43 }, { month: "202509", views: 57 }, { month: "202510", views: 42 }, { month: "202511", views: 36 }, { month: "202512", views: 24 }, { month: "202601", views: 23 }, { month: "202602", views: 18 }, { month: "202603", views: 26 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4803,6 +4911,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Deciduous", "Shrub", "Poisonous", "Streamside"],
     traits: {  habit: "shrub", deciduous: "deciduous", leafArr: "opp", leafType: "simple", petalCount: "many", stipules: "present", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ドクウツギ", totalViews: 36436, window: "202504-202603", months: [{ month: "202504", views: 18890 }, { month: "202505", views: 3957 }, { month: "202506", views: 1943 }, { month: "202507", views: 2279 }, { month: "202508", views: 1334 }, { month: "202509", views: 1209 }, { month: "202510", views: 1094 }, { month: "202511", views: 1015 }, { month: "202512", views: 1072 }, { month: "202601", views: 1469 }, { month: "202602", views: 1016 }, { month: "202603", views: 1158 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4938,6 +5047,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "forest", petalCount: 4, flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤッコソウ科", totalViews: 3701, window: "202504-202603", months: [{ month: "202504", views: 330 }, { month: "202505", views: 302 }, { month: "202506", views: 645 }, { month: "202507", views: 206 }, { month: "202508", views: 227 }, { month: "202509", views: 209 }, { month: "202510", views: 317 }, { month: "202511", views: 491 }, { month: "202512", views: 387 }, { month: "202601", views: 243 }, { month: "202602", views: 169 }, { month: "202603", views: 175 }] },
     review: { status: "ai_generated" },
   },
   
@@ -4972,6 +5082,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "cultivated", leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: 6, dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "inferior", plantSex: "hermaphrodite" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オウムバナ科", totalViews: 2141, window: "202504-202603", months: [{ month: "202504", views: 169 }, { month: "202505", views: 194 }, { month: "202506", views: 234 }, { month: "202507", views: 247 }, { month: "202508", views: 279 }, { month: "202509", views: 166 }, { month: "202510", views: 158 }, { month: "202511", views: 195 }, { month: "202512", views: 150 }, { month: "202601", views: 107 }, { month: "202602", views: 116 }, { month: "202603", views: 126 }] },
     review: { status: "ai_generated" },
   },
   
@@ -5074,6 +5185,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", shape: "cordate",
     habitat: "cultivated", leafArr: "alt", leafType: "simple", venation: "palmate", ovaryPosition: "inferior", stamenCount: "1-2" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "グンネラ", totalViews: 926, window: "202504-202603", months: [{ month: "202504", views: 65 }, { month: "202505", views: 98 }, { month: "202506", views: 108 }, { month: "202507", views: 119 }, { month: "202508", views: 85 }, { month: "202509", views: 68 }, { month: "202510", views: 63 }, { month: "202511", views: 84 }, { month: "202512", views: 67 }, { month: "202601", views: 66 }, { month: "202602", views: 51 }, { month: "202603", views: 52 }] },
     review: { status: "ai_generated" },
   },
   
@@ -5108,6 +5220,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen", leafArr: "whor", shape: "linear",
     habitat: "mountain", leafType: "simple", venation: "parallel", margin: "entire", petalFusion: "none", stipules: "absent", ovaryPosition: "superior", plantSex: "monoecious" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コウヤマキ", totalViews: 34890, window: "202504-202603", months: [{ month: "202504", views: 4250 }, { month: "202505", views: 4154 }, { month: "202506", views: 2612 }, { month: "202507", views: 2518 }, { month: "202508", views: 2992 }, { month: "202509", views: 3981 }, { month: "202510", views: 3095 }, { month: "202511", views: 2635 }, { month: "202512", views: 2586 }, { month: "202601", views: 2237 }, { month: "202602", views: 1769 }, { month: "202603", views: 2061 }] },
     review: { status: "ai_generated" },
   },
   
@@ -5244,6 +5357,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "alt", shape: "linear",
     habitat: "wetland", leafType: "simple", venation: "parallel", petalCount: 6, dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホロムイソウ", totalViews: 696, window: "202504-202603", months: [{ month: "202504", views: 45 }, { month: "202505", views: 59 }, { month: "202506", views: 76 }, { month: "202507", views: 88 }, { month: "202508", views: 90 }, { month: "202509", views: 48 }, { month: "202510", views: 48 }, { month: "202511", views: 44 }, { month: "202512", views: 49 }, { month: "202601", views: 59 }, { month: "202602", views: 40 }, { month: "202603", views: 50 }] },
     review: { status: "ai_generated" },
   },
   
@@ -5278,6 +5392,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "deciduous", leafType: "compound", shape: "linear",
     habitat: "cultivated", leafArr: "alt", petalCount: "many", petalFusion: "fused", ovaryPosition: "superior", plantSex: "hermaphrodite", compoundType: "bipinnate", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ワサビノキ", totalViews: 46450, window: "202504-202603", months: [{ month: "202504", views: 4111 }, { month: "202505", views: 4041 }, { month: "202506", views: 3381 }, { month: "202507", views: 3196 }, { month: "202508", views: 3224 }, { month: "202509", views: 4373 }, { month: "202510", views: 3471 }, { month: "202511", views: 2884 }, { month: "202512", views: 2706 }, { month: "202601", views: 5355 }, { month: "202602", views: 3651 }, { month: "202603", views: 6057 }] },
     review: { status: "ai_generated" },
   },
   
@@ -5312,6 +5427,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "deciduous", margin: "serrate", shape: "round",
     habitat: "cultivated", leafArr: "alt", leafType: "simple", venation: "pinnate", petalFusion: "free", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "dioecious", latex: "present", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トチュウ", totalViews: 11691, window: "202504-202603", months: [{ month: "202504", views: 917 }, { month: "202505", views: 1057 }, { month: "202506", views: 933 }, { month: "202507", views: 782 }, { month: "202508", views: 819 }, { month: "202509", views: 1078 }, { month: "202510", views: 1122 }, { month: "202511", views: 1222 }, { month: "202512", views: 938 }, { month: "202601", views: 915 }, { month: "202602", views: 1054 }, { month: "202603", views: 854 }] },
     review: { status: "ai_generated" },
   },
 
@@ -5349,6 +5465,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カヤツリグサ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カヤツリグサ", totalViews: 10320, window: "202504-202603", months: [{ month: "202504", views: 597 }, { month: "202505", views: 822 }, { month: "202506", views: 889 }, { month: "202507", views: 1408 }, { month: "202508", views: 1740 }, { month: "202509", views: 1501 }, { month: "202510", views: 877 }, { month: "202511", views: 558 }, { month: "202512", views: 402 }, { month: "202601", views: 347 }, { month: "202602", views: 410 }, { month: "202603", views: 769 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5387,6 +5504,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/トレニア" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツルウリクサ属", totalViews: 5334, window: "202504-202603", months: [{ month: "202504", views: 336 }, { month: "202505", views: 509 }, { month: "202506", views: 562 }, { month: "202507", views: 622 }, { month: "202508", views: 835 }, { month: "202509", views: 985 }, { month: "202510", views: 648 }, { month: "202511", views: 281 }, { month: "202512", views: 131 }, { month: "202601", views: 148 }, { month: "202602", views: 111 }, { month: "202603", views: 166 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5423,6 +5541,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ワラビ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ワラビ", totalViews: 46381, window: "202504-202603", months: [{ month: "202504", views: 8975 }, { month: "202505", views: 8432 }, { month: "202506", views: 4777 }, { month: "202507", views: 3247 }, { month: "202508", views: 3466 }, { month: "202509", views: 2777 }, { month: "202510", views: 2389 }, { month: "202511", views: 2398 }, { month: "202512", views: 2046 }, { month: "202601", views: 2090 }, { month: "202602", views: 2140 }, { month: "202603", views: 3644 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5459,6 +5578,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/イヌワラビ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イヌワラビ", totalViews: 7191, window: "202504-202603", months: [{ month: "202504", views: 793 }, { month: "202505", views: 2164 }, { month: "202506", views: 1278 }, { month: "202507", views: 649 }, { month: "202508", views: 633 }, { month: "202509", views: 309 }, { month: "202510", views: 295 }, { month: "202511", views: 248 }, { month: "202512", views: 230 }, { month: "202601", views: 247 }, { month: "202602", views: 154 }, { month: "202603", views: 191 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5533,6 +5653,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/リンドウ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "リンドウ", totalViews: 55665, window: "202504-202603", months: [{ month: "202504", views: 4306 }, { month: "202505", views: 4532 }, { month: "202506", views: 3967 }, { month: "202507", views: 4325 }, { month: "202508", views: 6032 }, { month: "202509", views: 7284 }, { month: "202510", views: 7369 }, { month: "202511", views: 5424 }, { month: "202512", views: 3318 }, { month: "202601", views: 3195 }, { month: "202602", views: 2788 }, { month: "202603", views: 3125 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5606,6 +5727,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヤツデ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤツデ", totalViews: 28587, window: "202504-202603", months: [{ month: "202504", views: 2357 }, { month: "202505", views: 3200 }, { month: "202506", views: 1991 }, { month: "202507", views: 1570 }, { month: "202508", views: 1804 }, { month: "202509", views: 1586 }, { month: "202510", views: 1675 }, { month: "202511", views: 2697 }, { month: "202512", views: 3279 }, { month: "202601", views: 2660 }, { month: "202602", views: 1597 }, { month: "202603", views: 4171 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5677,6 +5799,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ニシキギ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニシキギ", totalViews: 14881, window: "202504-202603", months: [{ month: "202504", views: 1380 }, { month: "202505", views: 1946 }, { month: "202506", views: 903 }, { month: "202507", views: 713 }, { month: "202508", views: 864 }, { month: "202509", views: 966 }, { month: "202510", views: 1485 }, { month: "202511", views: 2547 }, { month: "202512", views: 1385 }, { month: "202601", views: 910 }, { month: "202602", views: 814 }, { month: "202603", views: 968 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5712,6 +5835,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ホウキギ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホウキギ", totalViews: 32692, window: "202504-202603", months: [{ month: "202504", views: 1720 }, { month: "202505", views: 2514 }, { month: "202506", views: 2014 }, { month: "202507", views: 2153 }, { month: "202508", views: 3294 }, { month: "202509", views: 3877 }, { month: "202510", views: 8194 }, { month: "202511", views: 3723 }, { month: "202512", views: 2047 }, { month: "202601", views: 1050 }, { month: "202602", views: 1018 }, { month: "202603", views: 1088 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5747,6 +5871,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ホウライシダ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホウライシダ", totalViews: 3365, window: "202504-202603", months: [{ month: "202504", views: 387 }, { month: "202505", views: 647 }, { month: "202506", views: 364 }, { month: "202507", views: 229 }, { month: "202508", views: 255 }, { month: "202509", views: 175 }, { month: "202510", views: 294 }, { month: "202511", views: 233 }, { month: "202512", views: 212 }, { month: "202601", views: 214 }, { month: "202602", views: 157 }, { month: "202603", views: 198 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5783,6 +5908,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/サルトリイバラ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サルトリイバラ", totalViews: 21901, window: "202504-202603", months: [{ month: "202504", views: 2338 }, { month: "202505", views: 4120 }, { month: "202506", views: 2523 }, { month: "202507", views: 1422 }, { month: "202508", views: 1524 }, { month: "202509", views: 1641 }, { month: "202510", views: 1504 }, { month: "202511", views: 1791 }, { month: "202512", views: 1561 }, { month: "202601", views: 1246 }, { month: "202602", views: 985 }, { month: "202603", views: 1246 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5819,6 +5945,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ジンチョウゲ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ジンチョウゲ", totalViews: 78450, window: "202504-202603", months: [{ month: "202504", views: 7953 }, { month: "202505", views: 5116 }, { month: "202506", views: 3680 }, { month: "202507", views: 3516 }, { month: "202508", views: 3317 }, { month: "202509", views: 4080 }, { month: "202510", views: 5980 }, { month: "202511", views: 4165 }, { month: "202512", views: 3298 }, { month: "202601", views: 5547 }, { month: "202602", views: 11429 }, { month: "202603", views: 20369 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5855,6 +5982,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヒルムシロ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒルムシロ", totalViews: 2208, window: "202504-202603", months: [{ month: "202504", views: 140 }, { month: "202505", views: 234 }, { month: "202506", views: 334 }, { month: "202507", views: 218 }, { month: "202508", views: 226 }, { month: "202509", views: 220 }, { month: "202510", views: 195 }, { month: "202511", views: 144 }, { month: "202512", views: 144 }, { month: "202601", views: 103 }, { month: "202602", views: 122 }, { month: "202603", views: 128 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5893,6 +6021,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ミソハギ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミソハギ", totalViews: 11145, window: "202504-202603", months: [{ month: "202504", views: 529 }, { month: "202505", views: 729 }, { month: "202506", views: 834 }, { month: "202507", views: 1760 }, { month: "202508", views: 3308 }, { month: "202509", views: 1307 }, { month: "202510", views: 729 }, { month: "202511", views: 427 }, { month: "202512", views: 470 }, { month: "202601", views: 373 }, { month: "202602", views: 278 }, { month: "202603", views: 401 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5929,6 +6058,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/イチイ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イチイ", totalViews: 58110, window: "202504-202603", months: [{ month: "202504", views: 4518 }, { month: "202505", views: 5500 }, { month: "202506", views: 4495 }, { month: "202507", views: 4189 }, { month: "202508", views: 4815 }, { month: "202509", views: 5008 }, { month: "202510", views: 6985 }, { month: "202511", views: 5211 }, { month: "202512", views: 4549 }, { month: "202601", views: 4426 }, { month: "202602", views: 4127 }, { month: "202603", views: 4287 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -5965,6 +6095,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ウチワサボテン" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウチワサボテン亜科", totalViews: 6079, window: "202504-202603", months: [{ month: "202504", views: 461 }, { month: "202505", views: 586 }, { month: "202506", views: 678 }, { month: "202507", views: 470 }, { month: "202508", views: 535 }, { month: "202509", views: 485 }, { month: "202510", views: 394 }, { month: "202511", views: 440 }, { month: "202512", views: 660 }, { month: "202601", views: 475 }, { month: "202602", views: 400 }, { month: "202603", views: 495 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6000,6 +6131,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/イワヒバ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イワヒバ", totalViews: 8727, window: "202504-202603", months: [{ month: "202504", views: 827 }, { month: "202505", views: 983 }, { month: "202506", views: 822 }, { month: "202507", views: 700 }, { month: "202508", views: 830 }, { month: "202509", views: 871 }, { month: "202510", views: 835 }, { month: "202511", views: 677 }, { month: "202512", views: 612 }, { month: "202601", views: 477 }, { month: "202602", views: 438 }, { month: "202603", views: 655 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6036,6 +6168,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/バショウ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "バショウ", totalViews: 27717, window: "202504-202603", months: [{ month: "202504", views: 2118 }, { month: "202505", views: 2358 }, { month: "202506", views: 2136 }, { month: "202507", views: 2376 }, { month: "202508", views: 2662 }, { month: "202509", views: 3522 }, { month: "202510", views: 2450 }, { month: "202511", views: 2094 }, { month: "202512", views: 1501 }, { month: "202601", views: 1604 }, { month: "202602", views: 3190 }, { month: "202603", views: 1706 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6071,6 +6204,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヘゴ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヘゴ", totalViews: 7102, window: "202504-202603", months: [{ month: "202504", views: 568 }, { month: "202505", views: 1057 }, { month: "202506", views: 618 }, { month: "202507", views: 549 }, { month: "202508", views: 641 }, { month: "202509", views: 467 }, { month: "202510", views: 396 }, { month: "202511", views: 714 }, { month: "202512", views: 525 }, { month: "202601", views: 624 }, { month: "202602", views: 506 }, { month: "202603", views: 437 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6108,6 +6242,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/オシロイバナ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オシロイバナ", totalViews: 36408, window: "202504-202603", months: [{ month: "202504", views: 2260 }, { month: "202505", views: 2684 }, { month: "202506", views: 2983 }, { month: "202507", views: 4589 }, { month: "202508", views: 5106 }, { month: "202509", views: 5271 }, { month: "202510", views: 5256 }, { month: "202511", views: 2833 }, { month: "202512", views: 1417 }, { month: "202601", views: 1085 }, { month: "202602", views: 992 }, { month: "202603", views: 1932 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6145,6 +6280,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ナンバンギセル" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナンバンギセル", totalViews: 7135, window: "202504-202603", months: [{ month: "202504", views: 383 }, { month: "202505", views: 518 }, { month: "202506", views: 409 }, { month: "202507", views: 381 }, { month: "202508", views: 814 }, { month: "202509", views: 1735 }, { month: "202510", views: 1166 }, { month: "202511", views: 509 }, { month: "202512", views: 347 }, { month: "202601", views: 279 }, { month: "202602", views: 270 }, { month: "202603", views: 324 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6183,6 +6319,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/エゴノキ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "エゴノキ", totalViews: 38609, window: "202504-202603", months: [{ month: "202504", views: 2912 }, { month: "202505", views: 15762 }, { month: "202506", views: 4629 }, { month: "202507", views: 2374 }, { month: "202508", views: 2167 }, { month: "202509", views: 2039 }, { month: "202510", views: 1915 }, { month: "202511", views: 1557 }, { month: "202512", views: 1269 }, { month: "202601", views: 1239 }, { month: "202602", views: 1245 }, { month: "202603", views: 1501 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6218,6 +6355,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ユズリハ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ユズリハ", totalViews: 48718, window: "202504-202603", months: [{ month: "202504", views: 4347 }, { month: "202505", views: 5127 }, { month: "202506", views: 4684 }, { month: "202507", views: 2854 }, { month: "202508", views: 3345 }, { month: "202509", views: 2859 }, { month: "202510", views: 3377 }, { month: "202511", views: 4059 }, { month: "202512", views: 6093 }, { month: "202601", views: 4200 }, { month: "202602", views: 4834 }, { month: "202603", views: 2939 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6254,6 +6392,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/オニグルミ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オニグルミ", totalViews: 20699, window: "202504-202603", months: [{ month: "202504", views: 1475 }, { month: "202505", views: 1970 }, { month: "202506", views: 1792 }, { month: "202507", views: 1602 }, { month: "202508", views: 1629 }, { month: "202509", views: 2127 }, { month: "202510", views: 2337 }, { month: "202511", views: 2282 }, { month: "202512", views: 1640 }, { month: "202601", views: 1507 }, { month: "202602", views: 1156 }, { month: "202603", views: 1182 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6291,6 +6430,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/フジウツギ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フジウツギ属", totalViews: 5027, window: "202504-202603", months: [{ month: "202504", views: 328 }, { month: "202505", views: 418 }, { month: "202506", views: 731 }, { month: "202507", views: 717 }, { month: "202508", views: 642 }, { month: "202509", views: 538 }, { month: "202510", views: 471 }, { month: "202511", views: 314 }, { month: "202512", views: 191 }, { month: "202601", views: 215 }, { month: "202602", views: 209 }, { month: "202603", views: 253 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6329,6 +6469,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/キブシ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キブシ", totalViews: 11141, window: "202504-202603", months: [{ month: "202504", views: 2840 }, { month: "202505", views: 823 }, { month: "202506", views: 453 }, { month: "202507", views: 366 }, { month: "202508", views: 429 }, { month: "202509", views: 480 }, { month: "202510", views: 457 }, { month: "202511", views: 400 }, { month: "202512", views: 367 }, { month: "202601", views: 413 }, { month: "202602", views: 556 }, { month: "202603", views: 3557 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6365,6 +6506,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/イヌガヤ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イヌガヤ", totalViews: 3911, window: "202504-202603", months: [{ month: "202504", views: 404 }, { month: "202505", views: 492 }, { month: "202506", views: 334 }, { month: "202507", views: 203 }, { month: "202508", views: 283 }, { month: "202509", views: 317 }, { month: "202510", views: 435 }, { month: "202511", views: 333 }, { month: "202512", views: 303 }, { month: "202601", views: 261 }, { month: "202602", views: 231 }, { month: "202603", views: 315 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6400,6 +6542,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/タマシダ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タマシダ", totalViews: 3745, window: "202504-202603", months: [{ month: "202504", views: 312 }, { month: "202505", views: 525 }, { month: "202506", views: 336 }, { month: "202507", views: 309 }, { month: "202508", views: 424 }, { month: "202509", views: 237 }, { month: "202510", views: 293 }, { month: "202511", views: 274 }, { month: "202512", views: 266 }, { month: "202601", views: 233 }, { month: "202602", views: 259 }, { month: "202603", views: 277 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6436,6 +6579,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/メヒルギ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "メヒルギ", totalViews: 3677, window: "202504-202603", months: [{ month: "202504", views: 276 }, { month: "202505", views: 319 }, { month: "202506", views: 284 }, { month: "202507", views: 322 }, { month: "202508", views: 419 }, { month: "202509", views: 284 }, { month: "202510", views: 285 }, { month: "202511", views: 287 }, { month: "202512", views: 288 }, { month: "202601", views: 338 }, { month: "202602", views: 294 }, { month: "202603", views: 281 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6507,6 +6651,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ニガキ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニガキ", totalViews: 3471, window: "202504-202603", months: [{ month: "202504", views: 260 }, { month: "202505", views: 414 }, { month: "202506", views: 359 }, { month: "202507", views: 317 }, { month: "202508", views: 264 }, { month: "202509", views: 264 }, { month: "202510", views: 249 }, { month: "202511", views: 312 }, { month: "202512", views: 257 }, { month: "202601", views: 277 }, { month: "202602", views: 248 }, { month: "202603", views: 250 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6543,6 +6688,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ミズハコベ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミゾハコベ", totalViews: 433, window: "202504-202603", months: [{ month: "202504", views: 57 }, { month: "202505", views: 48 }, { month: "202506", views: 55 }, { month: "202507", views: 37 }, { month: "202508", views: 41 }, { month: "202509", views: 29 }, { month: "202510", views: 33 }, { month: "202511", views: 18 }, { month: "202512", views: 21 }, { month: "202601", views: 25 }, { month: "202602", views: 23 }, { month: "202603", views: 46 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6579,6 +6725,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/クサトベラ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クサトベラ", totalViews: 2373, window: "202504-202603", months: [{ month: "202504", views: 111 }, { month: "202505", views: 140 }, { month: "202506", views: 116 }, { month: "202507", views: 112 }, { month: "202508", views: 114 }, { month: "202509", views: 234 }, { month: "202510", views: 318 }, { month: "202511", views: 430 }, { month: "202512", views: 245 }, { month: "202601", views: 198 }, { month: "202602", views: 179 }, { month: "202603", views: 176 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6650,6 +6797,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/コスタス" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コスタス", totalViews: 120, window: "202504-202603", months: [{ month: "202504", views: 13 }, { month: "202505", views: 8 }, { month: "202506", views: 7 }, { month: "202507", views: 11 }, { month: "202508", views: 11 }, { month: "202509", views: 8 }, { month: "202510", views: 8 }, { month: "202511", views: 12 }, { month: "202512", views: 11 }, { month: "202601", views: 7 }, { month: "202602", views: 11 }, { month: "202603", views: 13 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6685,6 +6833,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ギョリュウ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ギョリュウ", totalViews: 7399, window: "202504-202603", months: [{ month: "202504", views: 606 }, { month: "202505", views: 942 }, { month: "202506", views: 670 }, { month: "202507", views: 536 }, { month: "202508", views: 663 }, { month: "202509", views: 544 }, { month: "202510", views: 632 }, { month: "202511", views: 656 }, { month: "202512", views: 507 }, { month: "202601", views: 598 }, { month: "202602", views: 445 }, { month: "202603", views: 600 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6720,6 +6869,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ニクズク" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニクズク", totalViews: 7354, window: "202504-202603", months: [{ month: "202504", views: 523 }, { month: "202505", views: 660 }, { month: "202506", views: 567 }, { month: "202507", views: 580 }, { month: "202508", views: 561 }, { month: "202509", views: 607 }, { month: "202510", views: 978 }, { month: "202511", views: 643 }, { month: "202512", views: 493 }, { month: "202601", views: 562 }, { month: "202602", views: 681 }, { month: "202603", views: 499 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6756,6 +6906,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/モモタマナ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サガリバナ", totalViews: 9728, window: "202504-202603", months: [{ month: "202504", views: 440 }, { month: "202505", views: 600 }, { month: "202506", views: 1522 }, { month: "202507", views: 1738 }, { month: "202508", views: 1298 }, { month: "202509", views: 952 }, { month: "202510", views: 727 }, { month: "202511", views: 571 }, { month: "202512", views: 496 }, { month: "202601", views: 620 }, { month: "202602", views: 355 }, { month: "202603", views: 409 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6828,6 +6979,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ジュンサイ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ジュンサイ", totalViews: 27158, window: "202504-202603", months: [{ month: "202504", views: 2114 }, { month: "202505", views: 3154 }, { month: "202506", views: 4729 }, { month: "202507", views: 3584 }, { month: "202508", views: 2932 }, { month: "202509", views: 2835 }, { month: "202510", views: 1671 }, { month: "202511", views: 1324 }, { month: "202512", views: 1190 }, { month: "202601", views: 1105 }, { month: "202602", views: 1178 }, { month: "202603", views: 1342 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6864,6 +7016,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/デンジソウ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "デンジソウ", totalViews: 4517, window: "202504-202603", months: [{ month: "202504", views: 387 }, { month: "202505", views: 567 }, { month: "202506", views: 436 }, { month: "202507", views: 345 }, { month: "202508", views: 447 }, { month: "202509", views: 601 }, { month: "202510", views: 386 }, { month: "202511", views: 314 }, { month: "202512", views: 278 }, { month: "202601", views: 262 }, { month: "202602", views: 219 }, { month: "202603", views: 275 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6900,6 +7053,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アロエ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アロエ", totalViews: 32677, window: "202504-202603", months: [{ month: "202504", views: 3045 }, { month: "202505", views: 3632 }, { month: "202506", views: 3424 }, { month: "202507", views: 2719 }, { month: "202508", views: 2913 }, { month: "202509", views: 2592 }, { month: "202510", views: 2598 }, { month: "202511", views: 2422 }, { month: "202512", views: 2598 }, { month: "202601", views: 2431 }, { month: "202602", views: 2181 }, { month: "202603", views: 2122 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6935,6 +7089,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/マツバラン" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マツバラン", totalViews: 6699, window: "202504-202603", months: [{ month: "202504", views: 658 }, { month: "202505", views: 837 }, { month: "202506", views: 607 }, { month: "202507", views: 508 }, { month: "202508", views: 514 }, { month: "202509", views: 549 }, { month: "202510", views: 538 }, { month: "202511", views: 461 }, { month: "202512", views: 576 }, { month: "202601", views: 549 }, { month: "202602", views: 455 }, { month: "202603", views: 447 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -6972,6 +7127,7 @@ export const plants: Plant[] = [
       { type: "wikipedia_ja", label: "Wikipedia 日本語版（マオウ属）", url: "https://ja.wikipedia.org/wiki/マオウ" },
       { type: "wikipedia_en", label: "Wikipedia EN (Ephedra sinica)", url: "https://en.wikipedia.org/wiki/Ephedra_sinica" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シナマオウ", totalViews: 1988, window: "202504-202603", months: [{ month: "202504", views: 200 }, { month: "202505", views: 202 }, { month: "202506", views: 198 }, { month: "202507", views: 137 }, { month: "202508", views: 124 }, { month: "202509", views: 129 }, { month: "202510", views: 136 }, { month: "202511", views: 166 }, { month: "202512", views: 165 }, { month: "202601", views: 204 }, { month: "202602", views: 191 }, { month: "202603", views: 136 }] },
     review: { status: "needs_review", note: "和名をシナマオウに修正。内容は要確認。" },
   },
   {
@@ -7007,6 +7163,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/パパイア" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "パパイア", totalViews: 36044, window: "202504-202603", months: [{ month: "202504", views: 2891 }, { month: "202505", views: 3119 }, { month: "202506", views: 2763 }, { month: "202507", views: 2719 }, { month: "202508", views: 3298 }, { month: "202509", views: 3983 }, { month: "202510", views: 4480 }, { month: "202511", views: 3627 }, { month: "202512", views: 2961 }, { month: "202601", views: 2173 }, { month: "202602", views: 2029 }, { month: "202603", views: 2001 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -7043,6 +7200,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ウラジロ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウラジロ", totalViews: 9179, window: "202504-202603", months: [{ month: "202504", views: 595 }, { month: "202505", views: 618 }, { month: "202506", views: 577 }, { month: "202507", views: 336 }, { month: "202508", views: 453 }, { month: "202509", views: 429 }, { month: "202510", views: 484 }, { month: "202511", views: 647 }, { month: "202512", views: 2641 }, { month: "202601", views: 1573 }, { month: "202602", views: 386 }, { month: "202603", views: 440 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -7115,6 +7273,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ホッスモ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホッスモ", totalViews: 473, window: "202504-202603", months: [{ month: "202504", views: 29 }, { month: "202505", views: 53 }, { month: "202506", views: 17 }, { month: "202507", views: 47 }, { month: "202508", views: 72 }, { month: "202509", views: 52 }, { month: "202510", views: 51 }, { month: "202511", views: 47 }, { month: "202512", views: 43 }, { month: "202601", views: 15 }, { month: "202602", views: 24 }, { month: "202603", views: 23 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -7151,6 +7310,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ツチトリモチ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツチトリモチ", totalViews: 2219, window: "202504-202603", months: [{ month: "202504", views: 128 }, { month: "202505", views: 161 }, { month: "202506", views: 122 }, { month: "202507", views: 97 }, { month: "202508", views: 116 }, { month: "202509", views: 110 }, { month: "202510", views: 185 }, { month: "202511", views: 229 }, { month: "202512", views: 459 }, { month: "202601", views: 385 }, { month: "202602", views: 111 }, { month: "202603", views: 116 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -7186,6 +7346,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_en", label: "Wikipedia（英語版）", url: "https://en.wikipedia.org/wiki/Flagellaria_indica" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トウアズキ", totalViews: 5822, window: "202504-202603", months: [{ month: "202504", views: 563 }, { month: "202505", views: 548 }, { month: "202506", views: 541 }, { month: "202507", views: 686 }, { month: "202508", views: 651 }, { month: "202509", views: 453 }, { month: "202510", views: 578 }, { month: "202511", views: 412 }, { month: "202512", views: 387 }, { month: "202601", views: 338 }, { month: "202602", views: 347 }, { month: "202603", views: 318 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -7223,6 +7384,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ハナシノブ" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミヤマハナシノブ", totalViews: 948, window: "202504-202603", months: [{ month: "202504", views: 90 }, { month: "202505", views: 112 }, { month: "202506", views: 89 }, { month: "202507", views: 118 }, { month: "202508", views: 157 }, { month: "202509", views: 105 }, { month: "202510", views: 66 }, { month: "202511", views: 43 }, { month: "202512", views: 34 }, { month: "202601", views: 32 }, { month: "202602", views: 35 }, { month: "202603", views: 67 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -7258,6 +7420,7 @@ export const plants: Plant[] = [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "内容の正確性は未確認。" },
       { type: "wikipedia_en", label: "Wikipedia（英語版）", url: "https://en.wikipedia.org/wiki/Lindsaeaceae" },
     ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホングウシダ", totalViews: 181, window: "202504-202603", months: [{ month: "202504", views: 10 }, { month: "202505", views: 8 }, { month: "202506", views: 14 }, { month: "202507", views: 15 }, { month: "202508", views: 18 }, { month: "202509", views: 18 }, { month: "202510", views: 13 }, { month: "202511", views: 9 }, { month: "202512", views: 20 }, { month: "202601", views: 23 }, { month: "202602", views: 15 }, { month: "202603", views: 18 }] },
     review: { status: "ai_generated", note: "Claude AIが生成。要確認。" },
   },
   {
@@ -7433,6 +7596,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", dissection: "dissected", shape: "round", habit: "herb", deciduous: "deciduous", petalCount: 3, petalFusion: "free",
     habitat: "forest", margin: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "inferior", plantSex: "hermaphrodite", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "エビネ", totalViews: 15514, window: "202504-202603", months: [{ month: "202504", views: 3398 }, { month: "202505", views: 4411 }, { month: "202506", views: 1074 }, { month: "202507", views: 623 }, { month: "202508", views: 1380 }, { month: "202509", views: 679 }, { month: "202510", views: 662 }, { month: "202511", views: 639 }, { month: "202512", views: 507 }, { month: "202601", views: 612 }, { month: "202602", views: 698 }, { month: "202603", views: 831 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7468,6 +7632,7 @@ export const plants: Plant[] = [
     floweringSeason: "spring",
     habitat: "mountain", stipules: "absent", dissection: "entire", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマツツジ", totalViews: 14525, window: "202504-202603", months: [{ month: "202504", views: 4178 }, { month: "202505", views: 3906 }, { month: "202506", views: 1788 }, { month: "202507", views: 507 }, { month: "202508", views: 435 }, { month: "202509", views: 451 }, { month: "202510", views: 507 }, { month: "202511", views: 479 }, { month: "202512", views: 517 }, { month: "202601", views: 460 }, { month: "202602", views: 484 }, { month: "202603", views: 813 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7501,6 +7666,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "whor", leafType: "simple", venation: "pinnate", margin: "serrate", shape: "ovate", habit: "herb", deciduous: "deciduous", petalFusion: "none",
     habitat: "roadside", petalCount: 3, stipules: "present", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", compoundType: "palmate", stamenCount: "5" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トウダイグサ", totalViews: 10549, window: "202504-202603", months: [{ month: "202504", views: 3159 }, { month: "202505", views: 1295 }, { month: "202506", views: 633 }, { month: "202507", views: 585 }, { month: "202508", views: 675 }, { month: "202509", views: 446 }, { month: "202510", views: 360 }, { month: "202511", views: 461 }, { month: "202512", views: 426 }, { month: "202601", views: 418 }, { month: "202602", views: 450 }, { month: "202603", views: 1641 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7534,6 +7700,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "serrate", shape: "ovate", habit: "herb", deciduous: "deciduous", petalFusion: "none",
     habitat: "forest", petalCount: 3, flowerSymmetry: "actinomorphic", stemSection: "square", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ムカゴイラクサ", totalViews: 1368, window: "202504-202603", months: [{ month: "202504", views: 74 }, { month: "202505", views: 124 }, { month: "202506", views: 109 }, { month: "202507", views: 92 }, { month: "202508", views: 172 }, { month: "202509", views: 236 }, { month: "202510", views: 223 }, { month: "202511", views: 110 }, { month: "202512", views: 59 }, { month: "202601", views: 61 }, { month: "202602", views: 44 }, { month: "202603", views: 64 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7566,6 +7733,7 @@ export const plants: Plant[] = [
     enTags: ["Herb", "Vine/Climber", "Perennial", "Poisonous", "Butterfly host plant"],
     traits: {  habit: "vine", dissection: "dissected", shape: "cordate", leafArr: "alt", leafType: "simple", stipules: "absent", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウマノスズクサ", totalViews: 12255, window: "202504-202603", months: [{ month: "202504", views: 982 }, { month: "202505", views: 1994 }, { month: "202506", views: 1911 }, { month: "202507", views: 1648 }, { month: "202508", views: 1316 }, { month: "202509", views: 977 }, { month: "202510", views: 745 }, { month: "202511", views: 545 }, { month: "202512", views: 659 }, { month: "202601", views: 573 }, { month: "202602", views: 424 }, { month: "202603", views: 481 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7600,6 +7768,7 @@ export const plants: Plant[] = [
     flowerColor: "pink",
     floweringSeason: "spring", stipules: "absent", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サクラソウ", totalViews: 27102, window: "202504-202603", months: [{ month: "202504", views: 5165 }, { month: "202505", views: 3926 }, { month: "202506", views: 1726 }, { month: "202507", views: 1338 }, { month: "202508", views: 1346 }, { month: "202509", views: 1441 }, { month: "202510", views: 1648 }, { month: "202511", views: 1706 }, { month: "202512", views: 1406 }, { month: "202601", views: 2111 }, { month: "202602", views: 2257 }, { month: "202603", views: 3032 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7634,6 +7803,7 @@ export const plants: Plant[] = [
     floweringSeason: "fall",
     habitat: "wetland", aromatic: "aromatic", stamenCount: "1-2", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アカバナ", totalViews: 2605, window: "202504-202603", months: [{ month: "202504", views: 194 }, { month: "202505", views: 443 }, { month: "202506", views: 464 }, { month: "202507", views: 240 }, { month: "202508", views: 314 }, { month: "202509", views: 304 }, { month: "202510", views: 196 }, { month: "202511", views: 125 }, { month: "202512", views: 73 }, { month: "202601", views: 72 }, { month: "202602", views: 78 }, { month: "202603", views: 102 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7668,6 +7838,7 @@ export const plants: Plant[] = [
     flowerColor: "yellow",
     floweringSeason: "summer",},
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オトギリソウ", totalViews: 31638, window: "202504-202603", months: [{ month: "202504", views: 3085 }, { month: "202505", views: 4866 }, { month: "202506", views: 4522 }, { month: "202507", views: 3501 }, { month: "202508", views: 2981 }, { month: "202509", views: 2190 }, { month: "202510", views: 2068 }, { month: "202511", views: 1920 }, { month: "202512", views: 1731 }, { month: "202601", views: 1613 }, { month: "202602", views: 1542 }, { month: "202603", views: 1619 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7701,6 +7872,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "cordate", habit: "herb", deciduous: "deciduous", petalCount: 5, petalFusion: "free",
     habitat: "roadside", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フユアオイ", totalViews: 4860, window: "202504-202603", months: [{ month: "202504", views: 549 }, { month: "202505", views: 714 }, { month: "202506", views: 556 }, { month: "202507", views: 358 }, { month: "202508", views: 361 }, { month: "202509", views: 378 }, { month: "202510", views: 369 }, { month: "202511", views: 370 }, { month: "202512", views: 298 }, { month: "202601", views: 316 }, { month: "202602", views: 289 }, { month: "202603", views: 302 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7733,6 +7905,7 @@ export const plants: Plant[] = [
     enTags: ["Herb", "Vine/Climber", "Perennial", "Night-blooming", "Red fruits"],
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "round", habit: "vine", deciduous: "deciduous", petalCount: 5, petalFusion: "fused", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カラスウリ", totalViews: 35617, window: "202504-202603", months: [{ month: "202504", views: 1122 }, { month: "202505", views: 1642 }, { month: "202506", views: 2205 }, { month: "202507", views: 3804 }, { month: "202508", views: 4264 }, { month: "202509", views: 4353 }, { month: "202510", views: 4844 }, { month: "202511", views: 5105 }, { month: "202512", views: 2845 }, { month: "202601", views: 2391 }, { month: "202602", views: 1744 }, { month: "202603", views: 1298 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7766,6 +7939,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "alt", shape: "linear",
     habitat: "cultivated", leafType: "simple", margin: "entire", petalCount: "many", petalFusion: "fused", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "5" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ノハナショウブ", totalViews: 6799, window: "202504-202603", months: [{ month: "202504", views: 628 }, { month: "202505", views: 1706 }, { month: "202506", views: 1586 }, { month: "202507", views: 635 }, { month: "202508", views: 316 }, { month: "202509", views: 291 }, { month: "202510", views: 280 }, { month: "202511", views: 301 }, { month: "202512", views: 245 }, { month: "202601", views: 221 }, { month: "202602", views: 328 }, { month: "202603", views: 262 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7799,6 +7973,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "alt", shape: "linear",
     habitat: "cultivated", leafType: "simple", margin: "entire", petalCount: "many", petalFusion: "fused", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "5" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アマ", totalViews: 1900, window: "202504-202603", months: [{ month: "202504", views: 159 }, { month: "202505", views: 148 }, { month: "202506", views: 144 }, { month: "202507", views: 142 }, { month: "202508", views: 152 }, { month: "202509", views: 151 }, { month: "202510", views: 146 }, { month: "202511", views: 137 }, { month: "202512", views: 145 }, { month: "202601", views: 199 }, { month: "202602", views: 189 }, { month: "202603", views: 188 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7832,6 +8007,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "deciduous", leafArr: "opp", shape: "round",
     habitat: "cultivated", leafType: "simple", petalFusion: "fused", dissection: "entire", flowerSymmetry: "actinomorphic", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナツメ", totalViews: 82515, window: "202504-202603", months: [{ month: "202504", views: 6359 }, { month: "202505", views: 7560 }, { month: "202506", views: 6766 }, { month: "202507", views: 5721 }, { month: "202508", views: 7515 }, { month: "202509", views: 10993 }, { month: "202510", views: 12004 }, { month: "202511", views: 6781 }, { month: "202512", views: 4871 }, { month: "202601", views: 4639 }, { month: "202602", views: 4458 }, { month: "202603", views: 4848 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7865,6 +8041,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "opp", leafType: "simple", venation: "pinnate", margin: "entire", shape: "round", habit: "tree", deciduous: "evergreen", petalCount: 5, petalFusion: "free",
     habitat: "cultivated", dissection: "entire", flowerSymmetry: "actinomorphic", aromatic: "aromatic", stamenCount: "3-4", glandDotted: "present" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "グアバ", totalViews: 38913, window: "202504-202603", months: [{ month: "202504", views: 2856 }, { month: "202505", views: 3568 }, { month: "202506", views: 3753 }, { month: "202507", views: 3010 }, { month: "202508", views: 4384 }, { month: "202509", views: 3867 }, { month: "202510", views: 3164 }, { month: "202511", views: 2900 }, { month: "202512", views: 2514 }, { month: "202601", views: 2791 }, { month: "202602", views: 2573 }, { month: "202603", views: 3533 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7897,6 +8074,7 @@ export const plants: Plant[] = [
     enTags: ["Herb", "Perennial", "Edible", "Condiment", "Japanese endemic"],
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "linear", habit: "herb", deciduous: "deciduous", petalCount: 6, dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "inferior", plantSex: "hermaphrodite", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミョウガ", totalViews: 90926, window: "202504-202603", months: [{ month: "202504", views: 5325 }, { month: "202505", views: 9154 }, { month: "202506", views: 12327 }, { month: "202507", views: 13093 }, { month: "202508", views: 13595 }, { month: "202509", views: 11993 }, { month: "202510", views: 7907 }, { month: "202511", views: 4303 }, { month: "202512", views: 3180 }, { month: "202601", views: 2985 }, { month: "202602", views: 3330 }, { month: "202603", views: 3734 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -7930,6 +8108,7 @@ export const plants: Plant[] = [
     traits: {  deciduous: "evergreen", leafArr: "opp",
     floweringSeason: "winter", leafType: "simple", margin: "entire", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤドリギ", totalViews: 44602, window: "202504-202603", months: [{ month: "202504", views: 5776 }, { month: "202505", views: 3388 }, { month: "202506", views: 2432 }, { month: "202507", views: 2295 }, { month: "202508", views: 2275 }, { month: "202509", views: 2314 }, { month: "202510", views: 2554 }, { month: "202511", views: 3580 }, { month: "202512", views: 7400 }, { month: "202601", views: 4643 }, { month: "202602", views: 4308 }, { month: "202603", views: 3637 }] },
     review: { status: "needs_review", note: "日本産ヤドリギは Viscum coloratum の可能性あり。要確認。" },
   },
   {
@@ -8029,6 +8208,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", margin: "serrate", shape: "linear",
     habitat: "cultivated", leafArr: "alt", leafType: "simple", venation: "parallel", petalCount: 6, stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "パイナップル", totalViews: 83609, window: "202504-202603", months: [{ month: "202504", views: 6905 }, { month: "202505", views: 9917 }, { month: "202506", views: 10257 }, { month: "202507", views: 7758 }, { month: "202508", views: 9311 }, { month: "202509", views: 6978 }, { month: "202510", views: 5417 }, { month: "202511", views: 6414 }, { month: "202512", views: 4748 }, { month: "202601", views: 5481 }, { month: "202602", views: 4950 }, { month: "202603", views: 5473 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8062,6 +8242,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", shape: "round",
     habitat: "aquatic", leafArr: "alt", leafType: "simple", venation: "palmate", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", latex: "present", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハス", totalViews: 83041, window: "202504-202603", months: [{ month: "202504", views: 6372 }, { month: "202505", views: 5506 }, { month: "202506", views: 9592 }, { month: "202507", views: 12518 }, { month: "202508", views: 10045 }, { month: "202509", views: 7457 }, { month: "202510", views: 6385 }, { month: "202511", views: 5810 }, { month: "202512", views: 5111 }, { month: "202601", views: 5197 }, { month: "202602", views: 4310 }, { month: "202603", views: 4738 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8095,6 +8276,7 @@ export const plants: Plant[] = [
     traits: {  habit: "shrub", deciduous: "deciduous", margin: "serrate", shape: "round",
     habitat: "cultivated", leafArr: "alt", leafType: "simple", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スグリ", totalViews: 8671, window: "202504-202603", months: [{ month: "202504", views: 756 }, { month: "202505", views: 764 }, { month: "202506", views: 909 }, { month: "202507", views: 922 }, { month: "202508", views: 907 }, { month: "202509", views: 729 }, { month: "202510", views: 819 }, { month: "202511", views: 803 }, { month: "202512", views: 639 }, { month: "202601", views: 549 }, { month: "202602", views: 398 }, { month: "202603", views: 476 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8128,6 +8310,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "aquatic", leafArr: "alt", leafType: "simple", petalCount: 6, flowerSymmetry: "actinomorphic", ovaryPosition: "superior", latex: "present", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オモダカ", totalViews: 22231, window: "202504-202603", months: [{ month: "202504", views: 1366 }, { month: "202505", views: 1788 }, { month: "202506", views: 2009 }, { month: "202507", views: 2031 }, { month: "202508", views: 3274 }, { month: "202509", views: 2125 }, { month: "202510", views: 1546 }, { month: "202511", views: 1152 }, { month: "202512", views: 1921 }, { month: "202601", views: 2944 }, { month: "202602", views: 961 }, { month: "202603", views: 1114 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8160,6 +8343,7 @@ export const plants: Plant[] = [
     enTags: ["Fern", "Evergreen", "Epiphyte", "Warm regions"],
     traits: { deciduous: "evergreen", leafType: "simple", shape: "linear" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シシラン", totalViews: 590, window: "202504-202603", months: [{ month: "202504", views: 54 }, { month: "202505", views: 38 }, { month: "202506", views: 39 }, { month: "202507", views: 44 }, { month: "202508", views: 37 }, { month: "202509", views: 39 }, { month: "202510", views: 53 }, { month: "202511", views: 60 }, { month: "202512", views: 57 }, { month: "202601", views: 53 }, { month: "202602", views: 39 }, { month: "202603", views: 77 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8193,6 +8377,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "coastal", leafArr: "alt", leafType: "simple", petalCount: "many", petalFusion: "free", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "5" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハマヒサカキ", totalViews: 4122, window: "202504-202603", months: [{ month: "202504", views: 277 }, { month: "202505", views: 344 }, { month: "202506", views: 248 }, { month: "202507", views: 214 }, { month: "202508", views: 225 }, { month: "202509", views: 282 }, { month: "202510", views: 326 }, { month: "202511", views: 493 }, { month: "202512", views: 695 }, { month: "202601", views: 342 }, { month: "202602", views: 280 }, { month: "202603", views: 396 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8225,6 +8410,7 @@ export const plants: Plant[] = [
     enTags: ["Fern", "Evergreen", "Colony-forming", "Warm regions"],
     traits: { deciduous: "evergreen" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コシダ", totalViews: 2115, window: "202504-202603", months: [{ month: "202504", views: 234 }, { month: "202505", views: 242 }, { month: "202506", views: 170 }, { month: "202507", views: 97 }, { month: "202508", views: 131 }, { month: "202509", views: 142 }, { month: "202510", views: 217 }, { month: "202511", views: 176 }, { month: "202512", views: 296 }, { month: "202601", views: 171 }, { month: "202602", views: 98 }, { month: "202603", views: 141 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8257,6 +8443,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen tall tree", "Aerial roots", "Ogasawara endemic", "Japanese endemic"],
     traits: {  habit: "tree", deciduous: "evergreen", margin: "serrate", shape: "linear", leafArr: "alt", leafType: "simple", venation: "parallel", dissection: "entire", ovaryPosition: "superior", plantSex: "dioecious", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タコノキ", totalViews: 8800, window: "202504-202603", months: [{ month: "202504", views: 786 }, { month: "202505", views: 834 }, { month: "202506", views: 758 }, { month: "202507", views: 822 }, { month: "202508", views: 882 }, { month: "202509", views: 754 }, { month: "202510", views: 739 }, { month: "202511", views: 684 }, { month: "202512", views: 681 }, { month: "202601", views: 563 }, { month: "202602", views: 610 }, { month: "202603", views: 687 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8290,6 +8477,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen", dissection: "dissected", shape: "round",
     habitat: "coastal", leafArr: "alt", leafType: "simple", venation: "pinnate", petalFusion: "fused", stipules: "present", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホルトノキ", totalViews: 12583, window: "202504-202603", months: [{ month: "202504", views: 1277 }, { month: "202505", views: 1395 }, { month: "202506", views: 1212 }, { month: "202507", views: 1250 }, { month: "202508", views: 889 }, { month: "202509", views: 903 }, { month: "202510", views: 1037 }, { month: "202511", views: 1069 }, { month: "202512", views: 1033 }, { month: "202601", views: 832 }, { month: "202602", views: 863 }, { month: "202603", views: 823 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8323,6 +8511,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", shape: "round",
     habitat: "wetland", petalCount: "many", petalFusion: "free", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "モウセンゴケ", totalViews: 18361, window: "202504-202603", months: [{ month: "202504", views: 1272 }, { month: "202505", views: 2141 }, { month: "202506", views: 2762 }, { month: "202507", views: 2482 }, { month: "202508", views: 1938 }, { month: "202509", views: 1442 }, { month: "202510", views: 1102 }, { month: "202511", views: 1207 }, { month: "202512", views: 1021 }, { month: "202601", views: 996 }, { month: "202602", views: 972 }, { month: "202603", views: 1026 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8356,6 +8545,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "whor", dissection: "dissected",
     habitat: "aquatic", venation: "pinnate", petalCount: 4, stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フサモ", totalViews: 1101, window: "202504-202603", months: [{ month: "202504", views: 86 }, { month: "202505", views: 114 }, { month: "202506", views: 81 }, { month: "202507", views: 111 }, { month: "202508", views: 156 }, { month: "202509", views: 143 }, { month: "202510", views: 93 }, { month: "202511", views: 66 }, { month: "202512", views: 73 }, { month: "202601", views: 62 }, { month: "202602", views: 60 }, { month: "202603", views: 56 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8389,6 +8579,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "forest", leafArr: "alt", leafType: "simple", venation: "parallel", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "half_inferior", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ギンリョウソウ", totalViews: 38167, window: "202504-202603", months: [{ month: "202504", views: 3988 }, { month: "202505", views: 10338 }, { month: "202506", views: 8617 }, { month: "202507", views: 3832 }, { month: "202508", views: 2095 }, { month: "202509", views: 1969 }, { month: "202510", views: 1530 }, { month: "202511", views: 1097 }, { month: "202512", views: 1039 }, { month: "202601", views: 1541 }, { month: "202602", views: 940 }, { month: "202603", views: 1181 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8422,6 +8613,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen", shape: "round",
     habitat: "coastal", leafType: "simple", venation: "pinnate", margin: "entire", dissection: "entire", ovaryPosition: "superior", plantSex: "hermaphrodite", latex: "present", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アカテツ", totalViews: 1065, window: "202504-202603", months: [{ month: "202504", views: 85 }, { month: "202505", views: 86 }, { month: "202506", views: 88 }, { month: "202507", views: 92 }, { month: "202508", views: 89 }, { month: "202509", views: 73 }, { month: "202510", views: 79 }, { month: "202511", views: 123 }, { month: "202512", views: 94 }, { month: "202601", views: 89 }, { month: "202602", views: 80 }, { month: "202603", views: 87 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8455,6 +8647,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "aquatic", leafArr: "alt", ovaryPosition: "superior", plantSex: "hermaphrodite" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カワゴケソウ", totalViews: 489, window: "202504-202603", months: [{ month: "202504", views: 29 }, { month: "202505", views: 55 }, { month: "202506", views: 35 }, { month: "202507", views: 39 }, { month: "202508", views: 38 }, { month: "202509", views: 42 }, { month: "202510", views: 34 }, { month: "202511", views: 62 }, { month: "202512", views: 49 }, { month: "202601", views: 41 }, { month: "202602", views: 34 }, { month: "202603", views: 31 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8488,6 +8681,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafType: "compound",
     habitat: "aquatic", leafArr: "alt", petalCount: "many", petalFusion: "fused", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", compoundType: "ternate", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミツガシワ", totalViews: 4752, window: "202504-202603", months: [{ month: "202504", views: 713 }, { month: "202505", views: 952 }, { month: "202506", views: 580 }, { month: "202507", views: 442 }, { month: "202508", views: 361 }, { month: "202509", views: 396 }, { month: "202510", views: 233 }, { month: "202511", views: 174 }, { month: "202512", views: 208 }, { month: "202601", views: 174 }, { month: "202602", views: 155 }, { month: "202603", views: 364 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8520,6 +8714,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Gymnosperm", "Living fossil", "Okinawa"],
     traits: {  leafArr: "alt", leafType: "compound", venation: "pinnate", margin: "entire", shape: "linear", habit: "tree", deciduous: "evergreen", petalFusion: "none", stipules: "absent", ovaryPosition: "superior", plantSex: "dioecious", compoundType: "pinnate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ソテツ", totalViews: 64004, window: "202504-202603", months: [{ month: "202504", views: 5392 }, { month: "202505", views: 7604 }, { month: "202506", views: 6550 }, { month: "202507", views: 5699 }, { month: "202508", views: 5705 }, { month: "202509", views: 4929 }, { month: "202510", views: 4543 }, { month: "202511", views: 4376 }, { month: "202512", views: 5891 }, { month: "202601", views: 4271 }, { month: "202602", views: 4280 }, { month: "202603", views: 4764 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8553,6 +8748,7 @@ export const plants: Plant[] = [
     traits: { shape: "round",
     habitat: "aquatic",},
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サンショウモ", totalViews: 3096, window: "202504-202603", months: [{ month: "202504", views: 210 }, { month: "202505", views: 296 }, { month: "202506", views: 274 }, { month: "202507", views: 357 }, { month: "202508", views: 414 }, { month: "202509", views: 376 }, { month: "202510", views: 303 }, { month: "202511", views: 218 }, { month: "202512", views: 153 }, { month: "202601", views: 179 }, { month: "202602", views: 158 }, { month: "202603", views: 158 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8585,6 +8781,7 @@ export const plants: Plant[] = [
     enTags: ["Fern", "Evergreen", "Giant fern", "Okinawa", "Ogasawara", "Ancient plant"],
     traits: { deciduous: "evergreen", leafType: "compound" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "リュウビンタイ", totalViews: 3690, window: "202504-202603", months: [{ month: "202504", views: 392 }, { month: "202505", views: 462 }, { month: "202506", views: 375 }, { month: "202507", views: 318 }, { month: "202508", views: 331 }, { month: "202509", views: 270 }, { month: "202510", views: 241 }, { month: "202511", views: 203 }, { month: "202512", views: 218 }, { month: "202601", views: 251 }, { month: "202602", views: 268 }, { month: "202603", views: 361 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8618,6 +8815,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", shape: "linear",
     habitat: "aquatic", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", dissection: "entire", ovaryPosition: "superior", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アマモ", totalViews: 18420, window: "202504-202603", months: [{ month: "202504", views: 1253 }, { month: "202505", views: 2320 }, { month: "202506", views: 2223 }, { month: "202507", views: 1559 }, { month: "202508", views: 1528 }, { month: "202509", views: 1523 }, { month: "202510", views: 1565 }, { month: "202511", views: 1510 }, { month: "202512", views: 1273 }, { month: "202601", views: 1150 }, { month: "202602", views: 1110 }, { month: "202603", views: 1406 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8651,6 +8849,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "roadside", leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヨウシュヤマゴボウ", totalViews: 61263, window: "202504-202603", months: [{ month: "202504", views: 2068 }, { month: "202505", views: 6070 }, { month: "202506", views: 5048 }, { month: "202507", views: 7406 }, { month: "202508", views: 9877 }, { month: "202509", views: 11955 }, { month: "202510", views: 8256 }, { month: "202511", views: 4852 }, { month: "202512", views: 2080 }, { month: "202601", views: 1437 }, { month: "202602", views: 1003 }, { month: "202603", views: 1211 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8716,6 +8915,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "whor", shape: "linear",
     habitat: "aquatic", petalCount: "many", petalFusion: "free", stipules: "absent", dissection: "dissected", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "monoecious" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マツモ", totalViews: 8571, window: "202504-202603", months: [{ month: "202504", views: 729 }, { month: "202505", views: 840 }, { month: "202506", views: 715 }, { month: "202507", views: 717 }, { month: "202508", views: 974 }, { month: "202509", views: 1110 }, { month: "202510", views: 739 }, { month: "202511", views: 594 }, { month: "202512", views: 462 }, { month: "202601", views: 515 }, { month: "202602", views: 530 }, { month: "202603", views: 646 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8749,6 +8949,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "palmate", habit: "vine", deciduous: "deciduous",
     habitat: "roadside", petalFusion: "free", stipules: "present", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", compoundType: "palmate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カナムグラ", totalViews: 15919, window: "202504-202603", months: [{ month: "202504", views: 957 }, { month: "202505", views: 1593 }, { month: "202506", views: 1187 }, { month: "202507", views: 1017 }, { month: "202508", views: 1437 }, { month: "202509", views: 3080 }, { month: "202510", views: 2979 }, { month: "202511", views: 1779 }, { month: "202512", views: 504 }, { month: "202601", views: 409 }, { month: "202602", views: 379 }, { month: "202603", views: 598 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8782,6 +8983,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     habitat: "cultivated", leafArr: "alt", leafType: "simple", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サラセニア", totalViews: 9199, window: "202504-202603", months: [{ month: "202504", views: 523 }, { month: "202505", views: 1157 }, { month: "202506", views: 987 }, { month: "202507", views: 933 }, { month: "202508", views: 1002 }, { month: "202509", views: 710 }, { month: "202510", views: 773 }, { month: "202511", views: 595 }, { month: "202512", views: 546 }, { month: "202601", views: 524 }, { month: "202602", views: 651 }, { month: "202603", views: 798 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8815,6 +9017,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen",
     habitat: "coastal", leafArr: "whor", leafType: "simple", petalCount: 3, petalFusion: "free", stipules: "absent", ovaryPosition: "superior" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トクサバモクマオウ", totalViews: 2262, window: "202504-202603", months: [{ month: "202504", views: 288 }, { month: "202505", views: 215 }, { month: "202506", views: 193 }, { month: "202507", views: 145 }, { month: "202508", views: 214 }, { month: "202509", views: 179 }, { month: "202510", views: 175 }, { month: "202511", views: 173 }, { month: "202512", views: 144 }, { month: "202601", views: 126 }, { month: "202602", views: 161 }, { month: "202603", views: 249 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8849,6 +9052,7 @@ export const plants: Plant[] = [
     floweringSeason: "summer",
     habitat: "cultivated", leafType: "simple", petalFusion: "fused", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツルムラサキ", totalViews: 39179, window: "202504-202603", months: [{ month: "202504", views: 1810 }, { month: "202505", views: 2694 }, { month: "202506", views: 3239 }, { month: "202507", views: 6350 }, { month: "202508", views: 9393 }, { month: "202509", views: 6650 }, { month: "202510", views: 4147 }, { month: "202511", views: 1783 }, { month: "202512", views: 795 }, { month: "202601", views: 731 }, { month: "202602", views: 718 }, { month: "202603", views: 869 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8881,6 +9085,7 @@ export const plants: Plant[] = [
     enTags: ["Parasitic plant", "Holoparasite", "Tropical", "World's largest flower"],
     traits: { habit: "herb", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ラフレシア", totalViews: 90005, window: "202504-202603", months: [{ month: "202504", views: 4230 }, { month: "202505", views: 25780 }, { month: "202506", views: 5491 }, { month: "202507", views: 4623 }, { month: "202508", views: 4375 }, { month: "202509", views: 3947 }, { month: "202510", views: 4575 }, { month: "202511", views: 3456 }, { month: "202512", views: 8676 }, { month: "202601", views: 4728 }, { month: "202602", views: 12057 }, { month: "202603", views: 8067 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8947,6 +9152,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "opp", leafType: "compound", venation: "pinnate", margin: "serrate", shape: "ovate", habit: "tree", deciduous: "deciduous", petalCount: 5, petalFusion: "fused",
     habitat: "mountain", stipules: "absent", ovaryPosition: "half_inferior", plantSex: "hermaphrodite", compoundType: "ternate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニワトコ", totalViews: 26287, window: "202504-202603", months: [{ month: "202504", views: 3673 }, { month: "202505", views: 2889 }, { month: "202506", views: 2356 }, { month: "202507", views: 1765 }, { month: "202508", views: 1919 }, { month: "202509", views: 1497 }, { month: "202510", views: 1451 }, { month: "202511", views: 1616 }, { month: "202512", views: 1517 }, { month: "202601", views: 1230 }, { month: "202602", views: 2218 }, { month: "202603", views: 4156 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -8979,6 +9185,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen shrub", "Hemiparasite", "Okinawa"],
     traits: {  habit: "shrub", deciduous: "evergreen", leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", petalFusion: "fused", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマビワ", totalViews: 913, window: "202504-202603", months: [{ month: "202504", views: 60 }, { month: "202505", views: 102 }, { month: "202506", views: 103 }, { month: "202507", views: 79 }, { month: "202508", views: 75 }, { month: "202509", views: 79 }, { month: "202510", views: 75 }, { month: "202511", views: 83 }, { month: "202512", views: 82 }, { month: "202601", views: 62 }, { month: "202602", views: 51 }, { month: "202603", views: 62 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -9012,6 +9219,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen", shape: "round",
     habitat: "coastal", leafArr: "alt", venation: "palmate", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", compoundType: "palmate", aromatic: "aromatic", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハスノハギリ", totalViews: 1955, window: "202504-202603", months: [{ month: "202504", views: 195 }, { month: "202505", views: 186 }, { month: "202506", views: 175 }, { month: "202507", views: 185 }, { month: "202508", views: 169 }, { month: "202509", views: 145 }, { month: "202510", views: 170 }, { month: "202511", views: 150 }, { month: "202512", views: 147 }, { month: "202601", views: 139 }, { month: "202602", views: 136 }, { month: "202603", views: 158 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -9045,6 +9253,7 @@ export const plants: Plant[] = [
     traits: {  habit: "shrub", deciduous: "evergreen", shape: "round",
     habitat: "cultivated", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: "many", petalFusion: "free", stipules: "present", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "5" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コカ", totalViews: 51480, window: "202504-202603", months: [{ month: "202504", views: 4090 }, { month: "202505", views: 6106 }, { month: "202506", views: 4362 }, { month: "202507", views: 4281 }, { month: "202508", views: 4237 }, { month: "202509", views: 3856 }, { month: "202510", views: 3458 }, { month: "202511", views: 4795 }, { month: "202512", views: 3761 }, { month: "202601", views: 4955 }, { month: "202602", views: 4253 }, { month: "202603", views: 3326 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -9078,6 +9287,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen", shape: "cordate",
     habitat: "cultivated", leafArr: "alt", leafType: "simple", venation: "palmate", petalCount: "many", petalFusion: "free", stipules: "present", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", latex: "present", stamenCount: "5" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ベニノキ", totalViews: 2762, window: "202504-202603", months: [{ month: "202504", views: 284 }, { month: "202505", views: 271 }, { month: "202506", views: 195 }, { month: "202507", views: 260 }, { month: "202508", views: 245 }, { month: "202509", views: 166 }, { month: "202510", views: 203 }, { month: "202511", views: 188 }, { month: "202512", views: 207 }, { month: "202601", views: 279 }, { month: "202602", views: 271 }, { month: "202603", views: 193 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -9272,6 +9482,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Gymnosperm", "Desert plant", "Living fossil", "Monotypic family"],
     traits: {  deciduous: "evergreen", habit: "herb", leafArr: "opp", leafType: "simple", venation: "parallel", margin: "entire", shape: "linear", petalFusion: "none", stipules: "absent", ovaryPosition: "superior", plantSex: "dioecious" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウェルウィッチア", totalViews: 30773, window: "202504-202603", months: [{ month: "202504", views: 1608 }, { month: "202505", views: 2078 }, { month: "202506", views: 2114 }, { month: "202507", views: 1729 }, { month: "202508", views: 1964 }, { month: "202509", views: 1699 }, { month: "202510", views: 1931 }, { month: "202511", views: 1875 }, { month: "202512", views: 2157 }, { month: "202601", views: 8005 }, { month: "202602", views: 1905 }, { month: "202603", views: 3708 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -9305,6 +9516,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", shape: "linear",
     habitat: "cultivated", leafArr: "alt", leafType: "simple", petalCount: 6, petalFusion: "fused", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "6", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フクロユキノシタ", totalViews: 2285, window: "202504-202603", months: [{ month: "202504", views: 209 }, { month: "202505", views: 230 }, { month: "202506", views: 223 }, { month: "202507", views: 245 }, { month: "202508", views: 213 }, { month: "202509", views: 155 }, { month: "202510", views: 200 }, { month: "202511", views: 170 }, { month: "202512", views: 164 }, { month: "202601", views: 158 }, { month: "202602", views: 147 }, { month: "202603", views: 171 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -9371,6 +9583,7 @@ export const plants: Plant[] = [
     traits: { leafArr: "alt", leafType: "compound", venation: "pinnate", margin: "serrate", shape: "ovate", habit: "herb", deciduous: "evergreen",
     habitat: "coastal",},
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤブソテツ", totalViews: 2400, window: "202504-202603", months: [{ month: "202504", views: 285 }, { month: "202505", views: 355 }, { month: "202506", views: 218 }, { month: "202507", views: 188 }, { month: "202508", views: 177 }, { month: "202509", views: 132 }, { month: "202510", views: 147 }, { month: "202511", views: 177 }, { month: "202512", views: 175 }, { month: "202601", views: 171 }, { month: "202602", views: 180 }, { month: "202603", views: 195 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9406,6 +9619,7 @@ export const plants: Plant[] = [
     flowerColor: "white",
     habitat: "wetland", petalCount: "many", plantSex: "hermaphrodite", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ユキノシタ", totalViews: 30939, window: "202504-202603", months: [{ month: "202504", views: 4296 }, { month: "202505", views: 7410 }, { month: "202506", views: 4215 }, { month: "202507", views: 1825 }, { month: "202508", views: 1587 }, { month: "202509", views: 1509 }, { month: "202510", views: 1591 }, { month: "202511", views: 1697 }, { month: "202512", views: 1338 }, { month: "202601", views: 1466 }, { month: "202602", views: 1593 }, { month: "202603", views: 2412 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9439,6 +9653,7 @@ export const plants: Plant[] = [
     enTags: ["Fern", "Evergreen", "Epiphyte", "Perennial"],
     traits: { habit: "herb", deciduous: "evergreen", leafType: "simple", shape: "linear" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ノキシノブ", totalViews: 5848, window: "202504-202603", months: [{ month: "202504", views: 616 }, { month: "202505", views: 846 }, { month: "202506", views: 638 }, { month: "202507", views: 394 }, { month: "202508", views: 385 }, { month: "202509", views: 391 }, { month: "202510", views: 301 }, { month: "202511", views: 470 }, { month: "202512", views: 411 }, { month: "202601", views: 397 }, { month: "202602", views: 384 }, { month: "202603", views: 615 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9472,6 +9687,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Tall tree", "Fragrant", "Garden tree", "Introduced"],
     traits: {  leafArr: "opp", leafType: "simple", venation: "pinnate", margin: "serrate", shape: "ovate", habit: "tree", deciduous: "evergreen", petalCount: 4, petalFusion: "fused", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キンモクセイ", totalViews: 132037, window: "202504-202603", months: [{ month: "202504", views: 6482 }, { month: "202505", views: 7056 }, { month: "202506", views: 5526 }, { month: "202507", views: 4661 }, { month: "202508", views: 6263 }, { month: "202509", views: 13953 }, { month: "202510", views: 43729 }, { month: "202511", views: 20519 }, { month: "202512", views: 5872 }, { month: "202601", views: 5579 }, { month: "202602", views: 5095 }, { month: "202603", views: 7302 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9506,6 +9722,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen",
     habitat: "cultivated", venation: "pinnate", petalFusion: "fused", flowerSymmetry: "actinomorphic", aromatic: "aromatic" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ユズ", totalViews: 49261, window: "202504-202603", months: [{ month: "202504", views: 3344 }, { month: "202505", views: 3627 }, { month: "202506", views: 3100 }, { month: "202507", views: 2875 }, { month: "202508", views: 3214 }, { month: "202509", views: 3338 }, { month: "202510", views: 3743 }, { month: "202511", views: 6185 }, { month: "202512", views: 8662 }, { month: "202601", views: 4529 }, { month: "202602", views: 3268 }, { month: "202603", views: 3376 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9541,6 +9758,7 @@ export const plants: Plant[] = [
     flowerColor: "purple",
     habitat: "cultivated", stipules: "absent", dissection: "entire", ovaryPosition: "superior", glandDotted: "absent" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ワスレナグサ", totalViews: 56934, window: "202504-202603", months: [{ month: "202504", views: 8020 }, { month: "202505", views: 6984 }, { month: "202506", views: 4616 }, { month: "202507", views: 3744 }, { month: "202508", views: 3783 }, { month: "202509", views: 3948 }, { month: "202510", views: 3801 }, { month: "202511", views: 3715 }, { month: "202512", views: 3468 }, { month: "202601", views: 4275 }, { month: "202602", views: 4422 }, { month: "202603", views: 6158 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9574,6 +9792,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Tall tree", "Monocot", "Garden tree"],
     traits: {  leafArr: "alt", leafType: "compound", venation: "parallel", dissection: "dissected", shape: "palmate", habit: "tree", deciduous: "evergreen", flowerSymmetry: "actinomorphic", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シュロ", totalViews: 50148, window: "202504-202603", months: [{ month: "202504", views: 6688 }, { month: "202505", views: 5966 }, { month: "202506", views: 4239 }, { month: "202507", views: 3841 }, { month: "202508", views: 4000 }, { month: "202509", views: 3842 }, { month: "202510", views: 3566 }, { month: "202511", views: 3946 }, { month: "202512", views: 3276 }, { month: "202601", views: 3719 }, { month: "202602", views: 3278 }, { month: "202603", views: 3787 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9609,6 +9828,7 @@ export const plants: Plant[] = [
     flowerColor: "purple",
     habitat: "roadside", ovaryPosition: "superior", plantSex: "hermaphrodite" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キツネノマゴ", totalViews: 4445, window: "202504-202603", months: [{ month: "202504", views: 186 }, { month: "202505", views: 205 }, { month: "202506", views: 234 }, { month: "202507", views: 227 }, { month: "202508", views: 798 }, { month: "202509", views: 1121 }, { month: "202510", views: 627 }, { month: "202511", views: 359 }, { month: "202512", views: 207 }, { month: "202601", views: 120 }, { month: "202602", views: 198 }, { month: "202603", views: 163 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9642,6 +9862,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Tall tree", "Red berries", "Garden tree"],
     traits: {  habit: "tree", deciduous: "evergreen", margin: "serrate", shape: "round", leafType: "simple", venation: "pinnate", petalFusion: "free", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "モチノキ", totalViews: 26093, window: "202504-202603", months: [{ month: "202504", views: 2593 }, { month: "202505", views: 2489 }, { month: "202506", views: 2021 }, { month: "202507", views: 1456 }, { month: "202508", views: 1680 }, { month: "202509", views: 1764 }, { month: "202510", views: 2504 }, { month: "202511", views: 2909 }, { month: "202512", views: 2676 }, { month: "202601", views: 2235 }, { month: "202602", views: 1878 }, { month: "202603", views: 1888 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9676,6 +9897,7 @@ export const plants: Plant[] = [
     traits: { deciduous: "evergreen", shape: "linear",
     habitat: "mountain",},
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒカゲノカズラ", totalViews: 12869, window: "202504-202603", months: [{ month: "202504", views: 985 }, { month: "202505", views: 1221 }, { month: "202506", views: 1447 }, { month: "202507", views: 1090 }, { month: "202508", views: 935 }, { month: "202509", views: 871 }, { month: "202510", views: 1028 }, { month: "202511", views: 1081 }, { month: "202512", views: 1595 }, { month: "202601", views: 1183 }, { month: "202602", views: 683 }, { month: "202603", views: 750 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9710,6 +9932,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "whor", leafType: "simple", venation: "pinnate", margin: "entire", shape: "linear", habit: "tree", deciduous: "evergreen", petalCount: 5, petalFusion: "fused",
     habitat: "roadside", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", latex: "present", stamenCount: "5" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キョウチクトウ", totalViews: 186619, window: "202504-202603", months: [{ month: "202504", views: 17505 }, { month: "202505", views: 12750 }, { month: "202506", views: 16564 }, { month: "202507", views: 17182 }, { month: "202508", views: 17463 }, { month: "202509", views: 42228 }, { month: "202510", views: 15474 }, { month: "202511", views: 8742 }, { month: "202512", views: 14294 }, { month: "202601", views: 10561 }, { month: "202602", views: 6340 }, { month: "202603", views: 7516 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9744,6 +9967,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "deciduous", leafArr: "alt", margin: "serrate", shape: "round",
     habitat: "mountain", leafType: "simple", venation: "pinnate", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サワフタギ", totalViews: 4366, window: "202504-202603", months: [{ month: "202504", views: 377 }, { month: "202505", views: 960 }, { month: "202506", views: 575 }, { month: "202507", views: 209 }, { month: "202508", views: 194 }, { month: "202509", views: 334 }, { month: "202510", views: 532 }, { month: "202511", views: 386 }, { month: "202512", views: 213 }, { month: "202601", views: 209 }, { month: "202602", views: 196 }, { month: "202603", views: 181 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9777,6 +10001,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Shrub", "Red berries", "Garden tree"],
     traits: {  leafArr: "alt", leafType: "compound", venation: "pinnate", margin: "serrate", shape: "needle", habit: "shrub", deciduous: "evergreen", petalCount: 4, petalFusion: "free", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナンテン", totalViews: 56975, window: "202504-202603", months: [{ month: "202504", views: 3536 }, { month: "202505", views: 4715 }, { month: "202506", views: 4392 }, { month: "202507", views: 2585 }, { month: "202508", views: 3189 }, { month: "202509", views: 2849 }, { month: "202510", views: 3596 }, { month: "202511", views: 6788 }, { month: "202512", views: 9642 }, { month: "202601", views: 7930 }, { month: "202602", views: 4338 }, { month: "202603", views: 3415 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9810,6 +10035,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Deciduous", "Shrub", "Edible", "Red berries"],
     traits: {  habit: "shrub", deciduous: "deciduous", shape: "round", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: 3, stipules: "absent", dissection: "entire", ovaryPosition: "superior", stamenCount: "1-2" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナツグミ", totalViews: 10604, window: "202504-202603", months: [{ month: "202504", views: 1461 }, { month: "202505", views: 2631 }, { month: "202506", views: 2348 }, { month: "202507", views: 764 }, { month: "202508", views: 488 }, { month: "202509", views: 413 }, { month: "202510", views: 415 }, { month: "202511", views: 483 }, { month: "202512", views: 393 }, { month: "202601", views: 352 }, { month: "202602", views: 325 }, { month: "202603", views: 531 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9844,6 +10070,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb",
     flowerColor: "purple", leafType: "simple", venation: "pinnate", petalCount: "many", petalFusion: "fused", stipules: "absent", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イワタバコ", totalViews: 7538, window: "202504-202603", months: [{ month: "202504", views: 525 }, { month: "202505", views: 882 }, { month: "202506", views: 1052 }, { month: "202507", views: 1279 }, { month: "202508", views: 1332 }, { month: "202509", views: 546 }, { month: "202510", views: 344 }, { month: "202511", views: 404 }, { month: "202512", views: 266 }, { month: "202601", views: 300 }, { month: "202602", views: 270 }, { month: "202603", views: 338 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9878,6 +10105,7 @@ export const plants: Plant[] = [
     traits: {  habit: "shrub", deciduous: "evergreen",
     flowerColor: "purple", leafType: "simple", petalCount: "many", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", stemSection: "square", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ノボタン", totalViews: 1518, window: "202504-202603", months: [{ month: "202504", views: 69 }, { month: "202505", views: 96 }, { month: "202506", views: 126 }, { month: "202507", views: 84 }, { month: "202508", views: 108 }, { month: "202509", views: 145 }, { month: "202510", views: 208 }, { month: "202511", views: 228 }, { month: "202512", views: 153 }, { month: "202601", views: 139 }, { month: "202602", views: 66 }, { month: "202603", views: 96 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9912,6 +10140,7 @@ export const plants: Plant[] = [
     traits: {  habit: "vine", deciduous: "deciduous", leafType: "compound", margin: "serrate",
     flowerColor: "orange", petalCount: "many", petalFusion: "fused", stipules: "absent", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "5" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ノウゼンカズラ", totalViews: 52154, window: "202504-202603", months: [{ month: "202504", views: 1888 }, { month: "202505", views: 2773 }, { month: "202506", views: 9731 }, { month: "202507", views: 11990 }, { month: "202508", views: 8877 }, { month: "202509", views: 4941 }, { month: "202510", views: 5083 }, { month: "202511", views: 2208 }, { month: "202512", views: 1197 }, { month: "202601", views: 1180 }, { month: "202602", views: 1065 }, { month: "202603", views: 1221 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9945,6 +10174,7 @@ export const plants: Plant[] = [
     enTags: ["Herb", "Perennial", "Vine/Climber", "Edible", "Monocot"],
     traits: {  habit: "vine", leafArr: "opp", shape: "cordate", venation: "palmate", petalCount: 6, flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", compoundType: "palmate", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマノイモ", totalViews: 52016, window: "202504-202603", months: [{ month: "202504", views: 3205 }, { month: "202505", views: 5861 }, { month: "202506", views: 3872 }, { month: "202507", views: 3776 }, { month: "202508", views: 4423 }, { month: "202509", views: 4054 }, { month: "202510", views: 4824 }, { month: "202511", views: 5724 }, { month: "202512", views: 6169 }, { month: "202601", views: 3697 }, { month: "202602", views: 3035 }, { month: "202603", views: 3376 }] },
     review: { status: "ai_generated" },
   },
   
@@ -9978,6 +10208,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Vine/Climber", "Southern affinity"],
     traits: {  habit: "vine", deciduous: "evergreen", margin: "entire", leafArr: "alt", leafType: "simple", stipules: "present", dissection: "entire", ovaryPosition: "superior", plantSex: "hermaphrodite", aromatic: "aromatic", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フウトウカズラ", totalViews: 4181, window: "202504-202603", months: [{ month: "202504", views: 278 }, { month: "202505", views: 442 }, { month: "202506", views: 259 }, { month: "202507", views: 225 }, { month: "202508", views: 238 }, { month: "202509", views: 210 }, { month: "202510", views: 242 }, { month: "202511", views: 292 }, { month: "202512", views: 271 }, { month: "202601", views: 574 }, { month: "202602", views: 348 }, { month: "202603", views: 802 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10012,6 +10243,7 @@ export const plants: Plant[] = [
     traits: { habit: "herb", deciduous: "evergreen", leafType: "compound",
     habitat: "mountain",},
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シシガシラ", totalViews: 1438, window: "202504-202603", months: [{ month: "202504", views: 103 }, { month: "202505", views: 158 }, { month: "202506", views: 95 }, { month: "202507", views: 57 }, { month: "202508", views: 122 }, { month: "202509", views: 103 }, { month: "202510", views: 136 }, { month: "202511", views: 162 }, { month: "202512", views: 151 }, { month: "202601", views: 149 }, { month: "202602", views: 102 }, { month: "202603", views: 100 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10045,6 +10277,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Deciduous", "Vine/Climber", "Blue berries"],
     traits: {  habit: "vine", deciduous: "deciduous", dissection: "dissected", leafArr: "alt", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", compoundType: "ternate", stamenCount: "1-2", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アオツヅラフジ", totalViews: 10192, window: "202504-202603", months: [{ month: "202504", views: 255 }, { month: "202505", views: 607 }, { month: "202506", views: 491 }, { month: "202507", views: 464 }, { month: "202508", views: 976 }, { month: "202509", views: 1658 }, { month: "202510", views: 1987 }, { month: "202511", views: 1741 }, { month: "202512", views: 876 }, { month: "202601", views: 591 }, { month: "202602", views: 253 }, { month: "202603", views: 293 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10080,6 +10313,7 @@ export const plants: Plant[] = [
     flowerColor: "purple",
     habitat: "grassland", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: "many", dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", aromatic: "aromatic", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒメハギ", totalViews: 1964, window: "202504-202603", months: [{ month: "202504", views: 544 }, { month: "202505", views: 476 }, { month: "202506", views: 195 }, { month: "202507", views: 107 }, { month: "202508", views: 68 }, { month: "202509", views: 107 }, { month: "202510", views: 99 }, { month: "202511", views: 61 }, { month: "202512", views: 61 }, { month: "202601", views: 73 }, { month: "202602", views: 44 }, { month: "202603", views: 129 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10114,6 +10348,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "opp",
     habitat: "cultivated", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: "many", petalFusion: "fused", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "1-2", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スベリヒユ", totalViews: 74166, window: "202504-202603", months: [{ month: "202504", views: 3373 }, { month: "202505", views: 3941 }, { month: "202506", views: 4254 }, { month: "202507", views: 9528 }, { month: "202508", views: 24544 }, { month: "202509", views: 9789 }, { month: "202510", views: 4019 }, { month: "202511", views: 2594 }, { month: "202512", views: 3002 }, { month: "202601", views: 2921 }, { month: "202602", views: 3523 }, { month: "202603", views: 2678 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10180,6 +10415,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Shrub", "Garden tree"],
     traits: {  habit: "tree", deciduous: "evergreen", leafArr: "opp", shape: "round", leafType: "simple", venation: "pinnate", petalFusion: "free", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツゲ", totalViews: 23312, window: "202504-202603", months: [{ month: "202504", views: 2218 }, { month: "202505", views: 2478 }, { month: "202506", views: 1946 }, { month: "202507", views: 1797 }, { month: "202508", views: 1850 }, { month: "202509", views: 1946 }, { month: "202510", views: 1888 }, { month: "202511", views: 2082 }, { month: "202512", views: 1793 }, { month: "202601", views: 1663 }, { month: "202602", views: 1430 }, { month: "202603", views: 2221 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10214,6 +10450,7 @@ export const plants: Plant[] = [
     traits: {  habit: "vine", deciduous: "evergreen", dissection: "dissected", shape: "palmate",
     habitat: "cultivated", leafArr: "alt", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", compoundType: "palmate", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トケイソウ", totalViews: 29943, window: "202504-202603", months: [{ month: "202504", views: 3215 }, { month: "202505", views: 5338 }, { month: "202506", views: 4311 }, { month: "202507", views: 3311 }, { month: "202508", views: 2966 }, { month: "202509", views: 2351 }, { month: "202510", views: 2202 }, { month: "202511", views: 1567 }, { month: "202512", views: 1197 }, { month: "202601", views: 1252 }, { month: "202602", views: 1063 }, { month: "202603", views: 1170 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10248,6 +10485,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen", margin: "entire",
     habitat: "coastal", leafType: "simple", venation: "pinnate", petalCount: "many", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トベラ", totalViews: 26147, window: "202504-202603", months: [{ month: "202504", views: 2271 }, { month: "202505", views: 8338 }, { month: "202506", views: 2083 }, { month: "202507", views: 1350 }, { month: "202508", views: 1230 }, { month: "202509", views: 1314 }, { month: "202510", views: 1613 }, { month: "202511", views: 2106 }, { month: "202512", views: 2000 }, { month: "202601", views: 1426 }, { month: "202602", views: 1155 }, { month: "202603", views: 1261 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10315,6 +10553,7 @@ export const plants: Plant[] = [
     traits: {  habit: "shrub", deciduous: "deciduous", leafArr: "opp", leafType: "compound",
     habitat: "mountain", venation: "pinnate", petalCount: "many", petalFusion: "fused", stipules: "present", flowerSymmetry: "actinomorphic", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミツバウツギ", totalViews: 2998, window: "202504-202603", months: [{ month: "202504", views: 499 }, { month: "202505", views: 846 }, { month: "202506", views: 376 }, { month: "202507", views: 174 }, { month: "202508", views: 166 }, { month: "202509", views: 169 }, { month: "202510", views: 157 }, { month: "202511", views: 134 }, { month: "202512", views: 111 }, { month: "202601", views: 130 }, { month: "202602", views: 106 }, { month: "202603", views: 130 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10349,6 +10588,7 @@ export const plants: Plant[] = [
     traits: {  habit: "shrub", deciduous: "deciduous", leafType: "compound", dissection: "dissected",
     habitat: "cultivated", leafArr: "alt", venation: "palmate", petalCount: "many", petalFusion: "fused", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", compoundType: "ternate", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ボタン", totalViews: 4724, window: "202504-202603", months: [{ month: "202504", views: 497 }, { month: "202505", views: 416 }, { month: "202506", views: 329 }, { month: "202507", views: 352 }, { month: "202508", views: 331 }, { month: "202509", views: 376 }, { month: "202510", views: 475 }, { month: "202511", views: 398 }, { month: "202512", views: 365 }, { month: "202601", views: 431 }, { month: "202602", views: 329 }, { month: "202603", views: 425 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10383,6 +10623,7 @@ export const plants: Plant[] = [
     traits: {  habit: "vine", deciduous: "deciduous", leafType: "compound", dissection: "dissected", shape: "palmate",
     habitat: "mountain", leafArr: "alt", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アケビ", totalViews: 68847, window: "202504-202603", months: [{ month: "202504", views: 7302 }, { month: "202505", views: 5480 }, { month: "202506", views: 3564 }, { month: "202507", views: 3327 }, { month: "202508", views: 4372 }, { month: "202509", views: 6909 }, { month: "202510", views: 14278 }, { month: "202511", views: 11388 }, { month: "202512", views: 3686 }, { month: "202601", views: 2569 }, { month: "202602", views: 2570 }, { month: "202603", views: 3402 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10416,6 +10657,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Shrub", "Red berries", "New Year decoration"],
     traits: {  habit: "shrub", deciduous: "evergreen", leafArr: "opp", margin: "serrate", shape: "round", leafType: "simple", petalCount: 3, stipules: "present", aromatic: "aromatic", stemSection: "round" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "センリョウ", totalViews: 14671, window: "202504-202603", months: [{ month: "202504", views: 833 }, { month: "202505", views: 883 }, { month: "202506", views: 769 }, { month: "202507", views: 658 }, { month: "202508", views: 648 }, { month: "202509", views: 653 }, { month: "202510", views: 816 }, { month: "202511", views: 1811 }, { month: "202512", views: 3534 }, { month: "202601", views: 2365 }, { month: "202602", views: 864 }, { month: "202603", views: 837 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10449,6 +10691,7 @@ export const plants: Plant[] = [
     enTags: ["Herb", "Perennial", "Carnivorous plant", "Tropical", "Vine/Climber"],
     traits: {  habit: "vine", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", petalCount: 3, petalFusion: "free", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "dioecious", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウツボカズラ", totalViews: 29150, window: "202504-202603", months: [{ month: "202504", views: 2342 }, { month: "202505", views: 3461 }, { month: "202506", views: 3110 }, { month: "202507", views: 2907 }, { month: "202508", views: 3491 }, { month: "202509", views: 2284 }, { month: "202510", views: 1960 }, { month: "202511", views: 2036 }, { month: "202512", views: 1735 }, { month: "202601", views: 1539 }, { month: "202602", views: 2207 }, { month: "202603", views: 2078 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10549,6 +10792,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Vine/Climber", "Red berries"],
     traits: {  habit: "vine", deciduous: "evergreen", margin: "serrate", shape: "round", leafArr: "alt", leafType: "simple", venation: "pinnate", petalCount: 5, petalFusion: "free", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", aromatic: "aromatic", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サネカズラ", totalViews: 14233, window: "202504-202603", months: [{ month: "202504", views: 550 }, { month: "202505", views: 997 }, { month: "202506", views: 699 }, { month: "202507", views: 746 }, { month: "202508", views: 863 }, { month: "202509", views: 883 }, { month: "202510", views: 1031 }, { month: "202511", views: 2481 }, { month: "202512", views: 2915 }, { month: "202601", views: 1717 }, { month: "202602", views: 721 }, { month: "202603", views: 630 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10581,6 +10825,7 @@ export const plants: Plant[] = [
     tags: ["シダ", "水生植物", "浮水植物"],
     enTags: ["Fern", "Aquatic plant", "Floating plant"],
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アカウキクサ", totalViews: 2333, window: "202504-202603", months: [{ month: "202504", views: 167 }, { month: "202505", views: 235 }, { month: "202506", views: 204 }, { month: "202507", views: 228 }, { month: "202508", views: 235 }, { month: "202509", views: 188 }, { month: "202510", views: 236 }, { month: "202511", views: 191 }, { month: "202512", views: 144 }, { month: "202601", views: 195 }, { month: "202602", views: 137 }, { month: "202603", views: 173 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10615,6 +10860,7 @@ export const plants: Plant[] = [
     traits: { habit: "herb", shape: "linear",
     habitat: "aquatic",},
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミズニラ", totalViews: 2326, window: "202504-202603", months: [{ month: "202504", views: 183 }, { month: "202505", views: 166 }, { month: "202506", views: 199 }, { month: "202507", views: 190 }, { month: "202508", views: 203 }, { month: "202509", views: 261 }, { month: "202510", views: 213 }, { month: "202511", views: 194 }, { month: "202512", views: 177 }, { month: "202601", views: 194 }, { month: "202602", views: 183 }, { month: "202603", views: 163 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10682,6 +10928,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Tall tree", "Edible", "Fragrant"],
     traits: {  habit: "tree", deciduous: "evergreen", leafType: "compound", shape: "round", leafArr: "alt", venation: "pinnate", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", aromatic: "aromatic", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カンラン", totalViews: 3534, window: "202504-202603", months: [{ month: "202504", views: 297 }, { month: "202505", views: 252 }, { month: "202506", views: 219 }, { month: "202507", views: 231 }, { month: "202508", views: 223 }, { month: "202509", views: 246 }, { month: "202510", views: 342 }, { month: "202511", views: 387 }, { month: "202512", views: 320 }, { month: "202601", views: 310 }, { month: "202602", views: 464 }, { month: "202603", views: 243 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10716,6 +10963,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "opp", leafType: "compound",
     habitat: "coastal", venation: "pinnate", stipules: "present", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハマビシ", totalViews: 2681, window: "202504-202603", months: [{ month: "202504", views: 199 }, { month: "202505", views: 265 }, { month: "202506", views: 217 }, { month: "202507", views: 221 }, { month: "202508", views: 238 }, { month: "202509", views: 289 }, { month: "202510", views: 278 }, { month: "202511", views: 197 }, { month: "202512", views: 183 }, { month: "202601", views: 207 }, { month: "202602", views: 167 }, { month: "202603", views: 220 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10784,6 +11032,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "deciduous", leafArr: "opp", shape: "cordate",
     habitat: "mountain", leafType: "simple", venation: "palmate", petalFusion: "free", stipules: "present", ovaryPosition: "superior", plantSex: "dioecious", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "かつら", totalViews: 901, window: "202504-202603", months: [{ month: "202504", views: 66 }, { month: "202505", views: 104 }, { month: "202506", views: 73 }, { month: "202507", views: 71 }, { month: "202508", views: 68 }, { month: "202509", views: 64 }, { month: "202510", views: 59 }, { month: "202511", views: 76 }, { month: "202512", views: 98 }, { month: "202601", views: 60 }, { month: "202602", views: 56 }, { month: "202603", views: 106 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10819,6 +11068,7 @@ export const plants: Plant[] = [
     flowerColor: "orange",
     habitat: "cultivated", venation: "palmate", petalCount: "many", ovaryPosition: "superior", plantSex: "hermaphrodite", compoundType: "palmate", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キンレンカ", totalViews: 14254, window: "202504-202603", months: [{ month: "202504", views: 2219 }, { month: "202505", views: 2102 }, { month: "202506", views: 1803 }, { month: "202507", views: 1114 }, { month: "202508", views: 1094 }, { month: "202509", views: 915 }, { month: "202510", views: 787 }, { month: "202511", views: 759 }, { month: "202512", views: 802 }, { month: "202601", views: 822 }, { month: "202602", views: 739 }, { month: "202603", views: 1098 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10887,6 +11137,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "deciduous", leafArr: "alt", margin: "serrate",
     habitat: "mountain", leafType: "simple", venation: "pinnate", petalCount: "many", petalFusion: "free", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "リョウブ", totalViews: 8458, window: "202504-202603", months: [{ month: "202504", views: 853 }, { month: "202505", views: 1331 }, { month: "202506", views: 1085 }, { month: "202507", views: 1114 }, { month: "202508", views: 753 }, { month: "202509", views: 535 }, { month: "202510", views: 595 }, { month: "202511", views: 533 }, { month: "202512", views: 409 }, { month: "202601", views: 445 }, { month: "202602", views: 342 }, { month: "202603", views: 463 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10921,6 +11172,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", leafArr: "alt",
     habitat: "mountain", leafType: "simple", petalCount: 6, petalFusion: "free", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サクライソウ", totalViews: 866, window: "202504-202603", months: [{ month: "202504", views: 44 }, { month: "202505", views: 76 }, { month: "202506", views: 90 }, { month: "202507", views: 177 }, { month: "202508", views: 70 }, { month: "202509", views: 71 }, { month: "202510", views: 46 }, { month: "202511", views: 66 }, { month: "202512", views: 45 }, { month: "202601", views: 64 }, { month: "202602", views: 45 }, { month: "202603", views: 72 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10955,6 +11207,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "evergreen", leafArr: "whor",
     habitat: "mountain", leafType: "simple", venation: "pinnate", margin: "serrate", petalFusion: "free", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "half_inferior", plantSex: "dioecious", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマグルマ", totalViews: 2415, window: "202504-202603", months: [{ month: "202504", views: 231 }, { month: "202505", views: 352 }, { month: "202506", views: 228 }, { month: "202507", views: 200 }, { month: "202508", views: 181 }, { month: "202509", views: 168 }, { month: "202510", views: 208 }, { month: "202511", views: 154 }, { month: "202512", views: 162 }, { month: "202601", views: 224 }, { month: "202602", views: 145 }, { month: "202603", views: 162 }] },
     review: { status: "ai_generated" },
   },
   
@@ -10988,6 +11241,7 @@ export const plants: Plant[] = [
     enTags: ["Woody", "Evergreen", "Tall tree", "Southwest Islands", "Tropical"],
     traits: {  habit: "tree", deciduous: "evergreen", shape: "round", leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: "many", stipules: "present", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "リュウキュウガキ", totalViews: 560, window: "202504-202603", months: [{ month: "202504", views: 46 }, { month: "202505", views: 44 }, { month: "202506", views: 41 }, { month: "202507", views: 38 }, { month: "202508", views: 42 }, { month: "202509", views: 36 }, { month: "202510", views: 59 }, { month: "202511", views: 63 }, { month: "202512", views: 58 }, { month: "202601", views: 38 }, { month: "202602", views: 53 }, { month: "202603", views: 42 }] },
     review: { status: "needs_review", note: "YList正式和名リュウノウガシはDryobalanops aromaticaであり、Vatica mangachapoi と一致しない。jaName要確認。" },
   },
 
@@ -11022,6 +11276,7 @@ export const plants: Plant[] = [
     traits: {  habit: "tree", deciduous: "deciduous", leafArr: "alt", margin: "serrate",
     habitat: "mountain", leafType: "simple", venation: "pinnate", petalFusion: "free", stipules: "absent", dissection: "entire", ovaryPosition: "superior" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フサザクラ科", totalViews: 2001, window: "202504-202603", months: [{ month: "202504", views: 398 }, { month: "202505", views: 179 }, { month: "202506", views: 131 }, { month: "202507", views: 128 }, { month: "202508", views: 111 }, { month: "202509", views: 116 }, { month: "202510", views: 92 }, { month: "202511", views: 111 }, { month: "202512", views: 84 }, { month: "202601", views: 103 }, { month: "202602", views: 122 }, { month: "202603", views: 426 }] },
     review: { status: "ai_generated" },
   },
   
@@ -11090,6 +11345,7 @@ export const plants: Plant[] = [
     traits: {  habit: "herb", shape: "linear",
     habitat: "aquatic", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", petalCount: 6, stipules: "absent", dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タヌキアヤメ", totalViews: 639, window: "202504-202603", months: [{ month: "202504", views: 52 }, { month: "202505", views: 45 }, { month: "202506", views: 50 }, { month: "202507", views: 51 }, { month: "202508", views: 47 }, { month: "202509", views: 43 }, { month: "202510", views: 51 }, { month: "202511", views: 107 }, { month: "202512", views: 58 }, { month: "202601", views: 42 }, { month: "202602", views: 46 }, { month: "202603", views: 47 }] },
     review: { status: "ai_generated" },
   },
   
@@ -11296,6 +11552,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "linear", habit: "herb", deciduous: "deciduous", petalFusion: "none",
     habitat: "aquatic", dissection: "entire", ovaryPosition: "superior", stemSection: "round", glandDotted: "absent" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イネ", totalViews: 52723, window: "202504-202603", months: [{ month: "202504", views: 4740 }, { month: "202505", views: 7045 }, { month: "202506", views: 6708 }, { month: "202507", views: 4579 }, { month: "202508", views: 5150 }, { month: "202509", views: 4535 }, { month: "202510", views: 4163 }, { month: "202511", views: 3975 }, { month: "202512", views: 3381 }, { month: "202601", views: 3287 }, { month: "202602", views: 2596 }, { month: "202603", views: 2564 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11331,6 +11588,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "linear", habit: "herb", deciduous: "deciduous", petalFusion: "none",
     habitat: "cultivated", dissection: "entire", ovaryPosition: "superior", stemSection: "round", glandDotted: "absent" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コムギ", totalViews: 50012, window: "202504-202603", months: [{ month: "202504", views: 4894 }, { month: "202505", views: 6369 }, { month: "202506", views: 5411 }, { month: "202507", views: 5014 }, { month: "202508", views: 4042 }, { month: "202509", views: 3621 }, { month: "202510", views: 4022 }, { month: "202511", views: 4101 }, { month: "202512", views: 3469 }, { month: "202601", views: 3309 }, { month: "202602", views: 2820 }, { month: "202603", views: 2940 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11366,6 +11624,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "linear", habit: "herb", deciduous: "deciduous", petalFusion: "none",
     habitat: "cultivated", dissection: "entire", ovaryPosition: "superior", stemSection: "round", glandDotted: "absent" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオムギ", totalViews: 49911, window: "202504-202603", months: [{ month: "202504", views: 4820 }, { month: "202505", views: 6221 }, { month: "202506", views: 5148 }, { month: "202507", views: 4795 }, { month: "202508", views: 4355 }, { month: "202509", views: 3921 }, { month: "202510", views: 3969 }, { month: "202511", views: 3790 }, { month: "202512", views: 3557 }, { month: "202601", views: 3280 }, { month: "202602", views: 2799 }, { month: "202603", views: 3256 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11401,6 +11660,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "compound", venation: "pinnate", margin: "entire", shape: "ovate", habit: "herb", deciduous: "deciduous", petalCount: 5, petalFusion: "free",
     habitat: "cultivated", ovaryPosition: "superior" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ダイズ", totalViews: 71900, window: "202504-202603", months: [{ month: "202504", views: 6350 }, { month: "202505", views: 7352 }, { month: "202506", views: 6865 }, { month: "202507", views: 5602 }, { month: "202508", views: 5633 }, { month: "202509", views: 5806 }, { month: "202510", views: 6839 }, { month: "202511", views: 6326 }, { month: "202512", views: 5060 }, { month: "202601", views: 5545 }, { month: "202602", views: 5892 }, { month: "202603", views: 4630 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11436,6 +11696,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "compound", venation: "pinnate", margin: "entire", shape: "ovate", habit: "herb", deciduous: "deciduous", petalCount: 5, petalFusion: "free",
     habitat: "cultivated", ovaryPosition: "superior" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アズキ", totalViews: 45504, window: "202504-202603", months: [{ month: "202504", views: 3463 }, { month: "202505", views: 5072 }, { month: "202506", views: 6318 }, { month: "202507", views: 3160 }, { month: "202508", views: 3275 }, { month: "202509", views: 3395 }, { month: "202510", views: 3646 }, { month: "202511", views: 3643 }, { month: "202512", views: 3269 }, { month: "202601", views: 4525 }, { month: "202602", views: 2983 }, { month: "202603", views: 2755 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11471,6 +11732,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "linear", habit: "herb", deciduous: "deciduous", petalFusion: "none",
     habitat: "cultivated", dissection: "entire", ovaryPosition: "superior", stemSection: "round", glandDotted: "absent" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トウモロコシ", totalViews: 150664, window: "202504-202603", months: [{ month: "202504", views: 11905 }, { month: "202505", views: 13988 }, { month: "202506", views: 17350 }, { month: "202507", views: 17747 }, { month: "202508", views: 19753 }, { month: "202509", views: 14394 }, { month: "202510", views: 10450 }, { month: "202511", views: 10540 }, { month: "202512", views: 8567 }, { month: "202601", views: 8982 }, { month: "202602", views: 7386 }, { month: "202603", views: 9602 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11506,6 +11768,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", shape: "ovate", habit: "herb", deciduous: "deciduous", petalFusion: "none",
     habitat: "cultivated", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ソバ", totalViews: 40354, window: "202504-202603", months: [{ month: "202504", views: 3191 }, { month: "202505", views: 3881 }, { month: "202506", views: 3521 }, { month: "202507", views: 3242 }, { month: "202508", views: 3480 }, { month: "202509", views: 3686 }, { month: "202510", views: 3808 }, { month: "202511", views: 3885 }, { month: "202512", views: 3635 }, { month: "202601", views: 2990 }, { month: "202602", views: 2509 }, { month: "202603", views: 2526 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11541,6 +11804,7 @@ export const plants: Plant[] = [
     traits: { leafArr: "alt", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "ovate", habit: "herb", deciduous: "deciduous", petalCount: 4, petalFusion: "free",
     habitat: "cultivated",},
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ダイコン", totalViews: 65268, window: "202504-202603", months: [{ month: "202504", views: 5689 }, { month: "202505", views: 7193 }, { month: "202506", views: 5002 }, { month: "202507", views: 4150 }, { month: "202508", views: 4503 }, { month: "202509", views: 5002 }, { month: "202510", views: 5346 }, { month: "202511", views: 6137 }, { month: "202512", views: 5839 }, { month: "202601", views: 7094 }, { month: "202602", views: 4491 }, { month: "202603", views: 4822 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11576,6 +11840,7 @@ export const plants: Plant[] = [
     traits: { leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "serrate", shape: "ovate", habit: "herb", deciduous: "deciduous", petalCount: 4, petalFusion: "free",
     habitat: "cultivated",},
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キャベツ", totalViews: 67463, window: "202504-202603", months: [{ month: "202504", views: 7395 }, { month: "202505", views: 7541 }, { month: "202506", views: 6013 }, { month: "202507", views: 5054 }, { month: "202508", views: 5618 }, { month: "202509", views: 5100 }, { month: "202510", views: 4887 }, { month: "202511", views: 4891 }, { month: "202512", views: 4651 }, { month: "202601", views: 5611 }, { month: "202602", views: 4900 }, { month: "202603", views: 5802 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11611,6 +11876,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "compound", venation: "pinnate", margin: "serrate", shape: "linear", habit: "herb", deciduous: "deciduous", petalCount: 5, petalFusion: "free",
     habitat: "cultivated", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", stamenCount: "5" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニンジン", totalViews: 58321, window: "202504-202603", months: [{ month: "202504", views: 4809 }, { month: "202505", views: 6962 }, { month: "202506", views: 6498 }, { month: "202507", views: 4205 }, { month: "202508", views: 4405 }, { month: "202509", views: 4289 }, { month: "202510", views: 4300 }, { month: "202511", views: 4002 }, { month: "202512", views: 7066 }, { month: "202601", views: 4692 }, { month: "202602", views: 3603 }, { month: "202603", views: 3490 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11646,6 +11912,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "compound", venation: "pinnate", margin: "entire", shape: "round", habit: "herb", deciduous: "deciduous", petalCount: 5, petalFusion: "fused",
     habitat: "cultivated", stipules: "absent", ovaryPosition: "superior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トマト", totalViews: 133451, window: "202504-202603", months: [{ month: "202504", views: 11369 }, { month: "202505", views: 14882 }, { month: "202506", views: 14922 }, { month: "202507", views: 14656 }, { month: "202508", views: 13831 }, { month: "202509", views: 12897 }, { month: "202510", views: 9832 }, { month: "202511", views: 8404 }, { month: "202512", views: 7474 }, { month: "202601", views: 8371 }, { month: "202602", views: 7364 }, { month: "202603", views: 9449 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11681,6 +11948,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "linear", habit: "vine", deciduous: "deciduous", petalCount: 5, petalFusion: "fused",
     habitat: "cultivated", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キュウリ", totalViews: 73439, window: "202504-202603", months: [{ month: "202504", views: 5999 }, { month: "202505", views: 9562 }, { month: "202506", views: 10448 }, { month: "202507", views: 11146 }, { month: "202508", views: 9431 }, { month: "202509", views: 5526 }, { month: "202510", views: 4240 }, { month: "202511", views: 3641 }, { month: "202512", views: 3213 }, { month: "202601", views: 3109 }, { month: "202602", views: 3427 }, { month: "202603", views: 3697 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11716,6 +11984,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "linear", habit: "herb", deciduous: "deciduous", petalCount: 3, petalFusion: "free",
     habitat: "cultivated", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", aromatic: "none" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タマネギ", totalViews: 68533, window: "202504-202603", months: [{ month: "202504", views: 7160 }, { month: "202505", views: 8788 }, { month: "202506", views: 6897 }, { month: "202507", views: 5388 }, { month: "202508", views: 5421 }, { month: "202509", views: 5365 }, { month: "202510", views: 5500 }, { month: "202511", views: 5229 }, { month: "202512", views: 4803 }, { month: "202601", views: 4709 }, { month: "202602", views: 4482 }, { month: "202603", views: 4791 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11751,6 +12020,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "compound", venation: "pinnate", margin: "entire", shape: "ovate", habit: "herb", deciduous: "deciduous", petalCount: 5, petalFusion: "fused",
     habitat: "cultivated", stipules: "absent", ovaryPosition: "superior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ジャガイモ", totalViews: 160062, window: "202504-202603", months: [{ month: "202504", views: 13301 }, { month: "202505", views: 16940 }, { month: "202506", views: 16684 }, { month: "202507", views: 13651 }, { month: "202508", views: 14501 }, { month: "202509", views: 12849 }, { month: "202510", views: 12535 }, { month: "202511", views: 12875 }, { month: "202512", views: 11524 }, { month: "202601", views: 11863 }, { month: "202602", views: 11139 }, { month: "202603", views: 12200 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11786,6 +12056,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", shape: "ovate", habit: "herb", deciduous: "deciduous", petalFusion: "none",
     habitat: "cultivated", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホウレンソウ", totalViews: 65773, window: "202504-202603", months: [{ month: "202504", views: 6586 }, { month: "202505", views: 6388 }, { month: "202506", views: 5012 }, { month: "202507", views: 4111 }, { month: "202508", views: 4460 }, { month: "202509", views: 4663 }, { month: "202510", views: 4857 }, { month: "202511", views: 5704 }, { month: "202512", views: 5923 }, { month: "202601", views: 6636 }, { month: "202602", views: 5528 }, { month: "202603", views: 5905 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11821,6 +12092,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "serrate", shape: "cordate", habit: "herb", deciduous: "deciduous", petalCount: 5, petalFusion: "fused",
     habitat: "cultivated", ovaryPosition: "inferior", stamenCount: "1-2" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゴボウ", totalViews: 68781, window: "202504-202603", months: [{ month: "202504", views: 5641 }, { month: "202505", views: 6042 }, { month: "202506", views: 5424 }, { month: "202507", views: 4901 }, { month: "202508", views: 5557 }, { month: "202509", views: 5198 }, { month: "202510", views: 7122 }, { month: "202511", views: 6294 }, { month: "202512", views: 6356 }, { month: "202601", views: 6416 }, { month: "202602", views: 4802 }, { month: "202603", views: 5028 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11856,6 +12128,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "linear", habit: "herb", deciduous: "deciduous", petalCount: 3, petalFusion: "free",
     habitat: "cultivated", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", aromatic: "none" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ネギ", totalViews: 70953, window: "202504-202603", months: [{ month: "202504", views: 6659 }, { month: "202505", views: 7685 }, { month: "202506", views: 6254 }, { month: "202507", views: 4672 }, { month: "202508", views: 5106 }, { month: "202509", views: 5312 }, { month: "202510", views: 5562 }, { month: "202511", views: 5559 }, { month: "202512", views: 5981 }, { month: "202601", views: 6241 }, { month: "202602", views: 5486 }, { month: "202603", views: 6436 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11891,6 +12164,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "linear", habit: "herb", deciduous: "deciduous", petalCount: 3, petalFusion: "free",
     habitat: "cultivated", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", aromatic: "none" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニンニク", totalViews: 102209, window: "202504-202603", months: [{ month: "202504", views: 8639 }, { month: "202505", views: 10889 }, { month: "202506", views: 10467 }, { month: "202507", views: 8826 }, { month: "202508", views: 9184 }, { month: "202509", views: 9103 }, { month: "202510", views: 8647 }, { month: "202511", views: 8327 }, { month: "202512", views: 7242 }, { month: "202601", views: 7324 }, { month: "202602", views: 6533 }, { month: "202603", views: 7028 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11926,6 +12200,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "palmate", habit: "vine", deciduous: "deciduous", petalCount: 5, petalFusion: "fused",
     habitat: "cultivated", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニホンカボチャ", totalViews: 9375, window: "202504-202603", months: [{ month: "202504", views: 546 }, { month: "202505", views: 708 }, { month: "202506", views: 710 }, { month: "202507", views: 879 }, { month: "202508", views: 1001 }, { month: "202509", views: 1100 }, { month: "202510", views: 1329 }, { month: "202511", views: 814 }, { month: "202512", views: 792 }, { month: "202601", views: 609 }, { month: "202602", views: 484 }, { month: "202603", views: 403 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -11961,6 +12236,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", dissection: "dissected", shape: "cordate", habit: "vine", deciduous: "deciduous", petalCount: 5, petalFusion: "fused",
     habitat: "cultivated", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "5", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サツマイモ", totalViews: 137742, window: "202504-202603", months: [{ month: "202504", views: 9056 }, { month: "202505", views: 11188 }, { month: "202506", views: 9241 }, { month: "202507", views: 8062 }, { month: "202508", views: 9980 }, { month: "202509", views: 12813 }, { month: "202510", views: 24234 }, { month: "202511", views: 15145 }, { month: "202512", views: 11165 }, { month: "202601", views: 10065 }, { month: "202602", views: 8415 }, { month: "202603", views: 8378 }] },
     review: { status: "ai_generated" },
   },
 
@@ -11999,6 +12275,7 @@ export const plants: Plant[] = [
     floweringSeason: "winter",
     habitat: "cultivated", venation: "pinnate", petalFusion: "fused", flowerSymmetry: "actinomorphic", aromatic: "aromatic" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウンシュウミカン", totalViews: 92553, window: "202504-202603", months: [{ month: "202504", views: 6204 }, { month: "202505", views: 6863 }, { month: "202506", views: 5752 }, { month: "202507", views: 5286 }, { month: "202508", views: 6304 }, { month: "202509", views: 5841 }, { month: "202510", views: 7587 }, { month: "202511", views: 11676 }, { month: "202512", views: 13965 }, { month: "202601", views: 10422 }, { month: "202602", views: 6720 }, { month: "202603", views: 5933 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12036,6 +12313,7 @@ export const plants: Plant[] = [
     floweringSeason: "fall",
     habitat: "cultivated", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "リンゴ", totalViews: 124023, window: "202504-202603", months: [{ month: "202504", views: 9555 }, { month: "202505", views: 10955 }, { month: "202506", views: 9764 }, { month: "202507", views: 9280 }, { month: "202508", views: 10000 }, { month: "202509", views: 10826 }, { month: "202510", views: 11712 }, { month: "202511", views: 13075 }, { month: "202512", views: 11113 }, { month: "202601", views: 10428 }, { month: "202602", views: 8901 }, { month: "202603", views: 8414 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12073,6 +12351,7 @@ export const plants: Plant[] = [
     floweringSeason: "spring",
     habitat: "cultivated", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "モモ", totalViews: 77872, window: "202504-202603", months: [{ month: "202504", views: 6856 }, { month: "202505", views: 6073 }, { month: "202506", views: 7427 }, { month: "202507", views: 10572 }, { month: "202508", views: 11322 }, { month: "202509", views: 6529 }, { month: "202510", views: 4617 }, { month: "202511", views: 4321 }, { month: "202512", views: 4003 }, { month: "202601", views: 4215 }, { month: "202602", views: 4805 }, { month: "202603", views: 7132 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12110,6 +12389,7 @@ export const plants: Plant[] = [
     floweringSeason: "fall",
     habitat: "cultivated", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマナシ", totalViews: 13924, window: "202504-202603", months: [{ month: "202504", views: 1107 }, { month: "202505", views: 1012 }, { month: "202506", views: 765 }, { month: "202507", views: 936 }, { month: "202508", views: 1254 }, { month: "202509", views: 3023 }, { month: "202510", views: 2023 }, { month: "202511", views: 1137 }, { month: "202512", views: 716 }, { month: "202601", views: 703 }, { month: "202602", views: 516 }, { month: "202603", views: 732 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12147,6 +12427,7 @@ export const plants: Plant[] = [
     floweringSeason: "spring",
     habitat: "cultivated", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イチゴ", totalViews: 106812, window: "202504-202603", months: [{ month: "202504", views: 12853 }, { month: "202505", views: 11866 }, { month: "202506", views: 8526 }, { month: "202507", views: 6471 }, { month: "202508", views: 5932 }, { month: "202509", views: 12328 }, { month: "202510", views: 6400 }, { month: "202511", views: 5914 }, { month: "202512", views: 7145 }, { month: "202601", views: 9083 }, { month: "202602", views: 9992 }, { month: "202603", views: 10302 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12184,6 +12465,7 @@ export const plants: Plant[] = [
     floweringSeason: "summer",
     habitat: "cultivated", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スイカ", totalViews: 83753, window: "202504-202603", months: [{ month: "202504", views: 4308 }, { month: "202505", views: 7322 }, { month: "202506", views: 11126 }, { month: "202507", views: 16458 }, { month: "202508", views: 15695 }, { month: "202509", views: 6581 }, { month: "202510", views: 4149 }, { month: "202511", views: 3880 }, { month: "202512", views: 3481 }, { month: "202601", views: 3452 }, { month: "202602", views: 3358 }, { month: "202603", views: 3943 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12220,6 +12502,7 @@ export const plants: Plant[] = [
     traits: { leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "serrate", shape: "cordate", habit: "herb", deciduous: "deciduous", petalCount: 4, petalFusion: "free",
     habitat: "cultivated",},
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ワサビ", totalViews: 81614, window: "202504-202603", months: [{ month: "202504", views: 8814 }, { month: "202505", views: 9034 }, { month: "202506", views: 7794 }, { month: "202507", views: 6083 }, { month: "202508", views: 7399 }, { month: "202509", views: 6186 }, { month: "202510", views: 6202 }, { month: "202511", views: 6041 }, { month: "202512", views: 5809 }, { month: "202601", views: 6131 }, { month: "202602", views: 5115 }, { month: "202603", views: 7006 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12255,6 +12538,7 @@ export const plants: Plant[] = [
     enTags: ["Spice", "Edible", "Medicinal", "Native to Japan", "Garden tree", "Deciduous"],
     traits: {  deciduous: "deciduous", leafArr: "opp", leafType: "compound", venation: "pinnate", petalFusion: "fused", flowerSymmetry: "actinomorphic", aromatic: "aromatic" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サンショウ", totalViews: 82343, window: "202504-202603", months: [{ month: "202504", views: 9322 }, { month: "202505", views: 11890 }, { month: "202506", views: 9382 }, { month: "202507", views: 7028 }, { month: "202508", views: 6638 }, { month: "202509", views: 6701 }, { month: "202510", views: 6000 }, { month: "202511", views: 5140 }, { month: "202512", views: 5552 }, { month: "202601", views: 5298 }, { month: "202602", views: 4463 }, { month: "202603", views: 4929 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12291,6 +12575,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "opp", leafType: "simple", venation: "pinnate", margin: "serrate", shape: "ovate", habit: "herb", deciduous: "deciduous", petalCount: 5, petalFusion: "fused",
     habitat: "cultivated", stipules: "absent", ovaryPosition: "superior", compoundType: "pinnate", stemSection: "square", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シソ", totalViews: 67119, window: "202504-202603", months: [{ month: "202504", views: 5781 }, { month: "202505", views: 6752 }, { month: "202506", views: 8722 }, { month: "202507", views: 8322 }, { month: "202508", views: 6941 }, { month: "202509", views: 5994 }, { month: "202510", views: 4945 }, { month: "202511", views: 3873 }, { month: "202512", views: 3481 }, { month: "202601", views: 3397 }, { month: "202602", views: 3111 }, { month: "202603", views: 5800 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12327,6 +12612,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "needle", habit: "herb", deciduous: "deciduous",
     habitat: "cultivated", petalCount: 6, dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "inferior", plantSex: "hermaphrodite", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ショウガ", totalViews: 57409, window: "202504-202603", months: [{ month: "202504", views: 4382 }, { month: "202505", views: 5183 }, { month: "202506", views: 5007 }, { month: "202507", views: 4329 }, { month: "202508", views: 4912 }, { month: "202509", views: 4693 }, { month: "202510", views: 4764 }, { month: "202511", views: 4970 }, { month: "202512", views: 4204 }, { month: "202601", views: 5945 }, { month: "202602", views: 4837 }, { month: "202603", views: 4183 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12363,6 +12649,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "compound", venation: "pinnate", margin: "serrate", shape: "ovate", habit: "tree", deciduous: "evergreen", petalCount: 5, petalFusion: "free",
     habitat: "cultivated", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "バラ", totalViews: 71301, window: "202504-202603", months: [{ month: "202504", views: 7228 }, { month: "202505", views: 12464 }, { month: "202506", views: 7201 }, { month: "202507", views: 5154 }, { month: "202508", views: 5508 }, { month: "202509", views: 5000 }, { month: "202510", views: 5216 }, { month: "202511", views: 5375 }, { month: "202512", views: 4894 }, { month: "202601", views: 4578 }, { month: "202602", views: 4153 }, { month: "202603", views: 4530 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12400,6 +12687,7 @@ export const plants: Plant[] = [
     floweringSeason: "spring",
     habitat: "cultivated", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "open" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "チューリップ", totalViews: 74469, window: "202504-202603", months: [{ month: "202504", views: 16055 }, { month: "202505", views: 10505 }, { month: "202506", views: 6103 }, { month: "202507", views: 3982 }, { month: "202508", views: 3769 }, { month: "202509", views: 4135 }, { month: "202510", views: 3491 }, { month: "202511", views: 4038 }, { month: "202512", views: 3518 }, { month: "202601", views: 4677 }, { month: "202602", views: 5138 }, { month: "202603", views: 9058 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12437,6 +12725,7 @@ export const plants: Plant[] = [
     floweringSeason: "fall",
     habitat: "cultivated", ovaryPosition: "inferior", stamenCount: "1-2" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キク", totalViews: 50736, window: "202504-202603", months: [{ month: "202504", views: 3816 }, { month: "202505", views: 4791 }, { month: "202506", views: 3557 }, { month: "202507", views: 3310 }, { month: "202508", views: 4021 }, { month: "202509", views: 5320 }, { month: "202510", views: 5406 }, { month: "202511", views: 6776 }, { month: "202512", views: 3790 }, { month: "202601", views: 3660 }, { month: "202602", views: 3062 }, { month: "202603", views: 3227 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12474,6 +12763,7 @@ export const plants: Plant[] = [
     floweringSeason: "spring",
     habitat: "cultivated", ovaryPosition: "superior" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フジ", totalViews: 3677, window: "202504-202603", months: [{ month: "202504", views: 480 }, { month: "202505", views: 423 }, { month: "202506", views: 255 }, { month: "202507", views: 255 }, { month: "202508", views: 286 }, { month: "202509", views: 233 }, { month: "202510", views: 203 }, { month: "202511", views: 218 }, { month: "202512", views: 272 }, { month: "202601", views: 288 }, { month: "202602", views: 269 }, { month: "202603", views: 495 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12511,6 +12801,7 @@ export const plants: Plant[] = [
     floweringSeason: "spring",
     habitat: "cultivated", stipules: "absent", stamenCount: "3-4" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツツジ", totalViews: 98980, window: "202504-202603", months: [{ month: "202504", views: 28887 }, { month: "202505", views: 23998 }, { month: "202506", views: 8209 }, { month: "202507", views: 4629 }, { month: "202508", views: 4411 }, { month: "202509", views: 3722 }, { month: "202510", views: 3854 }, { month: "202511", views: 3910 }, { month: "202512", views: 3628 }, { month: "202601", views: 4012 }, { month: "202602", views: 3960 }, { month: "202603", views: 5760 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12548,6 +12839,7 @@ export const plants: Plant[] = [
     floweringSeason: "winter",
     habitat: "cultivated", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", aromatic: "none" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スイセン", totalViews: 8549, window: "202504-202603", months: [{ month: "202504", views: 584 }, { month: "202505", views: 792 }, { month: "202506", views: 540 }, { month: "202507", views: 519 }, { month: "202508", views: 538 }, { month: "202509", views: 510 }, { month: "202510", views: 531 }, { month: "202511", views: 520 }, { month: "202512", views: 609 }, { month: "202601", views: 1394 }, { month: "202602", views: 946 }, { month: "202603", views: 1066 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12583,6 +12875,7 @@ export const plants: Plant[] = [
     enTags: ["Bamboo", "Edible", "Building material", "Craft material", "Introduced", "Herb (woody)"],
     traits: {  leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "needle", habit: "herb", deciduous: "deciduous", petalFusion: "none", dissection: "entire", ovaryPosition: "superior", stemSection: "round", glandDotted: "absent" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "モウソウチク", totalViews: 51817, window: "202504-202603", months: [{ month: "202504", views: 7797 }, { month: "202505", views: 5027 }, { month: "202506", views: 3125 }, { month: "202507", views: 2074 }, { month: "202508", views: 1933 }, { month: "202509", views: 21025 }, { month: "202510", views: 1962 }, { month: "202511", views: 1721 }, { month: "202512", views: 1755 }, { month: "202601", views: 1890 }, { month: "202602", views: 1527 }, { month: "202603", views: 1981 }] },
     review: { status: "ai_generated" },
   },
   {
@@ -12619,6 +12912,7 @@ export const plants: Plant[] = [
     traits: {  leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "serrate", shape: "round", habit: "tree", deciduous: "deciduous", petalFusion: "none",
     floweringSeason: "fall", petalCount: 4, stipules: "present", ovaryPosition: "inferior", stamenCount: "3-4", venationNet: "reticulate" },
     sources: [{ type: "claude_ai", label: "Claude AI生成（未確認）" }],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ブナ", totalViews: 56475, window: "202504-202603", months: [{ month: "202504", views: 3386 }, { month: "202505", views: 4444 }, { month: "202506", views: 3943 }, { month: "202507", views: 4207 }, { month: "202508", views: 4436 }, { month: "202509", views: 5631 }, { month: "202510", views: 6972 }, { month: "202511", views: 10557 }, { month: "202512", views: 4002 }, { month: "202601", views: 3243 }, { month: "202602", views: 2983 }, { month: "202603", views: 2671 }] },
     review: { status: "ai_generated" },
   },
 
@@ -12641,6 +12935,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["木本", "常緑樹", "庭木", "街路樹", "赤い実"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クロガネモチ", totalViews: 34010, window: "202504-202603", months: [{ month: "202504", views: 2054 }, { month: "202505", views: 3158 }, { month: "202506", views: 2244 }, { month: "202507", views: 1436 }, { month: "202508", views: 1535 }, { month: "202509", views: 1662 }, { month: "202510", views: 2534 }, { month: "202511", views: 4597 }, { month: "202512", views: 4694 }, { month: "202601", views: 4559 }, { month: "202602", views: 2838 }, { month: "202603", views: 2699 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12661,6 +12956,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["木本", "落葉樹", "紅葉", "公園樹", "外来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フウ", totalViews: 10092, window: "202504-202603", months: [{ month: "202504", views: 714 }, { month: "202505", views: 854 }, { month: "202506", views: 917 }, { month: "202507", views: 569 }, { month: "202508", views: 653 }, { month: "202509", views: 510 }, { month: "202510", views: 756 }, { month: "202511", views: 1928 }, { month: "202512", views: 1259 }, { month: "202601", views: 713 }, { month: "202602", views: 574 }, { month: "202603", views: 645 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12682,6 +12978,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "照葉樹林", "どんぐり", "在来種"],
       traits: { leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: 4, stipules: "present", ovaryPosition: "inferior", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スダジイ", totalViews: 27147, window: "202504-202603", months: [{ month: "202504", views: 1927 }, { month: "202505", views: 3435 }, { month: "202506", views: 1845 }, { month: "202507", views: 1484 }, { month: "202508", views: 1753 }, { month: "202509", views: 2210 }, { month: "202510", views: 3107 }, { month: "202511", views: 3107 }, { month: "202512", views: 2302 }, { month: "202601", views: 2452 }, { month: "202602", views: 1805 }, { month: "202603", views: 1720 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12703,6 +13000,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "林床", "サトイモ科", "有毒"],
       traits: { leafArr: "alt", ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ムサシアブミ", totalViews: 14102, window: "202504-202603", months: [{ month: "202504", views: 2936 }, { month: "202505", views: 2018 }, { month: "202506", views: 546 }, { month: "202507", views: 4033 }, { month: "202508", views: 594 }, { month: "202509", views: 407 }, { month: "202510", views: 371 }, { month: "202511", views: 966 }, { month: "202512", views: 604 }, { month: "202601", views: 431 }, { month: "202602", views: 283 }, { month: "202603", views: 913 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12723,6 +13021,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["木本", "常緑樹", "社寺", "雌雄異株", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒサカキ", totalViews: 23876, window: "202504-202603", months: [{ month: "202504", views: 2845 }, { month: "202505", views: 2212 }, { month: "202506", views: 1683 }, { month: "202507", views: 1212 }, { month: "202508", views: 1514 }, { month: "202509", views: 1491 }, { month: "202510", views: 1543 }, { month: "202511", views: 1947 }, { month: "202512", views: 1941 }, { month: "202601", views: 1678 }, { month: "202602", views: 1287 }, { month: "202603", views: 4523 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12743,6 +13042,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["木本", "常緑低木", "林床", "庭木", "雌雄異株"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アオキ", totalViews: 2070, window: "202504-202603", months: [{ month: "202504", views: 228 }, { month: "202505", views: 195 }, { month: "202506", views: 143 }, { month: "202507", views: 120 }, { month: "202508", views: 142 }, { month: "202509", views: 170 }, { month: "202510", views: 178 }, { month: "202511", views: 164 }, { month: "202512", views: 158 }, { month: "202601", views: 182 }, { month: "202602", views: 205 }, { month: "202603", views: 185 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12764,6 +13064,7 @@ export const plants: Plant[] = [
       tags: ["木本", "針葉樹", "落葉樹", "黄葉", "造林木"],
       traits: { habit: "tree", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "needle", petalFusion: "none", stipules: "absent", ovaryPosition: "superior", plantSex: "monoecious", aromatic: "aromatic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カラマツ", totalViews: 26018, window: "202504-202603", months: [{ month: "202504", views: 2042 }, { month: "202505", views: 2290 }, { month: "202506", views: 2044 }, { month: "202507", views: 1867 }, { month: "202508", views: 2118 }, { month: "202509", views: 2248 }, { month: "202510", views: 2745 }, { month: "202511", views: 3514 }, { month: "202512", views: 2204 }, { month: "202601", views: 1717 }, { month: "202602", views: 1520 }, { month: "202603", views: 1709 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12806,6 +13107,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "照葉樹林", "海岸", "在来種"],
       traits: { leafType: "simple", venation: "pinnate", deciduous: "evergreen", stipules: "absent", flowerSymmetry: "actinomorphic", aromatic: "aromatic", stamenCount: "3-4", venationNet: "reticulate", glandDotted: "present" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タブノキ", totalViews: 31938, window: "202504-202603", months: [{ month: "202504", views: 3307 }, { month: "202505", views: 3816 }, { month: "202506", views: 2827 }, { month: "202507", views: 2466 }, { month: "202508", views: 2716 }, { month: "202509", views: 2328 }, { month: "202510", views: 2356 }, { month: "202511", views: 3250 }, { month: "202512", views: 2271 }, { month: "202601", views: 2369 }, { month: "202602", views: 2026 }, { month: "202603", views: 2206 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12847,6 +13149,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "マングローブ", "亜熱帯", "在来種"],
       traits: { leafType: "simple", venation: "pinnate", stipules: "present", dissection: "entire", flowerSymmetry: "actinomorphic", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オヒルギ", totalViews: 4180, window: "202504-202603", months: [{ month: "202504", views: 316 }, { month: "202505", views: 325 }, { month: "202506", views: 323 }, { month: "202507", views: 348 }, { month: "202508", views: 400 }, { month: "202509", views: 399 }, { month: "202510", views: 323 }, { month: "202511", views: 372 }, { month: "202512", views: 315 }, { month: "202601", views: 370 }, { month: "202602", views: 335 }, { month: "202603", views: 354 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12868,6 +13171,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "マングローブ", "亜熱帯", "在来種"],
       traits: { leafType: "simple", venation: "pinnate", stipules: "present", dissection: "entire", flowerSymmetry: "actinomorphic", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤエヤマヒルギ", totalViews: 2461, window: "202504-202603", months: [{ month: "202504", views: 187 }, { month: "202505", views: 234 }, { month: "202506", views: 251 }, { month: "202507", views: 213 }, { month: "202508", views: 227 }, { month: "202509", views: 212 }, { month: "202510", views: 241 }, { month: "202511", views: 210 }, { month: "202512", views: 176 }, { month: "202601", views: 199 }, { month: "202602", views: 168 }, { month: "202603", views: 143 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12888,6 +13192,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["シダ", "冬緑性", "林床", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオハナワラビ", totalViews: 598, window: "202504-202603", months: [{ month: "202504", views: 28 }, { month: "202505", views: 30 }, { month: "202506", views: 20 }, { month: "202507", views: 16 }, { month: "202508", views: 20 }, { month: "202509", views: 36 }, { month: "202510", views: 93 }, { month: "202511", views: 114 }, { month: "202512", views: 77 }, { month: "202601", views: 78 }, { month: "202602", views: 49 }, { month: "202603", views: 37 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12909,6 +13214,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "湿地", "有毒", "黄色花"],
       traits: { petalFusion: "free", ovaryPosition: "superior", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キツネノボタン", totalViews: 7759, window: "202504-202603", months: [{ month: "202504", views: 1713 }, { month: "202505", views: 1573 }, { month: "202506", views: 757 }, { month: "202507", views: 699 }, { month: "202508", views: 504 }, { month: "202509", views: 400 }, { month: "202510", views: 344 }, { month: "202511", views: 292 }, { month: "202512", views: 254 }, { month: "202601", views: 286 }, { month: "202602", views: 279 }, { month: "202603", views: 658 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12930,6 +13236,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉低木", "白花", "山地", "在来種"],
       traits: { leafType: "simple", petalCount: "many", stipules: "absent", flowerSymmetry: "actinomorphic", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マルバウツギ", totalViews: 5329, window: "202504-202603", months: [{ month: "202504", views: 523 }, { month: "202505", views: 2556 }, { month: "202506", views: 948 }, { month: "202507", views: 275 }, { month: "202508", views: 177 }, { month: "202509", views: 146 }, { month: "202510", views: 155 }, { month: "202511", views: 152 }, { month: "202512", views: 114 }, { month: "202601", views: 77 }, { month: "202602", views: 73 }, { month: "202603", views: 133 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -12972,6 +13279,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉小高木", "イチジク属", "雌雄異株", "在来種"],
       traits: { leafType: "simple", deciduous: "evergreen", stipules: "present", flowerSymmetry: "actinomorphic", latex: "present", stamenCount: "1-2", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イヌビワ", totalViews: 12301, window: "202504-202603", months: [{ month: "202504", views: 829 }, { month: "202505", views: 1037 }, { month: "202506", views: 1169 }, { month: "202507", views: 1255 }, { month: "202508", views: 1533 }, { month: "202509", views: 1235 }, { month: "202510", views: 1183 }, { month: "202511", views: 1259 }, { month: "202512", views: 1164 }, { month: "202601", views: 646 }, { month: "202602", views: 476 }, { month: "202603", views: 515 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13014,6 +13322,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "紅葉", "かぶれ", "有用植物"],
       traits: { leafArr: "alt", venation: "pinnate", margin: "entire", petalFusion: "fused", stipules: "absent", flowerSymmetry: "actinomorphic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハゼノキ", totalViews: 42442, window: "202504-202603", months: [{ month: "202504", views: 1779 }, { month: "202505", views: 4881 }, { month: "202506", views: 3972 }, { month: "202507", views: 3276 }, { month: "202508", views: 3456 }, { month: "202509", views: 4160 }, { month: "202510", views: 3964 }, { month: "202511", views: 5458 }, { month: "202512", views: 3381 }, { month: "202601", views: 3032 }, { month: "202602", views: 2450 }, { month: "202603", views: 2633 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13034,6 +13343,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["草本", "多年草", "オレンジ花", "在来種", "野草"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ワスレグサ", totalViews: 34990, window: "202504-202603", months: [{ month: "202504", views: 3056 }, { month: "202505", views: 3303 }, { month: "202506", views: 4293 }, { month: "202507", views: 8871 }, { month: "202508", views: 3146 }, { month: "202509", views: 2893 }, { month: "202510", views: 2012 }, { month: "202511", views: 1348 }, { month: "202512", views: 1290 }, { month: "202601", views: 1424 }, { month: "202602", views: 1179 }, { month: "202603", views: 2175 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13055,6 +13365,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "サクラ", "白花", "桜餅"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオシマザクラ", totalViews: 35795, window: "202504-202603", months: [{ month: "202504", views: 12800 }, { month: "202505", views: 2532 }, { month: "202506", views: 1184 }, { month: "202507", views: 858 }, { month: "202508", views: 793 }, { month: "202509", views: 983 }, { month: "202510", views: 894 }, { month: "202511", views: 855 }, { month: "202512", views: 1130 }, { month: "202601", views: 1192 }, { month: "202602", views: 2352 }, { month: "202603", views: 10222 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13075,6 +13386,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["草本", "多年草", "湿地", "白花", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ムラサキサギゴケ", totalViews: 12031, window: "202504-202603", months: [{ month: "202504", views: 4596 }, { month: "202505", views: 3637 }, { month: "202506", views: 835 }, { month: "202507", views: 420 }, { month: "202508", views: 357 }, { month: "202509", views: 360 }, { month: "202510", views: 308 }, { month: "202511", views: 235 }, { month: "202512", views: 173 }, { month: "202601", views: 184 }, { month: "202602", views: 183 }, { month: "202603", views: 743 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13095,6 +13407,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["木本", "落葉樹", "紅葉", "街路樹", "外来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "モミジバフウ", totalViews: 25938, window: "202504-202603", months: [{ month: "202504", views: 1850 }, { month: "202505", views: 2096 }, { month: "202506", views: 1947 }, { month: "202507", views: 1046 }, { month: "202508", views: 1049 }, { month: "202509", views: 1183 }, { month: "202510", views: 1903 }, { month: "202511", views: 6839 }, { month: "202512", views: 2566 }, { month: "202601", views: 2341 }, { month: "202602", views: 1523 }, { month: "202603", views: 1595 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13116,6 +13429,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "照葉樹林", "雌雄異株", "在来種"],
       traits: { leafType: "simple", venation: "pinnate", deciduous: "evergreen", stipules: "absent", flowerSymmetry: "actinomorphic", aromatic: "aromatic", stamenCount: "3-4", venationNet: "reticulate", glandDotted: "present" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シロダモ", totalViews: 9874, window: "202504-202603", months: [{ month: "202504", views: 1384 }, { month: "202505", views: 1678 }, { month: "202506", views: 637 }, { month: "202507", views: 496 }, { month: "202508", views: 571 }, { month: "202509", views: 532 }, { month: "202510", views: 754 }, { month: "202511", views: 1310 }, { month: "202512", views: 741 }, { month: "202601", views: 699 }, { month: "202602", views: 500 }, { month: "202603", views: 572 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13137,6 +13451,7 @@ export const plants: Plant[] = [
       tags: ["水生植物", "浮葉植物", "食用", "外来種"],
       traits: { leafType: "simple", venation: "pinnate", margin: "entire", petalCount: 3, dissection: "entire", ovaryPosition: "superior", plantSex: "hermaphrodite", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オニビシ (植物)", totalViews: 4169, window: "202504-202603", months: [{ month: "202504", views: 393 }, { month: "202505", views: 515 }, { month: "202506", views: 395 }, { month: "202507", views: 352 }, { month: "202508", views: 447 }, { month: "202509", views: 348 }, { month: "202510", views: 455 }, { month: "202511", views: 392 }, { month: "202512", views: 259 }, { month: "202601", views: 245 }, { month: "202602", views: 173 }, { month: "202603", views: 195 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13157,6 +13472,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["シダ", "常緑性", "着生植物", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アオネカズラ", totalViews: 974, window: "202504-202603", months: [{ month: "202504", views: 106 }, { month: "202505", views: 98 }, { month: "202506", views: 77 }, { month: "202507", views: 60 }, { month: "202508", views: 70 }, { month: "202509", views: 75 }, { month: "202510", views: 78 }, { month: "202511", views: 94 }, { month: "202512", views: 85 }, { month: "202601", views: 98 }, { month: "202602", views: 63 }, { month: "202603", views: 70 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13178,6 +13494,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "サクラ", "山地", "在来種"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマザクラ", totalViews: 39004, window: "202504-202603", months: [{ month: "202504", views: 12901 }, { month: "202505", views: 3300 }, { month: "202506", views: 1818 }, { month: "202507", views: 1399 }, { month: "202508", views: 1464 }, { month: "202509", views: 1471 }, { month: "202510", views: 2067 }, { month: "202511", views: 1578 }, { month: "202512", views: 1484 }, { month: "202601", views: 1823 }, { month: "202602", views: 2131 }, { month: "202603", views: 7568 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13199,6 +13516,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "照葉樹林", "どんぐり", "在来種"],
       traits: { leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: 4, stipules: "present", ovaryPosition: "inferior", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イチイガシ", totalViews: 6038, window: "202504-202603", months: [{ month: "202504", views: 554 }, { month: "202505", views: 595 }, { month: "202506", views: 488 }, { month: "202507", views: 385 }, { month: "202508", views: 427 }, { month: "202509", views: 499 }, { month: "202510", views: 570 }, { month: "202511", views: 632 }, { month: "202512", views: 598 }, { month: "202601", views: 543 }, { month: "202602", views: 343 }, { month: "202603", views: 404 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13220,6 +13538,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "山地", "食用", "在来種"],
       traits: { leafArr: "alt", venation: "pinnate", ovaryPosition: "superior", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トチノキ", totalViews: 46861, window: "202504-202603", months: [{ month: "202504", views: 3424 }, { month: "202505", views: 5969 }, { month: "202506", views: 3859 }, { month: "202507", views: 3326 }, { month: "202508", views: 3900 }, { month: "202509", views: 5370 }, { month: "202510", views: 4444 }, { month: "202511", views: 4375 }, { month: "202512", views: 3277 }, { month: "202601", views: 2939 }, { month: "202602", views: 2921 }, { month: "202603", views: 3057 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13241,6 +13560,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "照葉樹林", "どんぐり", "在来種"],
       traits: { leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: 4, stipules: "present", ovaryPosition: "inferior", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アラカシ", totalViews: 15392, window: "202504-202603", months: [{ month: "202504", views: 1386 }, { month: "202505", views: 1646 }, { month: "202506", views: 1040 }, { month: "202507", views: 960 }, { month: "202508", views: 1055 }, { month: "202509", views: 1139 }, { month: "202510", views: 1656 }, { month: "202511", views: 1852 }, { month: "202512", views: 1382 }, { month: "202601", views: 1356 }, { month: "202602", views: 1055 }, { month: "202603", views: 865 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13262,6 +13582,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "社寺", "葉書の木", "在来種"],
       traits: { leafType: "simple", venation: "pinnate", deciduous: "evergreen", petalFusion: "free", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タラヨウ", totalViews: 9315, window: "202504-202603", months: [{ month: "202504", views: 997 }, { month: "202505", views: 1266 }, { month: "202506", views: 742 }, { month: "202507", views: 574 }, { month: "202508", views: 535 }, { month: "202509", views: 535 }, { month: "202510", views: 741 }, { month: "202511", views: 898 }, { month: "202512", views: 765 }, { month: "202601", views: 933 }, { month: "202602", views: 531 }, { month: "202603", views: 798 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13283,6 +13604,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉低木", "山菜", "とげ", "在来種"],
       traits: { petalCount: 6 },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タラノキ", totalViews: 54462, window: "202504-202603", months: [{ month: "202504", views: 15000 }, { month: "202505", views: 11176 }, { month: "202506", views: 4040 }, { month: "202507", views: 2131 }, { month: "202508", views: 2187 }, { month: "202509", views: 2075 }, { month: "202510", views: 1706 }, { month: "202511", views: 1635 }, { month: "202512", views: 1369 }, { month: "202601", views: 2975 }, { month: "202602", views: 3921 }, { month: "202603", views: 6247 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13304,6 +13626,7 @@ export const plants: Plant[] = [
       tags: ["草本", "一年草", "湿地", "タデ科", "在来種"],
       traits: { leafType: "simple", venation: "pinnate", petalFusion: "fused", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミゾソバ", totalViews: 9760, window: "202504-202603", months: [{ month: "202504", views: 416 }, { month: "202505", views: 646 }, { month: "202506", views: 660 }, { month: "202507", views: 521 }, { month: "202508", views: 736 }, { month: "202509", views: 1336 }, { month: "202510", views: 2586 }, { month: "202511", views: 1302 }, { month: "202512", views: 568 }, { month: "202601", views: 335 }, { month: "202602", views: 275 }, { month: "202603", views: 379 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13325,6 +13648,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "柑橘", "果樹", "栽培"],
       traits: { venation: "pinnate", petalFusion: "fused", flowerSymmetry: "actinomorphic", aromatic: "aromatic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハッサク", totalViews: 32389, window: "202504-202603", months: [{ month: "202504", views: 3244 }, { month: "202505", views: 1979 }, { month: "202506", views: 1230 }, { month: "202507", views: 1157 }, { month: "202508", views: 1344 }, { month: "202509", views: 1139 }, { month: "202510", views: 1134 }, { month: "202511", views: 1488 }, { month: "202512", views: 2478 }, { month: "202601", views: 4827 }, { month: "202602", views: 7302 }, { month: "202603", views: 5067 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13346,6 +13670,7 @@ export const plants: Plant[] = [
       tags: ["草本", "越年草", "紫花", "緑肥", "外来種"],
       traits: { ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゲンゲ", totalViews: 35455, window: "202504-202603", months: [{ month: "202504", views: 8505 }, { month: "202505", views: 4809 }, { month: "202506", views: 2605 }, { month: "202507", views: 2114 }, { month: "202508", views: 2223 }, { month: "202509", views: 2060 }, { month: "202510", views: 2212 }, { month: "202511", views: 1876 }, { month: "202512", views: 1552 }, { month: "202601", views: 1813 }, { month: "202602", views: 2283 }, { month: "202603", views: 3403 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13367,6 +13692,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "どんぐり", "街路樹", "食用"],
       traits: { leafArr: "alt", leafType: "simple", venation: "pinnate", margin: "entire", petalCount: 4, stipules: "present", ovaryPosition: "inferior", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マテバシイ", totalViews: 19414, window: "202504-202603", months: [{ month: "202504", views: 1318 }, { month: "202505", views: 1984 }, { month: "202506", views: 1596 }, { month: "202507", views: 1092 }, { month: "202508", views: 1296 }, { month: "202509", views: 1822 }, { month: "202510", views: 2591 }, { month: "202511", views: 2466 }, { month: "202512", views: 1497 }, { month: "202601", views: 1437 }, { month: "202602", views: 1209 }, { month: "202603", views: 1106 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13388,6 +13714,7 @@ export const plants: Plant[] = [
       tags: ["イネ科", "ササ", "常緑", "庭園", "在来種"],
       traits: { leafArr: "alt", leafType: "simple", margin: "entire", petalFusion: "free", dissection: "entire", ovaryPosition: "superior", stemSection: "round", glandDotted: "absent" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クマザサ", totalViews: 20753, window: "202504-202603", months: [{ month: "202504", views: 1660 }, { month: "202505", views: 2734 }, { month: "202506", views: 1932 }, { month: "202507", views: 1778 }, { month: "202508", views: 1965 }, { month: "202509", views: 1542 }, { month: "202510", views: 1966 }, { month: "202511", views: 1754 }, { month: "202512", views: 1674 }, { month: "202601", views: 1373 }, { month: "202602", views: 1160 }, { month: "202603", views: 1215 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13409,6 +13736,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "果樹", "薬用", "栽培"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ビワ", totalViews: 60268, window: "202504-202603", months: [{ month: "202504", views: 4726 }, { month: "202505", views: 7820 }, { month: "202506", views: 16118 }, { month: "202507", views: 4265 }, { month: "202508", views: 2995 }, { month: "202509", views: 3572 }, { month: "202510", views: 3880 }, { month: "202511", views: 4011 }, { month: "202512", views: 3411 }, { month: "202601", views: 3375 }, { month: "202602", views: 2774 }, { month: "202603", views: 3321 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13429,6 +13757,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["シダ", "常緑性", "林床", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ベニシダ", totalViews: 3587, window: "202504-202603", months: [{ month: "202504", views: 421 }, { month: "202505", views: 547 }, { month: "202506", views: 393 }, { month: "202507", views: 275 }, { month: "202508", views: 298 }, { month: "202509", views: 206 }, { month: "202510", views: 265 }, { month: "202511", views: 224 }, { month: "202512", views: 211 }, { month: "202601", views: 294 }, { month: "202602", views: 230 }, { month: "202603", views: 223 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13450,6 +13779,7 @@ export const plants: Plant[] = [
       tags: ["草本", "球根", "帰化植物", "オレンジ花", "観賞用"],
       traits: { leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", petalCount: 6, dissection: "entire", plantSex: "hermaphrodite", venationNet: "open" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒメヒオウギズイセン", totalViews: 12983, window: "202504-202603", months: [{ month: "202504", views: 630 }, { month: "202505", views: 1806 }, { month: "202506", views: 2483 }, { month: "202507", views: 4944 }, { month: "202508", views: 1098 }, { month: "202509", views: 432 }, { month: "202510", views: 378 }, { month: "202511", views: 218 }, { month: "202512", views: 204 }, { month: "202601", views: 204 }, { month: "202602", views: 227 }, { month: "202603", views: 359 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13471,6 +13801,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑低木", "茶", "栽培", "白花"],
       traits: { leafArr: "alt", leafType: "simple", venation: "pinnate", deciduous: "evergreen", petalCount: "many", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "チャノキ", totalViews: 48706, window: "202504-202603", months: [{ month: "202504", views: 4027 }, { month: "202505", views: 5759 }, { month: "202506", views: 3862 }, { month: "202507", views: 3364 }, { month: "202508", views: 3921 }, { month: "202509", views: 3458 }, { month: "202510", views: 4356 }, { month: "202511", views: 5555 }, { month: "202512", views: 3944 }, { month: "202601", views: 3621 }, { month: "202602", views: 3500 }, { month: "202603", views: 3339 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13492,6 +13823,7 @@ export const plants: Plant[] = [
       tags: ["イネ科", "タケ", "庭園", "外来種"],
       traits: { leafArr: "alt", leafType: "simple", margin: "entire", petalFusion: "free", dissection: "entire", ovaryPosition: "superior", stemSection: "round", glandDotted: "absent" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホテイチク", totalViews: 6339, window: "202504-202603", months: [{ month: "202504", views: 996 }, { month: "202505", views: 1642 }, { month: "202506", views: 722 }, { month: "202507", views: 327 }, { month: "202508", views: 306 }, { month: "202509", views: 324 }, { month: "202510", views: 286 }, { month: "202511", views: 316 }, { month: "202512", views: 319 }, { month: "202601", views: 303 }, { month: "202602", views: 367 }, { month: "202603", views: 431 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13512,6 +13844,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["シダ", "常緑性", "着生植物", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミツデウラボシ", totalViews: 456, window: "202504-202603", months: [{ month: "202504", views: 34 }, { month: "202505", views: 60 }, { month: "202506", views: 28 }, { month: "202507", views: 62 }, { month: "202508", views: 43 }, { month: "202509", views: 27 }, { month: "202510", views: 35 }, { month: "202511", views: 35 }, { month: "202512", views: 32 }, { month: "202601", views: 41 }, { month: "202602", views: 39 }, { month: "202603", views: 20 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13532,6 +13865,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["コケ", "蘚類", "林床", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タマゴケ", totalViews: 1404, window: "202504-202603", months: [{ month: "202504", views: 259 }, { month: "202505", views: 218 }, { month: "202506", views: 114 }, { month: "202507", views: 74 }, { month: "202508", views: 84 }, { month: "202509", views: 76 }, { month: "202510", views: 59 }, { month: "202511", views: 81 }, { month: "202512", views: 58 }, { month: "202601", views: 70 }, { month: "202602", views: 76 }, { month: "202603", views: 235 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13553,6 +13887,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "湿地", "黄色花", "在来種"],
       traits: { petalFusion: "free", ovaryPosition: "superior", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "リュウキンカ", totalViews: 8045, window: "202504-202603", months: [{ month: "202504", views: 1554 }, { month: "202505", views: 891 }, { month: "202506", views: 594 }, { month: "202507", views: 369 }, { month: "202508", views: 242 }, { month: "202509", views: 208 }, { month: "202510", views: 205 }, { month: "202511", views: 255 }, { month: "202512", views: 269 }, { month: "202601", views: 373 }, { month: "202602", views: 919 }, { month: "202603", views: 2166 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13574,6 +13909,7 @@ export const plants: Plant[] = [
       tags: ["木本", "つる植物", "落葉性", "紅葉", "在来種"],
       traits: { leafArr: "alt", petalFusion: "free", stipules: "present", flowerSymmetry: "actinomorphic", ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツタ", totalViews: 22102, window: "202504-202603", months: [{ month: "202504", views: 1049 }, { month: "202505", views: 1794 }, { month: "202506", views: 2208 }, { month: "202507", views: 2088 }, { month: "202508", views: 2510 }, { month: "202509", views: 2316 }, { month: "202510", views: 2234 }, { month: "202511", views: 2531 }, { month: "202512", views: 1601 }, { month: "202601", views: 1312 }, { month: "202602", views: 1217 }, { month: "202603", views: 1242 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13594,6 +13930,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["草本", "栽培", "観賞用", "切り花", "外来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ストック", totalViews: 2523, window: "202504-202603", months: [{ month: "202504", views: 162 }, { month: "202505", views: 716 }, { month: "202506", views: 151 }, { month: "202507", views: 165 }, { month: "202508", views: 143 }, { month: "202509", views: 221 }, { month: "202510", views: 199 }, { month: "202511", views: 141 }, { month: "202512", views: 143 }, { month: "202601", views: 174 }, { month: "202602", views: 149 }, { month: "202603", views: 159 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13615,6 +13952,7 @@ export const plants: Plant[] = [
       tags: ["草本", "一年草", "イネ科", "雑草", "在来種"],
       traits: { leafArr: "alt", leafType: "simple", margin: "entire", petalFusion: "free", dissection: "entire", ovaryPosition: "superior", stemSection: "round", glandDotted: "absent" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アキノエノコログサ", totalViews: 1325, window: "202504-202603", months: [{ month: "202504", views: 53 }, { month: "202505", views: 71 }, { month: "202506", views: 76 }, { month: "202507", views: 156 }, { month: "202508", views: 210 }, { month: "202509", views: 271 }, { month: "202510", views: 186 }, { month: "202511", views: 113 }, { month: "202512", views: 60 }, { month: "202601", views: 53 }, { month: "202602", views: 38 }, { month: "202603", views: 38 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13676,6 +14014,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "林床", "紫花", "在来種"],
       traits: { leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", petalCount: 6, dissection: "entire", plantSex: "hermaphrodite", venationNet: "open" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シャガ", totalViews: 49060, window: "202504-202603", months: [{ month: "202504", views: 21267 }, { month: "202505", views: 13191 }, { month: "202506", views: 2409 }, { month: "202507", views: 1432 }, { month: "202508", views: 1387 }, { month: "202509", views: 1337 }, { month: "202510", views: 1313 }, { month: "202511", views: 1115 }, { month: "202512", views: 920 }, { month: "202601", views: 1131 }, { month: "202602", views: 1081 }, { month: "202603", views: 2477 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13697,6 +14036,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "白花", "庭木", "在来種"],
       traits: { leafArr: "alt", leafType: "simple", venation: "pinnate", deciduous: "evergreen", petalCount: "many", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒメシャラ", totalViews: 12023, window: "202504-202603", months: [{ month: "202504", views: 1056 }, { month: "202505", views: 1676 }, { month: "202506", views: 2252 }, { month: "202507", views: 1027 }, { month: "202508", views: 922 }, { month: "202509", views: 769 }, { month: "202510", views: 710 }, { month: "202511", views: 839 }, { month: "202512", views: 646 }, { month: "202601", views: 688 }, { month: "202602", views: 622 }, { month: "202603", views: 816 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13718,6 +14058,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "紅花", "庭木", "外来種"],
       traits: { leafType: "simple", venation: "pinnate", margin: "entire", petalCount: 3, dissection: "entire", ovaryPosition: "superior", plantSex: "hermaphrodite", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サルスベリ", totalViews: 78983, window: "202504-202603", months: [{ month: "202504", views: 3463 }, { month: "202505", views: 3437 }, { month: "202506", views: 3628 }, { month: "202507", views: 13934 }, { month: "202508", views: 23323 }, { month: "202509", views: 12557 }, { month: "202510", views: 4892 }, { month: "202511", views: 3275 }, { month: "202512", views: 2599 }, { month: "202601", views: 2504 }, { month: "202602", views: 2671 }, { month: "202603", views: 2700 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13739,6 +14080,7 @@ export const plants: Plant[] = [
       tags: ["木本", "つる植物", "紫花", "山地", "在来種"],
       traits: { ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマフジ", totalViews: 6757, window: "202504-202603", months: [{ month: "202504", views: 2053 }, { month: "202505", views: 2100 }, { month: "202506", views: 313 }, { month: "202507", views: 292 }, { month: "202508", views: 247 }, { month: "202509", views: 272 }, { month: "202510", views: 292 }, { month: "202511", views: 259 }, { month: "202512", views: 226 }, { month: "202601", views: 221 }, { month: "202602", views: 198 }, { month: "202603", views: 284 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13760,6 +14102,7 @@ export const plants: Plant[] = [
       tags: ["草本", "越年草", "帰化植物", "オレンジ花", "外来種"],
       traits: { petalCount: 6, petalFusion: "free", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "1-2", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナガミヒナゲシ", totalViews: 96992, window: "202504-202603", months: [{ month: "202504", views: 40237 }, { month: "202505", views: 40398 }, { month: "202506", views: 5710 }, { month: "202507", views: 1478 }, { month: "202508", views: 1472 }, { month: "202509", views: 924 }, { month: "202510", views: 914 }, { month: "202511", views: 990 }, { month: "202512", views: 761 }, { month: "202601", views: 1010 }, { month: "202602", views: 898 }, { month: "202603", views: 2200 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13781,6 +14124,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "社寺", "有毒", "在来種"],
       traits: { habit: "vine", leafArr: "alt", leafType: "simple", venation: "pinnate", petalCount: 5, petalFusion: "free", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", aromatic: "aromatic", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シキミ", totalViews: 76643, window: "202504-202603", months: [{ month: "202504", views: 7286 }, { month: "202505", views: 5645 }, { month: "202506", views: 4705 }, { month: "202507", views: 4117 }, { month: "202508", views: 9817 }, { month: "202509", views: 4933 }, { month: "202510", views: 4598 }, { month: "202511", views: 12708 }, { month: "202512", views: 5957 }, { month: "202601", views: 4668 }, { month: "202602", views: 4228 }, { month: "202603", views: 7981 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13823,6 +14167,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑低木", "園芸種", "ツツジ", "庭木"],
       traits: { leafType: "simple", petalCount: "many", petalFusion: "fused", stipules: "absent", dissection: "entire", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒラドツツジ", totalViews: 8375, window: "202504-202603", months: [{ month: "202504", views: 2522 }, { month: "202505", views: 2030 }, { month: "202506", views: 632 }, { month: "202507", views: 332 }, { month: "202508", views: 325 }, { month: "202509", views: 326 }, { month: "202510", views: 362 }, { month: "202511", views: 392 }, { month: "202512", views: 303 }, { month: "202601", views: 366 }, { month: "202602", views: 322 }, { month: "202603", views: 463 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13844,6 +14189,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑性", "つる植物", "在来種"],
       traits: { petalCount: 6 },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キヅタ", totalViews: 7845, window: "202504-202603", months: [{ month: "202504", views: 672 }, { month: "202505", views: 796 }, { month: "202506", views: 547 }, { month: "202507", views: 492 }, { month: "202508", views: 614 }, { month: "202509", views: 621 }, { month: "202510", views: 792 }, { month: "202511", views: 924 }, { month: "202512", views: 670 }, { month: "202601", views: 589 }, { month: "202602", views: 514 }, { month: "202603", views: 614 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13865,6 +14211,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "白花", "庭木", "外来種"],
       traits: { leafArr: "alt", leafType: "simple", petalFusion: "free", stipules: "present", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハクモクレン", totalViews: 35011, window: "202504-202603", months: [{ month: "202504", views: 6130 }, { month: "202505", views: 2771 }, { month: "202506", views: 1788 }, { month: "202507", views: 1501 }, { month: "202508", views: 1297 }, { month: "202509", views: 1521 }, { month: "202510", views: 1496 }, { month: "202511", views: 1251 }, { month: "202512", views: 1296 }, { month: "202601", views: 1572 }, { month: "202602", views: 2000 }, { month: "202603", views: 12388 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13885,6 +14232,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["木本", "落葉樹", "白花", "庭木", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマボウシ", totalViews: 74967, window: "202504-202603", months: [{ month: "202504", views: 7794 }, { month: "202505", views: 18307 }, { month: "202506", views: 15214 }, { month: "202507", views: 4229 }, { month: "202508", views: 3863 }, { month: "202509", views: 4947 }, { month: "202510", views: 6019 }, { month: "202511", views: 4974 }, { month: "202512", views: 2441 }, { month: "202601", views: 1920 }, { month: "202602", views: 2227 }, { month: "202603", views: 3032 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13906,6 +14254,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "亜熱帯", "気根", "在来種"],
       traits: { leafType: "simple", deciduous: "evergreen", stipules: "present", flowerSymmetry: "actinomorphic", latex: "present", stamenCount: "1-2", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ガジュマル", totalViews: 95345, window: "202504-202603", months: [{ month: "202504", views: 8007 }, { month: "202505", views: 9598 }, { month: "202506", views: 9560 }, { month: "202507", views: 11216 }, { month: "202508", views: 9727 }, { month: "202509", views: 7919 }, { month: "202510", views: 6741 }, { month: "202511", views: 6321 }, { month: "202512", views: 6140 }, { month: "202601", views: 6398 }, { month: "202602", views: 5607 }, { month: "202603", views: 8111 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13927,6 +14276,7 @@ export const plants: Plant[] = [
       tags: ["草本", "越年草", "紫花", "有毒", "在来種"],
       traits: { petalCount: 6, petalFusion: "free", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "1-2", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ムラサキケマン", totalViews: 13210, window: "202504-202603", months: [{ month: "202504", views: 4740 }, { month: "202505", views: 2247 }, { month: "202506", views: 683 }, { month: "202507", views: 365 }, { month: "202508", views: 800 }, { month: "202509", views: 355 }, { month: "202510", views: 336 }, { month: "202511", views: 301 }, { month: "202512", views: 264 }, { month: "202601", views: 409 }, { month: "202602", views: 424 }, { month: "202603", views: 2286 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13948,6 +14298,7 @@ export const plants: Plant[] = [
       tags: ["草本", "一年草", "帰化植物", "ひっつき虫", "外来種"],
       traits: { petalCount: 3, ovaryPosition: "inferior", stamenCount: "1-2" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオオナモミ", totalViews: 4343, window: "202504-202603", months: [{ month: "202504", views: 317 }, { month: "202505", views: 381 }, { month: "202506", views: 366 }, { month: "202507", views: 302 }, { month: "202508", views: 392 }, { month: "202509", views: 438 }, { month: "202510", views: 631 }, { month: "202511", views: 542 }, { month: "202512", views: 303 }, { month: "202601", views: 243 }, { month: "202602", views: 238 }, { month: "202603", views: 190 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13969,6 +14320,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "果樹", "熱帯", "栽培"],
       traits: { habit: "herb", leafArr: "alt", leafType: "simple", venation: "pinnate", petalCount: 6, dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "inferior", plantSex: "monoecious", latex: "present", venationNet: "open" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "バナナ", totalViews: 117321, window: "202504-202603", months: [{ month: "202504", views: 11775 }, { month: "202505", views: 11857 }, { month: "202506", views: 10188 }, { month: "202507", views: 11159 }, { month: "202508", views: 10788 }, { month: "202509", views: 10275 }, { month: "202510", views: 9542 }, { month: "202511", views: 9644 }, { month: "202512", views: 8179 }, { month: "202601", views: 8211 }, { month: "202602", views: 7699 }, { month: "202603", views: 8004 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -13989,6 +14341,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["シダ", "夏緑性", "林床", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゲジゲジシダ", totalViews: 620, window: "202504-202603", months: [{ month: "202504", views: 50 }, { month: "202505", views: 85 }, { month: "202506", views: 80 }, { month: "202507", views: 57 }, { month: "202508", views: 52 }, { month: "202509", views: 42 }, { month: "202510", views: 50 }, { month: "202511", views: 46 }, { month: "202512", views: 48 }, { month: "202601", views: 27 }, { month: "202602", views: 39 }, { month: "202603", views: 44 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14031,6 +14384,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "タデ科", "雑草", "在来種"],
       traits: { leafType: "simple", venation: "pinnate", petalFusion: "fused", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ギシギシ", totalViews: 22984, window: "202504-202603", months: [{ month: "202504", views: 3291 }, { month: "202505", views: 3982 }, { month: "202506", views: 2530 }, { month: "202507", views: 2113 }, { month: "202508", views: 1299 }, { month: "202509", views: 1992 }, { month: "202510", views: 1360 }, { month: "202511", views: 1146 }, { month: "202512", views: 912 }, { month: "202601", views: 1026 }, { month: "202602", views: 1468 }, { month: "202603", views: 1865 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14052,6 +14406,7 @@ export const plants: Plant[] = [
       tags: ["木本", "針葉樹", "常緑樹", "山地", "在来種"],
       traits: { habit: "tree", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "needle", petalFusion: "none", stipules: "absent", ovaryPosition: "superior", plantSex: "monoecious", aromatic: "aromatic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "モミ", totalViews: 26076, window: "202504-202603", months: [{ month: "202504", views: 1835 }, { month: "202505", views: 1971 }, { month: "202506", views: 1858 }, { month: "202507", views: 1570 }, { month: "202508", views: 1795 }, { month: "202509", views: 1972 }, { month: "202510", views: 2219 }, { month: "202511", views: 3227 }, { month: "202512", views: 4541 }, { month: "202601", views: 2108 }, { month: "202602", views: 1444 }, { month: "202603", views: 1536 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14073,6 +14428,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑低木", "白花", "有毒", "庭木"],
       traits: { leafType: "simple", petalCount: "many", petalFusion: "fused", stipules: "absent", dissection: "entire", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アセビ", totalViews: 55319, window: "202504-202603", months: [{ month: "202504", views: 11790 }, { month: "202505", views: 5268 }, { month: "202506", views: 3310 }, { month: "202507", views: 2425 }, { month: "202508", views: 2332 }, { month: "202509", views: 2344 }, { month: "202510", views: 2624 }, { month: "202511", views: 2474 }, { month: "202512", views: 3549 }, { month: "202601", views: 2510 }, { month: "202602", views: 3952 }, { month: "202603", views: 12741 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14115,6 +14471,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "湿地", "白花", "在来種"],
       traits: { habit: "herb", leafArr: "alt", leafType: "simple", margin: "entire", petalFusion: "free", stipules: "present", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", aromatic: "aromatic", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハンゲショウ", totalViews: 18145, window: "202504-202603", months: [{ month: "202504", views: 586 }, { month: "202505", views: 1385 }, { month: "202506", views: 6739 }, { month: "202507", views: 5615 }, { month: "202508", views: 879 }, { month: "202509", views: 568 }, { month: "202510", views: 428 }, { month: "202511", views: 374 }, { month: "202512", views: 324 }, { month: "202601", views: 458 }, { month: "202602", views: 344 }, { month: "202603", views: 445 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14136,6 +14493,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "社寺", "大木", "在来種"],
       traits: { deciduous: "deciduous", petalFusion: "free", stipules: "present", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", compoundType: "palmate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "エノキ", totalViews: 44053, window: "202504-202603", months: [{ month: "202504", views: 3922 }, { month: "202505", views: 5949 }, { month: "202506", views: 4718 }, { month: "202507", views: 4328 }, { month: "202508", views: 4305 }, { month: "202509", views: 3915 }, { month: "202510", views: 3485 }, { month: "202511", views: 3913 }, { month: "202512", views: 2745 }, { month: "202601", views: 2379 }, { month: "202602", views: 1985 }, { month: "202603", views: 2409 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14156,6 +14514,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["草本", "越年草", "湿地", "白花", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオバタネツケバナ", totalViews: 1216, window: "202504-202603", months: [{ month: "202504", views: 285 }, { month: "202505", views: 194 }, { month: "202506", views: 75 }, { month: "202507", views: 46 }, { month: "202508", views: 56 }, { month: "202509", views: 52 }, { month: "202510", views: 56 }, { month: "202511", views: 53 }, { month: "202512", views: 52 }, { month: "202601", views: 61 }, { month: "202602", views: 75 }, { month: "202603", views: 211 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14177,6 +14536,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "柑橘", "果樹", "栽培"],
       traits: { venation: "pinnate", petalFusion: "fused", flowerSymmetry: "actinomorphic", aromatic: "aromatic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シラヌヒ", totalViews: 29367, window: "202504-202603", months: [{ month: "202504", views: 3490 }, { month: "202505", views: 1737 }, { month: "202506", views: 851 }, { month: "202507", views: 1061 }, { month: "202508", views: 962 }, { month: "202509", views: 1889 }, { month: "202510", views: 979 }, { month: "202511", views: 1246 }, { month: "202512", views: 1848 }, { month: "202601", views: 2747 }, { month: "202602", views: 5523 }, { month: "202603", views: 7034 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14197,6 +14557,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["コケ", "苔類", "湿地", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゼニゴケ", totalViews: 9539, window: "202504-202603", months: [{ month: "202504", views: 699 }, { month: "202505", views: 1678 }, { month: "202506", views: 1191 }, { month: "202507", views: 766 }, { month: "202508", views: 696 }, { month: "202509", views: 809 }, { month: "202510", views: 776 }, { month: "202511", views: 671 }, { month: "202512", views: 540 }, { month: "202601", views: 615 }, { month: "202602", views: 443 }, { month: "202603", views: 655 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14238,6 +14599,7 @@ export const plants: Plant[] = [
       tags: ["草本", "つる植物", "白花", "有毒", "在来種"],
       traits: { petalFusion: "free", ovaryPosition: "superior", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "センニンソウ", totalViews: 18088, window: "202504-202603", months: [{ month: "202504", views: 735 }, { month: "202505", views: 1083 }, { month: "202506", views: 1233 }, { month: "202507", views: 671 }, { month: "202508", views: 2867 }, { month: "202509", views: 6456 }, { month: "202510", views: 1429 }, { month: "202511", views: 1095 }, { month: "202512", views: 1033 }, { month: "202601", views: 512 }, { month: "202602", views: 441 }, { month: "202603", views: 533 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14259,6 +14621,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "栽培", "食用", "サトイモ科"],
       traits: { leafArr: "alt", ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サトイモ", totalViews: 57619, window: "202504-202603", months: [{ month: "202504", views: 3907 }, { month: "202505", views: 4359 }, { month: "202506", views: 4085 }, { month: "202507", views: 3725 }, { month: "202508", views: 4558 }, { month: "202509", views: 5528 }, { month: "202510", views: 7322 }, { month: "202511", views: 7082 }, { month: "202512", views: 5478 }, { month: "202601", views: 4543 }, { month: "202602", views: 3544 }, { month: "202603", views: 3488 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14280,6 +14643,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "シソ科", "紫花", "在来種"],
       traits: { stipules: "absent", ovaryPosition: "superior", compoundType: "pinnate", stemSection: "square", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カキドオシ", totalViews: 15241, window: "202504-202603", months: [{ month: "202504", views: 3456 }, { month: "202505", views: 3746 }, { month: "202506", views: 1531 }, { month: "202507", views: 937 }, { month: "202508", views: 695 }, { month: "202509", views: 563 }, { month: "202510", views: 705 }, { month: "202511", views: 690 }, { month: "202512", views: 550 }, { month: "202601", views: 727 }, { month: "202602", views: 485 }, { month: "202603", views: 1156 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14301,6 +14665,7 @@ export const plants: Plant[] = [
       tags: ["木本", "針葉樹", "落葉樹", "紅葉", "外来種"],
       traits: { leafType: "simple", venation: "parallel", margin: "entire", shape: "needle", petalFusion: "none", stipules: "absent", ovaryPosition: "superior", aromatic: "aromatic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "メタセコイア", totalViews: 89137, window: "202504-202603", months: [{ month: "202504", views: 6551 }, { month: "202505", views: 8619 }, { month: "202506", views: 6224 }, { month: "202507", views: 4593 }, { month: "202508", views: 5128 }, { month: "202509", views: 5225 }, { month: "202510", views: 6237 }, { month: "202511", views: 18605 }, { month: "202512", views: 12265 }, { month: "202601", views: 5631 }, { month: "202602", views: 4862 }, { month: "202603", views: 5197 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14322,6 +14687,7 @@ export const plants: Plant[] = [
       tags: ["草本", "越年草", "栽培", "食用", "マメ科"],
       traits: { ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "エンドウ", totalViews: 46951, window: "202504-202603", months: [{ month: "202504", views: 6726 }, { month: "202505", views: 9274 }, { month: "202506", views: 6148 }, { month: "202507", views: 3345 }, { month: "202508", views: 3034 }, { month: "202509", views: 2469 }, { month: "202510", views: 2506 }, { month: "202511", views: 2696 }, { month: "202512", views: 2195 }, { month: "202601", views: 2696 }, { month: "202602", views: 2733 }, { month: "202603", views: 3129 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14343,6 +14709,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "果樹", "栽培", "桃色花"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アンズ", totalViews: 61912, window: "202504-202603", months: [{ month: "202504", views: 5763 }, { month: "202505", views: 5724 }, { month: "202506", views: 8825 }, { month: "202507", views: 6013 }, { month: "202508", views: 4710 }, { month: "202509", views: 4206 }, { month: "202510", views: 3986 }, { month: "202511", views: 4011 }, { month: "202512", views: 3546 }, { month: "202601", views: 3957 }, { month: "202602", views: 4946 }, { month: "202603", views: 6225 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14364,6 +14731,7 @@ export const plants: Plant[] = [
       tags: ["イネ科", "タケ", "栽培", "外来種"],
       traits: { leafArr: "alt", leafType: "simple", margin: "entire", petalFusion: "free", dissection: "entire", ovaryPosition: "superior", stemSection: "round", glandDotted: "absent" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハチク", totalViews: 33112, window: "202504-202603", months: [{ month: "202504", views: 14851 }, { month: "202505", views: 6442 }, { month: "202506", views: 3752 }, { month: "202507", views: 1167 }, { month: "202508", views: 862 }, { month: "202509", views: 1184 }, { month: "202510", views: 880 }, { month: "202511", views: 802 }, { month: "202512", views: 769 }, { month: "202601", views: 777 }, { month: "202602", views: 695 }, { month: "202603", views: 931 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14386,6 +14754,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "白花", "在来種", "タンポポ"],
       traits: { petalCount: 3, ovaryPosition: "inferior", stamenCount: "1-2" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シロバナタンポポ", totalViews: 13705, window: "202504-202603", months: [{ month: "202504", views: 5792 }, { month: "202505", views: 1680 }, { month: "202506", views: 579 }, { month: "202507", views: 400 }, { month: "202508", views: 441 }, { month: "202509", views: 290 }, { month: "202510", views: 337 }, { month: "202511", views: 349 }, { month: "202512", views: 306 }, { month: "202601", views: 385 }, { month: "202602", views: 582 }, { month: "202603", views: 2564 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14427,6 +14796,7 @@ export const plants: Plant[] = [
       enTags: ["Herb", "Perennial", "Yellow flowers", "Native", "Dandelion"],
       traits: { petalCount: 3, ovaryPosition: "inferior", stamenCount: "1-2" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カントウタンポポ", totalViews: 9741, window: "202504-202603", months: [{ month: "202504", views: 3334 }, { month: "202505", views: 1905 }, { month: "202506", views: 706 }, { month: "202507", views: 380 }, { month: "202508", views: 392 }, { month: "202509", views: 299 }, { month: "202510", views: 366 }, { month: "202511", views: 295 }, { month: "202512", views: 453 }, { month: "202601", views: 346 }, { month: "202602", views: 328 }, { month: "202603", views: 937 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14467,6 +14837,7 @@ export const plants: Plant[] = [
       enTags: ["Herb", "Perennial", "Yellow flowers", "Native", "Dandelion"],
       traits: { petalCount: 3, ovaryPosition: "inferior", stamenCount: "1-2" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カンサイタンポポ", totalViews: 3250, window: "202504-202603", months: [{ month: "202504", views: 1106 }, { month: "202505", views: 658 }, { month: "202506", views: 209 }, { month: "202507", views: 144 }, { month: "202508", views: 103 }, { month: "202509", views: 98 }, { month: "202510", views: 69 }, { month: "202511", views: 107 }, { month: "202512", views: 105 }, { month: "202601", views: 110 }, { month: "202602", views: 135 }, { month: "202603", views: 406 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14488,6 +14859,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "果樹", "白花", "栽培"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スモモ", totalViews: 62077, window: "202504-202603", months: [{ month: "202504", views: 4363 }, { month: "202505", views: 4994 }, { month: "202506", views: 10873 }, { month: "202507", views: 10618 }, { month: "202508", views: 6859 }, { month: "202509", views: 4379 }, { month: "202510", views: 3822 }, { month: "202511", views: 3103 }, { month: "202512", views: 2628 }, { month: "202601", views: 3624 }, { month: "202602", views: 2681 }, { month: "202603", views: 4133 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14508,6 +14880,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["シダ", "常緑性", "着生植物", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒメノキシノブ", totalViews: 517, window: "202504-202603", months: [{ month: "202504", views: 70 }, { month: "202505", views: 60 }, { month: "202506", views: 42 }, { month: "202507", views: 44 }, { month: "202508", views: 35 }, { month: "202509", views: 35 }, { month: "202510", views: 29 }, { month: "202511", views: 49 }, { month: "202512", views: 38 }, { month: "202601", views: 31 }, { month: "202602", views: 32 }, { month: "202603", views: 52 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14529,6 +14902,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "柑橘", "果樹", "栽培"],
       traits: { venation: "pinnate", petalFusion: "fused", flowerSymmetry: "actinomorphic", aromatic: "aromatic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナツミカン", totalViews: 25424, window: "202504-202603", months: [{ month: "202504", views: 3648 }, { month: "202505", views: 3157 }, { month: "202506", views: 1842 }, { month: "202507", views: 1386 }, { month: "202508", views: 1295 }, { month: "202509", views: 985 }, { month: "202510", views: 964 }, { month: "202511", views: 1566 }, { month: "202512", views: 2014 }, { month: "202601", views: 2840 }, { month: "202602", views: 2817 }, { month: "202603", views: 2910 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14550,6 +14924,7 @@ export const plants: Plant[] = [
       tags: ["水生植物", "多年草", "黄色花", "在来種"],
       traits: { habit: "herb", leafArr: "alt", leafType: "simple", venation: "palmate", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", latex: "present", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コウホネ", totalViews: 13900, window: "202504-202603", months: [{ month: "202504", views: 955 }, { month: "202505", views: 1951 }, { month: "202506", views: 2277 }, { month: "202507", views: 1616 }, { month: "202508", views: 1685 }, { month: "202509", views: 1139 }, { month: "202510", views: 912 }, { month: "202511", views: 656 }, { month: "202512", views: 522 }, { month: "202601", views: 618 }, { month: "202602", views: 513 }, { month: "202603", views: 1056 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14571,6 +14946,7 @@ export const plants: Plant[] = [
       tags: ["草本", "越年草", "青紫花", "在来種"],
       traits: { leafType: "simple", margin: "entire", petalCount: "many", stipules: "absent", dissection: "entire", ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フデリンドウ", totalViews: 7346, window: "202504-202603", months: [{ month: "202504", views: 2188 }, { month: "202505", views: 1670 }, { month: "202506", views: 447 }, { month: "202507", views: 266 }, { month: "202508", views: 226 }, { month: "202509", views: 272 }, { month: "202510", views: 298 }, { month: "202511", views: 547 }, { month: "202512", views: 679 }, { month: "202601", views: 209 }, { month: "202602", views: 150 }, { month: "202603", views: 394 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14591,6 +14967,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["草本", "越年草", "帰化植物", "紫花", "外来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオアラセイトウ", totalViews: 30397, window: "202504-202603", months: [{ month: "202504", views: 15270 }, { month: "202505", views: 3005 }, { month: "202506", views: 875 }, { month: "202507", views: 538 }, { month: "202508", views: 469 }, { month: "202509", views: 525 }, { month: "202510", views: 533 }, { month: "202511", views: 497 }, { month: "202512", views: 443 }, { month: "202601", views: 501 }, { month: "202602", views: 853 }, { month: "202603", views: 6888 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14612,6 +14989,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "シソ科", "白花", "在来種"],
       traits: { stipules: "absent", ovaryPosition: "superior", compoundType: "pinnate", stemSection: "square", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オドリコソウ", totalViews: 10082, window: "202504-202603", months: [{ month: "202504", views: 3685 }, { month: "202505", views: 2087 }, { month: "202506", views: 654 }, { month: "202507", views: 271 }, { month: "202508", views: 221 }, { month: "202509", views: 228 }, { month: "202510", views: 183 }, { month: "202511", views: 230 }, { month: "202512", views: 190 }, { month: "202601", views: 303 }, { month: "202602", views: 428 }, { month: "202603", views: 1602 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14654,6 +15032,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "オレンジ花", "在来種", "ユリ"],
       traits: { habit: "herb", leafType: "simple", venation: "parallel", petalCount: 6, dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "open" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コオニユリ", totalViews: 4295, window: "202504-202603", months: [{ month: "202504", views: 255 }, { month: "202505", views: 375 }, { month: "202506", views: 470 }, { month: "202507", views: 969 }, { month: "202508", views: 676 }, { month: "202509", views: 257 }, { month: "202510", views: 210 }, { month: "202511", views: 208 }, { month: "202512", views: 277 }, { month: "202601", views: 230 }, { month: "202602", views: 142 }, { month: "202603", views: 226 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14675,6 +15054,7 @@ export const plants: Plant[] = [
       tags: ["木本", "つる植物", "桃色花", "在来種", "バラ科"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツクシイバラ", totalViews: 1716, window: "202504-202603", months: [{ month: "202504", views: 243 }, { month: "202505", views: 595 }, { month: "202506", views: 286 }, { month: "202507", views: 82 }, { month: "202508", views: 68 }, { month: "202509", views: 58 }, { month: "202510", views: 47 }, { month: "202511", views: 72 }, { month: "202512", views: 63 }, { month: "202601", views: 55 }, { month: "202602", views: 74 }, { month: "202603", views: 73 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14696,6 +15076,7 @@ export const plants: Plant[] = [
       tags: ["草本", "越年草", "春の七草", "黄色花", "在来種"],
       traits: { petalCount: 3, ovaryPosition: "inferior", stamenCount: "1-2" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハハコグサ", totalViews: 28088, window: "202504-202603", months: [{ month: "202504", views: 3934 }, { month: "202505", views: 4602 }, { month: "202506", views: 1902 }, { month: "202507", views: 1185 }, { month: "202508", views: 1275 }, { month: "202509", views: 1305 }, { month: "202510", views: 996 }, { month: "202511", views: 943 }, { month: "202512", views: 1245 }, { month: "202601", views: 5829 }, { month: "202602", views: 2790 }, { month: "202603", views: 2082 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14736,6 +15117,7 @@ export const plants: Plant[] = [
       enTags: ["Herb", "Biennial", "Seven herbs of spring", "Yellow flowers", "Paddy", "Native"],
       traits: { petalCount: 3, ovaryPosition: "inferior", stamenCount: "1-2" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コオニタビラコ", totalViews: 22833, window: "202504-202603", months: [{ month: "202504", views: 3846 }, { month: "202505", views: 2392 }, { month: "202506", views: 1024 }, { month: "202507", views: 683 }, { month: "202508", views: 660 }, { month: "202509", views: 684 }, { month: "202510", views: 644 }, { month: "202511", views: 800 }, { month: "202512", views: 1042 }, { month: "202601", views: 5854 }, { month: "202602", views: 1509 }, { month: "202603", views: 3695 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14757,6 +15139,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "林床", "白花", "在来種"],
       traits: { habit: "herb", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", deciduous: "evergreen", petalCount: 6, dissection: "entire", ovaryPosition: "superior", stemSection: "round", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤブミョウガ", totalViews: 10865, window: "202504-202603", months: [{ month: "202504", views: 360 }, { month: "202505", views: 678 }, { month: "202506", views: 969 }, { month: "202507", views: 2643 }, { month: "202508", views: 2061 }, { month: "202509", views: 1738 }, { month: "202510", views: 966 }, { month: "202511", views: 500 }, { month: "202512", views: 292 }, { month: "202601", views: 233 }, { month: "202602", views: 194 }, { month: "202603", views: 231 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14799,6 +15182,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "常緑", "黄色花", "海岸"],
       traits: { petalCount: 3, ovaryPosition: "inferior", stamenCount: "1-2" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツワブキ", totalViews: 40615, window: "202504-202603", months: [{ month: "202504", views: 4386 }, { month: "202505", views: 4098 }, { month: "202506", views: 2430 }, { month: "202507", views: 1894 }, { month: "202508", views: 1771 }, { month: "202509", views: 1723 }, { month: "202510", views: 3049 }, { month: "202511", views: 8148 }, { month: "202512", views: 5167 }, { month: "202601", views: 2556 }, { month: "202602", views: 2226 }, { month: "202603", views: 3167 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14820,6 +15204,7 @@ export const plants: Plant[] = [
       tags: ["木本", "針葉樹", "常緑樹", "公園樹", "外来種"],
       traits: { habit: "tree", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "needle", petalFusion: "none", stipules: "absent", ovaryPosition: "superior", plantSex: "monoecious", aromatic: "aromatic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒマラヤスギ", totalViews: 16744, window: "202504-202603", months: [{ month: "202504", views: 1217 }, { month: "202505", views: 1630 }, { month: "202506", views: 1452 }, { month: "202507", views: 1038 }, { month: "202508", views: 970 }, { month: "202509", views: 1092 }, { month: "202510", views: 1414 }, { month: "202511", views: 1936 }, { month: "202512", views: 1855 }, { month: "202601", views: 1467 }, { month: "202602", views: 1152 }, { month: "202603", views: 1521 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14841,6 +15226,7 @@ export const plants: Plant[] = [
       tags: ["多肉植物", "帰化植物", "サボテン", "海岸"],
       traits: { leafType: "simple", venation: "pinnate", petalCount: "many", stipules: "absent", dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "センニンサボテン", totalViews: 1894, window: "202504-202603", months: [{ month: "202504", views: 151 }, { month: "202505", views: 167 }, { month: "202506", views: 313 }, { month: "202507", views: 195 }, { month: "202508", views: 170 }, { month: "202509", views: 165 }, { month: "202510", views: 123 }, { month: "202511", views: 105 }, { month: "202512", views: 122 }, { month: "202601", views: 141 }, { month: "202602", views: 110 }, { month: "202603", views: 132 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14862,6 +15248,7 @@ export const plants: Plant[] = [
       tags: ["水生植物", "沈水植物", "帰化植物", "外来種"],
       traits: { habit: "herb", leafType: "simple", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", stamenCount: "1-2" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオカナダモ", totalViews: 21024, window: "202504-202603", months: [{ month: "202504", views: 1799 }, { month: "202505", views: 3600 }, { month: "202506", views: 2647 }, { month: "202507", views: 1970 }, { month: "202508", views: 2103 }, { month: "202509", views: 1688 }, { month: "202510", views: 1596 }, { month: "202511", views: 1211 }, { month: "202512", views: 1695 }, { month: "202601", views: 1191 }, { month: "202602", views: 777 }, { month: "202603", views: 747 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14883,6 +15270,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉低木", "海岸", "黄色花", "在来種"],
       traits: { leafArr: "alt", leafType: "simple", petalCount: "many", petalFusion: "free", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "5", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハマボウ", totalViews: 9231, window: "202504-202603", months: [{ month: "202504", views: 503 }, { month: "202505", views: 619 }, { month: "202506", views: 693 }, { month: "202507", views: 3017 }, { month: "202508", views: 908 }, { month: "202509", views: 782 }, { month: "202510", views: 627 }, { month: "202511", views: 510 }, { month: "202512", views: 417 }, { month: "202601", views: 384 }, { month: "202602", views: 376 }, { month: "202603", views: 395 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14904,6 +15292,7 @@ export const plants: Plant[] = [
       tags: ["草本", "球根", "白花", "観賞用", "外来種"],
       traits: { habit: "herb", leafArr: "alt", leafType: "simple", margin: "entire", deciduous: "deciduous", petalCount: 6, dissection: "entire", flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", aromatic: "none" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スノードロップ", totalViews: 40210, window: "202504-202603", months: [{ month: "202504", views: 4733 }, { month: "202505", views: 2578 }, { month: "202506", views: 1930 }, { month: "202507", views: 1812 }, { month: "202508", views: 1974 }, { month: "202509", views: 2218 }, { month: "202510", views: 2567 }, { month: "202511", views: 2754 }, { month: "202512", views: 2817 }, { month: "202601", views: 4671 }, { month: "202602", views: 5956 }, { month: "202603", views: 6200 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14925,6 +15314,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "果樹", "熱帯", "栽培"],
       traits: { leafArr: "alt", venation: "pinnate", margin: "entire", petalFusion: "fused", stipules: "absent", flowerSymmetry: "actinomorphic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マンゴー", totalViews: 55257, window: "202504-202603", months: [{ month: "202504", views: 3902 }, { month: "202505", views: 6443 }, { month: "202506", views: 7569 }, { month: "202507", views: 8512 }, { month: "202508", views: 7208 }, { month: "202509", views: 4425 }, { month: "202510", views: 3353 }, { month: "202511", views: 3050 }, { month: "202512", views: 2751 }, { month: "202601", views: 2670 }, { month: "202602", views: 2469 }, { month: "202603", views: 2905 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14947,6 +15337,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑低木", "観賞用", "熱帯", "外来種"],
       traits: { leafArr: "alt", leafType: "simple", petalCount: "many", petalFusion: "free", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "5", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハイビスカス", totalViews: 22935, window: "202504-202603", months: [{ month: "202504", views: 1563 }, { month: "202505", views: 2119 }, { month: "202506", views: 2770 }, { month: "202507", views: 3037 }, { month: "202508", views: 2771 }, { month: "202509", views: 2050 }, { month: "202510", views: 1943 }, { month: "202511", views: 1499 }, { month: "202512", views: 1357 }, { month: "202601", views: 1185 }, { month: "202602", views: 1223 }, { month: "202603", views: 1418 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14968,6 +15359,7 @@ export const plants: Plant[] = [
       tags: ["草本", "越年草", "帰化植物", "白花", "外来種"],
       traits: { leafType: "simple", petalFusion: "fused", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オランダミミナグサ", totalViews: 6222, window: "202504-202603", months: [{ month: "202504", views: 2460 }, { month: "202505", views: 1041 }, { month: "202506", views: 255 }, { month: "202507", views: 129 }, { month: "202508", views: 120 }, { month: "202509", views: 73 }, { month: "202510", views: 119 }, { month: "202511", views: 114 }, { month: "202512", views: 152 }, { month: "202601", views: 261 }, { month: "202602", views: 407 }, { month: "202603", views: 1091 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -14989,6 +15381,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑低木", "ツツジ", "盆栽", "在来種"],
       traits: { leafType: "simple", petalCount: "many", petalFusion: "fused", stipules: "absent", dissection: "entire", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サツキ", totalViews: 35030, window: "202504-202603", months: [{ month: "202504", views: 7018 }, { month: "202505", views: 8893 }, { month: "202506", views: 4498 }, { month: "202507", views: 1706 }, { month: "202508", views: 1912 }, { month: "202509", views: 1677 }, { month: "202510", views: 1852 }, { month: "202511", views: 1596 }, { month: "202512", views: 1401 }, { month: "202601", views: 1457 }, { month: "202602", views: 1353 }, { month: "202603", views: 1667 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15009,6 +15402,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["コケ", "蘚類", "林床", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コウヤノマンネングサ", totalViews: 1174, window: "202504-202603", months: [{ month: "202504", views: 122 }, { month: "202505", views: 139 }, { month: "202506", views: 106 }, { month: "202507", views: 81 }, { month: "202508", views: 94 }, { month: "202509", views: 100 }, { month: "202510", views: 93 }, { month: "202511", views: 99 }, { month: "202512", views: 85 }, { month: "202601", views: 78 }, { month: "202602", views: 72 }, { month: "202603", views: 105 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15030,6 +15424,7 @@ export const plants: Plant[] = [
       tags: ["木本", "針葉樹", "常緑樹", "山地", "在来種"],
       traits: { habit: "tree", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", shape: "needle", petalFusion: "none", stipules: "absent", ovaryPosition: "superior", plantSex: "monoecious", aromatic: "aromatic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツガ", totalViews: 21834, window: "202504-202603", months: [{ month: "202504", views: 1918 }, { month: "202505", views: 2050 }, { month: "202506", views: 2005 }, { month: "202507", views: 1618 }, { month: "202508", views: 1863 }, { month: "202509", views: 2616 }, { month: "202510", views: 2073 }, { month: "202511", views: 1793 }, { month: "202512", views: 1696 }, { month: "202601", views: 1435 }, { month: "202602", views: 1340 }, { month: "202603", views: 1427 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15051,6 +15446,7 @@ export const plants: Plant[] = [
       tags: ["木本", "針葉樹", "常緑樹", "有用材", "在来種"],
       traits: { leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", deciduous: "evergreen", shape: "needle", petalFusion: "none", stipules: "absent", ovaryPosition: "superior", plantSex: "dioecious" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カヤ", totalViews: 33399, window: "202504-202603", months: [{ month: "202504", views: 2787 }, { month: "202505", views: 2770 }, { month: "202506", views: 2344 }, { month: "202507", views: 2208 }, { month: "202508", views: 2609 }, { month: "202509", views: 3236 }, { month: "202510", views: 3326 }, { month: "202511", views: 3338 }, { month: "202512", views: 3708 }, { month: "202601", views: 2712 }, { month: "202602", views: 2152 }, { month: "202603", views: 2209 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15072,6 +15468,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "サクラ", "桃色花", "栽培"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カワヅザクラ", totalViews: 48472, window: "202504-202603", months: [{ month: "202504", views: 5285 }, { month: "202505", views: 1367 }, { month: "202506", views: 801 }, { month: "202507", views: 662 }, { month: "202508", views: 594 }, { month: "202509", views: 671 }, { month: "202510", views: 644 }, { month: "202511", views: 758 }, { month: "202512", views: 842 }, { month: "202601", views: 2649 }, { month: "202602", views: 17264 }, { month: "202603", views: 16935 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15093,6 +15490,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "山地", "白花", "在来種"],
       traits: { flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", stamenCount: "5" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハナウド", totalViews: 14788, window: "202504-202603", months: [{ month: "202504", views: 406 }, { month: "202505", views: 735 }, { month: "202506", views: 5846 }, { month: "202507", views: 5477 }, { month: "202508", views: 595 }, { month: "202509", views: 328 }, { month: "202510", views: 256 }, { month: "202511", views: 213 }, { month: "202512", views: 316 }, { month: "202601", views: 194 }, { month: "202602", views: 168 }, { month: "202603", views: 254 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15113,6 +15511,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["シダ", "常緑性", "イワヒバ科", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カタヒバ", totalViews: 1828, window: "202504-202603", months: [{ month: "202504", views: 131 }, { month: "202505", views: 165 }, { month: "202506", views: 164 }, { month: "202507", views: 128 }, { month: "202508", views: 201 }, { month: "202509", views: 176 }, { month: "202510", views: 179 }, { month: "202511", views: 145 }, { month: "202512", views: 158 }, { month: "202601", views: 130 }, { month: "202602", views: 106 }, { month: "202603", views: 145 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15133,6 +15532,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["コケ", "苔類", "湿地", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ジャゴケ", totalViews: 1975, window: "202504-202603", months: [{ month: "202504", views: 266 }, { month: "202505", views: 361 }, { month: "202506", views: 253 }, { month: "202507", views: 112 }, { month: "202508", views: 138 }, { month: "202509", views: 120 }, { month: "202510", views: 146 }, { month: "202511", views: 125 }, { month: "202512", views: 100 }, { month: "202601", views: 102 }, { month: "202602", views: 109 }, { month: "202603", views: 143 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15154,6 +15554,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "ラン", "林床", "在来種"],
       traits: { habit: "herb", leafType: "simple", venation: "parallel", margin: "entire", petalCount: 6, dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "inferior", plantSex: "hermaphrodite", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サイハイラン", totalViews: 2962, window: "202504-202603", months: [{ month: "202504", views: 247 }, { month: "202505", views: 870 }, { month: "202506", views: 779 }, { month: "202507", views: 129 }, { month: "202508", views: 97 }, { month: "202509", views: 120 }, { month: "202510", views: 95 }, { month: "202511", views: 126 }, { month: "202512", views: 92 }, { month: "202601", views: 127 }, { month: "202602", views: 109 }, { month: "202603", views: 171 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15175,6 +15576,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "林床", "サトイモ科", "有毒"],
       traits: { leafArr: "alt", ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マムシグサ", totalViews: 41835, window: "202504-202603", months: [{ month: "202504", views: 7636 }, { month: "202505", views: 9734 }, { month: "202506", views: 6177 }, { month: "202507", views: 3664 }, { month: "202508", views: 1960 }, { month: "202509", views: 1936 }, { month: "202510", views: 3178 }, { month: "202511", views: 3105 }, { month: "202512", views: 990 }, { month: "202601", views: 738 }, { month: "202602", views: 981 }, { month: "202603", views: 1736 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15196,6 +15598,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "柑橘", "果樹", "栽培"],
       traits: { venation: "pinnate", petalFusion: "fused", flowerSymmetry: "actinomorphic", aromatic: "aromatic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ザボン", totalViews: 64915, window: "202504-202603", months: [{ month: "202504", views: 5469 }, { month: "202505", views: 5793 }, { month: "202506", views: 3329 }, { month: "202507", views: 3220 }, { month: "202508", views: 3827 }, { month: "202509", views: 3553 }, { month: "202510", views: 3889 }, { month: "202511", views: 4692 }, { month: "202512", views: 6005 }, { month: "202601", views: 6834 }, { month: "202602", views: 9302 }, { month: "202603", views: 9002 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15217,6 +15620,7 @@ export const plants: Plant[] = [
       tags: ["イネ科", "タケ", "栽培", "竹林"],
       traits: { leafArr: "alt", leafType: "simple", margin: "entire", petalFusion: "free", dissection: "entire", ovaryPosition: "superior", stemSection: "round", glandDotted: "absent" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マダケ", totalViews: 22994, window: "202504-202603", months: [{ month: "202504", views: 5446 }, { month: "202505", views: 3864 }, { month: "202506", views: 3124 }, { month: "202507", views: 1349 }, { month: "202508", views: 1261 }, { month: "202509", views: 1270 }, { month: "202510", views: 1145 }, { month: "202511", views: 1127 }, { month: "202512", views: 1115 }, { month: "202601", views: 1128 }, { month: "202602", views: 963 }, { month: "202603", views: 1202 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15238,6 +15642,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "湿地", "カヤツリグサ", "在来種"],
       traits: { habit: "herb", leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", petalCount: 6, dissection: "entire", ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カンガレイ", totalViews: 956, window: "202504-202603", months: [{ month: "202504", views: 38 }, { month: "202505", views: 82 }, { month: "202506", views: 116 }, { month: "202507", views: 152 }, { month: "202508", views: 122 }, { month: "202509", views: 119 }, { month: "202510", views: 70 }, { month: "202511", views: 81 }, { month: "202512", views: 47 }, { month: "202601", views: 49 }, { month: "202602", views: 40 }, { month: "202603", views: 40 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15259,6 +15664,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑低木", "庭木", "生垣", "在来種"],
       traits: { leafType: "simple", venation: "pinnate", petalCount: 4, petalFusion: "fused", dissection: "entire", flowerSymmetry: "actinomorphic", stamenCount: "1-2", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マサキ", totalViews: 16995, window: "202504-202603", months: [{ month: "202504", views: 2189 }, { month: "202505", views: 2400 }, { month: "202506", views: 1646 }, { month: "202507", views: 987 }, { month: "202508", views: 926 }, { month: "202509", views: 974 }, { month: "202510", views: 1091 }, { month: "202511", views: 1280 }, { month: "202512", views: 1420 }, { month: "202601", views: 1641 }, { month: "202602", views: 1148 }, { month: "202603", views: 1293 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15279,6 +15685,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["シダ", "常緑性", "林床", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クリハラン", totalViews: 561, window: "202504-202603", months: [{ month: "202504", views: 54 }, { month: "202505", views: 45 }, { month: "202506", views: 58 }, { month: "202507", views: 20 }, { month: "202508", views: 39 }, { month: "202509", views: 41 }, { month: "202510", views: 37 }, { month: "202511", views: 42 }, { month: "202512", views: 61 }, { month: "202601", views: 55 }, { month: "202602", views: 59 }, { month: "202603", views: 50 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15299,6 +15706,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["木本", "常緑樹", "社寺", "神事", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サカキ", totalViews: 37002, window: "202504-202603", months: [{ month: "202504", views: 3785 }, { month: "202505", views: 3591 }, { month: "202506", views: 4827 }, { month: "202507", views: 2813 }, { month: "202508", views: 3426 }, { month: "202509", views: 2745 }, { month: "202510", views: 2839 }, { month: "202511", views: 2520 }, { month: "202512", views: 2997 }, { month: "202601", views: 2755 }, { month: "202602", views: 1973 }, { month: "202603", views: 2731 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15320,6 +15728,7 @@ export const plants: Plant[] = [
       tags: ["草本", "越年草", "黄色花", "雑草", "在来種"],
       traits: { petalCount: 3, ovaryPosition: "inferior", stamenCount: "1-2" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オニタビラコ", totalViews: 16105, window: "202504-202603", months: [{ month: "202504", views: 5715 }, { month: "202505", views: 4223 }, { month: "202506", views: 1142 }, { month: "202507", views: 554 }, { month: "202508", views: 558 }, { month: "202509", views: 430 }, { month: "202510", views: 568 }, { month: "202511", views: 539 }, { month: "202512", views: 518 }, { month: "202601", views: 562 }, { month: "202602", views: 343 }, { month: "202603", views: 953 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15341,6 +15750,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉低木", "白花", "赤い実", "在来種"],
       traits: { habit: "herb", leafArr: "opp", leafType: "compound", stipules: "absent", ovaryPosition: "half_inferior", plantSex: "hermaphrodite", compoundType: "ternate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミヤマガマズミ", totalViews: 2163, window: "202504-202603", months: [{ month: "202504", views: 330 }, { month: "202505", views: 468 }, { month: "202506", views: 278 }, { month: "202507", views: 131 }, { month: "202508", views: 116 }, { month: "202509", views: 111 }, { month: "202510", views: 192 }, { month: "202511", views: 126 }, { month: "202512", views: 118 }, { month: "202601", views: 97 }, { month: "202602", views: 97 }, { month: "202603", views: 99 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15362,6 +15772,7 @@ export const plants: Plant[] = [
       tags: ["草本", "一年草", "帰化植物", "黄色花", "外来種"],
       traits: { petalCount: 3, ovaryPosition: "inferior", stamenCount: "1-2" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オニノゲシ", totalViews: 9338, window: "202504-202603", months: [{ month: "202504", views: 2588 }, { month: "202505", views: 2087 }, { month: "202506", views: 753 }, { month: "202507", views: 463 }, { month: "202508", views: 555 }, { month: "202509", views: 307 }, { month: "202510", views: 357 }, { month: "202511", views: 397 }, { month: "202512", views: 442 }, { month: "202601", views: 353 }, { month: "202602", views: 271 }, { month: "202603", views: 765 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15403,6 +15814,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["草本", "多年草", "オレンジ花", "草原", "在来種"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゼンテイカ", totalViews: 23014, window: "202504-202603", months: [{ month: "202504", views: 1155 }, { month: "202505", views: 2879 }, { month: "202506", views: 5195 }, { month: "202507", views: 5532 }, { month: "202508", views: 2489 }, { month: "202509", views: 1690 }, { month: "202510", views: 941 }, { month: "202511", views: 667 }, { month: "202512", views: 586 }, { month: "202601", views: 580 }, { month: "202602", views: 600 }, { month: "202603", views: 700 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15445,6 +15857,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑性", "つる植物", "果実", "在来種"],
       traits: { leafArr: "alt", leafType: "compound", stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ムベ", totalViews: 22757, window: "202504-202603", months: [{ month: "202504", views: 1920 }, { month: "202505", views: 1142 }, { month: "202506", views: 855 }, { month: "202507", views: 834 }, { month: "202508", views: 1068 }, { month: "202509", views: 1542 }, { month: "202510", views: 2607 }, { month: "202511", views: 5963 }, { month: "202512", views: 4127 }, { month: "202601", views: 1231 }, { month: "202602", views: 728 }, { month: "202603", views: 740 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15466,6 +15879,7 @@ export const plants: Plant[] = [
       tags: ["草本", "一年草", "タデ科", "紅花", "在来種"],
       traits: { leafType: "simple", venation: "pinnate", petalFusion: "fused", dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イヌタデ", totalViews: 11978, window: "202504-202603", months: [{ month: "202504", views: 416 }, { month: "202505", views: 778 }, { month: "202506", views: 818 }, { month: "202507", views: 727 }, { month: "202508", views: 970 }, { month: "202509", views: 1740 }, { month: "202510", views: 3155 }, { month: "202511", views: 1838 }, { month: "202512", views: 512 }, { month: "202601", views: 398 }, { month: "202602", views: 315 }, { month: "202603", views: 311 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15487,6 +15901,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "黄色花", "有毒", "在来種"],
       traits: { petalFusion: "free", ovaryPosition: "superior", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウマノアシガタ", totalViews: 13174, window: "202504-202603", months: [{ month: "202504", views: 2262 }, { month: "202505", views: 2507 }, { month: "202506", views: 1299 }, { month: "202507", views: 787 }, { month: "202508", views: 754 }, { month: "202509", views: 604 }, { month: "202510", views: 743 }, { month: "202511", views: 615 }, { month: "202512", views: 823 }, { month: "202601", views: 873 }, { month: "202602", views: 798 }, { month: "202603", views: 1109 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15508,6 +15923,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "果樹", "白花", "栽培"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "セイヨウナシ", totalViews: 24516, window: "202504-202603", months: [{ month: "202504", views: 1231 }, { month: "202505", views: 1260 }, { month: "202506", views: 1232 }, { month: "202507", views: 1211 }, { month: "202508", views: 2171 }, { month: "202509", views: 3269 }, { month: "202510", views: 2886 }, { month: "202511", views: 4539 }, { month: "202512", views: 3155 }, { month: "202601", views: 1513 }, { month: "202602", views: 959 }, { month: "202603", views: 1090 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15530,6 +15946,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉低木", "海岸", "紅花", "在来種"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハマナス", totalViews: 56455, window: "202504-202603", months: [{ month: "202504", views: 4391 }, { month: "202505", views: 7937 }, { month: "202506", views: 6996 }, { month: "202507", views: 5180 }, { month: "202508", views: 5614 }, { month: "202509", views: 5244 }, { month: "202510", views: 4465 }, { month: "202511", views: 3568 }, { month: "202512", views: 3141 }, { month: "202601", views: 3253 }, { month: "202602", views: 3152 }, { month: "202603", views: 3514 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15551,6 +15968,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "オレンジ花", "ユリ", "栽培"],
       traits: { habit: "herb", leafType: "simple", venation: "parallel", petalCount: 6, dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "open" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オニユリ", totalViews: 20270, window: "202504-202603", months: [{ month: "202504", views: 950 }, { month: "202505", views: 1324 }, { month: "202506", views: 2159 }, { month: "202507", views: 6869 }, { month: "202508", views: 3132 }, { month: "202509", views: 1186 }, { month: "202510", views: 938 }, { month: "202511", views: 784 }, { month: "202512", views: 694 }, { month: "202601", views: 778 }, { month: "202602", views: 589 }, { month: "202603", views: 867 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15572,6 +15990,7 @@ export const plants: Plant[] = [
       tags: ["草本", "一年草", "帰化植物", "黄色花", "外来種"],
       traits: { ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コメツブツメクサ", totalViews: 8916, window: "202504-202603", months: [{ month: "202504", views: 2590 }, { month: "202505", views: 4103 }, { month: "202506", views: 812 }, { month: "202507", views: 297 }, { month: "202508", views: 207 }, { month: "202509", views: 137 }, { month: "202510", views: 134 }, { month: "202511", views: 110 }, { month: "202512", views: 95 }, { month: "202601", views: 97 }, { month: "202602", views: 88 }, { month: "202603", views: 246 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15593,6 +16012,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "湿地", "黄色花", "有毒"],
       traits: { petalFusion: "free", ovaryPosition: "superior", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ケキツネノボタン", totalViews: 1309, window: "202504-202603", months: [{ month: "202504", views: 345 }, { month: "202505", views: 349 }, { month: "202506", views: 123 }, { month: "202507", views: 112 }, { month: "202508", views: 67 }, { month: "202509", views: 33 }, { month: "202510", views: 37 }, { month: "202511", views: 38 }, { month: "202512", views: 35 }, { month: "202601", views: 48 }, { month: "202602", views: 37 }, { month: "202603", views: 85 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15614,6 +16034,7 @@ export const plants: Plant[] = [
       tags: ["草本", "栽培", "切り花", "ドライフラワー", "外来種"],
       traits: { leafArr: "alt", leafType: "simple", petalCount: "many", petalFusion: "free", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", plantSex: "hermaphrodite", stamenCount: "5" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スターチス", totalViews: 613, window: "202504-202603", months: [{ month: "202504", views: 84 }, { month: "202505", views: 76 }, { month: "202506", views: 70 }, { month: "202507", views: 52 }, { month: "202508", views: 44 }, { month: "202509", views: 38 }, { month: "202510", views: 30 }, { month: "202511", views: 39 }, { month: "202512", views: 17 }, { month: "202601", views: 49 }, { month: "202602", views: 48 }, { month: "202603", views: 66 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15656,6 +16077,7 @@ export const plants: Plant[] = [
       tags: ["草本", "つる植物", "栽培", "食用", "ヤマノイモ"],
       traits: { venation: "palmate", petalCount: 6, flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", compoundType: "palmate", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナガイモ", totalViews: 30017, window: "202504-202603", months: [{ month: "202504", views: 2250 }, { month: "202505", views: 3081 }, { month: "202506", views: 2465 }, { month: "202507", views: 2371 }, { month: "202508", views: 2638 }, { month: "202509", views: 2368 }, { month: "202510", views: 2402 }, { month: "202511", views: 2870 }, { month: "202512", views: 2809 }, { month: "202601", views: 2413 }, { month: "202602", views: 2019 }, { month: "202603", views: 2331 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15677,6 +16099,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "白花", "街路樹", "外来種"],
       traits: { ovaryPosition: "superior" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "エンジュ", totalViews: 32091, window: "202504-202603", months: [{ month: "202504", views: 2722 }, { month: "202505", views: 3776 }, { month: "202506", views: 3064 }, { month: "202507", views: 2980 }, { month: "202508", views: 2999 }, { month: "202509", views: 3063 }, { month: "202510", views: 2986 }, { month: "202511", views: 2654 }, { month: "202512", views: 2219 }, { month: "202601", views: 1921 }, { month: "202602", views: 1788 }, { month: "202603", views: 1919 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15698,6 +16121,7 @@ export const plants: Plant[] = [
       tags: ["草本", "つる植物", "栽培", "果樹", "ウリ科"],
       traits: { leafArr: "alt", venation: "palmate", petalCount: 6, stipules: "absent", flowerSymmetry: "actinomorphic", ovaryPosition: "inferior", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "メロン", totalViews: 61688, window: "202504-202603", months: [{ month: "202504", views: 3975 }, { month: "202505", views: 6921 }, { month: "202506", views: 8320 }, { month: "202507", views: 8565 }, { month: "202508", views: 9274 }, { month: "202509", views: 6931 }, { month: "202510", views: 3604 }, { month: "202511", views: 2896 }, { month: "202512", views: 2663 }, { month: "202601", views: 3100 }, { month: "202602", views: 2374 }, { month: "202603", views: 3065 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15719,6 +16143,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉低木", "白花", "卯の花", "在来種"],
       traits: { leafType: "simple", petalCount: "many", stipules: "absent", flowerSymmetry: "actinomorphic", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウツギ", totalViews: 42381, window: "202504-202603", months: [{ month: "202504", views: 5572 }, { month: "202505", views: 13587 }, { month: "202506", views: 5937 }, { month: "202507", views: 2561 }, { month: "202508", views: 2126 }, { month: "202509", views: 1741 }, { month: "202510", views: 1926 }, { month: "202511", views: 1682 }, { month: "202512", views: 1507 }, { month: "202601", views: 1695 }, { month: "202602", views: 1605 }, { month: "202603", views: 2442 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15740,6 +16165,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "オレンジ花", "海岸", "在来種"],
       traits: { habit: "herb", leafType: "simple", venation: "parallel", petalCount: 6, dissection: "entire", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "open" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "エゾスカシユリ", totalViews: 2041, window: "202504-202603", months: [{ month: "202504", views: 104 }, { month: "202505", views: 210 }, { month: "202506", views: 625 }, { month: "202507", views: 294 }, { month: "202508", views: 158 }, { month: "202509", views: 108 }, { month: "202510", views: 89 }, { month: "202511", views: 87 }, { month: "202512", views: 93 }, { month: "202601", views: 92 }, { month: "202602", views: 72 }, { month: "202603", views: 109 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15761,6 +16187,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "海岸", "気根", "在来種"],
       traits: { leafType: "simple", deciduous: "evergreen", stipules: "present", flowerSymmetry: "actinomorphic", latex: "present", stamenCount: "1-2", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アコウ", totalViews: 870, window: "202504-202603", months: [{ month: "202504", views: 87 }, { month: "202505", views: 69 }, { month: "202506", views: 125 }, { month: "202507", views: 68 }, { month: "202508", views: 71 }, { month: "202509", views: 68 }, { month: "202510", views: 52 }, { month: "202511", views: 67 }, { month: "202512", views: 56 }, { month: "202601", views: 80 }, { month: "202602", views: 68 }, { month: "202603", views: 59 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15782,6 +16209,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "柑橘", "果樹", "栽培"],
       traits: { venation: "pinnate", petalFusion: "fused", flowerSymmetry: "actinomorphic", aromatic: "aromatic" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "レモン", totalViews: 56259, window: "202504-202603", months: [{ month: "202504", views: 4959 }, { month: "202505", views: 6059 }, { month: "202506", views: 5192 }, { month: "202507", views: 4549 }, { month: "202508", views: 4809 }, { month: "202509", views: 4574 }, { month: "202510", views: 4745 }, { month: "202511", views: 4530 }, { month: "202512", views: 4807 }, { month: "202601", views: 4194 }, { month: "202602", views: 3746 }, { month: "202603", views: 4095 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15802,6 +16230,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["草本", "多年草", "オレンジ花", "在来種", "野草"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ワスレグサ", totalViews: 34990, window: "202504-202603", months: [{ month: "202504", views: 3056 }, { month: "202505", views: 3303 }, { month: "202506", views: 4293 }, { month: "202507", views: 8871 }, { month: "202508", views: 3146 }, { month: "202509", views: 2893 }, { month: "202510", views: 2012 }, { month: "202511", views: 1348 }, { month: "202512", views: 1290 }, { month: "202601", views: 1424 }, { month: "202602", views: 1179 }, { month: "202603", views: 2175 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15823,6 +16252,7 @@ export const plants: Plant[] = [
       tags: ["木本", "常緑樹", "亜熱帯", "幹生花", "在来種"],
       traits: { leafType: "simple", deciduous: "evergreen", stipules: "present", flowerSymmetry: "actinomorphic", latex: "present", stamenCount: "1-2", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ギランイヌビワ", totalViews: 767, window: "202504-202603", months: [{ month: "202504", views: 78 }, { month: "202505", views: 120 }, { month: "202506", views: 67 }, { month: "202507", views: 57 }, { month: "202508", views: 78 }, { month: "202509", views: 38 }, { month: "202510", views: 43 }, { month: "202511", views: 53 }, { month: "202512", views: 69 }, { month: "202601", views: 61 }, { month: "202602", views: 37 }, { month: "202603", views: 66 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15844,6 +16274,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "黄色花", "在来種", "野草"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キジムシロ", totalViews: 3872, window: "202504-202603", months: [{ month: "202504", views: 1114 }, { month: "202505", views: 856 }, { month: "202506", views: 440 }, { month: "202507", views: 278 }, { month: "202508", views: 185 }, { month: "202509", views: 122 }, { month: "202510", views: 120 }, { month: "202511", views: 112 }, { month: "202512", views: 118 }, { month: "202601", views: 105 }, { month: "202602", views: 136 }, { month: "202603", views: 286 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15865,6 +16296,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "山地", "沢沿い", "在来種"],
       traits: { habit: "herb", petalCount: "many", plantSex: "hermaphrodite", stamenCount: "5", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマネコノメソウ", totalViews: 1348, window: "202504-202603", months: [{ month: "202504", views: 515 }, { month: "202505", views: 198 }, { month: "202506", views: 65 }, { month: "202507", views: 30 }, { month: "202508", views: 22 }, { month: "202509", views: 12 }, { month: "202510", views: 20 }, { month: "202511", views: 21 }, { month: "202512", views: 18 }, { month: "202601", views: 28 }, { month: "202602", views: 88 }, { month: "202603", views: 331 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15887,6 +16319,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "果樹", "栽培", "白花"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サクランボ", totalViews: 65970, window: "202504-202603", months: [{ month: "202504", views: 8004 }, { month: "202505", views: 9598 }, { month: "202506", views: 15490 }, { month: "202507", views: 5963 }, { month: "202508", views: 3896 }, { month: "202509", views: 3471 }, { month: "202510", views: 3034 }, { month: "202511", views: 3012 }, { month: "202512", views: 2849 }, { month: "202601", views: 2796 }, { month: "202602", views: 2875 }, { month: "202603", views: 4982 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15908,6 +16341,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉低木", "山地", "白花", "在来種"],
       traits: { leafType: "simple", venation: "pinnate", petalCount: "many", ovaryPosition: "inferior", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニシキウツギ", totalViews: 2684, window: "202504-202603", months: [{ month: "202504", views: 194 }, { month: "202505", views: 1095 }, { month: "202506", views: 552 }, { month: "202507", views: 175 }, { month: "202508", views: 132 }, { month: "202509", views: 106 }, { month: "202510", views: 106 }, { month: "202511", views: 72 }, { month: "202512", views: 72 }, { month: "202601", views: 58 }, { month: "202602", views: 51 }, { month: "202603", views: 71 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15929,6 +16363,7 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "黄色花", "湿地", "帰化植物"],
       traits: { leafArr: "alt", leafType: "simple", venation: "parallel", margin: "entire", petalCount: 6, dissection: "entire", plantSex: "hermaphrodite", venationNet: "open" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キショウブ", totalViews: 12070, window: "202504-202603", months: [{ month: "202504", views: 1249 }, { month: "202505", views: 5972 }, { month: "202506", views: 1845 }, { month: "202507", views: 464 }, { month: "202508", views: 333 }, { month: "202509", views: 325 }, { month: "202510", views: 371 }, { month: "202511", views: 310 }, { month: "202512", views: 286 }, { month: "202601", views: 273 }, { month: "202602", views: 258 }, { month: "202603", views: 384 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15966,6 +16401,7 @@ export const plants: Plant[] = [
       tags: ["草本", "越年草", "栽培", "野菜", "春の七草", "アブラナ科"],
       enTags: ["Herb", "Biennial", "Cultivated", "Vegetable", "Seven herbs of spring", "Brassicaceae"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カブ", totalViews: 44845, window: "202504-202603", months: [{ month: "202504", views: 3915 }, { month: "202505", views: 4686 }, { month: "202506", views: 3928 }, { month: "202507", views: 2583 }, { month: "202508", views: 2772 }, { month: "202509", views: 2834 }, { month: "202510", views: 3681 }, { month: "202511", views: 4194 }, { month: "202512", views: 4438 }, { month: "202601", views: 4894 }, { month: "202602", views: 3452 }, { month: "202603", views: 3468 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -15986,6 +16422,7 @@ export const plants: Plant[] = [
       externalLinks: [],
       tags: ["草本", "越年草", "栽培", "野菜", "アブラナ科"],
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハクサイ", totalViews: 43652, window: "202504-202603", months: [{ month: "202504", views: 3203 }, { month: "202505", views: 2983 }, { month: "202506", views: 2378 }, { month: "202507", views: 2031 }, { month: "202508", views: 2818 }, { month: "202509", views: 2730 }, { month: "202510", views: 3950 }, { month: "202511", views: 5032 }, { month: "202512", views: 5274 }, { month: "202601", views: 6141 }, { month: "202602", views: 3817 }, { month: "202603", views: 3295 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -16007,6 +16444,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉樹", "紫花", "庭木", "外来種"],
       traits: { leafArr: "alt", leafType: "simple", petalFusion: "free", stipules: "present", flowerSymmetry: "actinomorphic", ovaryPosition: "superior", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "モクレン", totalViews: 58241, window: "202504-202603", months: [{ month: "202504", views: 11798 }, { month: "202505", views: 4466 }, { month: "202506", views: 2922 }, { month: "202507", views: 2695 }, { month: "202508", views: 2252 }, { month: "202509", views: 2488 }, { month: "202510", views: 2381 }, { month: "202511", views: 2309 }, { month: "202512", views: 2347 }, { month: "202601", views: 2555 }, { month: "202602", views: 3679 }, { month: "202603", views: 18349 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -16028,6 +16466,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉低木", "白花", "食用", "在来種"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クサイチゴ", totalViews: 11175, window: "202504-202603", months: [{ month: "202504", views: 2664 }, { month: "202505", views: 2898 }, { month: "202506", views: 1219 }, { month: "202507", views: 669 }, { month: "202508", views: 519 }, { month: "202509", views: 360 }, { month: "202510", views: 405 }, { month: "202511", views: 388 }, { month: "202512", views: 352 }, { month: "202601", views: 365 }, { month: "202602", views: 386 }, { month: "202603", views: 950 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -16049,6 +16488,7 @@ export const plants: Plant[] = [
       tags: ["木本", "落葉低木", "白花", "庭木", "在来種"],
       traits: { leafArr: "alt", petalCount: 5, flowerSymmetry: "actinomorphic", plantSex: "hermaphrodite", stamenCount: "3-4", venationNet: "reticulate" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ユキヤナギ", totalViews: 37770, window: "202504-202603", months: [{ month: "202504", views: 11525 }, { month: "202505", views: 3443 }, { month: "202506", views: 1575 }, { month: "202507", views: 1091 }, { month: "202508", views: 1319 }, { month: "202509", views: 1198 }, { month: "202510", views: 1034 }, { month: "202511", views: 968 }, { month: "202512", views: 948 }, { month: "202601", views: 1494 }, { month: "202602", views: 1739 }, { month: "202603", views: 11436 }] },
       review: { status: "ai_generated" as const },
     },
     {
@@ -16070,6 +16510,8042 @@ export const plants: Plant[] = [
       tags: ["草本", "多年草", "ラン", "紫花", "在来種"],
       traits: { habit: "herb", leafType: "simple", venation: "parallel", margin: "entire", petalCount: 6, dissection: "entire", flowerSymmetry: "zygomorphic", ovaryPosition: "inferior", plantSex: "hermaphrodite", stamenCount: "3-4" },
       sources: [{ type: "claude_ai" as const, label: "Claude AI" }],
+      popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シラン", totalViews: 754, window: "202504-202603", months: [{ month: "202504", views: 93 }, { month: "202505", views: 161 }, { month: "202506", views: 74 }, { month: "202507", views: 49 }, { month: "202508", views: 40 }, { month: "202509", views: 46 }, { month: "202510", views: 54 }, { month: "202511", views: 25 }, { month: "202512", views: 70 }, { month: "202601", views: 41 }, { month: "202602", views: 32 }, { month: "202603", views: 69 }] },
       review: { status: "ai_generated" as const },
     },
+  // ───── 1. ライラック（YList: ムラサキハシドイ）─────
+  {
+    id: "lilac",
+    jaName: "ライラック",
+    enName: "Lilac",
+    scientificName: "Syringa vulgaris",
+    familyId: "oleaceae",
+    familyJaName: "モクセイ科",
+    description:
+      "ヨーロッパ南部原産のモクセイ科ハシドイ属の落葉低木。標準和名はムラサキハシドイ。フランス語ではリラと呼ばれる。春に香りのよい紫や白の小花を円錐状に多数つけ、街路樹や庭木として広く植えられる。",
+    enDescription: "A deciduous shrub in the olive family native to southeastern Europe. In Japan it is also known by its scientific Japanese name 'Murasaki-hashidoi', and in French as 'Lilas'. It bears fragrant purple or white flower panicles in spring and is widely planted along streets and in gardens.",
+    identificationPoints: [
+      "春に芳香のある紫・白の小花を円錐状の花序で多数つける",
+      "葉はハート型の単葉で対生",
+      "落葉低木で高さ2〜4m",
+    ],
+    enIdentificationPoints: [
+      "Produces fragrant purple or white flowers in panicles in spring",
+      "Leaves are heart-shaped, simple, and opposite",
+      "Deciduous shrub, 2–4 m tall",
+    ],
+    habitat: "庭木・公園・街路樹（寒冷地）",
+    enHabitat: "Gardens, parks, street trees (cool regions)",
+    season: "4〜6月（花）",
+    enSeason: "April to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Syringa_vulgaris.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ライラック" },
+    ],
+    tags: ["木本", "落葉低木", "春", "紫花", "栽培", "香り"],
+    enTags: ["Tree", "Deciduous shrub", "Spring", "Purple flowers", "Cultivated", "Fragrant"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "cordate", habit: "shrub", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ライラック" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ライラック", totalViews: 231958, window: "202504-202603", months: [{ month: "202504", views: 33213 }, { month: "202505", views: 37171 }, { month: "202506", views: 27735 }, { month: "202507", views: 19060 }, { month: "202508", views: 18141 }, { month: "202509", views: 13399 }, { month: "202510", views: 13209 }, { month: "202511", views: 9524 }, { month: "202512", views: 9832 }, { month: "202601", views: 29224 }, { month: "202602", views: 9140 }, { month: "202603", views: 12310 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 2. アボカド（YList: アボカド）─────
+  {
+    id: "avocado",
+    jaName: "アボカド",
+    enName: "Avocado",
+    scientificName: "Persea americana",
+    familyId: "lauraceae",
+    familyJaName: "クスノキ科",
+    description:
+      "クスノキ科ワニナシ属の常緑高木およびその果実。和名はワニナシ（鰐梨）。果実は脂肪を豊富に含み栄養価が高く、「森のバター」と呼ばれる。中央アメリカ原産で、現在はメキシコをはじめ世界各地で栽培される。",
+    enDescription: "An evergreen tree in the laurel family and its fruit. The Japanese name is 'Wani-nashi' (crocodile pear). The fruit is high in fat and nutritious, earning it the nickname 'butter of the forest'. Native to Central America; now cultivated worldwide, especially in Mexico.",
+    identificationPoints: [
+      "常緑高木で、革質の葉は光沢がある長楕円形",
+      "果実は洋梨形で皮は緑〜黒紫、中に大きな一粒の種",
+      "花は小さな淡緑色で多数",
+    ],
+    enIdentificationPoints: [
+      "Evergreen tree with glossy, leathery, oblong leaves",
+      "Pear-shaped fruit with green-to-purplish-black skin and a single large seed",
+      "Small pale-green flowers in large numbers",
+    ],
+    habitat: "栽培（亜熱帯果樹園）",
+    enHabitat: "Cultivated (subtropical orchards)",
+    season: "通年（果実）",
+    enSeason: "Year-round (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Persea_americana.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アボカド" },
+    ],
+    tags: ["木本", "常緑高木", "果樹", "栽培", "熱帯果物"],
+    enTags: ["Tree", "Evergreen", "Fruit tree", "Cultivated", "Tropical fruit"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "oblong", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アボカド" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アボカド", totalViews: 166046, window: "202504-202603", months: [{ month: "202504", views: 8792 }, { month: "202505", views: 10551 }, { month: "202506", views: 10351 }, { month: "202507", views: 10420 }, { month: "202508", views: 15572 }, { month: "202509", views: 40772 }, { month: "202510", views: 10523 }, { month: "202511", views: 15879 }, { month: "202512", views: 13222 }, { month: "202601", views: 9614 }, { month: "202602", views: 10695 }, { month: "202603", views: 9655 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 3. コリアンダー（YList: コエンドロ）─────
+  {
+    id: "coriander",
+    jaName: "コリアンダー",
+    enName: "Coriander",
+    scientificName: "Coriandrum sativum",
+    familyId: "apiaceae",
+    familyJaName: "セリ科",
+    description:
+      "地中海沿岸原産のセリ科コエンドロ属の一年草。日本には10世紀頃に渡来。和名コエンドロ、タイ語由来のパクチー、中国語由来のシャンツァイとも呼ばれる。葉と種子の両方を食用・香辛料とし、エスニック料理に欠かせない。",
+    enDescription: "An annual herb in the carrot family native to the Mediterranean, introduced to Japan around the 10th century. Known in Japan by the old name 'Koendoro', the Thai-derived 'Paku-chi', and the Chinese-derived 'Shantsai'. Both leaves and seeds are used as food and spice, essential to ethnic cuisines.",
+    identificationPoints: [
+      "強い独特の香りがある",
+      "葉は羽状複葉、下部の葉は丸みがあり上部は細く裂ける",
+      "小さな白〜淡紅の花を散形花序でつける",
+    ],
+    enIdentificationPoints: [
+      "Strong distinctive aroma",
+      "Pinnately compound leaves; lower leaves rounded, upper leaves finely divided",
+      "Small white-to-pink flowers in umbels",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "6〜7月（花）、7〜8月（種子）",
+    enSeason: "June to July (flowers), July to August (seeds)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Coriandrum_sativum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コリアンダー" },
+    ],
+    tags: ["草本", "一年草", "ハーブ", "香辛料", "栽培"],
+    enTags: ["Herb", "Annual", "Culinary herb", "Spice", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/コリアンダー" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コリアンダー", totalViews: 149327, window: "202504-202603", months: [{ month: "202504", views: 14744 }, { month: "202505", views: 16706 }, { month: "202506", views: 14103 }, { month: "202507", views: 11602 }, { month: "202508", views: 13174 }, { month: "202509", views: 11006 }, { month: "202510", views: 11877 }, { month: "202511", views: 13088 }, { month: "202512", views: 10937 }, { month: "202601", views: 10721 }, { month: "202602", views: 9679 }, { month: "202603", views: 11690 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 4. アサイー（YList: ニボンモドキ）─────
+  {
+    id: "acai",
+    jaName: "アサイー",
+    enName: "Açaí",
+    scientificName: "Euterpe oleracea",
+    familyId: "arecaceae",
+    familyJaName: "ヤシ科",
+    description:
+      "ブラジルのアマゾン原産のヤシ科の常緑高木。和名はニボンモドキ、ワカバキャベツヤシ。黒紫色の小さな果実はポリフェノールや鉄分に富み、スーパーフードとして知られる。",
+    enDescription: "An evergreen palm tree native to the Amazon rainforest of Brazil. Its Japanese names are 'Nibon-modoki' and 'Wakaba-kyabetsu-yashi'. The small dark-purple berries are rich in polyphenols and iron, and are known as a superfood.",
+    identificationPoints: [
+      "細く高く伸びるヤシ",
+      "羽状の葉を枝先にまとめてつける",
+      "果実は直径1〜2cmの丸い紫黒色",
+    ],
+    enIdentificationPoints: [
+      "Slender, tall palm",
+      "Pinnate leaves clustered at the top",
+      "Round fruit, 1–2 cm in diameter, dark purple-black",
+    ],
+    habitat: "熱帯雨林（アマゾン流域）",
+    enHabitat: "Tropical rainforest (Amazon basin)",
+    season: "通年（果実）",
+    enSeason: "Year-round (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Euterpe_oleracea.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アサイー" },
+    ],
+    tags: ["木本", "ヤシ", "熱帯果物", "スーパーフード"],
+    enTags: ["Tree", "Palm", "Tropical fruit", "Superfood"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アサイー" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アサイー", totalViews: 140486, window: "202504-202603", months: [{ month: "202504", views: 20971 }, { month: "202505", views: 17524 }, { month: "202506", views: 16411 }, { month: "202507", views: 16621 }, { month: "202508", views: 15698 }, { month: "202509", views: 10940 }, { month: "202510", views: 14268 }, { month: "202511", views: 8550 }, { month: "202512", views: 5384 }, { month: "202601", views: 5690 }, { month: "202602", views: 3826 }, { month: "202603", views: 4603 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 5. マコモ（YList: アメリカマコモ、学名一致は Zizania latifolia）─────
+  {
+    id: "makomo",
+    jaName: "マコモ",
+    enName: "Manchurian Wildrice",
+    scientificName: "Zizania latifolia",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "イネ科マコモ属の多年草。別名ハナガツミ。水辺の湿地に群生する。古代の中国や日本で種子を穀物として食した。黒穂菌に感染して肥大した若芽は「マコモダケ」と呼ばれ、現在も中華料理の食材として用いられる。",
+    enDescription: "A perennial grass growing in wetlands by water. Its seeds were eaten as grain in ancient China and Japan. The young shoot swollen by smut fungus infection, called 'Makomo-dake', is still used as a vegetable in Chinese cuisine.",
+    identificationPoints: [
+      "水辺の湿地に群生する大型の多年草、高さ1〜2m",
+      "長い線形の葉",
+      "黒穂菌に感染した茎は太く膨らむ（マコモダケ）",
+    ],
+    enIdentificationPoints: [
+      "Tall perennial grass in wetlands, 1–2 m tall",
+      "Long linear leaves",
+      "Stems swollen by smut fungus form edible 'Makomo-dake'",
+    ],
+    habitat: "湖沼・湿地・水田周辺",
+    enHabitat: "Lakes, wetlands, paddy field edges",
+    season: "8〜10月（花・若芽）",
+    enSeason: "August to October (flowers, shoots)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Zizania_latifolia.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マコモ" },
+    ],
+    tags: ["草本", "多年草", "水生植物", "食用"],
+    enTags: ["Herb", "Perennial", "Aquatic plant", "Edible"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "linear", habit: "herb", deciduous: "deciduous", habitat: "wetland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/マコモ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マコモ", totalViews: 126177, window: "202504-202603", months: [{ month: "202504", views: 3523 }, { month: "202505", views: 4363 }, { month: "202506", views: 5027 }, { month: "202507", views: 72572 }, { month: "202508", views: 7790 }, { month: "202509", views: 5094 }, { month: "202510", views: 10547 }, { month: "202511", views: 5822 }, { month: "202512", views: 3266 }, { month: "202601", views: 3122 }, { month: "202602", views: 2563 }, { month: "202603", views: 2488 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 6. リンゴ（YList: セイヨウリンゴ）─────
+  {
+    id: "ringo",
+    jaName: "リンゴ",
+    enName: "Apple",
+    scientificName: "Malus domestica",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "バラ科リンゴ属の落葉高木で、植物学上の和名はセイヨウリンゴ。中央アジア原産で、世界中の温帯で広く栽培される代表的な果樹。日本では明治時代に導入され、現在は青森県が主産地。春に白〜薄紅の花を咲かせ、秋に赤や黄の果実をつける。",
+    enDescription: "A deciduous tree in the rose family; its botanical Japanese name is 'Seiyou-ringo'. Originating from Central Asia, it is one of the most widely cultivated fruit trees in temperate regions worldwide. Introduced to Japan during the Meiji era, Aomori Prefecture is now the main production area. White to pale pink flowers in spring, red or yellow fruit in autumn.",
+    identificationPoints: [
+      "春、枝先に白〜薄紅の5弁花を散房状につける",
+      "葉は楕円形で縁に鋸歯",
+      "秋にほぼ球形で上下がくぼんだ果実を実らせる",
+    ],
+    enIdentificationPoints: [
+      "White-to-pale-pink 5-petaled flowers in corymbs in spring",
+      "Elliptic leaves with serrate margins",
+      "Round fruit with depressed ends in autumn",
+    ],
+    habitat: "栽培（果樹園）",
+    enHabitat: "Cultivated (orchards)",
+    season: "4〜5月（花）、9〜11月（果実）",
+    enSeason: "April to May (flowers), September to November (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Malus_domestica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/リンゴ" },
+    ],
+    tags: ["木本", "落葉高木", "果樹", "栽培", "春の花"],
+    enTags: ["Tree", "Deciduous", "Fruit tree", "Cultivated", "Spring flowers"],
+    traits: { leafArr: "alt", leafType: "simple", margin: "serrate", shape: "ovate", habit: "tree", deciduous: "deciduous", petalCount: 5, flowerColor: "white", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/リンゴ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "リンゴ", totalViews: 124023, window: "202504-202603", months: [{ month: "202504", views: 9555 }, { month: "202505", views: 10955 }, { month: "202506", views: 9764 }, { month: "202507", views: 9280 }, { month: "202508", views: 10000 }, { month: "202509", views: 10826 }, { month: "202510", views: 11712 }, { month: "202511", views: 13075 }, { month: "202512", views: 11113 }, { month: "202601", views: 10428 }, { month: "202602", views: 8901 }, { month: "202603", views: 8414 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 7. ハナミズキ（YList: アメリカヤマボウシ）─────
+  {
+    id: "hanamizuki",
+    jaName: "ハナミズキ",
+    enName: "Flowering Dogwood",
+    scientificName: "Cornus florida",
+    familyId: "cornaceae",
+    familyJaName: "ミズキ科",
+    description:
+      "ミズキ科ミズキ属ヤマボウシ亜属の落葉小高木。標準和名はアメリカヤマボウシ。北米原産で、1912年に日本がワシントンDCに贈ったサクラの返礼として贈られた木。庭木や街路樹として広く親しまれる。",
+    enDescription: "A small to medium deciduous tree in the dogwood family; its botanical Japanese name is 'Amerika-yamaboushi'. Native to North America, it was gifted to Japan in return for the cherry trees sent to Washington DC in 1912. Widely planted in gardens and as a street tree.",
+    identificationPoints: [
+      "春、開葉前に4枚の大きな白〜淡紅の総苞に囲まれた花をつける",
+      "葉は楕円形で対生、秋に美しく紅葉",
+      "秋に赤い集合果",
+    ],
+    enIdentificationPoints: [
+      "Four large white-to-pink bracts surround flowers in spring, before leaves emerge",
+      "Elliptic leaves, opposite; vivid red autumn color",
+      "Red aggregate fruits in autumn",
+    ],
+    habitat: "庭木・街路樹・公園",
+    enHabitat: "Gardens, street trees, parks",
+    season: "4〜5月（花）、10〜11月（紅葉・果実）",
+    enSeason: "April to May (flowers), October to November (autumn color, fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cornus_florida.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハナミズキ" },
+    ],
+    tags: ["木本", "落葉小高木", "春の花", "紅葉", "栽培"],
+    enTags: ["Tree", "Deciduous", "Spring flowers", "Autumn color", "Cultivated"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "elliptic", habit: "tree", deciduous: "deciduous", flowerColor: "white", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ハナミズキ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハナミズキ", totalViews: 120989, window: "202504-202603", months: [{ month: "202504", views: 33717 }, { month: "202505", views: 17598 }, { month: "202506", views: 8469 }, { month: "202507", views: 6925 }, { month: "202508", views: 6696 }, { month: "202509", views: 6691 }, { month: "202510", views: 7487 }, { month: "202511", views: 7838 }, { month: "202512", views: 5079 }, { month: "202601", views: 5481 }, { month: "202602", views: 5477 }, { month: "202603", views: 9531 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 8. ツバキ（YList: ヤブツバキ）─────
+  {
+    id: "tsubaki",
+    jaName: "ヤブツバキ",
+    enName: "Japanese Camellia",
+    scientificName: "Camellia japonica",
+    familyId: "theaceae",
+    familyJaName: "ツバキ科",
+    description:
+      "ツバキ科ツバキ属の常緑樹で、照葉樹林の代表種。単に「ツバキ」とも呼ばれる。日本の本州以南に自生し、冬から春にかけて赤色の花を咲かせる。庭木として広く植栽され、種子は椿油の原料となる。",
+    enDescription: "An evergreen tree in the tea family, representative of Japanese lucidophyllous forests. Also simply called 'Tsubaki'. Native to Japan from Honshu southward, it blooms red flowers from winter to spring. Widely planted in gardens, and its seeds are the source of 'tsubaki oil'.",
+    identificationPoints: [
+      "常緑樹で葉は厚い革質、濃緑色で光沢",
+      "冬〜春、赤色の大きな5弁花が開き、雄しべは筒状に合着",
+      "花ごとぽとりと落ちる（花びらが散らない）",
+    ],
+    enIdentificationPoints: [
+      "Evergreen with thick, leathery, glossy dark-green leaves",
+      "Large red 5-petaled flowers with stamens fused into a tube, winter to spring",
+      "Whole flower drops (petals don't fall individually)",
+    ],
+    habitat: "照葉樹林・庭木・公園",
+    enHabitat: "Evergreen broadleaf forests, gardens, parks",
+    season: "12〜4月（花）",
+    enSeason: "December to April (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Camellia_japonica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツバキ" },
+    ],
+    tags: ["木本", "常緑樹", "冬の花", "赤花", "照葉樹林"],
+    enTags: ["Tree", "Evergreen", "Winter flowers", "Red flowers", "Lucidophyll forest"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "evergreen", petalCount: 5, flowerColor: "red", floweringSeason: "winter", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ツバキ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツバキ", totalViews: 118729, window: "202504-202603", months: [{ month: "202504", views: 16304 }, { month: "202505", views: 9568 }, { month: "202506", views: 6659 }, { month: "202507", views: 5615 }, { month: "202508", views: 6611 }, { month: "202509", views: 5745 }, { month: "202510", views: 6795 }, { month: "202511", views: 8453 }, { month: "202512", views: 11243 }, { month: "202601", views: 14400 }, { month: "202602", views: 12220 }, { month: "202603", views: 15116 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 9. コンニャク（YList: コンニャク）─────
+  {
+    id: "konnyaku",
+    jaName: "コンニャク",
+    enName: "Konjac",
+    scientificName: "Amorphophallus konjac",
+    familyId: "araceae",
+    familyJaName: "サトイモ科",
+    description:
+      "サトイモ科コンニャク属の多年草。東南アジア原産で、日本には仏教とともに伝来したとされる。地下の球茎から食品の蒟蒻が作られ、古くから日本の食文化に根付く。数年に一度、悪臭を放つ大きな花を咲かせる。",
+    enDescription: "A perennial herb in the arum family, native to Southeast Asia, said to have been introduced to Japan along with Buddhism. The underground corm is processed into the food 'konnyaku', a long-established part of Japanese cuisine. It occasionally produces a large, foul-smelling flower.",
+    identificationPoints: [
+      "地下に大きな球茎を持つ",
+      "葉は1本の長い柄の先に大きく裂けた複葉を広げる",
+      "花は暗紫色で悪臭、仏炎苞に包まれる",
+    ],
+    enIdentificationPoints: [
+      "Large underground corm",
+      "A single long petiole bears a highly dissected compound leaf",
+      "Dark purple, foul-smelling inflorescence enclosed in a spathe",
+    ],
+    habitat: "栽培（畑）",
+    enHabitat: "Cultivated (fields)",
+    season: "5〜6月（花、数年に一度）",
+    enSeason: "May to June (flowers, every few years)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Amorphophallus_konjac.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コンニャク" },
+    ],
+    tags: ["草本", "多年草", "工芸作物", "食用", "栽培"],
+    enTags: ["Herb", "Perennial", "Industrial crop", "Edible", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/コンニャク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コンニャク", totalViews: 111748, window: "202504-202603", months: [{ month: "202504", views: 9645 }, { month: "202505", views: 12075 }, { month: "202506", views: 8794 }, { month: "202507", views: 7004 }, { month: "202508", views: 7993 }, { month: "202509", views: 7208 }, { month: "202510", views: 9249 }, { month: "202511", views: 9696 }, { month: "202512", views: 9596 }, { month: "202601", views: 11079 }, { month: "202602", views: 9171 }, { month: "202603", views: 10238 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 10. ケシ（YList: ケシ）─────
+  {
+    id: "keshi",
+    jaName: "ケシ",
+    enName: "Opium Poppy",
+    scientificName: "Papaver somniferum",
+    familyId: "papaveraceae",
+    familyJaName: "ケシ科",
+    description:
+      "ケシ科ケシ属の一年草。アヘンの原料となるため、日本ではあへん法により栽培が禁止されている。大きく鮮やかな花を咲かせ、未熟果から乳液（アヘン）を採取。種子は食用（ケシ粒）として一部の品種が合法に利用される。",
+    enDescription: "An annual herb in the poppy family. Because it is the source of opium, cultivation is prohibited in Japan under the Opium Law. It produces large, showy flowers; latex (opium) is extracted from unripe capsules. Seeds are used for food (poppy seeds) from legally allowed varieties only.",
+    identificationPoints: [
+      "灰緑色で蝋質の葉、茎を抱く",
+      "大きな4弁花、色は白・赤・紫など",
+      "果実は球形の蒴果、切ると白い乳液",
+    ],
+    enIdentificationPoints: [
+      "Waxy gray-green leaves that clasp the stem",
+      "Large 4-petaled flowers in white, red, or purple",
+      "Round capsule fruit; cutting it releases white latex",
+    ],
+    habitat: "栽培禁止（特定用途許可栽培のみ）",
+    enHabitat: "Cultivation prohibited (except for specific licensed uses)",
+    season: "5〜6月（花）",
+    enSeason: "May to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Papaver_somniferum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ケシ" },
+    ],
+    tags: ["草本", "一年草", "有毒", "麻薬原料", "栽培禁止"],
+    enTags: ["Herb", "Annual", "Poisonous", "Narcotic source", "Prohibited"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 4, habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ケシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ケシ", totalViews: 108703, window: "202504-202603", months: [{ month: "202504", views: 15939 }, { month: "202505", views: 17920 }, { month: "202506", views: 9775 }, { month: "202507", views: 7287 }, { month: "202508", views: 7070 }, { month: "202509", views: 7146 }, { month: "202510", views: 7210 }, { month: "202511", views: 6617 }, { month: "202512", views: 8132 }, { month: "202601", views: 7200 }, { month: "202602", views: 6647 }, { month: "202603", views: 7760 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 11. イチジク（YList: イチジク）─────
+  {
+    id: "ichijiku",
+    jaName: "イチジク",
+    enName: "Common Fig",
+    scientificName: "Ficus carica",
+    familyId: "moraceae",
+    familyJaName: "クワ科",
+    description:
+      "クワ科イチジク属の落葉高木。西アジア原産で、世界中で果樹として栽培される。花嚢の内側に多数の小花をつけ、果嚢となる独特の構造。「無花果」の名の通り、外見からは花が見えない。",
+    enDescription: "A deciduous tree in the mulberry family, native to western Asia, cultivated worldwide as a fruit tree. Many tiny flowers are borne inside a syconium, which becomes the fruit. Its Japanese name '無花果' ('no flower fruit') reflects that the flowers are hidden from view.",
+    identificationPoints: [
+      "葉は大きく手のひら状に3〜5裂",
+      "花嚢（将来の果実）が葉腋から直接つく",
+      "熟した果実は紫褐色〜緑黄色、内部は赤く多汁",
+    ],
+    enIdentificationPoints: [
+      "Large palmately 3–5 lobed leaves",
+      "Syconia (future fruits) borne directly in leaf axils",
+      "Ripe fruit is purple-brown to green-yellow; red, juicy inside",
+    ],
+    habitat: "栽培（果樹園・庭木）",
+    enHabitat: "Cultivated (orchards, gardens)",
+    season: "6〜10月（果実）",
+    enSeason: "June to October (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ficus_carica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イチジク" },
+    ],
+    tags: ["木本", "落葉高木", "果樹", "栽培"],
+    enTags: ["Tree", "Deciduous", "Fruit tree", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "palmate", habit: "tree", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/イチジク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イチジク", totalViews: 106914, window: "202504-202603", months: [{ month: "202504", views: 5651 }, { month: "202505", views: 6961 }, { month: "202506", views: 7912 }, { month: "202507", views: 7730 }, { month: "202508", views: 17875 }, { month: "202509", views: 19831 }, { month: "202510", views: 13870 }, { month: "202511", views: 7602 }, { month: "202512", views: 5311 }, { month: "202601", views: 4825 }, { month: "202602", views: 4466 }, { month: "202603", views: 4880 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 12. イチゴ（YList: オランダイチゴ）─────
+  {
+    id: "ichigo",
+    jaName: "イチゴ",
+    enName: "Strawberry",
+    scientificName: "Fragaria × ananassa",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "バラ科オランダイチゴ属の多年草。食用に供されるのは赤く肥大した花托で、表面に見える粒は種子ではなく痩果。18世紀のオランダで現在の栽培種が生まれたため、和名はオランダイチゴ。赤色のほか白色品種もある。",
+    enDescription: "A perennial herb in the rose family. The 'fruit' we eat is actually the enlarged red receptacle; the tiny grains on its surface are achenes, not seeds. The modern cultivated strawberry originated in the Netherlands in the 18th century, giving its Japanese name 'Oranda-ichigo'. White varieties also exist.",
+    identificationPoints: [
+      "3小葉の複葉、鋸歯がある",
+      "白い5弁花を春に咲かせる",
+      "赤色（または白色）の偽果の表面に粒状の痩果",
+    ],
+    enIdentificationPoints: [
+      "Compound leaves of 3 serrated leaflets",
+      "White 5-petaled flowers in spring",
+      "Red (or white) accessory fruit with achenes on surface",
+    ],
+    habitat: "栽培（畑・ビニールハウス）",
+    enHabitat: "Cultivated (fields, greenhouses)",
+    season: "12〜5月（果実・促成栽培）",
+    enSeason: "December to May (fruit, forced culture)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fragaria_ananassa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イチゴ" },
+    ],
+    tags: ["草本", "多年草", "果物", "栽培"],
+    enTags: ["Herb", "Perennial", "Fruit", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", margin: "serrate", habit: "herb", deciduous: "deciduous", petalCount: 5, flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/イチゴ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イチゴ", totalViews: 106812, window: "202504-202603", months: [{ month: "202504", views: 12853 }, { month: "202505", views: 11866 }, { month: "202506", views: 8526 }, { month: "202507", views: 6471 }, { month: "202508", views: 5932 }, { month: "202509", views: 12328 }, { month: "202510", views: 6400 }, { month: "202511", views: 5914 }, { month: "202512", views: 7145 }, { month: "202601", views: 9083 }, { month: "202602", views: 9992 }, { month: "202603", views: 10302 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 13. ツツジ（YList: アケボノツツジ）※ 要注意：Wikipedia記事は属全体の解説 ─────
+  {
+    id: "tsutsuji",
+    jaName: "ツツジ",
+    enName: "Azalea",
+    scientificName: "Rhododendron",
+    familyId: "ericaceae",
+    familyJaName: "ツツジ科",
+    description:
+      "ツツジ科ツツジ属の植物の総称。主にアジアに広く分布し、日本には多くの野生種・園芸種がある。庭木・街路樹として広く植栽され、春に鮮やかな花を咲かせる。ネパールの国花。",
+    enDescription: "A general name for plants in the genus Rhododendron (heath family). Widely distributed mainly in Asia, with many wild and cultivated species in Japan. Widely planted as garden and street trees; blooms vivid flowers in spring. National flower of Nepal.",
+    identificationPoints: [
+      "常緑または落葉の低木〜小高木",
+      "春、漏斗状の5裂した花を多数咲かせる",
+      "葉は互生、多くは全縁",
+    ],
+    enIdentificationPoints: [
+      "Evergreen or deciduous shrub to small tree",
+      "Funnel-shaped, 5-lobed flowers in spring",
+      "Leaves alternate, mostly entire margin",
+    ],
+    habitat: "庭木・街路樹・山地",
+    enHabitat: "Gardens, street trees, mountains",
+    season: "4〜5月（花）",
+    enSeason: "April to May (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rhododendron_japonicum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツツジ" },
+    ],
+    tags: ["木本", "低木", "春の花", "栽培", "園芸"],
+    enTags: ["Tree", "Shrub", "Spring flowers", "Cultivated", "Horticultural"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "shrub", flowerColor: "pink", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ツツジ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツツジ", totalViews: 98980, window: "202504-202603", months: [{ month: "202504", views: 28887 }, { month: "202505", views: 23998 }, { month: "202506", views: 8209 }, { month: "202507", views: 4629 }, { month: "202508", views: 4411 }, { month: "202509", views: 3722 }, { month: "202510", views: 3854 }, { month: "202511", views: 3910 }, { month: "202512", views: 3628 }, { month: "202601", views: 4012 }, { month: "202602", views: 3960 }, { month: "202603", views: 5760 }] },
+    review: { status: "ai_generated", note: "⚠️ 属全体の解説。種を特定して個別エントリにするか検討。" },
+  },
+
+  // ───── 14. ナガエツルノゲイトウ（YList: ナガエツルノゲイトウ）─────
+  {
+    id: "nagae_tsurunogeito",
+    jaName: "ナガエツルノゲイトウ",
+    enName: "Alligator Weed",
+    scientificName: "Alternanthera philoxeroides",
+    familyId: "amaranthaceae",
+    familyJaName: "ヒユ科",
+    description:
+      "南アメリカ原産の多年草。世界中に外来種として定着しており、「地球上で最悪の侵略的植物」と呼ばれることもある。2005年に日本の特定外来生物に指定された。水辺や湿地に爆発的に繁茂する。",
+    enDescription: "A perennial herb native to South America, naturalized as an invasive species worldwide—sometimes called 'one of the world's worst invasive plants'. Designated as a 'Specified Invasive Alien Species' in Japan since 2005. It forms dense mats in wetlands and waterways.",
+    identificationPoints: [
+      "茎は中空で水に浮く",
+      "葉は対生、長楕円形で光沢あり",
+      "白い小さな球状の花序を葉腋につける",
+    ],
+    enIdentificationPoints: [
+      "Hollow stems that float on water",
+      "Opposite, oblong, glossy leaves",
+      "Small white ball-like inflorescences in leaf axils",
+    ],
+    habitat: "河川・湖沼・水田・湿地（外来）",
+    enHabitat: "Rivers, ponds, paddy fields, wetlands (invasive)",
+    season: "6〜9月（花）",
+    enSeason: "June to September (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alternanthera_philoxeroides.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ナガエツルノゲイトウ" },
+    ],
+    tags: ["草本", "多年草", "特定外来生物", "水生植物", "侵略的"],
+    enTags: ["Herb", "Perennial", "Specified invasive", "Aquatic", "Invasive"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "oblong", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "wetland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ナガエツルノゲイトウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナガエツルノゲイトウ", totalViews: 97539, window: "202504-202603", months: [{ month: "202504", views: 2300 }, { month: "202505", views: 5181 }, { month: "202506", views: 12627 }, { month: "202507", views: 4491 }, { month: "202508", views: 35880 }, { month: "202509", views: 11088 }, { month: "202510", views: 4001 }, { month: "202511", views: 3159 }, { month: "202512", views: 13211 }, { month: "202601", views: 2284 }, { month: "202602", views: 1922 }, { month: "202603", views: 1395 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 15. クズ（YList: クズ）─────
+  {
+    id: "kuzu",
+    jaName: "クズ",
+    enName: "Kudzu",
+    scientificName: "Pueraria lobata",
+    familyId: "fabaceae",
+    familyJaName: "マメ科",
+    description:
+      "マメ科クズ属のつる性の多年草で半低木。日本の山野に広く自生する。秋の七草の一つ。根を用いて葛粉や葛根湯（漢方薬）が作られる。海外では侵略的外来種として問題となっている。",
+    enDescription: "A climbing, semi-woody perennial in the pea family, widely native to Japanese hills and fields. One of the 'seven flowers of autumn'. Its roots are used to make kudzu starch and the traditional medicine 'Kakkonto'. Abroad, it is notorious as an invasive species.",
+    identificationPoints: [
+      "3小葉の大きな羽状複葉",
+      "つるは長く伸び、他の植物を覆いつくす",
+      "秋に穂状の紫色の花、芳香がある",
+    ],
+    enIdentificationPoints: [
+      "Large pinnately compound leaves of 3 leaflets",
+      "Long vines that smother other vegetation",
+      "Fragrant purple racemes in autumn",
+    ],
+    habitat: "山野・道ばた・河川敷",
+    enHabitat: "Hills, roadsides, riverbanks",
+    season: "8〜9月（花）",
+    enSeason: "August to September (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pueraria_lobata.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クズ" },
+    ],
+    tags: ["草本", "つる植物", "多年草", "秋の七草", "薬用"],
+    enTags: ["Herb", "Vine", "Perennial", "Seven flowers of autumn", "Medicinal"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "vine", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "autumn", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/クズ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クズ", totalViews: 96326, window: "202504-202603", months: [{ month: "202504", views: 5686 }, { month: "202505", views: 6997 }, { month: "202506", views: 7388 }, { month: "202507", views: 8174 }, { month: "202508", views: 13327 }, { month: "202509", views: 15071 }, { month: "202510", views: 9357 }, { month: "202511", views: 6816 }, { month: "202512", views: 6256 }, { month: "202601", views: 4935 }, { month: "202602", views: 7604 }, { month: "202603", views: 4715 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 16. ネモフィラ（YList: ルリカラクサ）※ Wikipedia記事は属全体 ─────
+  {
+    id: "nemophila",
+    jaName: "ネモフィラ",
+    enName: "Baby Blue Eyes",
+    scientificName: "Nemophila menziesii",
+    familyId: "boraginaceae",
+    familyJaName: "ムラサキ科",
+    description:
+      "ムラサキ科ネモフィラ属の一年草。和名はルリカラクサ。北米原産で、日本では園芸植物として広く栽培される。春に青い5弁花を一面に咲かせ、茨城県のひたち海浜公園の名物として有名。",
+    enDescription: "An annual herb in the borage family; Japanese name 'Ruri-karakusa'. Native to North America, widely cultivated in Japan as an ornamental. Its bright blue 5-petaled flowers carpet the ground in spring; famous at Hitachi Seaside Park in Ibaraki Prefecture.",
+    identificationPoints: [
+      "草丈10〜20cm程度、横に広がる",
+      "青い5弁花、中心が白く周囲が青色",
+      "羽状に深く裂けた葉",
+    ],
+    enIdentificationPoints: [
+      "Low spreading habit, 10–20 cm tall",
+      "Blue 5-petaled flowers with white center",
+      "Pinnately deeply lobed leaves",
+    ],
+    habitat: "栽培（花壇・公園）",
+    enHabitat: "Cultivated (flower beds, parks)",
+    season: "4〜5月（花）",
+    enSeason: "April to May (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Nemophila_menziesii.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ネモフィラ" },
+    ],
+    tags: ["草本", "一年草", "春の花", "青花", "栽培"],
+    enTags: ["Herb", "Annual", "Spring flowers", "Blue flowers", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 5, flowerColor: "blue", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ネモフィラ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ネモフィラ", totalViews: 94933, window: "202504-202603", months: [{ month: "202504", views: 31992 }, { month: "202505", views: 23569 }, { month: "202506", views: 5439 }, { month: "202507", views: 3176 }, { month: "202508", views: 2305 }, { month: "202509", views: 2429 }, { month: "202510", views: 3066 }, { month: "202511", views: 2744 }, { month: "202512", views: 2364 }, { month: "202601", views: 3404 }, { month: "202602", views: 4602 }, { month: "202603", views: 9843 }] },
+    review: { status: "ai_generated", note: "⚠️ Wikipedia記事は属の解説。種はN. menziesiiで代表。" },
+  },
+
+  // ───── 17. オクラ（YList: オクラ）─────
+  {
+    id: "okura",
+    jaName: "オクラ",
+    enName: "Okra",
+    scientificName: "Abelmoschus esculentus",
+    familyId: "malvaceae",
+    familyJaName: "アオイ科",
+    description:
+      "アオイ科トロロアオイ属の一年草（熱帯では多年草）。アフリカ北東部原産で、緑色の細長い果実が食用。粘りがあり、日本でも夏野菜として一般的。花は大きく淡黄色で中心が赤紫。",
+    enDescription: "An annual (perennial in the tropics) in the mallow family, native to northeast Africa; its long green fruit is eaten. Known for its mucilaginous texture, it is a common summer vegetable in Japan. Flowers are large, pale yellow with a dark purple center.",
+    identificationPoints: [
+      "高さ1〜2m、太い草本",
+      "葉は大きく手のひら状に裂ける",
+      "果実は五角形または丸い断面の細長いさや",
+    ],
+    enIdentificationPoints: [
+      "Tall herb, 1–2 m",
+      "Large palmately lobed leaves",
+      "Long pod with pentagonal or round cross-section",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "7〜9月（花・果実）",
+    enSeason: "July to September (flowers, fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Abelmoschus_esculentus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オクラ" },
+    ],
+    tags: ["草本", "一年草", "野菜", "夏野菜", "栽培"],
+    enTags: ["Herb", "Annual", "Vegetable", "Summer vegetable", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "palmate", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/オクラ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オクラ", totalViews: 94045, window: "202504-202603", months: [{ month: "202504", views: 6251 }, { month: "202505", views: 7855 }, { month: "202506", views: 8924 }, { month: "202507", views: 14551 }, { month: "202508", views: 17724 }, { month: "202509", views: 10349 }, { month: "202510", views: 7801 }, { month: "202511", views: 5425 }, { month: "202512", views: 3682 }, { month: "202601", views: 4355 }, { month: "202602", views: 3294 }, { month: "202603", views: 3834 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 18. ウンシュウミカン（YList: ウンシュウミカン）─────
+  {
+    id: "unshuu_mikan",
+    jaName: "ウンシュウミカン",
+    enName: "Satsuma Mandarin",
+    scientificName: "Citrus unshiu",
+    familyId: "rutaceae",
+    familyJaName: "ミカン科",
+    description:
+      "ミカン科の常緑低木。鹿児島県長島が原産とされる日本固有の柑橘類。種がなく甘く、日本で最も一般的なミカン。愛媛県・和歌山県・静岡県などが主産地。",
+    enDescription: "An evergreen shrub in the citrus family. A Japanese native citrus said to have originated on Nagashima Island in Kagoshima. Seedless and sweet, it is the most common mandarin in Japan. Main production areas include Ehime, Wakayama, and Shizuoka.",
+    identificationPoints: [
+      "常緑低木で枝にとげがほぼない",
+      "葉は厚く光沢のある楕円形",
+      "果実は扁球形で薄い皮が手で剥ける、種がない",
+    ],
+    enIdentificationPoints: [
+      "Evergreen shrub with almost no thorns",
+      "Thick, glossy, elliptic leaves",
+      "Flattened spherical fruit; thin peel easily removed by hand; seedless",
+    ],
+    habitat: "栽培（果樹園）",
+    enHabitat: "Cultivated (orchards)",
+    season: "10〜12月（果実）",
+    enSeason: "October to December (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Citrus_unshiu.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ウンシュウミカン" },
+    ],
+    tags: ["木本", "常緑低木", "果樹", "柑橘", "栽培"],
+    enTags: ["Tree", "Evergreen shrub", "Fruit tree", "Citrus", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "elliptic", habit: "shrub", deciduous: "evergreen", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ウンシュウミカン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウンシュウミカン", totalViews: 92553, window: "202504-202603", months: [{ month: "202504", views: 6204 }, { month: "202505", views: 6863 }, { month: "202506", views: 5752 }, { month: "202507", views: 5286 }, { month: "202508", views: 6304 }, { month: "202509", views: 5841 }, { month: "202510", views: 7587 }, { month: "202511", views: 11676 }, { month: "202512", views: 13965 }, { month: "202601", views: 10422 }, { month: "202602", views: 6720 }, { month: "202603", views: 5933 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 19. キウイフルーツ（YList: キウイフルーツ）─────
+  {
+    id: "kiwifruit",
+    jaName: "キウイフルーツ",
+    enName: "Kiwifruit",
+    scientificName: "Actinidia deliciosa",
+    familyId: "actinidiaceae",
+    familyJaName: "マタタビ科",
+    description:
+      "マタタビ科マタタビ属の落葉つる性植物。中国原産のオニマタタビをニュージーランドで改良した栽培種で、国鳥キーウィに因んで命名された。ビタミンCに富む緑色または黄色の果肉をもつ温帯果樹。",
+    enDescription: "A deciduous vine in the family Actinidiaceae. Bred in New Zealand from the Chinese gooseberry, it was named after the country's national bird, the kiwi. A temperate fruit tree with vitamin-C-rich green or yellow flesh.",
+    identificationPoints: [
+      "雌雄異株のつる性植物",
+      "葉は大きなハート形で裏に白い毛",
+      "果実は楕円体、表面に褐色の細かい毛",
+    ],
+    enIdentificationPoints: [
+      "Dioecious climbing vine",
+      "Large heart-shaped leaves with white fuzz underneath",
+      "Ellipsoidal fruit with fine brown hairs on the surface",
+    ],
+    habitat: "栽培（果樹園・家庭）",
+    enHabitat: "Cultivated (orchards, home gardens)",
+    season: "10〜12月（果実）",
+    enSeason: "October to December (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Actinidia_deliciosa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キウイフルーツ" },
+    ],
+    tags: ["木本", "つる植物", "果樹", "栽培", "雌雄異株"],
+    enTags: ["Tree", "Vine", "Fruit tree", "Cultivated", "Dioecious"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "cordate", habit: "vine", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/キウイフルーツ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キウイフルーツ", totalViews: 90671, window: "202504-202603", months: [{ month: "202504", views: 6872 }, { month: "202505", views: 10818 }, { month: "202506", views: 10681 }, { month: "202507", views: 8631 }, { month: "202508", views: 8458 }, { month: "202509", views: 7603 }, { month: "202510", views: 7613 }, { month: "202511", views: 8485 }, { month: "202512", views: 6763 }, { month: "202601", views: 5418 }, { month: "202602", views: 4523 }, { month: "202603", views: 4806 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 20. ザーサイ（YList: ザーサイ）─────
+  {
+    id: "zasai",
+    jaName: "ザーサイ",
+    enName: "Zha cai",
+    scientificName: "Brassica juncea var. tumida",
+    familyId: "brassicaceae",
+    familyJaName: "アブラナ科",
+    description:
+      "アブラナ科アブラナ属の越年草、およびその茎のコブを漬け込んだ中国の代表的な漬物。学名の「tumida」は「膨らんだ」の意。四川省発祥で、中華料理では前菜や炒め物の具として多用される。",
+    enDescription: "A biennial in the mustard family, and the name of the famous Chinese pickle made from its swollen stem. The species epithet 'tumida' means 'swollen'. Originated in Sichuan Province, it is widely used as an appetizer or stir-fry ingredient in Chinese cuisine.",
+    identificationPoints: [
+      "茎の基部が大きく膨らんでコブになる",
+      "葉は大きく波打ち、カラシナに似る",
+      "黄色い4弁花（アブラナ科特徴）",
+    ],
+    enIdentificationPoints: [
+      "Large knobby swelling at stem base",
+      "Large wavy leaves resembling mustard greens",
+      "Yellow 4-petaled flowers (typical Brassicaceae)",
+    ],
+    habitat: "栽培（中国四川省など）",
+    enHabitat: "Cultivated (mainly Sichuan, China)",
+    season: "4〜5月（花）",
+    enSeason: "April to May (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_juncea_tumida.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ザーサイ" },
+    ],
+    tags: ["草本", "越年草", "野菜", "漬物", "栽培"],
+    enTags: ["Herb", "Biennial", "Vegetable", "Pickle", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 4, flowerColor: "yellow", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ザーサイ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ザーサイ", totalViews: 90377, window: "202504-202603", months: [{ month: "202504", views: 7963 }, { month: "202505", views: 16848 }, { month: "202506", views: 7428 }, { month: "202507", views: 5659 }, { month: "202508", views: 6544 }, { month: "202509", views: 6005 }, { month: "202510", views: 6456 }, { month: "202511", views: 6833 }, { month: "202512", views: 5793 }, { month: "202601", views: 6800 }, { month: "202602", views: 6082 }, { month: "202603", views: 7966 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 21. スギナ（YList: オクエゾスギナ）─────
+  {
+    id: "sugina",
+    jaName: "スギナ",
+    enName: "Field Horsetail",
+    scientificName: "Equisetum arvense",
+    familyId: "equisetaceae",
+    familyJaName: "トクサ科",
+    description:
+      "トクサ科トクサ属のシダ植物。日本に生育するトクサ類では最も小型。栄養茎をスギナ、胞子茎をツクシ（土筆）と呼び分ける。春に出るツクシは山菜として親しまれる。畑の強害雑草としても知られる。",
+    enDescription: "A pteridophyte in the horsetail family, the smallest horsetail in Japan. The vegetative shoot is called 'Sugina' and the spore-bearing shoot is 'Tsukushi' (field horsetail). 'Tsukushi' is enjoyed as a spring wild vegetable. Also known as a persistent agricultural weed.",
+    identificationPoints: [
+      "栄養茎は緑色で節から輪生する細い枝を出す",
+      "胞子茎（ツクシ）は早春に出現、先端に胞子嚢穂",
+      "地下茎で広く繁殖",
+    ],
+    enIdentificationPoints: [
+      "Green vegetative stems with whorls of thin branches at nodes",
+      "Fertile stems (Tsukushi) emerge in early spring with strobili",
+      "Spreads extensively via underground rhizomes",
+    ],
+    habitat: "畑・道ばた・空き地・土手",
+    enHabitat: "Fields, roadsides, vacant lots, embankments",
+    season: "3〜4月（ツクシ）、4〜9月（スギナ）",
+    enSeason: "March to April (Tsukushi), April to September (Sugina)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_arvense.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スギナ" },
+    ],
+    tags: ["シダ植物", "多年草", "雑草", "山菜", "道ばた"],
+    enTags: ["Fern ally", "Perennial", "Weed", "Wild vegetable", "Roadsides"],
+    traits: { habit: "herb", deciduous: "deciduous", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/スギナ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スギナ", totalViews: 88099, window: "202504-202603", months: [{ month: "202504", views: 18811 }, { month: "202505", views: 14572 }, { month: "202506", views: 9211 }, { month: "202507", views: 5456 }, { month: "202508", views: 5873 }, { month: "202509", views: 4226 }, { month: "202510", views: 3522 }, { month: "202511", views: 2923 }, { month: "202512", views: 2429 }, { month: "202601", views: 2928 }, { month: "202602", views: 3380 }, { month: "202603", views: 14768 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 22. ブロッコリー（YList: ブロッコリー）─────
+  {
+    id: "broccoli",
+    jaName: "ブロッコリー",
+    enName: "Broccoli",
+    scientificName: "Brassica oleracea var. italica",
+    familyId: "brassicaceae",
+    familyJaName: "アブラナ科",
+    description:
+      "アブラナ科アブラナ属の緑黄色野菜。キャベツの一種がイタリアで品種改良されたもので、和名はメハナヤサイ。蕾の状態の花序と茎を食べる。収穫せずに放置すると多数の黄色い花が咲く。",
+    enDescription: "A green vegetable in the cabbage family, bred in Italy from a type of cabbage. The Japanese name is 'Me-hana-yasai' (bud-flower vegetable). The edible parts are the immature flower clusters and stalk. If not harvested, it produces numerous yellow flowers.",
+    identificationPoints: [
+      "太い茎の先に緑色の蕾が密集した花序（花蕾）",
+      "葉は大きく厚みがあり、灰緑色",
+      "放置すると黄色い4弁花が多数咲く",
+    ],
+    enIdentificationPoints: [
+      "Dense cluster of green flower buds atop a thick stalk",
+      "Large, thick, gray-green leaves",
+      "Yellow 4-petaled flowers if left to bloom",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "11〜3月（収穫期）",
+    enSeason: "November to March (harvest season)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Broccoli_and_cross_section_edit.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ブロッコリー" },
+    ],
+    tags: ["草本", "越年草", "野菜", "栽培", "アブラナ科"],
+    enTags: ["Herb", "Biennial", "Vegetable", "Cultivated", "Brassicaceae"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 4, flowerColor: "yellow", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ブロッコリー" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ブロッコリー", totalViews: 85068, window: "202504-202603", months: [{ month: "202504", views: 7776 }, { month: "202505", views: 8573 }, { month: "202506", views: 6077 }, { month: "202507", views: 5212 }, { month: "202508", views: 4892 }, { month: "202509", views: 5747 }, { month: "202510", views: 5667 }, { month: "202511", views: 6440 }, { month: "202512", views: 6533 }, { month: "202601", views: 9006 }, { month: "202602", views: 8906 }, { month: "202603", views: 10239 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 23. ブタクサ（YList: ブタクサ）─────
+  {
+    id: "butakusa",
+    jaName: "ブタクサ",
+    enName: "Common Ragweed",
+    scientificName: "Ambrosia artemisiifolia",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科ブタクサ属の一年草。北米原産の帰化植物で、日本では秋の花粉症の主要な原因植物。和名は英語の俗名「Hog-weed（豚の草）」の直訳。空き地や河川敷に群生する。",
+    enDescription: "An annual herb in the daisy family, native to North America and naturalized in Japan. A major cause of autumn hay fever. The Japanese name 'Buta-kusa' is a direct translation of the English folk name 'Hog-weed'. Grows in dense colonies on vacant lots and riverbanks.",
+    identificationPoints: [
+      "葉はヨモギに似て羽状に深く裂ける",
+      "雄花は穂状に多数つき、黄色い花粉を大量に飛散",
+      "高さ30cm〜1m程度",
+    ],
+    enIdentificationPoints: [
+      "Leaves deeply pinnately lobed, resembling mugwort",
+      "Male flowers in spikes shed massive amounts of yellow pollen",
+      "Height 30 cm to 1 m",
+    ],
+    habitat: "空き地・河川敷・道ばた",
+    enHabitat: "Vacant lots, riverbanks, roadsides",
+    season: "8〜10月（花）",
+    enSeason: "August to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ambrosia_artemisiifolia.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ブタクサ" },
+    ],
+    tags: ["草本", "一年草", "帰化植物", "花粉症", "雑草"],
+    enTags: ["Herb", "Annual", "Introduced", "Hay fever", "Weed"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "autumn", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ブタクサ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ブタクサ", totalViews: 84824, window: "202504-202603", months: [{ month: "202504", views: 5264 }, { month: "202505", views: 5752 }, { month: "202506", views: 3968 }, { month: "202507", views: 3201 }, { month: "202508", views: 5581 }, { month: "202509", views: 18106 }, { month: "202510", views: 21371 }, { month: "202511", views: 7937 }, { month: "202512", views: 2111 }, { month: "202601", views: 1733 }, { month: "202602", views: 3790 }, { month: "202603", views: 6010 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 24. ホオズキ（YList: ホオズキ）─────
+  {
+    id: "hoozuki",
+    jaName: "ホオズキ",
+    enName: "Chinese Lantern",
+    scientificName: "Alkekengi officinarum",
+    familyId: "solanaceae",
+    familyJaName: "ナス科",
+    description:
+      "ナス科ホオズキ属の多年草。東アジア原産。果実を包む萼が袋状に大きく膨らみ、朱赤色に色づく。お盆の飾りや縁起物として親しまれ、浅草のほおずき市が有名。",
+    enDescription: "A perennial herb in the nightshade family, native to East Asia. The calyx inflates into a large bladder-like husk that turns orange-red, enclosing the fruit. Traditionally used as a decoration during the Obon festival; the Asakusa 'Hoozuki Market' is well known.",
+    identificationPoints: [
+      "果実を包む萼が袋状に膨らみ朱赤色になる",
+      "葉は卵形で互生",
+      "花は淡黄白色で下向き",
+    ],
+    enIdentificationPoints: [
+      "Calyx inflates into a papery orange-red lantern around the fruit",
+      "Ovate, alternate leaves",
+      "Pale yellowish-white, pendant flowers",
+    ],
+    habitat: "庭・畑・山野",
+    enHabitat: "Gardens, fields, hills",
+    season: "6〜7月（花）、8〜9月（果実）",
+    enSeason: "June to July (flowers), August to September (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Physalis_alkekengi.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホオズキ" },
+    ],
+    tags: ["草本", "多年草", "お盆", "赤い実", "園芸"],
+    enTags: ["Herb", "Perennial", "Obon", "Red fruit", "Horticultural"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ホオズキ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホオズキ", totalViews: 83758, window: "202504-202603", months: [{ month: "202504", views: 4576 }, { month: "202505", views: 9505 }, { month: "202506", views: 9421 }, { month: "202507", views: 14576 }, { month: "202508", views: 13257 }, { month: "202509", views: 7908 }, { month: "202510", views: 5494 }, { month: "202511", views: 4185 }, { month: "202512", views: 3937 }, { month: "202601", views: 3467 }, { month: "202602", views: 4105 }, { month: "202603", views: 3327 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 25. ザクロ（YList: ザクロ）─────
+  {
+    id: "zakuro",
+    jaName: "ザクロ",
+    enName: "Pomegranate",
+    scientificName: "Punica granatum",
+    familyId: "lythraceae",
+    familyJaName: "ミソハギ科",
+    description:
+      "ミソハギ科ザクロ属の落葉小高木。最も古くから栽培された果樹の一つ。果実は硬い外皮の中に多数の赤い種衣をまとった粒状の種子が詰まっている。庭木としても広く植栽される。",
+    enDescription: "A small deciduous tree in the loosestrife family. One of the oldest cultivated fruit trees. The fruit has a hard rind enclosing numerous seeds, each covered with a translucent red aril. Also widely grown as an ornamental garden tree.",
+    identificationPoints: [
+      "朱赤色の6弁花、萼筒が壺形で厚い",
+      "果実は球形で硬い外皮、先端に萼の残り",
+      "葉は小さく光沢があり対生",
+    ],
+    enIdentificationPoints: [
+      "Scarlet 6-petaled flowers with thick, urn-shaped calyx tube",
+      "Spherical fruit with hard rind and persistent calyx at apex",
+      "Small, glossy, opposite leaves",
+    ],
+    habitat: "庭木・果樹園（暖地）",
+    enHabitat: "Gardens, orchards (warm regions)",
+    season: "6〜7月（花）、10〜11月（果実）",
+    enSeason: "June to July (flowers), October to November (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Punica_granatum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ザクロ" },
+    ],
+    tags: ["木本", "落葉小高木", "果樹", "古典園芸", "赤い実"],
+    enTags: ["Tree", "Deciduous", "Fruit tree", "Ancient cultivar", "Red fruit"],
+    traits: { leafArr: "opp", leafType: "simple", habit: "tree", deciduous: "deciduous", petalCount: 6, flowerColor: "red", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ザクロ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ザクロ", totalViews: 83507, window: "202504-202603", months: [{ month: "202504", views: 5541 }, { month: "202505", views: 7243 }, { month: "202506", views: 7115 }, { month: "202507", views: 5942 }, { month: "202508", views: 6929 }, { month: "202509", views: 7763 }, { month: "202510", views: 10406 }, { month: "202511", views: 8590 }, { month: "202512", views: 7165 }, { month: "202601", views: 6137 }, { month: "202602", views: 5127 }, { month: "202603", views: 5549 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 26. ナツメ（YList: サネブトナツメ）─────
+  {
+    id: "natsume",
+    jaName: "ナツメ",
+    enName: "Jujube",
+    scientificName: "Ziziphus jujuba",
+    familyId: "rhamnaceae",
+    familyJaName: "クロウメモドキ科",
+    description:
+      "クロウメモドキ科の落葉小高木。和名は夏に芽が出ること（夏芽）に由来。果実は乾燥させて干しなつめにしたり、菓子材料や漢方薬（大棗）にされる。ナツメヤシ・ナツメグとは別種。",
+    enDescription: "A small deciduous tree in the buckthorn family. The Japanese name comes from its late budding ('natsu-me', summer bud). The fruit is dried or used as a confection ingredient and in traditional medicine ('taisou'). Unrelated to date palms or nutmeg despite similar Japanese names.",
+    identificationPoints: [
+      "枝にトゲがある",
+      "葉は小さな楕円形で3本の主脈が目立つ",
+      "果実は楕円形で熟すと赤褐色",
+    ],
+    enIdentificationPoints: [
+      "Branches are thorny",
+      "Small elliptic leaves with 3 prominent veins",
+      "Ellipsoidal fruit turning reddish-brown when ripe",
+    ],
+    habitat: "庭木・栽培（中国・東アジア）",
+    enHabitat: "Gardens, cultivated (China, East Asia)",
+    season: "5〜6月（花）、9〜10月（果実）",
+    enSeason: "May to June (flowers), September to October (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ziziphus_jujuba.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ナツメ" },
+    ],
+    tags: ["木本", "落葉小高木", "果樹", "薬用", "食用"],
+    enTags: ["Tree", "Deciduous", "Fruit tree", "Medicinal", "Edible"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "elliptic", habit: "tree", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ナツメ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナツメ", totalViews: 82515, window: "202504-202603", months: [{ month: "202504", views: 6359 }, { month: "202505", views: 7560 }, { month: "202506", views: 6766 }, { month: "202507", views: 5721 }, { month: "202508", views: 7515 }, { month: "202509", views: 10993 }, { month: "202510", views: 12004 }, { month: "202511", views: 6781 }, { month: "202512", views: 4871 }, { month: "202601", views: 4639 }, { month: "202602", views: 4458 }, { month: "202603", views: 4848 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 27. ヤブガラシ（YList: ヤブカラシ）─────
+  {
+    id: "yabugarashi",
+    jaName: "ヤブガラシ",
+    enName: "Bushkiller",
+    scientificName: "Causonis japonica",
+    familyId: "vitaceae",
+    familyJaName: "ブドウ科",
+    description:
+      "ブドウ科ヤブカラシ属のつる植物。日本では非常によく見かける雑草で、藪を枯らすほどの旺盛な成長力から和名がつけられた。別名ビンボウカズラ。花盤が橙色になり、アリやスズメバチなどの昆虫がよく訪花する。",
+    enDescription: "A climbing vine in the grape family, one of the most common weeds in Japan. Its Japanese name means 'bush-killer', reflecting its vigorous growth that smothers thickets. Also called 'poverty vine'. The orange-colored floral disc attracts many insects including ants and wasps.",
+    identificationPoints: [
+      "巻きひげで他の植物に絡みつく",
+      "葉は鳥足状複葉で5小葉",
+      "花は小さく目立たないが、花盤が橙色〜ピンクで目をひく",
+    ],
+    enIdentificationPoints: [
+      "Climbs by tendrils",
+      "Pedate compound leaves with 5 leaflets",
+      "Tiny flowers, but the orange-to-pink floral disc is conspicuous",
+    ],
+    habitat: "道ばた・生垣・空き地",
+    enHabitat: "Roadsides, hedges, vacant lots",
+    season: "6〜8月（花）",
+    enSeason: "June to August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Causonis_japonica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤブガラシ" },
+    ],
+    tags: ["草本", "つる植物", "多年草", "雑草", "道ばた"],
+    enTags: ["Herb", "Vine", "Perennial", "Weed", "Roadsides"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "vine", deciduous: "deciduous", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヤブガラシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤブガラシ", totalViews: 80548, window: "202504-202603", months: [{ month: "202504", views: 4155 }, { month: "202505", views: 32387 }, { month: "202506", views: 9200 }, { month: "202507", views: 8036 }, { month: "202508", views: 7670 }, { month: "202509", views: 7817 }, { month: "202510", views: 4522 }, { month: "202511", views: 2633 }, { month: "202512", views: 1083 }, { month: "202601", views: 999 }, { month: "202602", views: 1048 }, { month: "202603", views: 998 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 28. タバコ（YList: タバコ）─────
+  {
+    id: "tabako",
+    jaName: "タバコ",
+    enName: "Tobacco",
+    scientificName: "Nicotiana tabacum",
+    familyId: "solanaceae",
+    familyJaName: "ナス科",
+    description:
+      "ナス科タバコ属の一年草（原産地では多年草）。熱帯アメリカ原産。葉に強い依存性物質ニコチンを含み、紙巻きたばこ等の原料。大きなロート形の淡紅色の花を咲かせる。",
+    enDescription: "An annual (perennial in the tropics) in the nightshade family, native to tropical America. Its leaves contain the highly addictive substance nicotine, used to produce cigarettes and other tobacco products. Bears large funnel-shaped pale-pink flowers.",
+    identificationPoints: [
+      "草丈1〜2mの大型草本",
+      "葉は大きく、粘り気のある毛が密生",
+      "淡紅色〜白のロート状花を穂状に咲かせる",
+    ],
+    enIdentificationPoints: [
+      "Large herb, 1–2 m tall",
+      "Large leaves densely covered with sticky hairs",
+      "Pale-pink to white funnel-shaped flowers in racemes",
+    ],
+    habitat: "栽培（葉たばこ農家）",
+    enHabitat: "Cultivated (tobacco farms)",
+    season: "7〜8月（花）",
+    enSeason: "July to August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Nicotiana_tabacum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/タバコ" },
+    ],
+    tags: ["草本", "一年草", "工芸作物", "有毒", "栽培"],
+    enTags: ["Herb", "Annual", "Industrial crop", "Toxic", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "pink", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/タバコ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タバコ", totalViews: 79489, window: "202504-202603", months: [{ month: "202504", views: 5661 }, { month: "202505", views: 7404 }, { month: "202506", views: 7677 }, { month: "202507", views: 7023 }, { month: "202508", views: 7347 }, { month: "202509", views: 7943 }, { month: "202510", views: 7604 }, { month: "202511", views: 6905 }, { month: "202512", views: 5734 }, { month: "202601", views: 5959 }, { month: "202602", views: 5025 }, { month: "202603", views: 5207 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 29. ビンロウ（YList: ビンロウ）─────
+  {
+    id: "binrou",
+    jaName: "ビンロウ",
+    enName: "Betel Palm",
+    scientificName: "Areca catechu",
+    familyId: "arecaceae",
+    familyJaName: "ヤシ科",
+    description:
+      "ヤシ科の常緑高木。太平洋・アジア・東アフリカに分布。種子（ビンロウジ）は噛みタバコに似た嗜好品として用いられるが、発がん性が指摘され「死の実」とも呼ばれる。マレー語の「pinang」はペナン島の名の由来。",
+    enDescription: "An evergreen palm found in the Pacific, Asia, and parts of East Africa. The seed (betel nut) is chewed as a stimulant similar to chewing tobacco, but is classified as carcinogenic—sometimes called the 'fruit of death'. The Malay word 'pinang' is the origin of Penang Island's name.",
+    identificationPoints: [
+      "単幹のヤシで高さ10〜25m",
+      "羽状複葉を頂部にまとめてつける",
+      "幹の上部に緑色のクラウンシャフト",
+    ],
+    enIdentificationPoints: [
+      "Single-trunked palm, 10–25 m tall",
+      "Pinnate leaves clustered at the crown",
+      "Green crownshaft at the top of the trunk",
+    ],
+    habitat: "熱帯（自生・栽培）",
+    enHabitat: "Tropical regions (wild and cultivated)",
+    season: "通年（花・果実）",
+    enSeason: "Year-round (flowers, fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Areca_catechu.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ビンロウ" },
+    ],
+    tags: ["木本", "ヤシ", "熱帯", "有毒", "嗜好品"],
+    enTags: ["Tree", "Palm", "Tropical", "Toxic", "Stimulant"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ビンロウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ビンロウ", totalViews: 78221, window: "202504-202603", months: [{ month: "202504", views: 6596 }, { month: "202505", views: 4791 }, { month: "202506", views: 9496 }, { month: "202507", views: 5449 }, { month: "202508", views: 9011 }, { month: "202509", views: 7457 }, { month: "202510", views: 5499 }, { month: "202511", views: 4893 }, { month: "202512", views: 5435 }, { month: "202601", views: 4711 }, { month: "202602", views: 5887 }, { month: "202603", views: 8996 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 30. サンザシ（YList: サンザシ）─────
+  {
+    id: "sanzashi",
+    jaName: "サンザシ",
+    enName: "Chinese Hawthorn",
+    scientificName: "Crataegus cuneata",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "バラ科サンザシ属の落葉低木。中国中南部原産で、日本には1734年に薬用樹木として小石川御薬園に持ち込まれた。果実は赤く小さく、生薬やドライフルーツ、中華菓子の材料になる。",
+    enDescription: "A deciduous shrub in the rose family, native to south-central China. Introduced to Japan in 1734 as a medicinal tree at the Koishikawa Medicinal Garden. The small red fruit is used as traditional medicine, dried fruit, and in Chinese confections.",
+    identificationPoints: [
+      "枝にトゲがある落葉低木",
+      "葉は3〜5裂し、秋に紅葉",
+      "果実は直径1cm程度の赤い球形",
+    ],
+    enIdentificationPoints: [
+      "Deciduous shrub with thorny branches",
+      "Leaves 3–5 lobed; autumn color",
+      "Red, spherical fruit about 1 cm in diameter",
+    ],
+    habitat: "庭木・盆栽",
+    enHabitat: "Gardens, bonsai",
+    season: "5月（花）、10月（果実）",
+    enSeason: "May (flowers), October (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Crataegus_cuneata.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サンザシ" },
+    ],
+    tags: ["木本", "落葉低木", "薬用", "赤い実", "庭木"],
+    enTags: ["Tree", "Deciduous shrub", "Medicinal", "Red fruit", "Garden tree"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "palmate", habit: "shrub", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/サンザシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サンザシ", totalViews: 77832, window: "202504-202603", months: [{ month: "202504", views: 6633 }, { month: "202505", views: 8337 }, { month: "202506", views: 6331 }, { month: "202507", views: 5319 }, { month: "202508", views: 6241 }, { month: "202509", views: 8559 }, { month: "202510", views: 7099 }, { month: "202511", views: 7360 }, { month: "202512", views: 5608 }, { month: "202601", views: 5659 }, { month: "202602", views: 4983 }, { month: "202603", views: 5703 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 31. レタス（YList: チシャ）─────
+  {
+    id: "lettuce",
+    jaName: "レタス",
+    enName: "Lettuce",
+    scientificName: "Lactuca sativa",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科アキノノゲシ属の一年草または二年草。地中海沿岸・西アジア原産。和名はチシャ（萵苣）。品種が多く、結球するもの（玉レタス）、しないもの（リーフレタス）、茎を食用にするもの（茎レタス）がある。",
+    enDescription: "An annual or biennial in the daisy family, native to the Mediterranean and West Asia. Japanese name is 'Chisha'. Many cultivars exist: head lettuce, leaf lettuce, and stem lettuce (celtuce).",
+    identificationPoints: [
+      "結球型は丸く巻いた淡緑色の葉",
+      "茎を切ると白い乳液が出る（属名Lactucaは「乳」の意）",
+      "黄色い小さな舌状花をつける",
+    ],
+    enIdentificationPoints: [
+      "Head types form a round, pale-green ball of leaves",
+      "White latex oozes from cut stems (Lactuca means 'milk')",
+      "Small yellow ligulate flowers",
+    ],
+    habitat: "栽培（畑・ハウス）",
+    enHabitat: "Cultivated (fields, greenhouses)",
+    season: "通年（栽培）",
+    enSeason: "Year-round (cultivated)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lactuca_sativa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/レタス" },
+    ],
+    tags: ["草本", "一年草", "野菜", "栽培", "キク科"],
+    enTags: ["Herb", "Annual", "Vegetable", "Cultivated", "Asteraceae"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/レタス" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "レタス", totalViews: 75262, window: "202504-202603", months: [{ month: "202504", views: 5920 }, { month: "202505", views: 6271 }, { month: "202506", views: 5478 }, { month: "202507", views: 25323 }, { month: "202508", views: 4033 }, { month: "202509", views: 3705 }, { month: "202510", views: 3872 }, { month: "202511", views: 3494 }, { month: "202512", views: 3274 }, { month: "202601", views: 5746 }, { month: "202602", views: 3831 }, { month: "202603", views: 4315 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 32. ムクゲ（YList: ムクゲ）─────
+  {
+    id: "mukuge",
+    jaName: "ムクゲ",
+    enName: "Rose of Sharon",
+    scientificName: "Hibiscus syriacus",
+    familyId: "malvaceae",
+    familyJaName: "アオイ科",
+    description:
+      "アオイ科フヨウ属の落葉樹。中国〜インド原産で、庭木として広く植栽される。夏〜秋に白・ピンク・紫の大輪花を次々と咲かせる。一日花で、朝開いて夕方にはしぼむ。韓国の国花。",
+    enDescription: "A deciduous tree in the mallow family, native from China to India. Widely planted as a garden tree. Produces a succession of large white, pink, or purple flowers from summer to autumn. Each flower lasts only one day, opening in the morning and wilting by evening. National flower of South Korea.",
+    identificationPoints: [
+      "夏〜秋に白・ピンク・紫の大きな5弁花",
+      "一日花（朝開いて夕方にしぼむ）",
+      "葉は菱形〜卵形で3浅裂することが多い",
+    ],
+    enIdentificationPoints: [
+      "Large 5-petaled flowers in white, pink, or purple, summer to autumn",
+      "One-day flowers (open in morning, wilt by evening)",
+      "Rhombic to ovate leaves, often shallowly 3-lobed",
+    ],
+    habitat: "庭木・生垣・公園",
+    enHabitat: "Gardens, hedges, parks",
+    season: "7〜10月（花）",
+    enSeason: "July to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hibiscus_syriacus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ムクゲ" },
+    ],
+    tags: ["木本", "落葉樹", "夏の花", "一日花", "庭木"],
+    enTags: ["Tree", "Deciduous", "Summer flowers", "One-day flower", "Garden tree"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "deciduous", petalCount: 5, flowerColor: "pink", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ムクゲ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ムクゲ", totalViews: 74877, window: "202504-202603", months: [{ month: "202504", views: 3624 }, { month: "202505", views: 5638 }, { month: "202506", views: 7325 }, { month: "202507", views: 13647 }, { month: "202508", views: 13353 }, { month: "202509", views: 9978 }, { month: "202510", views: 6043 }, { month: "202511", views: 3981 }, { month: "202512", views: 2740 }, { month: "202601", views: 2827 }, { month: "202602", views: 2649 }, { month: "202603", views: 3072 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 33. ナツメヤシ（YList: ナツメヤシ）─────
+  {
+    id: "natsume_yashi",
+    jaName: "ナツメヤシ",
+    enName: "Date Palm",
+    scientificName: "Phoenix dactylifera",
+    familyId: "arecaceae",
+    familyJaName: "ヤシ科",
+    description:
+      "ヤシ科の常緑高木。果実はデーツと呼ばれ、北アフリカや中東では主食の一つ。乾燥に強く、古代メソポタミア文明の時代から栽培されている世界最古の作物の一つ。",
+    enDescription: "An evergreen palm. The fruit, called dates, is a staple food in North Africa and the Middle East. Drought-resistant, it has been cultivated since ancient Mesopotamian times as one of the world's oldest crops.",
+    identificationPoints: [
+      "単幹で高さ15〜25m、太い幹",
+      "長さ3〜5mの大きな羽状複葉",
+      "房状の果実が垂れ下がる",
+    ],
+    enIdentificationPoints: [
+      "Single thick trunk, 15–25 m tall",
+      "Large pinnate leaves 3–5 m long",
+      "Hanging clusters of date fruit",
+    ],
+    habitat: "栽培（砂漠・乾燥地帯）",
+    enHabitat: "Cultivated (deserts, arid regions)",
+    season: "通年（果実は秋〜冬収穫）",
+    enSeason: "Year-round (fruit harvested autumn to winter)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Phoenix_dactylifera.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ナツメヤシ" },
+    ],
+    tags: ["木本", "ヤシ", "果樹", "乾燥地", "栽培"],
+    enTags: ["Tree", "Palm", "Fruit tree", "Arid regions", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ナツメヤシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナツメヤシ", totalViews: 72600, window: "202504-202603", months: [{ month: "202504", views: 6023 }, { month: "202505", views: 6973 }, { month: "202506", views: 7098 }, { month: "202507", views: 5610 }, { month: "202508", views: 6324 }, { month: "202509", views: 7014 }, { month: "202510", views: 6379 }, { month: "202511", views: 5334 }, { month: "202512", views: 4738 }, { month: "202601", views: 6402 }, { month: "202602", views: 5622 }, { month: "202603", views: 5083 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 34. アーモンド（YList: ヘントウ）─────
+  {
+    id: "almond",
+    jaName: "アーモンド",
+    enName: "Almond",
+    scientificName: "Prunus amygdalus",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "バラ科サクラ属の落葉高木。中央アジア原産。和名はヘントウ（扁桃）で、アンズやモモの近縁種。果肉は薄く食用にならないが、種子の核（仁）がナッツとして世界中で消費される。花はサクラに似た淡紅色。",
+    enDescription: "A deciduous tree in the rose family, native to Central Asia. Japanese name is 'Hentou' (flat peach). A close relative of apricot and peach. The fruit flesh is thin and not eaten, but the inner seed (kernel) is consumed worldwide as a nut. Flowers are pale pink, similar to cherry blossoms.",
+    identificationPoints: [
+      "サクラに似た淡紅色の花を早春に咲かせる",
+      "果実はモモに似るが果肉は薄く乾燥",
+      "葉は長楕円形で細かい鋸歯",
+    ],
+    enIdentificationPoints: [
+      "Pale-pink flowers similar to cherry blossoms in early spring",
+      "Fruit resembles peach but with thin, dry flesh",
+      "Oblong leaves with fine serrations",
+    ],
+    habitat: "栽培（果樹園・温暖乾燥地）",
+    enHabitat: "Cultivated (orchards, warm dry regions)",
+    season: "2〜4月（花）、8〜9月（収穫）",
+    enSeason: "February to April (flowers), August to September (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Prunus_amygdalus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アーモンド" },
+    ],
+    tags: ["木本", "落葉高木", "果樹", "ナッツ", "栽培"],
+    enTags: ["Tree", "Deciduous", "Fruit tree", "Nut", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", margin: "serrate", habit: "tree", deciduous: "deciduous", petalCount: 5, flowerColor: "pink", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アーモンド" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アーモンド", totalViews: 71124, window: "202504-202603", months: [{ month: "202504", views: 7451 }, { month: "202505", views: 8641 }, { month: "202506", views: 5653 }, { month: "202507", views: 4928 }, { month: "202508", views: 5018 }, { month: "202509", views: 4841 }, { month: "202510", views: 5050 }, { month: "202511", views: 5209 }, { month: "202512", views: 4588 }, { month: "202601", views: 4544 }, { month: "202602", views: 4901 }, { month: "202603", views: 10300 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 35. ピーマン（YList: ピーマン）─────
+  {
+    id: "piiman",
+    jaName: "ピーマン",
+    enName: "Green Pepper",
+    scientificName: "Capsicum annuum 'Grossum'",
+    familyId: "solanaceae",
+    familyJaName: "ナス科",
+    description:
+      "ナス科トウガラシ属の多年草（温帯では一年草）。トウガラシの甘味種で、辛味が少ない。果実は内部がほぼ空洞で、緑色のまま収穫する。赤や黄色に完熟させたものはパプリカ。",
+    enDescription: "A perennial (annual in temperate zones) in the nightshade family. A sweet cultivar of Capsicum with little pungency. The fruit is mostly hollow inside and typically harvested while still green. Fully ripened red or yellow variants are called paprika.",
+    identificationPoints: [
+      "果実は緑色で中空、上向き〜下向きにつく",
+      "白い小花を葉腋に1個ずつ咲かせる",
+      "草丈40〜80cm",
+    ],
+    enIdentificationPoints: [
+      "Green, hollow fruit; borne upward or pendant",
+      "Small white flowers, one per leaf axil",
+      "Plant height 40–80 cm",
+    ],
+    habitat: "栽培（畑・ハウス・家庭菜園）",
+    enHabitat: "Cultivated (fields, greenhouses, home gardens)",
+    season: "6〜9月（果実）",
+    enSeason: "June to September (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Capsicum_annuum_Grossum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ピーマン" },
+    ],
+    tags: ["草本", "一年草", "野菜", "夏野菜", "栽培"],
+    enTags: ["Herb", "Annual", "Vegetable", "Summer vegetable", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "white", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ピーマン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ピーマン", totalViews: 71072, window: "202504-202603", months: [{ month: "202504", views: 6235 }, { month: "202505", views: 7905 }, { month: "202506", views: 7620 }, { month: "202507", views: 8046 }, { month: "202508", views: 7820 }, { month: "202509", views: 6334 }, { month: "202510", views: 5883 }, { month: "202511", views: 5751 }, { month: "202512", views: 3825 }, { month: "202601", views: 4039 }, { month: "202602", views: 3399 }, { month: "202603", views: 4215 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 36. コショウ（YList: コショウ）─────
+  {
+    id: "koshou",
+    jaName: "コショウ",
+    enName: "Black Pepper",
+    scientificName: "Piper nigrum",
+    familyId: "piperaceae",
+    familyJaName: "コショウ科",
+    description:
+      "コショウ科コショウ属のつる性植物。インド原産で世界中の熱帯で栽培される。果実は「スパイスの王様」と呼ばれ、処理法により黒胡椒・白胡椒・緑胡椒に分かれる。15世紀のヨーロッパの大航海時代にその利権が世界を動かした。",
+    enDescription: "A climbing vine in the pepper family, native to India and cultivated throughout the tropics. Its fruit, called the 'king of spices', is processed into black, white, or green pepper depending on the method. The pepper trade fueled European maritime expansion in the 15th century.",
+    identificationPoints: [
+      "つる性の木本で、気根で他の木に張り付く",
+      "葉は卵形で光沢あり、対になる穂状の花序",
+      "小さな球形の果実が房状につく",
+    ],
+    enIdentificationPoints: [
+      "Woody vine clinging with adventitious roots",
+      "Glossy ovate leaves with opposite spike inflorescences",
+      "Small spherical fruit in drooping clusters",
+    ],
+    habitat: "栽培（熱帯）",
+    enHabitat: "Cultivated (tropical regions)",
+    season: "通年（熱帯）",
+    enSeason: "Year-round (in tropics)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Piper_nigrum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コショウ" },
+    ],
+    tags: ["木本", "つる植物", "香辛料", "熱帯", "栽培"],
+    enTags: ["Tree", "Vine", "Spice", "Tropical", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "vine", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/コショウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コショウ", totalViews: 69142, window: "202504-202603", months: [{ month: "202504", views: 6016 }, { month: "202505", views: 6693 }, { month: "202506", views: 5705 }, { month: "202507", views: 5295 }, { month: "202508", views: 5849 }, { month: "202509", views: 5419 }, { month: "202510", views: 6094 }, { month: "202511", views: 6178 }, { month: "202512", views: 5856 }, { month: "202601", views: 5635 }, { month: "202602", views: 5207 }, { month: "202603", views: 5195 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 37. ラッカセイ（YList: ナンキンマメ）─────
+  {
+    id: "rakkasei",
+    jaName: "ラッカセイ",
+    enName: "Peanut",
+    scientificName: "Arachis hypogaea",
+    familyId: "fabaceae",
+    familyJaName: "マメ科",
+    description:
+      "マメ科ラッカセイ属の一年草。標準和名はナンキンマメ（南京豆）。花が受粉した後、子房柄が地中に潜り込んで地中でサヤが実るという独特な結実様式をもつ。種子はピーナッツとして広く食用にされる。",
+    enDescription: "An annual in the pea family; standard Japanese name is 'Nankin-mame' (Nanking bean). Uniquely, after pollination the ovary stalk pushes into the soil, where the pods develop underground. The seeds are widely consumed as peanuts.",
+    identificationPoints: [
+      "花後に子房柄が地中へ伸びて地中で結実",
+      "黄色い蝶形花を葉腋に咲かせる",
+      "偶数羽状複葉で小葉は2対",
+    ],
+    enIdentificationPoints: [
+      "After flowering, gynophore pushes into the soil to fruit underground",
+      "Yellow butterfly-shaped flowers in leaf axils",
+      "Even-pinnate compound leaves with 2 pairs of leaflets",
+    ],
+    habitat: "栽培（畑）",
+    enHabitat: "Cultivated (fields)",
+    season: "7〜8月（花）、9〜10月（収穫）",
+    enSeason: "July to August (flowers), September to October (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Arachis_hypogaea.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ラッカセイ" },
+    ],
+    tags: ["草本", "一年草", "豆", "ナッツ", "栽培"],
+    enTags: ["Herb", "Annual", "Legume", "Nut", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ラッカセイ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ラッカセイ", totalViews: 67828, window: "202504-202603", months: [{ month: "202504", views: 5858 }, { month: "202505", views: 6588 }, { month: "202506", views: 5258 }, { month: "202507", views: 4527 }, { month: "202508", views: 4985 }, { month: "202509", views: 6327 }, { month: "202510", views: 8015 }, { month: "202511", views: 6710 }, { month: "202512", views: 4799 }, { month: "202601", views: 4983 }, { month: "202602", views: 5030 }, { month: "202603", views: 4748 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 38. オリーブ（YList: オリーブ）─────
+  {
+    id: "olive",
+    jaName: "オリーブ",
+    enName: "Olive",
+    scientificName: "Olea europaea",
+    familyId: "oleaceae",
+    familyJaName: "モクセイ科",
+    description:
+      "モクセイ科オリーブ属の常緑高木。地中海沿岸原産。果実からオリーブオイルを搾油し、食用の実としても利用される。日本では小豆島が代表的な産地。銀灰色の葉と独特の樹形が美しい。",
+    enDescription: "An evergreen tree in the olive family, native to the Mediterranean. The fruit yields olive oil and is also eaten directly. In Japan, Shodoshima is the iconic production area. Valued for its attractive silvery-gray leaves and distinctive form.",
+    identificationPoints: [
+      "葉は細長い楕円形で表が灰緑色、裏が銀白色",
+      "果実は楕円形で緑→黒紫に熟す",
+      "樹形は不整形で独特の趣",
+    ],
+    enIdentificationPoints: [
+      "Narrow elliptic leaves, gray-green above, silvery-white beneath",
+      "Ellipsoidal fruit ripening from green to blackish-purple",
+      "Irregular, characteristically gnarled tree form",
+    ],
+    habitat: "栽培（温暖地・地中海性気候）",
+    enHabitat: "Cultivated (warm areas, Mediterranean climate)",
+    season: "5〜6月（花）、10〜12月（果実）",
+    enSeason: "May to June (flowers), October to December (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Olea_europaea.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オリーブ" },
+    ],
+    tags: ["木本", "常緑高木", "果樹", "油脂原料", "栽培"],
+    enTags: ["Tree", "Evergreen", "Fruit tree", "Oil crop", "Cultivated"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "elliptic", habit: "tree", deciduous: "evergreen", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/オリーブ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オリーブ", totalViews: 67704, window: "202504-202603", months: [{ month: "202504", views: 6167 }, { month: "202505", views: 6734 }, { month: "202506", views: 5396 }, { month: "202507", views: 4806 }, { month: "202508", views: 5291 }, { month: "202509", views: 5730 }, { month: "202510", views: 6400 }, { month: "202511", views: 6150 }, { month: "202512", views: 5137 }, { month: "202601", views: 5053 }, { month: "202602", views: 5165 }, { month: "202603", views: 5675 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 39. シソ（YList: アカジソ）─────
+  {
+    id: "shiso",
+    jaName: "シソ",
+    enName: "Perilla",
+    scientificName: "Perilla frutescens var. crispa",
+    familyId: "lamiaceae",
+    familyJaName: "シソ科",
+    description:
+      "シソ科シソ属の芳香性一年草。中国原産。赤ジソと青ジソがあり、青ジソの葉は「大葉」として広く食用にされる。防腐・殺菌作用があり、刺身のつまや薬味、梅干しの着色など用途が多い。",
+    enDescription: "An aromatic annual herb in the mint family, native to China. Comes in red-leaved ('Aka-jiso') and green-leaved ('Ao-jiso') forms. The green type, called 'Ooba', is widely used as garnish. Known for its antimicrobial properties and used with sashimi, pickled plum ('umeboshi'), and many other dishes.",
+    identificationPoints: [
+      "葉は卵形で鋸歯があり、独特の芳香",
+      "赤ジソは全体が赤紫色",
+      "茎は断面が四角（シソ科の特徴）",
+    ],
+    enIdentificationPoints: [
+      "Ovate, serrate leaves with distinctive aroma",
+      "Red perilla has entirely reddish-purple foliage",
+      "Square stems (characteristic of the mint family)",
+    ],
+    habitat: "栽培（畑・家庭菜園・庭）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "6〜9月（葉）、9〜10月（花・実）",
+    enSeason: "June to September (leaves), September to October (flowers, seeds)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Perilla_frutescens_crispa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シソ" },
+    ],
+    tags: ["草本", "一年草", "ハーブ", "薬味", "栽培"],
+    enTags: ["Herb", "Annual", "Culinary herb", "Condiment", "Cultivated"],
+    traits: { leafArr: "opp", leafType: "simple", margin: "serrate", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/シソ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シソ", totalViews: 67119, window: "202504-202603", months: [{ month: "202504", views: 5781 }, { month: "202505", views: 6752 }, { month: "202506", views: 8722 }, { month: "202507", views: 8322 }, { month: "202508", views: 6941 }, { month: "202509", views: 5994 }, { month: "202510", views: 4945 }, { month: "202511", views: 3873 }, { month: "202512", views: 3481 }, { month: "202601", views: 3397 }, { month: "202602", views: 3111 }, { month: "202603", views: 5800 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 40. カカオ（YList: カカオ）─────
+  {
+    id: "cacao",
+    jaName: "カカオ",
+    enName: "Cacao",
+    scientificName: "Theobroma cacao",
+    familyId: "malvaceae",
+    familyJaName: "アオイ科",
+    description:
+      "アオイ科の常緑樹。学名のTheobromaはギリシャ語で「神の食べ物」の意。中南米原産で、種子はカカオ豆と呼ばれ、チョコレートやココアの原料となる。幹から直接花や果実がつく「幹生花」が特徴的。",
+    enDescription: "An evergreen tree in the mallow family. The genus name Theobroma means 'food of the gods' in Greek. Native to Central and South America, its seeds (cacao beans) are the raw material for chocolate and cocoa. Notable for cauliflory—flowers and fruit grow directly on the trunk.",
+    identificationPoints: [
+      "幹や太い枝に直接小さな花がつく（幹生花）",
+      "果実（カカオポッド）は20〜30cm、ラグビーボール形",
+      "葉は大きく光沢があり楕円形",
+    ],
+    enIdentificationPoints: [
+      "Small flowers grow directly on trunk and main branches (cauliflory)",
+      "Fruit (cacao pod) is 20–30 cm, rugby-ball-shaped",
+      "Large, glossy, elliptic leaves",
+    ],
+    habitat: "栽培（熱帯）",
+    enHabitat: "Cultivated (tropical regions)",
+    season: "通年（花・果実、熱帯）",
+    enSeason: "Year-round (flowers, fruit, in tropics)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Theobroma_cacao.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カカオ" },
+    ],
+    tags: ["木本", "常緑樹", "熱帯", "工芸作物", "栽培"],
+    enTags: ["Tree", "Evergreen", "Tropical", "Industrial crop", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "elliptic", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カカオ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カカオ", totalViews: 66833, window: "202504-202603", months: [{ month: "202504", views: 5108 }, { month: "202505", views: 5214 }, { month: "202506", views: 4664 }, { month: "202507", views: 4017 }, { month: "202508", views: 5149 }, { month: "202509", views: 4001 }, { month: "202510", views: 5525 }, { month: "202511", views: 5187 }, { month: "202512", views: 6033 }, { month: "202601", views: 6750 }, { month: "202602", views: 10734 }, { month: "202603", views: 4451 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 41. エンバク（YList: オートムギ）─────
+  {
+    id: "enbaku",
+    jaName: "エンバク",
+    enName: "Oat",
+    scientificName: "Avena sativa",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "イネ科カラスムギ属の一年草。漢字では燕麦と書く。英語名Oatからオート麦・オーツ麦とも呼ばれる。種子は穀物として扱われ、オートミールの原料。飼料としても広く栽培される。",
+    enDescription: "An annual grass in the oat genus. Known as 'oat' in English. The grain is used to make oatmeal and is also widely cultivated as animal feed.",
+    identificationPoints: [
+      "穂は円錐花序で、小穂が垂れ下がる",
+      "葉は幅広い線形で、他の穀物より大きい",
+      "草丈60〜150cm",
+    ],
+    enIdentificationPoints: [
+      "Panicle inflorescence with drooping spikelets",
+      "Leaves are broad and linear, larger than other cereals",
+      "Plant height 60–150 cm",
+    ],
+    habitat: "栽培（畑・温帯）",
+    enHabitat: "Cultivated (fields, temperate regions)",
+    season: "6〜7月（穂）",
+    enSeason: "June to July (panicle)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Avena_sativa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/エンバク" },
+    ],
+    tags: ["草本", "一年草", "穀物", "飼料", "栽培"],
+    enTags: ["Herb", "Annual", "Cereal", "Forage", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/エンバク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "エンバク", totalViews: 65819, window: "202504-202603", months: [{ month: "202504", views: 7285 }, { month: "202505", views: 7820 }, { month: "202506", views: 6301 }, { month: "202507", views: 4723 }, { month: "202508", views: 6237 }, { month: "202509", views: 5416 }, { month: "202510", views: 5141 }, { month: "202511", views: 5007 }, { month: "202512", views: 4422 }, { month: "202601", views: 4356 }, { month: "202602", views: 4536 }, { month: "202603", views: 4575 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 42. クワイ（YList: クワイ）─────
+  {
+    id: "kuwai",
+    jaName: "クワイ",
+    enName: "Arrowhead",
+    scientificName: "Sagittaria trifolia 'Caerulea'",
+    familyId: "alismataceae",
+    familyJaName: "オモダカ科",
+    description:
+      "オモダカ科オモダカ属の水生多年草で、オモダカの栽培品種。別名タグサ、エンビソウ。塊茎を食用とし、特に正月料理に用いられる。葉は矢じり形で特徴的。",
+    enDescription: "An aquatic perennial in the water-plantain family, a cultivar of threeleaf arrowhead. The corm is edible and traditionally served in Japanese New Year dishes. Leaves are distinctively arrow-shaped.",
+    identificationPoints: [
+      "葉は大きな矢じり形（矢尻型）",
+      "水田や浅い水中に生育",
+      "塊茎は丸く、芽が角のように突出",
+    ],
+    enIdentificationPoints: [
+      "Large arrow-shaped (sagittate) leaves",
+      "Grows in paddies and shallow water",
+      "Round corms with horn-like buds",
+    ],
+    habitat: "水田・浅水湿地（栽培）",
+    enHabitat: "Paddy fields, shallow wetlands (cultivated)",
+    season: "7〜10月（花）、11〜12月（収穫）",
+    enSeason: "July to October (flowers), November to December (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sagittaria_trifolia.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クワイ" },
+    ],
+    tags: ["草本", "多年草", "水生植物", "野菜", "正月"],
+    enTags: ["Herb", "Perennial", "Aquatic", "Vegetable", "New Year"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/クワイ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クワイ", totalViews: 65796, window: "202504-202603", months: [{ month: "202504", views: 3087 }, { month: "202505", views: 3606 }, { month: "202506", views: 3326 }, { month: "202507", views: 3429 }, { month: "202508", views: 4582 }, { month: "202509", views: 3114 }, { month: "202510", views: 2884 }, { month: "202511", views: 5672 }, { month: "202512", views: 18368 }, { month: "202601", views: 11060 }, { month: "202602", views: 3691 }, { month: "202603", views: 2977 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 43. パッションフルーツ（YList: クダモノトケイソウ）─────
+  {
+    id: "passion_fruit",
+    jaName: "パッションフルーツ",
+    enName: "Passion Fruit",
+    scientificName: "Passiflora edulis",
+    familyId: "passifloraceae",
+    familyJaName: "トケイソウ科",
+    description:
+      "トケイソウ科の亜熱帯性つる植物。和名はクダモノトケイソウ（果物時計草）。アメリカ大陸原産。花は時計の文字盤に似た独特の形状。果実は酸味と芳香があり、ジュースやデザートに用いられる。",
+    enDescription: "A subtropical climbing vine in the passionflower family. Native to the Americas. The flower has a distinctive clock-face-like form. The fruit is aromatic and tart, used in juices and desserts.",
+    identificationPoints: [
+      "花は副花冠が放射状に広がり時計の文字盤に似る",
+      "巻きひげで他の植物に絡みつく",
+      "果実は球形〜卵形で紫色または黄色に熟す",
+    ],
+    enIdentificationPoints: [
+      "Flower with radiating corona filaments resembling a clock face",
+      "Climbs by tendrils",
+      "Spherical to ovoid fruit, ripening purple or yellow",
+    ],
+    habitat: "栽培（亜熱帯・温室）",
+    enHabitat: "Cultivated (subtropical, greenhouses)",
+    season: "6〜8月（花・果実）",
+    enSeason: "June to August (flowers, fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Passiflora_edulis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/パッションフルーツ" },
+    ],
+    tags: ["草本", "つる植物", "果樹", "亜熱帯", "栽培"],
+    enTags: ["Herb", "Vine", "Fruit", "Subtropical", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "vine", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/パッションフルーツ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "パッションフルーツ", totalViews: 65101, window: "202504-202603", months: [{ month: "202504", views: 4848 }, { month: "202505", views: 7702 }, { month: "202506", views: 8266 }, { month: "202507", views: 9948 }, { month: "202508", views: 8999 }, { month: "202509", views: 5646 }, { month: "202510", views: 4427 }, { month: "202511", views: 3727 }, { month: "202512", views: 3310 }, { month: "202601", views: 2691 }, { month: "202602", views: 2467 }, { month: "202603", views: 3070 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 45. モロコシ（YList: コウリャン）─────
+  {
+    id: "morokoshi",
+    jaName: "モロコシ",
+    enName: "Sorghum",
+    scientificName: "Sorghum bicolor",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "イネ科の一年草。タカキビ、コーリャンとも呼ばれる。世界第5位の穀物生産量を持ち、乾燥・半乾燥地帯でも栽培できる。食用・飼料・醸造・工業用など用途が非常に広い。",
+    enDescription: "An annual grass in the family Poaceae. Also known as 'kaoliang' in Chinese. The world's fifth most-produced cereal, tolerant of drought and semi-arid conditions. Used for food, feed, brewing, and industrial purposes.",
+    identificationPoints: [
+      "草丈1〜3mの大型イネ科植物",
+      "穂は円錐花序で密集、赤褐色〜白色",
+      "葉はトウモロコシに似るがやや細い",
+    ],
+    enIdentificationPoints: [
+      "Tall grass, 1–3 m",
+      "Dense panicle inflorescence, reddish-brown to white",
+      "Leaves similar to corn but somewhat narrower",
+    ],
+    habitat: "栽培（畑・乾燥地帯）",
+    enHabitat: "Cultivated (fields, arid regions)",
+    season: "8〜10月（穂）",
+    enSeason: "August to October (panicle)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sorghum_bicolor.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/モロコシ" },
+    ],
+    tags: ["草本", "一年草", "穀物", "飼料", "栽培"],
+    enTags: ["Herb", "Annual", "Cereal", "Forage", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/モロコシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "モロコシ", totalViews: 64321, window: "202504-202603", months: [{ month: "202504", views: 5803 }, { month: "202505", views: 6014 }, { month: "202506", views: 6158 }, { month: "202507", views: 6076 }, { month: "202508", views: 6649 }, { month: "202509", views: 7299 }, { month: "202510", views: 5244 }, { month: "202511", views: 5477 }, { month: "202512", views: 4338 }, { month: "202601", views: 4093 }, { month: "202602", views: 3385 }, { month: "202603", views: 3785 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 46. ギョウジャニンニク（YList: ギョウジャニンニク）─────
+  {
+    id: "gyouja_ninniku",
+    jaName: "ギョウジャニンニク",
+    enName: "Victory Onion",
+    scientificName: "Allium victorialis subsp. platyphyllum",
+    familyId: "amaryllidaceae",
+    familyJaName: "ヒガンバナ科",
+    description:
+      "ネギ属の多年草。北海道や本州の亜高山地帯に群生する。ニンニクに似た強烈な匂いがあり、若芽は山菜として珍重される。「行者」の名は修行僧が食べたことに由来するとされる。",
+    enDescription: "A perennial in the onion genus. Grows in subalpine zones of Hokkaido and Honshu. Has a strong garlic-like odor; young shoots are prized as a wild mountain vegetable. The name alludes to ascetic monks who ate it.",
+    identificationPoints: [
+      "広い楕円形の葉が2〜3枚根生",
+      "茎の基部に赤紫色の繊維状の鞘",
+      "ニンニクに似た強い匂い",
+    ],
+    enIdentificationPoints: [
+      "2–3 broad, elliptic basal leaves",
+      "Reddish-purple fibrous sheath at stem base",
+      "Strong garlic-like odor",
+    ],
+    habitat: "亜高山帯の針葉樹林・湿地",
+    enHabitat: "Subalpine coniferous forests, wetlands",
+    season: "4〜5月（若芽採取）、6〜7月（花）",
+    enSeason: "April to May (young shoots), June to July (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Allium_victorialis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ギョウジャニンニク" },
+    ],
+    tags: ["草本", "多年草", "山菜", "亜高山", "ネギ属"],
+    enTags: ["Herb", "Perennial", "Wild vegetable", "Subalpine", "Allium"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "elliptic", habit: "herb", deciduous: "deciduous", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ギョウジャニンニク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ギョウジャニンニク", totalViews: 63980, window: "202504-202603", months: [{ month: "202504", views: 14007 }, { month: "202505", views: 13410 }, { month: "202506", views: 8635 }, { month: "202507", views: 2823 }, { month: "202508", views: 2804 }, { month: "202509", views: 3032 }, { month: "202510", views: 2857 }, { month: "202511", views: 2404 }, { month: "202512", views: 2912 }, { month: "202601", views: 2762 }, { month: "202602", views: 3013 }, { month: "202603", views: 5321 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 47. ゴーヤ（YList: ニガウリ）─────
+  {
+    id: "goya",
+    jaName: "ゴーヤ",
+    enName: "Bitter Melon",
+    scientificName: "Momordica charantia var. pavel",
+    familyId: "cucurbitaceae",
+    familyJaName: "ウリ科",
+    description:
+      "ウリ科の一年生つる植物。和名はツルレイシ（蔓茘枝）で、一般にはニガウリまたはゴーヤと呼ばれる。熱帯アジア原産。果実はいぼ状の突起に覆われ、特有の苦味がある。沖縄料理のゴーヤチャンプルーで有名。",
+    enDescription: "An annual climbing vine in the gourd family. Known as 'Tsuru-reishi' in standard Japanese, commonly called 'Goya' or 'Nigauri'. Native to tropical Asia. The fruit is covered with bumpy protrusions and has a distinctive bitter taste. Famous as an ingredient in Okinawan stir-fry (goya champuru).",
+    identificationPoints: [
+      "果実はいぼ状突起に覆われ、未熟時は緑色",
+      "巻きひげで支柱に絡む",
+      "完熟すると橙色に裂開し赤い仮種皮の種子が現れる",
+    ],
+    enIdentificationPoints: [
+      "Fruit covered with warty bumps, green when immature",
+      "Climbs by tendrils",
+      "Splits open orange when ripe, revealing red aril-covered seeds",
+    ],
+    habitat: "栽培（畑・家庭菜園・グリーンカーテン）",
+    enHabitat: "Cultivated (fields, home gardens, green curtains)",
+    season: "7〜9月（果実）",
+    enSeason: "July to September (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Momordica_charantia.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツルレイシ" },
+    ],
+    tags: ["草本", "一年草", "つる植物", "夏野菜", "沖縄"],
+    enTags: ["Herb", "Annual", "Vine", "Summer vegetable", "Okinawa"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "vine", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ツルレイシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツルレイシ", totalViews: 63795, window: "202504-202603", months: [{ month: "202504", views: 3246 }, { month: "202505", views: 6138 }, { month: "202506", views: 5489 }, { month: "202507", views: 10350 }, { month: "202508", views: 13831 }, { month: "202509", views: 7595 }, { month: "202510", views: 3631 }, { month: "202511", views: 2267 }, { month: "202512", views: 1789 }, { month: "202601", views: 1881 }, { month: "202602", views: 1813 }, { month: "202603", views: 5765 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 48. ポポー（YList: ポポー）─────
+  {
+    id: "popoo",
+    jaName: "ポポー",
+    enName: "Pawpaw",
+    scientificName: "Asimina triloba",
+    familyId: "annonaceae",
+    familyJaName: "バンレイシ科",
+    description:
+      "バンレイシ科の落葉小高木〜高木。北米東部原産で、バンレイシ科の中で最も耐寒性が高い。果実は楕円形で果肉は黄色く柔軟粘質で甘く芳香があり「森のカスタードクリーム」と呼ばれる。明治期に日本に導入された。",
+    enDescription: "A deciduous tree in the custard apple family, native to eastern North America. The hardiest member of its family. The ellipsoidal fruit has yellow, custard-like flesh that is sweet and aromatic, earning it the nickname 'forest custard cream'. Introduced to Japan in the Meiji era.",
+    identificationPoints: [
+      "春に暗紫色の下向きの花",
+      "葉は大きな倒卵形で枝先に集まる",
+      "果実は楕円形で黄緑色、芳香がある",
+    ],
+    enIdentificationPoints: [
+      "Dark purple, pendant flowers in spring",
+      "Large obovate leaves clustered at branch tips",
+      "Ellipsoidal yellowish-green fruit with sweet aroma",
+    ],
+    habitat: "庭木・果樹園",
+    enHabitat: "Gardens, orchards",
+    season: "4〜5月（花）、9〜10月（果実）",
+    enSeason: "April to May (flowers), September to October (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Asimina_triloba.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ポポー" },
+    ],
+    tags: ["木本", "落葉高木", "果樹", "北米原産", "栽培"],
+    enTags: ["Tree", "Deciduous", "Fruit tree", "North American", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "obovate", habit: "tree", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ポポー" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ポポー", totalViews: 63676, window: "202504-202603", months: [{ month: "202504", views: 2105 }, { month: "202505", views: 2580 }, { month: "202506", views: 2504 }, { month: "202507", views: 2216 }, { month: "202508", views: 4660 }, { month: "202509", views: 23596 }, { month: "202510", views: 13412 }, { month: "202511", views: 4961 }, { month: "202512", views: 2378 }, { month: "202601", views: 1614 }, { month: "202602", views: 1576 }, { month: "202603", views: 2074 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 49. シャクヤク（YList: シャクヤク）─────
+  {
+    id: "shakuyaku",
+    jaName: "シャクヤク",
+    enName: "Chinese Peony",
+    scientificName: "Paeonia lactiflora",
+    familyId: "paeoniaceae",
+    familyJaName: "ボタン科",
+    description:
+      "ボタン科の多年草。アジア大陸北東部原産。初夏に紅・白色などの大形の花を咲かせ、ボタンと並ぶ代表的な観賞花。一重・八重の品種があり、園芸品種が多い。根は生薬（芍薬）として漢方に用いられる。",
+    enDescription: "A perennial in the peony family, native to northeast Asia. Blooms large red, white, or pink flowers in early summer. Along with tree peony, one of the most iconic ornamental flowers. Single and double varieties exist. The root is used in traditional Chinese medicine ('shakuyaku').",
+    identificationPoints: [
+      "大形の花（紅・白・ピンク）、一重〜八重",
+      "葉は2回3出複葉で光沢がある",
+      "草本（ボタンは木本）",
+    ],
+    enIdentificationPoints: [
+      "Large flowers (red, white, pink), single to fully double",
+      "Glossy, biternate compound leaves",
+      "Herbaceous (unlike tree peony, which is woody)",
+    ],
+    habitat: "庭・花壇・薬草園",
+    enHabitat: "Gardens, flower beds, medicinal herb gardens",
+    season: "5〜6月（花）",
+    enSeason: "May to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Paeonia_lactiflora.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シャクヤク" },
+    ],
+    tags: ["草本", "多年草", "園芸", "薬用", "花"],
+    enTags: ["Herb", "Perennial", "Horticultural", "Medicinal", "Flower"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/シャクヤク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シャクヤク", totalViews: 63135, window: "202504-202603", months: [{ month: "202504", views: 8455 }, { month: "202505", views: 20320 }, { month: "202506", views: 6871 }, { month: "202507", views: 2920 }, { month: "202508", views: 4295 }, { month: "202509", views: 3298 }, { month: "202510", views: 2964 }, { month: "202511", views: 2792 }, { month: "202512", views: 2496 }, { month: "202601", views: 2795 }, { month: "202602", views: 2756 }, { month: "202603", views: 3173 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 50. ゲッカビジン（YList: ゲッカビジン）─────
+  {
+    id: "gekkabijin",
+    jaName: "ゲッカビジン",
+    enName: "Queen of the Night",
+    scientificName: "Epiphyllum oxypetalum",
+    familyId: "cactaceae",
+    familyJaName: "サボテン科",
+    description:
+      "サボテン科クジャクサボテン属の常緑多肉植物。メキシコの熱帯雨林原産。夜間にだけ咲く純白の大輪花が有名で、朝にはしぼむ一夜花。「月下美人」の名は月明かりの下で咲く姿から。強い芳香を放つ。",
+    enDescription: "An evergreen succulent in the cactus family, native to Mexican tropical rainforests. Famous for its large, pure-white flowers that bloom only at night and wilt by morning. The Japanese name 'Gekka-bijin' means 'beauty under the moonlight'. Emits a strong fragrance.",
+    identificationPoints: [
+      "扁平で幅広い葉状茎（仮葉）",
+      "夜間に純白の大輪花（直径20〜25cm）",
+      "花は一夜限りで朝にしぼむ",
+    ],
+    enIdentificationPoints: [
+      "Flat, broad leaf-like stems (phylloclade)",
+      "Large white flowers (20–25 cm) bloom at night",
+      "Flowers last only one night, wilting by morning",
+    ],
+    habitat: "栽培（温室・室内）",
+    enHabitat: "Cultivated (greenhouses, indoors)",
+    season: "6〜11月（花、夜間）",
+    enSeason: "June to November (flowers, nighttime)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Epiphyllum_oxypetalum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ゲッカビジン" },
+    ],
+    tags: ["多肉植物", "サボテン", "夜咲き", "一夜花", "園芸"],
+    enTags: ["Succulent", "Cactus", "Night-blooming", "One-night flower", "Horticultural"],
+    traits: { habit: "herb", deciduous: "evergreen", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ゲッカビジン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゲッカビジン", totalViews: 62911, window: "202504-202603", months: [{ month: "202504", views: 4523 }, { month: "202505", views: 5937 }, { month: "202506", views: 6858 }, { month: "202507", views: 5768 }, { month: "202508", views: 7227 }, { month: "202509", views: 7425 }, { month: "202510", views: 8280 }, { month: "202511", views: 3625 }, { month: "202512", views: 3787 }, { month: "202601", views: 3463 }, { month: "202602", views: 2419 }, { month: "202603", views: 3599 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 51. チョウセンアサガオ（YList: チョウセンアサガオ）─────
+  {
+    id: "chousen_asagao",
+    jaName: "チョウセンアサガオ",
+    enName: "Devil's Trumpet",
+    scientificName: "Datura metel",
+    familyId: "solanaceae",
+    familyJaName: "ナス科",
+    description:
+      "ナス科の一年草。園芸名ダチュラ。別名マンダラゲ（曼陀羅華）。江戸時代に薬用として渡来。全草に強い毒性（スコポラミン・アトロピン等）がある。華岡青洲はこの植物から麻酔薬を開発した。",
+    enDescription: "An annual in the nightshade family, also called Datura. Known as 'Mandara-ge' (sacred flower). Introduced to Japan in the Edo period as a medicinal plant. The entire plant is highly toxic (scopolamine, atropine, etc.). Hanaoka Seishuu developed an anesthetic from this plant.",
+    identificationPoints: [
+      "大きなラッパ形の花（白・紫）、上向きに咲く",
+      "果実は球形でトゲに覆われる",
+      "葉は大きく卵形で波打つ縁",
+    ],
+    enIdentificationPoints: [
+      "Large trumpet-shaped flowers (white or purple), upward-facing",
+      "Spherical, spiny fruit capsule",
+      "Large ovate leaves with wavy margins",
+    ],
+    habitat: "庭・空き地・道ばた（逸出・野生化）",
+    enHabitat: "Gardens, vacant lots, roadsides (escaped, naturalized)",
+    season: "8〜9月（花）",
+    enSeason: "August to September (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Datura_metel.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/チョウセンアサガオ" },
+    ],
+    tags: ["草本", "一年草", "有毒", "薬用", "帰化植物"],
+    enTags: ["Herb", "Annual", "Toxic", "Medicinal", "Introduced"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/チョウセンアサガオ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "チョウセンアサガオ", totalViews: 62577, window: "202504-202603", months: [{ month: "202504", views: 4519 }, { month: "202505", views: 6579 }, { month: "202506", views: 8300 }, { month: "202507", views: 6429 }, { month: "202508", views: 6036 }, { month: "202509", views: 5697 }, { month: "202510", views: 5731 }, { month: "202511", views: 5642 }, { month: "202512", views: 3647 }, { month: "202601", views: 3455 }, { month: "202602", views: 3281 }, { month: "202603", views: 3261 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 52. アヤメ（YList: アヤメ）─────
+  {
+    id: "ayame",
+    jaName: "アヤメ",
+    enName: "Siberian Iris",
+    scientificName: "Iris sanguinea",
+    familyId: "iridaceae",
+    familyJaName: "アヤメ科",
+    description:
+      "アヤメ科アヤメ属の多年草。山野の草地に自生する。花弁の基部に網目模様があるのが特徴で、「綾目」の名の由来。カキツバタやハナショウブとよく混同されるが、乾いた土地に生える点で区別される。",
+    enDescription: "A perennial in the iris family. Grows in wild grasslands. Distinguished by a net-like pattern at the base of the petals, which gives it the name 'Ayame' (pattern). Often confused with kakitsubata and hanashobu, but differs in preferring dry land.",
+    identificationPoints: [
+      "外花被片の基部に黄色と紫の網目模様",
+      "乾いた草地に生育（水辺ではない）",
+      "草丈30〜60cm、花は青紫色",
+    ],
+    enIdentificationPoints: [
+      "Yellow and purple net-like pattern at base of outer tepals",
+      "Grows in dry grasslands (not waterside)",
+      "Height 30–60 cm, blue-purple flowers",
+    ],
+    habitat: "山野の草地",
+    enHabitat: "Wild grasslands, meadows",
+    season: "5月（花）",
+    enSeason: "May (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Iris_sanguinea.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アヤメ" },
+    ],
+    tags: ["草本", "多年草", "花", "山野草", "日本在来"],
+    enTags: ["Herb", "Perennial", "Flower", "Wildflower", "Native"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "spring", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アヤメ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アヤメ", totalViews: 61876, window: "202504-202603", months: [{ month: "202504", views: 7798 }, { month: "202505", views: 15858 }, { month: "202506", views: 8728 }, { month: "202507", views: 3815 }, { month: "202508", views: 3602 }, { month: "202509", views: 3621 }, { month: "202510", views: 3366 }, { month: "202511", views: 2885 }, { month: "202512", views: 2659 }, { month: "202601", views: 2910 }, { month: "202602", views: 2947 }, { month: "202603", views: 3687 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 53. キャッサバ（YList: キャッサバ）─────
+  {
+    id: "cassava",
+    jaName: "キャッサバ",
+    enName: "Cassava",
+    scientificName: "Manihot esculenta",
+    familyId: "euphorbiaceae",
+    familyJaName: "トウダイグサ科",
+    description:
+      "トウダイグサ科の熱帯低木。中南米原産で、熱帯の広い地域で主食作物として栽培される。肥大した根茎はデンプンに富み、タピオカの原料。生の根茎にはシアン化合物を含むため適切な処理が必要。",
+    enDescription: "A tropical shrub in the spurge family, native to Central and South America. Widely cultivated as a staple crop in the tropics. The swollen tuberous root is rich in starch and is the raw material for tapioca. Raw roots contain cyanogenic compounds and require proper processing.",
+    identificationPoints: [
+      "掌状複葉（5〜9裂）",
+      "肥大した根茎（長さ30〜100cm）",
+      "低木状で高さ1〜3m、茎は木質化",
+    ],
+    enIdentificationPoints: [
+      "Palmate leaves with 5–9 lobes",
+      "Swollen tuberous root (30–100 cm long)",
+      "Shrubby, 1–3 m tall, with woody stems",
+    ],
+    habitat: "栽培（熱帯）",
+    enHabitat: "Cultivated (tropical regions)",
+    season: "通年（熱帯）",
+    enSeason: "Year-round (in tropics)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Manihot_esculenta.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キャッサバ" },
+    ],
+    tags: ["木本", "低木", "主食作物", "熱帯", "栽培"],
+    enTags: ["Shrub", "Staple crop", "Tropical", "Cultivated", "Starch"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "palmate", habit: "shrub", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/キャッサバ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キャッサバ", totalViews: 60843, window: "202504-202603", months: [{ month: "202504", views: 5597 }, { month: "202505", views: 5544 }, { month: "202506", views: 5532 }, { month: "202507", views: 4713 }, { month: "202508", views: 4770 }, { month: "202509", views: 4578 }, { month: "202510", views: 5871 }, { month: "202511", views: 5584 }, { month: "202512", views: 4991 }, { month: "202601", views: 4756 }, { month: "202602", views: 3874 }, { month: "202603", views: 5033 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 54. オタネニンジン（YList: チョウセンニンジン）─────
+  {
+    id: "otane_ninjin",
+    jaName: "オタネニンジン",
+    enName: "Korean Ginseng",
+    scientificName: "Panax ginseng",
+    familyId: "araliaceae",
+    familyJaName: "ウコギ科",
+    description:
+      "ウコギ科の多年草。中国東北部〜朝鮮半島原産。チョウセンニンジン（朝鮮人参）、コウライニンジン（高麗人参）とも呼ばれる。根は漢方薬として珍重される。野菜のニンジン（セリ科）とは全く別の植物。",
+    enDescription: "A perennial in the ginseng family, native to northeast China and the Korean Peninsula. Also known as 'Korean ginseng'. The root is highly valued in traditional medicine. Unrelated to the common carrot (Apiaceae) despite sharing the Japanese name 'ninjin'.",
+    identificationPoints: [
+      "掌状複葉が茎頂に3〜6枚輪生",
+      "赤い球形の果実が茎頂に集まる",
+      "根は人の形に似ることがある（人参の名の由来）",
+    ],
+    enIdentificationPoints: [
+      "3–6 palmate compound leaves whorled at stem apex",
+      "Red spherical berries clustered at stem top",
+      "Root sometimes resembles a human figure (origin of the name)",
+    ],
+    habitat: "栽培（薬草園・畑）、山地林下（自生）",
+    enHabitat: "Cultivated (medicinal gardens, fields), mountain forests (wild)",
+    season: "5〜6月（花）、8〜9月（果実）",
+    enSeason: "May to June (flowers), August to September (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Panax_ginseng.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オタネニンジン" },
+    ],
+    tags: ["草本", "多年草", "薬用", "漢方", "栽培"],
+    enTags: ["Herb", "Perennial", "Medicinal", "Traditional medicine", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", shape: "palmate", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/オタネニンジン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オタネニンジン", totalViews: 60334, window: "202504-202603", months: [{ month: "202504", views: 5527 }, { month: "202505", views: 5967 }, { month: "202506", views: 5557 }, { month: "202507", views: 4917 }, { month: "202508", views: 5493 }, { month: "202509", views: 6058 }, { month: "202510", views: 5512 }, { month: "202511", views: 4709 }, { month: "202512", views: 5182 }, { month: "202601", views: 4029 }, { month: "202602", views: 3759 }, { month: "202603", views: 3624 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 55. サフラン（YList: サフラン）─────
+  {
+    id: "safran",
+    jaName: "サフラン",
+    enName: "Saffron Crocus",
+    scientificName: "Crocus sativus",
+    familyId: "iridaceae",
+    familyJaName: "アヤメ科",
+    description:
+      "アヤメ科の多年草（球根植物）。イラン原産とされ、青銅器時代から栽培される。赤いめしべを乾燥させた香辛料「サフラン」は世界で最も高価なスパイスの一つ。パエリアやブイヤベースの着色・香りづけに使われる。",
+    enDescription: "A bulbous perennial in the iris family, believed to originate from Iran and cultivated since the Bronze Age. The dried red stigmas produce 'saffron', one of the world's most expensive spices. Used to color and flavor dishes like paella and bouillabaisse.",
+    identificationPoints: [
+      "秋に紫色のクロッカス状の花",
+      "赤い糸状のめしべが3本、花から長く垂れ下がる",
+      "葉は細い線形で花と同時〜花後に展開",
+    ],
+    enIdentificationPoints: [
+      "Purple crocus-like flowers in autumn",
+      "Three long red thread-like stigmas dangling from the flower",
+      "Narrow linear leaves appear with or after flowers",
+    ],
+    habitat: "栽培（畑・温帯）",
+    enHabitat: "Cultivated (fields, temperate regions)",
+    season: "10〜11月（花）",
+    enSeason: "October to November (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Crocus_sativus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サフラン" },
+    ],
+    tags: ["草本", "多年草", "球根", "香辛料", "栽培"],
+    enTags: ["Herb", "Perennial", "Bulb", "Spice", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "autumn", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/サフラン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サフラン", totalViews: 60070, window: "202504-202603", months: [{ month: "202504", views: 4460 }, { month: "202505", views: 5811 }, { month: "202506", views: 4606 }, { month: "202507", views: 4412 }, { month: "202508", views: 5430 }, { month: "202509", views: 5741 }, { month: "202510", views: 6893 }, { month: "202511", views: 6659 }, { month: "202512", views: 4480 }, { month: "202601", views: 3622 }, { month: "202602", views: 3974 }, { month: "202603", views: 3982 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 56. ドウダンツツジ（YList: ドウダンツツジ）─────
+  {
+    id: "doudan_tsutsuji",
+    jaName: "ドウダンツツジ",
+    enName: "Japanese Enkianthus",
+    scientificName: "Enkianthus perulatus",
+    familyId: "ericaceae",
+    familyJaName: "ツツジ科",
+    description:
+      "ツツジ科ドウダンツツジ属の落葉低木。春にスズランに似た白い壺形の小花を多数垂らし、秋には真っ赤に紅葉する。生垣や庭木として広く植栽される。",
+    enDescription: "A deciduous shrub in the heath family. In spring it bears many small, white, urn-shaped flowers resembling lily-of-the-valley. Known for brilliant scarlet autumn foliage. Widely used for hedges and gardens.",
+    identificationPoints: [
+      "春に白い壺形の小花を多数垂下",
+      "秋に鮮やかな紅葉（赤〜橙）",
+      "枝が密に分岐し、整った樹形",
+    ],
+    enIdentificationPoints: [
+      "Many small, white, urn-shaped pendant flowers in spring",
+      "Vivid scarlet to orange autumn color",
+      "Dense branching with neat form",
+    ],
+    habitat: "庭木・生垣・公園",
+    enHabitat: "Gardens, hedges, parks",
+    season: "4〜5月（花）、10〜11月（紅葉）",
+    enSeason: "April to May (flowers), October to November (autumn color)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Enkianthus_perulatus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ドウダンツツジ" },
+    ],
+    tags: ["木本", "落葉低木", "紅葉", "庭木", "生垣"],
+    enTags: ["Shrub", "Deciduous", "Autumn color", "Garden tree", "Hedge"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "shrub", deciduous: "deciduous", flowerColor: "white", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ドウダンツツジ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ドウダンツツジ", totalViews: 59859, window: "202504-202603", months: [{ month: "202504", views: 16710 }, { month: "202505", views: 9375 }, { month: "202506", views: 4908 }, { month: "202507", views: 3042 }, { month: "202508", views: 3260 }, { month: "202509", views: 2466 }, { month: "202510", views: 3779 }, { month: "202511", views: 5390 }, { month: "202512", views: 3573 }, { month: "202601", views: 2318 }, { month: "202602", views: 1938 }, { month: "202603", views: 3100 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 57. ニラ（YList: ニラ）─────
+  {
+    id: "nira",
+    jaName: "ニラ",
+    enName: "Garlic Chives",
+    scientificName: "Allium tuberosum",
+    familyId: "amaryllidaceae",
+    familyJaName: "ヒガンバナ科",
+    description:
+      "ネギ属の多年草。中国原産で、東洋を代表する野菜。独特の強い匂いがあり、レバニラ炒めや餃子の具として広く利用される。秋に白い小花を散形に咲かせる。五葷の一つ。",
+    enDescription: "A perennial in the onion genus, native to China. A quintessential East Asian vegetable. Has a distinctive strong odor and is widely used in stir-fries and dumpling fillings. White flowers bloom in umbels in autumn. One of the 'five pungent herbs'.",
+    identificationPoints: [
+      "葉は扁平で線形、ニンニクに似た匂い",
+      "白い小花を球状の散形花序に咲かせる",
+      "株立ちで多数の葉を出す",
+    ],
+    enIdentificationPoints: [
+      "Flat, linear leaves with garlic-like odor",
+      "White flowers in spherical umbel",
+      "Clump-forming with many leaves",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "3〜10月（葉の収穫）、8〜10月（花）",
+    enSeason: "March to October (leaf harvest), August to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Allium_tuberosum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ニラ" },
+    ],
+    tags: ["草本", "多年草", "野菜", "ネギ属", "栽培"],
+    enTags: ["Herb", "Perennial", "Vegetable", "Allium", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ニラ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニラ", totalViews: 59848, window: "202504-202603", months: [{ month: "202504", views: 6301 }, { month: "202505", views: 7431 }, { month: "202506", views: 4871 }, { month: "202507", views: 3814 }, { month: "202508", views: 4742 }, { month: "202509", views: 7555 }, { month: "202510", views: 5208 }, { month: "202511", views: 4818 }, { month: "202512", views: 3444 }, { month: "202601", views: 3523 }, { month: "202602", views: 3414 }, { month: "202603", views: 4727 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 58. ヒイラギ（YList: ヒイラギ）─────
+  {
+    id: "hiiragi",
+    jaName: "ヒイラギ",
+    enName: "Holly Osmanthus",
+    scientificName: "Osmanthus heterophyllus",
+    familyId: "oleaceae",
+    familyJaName: "モクセイ科",
+    description:
+      "モクセイ科モクセイ属の常緑小高木。冬に白い小花が集まって咲き、甘い芳香を放つ。葉にはトゲ状の鋸歯があり、邪気を払う縁起木として節分に飾られる。老木では葉のトゲが丸くなる。",
+    enDescription: "An evergreen small tree in the olive family. White, fragrant flowers bloom in clusters in winter. The leaves have spiny margins; the tree is used as a charm against evil spirits during Setsubun. Mature trees produce leaves with fewer spines.",
+    identificationPoints: [
+      "葉は光沢があり、縁にトゲ状の鋸歯",
+      "冬に白い芳香のある小花",
+      "老木は葉のトゲが少なくなる",
+    ],
+    enIdentificationPoints: [
+      "Glossy leaves with spiny-toothed margins",
+      "Fragrant white flowers in winter",
+      "Old trees produce leaves with fewer spines",
+    ],
+    habitat: "庭木・生垣・山地林内",
+    enHabitat: "Gardens, hedges, mountain forests",
+    season: "11〜12月（花）",
+    enSeason: "November to December (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Osmanthus_heterophyllus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒイラギ" },
+    ],
+    tags: ["木本", "常緑小高木", "庭木", "節分", "芳香"],
+    enTags: ["Tree", "Evergreen", "Garden tree", "Setsubun", "Fragrant"],
+    traits: { leafArr: "opp", leafType: "simple", margin: "serrate", habit: "tree", deciduous: "evergreen", flowerColor: "white", floweringSeason: "winter", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヒイラギ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒイラギ", totalViews: 59765, window: "202504-202603", months: [{ month: "202504", views: 4383 }, { month: "202505", views: 5004 }, { month: "202506", views: 4015 }, { month: "202507", views: 3359 }, { month: "202508", views: 3671 }, { month: "202509", views: 4288 }, { month: "202510", views: 4985 }, { month: "202511", views: 7484 }, { month: "202512", views: 9121 }, { month: "202601", views: 4854 }, { month: "202602", views: 4828 }, { month: "202603", views: 3773 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 59. コシアブラ（YList: コシアブラ）─────
+  {
+    id: "koshiabura",
+    jaName: "コシアブラ",
+    enName: "Koshiabura",
+    scientificName: "Chengiopanax sciadophylloides",
+    familyId: "araliaceae",
+    familyJaName: "ウコギ科",
+    description:
+      "ウコギ科の落葉高木。別名ゴンゼツ。若芽は強い香りとコクがあり、タラの芽と並ぶ人気の山菜。天ぷらにすると絶品。樹脂は古くから金漆（ゴンゼツ）として塗料に使われた。",
+    enDescription: "A deciduous tree in the ginseng family. Young shoots have a strong aroma and rich flavor, ranking alongside 'tara-no-me' (angelica tree buds) as a prized wild mountain vegetable. Superb when deep-fried as tempura. Its resin was historically used as a lacquer called 'gonzetsu'.",
+    identificationPoints: [
+      "掌状複葉で小葉は5枚",
+      "若芽は淡い黄緑〜白色",
+      "樹皮は灰白色で滑らか",
+    ],
+    enIdentificationPoints: [
+      "Palmate compound leaves with 5 leaflets",
+      "Young shoots are pale yellowish-green to white",
+      "Smooth, grayish-white bark",
+    ],
+    habitat: "山地の落葉樹林",
+    enHabitat: "Mountain deciduous forests",
+    season: "4〜5月（若芽採取）、8月（花）",
+    enSeason: "April to May (young shoots), August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chengiopanax_sciadophylloides.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コシアブラ" },
+    ],
+    tags: ["木本", "落葉高木", "山菜", "天ぷら", "山地"],
+    enTags: ["Tree", "Deciduous", "Wild vegetable", "Tempura", "Mountain"],
+    traits: { leafArr: "alt", leafType: "compound", shape: "palmate", habit: "tree", deciduous: "deciduous", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/コシアブラ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コシアブラ", totalViews: 59693, window: "202504-202603", months: [{ month: "202504", views: 19244 }, { month: "202505", views: 20188 }, { month: "202506", views: 4317 }, { month: "202507", views: 2337 }, { month: "202508", views: 1516 }, { month: "202509", views: 1073 }, { month: "202510", views: 1020 }, { month: "202511", views: 1129 }, { month: "202512", views: 882 }, { month: "202601", views: 2918 }, { month: "202602", views: 1743 }, { month: "202603", views: 3326 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 60. チョロギ（YList: チョロギ）─────
+  {
+    id: "chorogi",
+    jaName: "チョロギ",
+    enName: "Chinese Artichoke",
+    scientificName: "Stachys sieboldii",
+    familyId: "lamiaceae",
+    familyJaName: "シソ科",
+    description:
+      "シソ科の多年草。中国原産で、江戸時代に日本に伝わった。根にできる巻き貝状の塊茎を食用とし、赤く染めておせち料理の縁起物として添えられる。「長老木」「長老喜」などの当て字がある。",
+    enDescription: "A perennial in the mint family, native to China. Introduced to Japan in the Edo period. The spiral, shell-shaped tubers formed on the roots are eaten. Dyed red, they are served as a lucky charm in traditional New Year dishes. Written with auspicious characters meaning 'long life and joy'.",
+    identificationPoints: [
+      "茎は四角形（シソ科の特徴）",
+      "葉は対生で卵形、鋸歯あり",
+      "根に巻き貝形の白い塊茎がつく",
+    ],
+    enIdentificationPoints: [
+      "Square stems (mint family characteristic)",
+      "Opposite, ovate, serrate leaves",
+      "White spiral-shaped tubers on roots",
+    ],
+    habitat: "栽培（畑）",
+    enHabitat: "Cultivated (fields)",
+    season: "7〜8月（花）、11〜12月（収穫）",
+    enSeason: "July to August (flowers), November to December (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Stachys_sieboldii.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/チョロギ" },
+    ],
+    tags: ["草本", "多年草", "野菜", "正月", "栽培"],
+    enTags: ["Herb", "Perennial", "Vegetable", "New Year", "Cultivated"],
+    traits: { leafArr: "opp", leafType: "simple", margin: "serrate", shape: "ovate", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/チョロギ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "チョロギ", totalViews: 59390, window: "202504-202603", months: [{ month: "202504", views: 5142 }, { month: "202505", views: 2955 }, { month: "202506", views: 2353 }, { month: "202507", views: 1788 }, { month: "202508", views: 2552 }, { month: "202509", views: 2466 }, { month: "202510", views: 2762 }, { month: "202511", views: 3975 }, { month: "202512", views: 15652 }, { month: "202601", views: 14171 }, { month: "202602", views: 2478 }, { month: "202603", views: 3096 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 61. クロモジ（YList: オオバクロモジ）─────
+  {
+    id: "kuromoji",
+    jaName: "クロモジ",
+    enName: "Spicebush",
+    scientificName: "Lindera umbellata",
+    familyId: "lauraceae",
+    familyJaName: "クスノキ科",
+    description:
+      "クスノキ科クロモジ属の落葉低木。枝の黒い斑紋を文字に見立てて「黒文字」と名づけられた。芳香のある材は高級楊枝の素材として知られ、楊枝自体を「黒文字」と呼ぶこともある。茶外茶やアロマオイルにも利用。",
+    enDescription: "A deciduous shrub in the laurel family. Named 'Kuromoji' (black letters) after the dark markings on its bark. The aromatic wood is used to make premium toothpicks, and the toothpick itself is sometimes called 'kuromoji'. Also used for herbal tea and aromatherapy oil.",
+    identificationPoints: [
+      "枝に黒緑色の斑紋がある",
+      "葉は楕円形で枝先に集まり、秋に黄葉",
+      "早春に黄緑色の小花が散形状に集まって咲く",
+    ],
+    enIdentificationPoints: [
+      "Dark greenish-black markings on branches",
+      "Elliptic leaves clustered at branch tips, turning yellow in autumn",
+      "Small yellowish-green flowers in umbels in early spring",
+    ],
+    habitat: "山地の雑木林",
+    enHabitat: "Mountain mixed forests",
+    season: "3〜4月（花）、10月（果実）",
+    enSeason: "March to April (flowers), October (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lindera_umbellata.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クロモジ" },
+    ],
+    tags: ["木本", "落葉低木", "芳香", "楊枝", "山地"],
+    enTags: ["Shrub", "Deciduous", "Aromatic", "Toothpick", "Mountain"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "elliptic", habit: "shrub", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "spring", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/クロモジ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クロモジ", totalViews: 58674, window: "202504-202603", months: [{ month: "202504", views: 7738 }, { month: "202505", views: 5520 }, { month: "202506", views: 4096 }, { month: "202507", views: 2995 }, { month: "202508", views: 3493 }, { month: "202509", views: 3476 }, { month: "202510", views: 4116 }, { month: "202511", views: 6561 }, { month: "202512", views: 5085 }, { month: "202601", views: 5128 }, { month: "202602", views: 5065 }, { month: "202603", views: 5401 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 62. ローズマリー（YList: マンネンロウ）─────
+  {
+    id: "rosemary",
+    jaName: "ローズマリー",
+    enName: "Rosemary",
+    scientificName: "Salvia rosmarinus",
+    familyId: "lamiaceae",
+    familyJaName: "シソ科",
+    description:
+      "地中海沿岸原産のシソ科の常緑性低木。和名マンネンロウ（迷迭香）。小さく細長い葉に甘く爽やかな芳香があり、肉料理の香りづけ・臭み消しのハーブとして広く使われる。水蒸気蒸留で得られる精油も薬用・アロマに利用される。",
+    enDescription: "An evergreen shrub in the mint family native to the Mediterranean. Japanese name 'Mannenrou'. The small, needle-like leaves have a sweet, fresh aroma. Widely used as a culinary herb for meat dishes. Essential oil obtained by steam distillation is also used medicinally and in aromatherapy.",
+    identificationPoints: [
+      "細長い針状の葉が対生、裏面が白っぽい",
+      "茎は四角形（シソ科の特徴）",
+      "淡青紫色の小さな唇形花",
+    ],
+    enIdentificationPoints: [
+      "Needle-like opposite leaves, whitish underneath",
+      "Square stems (mint family characteristic)",
+      "Small pale blue-purple labiate flowers",
+    ],
+    habitat: "庭・ハーブガーデン・栽培",
+    enHabitat: "Gardens, herb gardens, cultivated",
+    season: "通年（葉）、3〜5月・11月（花）",
+    enSeason: "Year-round (leaves), March to May and November (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Salvia_rosmarinus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ローズマリー" },
+    ],
+    tags: ["木本", "常緑低木", "ハーブ", "芳香", "栽培"],
+    enTags: ["Shrub", "Evergreen", "Culinary herb", "Aromatic", "Cultivated"],
+    traits: { leafArr: "opp", leafType: "simple", habit: "shrub", deciduous: "evergreen", flowerColor: "purple", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ローズマリー" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ローズマリー", totalViews: 57923, window: "202504-202603", months: [{ month: "202504", views: 6111 }, { month: "202505", views: 7285 }, { month: "202506", views: 6323 }, { month: "202507", views: 4726 }, { month: "202508", views: 4537 }, { month: "202509", views: 4471 }, { month: "202510", views: 4632 }, { month: "202511", views: 4163 }, { month: "202512", views: 3596 }, { month: "202601", views: 3357 }, { month: "202602", views: 3774 }, { month: "202603", views: 4948 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 65. スズラン（YList: スズラン）─────
+  {
+    id: "suzuran",
+    jaName: "スズラン",
+    enName: "Lily of the Valley",
+    scientificName: "Convallaria majalis var. keiskei",
+    familyId: "asparagaceae",
+    familyJaName: "キジカクシ科",
+    description:
+      "キジカクシ科スズラン属の多年草。名前に「ラン」と付くがラン科ではない。別名キミカゲソウ、タニマノヒメユリ。高原などに群落を作って生育し、白い釣鐘形の花を咲かせる。全草に強心配糖体を含み有毒。",
+    enDescription: "A perennial in the asparagus family. Despite the Japanese name ending in 'ran' (orchid), it is not an orchid. Also called 'Kimi-kage-sou'. Grows in colonies in highlands, producing small white bell-shaped flowers. All parts contain toxic cardiac glycosides.",
+    identificationPoints: [
+      "2枚の大きな葉の間から花茎が伸びる",
+      "白い釣鐘形の小花が一方に偏って垂れ下がる",
+      "高原や山地に群生",
+    ],
+    enIdentificationPoints: [
+      "Flower stalk rises between two large leaves",
+      "White bell-shaped pendant flowers in a one-sided raceme",
+      "Forms colonies in highlands and mountains",
+    ],
+    habitat: "高原・山地の草地・庭",
+    enHabitat: "Highlands, mountain grasslands, gardens",
+    season: "5〜6月（花）",
+    enSeason: "May to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Convallaria_majalis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スズラン" },
+    ],
+    tags: ["草本", "多年草", "有毒", "山地", "花"],
+    enTags: ["Herb", "Perennial", "Toxic", "Mountain", "Flower"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "white", floweringSeason: "spring", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/スズラン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スズラン", totalViews: 57049, window: "202504-202603", months: [{ month: "202504", views: 8263 }, { month: "202505", views: 9534 }, { month: "202506", views: 5651 }, { month: "202507", views: 4329 }, { month: "202508", views: 3783 }, { month: "202509", views: 3986 }, { month: "202510", views: 3728 }, { month: "202511", views: 3317 }, { month: "202512", views: 2969 }, { month: "202601", views: 3575 }, { month: "202602", views: 3384 }, { month: "202603", views: 4530 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 67. ピスタチオ（YList: ピスタチオ）─────
+  {
+    id: "pistachio",
+    jaName: "ピスタチオ",
+    enName: "Pistachio",
+    scientificName: "Pistacia vera",
+    familyId: "anacardiaceae",
+    familyJaName: "ウルシ科",
+    description:
+      "ウルシ科カイノキ属の落葉亜高木。主にイランやアメリカで栽培される。緑色の種子はナッツとして食され、製菓・料理に広く使われる。殻が自然に割れる性質があり、半開きの状態で販売されることが多い。",
+    enDescription: "A deciduous small tree in the cashew family. Mainly cultivated in Iran and the United States. The green seeds are eaten as nuts and widely used in confectionery and cooking. The shells naturally split open, and the nuts are often sold already half-opened.",
+    identificationPoints: [
+      "奇数羽状複葉で小葉は3〜5枚",
+      "雌雄異株",
+      "果実は殻が自然に裂開し緑色の仁が見える",
+    ],
+    enIdentificationPoints: [
+      "Odd-pinnate compound leaves with 3–5 leaflets",
+      "Dioecious",
+      "Naturally splitting hulls revealing green kernels",
+    ],
+    habitat: "栽培（乾燥温暖地）",
+    enHabitat: "Cultivated (dry warm regions)",
+    season: "8〜9月（収穫）",
+    enSeason: "August to September (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pistacia_vera.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ピスタチオ" },
+    ],
+    tags: ["木本", "落葉樹", "ナッツ", "果樹", "栽培"],
+    enTags: ["Tree", "Deciduous", "Nut", "Fruit tree", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "tree", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ピスタチオ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ピスタチオ", totalViews: 56780, window: "202504-202603", months: [{ month: "202504", views: 5216 }, { month: "202505", views: 4821 }, { month: "202506", views: 4469 }, { month: "202507", views: 3405 }, { month: "202508", views: 4111 }, { month: "202509", views: 3811 }, { month: "202510", views: 4051 }, { month: "202511", views: 4242 }, { month: "202512", views: 5295 }, { month: "202601", views: 4821 }, { month: "202602", views: 7217 }, { month: "202603", views: 5321 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 68. マリーゴールド（YList: コウオウソウ）─────
+  {
+    id: "marigold",
+    jaName: "マリーゴールド",
+    enName: "Marigold",
+    scientificName: "Tagetes",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科コウオウソウ属（マンジュギク属）の草花として栽培される植物の総称。和名コウオウソウ（紅黄草）。メキシコ原産。黄・橙の鮮やかな花が特徴で、独特の匂いがあり害虫忌避作用から野菜畑の縁によく植えられる（コンパニオンプランツ）。",
+    enDescription: "A general term for Tagetes species cultivated as ornamentals in the daisy family. Japanese name 'Kou-ou-sou' (red-yellow flower). Native to Mexico. Known for vivid yellow and orange flowers and a distinctive odor that repels pests; often used as a companion plant in vegetable gardens.",
+    identificationPoints: [
+      "鮮やかな黄〜橙の頭花",
+      "葉は羽状に細かく裂ける",
+      "葉茎に独特の匂い",
+    ],
+    enIdentificationPoints: [
+      "Vivid yellow to orange flower heads",
+      "Finely pinnately divided leaves",
+      "Distinctive odor from leaves and stems",
+    ],
+    habitat: "花壇・庭・畑（コンパニオンプランツ）",
+    enHabitat: "Flower beds, gardens, vegetable patches (companion plant)",
+    season: "5〜11月（花）",
+    enSeason: "May to November (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Tagetes_patula.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マリーゴールド" },
+    ],
+    tags: ["草本", "一年草", "園芸", "花", "コンパニオンプランツ"],
+    enTags: ["Herb", "Annual", "Horticultural", "Flower", "Companion plant"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", flowerColor: "orange", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/マリーゴールド" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マリーゴールド", totalViews: 56735, window: "202504-202603", months: [{ month: "202504", views: 5597 }, { month: "202505", views: 8300 }, { month: "202506", views: 5867 }, { month: "202507", views: 5585 }, { month: "202508", views: 5973 }, { month: "202509", views: 4181 }, { month: "202510", views: 6793 }, { month: "202511", views: 3998 }, { month: "202512", views: 2877 }, { month: "202601", views: 2172 }, { month: "202602", views: 1987 }, { month: "202603", views: 3405 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 70. アスパラガス（YList: オランダキジカクシ）─────
+  {
+    id: "asparagus",
+    jaName: "アスパラガス",
+    enName: "Asparagus",
+    scientificName: "Asparagus officinalis",
+    familyId: "asparagaceae",
+    familyJaName: "キジカクシ科",
+    description:
+      "キジカクシ科の多年草。和名オランダキジカクシ。若い茎（シュート）が野菜として食用にされる。アスパラギンの名はこの植物から発見されたことに由来。日光遮断で軟白にするとホワイトアスパラガスになる。葉のように見える部分は細かく分枝した茎。",
+    enDescription: "A perennial in the asparagus family. Japanese name 'Oranda-kijikakushi'. Young shoots are eaten as vegetables. The amino acid asparagine was first isolated from this plant. White asparagus is produced by blanching (blocking sunlight). The leaf-like parts are actually finely branched stems.",
+    identificationPoints: [
+      "若芽（シュート）は太く緑色〜白色、鱗片状の葉が密生",
+      "成熟すると細かく分枝し葉状の茎（仮葉）が広がる",
+      "赤い球形の果実（雌株のみ）",
+    ],
+    enIdentificationPoints: [
+      "Young shoots are thick, green or white, with tightly packed scale-like leaves",
+      "At maturity, branches divide finely with leaf-like stems (cladodes)",
+      "Red spherical berries (on female plants only)",
+    ],
+    habitat: "栽培（畑）",
+    enHabitat: "Cultivated (fields)",
+    season: "4〜6月（収穫）",
+    enSeason: "April to June (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Asparagus_officinalis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アスパラガス" },
+    ],
+    tags: ["草本", "多年草", "野菜", "栽培", "雌雄異株"],
+    enTags: ["Herb", "Perennial", "Vegetable", "Cultivated", "Dioecious"],
+    traits: { habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アスパラガス" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アスパラガス", totalViews: 55325, window: "202504-202603", months: [{ month: "202504", views: 7350 }, { month: "202505", views: 11337 }, { month: "202506", views: 6014 }, { month: "202507", views: 3682 }, { month: "202508", views: 3662 }, { month: "202509", views: 3457 }, { month: "202510", views: 3101 }, { month: "202511", views: 2863 }, { month: "202512", views: 2642 }, { month: "202601", views: 2985 }, { month: "202602", views: 3091 }, { month: "202603", views: 5141 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 71. ジンコウ（YList: ジンコウ）─────
+  {
+    id: "jinkou",
+    jaName: "ジンコウ",
+    enName: "Agarwood",
+    scientificName: "Aquilaria",
+    familyId: "thymelaeaceae",
+    familyJaName: "ジンチョウゲ科",
+    description:
+      "ジンチョウゲ科アクイラリア属の樹木。「沈香」は、この木の木部に傷害や病害が生じた際に防御反応として生成される樹脂が沈着したものを指し、香木として利用される。原木すべてが香木になるわけではなく、非常に貴重。最上級品は伽羅（きゃら）と呼ばれる。",
+    enDescription: "A tree in the daphne family. 'Jinkou' (agarwood) refers to the resin-infused wood that forms as a defense response when the tree is wounded or infected. Used as a prized incense wood. Not all wood yields agarwood, making it very rare. The highest grade is called 'kyara'.",
+    identificationPoints: [
+      "常緑高木で、光沢のある革質の葉",
+      "傷害を受けた材の芯に黒褐色の樹脂が沈着",
+      "水に沈むほど樹脂が多いものが最高級",
+    ],
+    enIdentificationPoints: [
+      "Evergreen tree with glossy leathery leaves",
+      "Dark brown resin deposits in injured heartwood",
+      "The highest grades are dense enough to sink in water",
+    ],
+    habitat: "熱帯アジア（自生・栽培）",
+    enHabitat: "Tropical Asia (wild and cultivated)",
+    season: "通年",
+    enSeason: "Year-round",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aquilaria_malaccensis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/沈香" },
+    ],
+    tags: ["木本", "高木", "香木", "熱帯", "貴重"],
+    enTags: ["Tree", "Tall tree", "Incense wood", "Tropical", "Rare"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/沈香" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "沈香", totalViews: 54827, window: "202504-202603", months: [{ month: "202504", views: 4699 }, { month: "202505", views: 5158 }, { month: "202506", views: 8639 }, { month: "202507", views: 6520 }, { month: "202508", views: 4374 }, { month: "202509", views: 5123 }, { month: "202510", views: 5970 }, { month: "202511", views: 4274 }, { month: "202512", views: 3153 }, { month: "202601", views: 2498 }, { month: "202602", views: 2025 }, { month: "202603", views: 2394 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 72. コマツナ（YList: コマツナ）─────
+  {
+    id: "komatsuna",
+    jaName: "コマツナ",
+    enName: "Komatsuna",
+    scientificName: "Brassica rapa var. perviridis",
+    familyId: "brassicaceae",
+    familyJaName: "アブラナ科",
+    description:
+      "アブラナ科アブラナ属の葉物野菜。江戸時代から栽培されてきた東京の小松川界隈が発祥で、地名が和名の由来。クセがなく、関東風雑煮に欠かせない。カブやハクサイと同じ Brassica rapa の品種の一つ。欧米でも「KOMATSUNA」の名で呼ばれる。",
+    enDescription: "A leafy vegetable in the cabbage family. Developed around the Komatsugawa area of Edo-period Tokyo, and named after it. Has a mild flavor and is essential in Kanto-style zoni (New Year's soup). A cultivar of Brassica rapa, the same species as turnip and napa cabbage. Known as 'KOMATSUNA' internationally.",
+    identificationPoints: [
+      "葉は濃緑色で卵形〜長楕円形、柔らかい",
+      "結球せず株立ちで成長",
+      "春に黄色い4弁花（採種時）",
+    ],
+    enIdentificationPoints: [
+      "Dark green, tender, ovate to oblong leaves",
+      "Non-heading, grows in a clumping rosette",
+      "Yellow 4-petaled flowers in spring (when bolting)",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "11〜3月（主な収穫期）",
+    enSeason: "November to March (main harvest season)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_rapa_var_perviridis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コマツナ" },
+    ],
+    tags: ["草本", "越年草", "野菜", "栽培", "アブラナ科"],
+    enTags: ["Herb", "Biennial", "Vegetable", "Cultivated", "Brassicaceae"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 4, flowerColor: "yellow", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/コマツナ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コマツナ", totalViews: 54716, window: "202504-202603", months: [{ month: "202504", views: 6000 }, { month: "202505", views: 6573 }, { month: "202506", views: 4609 }, { month: "202507", views: 3411 }, { month: "202508", views: 3801 }, { month: "202509", views: 4133 }, { month: "202510", views: 4648 }, { month: "202511", views: 4986 }, { month: "202512", views: 4223 }, { month: "202601", views: 4450 }, { month: "202602", views: 3533 }, { month: "202603", views: 4349 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 73. サラソウジュ（YList: サラソウジュ）─────
+  {
+    id: "sarasouju",
+    jaName: "サラソウジュ",
+    enName: "Sal Tree",
+    scientificName: "Shorea robusta",
+    familyId: "dipterocarpaceae",
+    familyJaName: "フタバガキ科",
+    description:
+      "フタバガキ科の常緑高木。別名シャラノキ。仏教では釈迦が入滅した場所にあった聖樹として知られるが、日本の寺院で「沙羅双樹」とされる木のほとんどはナツツバキで、本種ではない。インド・東南アジア原産。",
+    enDescription: "An evergreen tree in the Dipterocarpaceae. Famous in Buddhism as the sacred tree under which Buddha entered parinirvana. In Japanese temples, however, trees labeled 'sala' are usually Stewartia pseudocamellia, not the true sal tree. Native to India and Southeast Asia.",
+    identificationPoints: [
+      "大型の常緑高木、高さ30〜50m",
+      "葉は大きく光沢のある楕円形",
+      "果実は2枚の翼状の萼片をもつ（フタバガキ科の特徴）",
+    ],
+    enIdentificationPoints: [
+      "Large evergreen tree, 30–50 m tall",
+      "Large glossy elliptic leaves",
+      "Fruit with two wing-like calyx lobes (typical of Dipterocarpaceae)",
+    ],
+    habitat: "熱帯・亜熱帯林（南アジア）",
+    enHabitat: "Tropical and subtropical forests (South Asia)",
+    season: "3〜4月（花）",
+    enSeason: "March to April (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Shorea_robusta.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サラソウジュ" },
+    ],
+    tags: ["木本", "常緑高木", "仏教", "熱帯", "聖樹"],
+    enTags: ["Tree", "Evergreen", "Buddhist", "Tropical", "Sacred tree"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "elliptic", habit: "tree", deciduous: "evergreen", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/サラソウジュ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サラソウジュ", totalViews: 54087, window: "202504-202603", months: [{ month: "202504", views: 3417 }, { month: "202505", views: 4297 }, { month: "202506", views: 10570 }, { month: "202507", views: 4337 }, { month: "202508", views: 4097 }, { month: "202509", views: 3686 }, { month: "202510", views: 4361 }, { month: "202511", views: 3966 }, { month: "202512", views: 3274 }, { month: "202601", views: 3311 }, { month: "202602", views: 4086 }, { month: "202603", views: 4685 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 75. キクイモ（YList: キクイモ）─────
+  {
+    id: "kikuimo",
+    jaName: "キクイモ",
+    enName: "Jerusalem Artichoke",
+    scientificName: "Helianthus tuberosus",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科ヒマワリ属の多年草。北アメリカ原産の帰化植物。夏に菊に似た黄色い花を咲かせ、地中にできる塊茎は食用になる。塊茎に含まれるイヌリンが血糖値抑制・腸内環境改善に効果があるとされ健康野菜としても注目される。",
+    enDescription: "A perennial in the daisy family. Introduced from North America. Produces yellow chrysanthemum-like flowers in summer and edible tubers underground. The inulin in the tubers is said to help regulate blood sugar and gut flora, drawing attention as a health food.",
+    identificationPoints: [
+      "草丈2m以上の大型草本",
+      "夏〜秋に菊に似た黄色い頭花",
+      "地中に多数の塊茎",
+    ],
+    enIdentificationPoints: [
+      "Tall herb, over 2 m",
+      "Yellow chrysanthemum-like flower heads in summer to autumn",
+      "Numerous underground tubers",
+    ],
+    habitat: "栽培・道ばた・河川敷（帰化）",
+    enHabitat: "Cultivated, roadsides, riverbanks (naturalized)",
+    season: "9〜10月（花）、10〜11月（収穫）",
+    enSeason: "September to October (flowers), October to November (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Helianthus_tuberosus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キクイモ" },
+    ],
+    tags: ["草本", "多年草", "帰化植物", "根菜", "健康食品"],
+    enTags: ["Herb", "Perennial", "Introduced", "Root vegetable", "Health food"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "autumn", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/キクイモ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キクイモ", totalViews: 53963, window: "202504-202603", months: [{ month: "202504", views: 4220 }, { month: "202505", views: 3642 }, { month: "202506", views: 3119 }, { month: "202507", views: 2786 }, { month: "202508", views: 3071 }, { month: "202509", views: 4440 }, { month: "202510", views: 4773 }, { month: "202511", views: 6572 }, { month: "202512", views: 5517 }, { month: "202601", views: 5035 }, { month: "202602", views: 4205 }, { month: "202603", views: 6583 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 76. ヒナゲシ（YList: ヒナゲシ）─────
+  {
+    id: "hinageshi",
+    jaName: "ヒナゲシ",
+    enName: "Common Poppy",
+    scientificName: "Papaver rhoeas",
+    familyId: "papaveraceae",
+    familyJaName: "ケシ科",
+    description:
+      "ヨーロッパ原産のケシ科の一年草。別名グビジンソウ（虞美人草）、コクリコ、シャーレイポピー。園芸で単に「ポピー」と呼ばれることも多い。フランス・ポーランドなどの国花。麻薬成分のあるケシ（Papaver somniferum）とは別種で、栽培可。",
+    enDescription: "An annual in the poppy family native to Europe. Also called 'Gubijin-sou' (Consort Yu flower), 'Coquelicot', or 'Shirley poppy'; often simply called 'poppy' in horticulture. National flower of France and Poland. Unlike opium poppy (Papaver somniferum), this species is legal to grow.",
+    identificationPoints: [
+      "大きな4弁花、赤・ピンク・白など",
+      "つぼみはうつむいて下を向く",
+      "茎や葉に剛毛が密生",
+    ],
+    enIdentificationPoints: [
+      "Large 4-petaled flowers in red, pink, white, etc.",
+      "Buds nod downward before opening",
+      "Stems and leaves covered with stiff hairs",
+    ],
+    habitat: "花壇・庭・畑（園芸）、道ばた（逸出）",
+    enHabitat: "Flower beds, gardens (horticultural), roadsides (escaped)",
+    season: "4〜6月（花）",
+    enSeason: "April to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Papaver_rhoeas.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒナゲシ" },
+    ],
+    tags: ["草本", "一年草", "園芸", "花", "ポピー"],
+    enTags: ["Herb", "Annual", "Horticultural", "Flower", "Poppy"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 4, flowerColor: "red", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヒナゲシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒナゲシ", totalViews: 53958, window: "202504-202603", months: [{ month: "202504", views: 9418 }, { month: "202505", views: 12249 }, { month: "202506", views: 4249 }, { month: "202507", views: 2906 }, { month: "202508", views: 3048 }, { month: "202509", views: 2956 }, { month: "202510", views: 3042 }, { month: "202511", views: 3666 }, { month: "202512", views: 2850 }, { month: "202601", views: 3096 }, { month: "202602", views: 2627 }, { month: "202603", views: 3851 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 77. フェイジョア（YList: フェイジョア）─────
+  {
+    id: "feijoa",
+    jaName: "フェイジョア",
+    enName: "Feijoa",
+    scientificName: "Acca sellowiana",
+    familyId: "myrtaceae",
+    familyJaName: "フトモモ科",
+    description:
+      "フトモモ科の常緑低木。ウルグアイ・パラグアイ・ブラジル南部原産。果実は緑色で卵形、パイナップルとバナナを混ぜたような独特の甘い香り。耐寒性があり庭木や生垣としても評価が高い。赤いおしべが目立つ花も美しい。",
+    enDescription: "An evergreen shrub in the myrtle family, native to Uruguay, Paraguay, and southern Brazil. The green ovoid fruit has a distinctive sweet aroma reminiscent of pineapple and banana. Cold-hardy and also prized as a garden plant. The flowers have showy red stamens.",
+    identificationPoints: [
+      "葉は対生、革質で表は濃緑・裏は銀白色",
+      "花は4弁で赤い多数のおしべが突出",
+      "果実は緑色で卵形、パイナップル様の香り",
+    ],
+    enIdentificationPoints: [
+      "Opposite, leathery leaves — dark green above, silvery-white below",
+      "Flowers with 4 petals and numerous protruding red stamens",
+      "Green ovoid fruit with pineapple-like aroma",
+    ],
+    habitat: "庭・果樹園・生垣",
+    enHabitat: "Gardens, orchards, hedges",
+    season: "5〜6月（花）、10〜12月（果実）",
+    enSeason: "May to June (flowers), October to December (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Acca_sellowiana.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フェイジョア" },
+    ],
+    tags: ["木本", "常緑低木", "果樹", "生垣", "庭木"],
+    enTags: ["Shrub", "Evergreen", "Fruit tree", "Hedge", "Garden tree"],
+    traits: { leafArr: "opp", leafType: "simple", habit: "shrub", deciduous: "evergreen", flowerColor: "red", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/フェイジョア" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フェイジョア", totalViews: 53705, window: "202504-202603", months: [{ month: "202504", views: 2522 }, { month: "202505", views: 3733 }, { month: "202506", views: 5141 }, { month: "202507", views: 2154 }, { month: "202508", views: 1922 }, { month: "202509", views: 1928 }, { month: "202510", views: 3123 }, { month: "202511", views: 20242 }, { month: "202512", views: 5901 }, { month: "202601", views: 2279 }, { month: "202602", views: 2238 }, { month: "202603", views: 2522 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 78. カラムシ（YList: カラムシ）─────
+  {
+    id: "karamushi",
+    jaName: "カラムシ",
+    enName: "Ramie",
+    scientificName: "Boehmeria nivea var. nipononivea",
+    familyId: "urticaceae",
+    familyJaName: "イラクサ科",
+    description:
+      "イラクサ科の多年草。南アジアから東アジアに広く分布し、古くから繊維植物として栽培されてきた。別名チョマ（苧麻）、マオ。茎から採れる繊維は上質で、越後上布や宮古上布など高級織物の原料として珍重される。",
+    enDescription: "A perennial in the nettle family, distributed from South Asia to East Asia. Long cultivated as a fiber plant; also called 'Chouma' or 'Mao'. The stem fibers are of high quality and prized for fine textiles such as Echigo-jofu and Miyako-jofu ramie cloth.",
+    identificationPoints: [
+      "葉は卵形で縁に大きな鋸歯、裏面に白い綿毛",
+      "茎は直立し、繊維質で折れにくい",
+      "雌雄同株で、夏に穂状の小さな緑色の花",
+    ],
+    enIdentificationPoints: [
+      "Ovate leaves with coarse serrations; white tomentum on undersides",
+      "Erect stems with tough, fibrous structure",
+      "Monoecious; small greenish flowers in summer spikes",
+    ],
+    habitat: "道ばた・空き地・畑",
+    enHabitat: "Roadsides, vacant lots, fields",
+    season: "7〜9月（花）",
+    enSeason: "July to September (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Boehmeria_nivea.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カラムシ" },
+    ],
+    tags: ["草本", "多年草", "繊維植物", "道ばた", "雑草"],
+    enTags: ["Herb", "Perennial", "Fiber plant", "Roadsides", "Weed"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", margin: "serrate", habit: "herb", deciduous: "deciduous", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カラムシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カラムシ", totalViews: 53603, window: "202504-202603", months: [{ month: "202504", views: 3948 }, { month: "202505", views: 6288 }, { month: "202506", views: 6001 }, { month: "202507", views: 6088 }, { month: "202508", views: 5429 }, { month: "202509", views: 5586 }, { month: "202510", views: 5820 }, { month: "202511", views: 3700 }, { month: "202512", views: 2629 }, { month: "202601", views: 3236 }, { month: "202602", views: 2503 }, { month: "202603", views: 2375 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 79. フリージア（YList: フリージア）─────
+  {
+    id: "freesia",
+    jaName: "フリージア",
+    enName: "Freesia",
+    scientificName: "Freesia refracta",
+    familyId: "iridaceae",
+    familyJaName: "アヤメ科",
+    description:
+      "アヤメ科フリージア属の半耐寒性球根植物。南アフリカ原産。細長い花茎に漏斗状の花を穂状に咲かせ、強い甘い芳香をもつ。別名アサギスイセン、コウセツラン。切り花や鉢植えとして広く栽培される。",
+    enDescription: "A half-hardy bulbous plant in the iris family, native to South Africa. Funnel-shaped flowers bloom in a one-sided spike on a slender stalk, with a strong sweet fragrance. Also called 'Asagi-zuisen' and 'Kousetsu-ran'. Widely cultivated as cut flowers and potted plants.",
+    identificationPoints: [
+      "花茎は水平に曲がり、花が片側に並ぶ",
+      "花は漏斗状で白・黄・橙・紫など多彩",
+      "強い甘い芳香",
+    ],
+    enIdentificationPoints: [
+      "Flower stalk bends horizontally, with flowers aligned on one side",
+      "Funnel-shaped flowers in white, yellow, orange, purple, etc.",
+      "Strong sweet fragrance",
+    ],
+    habitat: "栽培（庭・温室・鉢植え）",
+    enHabitat: "Cultivated (gardens, greenhouses, pots)",
+    season: "3〜5月（花）",
+    enSeason: "March to May (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Freesia_refracta.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フリージア" },
+    ],
+    tags: ["草本", "多年草", "球根", "切り花", "芳香"],
+    enTags: ["Herb", "Perennial", "Bulb", "Cut flower", "Fragrant"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/フリージア" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フリージア", totalViews: 53031, window: "202504-202603", months: [{ month: "202504", views: 5862 }, { month: "202505", views: 2575 }, { month: "202506", views: 1461 }, { month: "202507", views: 1230 }, { month: "202508", views: 1593 }, { month: "202509", views: 1540 }, { month: "202510", views: 1657 }, { month: "202511", views: 1484 }, { month: "202512", views: 1527 }, { month: "202601", views: 2029 }, { month: "202602", views: 2387 }, { month: "202603", views: 29686 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 81. チョウジノキ（YList: チョウジノキ）─────
+  {
+    id: "chouji",
+    jaName: "チョウジノキ",
+    enName: "Clove",
+    scientificName: "Syzygium aromaticum",
+    familyId: "myrtaceae",
+    familyJaName: "フトモモ科",
+    description:
+      "フトモモ科の常緑高木。インドネシアのモルッカ群島原産。乾燥させた花蕾がクローブ（丁子）として世界的に有名な香辛料となる。漢名「丁香」。カレーやチャイ、肉料理に使われ、生薬としても用いられる。大航海時代の香料貿易の主要品目。",
+    enDescription: "An evergreen tree in the myrtle family, native to the Molucca Islands of Indonesia. The dried flower buds are the world-famous spice 'clove' (Japanese: chouji). Used in curries, chai, and meat dishes, and also as a traditional medicine. One of the principal commodities of the Age of Exploration spice trade.",
+    identificationPoints: [
+      "常緑高木、葉は対生で光沢あり",
+      "花蕾は釘状で褐色、強い芳香",
+      "花は白〜淡紅色",
+    ],
+    enIdentificationPoints: [
+      "Evergreen tree with glossy opposite leaves",
+      "Brown, nail-shaped flower buds with strong aroma",
+      "Flowers are white to pale pink",
+    ],
+    habitat: "熱帯（栽培）",
+    enHabitat: "Tropical (cultivated)",
+    season: "通年（熱帯）",
+    enSeason: "Year-round (tropical)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Syzygium_aromaticum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/チョウジ" },
+    ],
+    tags: ["木本", "常緑高木", "香辛料", "熱帯", "薬用"],
+    enTags: ["Tree", "Evergreen", "Spice", "Tropical", "Medicinal"],
+    traits: { leafArr: "opp", leafType: "simple", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/チョウジ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "チョウジ", totalViews: 52291, window: "202504-202603", months: [{ month: "202504", views: 3184 }, { month: "202505", views: 4069 }, { month: "202506", views: 3381 }, { month: "202507", views: 2971 }, { month: "202508", views: 3840 }, { month: "202509", views: 3604 }, { month: "202510", views: 4361 }, { month: "202511", views: 4324 }, { month: "202512", views: 4328 }, { month: "202601", views: 5871 }, { month: "202602", views: 6868 }, { month: "202603", views: 5490 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 82. ショクダイオオコンニャク（YList: ショクダイオオコンニャク）─────
+  {
+    id: "shokudai_ookonnyaku",
+    jaName: "ショクダイオオコンニャク",
+    enName: "Titan Arum",
+    scientificName: "Amorphophallus titanum",
+    familyId: "araceae",
+    familyJaName: "サトイモ科",
+    description:
+      "サトイモ科の被子植物。別名スマトラオオコンニャク。スマトラ島の熱帯雨林原産。世界最大の花序を持つことで有名で、「死体花」と呼ばれるほど強烈な腐肉臭を放つ。開花は数年に一度、しかも2日間のみで、植物園で咲くと大きな話題になる。",
+    enDescription: "An angiosperm in the arum family, also called 'Sumatran corpse flower'. Native to the tropical rainforests of Sumatra. Famous for the world's largest unbranched inflorescence. Emits a powerful stench of rotting flesh — hence 'corpse flower'. Blooms only once every few years and for just two days; draws crowds when it flowers in botanical gardens.",
+    identificationPoints: [
+      "花序は高さ2〜3mにも達する",
+      "仏炎苞は深紅色、肉穂花序が直立",
+      "開花時に強烈な腐肉臭",
+    ],
+    enIdentificationPoints: [
+      "Inflorescence reaches 2–3 m tall",
+      "Deep crimson spathe with erect spadix",
+      "Powerful rotting-flesh odor at bloom",
+    ],
+    habitat: "熱帯雨林（スマトラ島）、植物園",
+    enHabitat: "Tropical rainforests (Sumatra), botanical gardens",
+    season: "不定期（2〜10年に一度、2日間）",
+    enSeason: "Irregular (once every 2–10 years, blooming for 2 days)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Amorphophallus_titanum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ショクダイオオコンニャク" },
+    ],
+    tags: ["草本", "多年草", "熱帯", "珍花", "植物園"],
+    enTags: ["Herb", "Perennial", "Tropical", "Rare flower", "Botanical garden"],
+    traits: { habit: "herb", deciduous: "deciduous", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ショクダイオオコンニャク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ショクダイオオコンニャク", totalViews: 52089, window: "202504-202603", months: [{ month: "202504", views: 2608 }, { month: "202505", views: 11376 }, { month: "202506", views: 9839 }, { month: "202507", views: 4212 }, { month: "202508", views: 3708 }, { month: "202509", views: 2161 }, { month: "202510", views: 2619 }, { month: "202511", views: 2248 }, { month: "202512", views: 3139 }, { month: "202601", views: 2674 }, { month: "202602", views: 4474 }, { month: "202603", views: 3031 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 83. フヨウ（YList: スイフヨウ）─────
+  {
+    id: "fuyou",
+    jaName: "フヨウ",
+    enName: "Cotton Rose",
+    scientificName: "Hibiscus mutabilis",
+    familyId: "malvaceae",
+    familyJaName: "アオイ科",
+    description:
+      "アオイ科フヨウ属の落葉低木。種小名mutabilisは「変化しやすい」の意で、八重咲き品種「スイフヨウ（酔芙蓉）」は朝白く、昼ピンク、夕方赤く色を変える。「芙蓉」はハスの美称でもあり、区別して「木芙蓉」と呼ぶこともある。",
+    enDescription: "A deciduous shrub in the mallow family. The species name 'mutabilis' means 'changeable'; the double cultivar 'Sui-fuyou' opens white in the morning, turns pink by noon, and red by evening. Since 'fuyou' can also refer poetically to lotus, this plant is sometimes called 'moku-fuyou' (woody fuyou) for clarity.",
+    identificationPoints: [
+      "大きな5弁花、ピンク・白などが朝夕で色を変える（スイフヨウ）",
+      "葉は大きく浅く3〜5裂",
+      "茎・葉・萼に星状毛",
+    ],
+    enIdentificationPoints: [
+      "Large 5-petaled flowers that shift color through the day (in 'Sui-fuyou')",
+      "Large, shallowly 3–5 lobed leaves",
+      "Stellate hairs on stems, leaves, and calyx",
+    ],
+    habitat: "庭・公園・寺社",
+    enHabitat: "Gardens, parks, temples/shrines",
+    season: "8〜10月（花）",
+    enSeason: "August to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hibiscus_mutabilis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フヨウ" },
+    ],
+    tags: ["木本", "落葉低木", "庭木", "秋の花", "園芸"],
+    enTags: ["Shrub", "Deciduous", "Garden tree", "Autumn flower", "Horticultural"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "shrub", deciduous: "deciduous", petalCount: 5, flowerColor: "pink", floweringSeason: "autumn", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/フヨウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フヨウ", totalViews: 51817, window: "202504-202603", months: [{ month: "202504", views: 2693 }, { month: "202505", views: 3331 }, { month: "202506", views: 4010 }, { month: "202507", views: 5846 }, { month: "202508", views: 6903 }, { month: "202509", views: 7719 }, { month: "202510", views: 7524 }, { month: "202511", views: 4274 }, { month: "202512", views: 2506 }, { month: "202601", views: 2467 }, { month: "202602", views: 2118 }, { month: "202603", views: 2426 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 84. マクワウリ（YList: マクワウリ）─────
+  {
+    id: "makuwauri",
+    jaName: "マクワウリ",
+    enName: "Oriental Melon",
+    scientificName: "Cucumis melo var. makuwa",
+    familyId: "cucurbitaceae",
+    familyJaName: "ウリ科",
+    description:
+      "ウリ科キュウリ属のつる性一年草。メロンの一変種。南アジア原産で日本では古くから栽培されてきた庶民のメロン。自然な甘味と歯触りが特徴。名は産地の美濃国真桑村に由来する。西洋メロンが普及する前の主要な甘味果実。",
+    enDescription: "An annual climbing vine in the gourd family, a variety of melon. Native to South Asia and long cultivated in Japan as a common people's melon. Known for natural sweetness and crisp texture. The name derives from Makuwa village in the former Mino Province. Was the main sweet fruit in Japan before Western melons became widespread.",
+    identificationPoints: [
+      "つる性で巻きひげをもつ",
+      "果実は楕円形〜球形、縦縞のあるものが多い",
+      "果肉は白〜淡黄色、爽やかな甘味",
+    ],
+    enIdentificationPoints: [
+      "Climbing vine with tendrils",
+      "Ellipsoidal to spherical fruit, often with longitudinal stripes",
+      "White to pale-yellow flesh with refreshing sweetness",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "7〜8月（収穫）",
+    enSeason: "July to August (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cucumis_melo_makuwa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マクワウリ" },
+    ],
+    tags: ["草本", "一年草", "つる植物", "果実", "栽培"],
+    enTags: ["Herb", "Annual", "Vine", "Fruit", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "vine", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/マクワウリ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マクワウリ", totalViews: 51277, window: "202504-202603", months: [{ month: "202504", views: 2745 }, { month: "202505", views: 4412 }, { month: "202506", views: 4601 }, { month: "202507", views: 10825 }, { month: "202508", views: 12192 }, { month: "202509", views: 4443 }, { month: "202510", views: 2772 }, { month: "202511", views: 1854 }, { month: "202512", views: 1944 }, { month: "202601", views: 1893 }, { month: "202602", views: 1736 }, { month: "202603", views: 1860 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 85. シャクナゲ（YList: キョウマルシャクナゲ）─────
+  {
+    id: "shakunage",
+    jaName: "シャクナゲ",
+    enName: "Rhododendron",
+    scientificName: "Rhododendron",
+    familyId: "ericaceae",
+    familyJaName: "ツツジ科",
+    description:
+      "ツツジ科ツツジ属無鱗片シャクナゲ亜属の総称。主に低木だが、高木になるものもある。山地の高標高域に自生し、春〜初夏に大型の華やかな花を咲かせる。ネパール・パキスタンの国花。日本では欧米原産の園芸品種（西洋シャクナゲ）が広く植栽される。",
+    enDescription: "A general term for species in the Rhododendron subgenus Rhododendron (elepidote rhododendrons). Mostly shrubs but some grow into trees. Native to high mountain zones, blooming large showy flowers from spring to early summer. National flower of Nepal and Pakistan. In Japan, Western hybrid cultivars are widely planted.",
+    identificationPoints: [
+      "葉は革質で光沢があり枝先に輪生状につく",
+      "花は多数が集まって大きな頭花状の花房を作る",
+      "花色はピンク・白・赤・紫など多彩",
+    ],
+    enIdentificationPoints: [
+      "Leathery, glossy leaves clustered at branch tips",
+      "Flowers gather into large truss-like clusters",
+      "Flower colors include pink, white, red, and purple",
+    ],
+    habitat: "山地・亜高山帯・庭木",
+    enHabitat: "Mountains, subalpine zones, gardens",
+    season: "4〜6月（花）",
+    enSeason: "April to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rhododendron.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シャクナゲ" },
+    ],
+    tags: ["木本", "常緑低木", "山地", "園芸", "花"],
+    enTags: ["Shrub", "Evergreen", "Mountain", "Horticultural", "Flower"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "shrub", deciduous: "evergreen", floweringSeason: "spring", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/シャクナゲ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シャクナゲ", totalViews: 50956, window: "202504-202603", months: [{ month: "202504", views: 11987 }, { month: "202505", views: 11317 }, { month: "202506", views: 3952 }, { month: "202507", views: 2574 }, { month: "202508", views: 2542 }, { month: "202509", views: 2782 }, { month: "202510", views: 2879 }, { month: "202511", views: 2462 }, { month: "202512", views: 2069 }, { month: "202601", views: 2182 }, { month: "202602", views: 2444 }, { month: "202603", views: 3766 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 86. ハスカップ（YList: クロミノウグイスカグラ）─────
+  {
+    id: "hasukappu",
+    jaName: "ハスカップ",
+    enName: "Haskap Berry",
+    scientificName: "Lonicera caerulea subsp. edulis",
+    familyId: "caprifoliaceae",
+    familyJaName: "スイカズラ科",
+    description:
+      "スイカズラ科スイカズラ属の落葉低木。標準和名はクロミノウグイスカグラ。北海道を代表する特産果実で、夕張山系や勇払原野の湿原に自生する。アントシアニンが豊富な青紫色の果実はジャムやジュース、菓子に利用される。",
+    enDescription: "A deciduous shrub in the honeysuckle family. The standard Japanese name is 'Kuromi-no-uguisukagura'. A signature fruit of Hokkaido, growing wild in the Yubari Mountains and Yufutsu Plain wetlands. The blue-purple berries are rich in anthocyanins and used for jam, juice, and sweets.",
+    identificationPoints: [
+      "葉は対生で楕円形",
+      "初夏に淡黄色の筒状花",
+      "果実は楕円形で青紫色、白い粉をまとう",
+    ],
+    enIdentificationPoints: [
+      "Opposite elliptic leaves",
+      "Pale-yellow tubular flowers in early summer",
+      "Ellipsoidal blue-purple fruit with a whitish bloom",
+    ],
+    habitat: "湿原・山地（北海道）、栽培",
+    enHabitat: "Wetlands, mountains (Hokkaido), cultivated",
+    season: "5月（花）、6〜7月（果実）",
+    enSeason: "May (flowers), June to July (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lonicera_caerulea_edulis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハスカップ" },
+    ],
+    tags: ["木本", "落葉低木", "果実", "北海道", "特産"],
+    enTags: ["Shrub", "Deciduous", "Berry", "Hokkaido", "Regional"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "elliptic", habit: "shrub", deciduous: "deciduous", flowerColor: "yellow", habitat: "wetland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ハスカップ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハスカップ", totalViews: 50863, window: "202504-202603", months: [{ month: "202504", views: 4024 }, { month: "202505", views: 4333 }, { month: "202506", views: 5555 }, { month: "202507", views: 5822 }, { month: "202508", views: 6077 }, { month: "202509", views: 4444 }, { month: "202510", views: 3866 }, { month: "202511", views: 3186 }, { month: "202512", views: 2887 }, { month: "202601", views: 3315 }, { month: "202602", views: 3794 }, { month: "202603", views: 3560 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 87. ホップ（YList: ホップ）─────
+  {
+    id: "hop",
+    jaName: "ホップ",
+    enName: "Hop",
+    scientificName: "Humulus lupulus",
+    familyId: "cannabaceae",
+    familyJaName: "アサ科",
+    description:
+      "アサ科のつる性多年草。雌雄異株。和名セイヨウカラハナソウ。雌花は「毬花（キュウカ）」と呼ばれ、ビールの主要な原料の一つ。苦味・香り・泡の維持に不可欠で、保存性も高める。近年はクラフトビールブームで栽培品種が多様化。",
+    enDescription: "A climbing perennial in the hemp family; dioecious. Japanese name 'Seiyou-karahana-sou'. The female cones ('kyuuka') are a key ingredient in beer, essential for bitterness, aroma, foam retention, and preservation. The craft-beer boom has driven a proliferation of cultivars.",
+    identificationPoints: [
+      "つる性で右巻きに絡みつく",
+      "葉は掌状に3〜5裂、縁に鋸歯",
+      "雌花は緑色の球形の毬花となる",
+    ],
+    enIdentificationPoints: [
+      "Climbing vine that twines clockwise",
+      "Palmately 3–5 lobed leaves with serrate margins",
+      "Female flowers form green, spherical cones",
+    ],
+    habitat: "栽培（ホップ園）、山野（逸出）",
+    enHabitat: "Cultivated (hop yards), wild (escaped)",
+    season: "8〜9月（毬花の収穫）",
+    enSeason: "August to September (cone harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Humulus_lupulus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホップ" },
+    ],
+    tags: ["草本", "つる植物", "多年草", "工芸作物", "ビール"],
+    enTags: ["Herb", "Vine", "Perennial", "Industrial crop", "Beer"],
+    traits: { leafArr: "opp", leafType: "simple", margin: "serrate", habit: "vine", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ホップ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホップ", totalViews: 50568, window: "202504-202603", months: [{ month: "202504", views: 3809 }, { month: "202505", views: 4138 }, { month: "202506", views: 3825 }, { month: "202507", views: 3716 }, { month: "202508", views: 5283 }, { month: "202509", views: 7890 }, { month: "202510", views: 5759 }, { month: "202511", views: 5164 }, { month: "202512", views: 2950 }, { month: "202601", views: 3359 }, { month: "202602", views: 2285 }, { month: "202603", views: 2390 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 88. カモミール（YList: カミツレ）─────
+  {
+    id: "chamomile",
+    jaName: "カモミール",
+    enName: "Chamomile",
+    scientificName: "Matricaria chamomilla",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科シカギク属の一年草。和名カミツレ（加密列）。小さな白い頭花が特徴で、甘いリンゴのような香りがする。ヨーロッパで古くからハーブティーやアロマに利用され、鎮静・消化促進効果があるとされる。ロシアの国花。",
+    enDescription: "An annual herb in the daisy family. Japanese name 'Kamitsure'. Small white flower heads give off a sweet apple-like fragrance. Long used in Europe for herbal tea and aromatherapy, said to have calming and digestive benefits. The national flower of Russia.",
+    identificationPoints: [
+      "小さな頭花（直径1〜2cm）、白い舌状花と黄色い筒状花",
+      "葉は細かく羽状に裂ける",
+      "全草にリンゴに似た甘い香り",
+    ],
+    enIdentificationPoints: [
+      "Small flower heads (1–2 cm) with white ray florets and yellow disk florets",
+      "Finely pinnately divided leaves",
+      "Sweet apple-like fragrance throughout the plant",
+    ],
+    habitat: "栽培（ハーブガーデン・庭）",
+    enHabitat: "Cultivated (herb gardens, gardens)",
+    season: "5〜7月（花）",
+    enSeason: "May to July (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Matricaria_chamomilla.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カモミール" },
+    ],
+    tags: ["草本", "一年草", "ハーブ", "薬用", "栽培"],
+    enTags: ["Herb", "Annual", "Herbal", "Medicinal", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", flowerColor: "white", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カモミール" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カモミール", totalViews: 50538, window: "202504-202603", months: [{ month: "202504", views: 6172 }, { month: "202505", views: 8702 }, { month: "202506", views: 5344 }, { month: "202507", views: 2931 }, { month: "202508", views: 3317 }, { month: "202509", views: 3068 }, { month: "202510", views: 3644 }, { month: "202511", views: 3494 }, { month: "202512", views: 2996 }, { month: "202601", views: 3345 }, { month: "202602", views: 3220 }, { month: "202603", views: 4305 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 89. ベルガモット（YList: ベルガモット）─────
+  {
+    id: "bergamot",
+    jaName: "ベルガモット",
+    enName: "Bergamot Orange",
+    scientificName: "Citrus x bergamia",
+    familyId: "rutaceae",
+    familyJaName: "ミカン科",
+    description:
+      "ミカン科ミカン属の常緑低木樹。主産地はイタリア。ブンタン・マンダリンオレンジ・シトロンが関与した交雑種。果実は苦味が強く生食には向かず、果皮から採取する精油が香料として重用される。アールグレイの香りづけに使われる柑橘。",
+    enDescription: "An evergreen shrub in the citrus family of the rue family. Mainly produced in Italy. A hybrid involving pomelo, mandarin, and citron. The fruit is too bitter for eating; the essential oil extracted from the peel is widely used as a fragrance. Famous as the flavoring of Earl Grey tea.",
+    identificationPoints: [
+      "葉は大きく光沢があり、翼のある葉柄",
+      "果実は洋梨形〜球形で熟すと黄色",
+      "花は白く芳香",
+    ],
+    enIdentificationPoints: [
+      "Large glossy leaves with winged petioles",
+      "Pear-shaped to spherical fruit, yellow when ripe",
+      "Fragrant white flowers",
+    ],
+    habitat: "栽培（地中海沿岸）",
+    enHabitat: "Cultivated (Mediterranean region)",
+    season: "11〜3月（果実）",
+    enSeason: "November to March (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Citrus_bergamia.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ベルガモット" },
+    ],
+    tags: ["木本", "常緑低木", "柑橘", "香料", "栽培"],
+    enTags: ["Tree", "Evergreen", "Citrus", "Fragrance", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "evergreen", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ベルガモット" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ベルガモット", totalViews: 50475, window: "202504-202603", months: [{ month: "202504", views: 4757 }, { month: "202505", views: 5187 }, { month: "202506", views: 5181 }, { month: "202507", views: 4512 }, { month: "202508", views: 3794 }, { month: "202509", views: 3783 }, { month: "202510", views: 4192 }, { month: "202511", views: 4304 }, { month: "202512", views: 3825 }, { month: "202601", views: 3594 }, { month: "202602", views: 3397 }, { month: "202603", views: 3949 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 90. レイシ（YList: レイシ）─────
+  {
+    id: "reishi",
+    jaName: "レイシ",
+    enName: "Lychee",
+    scientificName: "Litchi chinensis",
+    familyId: "sapindaceae",
+    familyJaName: "ムクロジ科",
+    description:
+      "ムクロジ科レイシ属の常緑果樹で1属1種。中国嶺南地方原産。果実は「ライチ」と呼ばれ、赤い凹凸のある皮を剥くと白く半透明の芳香のある果肉が現れる。楊貴妃が愛したことで有名。バンレイシとは全く別種。",
+    enDescription: "An evergreen fruit tree in the soapberry family, the only species of its genus. Native to the Lingnan region of China. The fruit is called 'lychee' — inside the bumpy red peel is translucent white, fragrant flesh. Famous for being a favorite of Yang Guifei. Unrelated to soursop despite similar Japanese names.",
+    identificationPoints: [
+      "果実は直径2〜4cmの球形〜卵形、赤く凹凸のある外皮",
+      "葉は羽状複葉で小葉2〜4対",
+      "果肉は白く半透明、芳香",
+    ],
+    enIdentificationPoints: [
+      "Spherical to ovoid fruit, 2–4 cm, with bumpy red skin",
+      "Pinnate compound leaves with 2–4 pairs of leaflets",
+      "Translucent white, fragrant flesh",
+    ],
+    habitat: "栽培（亜熱帯）",
+    enHabitat: "Cultivated (subtropical regions)",
+    season: "5〜7月（果実）",
+    enSeason: "May to July (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Litchi_chinensis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/レイシ" },
+    ],
+    tags: ["木本", "常緑高木", "果樹", "亜熱帯", "栽培"],
+    enTags: ["Tree", "Evergreen", "Fruit tree", "Subtropical", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/レイシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "レイシ", totalViews: 50453, window: "202504-202603", months: [{ month: "202504", views: 3782 }, { month: "202505", views: 5716 }, { month: "202506", views: 9025 }, { month: "202507", views: 7087 }, { month: "202508", views: 5094 }, { month: "202509", views: 3614 }, { month: "202510", views: 3388 }, { month: "202511", views: 3011 }, { month: "202512", views: 2645 }, { month: "202601", views: 2573 }, { month: "202602", views: 2229 }, { month: "202603", views: 2289 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 92. カシューナットノキ（YList: カシューナットノキ）─────
+  {
+    id: "cashew",
+    jaName: "カシューナットノキ",
+    enName: "Cashew",
+    scientificName: "Anacardium occidentale",
+    familyId: "anacardiaceae",
+    familyJaName: "ウルシ科",
+    description:
+      "ウルシ科カシューナットノキ属の常緑高木。中南米原産。別名マガタマノキ。種子はカシューナッツと呼ばれナッツとして食用に広く利用される。果柄が肥大した「カシューアップル」も原産地では食される。食物アレルギー表示対象。",
+    enDescription: "An evergreen tree in the cashew family, native to Central and South America. Also called 'Magatama-no-ki' (comma-jewel tree) for the shape of its nut. The seed is widely eaten as cashew nut. The swollen pedicel ('cashew apple') is also eaten in its native range. Designated as a food allergen.",
+    identificationPoints: [
+      "葉は革質で光沢のある倒卵形",
+      "果実の下に肥大した果柄（カシューアップル）がつく",
+      "勾玉状のナッツが果実の下に実る（ナッツが果実本体）",
+    ],
+    enIdentificationPoints: [
+      "Leathery, glossy obovate leaves",
+      "Swollen pedicel (cashew apple) below the fruit",
+      "Comma-shaped nut attached below — the nut is the actual fruit",
+    ],
+    habitat: "栽培（熱帯）",
+    enHabitat: "Cultivated (tropical)",
+    season: "通年（熱帯）",
+    enSeason: "Year-round (tropical)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Anacardium_occidentale.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カシューナッツ" },
+    ],
+    tags: ["木本", "常緑高木", "ナッツ", "熱帯", "栽培"],
+    enTags: ["Tree", "Evergreen", "Nut", "Tropical", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "obovate", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カシューナッツ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カシューナッツ", totalViews: 50315, window: "202504-202603", months: [{ month: "202504", views: 6463 }, { month: "202505", views: 3965 }, { month: "202506", views: 3373 }, { month: "202507", views: 2936 }, { month: "202508", views: 3189 }, { month: "202509", views: 4984 }, { month: "202510", views: 4034 }, { month: "202511", views: 4048 }, { month: "202512", views: 3834 }, { month: "202601", views: 5356 }, { month: "202602", views: 4362 }, { month: "202603", views: 3771 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 93. ウイキョウ（YList: ウイキョウ）─────
+  {
+    id: "uikyou",
+    jaName: "ウイキョウ",
+    enName: "Fennel",
+    scientificName: "Foeniculum vulgare",
+    familyId: "apiaceae",
+    familyJaName: "セリ科",
+    description:
+      "セリ科ウイキョウ属の多年生草本で属唯一の種。英名フェンネル。甘みのある芳香と樟脳のような風味があり、古くから香辛料・薬草として利用される。種子（フェンネル・シード）はパン生地やスパイスに、葉・株元は魚料理・サラダ・スープに使われる。",
+    enDescription: "A perennial herb in the carrot family, the only species of its genus. Known as fennel. Has a sweet aroma with a camphor-like note; long used as a spice and medicinal herb. Seeds are used in baking and spices; leaves and bulbs are used in fish dishes, salads, and soups.",
+    identificationPoints: [
+      "葉は糸状に細かく分裂し、鮮やかな緑色",
+      "傘形花序に黄色い小花を多数つける",
+      "全草に甘い芳香",
+    ],
+    enIdentificationPoints: [
+      "Finely thread-like divided leaves, bright green",
+      "Umbel inflorescence with numerous small yellow flowers",
+      "Sweet aroma throughout the plant",
+    ],
+    habitat: "栽培（ハーブガーデン・畑）",
+    enHabitat: "Cultivated (herb gardens, fields)",
+    season: "7〜8月（花）、9〜10月（種子）",
+    enSeason: "July to August (flowers), September to October (seeds)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Foeniculum_vulgare.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ウイキョウ" },
+    ],
+    tags: ["草本", "多年草", "ハーブ", "香辛料", "薬用"],
+    enTags: ["Herb", "Perennial", "Culinary herb", "Spice", "Medicinal"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ウイキョウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウイキョウ", totalViews: 50271, window: "202504-202603", months: [{ month: "202504", views: 5360 }, { month: "202505", views: 6164 }, { month: "202506", views: 5285 }, { month: "202507", views: 4014 }, { month: "202508", views: 4152 }, { month: "202509", views: 3775 }, { month: "202510", views: 4010 }, { month: "202511", views: 3793 }, { month: "202512", views: 3537 }, { month: "202601", views: 3340 }, { month: "202602", views: 3225 }, { month: "202603", views: 3616 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 94. トウガン（YList: トウガン）─────
+  {
+    id: "tougan",
+    jaName: "トウガン",
+    enName: "Winter Melon",
+    scientificName: "Benincasa pruriens f. hispida",
+    familyId: "cucurbitaceae",
+    familyJaName: "ウリ科",
+    description:
+      "ウリ科のつる性一年草。夏野菜。果実は夏に収穫されるが、皮が厚く長期保存が可能で冬まで食べられることから「冬瓜」と書かれる。果肉は淡泊でやわらかく、煮物料理に向く。夏の季語ではなく秋の季語。",
+    enDescription: "An annual climbing vine in the gourd family, a summer vegetable. Harvested in summer but has a thick rind that allows storage into winter — hence the Chinese characters '冬瓜' meaning 'winter melon'. The flesh is soft and mild-flavored, well suited to simmered dishes. A seasonal word for autumn in Japanese poetry.",
+    identificationPoints: [
+      "果実は長楕円形〜球形、表面に白い粉（果粉）をまとう",
+      "大きな葉は心形で浅く掌状に裂ける",
+      "花は黄色で雌雄同株",
+    ],
+    enIdentificationPoints: [
+      "Ellipsoidal to spherical fruit covered with whitish bloom",
+      "Large heart-shaped leaves, shallowly palmately lobed",
+      "Yellow flowers, monoecious",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "7〜10月（収穫）",
+    enSeason: "July to October (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Benincasa_pruriens.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トウガン" },
+    ],
+    tags: ["草本", "一年草", "つる植物", "夏野菜", "栽培"],
+    enTags: ["Herb", "Annual", "Vine", "Summer vegetable", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "vine", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/トウガン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トウガン", totalViews: 50132, window: "202504-202603", months: [{ month: "202504", views: 1442 }, { month: "202505", views: 1785 }, { month: "202506", views: 2889 }, { month: "202507", views: 5230 }, { month: "202508", views: 10204 }, { month: "202509", views: 8971 }, { month: "202510", views: 6794 }, { month: "202511", views: 4715 }, { month: "202512", views: 2779 }, { month: "202601", views: 1934 }, { month: "202602", views: 1823 }, { month: "202603", views: 1566 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 95. ヒヨコマメ（YList: ヒヨコマメ）─────
+  {
+    id: "hiyokomame",
+    jaName: "ヒヨコマメ",
+    enName: "Chickpea",
+    scientificName: "Cicer arietinum",
+    familyId: "fabaceae",
+    familyJaName: "マメ科",
+    description:
+      "マメ科の一年草の自殖作物。英名チックピー、ガルバンゾ。種子の形がひよこの頭に似ることから和名がついた。インド、地中海沿岸、中東で主食の一つとして栽培される。フムスやカレーの主材料としても知られる。",
+    enDescription: "An annual self-pollinating crop in the legume family. Known in English as chickpea or garbanzo. Its Japanese name ('chick-pea') comes from the resemblance of the seed shape to a chick's head. A staple crop in India, the Mediterranean, and the Middle East. Well known as the main ingredient of hummus and many curries.",
+    identificationPoints: [
+      "種子は直径1cmほどの球形に突起、ひよこの頭に似る",
+      "葉は羽状複葉で小葉は細かい",
+      "草丈20〜50cm、白または淡紫の小花",
+    ],
+    enIdentificationPoints: [
+      "Round seeds ~1 cm with a beak-like protrusion resembling a chick's head",
+      "Pinnate compound leaves with small leaflets",
+      "Plant height 20–50 cm; small white or pale-purple flowers",
+    ],
+    habitat: "栽培（乾燥温暖地）",
+    enHabitat: "Cultivated (warm, dry regions)",
+    season: "5〜7月（花）、7〜8月（収穫）",
+    enSeason: "May to July (flowers), July to August (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cicer_arietinum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒヨコマメ" },
+    ],
+    tags: ["草本", "一年草", "豆", "穀物", "栽培"],
+    enTags: ["Herb", "Annual", "Legume", "Pulse crop", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヒヨコマメ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒヨコマメ", totalViews: 50089, window: "202504-202603", months: [{ month: "202504", views: 4424 }, { month: "202505", views: 5178 }, { month: "202506", views: 4995 }, { month: "202507", views: 3787 }, { month: "202508", views: 4378 }, { month: "202509", views: 3999 }, { month: "202510", views: 4488 }, { month: "202511", views: 4281 }, { month: "202512", views: 3934 }, { month: "202601", views: 3419 }, { month: "202602", views: 3808 }, { month: "202603", views: 3398 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 96. トウシキミ（YList: トウシキミ）─────
+  {
+    id: "toushikimi",
+    jaName: "トウシキミ",
+    enName: "Star Anise",
+    scientificName: "Illicium verum",
+    familyId: "schisandraceae",
+    familyJaName: "マツブサ科",
+    description:
+      "マツブサ科シキミ属の常緑高木。中国南東部〜ベトナム北東部原産。赤い花を咲かせ、8本の袋果が星形に並んだ果実は「八角（スターアニス）」として中華料理に欠かせない香辛料。近縁の日本のシキミは猛毒なので注意。",
+    enDescription: "An evergreen tree in the star anise family, native to southeastern China and northeastern Vietnam. Produces red flowers. The fruit, with 8 follicles arranged in a star shape, is the spice 'star anise' (八角/hakkaku) — essential in Chinese cuisine. Note: the closely related Japanese Illicium anisatum is highly toxic.",
+    identificationPoints: [
+      "果実は8本の袋果が放射状に並ぶ星形",
+      "葉は革質で光沢のある楕円形",
+      "花は赤く多数の花被片",
+    ],
+    enIdentificationPoints: [
+      "Star-shaped fruit with 8 follicles arranged radially",
+      "Leathery, glossy, elliptic leaves",
+      "Red flowers with many tepals",
+    ],
+    habitat: "栽培（中国・東南アジア）",
+    enHabitat: "Cultivated (China, Southeast Asia)",
+    season: "3〜5月（花）、9〜10月（果実）",
+    enSeason: "March to May (flowers), September to October (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Illicium_verum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トウシキミ" },
+    ],
+    tags: ["木本", "常緑高木", "香辛料", "中華料理", "栽培"],
+    enTags: ["Tree", "Evergreen", "Spice", "Chinese cuisine", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "elliptic", habit: "tree", deciduous: "evergreen", flowerColor: "red", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/トウシキミ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トウシキミ", totalViews: 50073, window: "202504-202603", months: [{ month: "202504", views: 4530 }, { month: "202505", views: 4885 }, { month: "202506", views: 3678 }, { month: "202507", views: 2955 }, { month: "202508", views: 3465 }, { month: "202509", views: 3794 }, { month: "202510", views: 3589 }, { month: "202511", views: 8155 }, { month: "202512", views: 4891 }, { month: "202601", views: 3676 }, { month: "202602", views: 2826 }, { month: "202603", views: 3629 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 97. ヒョウタン（YList: ヒョウタン）─────
+  {
+    id: "hyoutan",
+    jaName: "ヒョウタン",
+    enName: "Bottle Gourd",
+    scientificName: "Lagenaria siceraria var. siceraria",
+    familyId: "cucurbitaceae",
+    familyJaName: "ウリ科",
+    description:
+      "ウリ科ユウガオ属の植物で、ユウガオの変種。別名ヒサゴ、フクベ。くびれのある特徴的な果実は乾燥させて容器や楽器に加工される。古代から世界各地で栽培されてきた最古の栽培植物の一つ。「ひょうたんから駒」などのことわざでも親しまれる。",
+    enDescription: "A plant in the gourd family, a variety of bottle gourd. Also called 'hisago' or 'fukube'. The distinctive waisted fruit is dried and processed into containers and musical instruments. One of the oldest cultivated plants, grown worldwide since antiquity. Featured in many Japanese proverbs.",
+    identificationPoints: [
+      "つる性で葉は大きく心形",
+      "白い5弁花、夕方〜夜に開く",
+      "果実はくびれのある独特の形",
+    ],
+    enIdentificationPoints: [
+      "Climbing vine with large heart-shaped leaves",
+      "White 5-petaled flowers that open in the evening",
+      "Fruit with characteristic waisted shape",
+    ],
+    habitat: "栽培（畑・家庭菜園・観賞用）",
+    enHabitat: "Cultivated (fields, home gardens, ornamental)",
+    season: "7〜9月（果実）",
+    enSeason: "July to September (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lagenaria_siceraria.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒョウタン" },
+    ],
+    tags: ["草本", "一年草", "つる植物", "工芸", "栽培"],
+    enTags: ["Herb", "Annual", "Vine", "Craft material", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "vine", deciduous: "deciduous", petalCount: 5, flowerColor: "white", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヒョウタン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒョウタン", totalViews: 49997, window: "202504-202603", months: [{ month: "202504", views: 3514 }, { month: "202505", views: 3985 }, { month: "202506", views: 3533 }, { month: "202507", views: 4384 }, { month: "202508", views: 5339 }, { month: "202509", views: 5127 }, { month: "202510", views: 3842 }, { month: "202511", views: 4466 }, { month: "202512", views: 6347 }, { month: "202601", views: 3530 }, { month: "202602", views: 2811 }, { month: "202603", views: 3119 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 98. バニラ（YList: バニラ）─────
+  {
+    id: "vanilla",
+    jaName: "バニラ",
+    enName: "Vanilla",
+    scientificName: "Vanilla planifolia",
+    familyId: "orchidaceae",
+    familyJaName: "ラン科",
+    description:
+      "ラン科バニラ属の常緑の蔓性植物。メキシコ原産。熱帯地域で栽培され、未熟果を発酵・乾燥させて「バニラビーンズ」に加工し、アイスクリームや菓子の香料として世界中で利用される。サフランに次いで高価なスパイスのひとつ。",
+    enDescription: "An evergreen climbing orchid, native to Mexico. Cultivated in the tropics, where unripe pods are fermented and dried into 'vanilla beans' — used worldwide to flavor ice cream and confections. One of the most expensive spices, second only to saffron.",
+    identificationPoints: [
+      "つる性で気根により樹木に着生",
+      "葉は多肉質で扁平、緑色",
+      "花は淡黄緑色、1日で閉じる",
+    ],
+    enIdentificationPoints: [
+      "Climbing vine with aerial roots attaching to trees",
+      "Fleshy, flat, green leaves",
+      "Pale yellowish-green flowers, lasting only a day",
+    ],
+    habitat: "栽培（熱帯）、温室",
+    enHabitat: "Cultivated (tropical), greenhouses",
+    season: "通年（熱帯）",
+    enSeason: "Year-round (tropical)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Vanilla_planifolia.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/バニラ" },
+    ],
+    tags: ["草本", "つる植物", "ラン科", "香料", "熱帯"],
+    enTags: ["Herb", "Vine", "Orchid", "Flavoring", "Tropical"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "vine", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/バニラ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "バニラ", totalViews: 49996, window: "202504-202603", months: [{ month: "202504", views: 3879 }, { month: "202505", views: 4627 }, { month: "202506", views: 4547 }, { month: "202507", views: 4935 }, { month: "202508", views: 4129 }, { month: "202509", views: 3511 }, { month: "202510", views: 5061 }, { month: "202511", views: 5334 }, { month: "202512", views: 3396 }, { month: "202601", views: 3505 }, { month: "202602", views: 3430 }, { month: "202603", views: 3642 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 99. セイヨウワサビ（YList: セイヨウワサビ）─────
+  {
+    id: "seiyou_wasabi",
+    jaName: "セイヨウワサビ",
+    enName: "Horseradish",
+    scientificName: "Armoracia rusticana",
+    familyId: "brassicaceae",
+    familyJaName: "アブラナ科",
+    description:
+      "アブラナ科の耐寒性多年草。英名ホースラディッシュ。ヨーロッパ東部原産。根茎をすりおろして香辛料として使う。市販の「練りわさび」や「粉わさび」の多くはこれを原料とする。寿司などで使われる本ワサビ（Eutrema japonicum）とは別種。",
+    enDescription: "A cold-hardy perennial in the cabbage family. English name 'horseradish'. Native to eastern Europe. The root is grated and used as a pungent condiment. Most commercial 'wasabi paste' and 'wasabi powder' are actually made from horseradish rather than true Japanese wasabi (Eutrema japonicum).",
+    identificationPoints: [
+      "根茎は太く長く、白色",
+      "根生葉は大きく波打つ、長さ30〜60cm",
+      "夏に白い4弁花を総状に咲かせる",
+    ],
+    enIdentificationPoints: [
+      "Thick, long, white taproot",
+      "Large basal leaves, 30–60 cm, with wavy margins",
+      "White 4-petaled flowers in racemes in summer",
+    ],
+    habitat: "栽培（畑・北海道で逸出）",
+    enHabitat: "Cultivated (fields, naturalized in Hokkaido)",
+    season: "6〜7月（花）、10〜11月（収穫）",
+    enSeason: "June to July (flowers), October to November (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Armoracia_rusticana.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホースラディッシュ" },
+    ],
+    tags: ["草本", "多年草", "香辛料", "根菜", "栽培"],
+    enTags: ["Herb", "Perennial", "Spice", "Root vegetable", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 4, flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ホースラディッシュ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホースラディッシュ", totalViews: 49897, window: "202504-202603", months: [{ month: "202504", views: 4462 }, { month: "202505", views: 5167 }, { month: "202506", views: 4339 }, { month: "202507", views: 3700 }, { month: "202508", views: 4066 }, { month: "202509", views: 3597 }, { month: "202510", views: 4003 }, { month: "202511", views: 4480 }, { month: "202512", views: 4748 }, { month: "202601", views: 4174 }, { month: "202602", views: 3231 }, { month: "202603", views: 3930 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 100. アワ（YList: アワ）─────
+  {
+    id: "awa",
+    jaName: "アワ",
+    enName: "Foxtail Millet",
+    scientificName: "Setaria italica",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "イネ科エノコログサ属の一年草。雑穀類。五穀の一つに数えられ、日本では古くから重要な穀物として栽培されてきた。エノコログサ（ネコジャラシ）の栽培種。粟餅、粟田、アワビ雑煮など多くの食文化と関わる。",
+    enDescription: "An annual grass in the foxtail genus. A millet — one of the 'five grains' and an important cereal in Japan since ancient times. Domesticated from Setaria viridis (green foxtail). Central to many food traditions including awa-mochi, awada, and awabi-zouni.",
+    identificationPoints: [
+      "穂は円柱状で直立、多数の小穂が密集",
+      "葉は線形で葉身がやや広い",
+      "草丈100〜200cm",
+    ],
+    enIdentificationPoints: [
+      "Cylindrical, erect panicle densely packed with spikelets",
+      "Linear leaves with relatively broad blades",
+      "Plant height 100–200 cm",
+    ],
+    habitat: "栽培（畑）",
+    enHabitat: "Cultivated (fields)",
+    season: "9〜10月（収穫）",
+    enSeason: "September to October (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Setaria_italica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アワ" },
+    ],
+    tags: ["草本", "一年草", "穀物", "五穀", "栽培"],
+    enTags: ["Herb", "Annual", "Cereal", "Millet", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アワ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アワ", totalViews: 49233, window: "202504-202603", months: [{ month: "202504", views: 4586 }, { month: "202505", views: 4961 }, { month: "202506", views: 4683 }, { month: "202507", views: 3671 }, { month: "202508", views: 4581 }, { month: "202509", views: 4820 }, { month: "202510", views: 3947 }, { month: "202511", views: 4893 }, { month: "202512", views: 3603 }, { month: "202601", views: 3544 }, { month: "202602", views: 3049 }, { month: "202603", views: 2895 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 101. ヘビイチゴ（YList: ヘビイチゴ）─────
+  {
+    id: "hebiichigo",
+    jaName: "ヘビイチゴ",
+    enName: "Mock Strawberry",
+    scientificName: "Potentilla hebiichigo",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "バラ科キジムシロ属の多年草。田の畦や道端に生える。イチゴに似た赤い実をつけるが甘くなく食用に向かないため、和名「蛇苺」はヘビが食べる苺の意とされる。かつてヘビイチゴ属（Duchesnea）とされたが現在はキジムシロ属に含まれる。毒があるという俗説があるが無毒。",
+    enDescription: "A perennial in the rose family. Grows on paddy ridges and roadsides. Bears small red strawberry-like fruits that are tasteless — the Japanese name '蛇苺' ('snake strawberry') comes from the legend that only snakes eat them. Formerly classified in the genus Duchesnea, now placed in Potentilla. Contrary to folk belief, it is non-toxic.",
+    identificationPoints: [
+      "葉は3出複葉、小葉は卵形で鋸歯あり",
+      "黄色い5弁花、直径1〜1.5cm",
+      "赤い球形の偽果、表面につぶつぶ（そう果）",
+    ],
+    enIdentificationPoints: [
+      "Trifoliate leaves with ovate, serrated leaflets",
+      "Yellow 5-petaled flowers, 1–1.5 cm across",
+      "Spherical red aggregate fruit dotted with achenes",
+    ],
+    habitat: "田畑の畦、道端、草地",
+    enHabitat: "Paddy ridges, roadsides, grasslands",
+    season: "4〜6月（花）、5〜7月（実）",
+    enSeason: "April to June (flowers), May to July (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Potentilla_hebiichigo.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヘビイチゴ" },
+    ],
+    tags: ["草本", "多年草", "野草", "野生", "食用不適"],
+    enTags: ["Herb", "Perennial", "Wildflower", "Wild", "Inedible"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", petalCount: 5, flowerColor: "yellow", floweringSeason: "spring", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヘビイチゴ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヘビイチゴ", totalViews: 55861, window: "202504-202603", months: [{ month: "202504", views: 5484 }, { month: "202505", views: 18045 }, { month: "202506", views: 8862 }, { month: "202507", views: 4510 }, { month: "202508", views: 2617 }, { month: "202509", views: 2348 }, { month: "202510", views: 2109 }, { month: "202511", views: 2141 }, { month: "202512", views: 2056 }, { month: "202601", views: 2147 }, { month: "202602", views: 2422 }, { month: "202603", views: 3120 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 102. タチバナ（YList: タチバナ）─────
+  {
+    id: "tachibana",
+    jaName: "タチバナ",
+    enName: "Tachibana Orange",
+    scientificName: "Citrus tachibana",
+    familyId: "rutaceae",
+    familyJaName: "ミカン科",
+    description:
+      "ミカン科ミカン属の常緑小高木で日本固有の柑橘類の一種。ヤマトタチバナ、ニッポンタチバナとも。古くから神聖な植物として親しまれ、日本書紀の「非時香菓（ときじくのかくのこのみ）」の伝説や家紋、文化勲章の意匠にも使われる。準絶滅危惧種。",
+    enDescription: "An evergreen small tree in the citrus family, a wild citrus native to Japan. Also called Yamato-tachibana. Long revered as a sacred plant — featured in the Nihon Shoki legend of the 'eternal fragrant fruit', in family crests, and on the Order of Culture medal. Designated as near-threatened.",
+    identificationPoints: [
+      "葉は細長い楕円形、光沢のある濃緑色",
+      "果実は小さい球形（直径3cm程度）、黄橙色",
+      "花は白く芳香、5〜6月開花",
+    ],
+    enIdentificationPoints: [
+      "Elongated elliptic leaves with glossy dark-green surface",
+      "Small spherical fruit (~3 cm) turning yellow-orange",
+      "Fragrant white flowers in May–June",
+    ],
+    habitat: "暖地の山地、海岸近くの林（野生は稀）",
+    enHabitat: "Warm-climate mountains and coastal forests (rare in the wild)",
+    season: "5〜6月（花）、11〜12月（果実）",
+    enSeason: "May to June (flowers), November to December (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Citrus_tachibana.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/タチバナ" },
+    ],
+    tags: ["木本", "常緑小高木", "柑橘", "日本固有", "準絶滅危惧"],
+    enTags: ["Tree", "Evergreen", "Citrus", "Endemic to Japan", "Near-threatened"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "evergreen", flowerColor: "white", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/タチバナ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タチバナ", totalViews: 49148, window: "202504-202603", months: [{ month: "202504", views: 4005 }, { month: "202505", views: 4661 }, { month: "202506", views: 3475 }, { month: "202507", views: 3146 }, { month: "202508", views: 2854 }, { month: "202509", views: 4995 }, { month: "202510", views: 3461 }, { month: "202511", views: 4707 }, { month: "202512", views: 4607 }, { month: "202601", views: 3966 }, { month: "202602", views: 4591 }, { month: "202603", views: 4680 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 103. ライムギ（YList: ライムギ）─────
+  {
+    id: "raimugi",
+    jaName: "ライムギ",
+    enName: "Rye",
+    scientificName: "Secale cereale",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "イネ科ライムギ属の一年草または越年草。別名クロムギ。寒冷な気候や痩せた土壌に強く、主にコムギ栽培に不適な東欧・北欧の寒冷地で穀物として広く栽培される。黒パン（ライ麦パン）やウィスキー、飼料など用途が多い。",
+    enDescription: "An annual or winter annual grass in the grain family. Also known as 'kuromugi' (black wheat). Highly tolerant of cold climates and poor soil, it is widely grown in eastern and northern Europe where wheat cannot thrive. Used for rye bread, whiskey, and fodder.",
+    identificationPoints: [
+      "穂は細長く、長い芒（のぎ）をもつ",
+      "草丈100〜200cmでコムギより高い",
+      "穀粒は細長く灰緑色",
+    ],
+    enIdentificationPoints: [
+      "Long narrow spikes with prominent awns",
+      "Plant height 100–200 cm, taller than wheat",
+      "Elongated grey-green grains",
+    ],
+    habitat: "栽培（寒冷地の畑）",
+    enHabitat: "Cultivated (cold-climate fields)",
+    season: "6〜8月（収穫）",
+    enSeason: "June to August (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Secale_cereale.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ライムギ" },
+    ],
+    tags: ["草本", "一年草", "穀物", "寒冷地", "栽培"],
+    enTags: ["Herb", "Annual", "Cereal", "Cold-climate", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ライムギ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ライムギ", totalViews: 48960, window: "202504-202603", months: [{ month: "202504", views: 4347 }, { month: "202505", views: 5040 }, { month: "202506", views: 4755 }, { month: "202507", views: 3562 }, { month: "202508", views: 4820 }, { month: "202509", views: 4197 }, { month: "202510", views: 3834 }, { month: "202511", views: 3968 }, { month: "202512", views: 3335 }, { month: "202601", views: 3599 }, { month: "202602", views: 3247 }, { month: "202603", views: 4256 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 104. ショウジョウボク（ポインセチア, YList: ショウジョウボク）─────
+  {
+    id: "poinsettia",
+    jaName: "ショウジョウボク",
+    enName: "Poinsettia",
+    scientificName: "Euphorbia pulcherrima",
+    familyId: "euphorbiaceae",
+    familyJaName: "トウダイグサ科",
+    description:
+      "トウダイグサ科トウダイグサ属の常緑低木。通称ポインセチア。メキシコ原産。11〜12月ごろ茎頂の苞葉が鮮やかな赤や桃、乳白色に色付く。クリスマスフラワーとして世界中で親しまれるクリスマスの代表的観葉植物。有毒で、切り口から出る白い乳液に注意。",
+    enDescription: "An evergreen shrub in the spurge family, commonly known as poinsettia. Native to Mexico. In November–December the bracts at the top of the stem turn bright red, pink, or creamy white. Loved worldwide as the 'Christmas flower'. Contains toxic white latex in its sap.",
+    identificationPoints: [
+      "茎頂の苞葉が赤く色付く（花ではない）",
+      "葉は卵形で葉縁に切れ込み",
+      "切り口から白い乳液",
+    ],
+    enIdentificationPoints: [
+      "Red bracts at the shoot tip (not true flowers)",
+      "Ovate leaves with lobed margins",
+      "White latex exudes from cuts",
+    ],
+    habitat: "栽培（鉢物・温室）",
+    enHabitat: "Cultivated (potted, greenhouses)",
+    season: "11〜12月（苞葉）",
+    enSeason: "November to December (colored bracts)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Euphorbia_pulcherrima.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ポインセチア" },
+    ],
+    tags: ["木本", "常緑低木", "観葉植物", "有毒", "クリスマス"],
+    enTags: ["Tree", "Evergreen", "Houseplant", "Toxic", "Christmas"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "evergreen", flowerColor: "red", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ポインセチア" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ポインセチア", totalViews: 48706, window: "202504-202603", months: [{ month: "202504", views: 1614 }, { month: "202505", views: 1810 }, { month: "202506", views: 1370 }, { month: "202507", views: 1318 }, { month: "202508", views: 1368 }, { month: "202509", views: 1616 }, { month: "202510", views: 2701 }, { month: "202511", views: 8546 }, { month: "202512", views: 18103 }, { month: "202601", views: 3180 }, { month: "202602", views: 1698 }, { month: "202603", views: 5382 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 105. メボウキ（バジル, YList: メボウキ）─────
+  {
+    id: "basil",
+    jaName: "メボウキ",
+    enName: "Basil",
+    scientificName: "Ocimum basilicum",
+    familyId: "lamiaceae",
+    familyJaName: "シソ科",
+    description:
+      "シソ科メボウキ属の多年草（日本では越冬できず一年草扱い）。インド〜熱帯アジア原産。通称バジル、バジリコ。和名は種子を水に浸して目のごみ取りに使った故事から。イタリア料理のトマトソースやペストの定番ハーブで、胃腸を整え食欲増進作用があるとされる。",
+    enDescription: "A perennial herb in the mint family (treated as annual in Japan since it cannot overwinter). Native to India and tropical Asia. Commonly known as basil or basilico. The Japanese name 'mebouki' ('eye broom') comes from the old practice of using its soaked seeds to clean the eyes. A staple of Italian cooking, featured in tomato sauces and pesto.",
+    identificationPoints: [
+      "葉は卵形で対生、鮮やかな緑色",
+      "茎は断面四角形（シソ科の特徴）",
+      "葉に独特の甘い芳香",
+    ],
+    enIdentificationPoints: [
+      "Ovate opposite leaves, bright green",
+      "Square stem cross-section (typical of Lamiaceae)",
+      "Distinct sweet aroma from the leaves",
+    ],
+    habitat: "栽培（ハーブガーデン・家庭菜園）",
+    enHabitat: "Cultivated (herb gardens, home vegetable plots)",
+    season: "7〜9月（収穫）",
+    enSeason: "July to September (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ocimum_basilicum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/バジル" },
+    ],
+    tags: ["草本", "一年草", "ハーブ", "香辛料", "栽培"],
+    enTags: ["Herb", "Annual", "Culinary herb", "Spice", "Cultivated"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/バジル" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "バジル", totalViews: 48212, window: "202504-202603", months: [{ month: "202504", views: 4174 }, { month: "202505", views: 5959 }, { month: "202506", views: 5498 }, { month: "202507", views: 5407 }, { month: "202508", views: 5179 }, { month: "202509", views: 4501 }, { month: "202510", views: 4057 }, { month: "202511", views: 3331 }, { month: "202512", views: 2701 }, { month: "202601", views: 2405 }, { month: "202602", views: 2136 }, { month: "202603", views: 2864 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 106. サトウキビ（YList: サトウキビ）─────
+  {
+    id: "satoukibi",
+    jaName: "サトウキビ",
+    enName: "Sugarcane",
+    scientificName: "Saccharum officinarum",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "イネ科サトウキビ属の多年生草本。砂糖（ショ糖）の原料となる主要な工芸作物。茎は中身の詰まった竹のような見た目で、搾って糖液を得る。日本では沖縄県・奄美群島・鹿児島県南部で広く栽培される。紙やバイオエタノールの原料にもなる。",
+    enDescription: "A perennial grass in the grain family. The main industrial crop for sugar production. The stem resembles bamboo but is filled with sweet sap that is pressed to extract sugar. Widely cultivated in Okinawa, the Amami Islands, and southern Kagoshima. Also used for paper and bioethanol.",
+    identificationPoints: [
+      "草丈2〜5mの大型の多年草",
+      "茎は太く節があり、中身が詰まる",
+      "葉は長い線形で縁がザラつく",
+    ],
+    enIdentificationPoints: [
+      "Large perennial grass, 2–5 m tall",
+      "Thick jointed stems filled with sweet sap",
+      "Long linear leaves with rough margins",
+    ],
+    habitat: "栽培（亜熱帯・熱帯の畑）",
+    enHabitat: "Cultivated (subtropical/tropical fields)",
+    season: "12〜4月（収穫）",
+    enSeason: "December to April (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Saccharum_officinarum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サトウキビ" },
+    ],
+    tags: ["草本", "多年草", "工芸作物", "砂糖", "沖縄"],
+    enTags: ["Herb", "Perennial", "Industrial crop", "Sugar", "Okinawa"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/サトウキビ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サトウキビ", totalViews: 48045, window: "202504-202603", months: [{ month: "202504", views: 3927 }, { month: "202505", views: 4716 }, { month: "202506", views: 4580 }, { month: "202507", views: 5084 }, { month: "202508", views: 3984 }, { month: "202509", views: 3744 }, { month: "202510", views: 3900 }, { month: "202511", views: 3695 }, { month: "202512", views: 3298 }, { month: "202601", views: 4339 }, { month: "202602", views: 3435 }, { month: "202603", views: 3343 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 107. アーティチョーク（YList: アーティチョーク）─────
+  {
+    id: "artichoke",
+    jaName: "アーティチョーク",
+    enName: "Artichoke",
+    scientificName: "Cynara scolymus",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科チョウセンアザミ属の多年草。和名チョウセンアザミ（朝鮮薊）。形態的には大型のアザミで、地中海沿岸原産。若いつぼみを食用とするヨーロッパの春野菜（花菜類）。つぼみの総苞や花托を茹でて食べる。",
+    enDescription: "A perennial in the daisy family. Japanese name 'Chōsen-azami' (Korean thistle), though it is morphologically a large thistle. Native to the Mediterranean. Grown as a spring vegetable in Europe — the immature flower buds are boiled and the fleshy bases of the bracts and receptacle are eaten.",
+    identificationPoints: [
+      "大型アザミ状の植物、草丈1.5〜2m",
+      "葉は羽状に深裂し、銀白色を帯びる",
+      "つぼみは球形で鱗状の総苞片に包まれる",
+    ],
+    enIdentificationPoints: [
+      "Large thistle-like plant, 1.5–2 m tall",
+      "Deeply pinnately divided silvery leaves",
+      "Spherical bud enclosed in scale-like bracts",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "5〜7月（つぼみ）",
+    enSeason: "May to July (buds)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cynara_scolymus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アーティチョーク" },
+    ],
+    tags: ["草本", "多年草", "野菜", "花菜", "地中海"],
+    enTags: ["Herb", "Perennial", "Vegetable", "Flower vegetable", "Mediterranean"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", flowerColor: "purple", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アーティチョーク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アーティチョーク", totalViews: 48012, window: "202504-202603", months: [{ month: "202504", views: 5760 }, { month: "202505", views: 5190 }, { month: "202506", views: 6645 }, { month: "202507", views: 3166 }, { month: "202508", views: 2954 }, { month: "202509", views: 2623 }, { month: "202510", views: 2880 }, { month: "202511", views: 2973 }, { month: "202512", views: 3219 }, { month: "202601", views: 5330 }, { month: "202602", views: 3258 }, { month: "202603", views: 4014 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 108. アツミゲシ（YList: アツミゲシ）─────
+  {
+    id: "atsumigeshi",
+    jaName: "アツミゲシ",
+    enName: "Setigerum Poppy",
+    scientificName: "Papaver setigerum",
+    familyId: "papaveraceae",
+    familyJaName: "ケシ科",
+    description:
+      "ケシ科ケシ属の一年生（越年草）植物。1962年に愛知県渥美半島で日本への帰化が発見されたことが和名の由来。アヘン法でケシ（Papaver somniferum）と同様に栽培が原則禁止されている種。「セティゲルム種」とも呼ばれる。ケシ同様にモルヒネ等のアヘンアルカロイドを含む。",
+    enDescription: "A winter annual in the poppy family. Named after Atsumi Peninsula in Aichi Prefecture, where it was first found naturalized in Japan in 1962. Like Papaver somniferum, cultivation is banned under the Opium Law. Contains opium alkaloids including morphine.",
+    identificationPoints: [
+      "葉は深く切れ込み、全体に剛毛あり",
+      "花は淡紅紫色〜赤紫色の4弁花",
+      "蒴果は球形で穴から種子を散布",
+    ],
+    enIdentificationPoints: [
+      "Deeply divided leaves covered with stiff bristles",
+      "Pale pinkish-purple to reddish-purple 4-petaled flowers",
+      "Spherical capsule that disperses seeds through pores",
+    ],
+    habitat: "道端、河川敷、荒地（帰化）",
+    enHabitat: "Roadsides, riverbanks, waste ground (naturalized)",
+    season: "4〜6月（花）",
+    enSeason: "April to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Papaver_setigerum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アツミゲシ" },
+    ],
+    tags: ["草本", "越年草", "帰化植物", "有毒", "栽培禁止"],
+    enTags: ["Herb", "Winter annual", "Naturalized", "Toxic", "Prohibited"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 4, flowerColor: "purple", floweringSeason: "spring", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アツミゲシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アツミゲシ", totalViews: 47716, window: "202504-202603", months: [{ month: "202504", views: 13683 }, { month: "202505", views: 23841 }, { month: "202506", views: 4565 }, { month: "202507", views: 1044 }, { month: "202508", views: 522 }, { month: "202509", views: 447 }, { month: "202510", views: 472 }, { month: "202511", views: 382 }, { month: "202512", views: 528 }, { month: "202601", views: 1231 }, { month: "202602", views: 401 }, { month: "202603", views: 600 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 109. アオノリュウゼツラン（リュウゼツラン属, YList: アオノリュウゼツラン）─────
+  {
+    id: "agave",
+    jaName: "アオノリュウゼツラン",
+    enName: "Century Plant",
+    scientificName: "Agave americana",
+    familyId: "asparagaceae",
+    familyJaName: "キジカクシ科",
+    description:
+      "キジカクシ科リュウゼツラン亜科リュウゼツラン属の多肉植物。和名のリュウゼツ（竜舌）は長く厚い葉が龍の舌を思わせることに由来。メキシコ・中南米原産。数十年に一度、数メートルの花茎を立てて一度だけ開花し枯死する。テキーラやメスカルの原料、繊維作物としても利用される。",
+    enDescription: "A succulent in the asparagus family, subfamily Agavoideae. The Japanese name 'ryūzetsu' ('dragon's tongue') refers to the long, thick, dragon-tongue-like leaves. Native to Mexico and Central and South America. Blooms once every several decades, sending up a multi-meter flower stalk, then dies. Used for tequila and mezcal, and as a fiber crop.",
+    identificationPoints: [
+      "厚く多肉質の葉がロゼット状に広がる、長さ1〜2m",
+      "葉の縁と先端に鋭いトゲ",
+      "数十年に一度、数mの花茎を立てる",
+    ],
+    enIdentificationPoints: [
+      "Thick fleshy leaves in a rosette, 1–2 m long",
+      "Sharp spines on leaf margins and tips",
+      "Once-in-decades flowering with a tall stalk several meters high",
+    ],
+    habitat: "栽培（観賞・工芸）、温暖地で逸出",
+    enHabitat: "Cultivated (ornamental, fiber), escaped in warm regions",
+    season: "開花は数十年に一度",
+    enSeason: "Flowers once in decades",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Agave_americana.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/リュウゼツラン属" },
+    ],
+    tags: ["草本", "多肉植物", "観葉植物", "繊維作物", "栽培"],
+    enTags: ["Herb", "Succulent", "Ornamental", "Fiber crop", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/リュウゼツラン属" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "リュウゼツラン属", totalViews: 47464, window: "202504-202603", months: [{ month: "202504", views: 3994 }, { month: "202505", views: 5188 }, { month: "202506", views: 5332 }, { month: "202507", views: 5962 }, { month: "202508", views: 5002 }, { month: "202509", views: 3757 }, { month: "202510", views: 5005 }, { month: "202511", views: 3880 }, { month: "202512", views: 3782 }, { month: "202601", views: 3110 }, { month: "202602", views: 1219 }, { month: "202603", views: 1233 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 110. カキツバタ（YList: カキツバタ）─────
+  {
+    id: "kakitsubata",
+    jaName: "カキツバタ",
+    enName: "Rabbit-ear Iris",
+    scientificName: "Iris laevigata",
+    familyId: "iridaceae",
+    familyJaName: "アヤメ科",
+    description:
+      "アヤメ科アヤメ属の多年草。水辺に生える抽水植物で、初夏に濃紫色の美しい花を咲かせる。在原業平の「からころも きつつなれにし…」の歌に詠まれた歌枕として古来より愛される。愛知県の県花。準絶滅危惧種。",
+    enDescription: "A perennial in the iris family. An aquatic marginal plant growing in wetlands, producing striking deep-purple flowers in early summer. Beloved since ancient times as a poetic motif — famously featured in Ariwara no Narihira's 'Kakitsubata' poem. The prefectural flower of Aichi. Designated as near-threatened.",
+    identificationPoints: [
+      "花は濃紫色、外花被片の中央に白い筋",
+      "葉は剣状で中脈が目立たない（アヤメは目立つ）",
+      "水辺に生育",
+    ],
+    enIdentificationPoints: [
+      "Deep-purple flowers with a white central stripe on falls",
+      "Sword-shaped leaves with indistinct midrib (distinct midrib in Iris sanguinea)",
+      "Grows at water's edge",
+    ],
+    habitat: "湿地、池沼、水田の縁",
+    enHabitat: "Wetlands, ponds, paddy margins",
+    season: "5〜6月（花）",
+    enSeason: "May to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Iris_laevigata.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カキツバタ" },
+    ],
+    tags: ["草本", "多年草", "水生植物", "花卉", "準絶滅危惧"],
+    enTags: ["Herb", "Perennial", "Aquatic", "Flower", "Near-threatened"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "spring", habitat: "wetland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カキツバタ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カキツバタ", totalViews: 47234, window: "202504-202603", months: [{ month: "202504", views: 6197 }, { month: "202505", views: 12467 }, { month: "202506", views: 6077 }, { month: "202507", views: 2772 }, { month: "202508", views: 2465 }, { month: "202509", views: 2377 }, { month: "202510", views: 3007 }, { month: "202511", views: 2550 }, { month: "202512", views: 2084 }, { month: "202601", views: 2125 }, { month: "202602", views: 2400 }, { month: "202603", views: 2713 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 111. ゲッケイジュ（YList: ゲッケイジュ）─────
+  {
+    id: "gekkeiju",
+    jaName: "ゲッケイジュ",
+    enName: "Bay Laurel",
+    scientificName: "Laurus nobilis",
+    familyId: "lauraceae",
+    familyJaName: "クスノキ科",
+    description:
+      "クスノキ科ゲッケイジュ属の常緑高木。別名ローレル、ローリエ、ベイツリー。地中海沿岸原産。乾燥葉はローリエとして香辛料に広く利用される。古代ギリシャ・ローマでアポロンのシンボルとされ、勝者や詩人を讃える月桂冠の材料にされた。",
+    enDescription: "An evergreen tree in the laurel family, also known as laurel, bay, or bay tree. Native to the Mediterranean. Its dried leaves ('bay leaves' / 'laurier') are a widely used culinary spice. Deeply tied to ancient Greek and Roman culture as a symbol of Apollo and the material for laurel wreaths awarded to victors and poets.",
+    identificationPoints: [
+      "葉は革質で光沢のある長楕円形、芳香あり",
+      "雌雄異株、春に黄白色の小さな花",
+      "果実は楕円形で黒紫色に熟す",
+    ],
+    enIdentificationPoints: [
+      "Leathery, glossy, elliptic fragrant leaves",
+      "Dioecious; small yellowish-white flowers in spring",
+      "Ellipsoidal fruit ripening dark purple-black",
+    ],
+    habitat: "栽培（庭木、ハーブガーデン）",
+    enHabitat: "Cultivated (garden trees, herb gardens)",
+    season: "3〜5月（花）、10〜11月（果実）",
+    enSeason: "March to May (flowers), October to November (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Laurus_nobilis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ゲッケイジュ" },
+    ],
+    tags: ["木本", "常緑高木", "ハーブ", "香辛料", "地中海"],
+    enTags: ["Tree", "Evergreen", "Herb", "Spice", "Mediterranean"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "evergreen", flowerColor: "yellow", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ゲッケイジュ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ゲッケイジュ", totalViews: 46979, window: "202504-202603", months: [{ month: "202504", views: 5844 }, { month: "202505", views: 4742 }, { month: "202506", views: 3709 }, { month: "202507", views: 3141 }, { month: "202508", views: 3725 }, { month: "202509", views: 3591 }, { month: "202510", views: 3950 }, { month: "202511", views: 3704 }, { month: "202512", views: 3677 }, { month: "202601", views: 3683 }, { month: "202602", views: 3395 }, { month: "202603", views: 3818 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 112. ユーカリ（YList: ユーカリ）─────
+  {
+    id: "eucalyptus",
+    jaName: "ユーカリ",
+    enName: "Eucalyptus",
+    scientificName: "Eucalyptus globulus",
+    familyId: "myrtaceae",
+    familyJaName: "フトモモ科",
+    description:
+      "フトモモ科ユーカリ属の樹木の総称で、常緑高木が多い。900種近くが知られ、多くはオーストラリア原産。コアラの食物として有名。精油はアロマセラピー・医薬品・香料に利用される。成長が早く紙の原料や緑化樹としても世界中で植栽される。",
+    enDescription: "The general name for trees in the myrtle family's genus Eucalyptus. About 900 species are known, most native to Australia. Famous as the food of koalas. The essential oil is used in aromatherapy, medicine, and fragrance. Fast-growing and widely planted for pulp and reforestation worldwide.",
+    identificationPoints: [
+      "葉は革質で光沢あり、若葉は丸く対生、成葉は細長く互生",
+      "樹皮は剥がれやすい種が多い",
+      "葉を揉むと爽やかな芳香",
+    ],
+    enIdentificationPoints: [
+      "Leathery glossy leaves — juvenile leaves round and opposite, mature leaves long and alternate",
+      "Bark often peeling in many species",
+      "Fresh camphoraceous scent when leaves are crushed",
+    ],
+    habitat: "栽培（庭木、公園、植林）、オーストラリア原産",
+    enHabitat: "Cultivated (gardens, parks, plantations); native to Australia",
+    season: "種により異なる",
+    enSeason: "Varies by species",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus_globulus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ユーカリ" },
+    ],
+    tags: ["木本", "常緑高木", "精油", "コアラ", "オーストラリア"],
+    enTags: ["Tree", "Evergreen", "Essential oil", "Koala food", "Australia"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ユーカリ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ユーカリ", totalViews: 46925, window: "202504-202603", months: [{ month: "202504", views: 4108 }, { month: "202505", views: 4989 }, { month: "202506", views: 3525 }, { month: "202507", views: 3350 }, { month: "202508", views: 6014 }, { month: "202509", views: 6032 }, { month: "202510", views: 3905 }, { month: "202511", views: 3589 }, { month: "202512", views: 3037 }, { month: "202601", views: 2909 }, { month: "202602", views: 2503 }, { month: "202603", views: 2964 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 113. ハリエンジュ（ニセアカシア, YList: ハリエンジュ）─────
+  {
+    id: "harienju",
+    jaName: "ハリエンジュ",
+    enName: "Black Locust",
+    scientificName: "Robinia pseudoacacia",
+    familyId: "fabaceae",
+    familyJaName: "マメ科",
+    description:
+      "マメ科ハリエンジュ属の落葉高木。北米原産で日本には1873年に渡来。別名ニセアカシア。蜜源植物として重要で、白く芳香のある房状の花から採れるハチミツは上質。街路樹や砂防、材の器具としても利用される。夏の季語。",
+    enDescription: "A deciduous tree in the legume family. Native to North America, introduced to Japan in 1873. Also known as 'nise-acacia' (false acacia). An important honey plant — the honey from its fragrant white cascading flower clusters is prized. Used as a street tree, for erosion control, and for its hard timber.",
+    identificationPoints: [
+      "葉は奇数羽状複葉、小葉は楕円形",
+      "托葉が刺に変化（棘がある）",
+      "初夏に芳香の強い白い蝶形花を房状に垂らす",
+    ],
+    enIdentificationPoints: [
+      "Odd-pinnate compound leaves with elliptic leaflets",
+      "Stipules modified into thorns",
+      "Fragrant white pea-flowers in drooping racemes in early summer",
+    ],
+    habitat: "街路樹、公園、河川敷（帰化・外来種）",
+    enHabitat: "Street trees, parks, riverbanks (naturalized, non-native)",
+    season: "5〜6月（花）",
+    enSeason: "May to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Robinia_pseudoacacia.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ニセアカシア" },
+    ],
+    tags: ["木本", "落葉高木", "蜜源植物", "街路樹", "外来種"],
+    enTags: ["Tree", "Deciduous", "Honey plant", "Street tree", "Non-native"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "tree", deciduous: "deciduous", flowerColor: "white", floweringSeason: "spring", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ニセアカシア" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニセアカシア", totalViews: 46878, window: "202504-202603", months: [{ month: "202504", views: 4577 }, { month: "202505", views: 12573 }, { month: "202506", views: 6379 }, { month: "202507", views: 3227 }, { month: "202508", views: 3117 }, { month: "202509", views: 3035 }, { month: "202510", views: 2589 }, { month: "202511", views: 2507 }, { month: "202512", views: 1992 }, { month: "202601", views: 1903 }, { month: "202602", views: 2061 }, { month: "202603", views: 2918 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 114. ラベンダー（YList: ラベンダー）─────
+  {
+    id: "lavender",
+    jaName: "ラベンダー",
+    enName: "Lavender",
+    scientificName: "Lavandula angustifolia",
+    familyId: "lamiaceae",
+    familyJaName: "シソ科",
+    description:
+      "シソ科ラヴァンドラ属の半木本性植物。和名は「薫衣草（くんいそう）」。地中海沿岸原産。古代エジプト、ギリシャ、ローマから薬・料理・芳香植物として利用されてきた。日本では北海道富良野地方が主産地で、ラベンダー畑が観光資源。精油はアロマセラピーに広く使われる。",
+    enDescription: "A semi-woody plant in the mint family, known in Japanese as 'kun'i-sou' (fragrant clothing herb). Native to the Mediterranean. Used since ancient Egypt, Greece, and Rome as a medicine, culinary herb, and aromatic plant. In Japan, the Furano region of Hokkaido is the main production area, famed for its lavender fields. The essential oil is widely used in aromatherapy.",
+    identificationPoints: [
+      "葉は線形〜披針形、灰緑色で対生",
+      "花穂は紫色の小さな花が穂状に集まる",
+      "全草に甘く爽やかな芳香",
+    ],
+    enIdentificationPoints: [
+      "Linear to lanceolate grey-green opposite leaves",
+      "Spike-like inflorescences of small purple flowers",
+      "Sweet fresh fragrance throughout the plant",
+    ],
+    habitat: "栽培（ハーブガーデン、花畑）",
+    enHabitat: "Cultivated (herb gardens, flower fields)",
+    season: "6〜8月（花）",
+    enSeason: "June to August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lavandula_angustifolia.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ラベンダー" },
+    ],
+    tags: ["木本", "半低木", "ハーブ", "精油", "栽培"],
+    enTags: ["Tree", "Subshrub", "Herb", "Essential oil", "Cultivated"],
+    traits: { leafArr: "opp", leafType: "simple", habit: "tree", deciduous: "evergreen", flowerColor: "purple", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ラベンダー" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ラベンダー", totalViews: 46631, window: "202504-202603", months: [{ month: "202504", views: 4892 }, { month: "202505", views: 6114 }, { month: "202506", views: 5450 }, { month: "202507", views: 4686 }, { month: "202508", views: 4700 }, { month: "202509", views: 3453 }, { month: "202510", views: 3302 }, { month: "202511", views: 3078 }, { month: "202512", views: 2535 }, { month: "202601", views: 2312 }, { month: "202602", views: 2395 }, { month: "202603", views: 3714 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 115. パラミツ（ジャックフルーツ, YList: パラミツ）─────
+  {
+    id: "paramitsu",
+    jaName: "パラミツ",
+    enName: "Jackfruit",
+    scientificName: "Artocarpus heterophyllus",
+    familyId: "moraceae",
+    familyJaName: "クワ科",
+    description:
+      "クワ科パンノキ属の常緑高木。別名ハラミツ、ジャックフルーツ。原産はインドからバングラデシュ。果実は直径30〜50cmにもなる世界最大級の果実の一つで、果肉は甘く独特の芳香をもつ。東南アジア・南アジア・アフリカ・ブラジルで広く栽培される。",
+    enDescription: "An evergreen tree in the mulberry family. Also called 'haramitsu' or jackfruit. Native to India and Bangladesh. The fruit reaches 30–50 cm in diameter — one of the largest tree-borne fruits in the world — with sweet, aromatic flesh. Widely cultivated in Southeast Asia, South Asia, Africa, and Brazil.",
+    identificationPoints: [
+      "果実は巨大（30〜50cm、重さ数kg〜30kg）、表面にトゲ状突起",
+      "葉は長楕円形で革質・光沢あり",
+      "幹や太い枝に直接果実がなる（幹生果）",
+    ],
+    enIdentificationPoints: [
+      "Huge spiny-surfaced fruit, 30–50 cm and several to 30 kg",
+      "Elliptic, leathery, glossy leaves",
+      "Fruit borne directly on trunk and large branches (cauliflory)",
+    ],
+    habitat: "栽培（熱帯）",
+    enHabitat: "Cultivated (tropical)",
+    season: "通年（熱帯）",
+    enSeason: "Year-round (tropical)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Artocarpus_heterophyllus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/パラミツ" },
+    ],
+    tags: ["木本", "常緑高木", "果樹", "熱帯", "栽培"],
+    enTags: ["Tree", "Evergreen", "Fruit tree", "Tropical", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/パラミツ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "パラミツ", totalViews: 46544, window: "202504-202603", months: [{ month: "202504", views: 4293 }, { month: "202505", views: 4428 }, { month: "202506", views: 4105 }, { month: "202507", views: 3852 }, { month: "202508", views: 4917 }, { month: "202509", views: 4067 }, { month: "202510", views: 3312 }, { month: "202511", views: 3211 }, { month: "202512", views: 2985 }, { month: "202601", views: 3802 }, { month: "202602", views: 3484 }, { month: "202603", views: 4088 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 116. タイサンボク（YList: タイサンボク）─────
+  {
+    id: "taisanboku",
+    jaName: "タイサンボク",
+    enName: "Southern Magnolia",
+    scientificName: "Magnolia grandiflora",
+    familyId: "magnoliaceae",
+    familyJaName: "モクレン科",
+    description:
+      "モクレン科モクレン属の常緑高木。高さ20mになる大木で、白く大きな碗状の花（直径20〜25cm）が上向きに咲く。花の形が大きな盃のようなため「大盞木」→「泰山木」と表記されるようになった。北米南東部原産で、日本でも庭木や公園樹として広く植えられる。",
+    enDescription: "An evergreen tree in the magnolia family, reaching 20 m tall. Produces huge upward-facing bowl-shaped white flowers, 20–25 cm across. The name derives from '大盞木' ('great cup tree'), later written '泰山木'. Native to the southeastern United States, now widely planted as a garden and park tree in Japan.",
+    identificationPoints: [
+      "葉は大型の倒卵形、表面は濃緑色で光沢、裏面は赤褐色の毛",
+      "花は大きな碗状で9枚の白い花被片",
+      "円錐形の集合果に赤い種子",
+    ],
+    enIdentificationPoints: [
+      "Large obovate leaves — glossy dark green above, rusty-hairy below",
+      "Large bowl-shaped flowers with 9 white tepals",
+      "Cone-like aggregate fruit with red seeds",
+    ],
+    habitat: "栽培（庭木、公園、街路樹）",
+    enHabitat: "Cultivated (gardens, parks, street trees)",
+    season: "5〜7月（花）",
+    enSeason: "May to July (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia_grandiflora.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/タイサンボク" },
+    ],
+    tags: ["木本", "常緑高木", "花木", "観賞用", "北米原産"],
+    enTags: ["Tree", "Evergreen", "Flowering tree", "Ornamental", "North American"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "evergreen", flowerColor: "white", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/タイサンボク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タイサンボク", totalViews: 46433, window: "202504-202603", months: [{ month: "202504", views: 3223 }, { month: "202505", views: 7065 }, { month: "202506", views: 15736 }, { month: "202507", views: 4106 }, { month: "202508", views: 2179 }, { month: "202509", views: 2868 }, { month: "202510", views: 2243 }, { month: "202511", views: 1971 }, { month: "202512", views: 1534 }, { month: "202601", views: 1500 }, { month: "202602", views: 1444 }, { month: "202603", views: 2564 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 117. タチアオイ（YList: タチアオイ）─────
+  {
+    id: "tachiaoi",
+    jaName: "タチアオイ",
+    enName: "Hollyhock",
+    scientificName: "Alcea rosea",
+    familyId: "malvaceae",
+    familyJaName: "アオイ科",
+    description:
+      "アオイ科タチアオイ属の多年草（二年草扱いも）。学名シノニム Althaea rosea。草丈2〜3mになり、夏に大きな漏斗状の花を下から上に向かって順に咲かせる。花色は赤、ピンク、白、黄など多彩。古来薬草として用いられ、中国・トルコ原産とされる。",
+    enDescription: "A perennial (sometimes biennial) in the mallow family. Synonym: Althaea rosea. Grows 2–3 m tall, with large funnel-shaped flowers blooming from bottom to top of the stalk in summer. Flower colors range from red, pink, and white to yellow. Long used as a medicinal herb; thought to originate in China and Turkey.",
+    identificationPoints: [
+      "草丈2〜3mの高い花茎が直立",
+      "葉は掌状で浅く裂ける",
+      "花は直径10〜12cmの漏斗状、穂状に多数",
+    ],
+    enIdentificationPoints: [
+      "Tall erect flower stalk, 2–3 m",
+      "Palmately lobed leaves",
+      "Funnel-shaped flowers ~10–12 cm across, in long spikes",
+    ],
+    habitat: "栽培（庭、花壇）",
+    enHabitat: "Cultivated (gardens, flowerbeds)",
+    season: "6〜8月（花）",
+    enSeason: "June to August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alcea_rosea.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/タチアオイ" },
+    ],
+    tags: ["草本", "多年草", "花卉", "薬草", "栽培"],
+    enTags: ["Herb", "Perennial", "Flower", "Medicinal", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "pink", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/タチアオイ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タチアオイ", totalViews: 46281, window: "202504-202603", months: [{ month: "202504", views: 2127 }, { month: "202505", views: 7435 }, { month: "202506", views: 13704 }, { month: "202507", views: 7145 }, { month: "202508", views: 3247 }, { month: "202509", views: 2263 }, { month: "202510", views: 1998 }, { month: "202511", views: 1983 }, { month: "202512", views: 1757 }, { month: "202601", views: 1591 }, { month: "202602", views: 1359 }, { month: "202603", views: 1672 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 118. オオキンケイギク（YList: オオキンケイギク）─────
+  {
+    id: "ookinkeigiku",
+    jaName: "オオキンケイギク",
+    enName: "Lanceleaf Tickseed",
+    scientificName: "Coreopsis lanceolata",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科ハルシャギク属の宿根草。北アメリカ原産。鮮やかな黄色の頭花を咲かせる観賞用植物として導入されたが、在来の野草を駆逐するほど繁茂し生態系に被害を与えるため、2006年に特定外来生物に指定された。現在は栽培・販売・運搬が禁止されている。",
+    enDescription: "A perennial in the daisy family, native to North America. Introduced as an ornamental for its bright yellow flower heads, but it has spread so aggressively that it outcompetes native wildflowers. Designated as an Invasive Alien Species in Japan in 2006; cultivation, sale, and transport are now banned.",
+    identificationPoints: [
+      "鮮やかな黄色の頭花、直径5〜7cm",
+      "葉は根元で多く、披針形で全縁〜浅裂",
+      "草丈30〜70cm",
+    ],
+    enIdentificationPoints: [
+      "Bright yellow flower heads, 5–7 cm across",
+      "Mostly basal lanceolate leaves, entire or shallowly lobed",
+      "Plant height 30–70 cm",
+    ],
+    habitat: "河川敷、道路のり面、空き地（特定外来生物）",
+    enHabitat: "Riverbanks, road slopes, vacant lots (invasive alien)",
+    season: "5〜7月（花）",
+    enSeason: "May to July (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Coreopsis_lanceolata.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オオキンケイギク" },
+    ],
+    tags: ["草本", "多年草", "特定外来生物", "栽培禁止", "キク科"],
+    enTags: ["Herb", "Perennial", "Invasive alien", "Prohibited", "Daisy family"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "spring", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/オオキンケイギク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオキンケイギク", totalViews: 45447, window: "202504-202603", months: [{ month: "202504", views: 1587 }, { month: "202505", views: 21558 }, { month: "202506", views: 10505 }, { month: "202507", views: 2636 }, { month: "202508", views: 2136 }, { month: "202509", views: 1955 }, { month: "202510", views: 1746 }, { month: "202511", views: 846 }, { month: "202512", views: 579 }, { month: "202601", views: 660 }, { month: "202602", views: 640 }, { month: "202603", views: 599 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 119. チョウマメ（バタフライピー, YList: チョウマメ）─────
+  {
+    id: "choumame",
+    jaName: "チョウマメ",
+    enName: "Butterfly Pea",
+    scientificName: "Clitoria ternatea",
+    familyId: "fabaceae",
+    familyJaName: "マメ科",
+    description:
+      "マメ科クリトリア属の蔓性多年草（日本では一年草扱い）。英名バタフライピー、タイ語アンチャン。濃い青紫色の蝶形花が特徴で、花を乾燥させたハーブティーは鮮やかな青色で、酸を加えると紫〜赤紫色に変化する天然色素として利用される。",
+    enDescription: "A climbing perennial in the legume family (treated as annual in Japan). Known as butterfly pea (English) or an-chan (Thai). Produces striking deep-blue-purple pea-flowers. Dried flowers make a vivid blue herbal tea that turns purple to reddish when acid is added — used as a natural food coloring.",
+    identificationPoints: [
+      "蔓性で他物に巻きつく",
+      "花は濃青紫色の蝶形（蝶が羽を広げたような形）",
+      "葉は奇数羽状複葉、小葉は楕円形",
+    ],
+    enIdentificationPoints: [
+      "Twining climber",
+      "Deep blue-purple pea-flower resembling a butterfly with open wings",
+      "Odd-pinnate compound leaves with elliptic leaflets",
+    ],
+    habitat: "栽培（熱帯・亜熱帯、園芸）",
+    enHabitat: "Cultivated (tropical/subtropical, horticultural)",
+    season: "7〜10月（花）",
+    enSeason: "July to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Clitoria_ternatea.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/チョウマメ" },
+    ],
+    tags: ["草本", "つる植物", "ハーブ", "色素", "熱帯"],
+    enTags: ["Herb", "Vine", "Herb tea", "Natural dye", "Tropical"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "vine", deciduous: "deciduous", flowerColor: "blue", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/チョウマメ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "チョウマメ", totalViews: 44258, window: "202504-202603", months: [{ month: "202504", views: 3293 }, { month: "202505", views: 4665 }, { month: "202506", views: 5313 }, { month: "202507", views: 6115 }, { month: "202508", views: 6314 }, { month: "202509", views: 5045 }, { month: "202510", views: 4218 }, { month: "202511", views: 2516 }, { month: "202512", views: 1732 }, { month: "202601", views: 1784 }, { month: "202602", views: 1581 }, { month: "202603", views: 1682 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 120. カラシナ（YList: カラシナ）─────
+  {
+    id: "karashina",
+    jaName: "カラシナ",
+    enName: "Brown Mustard",
+    scientificName: "Brassica juncea",
+    familyId: "brassicaceae",
+    familyJaName: "アブラナ科",
+    description:
+      "アブラナ科アブラナ属の越年草。種子はからし（マスタード）の原料として重要。葉も野菜として食用にされ、特に明治期以降に帰化したセイヨウカラシナは春の河川敷で黄色い絨毯を作る。同種の栽培品種としてタカナ、ザーサイ、ノザワナなどがある。",
+    enDescription: "A winter annual in the cabbage family. The seeds are the main source of mustard. The leaves are also eaten as a vegetable. Seiyō-karashina (naturalized after the Meiji era) forms vast yellow carpets on riverbanks in spring. Cultivated forms include takana, zha-cai, and nozawana.",
+    identificationPoints: [
+      "葉は大きく羽状に切れ込む、根生葉にロゼット",
+      "鮮黄色の4弁花を総状につける",
+      "長角果が細長く伸びる",
+    ],
+    enIdentificationPoints: [
+      "Large pinnately lobed leaves forming a basal rosette",
+      "Bright yellow 4-petaled flowers in racemes",
+      "Long slender siliques",
+    ],
+    habitat: "河川敷、畑、道端（栽培・帰化）",
+    enHabitat: "Riverbanks, fields, roadsides (cultivated and naturalized)",
+    season: "3〜5月（花）",
+    enSeason: "March to May (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_juncea.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カラシナ" },
+    ],
+    tags: ["草本", "越年草", "野菜", "香辛料", "帰化植物"],
+    enTags: ["Herb", "Winter annual", "Vegetable", "Spice", "Naturalized"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 4, flowerColor: "yellow", floweringSeason: "spring", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カラシナ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カラシナ", totalViews: 44166, window: "202504-202603", months: [{ month: "202504", views: 5363 }, { month: "202505", views: 4284 }, { month: "202506", views: 2819 }, { month: "202507", views: 2481 }, { month: "202508", views: 2726 }, { month: "202509", views: 2657 }, { month: "202510", views: 3073 }, { month: "202511", views: 3593 }, { month: "202512", views: 3227 }, { month: "202601", views: 4047 }, { month: "202602", views: 4981 }, { month: "202603", views: 4915 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 121. ホオノキ（YList: ホオノキ）─────
+  {
+    id: "hoonoki",
+    jaName: "ホオノキ",
+    enName: "Japanese Bigleaf Magnolia",
+    scientificName: "Magnolia obovata",
+    familyId: "magnoliaceae",
+    familyJaName: "モクレン科",
+    description:
+      "モクレン科モクレン属の落葉高木。日本自生の樹木の中で最大級の葉と花をもつ。大きな葉は朴葉味噌など食材を包んで焼く料理に使われる。樹皮は生薬「厚朴（こうぼく）」とされ、材は均質で柔らかく細工物に利用される。南千島から九州に分布。",
+    enDescription: "A deciduous tree in the magnolia family — native to Japan and bearing some of the largest leaves and flowers among Japanese trees. The big leaves are used to wrap and grill food (e.g., hōba-miso). The bark is used in traditional medicine as 'kōboku'. The wood, soft and uniform, is used for crafts. Distributed from the southern Kurils to Kyushu.",
+    identificationPoints: [
+      "葉は倒卵形で大型（長さ20〜40cm）、枝先に輪生状",
+      "花は直径15cmほどの白い碗状、芳香あり",
+      "果実は円筒形の集合果、赤い種子",
+    ],
+    enIdentificationPoints: [
+      "Large obovate leaves 20–40 cm long, whorled at branch tips",
+      "Bowl-shaped fragrant white flowers ~15 cm across",
+      "Cylindrical aggregate fruit with red seeds",
+    ],
+    habitat: "山地の落葉樹林",
+    enHabitat: "Montane deciduous forests",
+    season: "5〜6月（花）",
+    enSeason: "May to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia_obovata.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホオノキ" },
+    ],
+    tags: ["木本", "落葉高木", "花木", "大型葉", "日本自生"],
+    enTags: ["Tree", "Deciduous", "Flowering tree", "Large leaves", "Native to Japan"],
+    traits: { leafArr: "whor", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "deciduous", flowerColor: "white", floweringSeason: "spring", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ホオノキ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ホオノキ", totalViews: 44074, window: "202504-202603", months: [{ month: "202504", views: 3592 }, { month: "202505", views: 9392 }, { month: "202506", views: 5418 }, { month: "202507", views: 2930 }, { month: "202508", views: 3671 }, { month: "202509", views: 4028 }, { month: "202510", views: 3206 }, { month: "202511", views: 3244 }, { month: "202512", views: 2567 }, { month: "202601", views: 2080 }, { month: "202602", views: 1812 }, { month: "202603", views: 2134 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 122. リュウガン（ロンガン, YList: リュウガン）─────
+  {
+    id: "longan",
+    jaName: "リュウガン",
+    enName: "Longan",
+    scientificName: "Dimocarpus longan",
+    familyId: "sapindaceae",
+    familyJaName: "ムクロジ科",
+    description:
+      "ムクロジ科リュウガン属の常緑小高木。中国南部・東南アジア原産。果実は「ロンガン」「竜眼」として知られ、皮を剥くと半透明の白い果肉が黒い種を包む様子が「龍の眼」に見えることが名前の由来。ライチ（レイシ）と近縁だが風味はまろやか。乾燥果は生薬「龍眼肉」として利用される。",
+    enDescription: "An evergreen small tree in the soapberry family. Native to southern China and Southeast Asia. The fruit — 'longan' or 'dragon eye' — is named for the translucent white flesh that wraps a dark seed, resembling a dragon's eye. Related to lychee but milder in flavor. The dried fruit is used in Chinese medicine as 'ryūgan-niku'.",
+    identificationPoints: [
+      "果実は直径2〜3cmの球形、皮は淡褐色",
+      "葉は偶数羽状複葉、小葉は革質",
+      "果肉は半透明の白、中央に黒い種",
+    ],
+    enIdentificationPoints: [
+      "Spherical fruit 2–3 cm with pale-brown skin",
+      "Even-pinnate compound leaves with leathery leaflets",
+      "Translucent white flesh wrapping a dark seed",
+    ],
+    habitat: "栽培（亜熱帯）",
+    enHabitat: "Cultivated (subtropical regions)",
+    season: "7〜9月（果実）",
+    enSeason: "July to September (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dimocarpus_longan.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/リュウガン" },
+    ],
+    tags: ["木本", "常緑小高木", "果樹", "亜熱帯", "生薬"],
+    enTags: ["Tree", "Evergreen", "Fruit tree", "Subtropical", "Medicinal"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/リュウガン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "リュウガン", totalViews: 43813, window: "202504-202603", months: [{ month: "202504", views: 3916 }, { month: "202505", views: 5488 }, { month: "202506", views: 4103 }, { month: "202507", views: 3433 }, { month: "202508", views: 4506 }, { month: "202509", views: 3741 }, { month: "202510", views: 3092 }, { month: "202511", views: 3469 }, { month: "202512", views: 2866 }, { month: "202601", views: 3417 }, { month: "202602", views: 3227 }, { month: "202603", views: 2555 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 123. シークヮーサー（YList: シイクワシャー）─────
+  {
+    id: "shikuwasa",
+    jaName: "シークヮーサー",
+    enName: "Shikuwasa",
+    scientificName: "Citrus × depressa",
+    familyId: "rutaceae",
+    familyJaName: "ミカン科",
+    description:
+      "ミカン科ミカン属の常緑低木、柑橘類。和名ヒラミレモン（平実檸檬）。沖縄方言で「シー」は酢、「クヮースン」は食わせるの意で「酸食わし」の名。小粒で酸味が強く、未熟果は調味料やジュース、完熟果は生食にされる。沖縄県の特産品で、健康効果も注目される。",
+    enDescription: "An evergreen shrub and citrus in the rue family. Japanese name 'Hiramire-mon'. The name comes from Okinawan dialect 'shi-kuwasu' ('sour-feeder'). Small and highly acidic — unripe fruit is used for juice and seasoning, ripe fruit for eating. A specialty of Okinawa, noted for its health-promoting compounds.",
+    identificationPoints: [
+      "果実は小型（直径3〜4cm）の扁球形",
+      "葉は光沢のある楕円形",
+      "春に白い芳香のある花",
+    ],
+    enIdentificationPoints: [
+      "Small flattened-spherical fruit 3–4 cm across",
+      "Glossy elliptic leaves",
+      "Fragrant white spring flowers",
+    ],
+    habitat: "栽培（沖縄・奄美）",
+    enHabitat: "Cultivated (Okinawa, Amami)",
+    season: "8〜12月（果実）",
+    enSeason: "August to December (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Citrus_depressa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シークヮーサー" },
+    ],
+    tags: ["木本", "常緑低木", "柑橘", "沖縄", "栽培"],
+    enTags: ["Tree", "Evergreen", "Citrus", "Okinawa", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "evergreen", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/シークヮーサー" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シークヮーサー", totalViews: 43620, window: "202504-202603", months: [{ month: "202504", views: 2947 }, { month: "202505", views: 3562 }, { month: "202506", views: 4449 }, { month: "202507", views: 4179 }, { month: "202508", views: 4082 }, { month: "202509", views: 4306 }, { month: "202510", views: 4120 }, { month: "202511", views: 3557 }, { month: "202512", views: 2966 }, { month: "202601", views: 3246 }, { month: "202602", views: 2997 }, { month: "202603", views: 3209 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 124. ユウガオ（YList: ユウガオ）─────
+  {
+    id: "yuugao",
+    jaName: "ユウガオ",
+    enName: "Bottle Gourd (edible variety)",
+    scientificName: "Lagenaria siceraria var. hispida",
+    familyId: "cucurbitaceae",
+    familyJaName: "ウリ科",
+    description:
+      "ウリ科ユウガオ属の蔓性一年草。夕方に白い花を開いて翌朝しぼむため「夕顔」。源氏物語の巻名でも知られる。実の形で細長い「ナガユウガオ」と球状の「マルユウガオ」に分かれ、かんぴょう（干瓢）の原料になるほか、煮物の具としても食される。ヒョウタンの近縁。",
+    enDescription: "A climbing annual in the gourd family. Named 'yūgao' (evening-face) because the white flowers open in the evening and close by morning. Familiar as the title of a chapter of the Tale of Genji. Comes in elongated ('Naga-yūgao') and round ('Maru-yūgao') forms. The source of 'kanpyō' (dried gourd strips) and also eaten in simmered dishes. Related to bottle gourd (hyōtan).",
+    identificationPoints: [
+      "つる性、葉は大きな心形で柔らかい毛",
+      "白い5弁花が夕方に開く、花冠の縁が切れ込む",
+      "果実は長いものと丸いものがあり、淡緑色から白緑色",
+    ],
+    enIdentificationPoints: [
+      "Climbing vine with large soft-hairy heart-shaped leaves",
+      "White 5-petaled flowers opening in the evening; petal margins deeply cut",
+      "Fruit elongated or spherical, pale green to whitish-green",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "7〜8月（花）、8〜10月（果実）",
+    enSeason: "July to August (flowers), August to October (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lagenaria_siceraria_var_hispida.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ユウガオ" },
+    ],
+    tags: ["草本", "一年草", "つる植物", "野菜", "栽培"],
+    enTags: ["Herb", "Annual", "Vine", "Vegetable", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "cordate", habit: "vine", deciduous: "deciduous", petalCount: 5, flowerColor: "white", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ユウガオ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ユウガオ", totalViews: 43582, window: "202504-202603", months: [{ month: "202504", views: 2114 }, { month: "202505", views: 3047 }, { month: "202506", views: 2970 }, { month: "202507", views: 5149 }, { month: "202508", views: 10317 }, { month: "202509", views: 5459 }, { month: "202510", views: 3432 }, { month: "202511", views: 2782 }, { month: "202512", views: 2176 }, { month: "202601", views: 2050 }, { month: "202602", views: 2251 }, { month: "202603", views: 1835 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 125. ルバーブ（YList: カラダイオウ）─────
+  {
+    id: "rhubarb",
+    jaName: "ルバーブ",
+    enName: "Rhubarb",
+    scientificName: "Rheum rhabarbarum",
+    familyId: "polygonaceae",
+    familyJaName: "タデ科",
+    description:
+      "タデ科ダイオウ属の食用栽培品種。和名ショクヨウダイオウ（食用大黄）、カラダイオウ。シベリア南部原産の多年草で、太い地下茎をもつ。地面から伸びる多肉質の赤い葉柄だけを食用にし、パイやジャムに加工される。葉は有毒。便秘に効く瀉下作用もある。",
+    enDescription: "A food-crop species in the knotweed family's Rheum genus. Japanese names 'Shokuyō-daiō' (edible rhubarb) and 'Karadaiō'. A perennial native to southern Siberia with thick rhizomes. Only the fleshy red leaf-stalks are eaten — processed into pies, jams, and crumbles. The leaves are toxic. Also has a mild laxative effect.",
+    identificationPoints: [
+      "葉は大型で波打つ、根生葉",
+      "葉柄は赤〜緑で多肉質、長さ30〜60cm",
+      "花茎に緑白色の小花を円錐状に多数",
+    ],
+    enIdentificationPoints: [
+      "Large wavy basal leaves",
+      "Fleshy red to green petioles, 30–60 cm long",
+      "Greenish-white small flowers in a large panicle",
+    ],
+    habitat: "栽培（寒冷地の畑・家庭菜園）",
+    enHabitat: "Cultivated (cold-climate fields, home gardens)",
+    season: "5〜7月（葉柄）",
+    enSeason: "May to July (leaf stalks)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rheum_rhabarbarum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ルバーブ" },
+    ],
+    tags: ["草本", "多年草", "野菜", "ハーブ", "栽培"],
+    enTags: ["Herb", "Perennial", "Vegetable", "Herb", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ルバーブ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ルバーブ", totalViews: 43513, window: "202504-202603", months: [{ month: "202504", views: 2964 }, { month: "202505", views: 6007 }, { month: "202506", views: 8260 }, { month: "202507", views: 5101 }, { month: "202508", views: 3909 }, { month: "202509", views: 4036 }, { month: "202510", views: 2929 }, { month: "202511", views: 2367 }, { month: "202512", views: 1750 }, { month: "202601", views: 1826 }, { month: "202602", views: 2071 }, { month: "202603", views: 2293 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 126. ダリア（YList: ダリア）─────
+  {
+    id: "dahlia",
+    jaName: "ダリア",
+    enName: "Dahlia",
+    scientificName: "Dahlia pinnata",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科ダリア属の多年生草本。メキシコ原産でメキシコの国花。和名テンジクボタン（天竺牡丹）は花がボタンに似ることから。属名はスウェーデンの植物学者アンデシュ・ダールに由来。夏〜秋に豪華な頭花を咲かせ、花色・花型の品種が極めて多い代表的花卉。",
+    enDescription: "A perennial in the daisy family, native to Mexico and its national flower. Japanese name 'Tenjiku-botan' ('Indian peony') refers to the peony-like blossoms. The genus is named after Swedish botanist Anders Dahl. Grown as a showy ornamental with an enormous range of flower forms and colors, blooming in summer and autumn.",
+    identificationPoints: [
+      "大型の頭花、直径5〜30cm、品種により多彩",
+      "葉は対生で羽状複葉、小葉は卵形",
+      "塊根をもつ",
+    ],
+    enIdentificationPoints: [
+      "Large flower heads 5–30 cm across with enormous varietal diversity",
+      "Opposite pinnate compound leaves with ovate leaflets",
+      "Tuberous roots",
+    ],
+    habitat: "栽培（庭・花壇）",
+    enHabitat: "Cultivated (gardens, flowerbeds)",
+    season: "7〜10月（花）",
+    enSeason: "July to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dahlia_pinnata.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ダリア" },
+    ],
+    tags: ["草本", "多年草", "花卉", "観賞用", "塊根"],
+    enTags: ["Herb", "Perennial", "Flower", "Ornamental", "Tuberous root"],
+    traits: { leafArr: "opp", leafType: "compound", habit: "herb", deciduous: "deciduous", flowerColor: "red", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ダリア" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ダリア", totalViews: 43391, window: "202504-202603", months: [{ month: "202504", views: 3593 }, { month: "202505", views: 4134 }, { month: "202506", views: 3450 }, { month: "202507", views: 3105 }, { month: "202508", views: 3071 }, { month: "202509", views: 3483 }, { month: "202510", views: 9239 }, { month: "202511", views: 3573 }, { month: "202512", views: 2201 }, { month: "202601", views: 2499 }, { month: "202602", views: 1785 }, { month: "202603", views: 3258 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 127. ハエトリグサ（YList: ハエジゴク）─────
+  {
+    id: "venus_flytrap",
+    jaName: "ハエトリグサ",
+    enName: "Venus Flytrap",
+    scientificName: "Dionaea muscipula",
+    familyId: "droseraceae",
+    familyJaName: "モウセンゴケ科",
+    description:
+      "モウセンゴケ科ハエトリグサ属の食虫植物。北アメリカ原産で1属1種。別名ハエトリソウ、ハエジゴク。葉の先端が2枚貝のように変形し、縁の棘と感覚毛に触れた虫を素早く挟みこんで捕食する。英名Venus Flytrap（女神のハエ取り罠）。ワシントン条約附属書II類。",
+    enDescription: "A carnivorous plant in the sundew family. Native to North America, the only species of its genus. Also called 'hae-tori-sō' or 'hae-jigoku' in Japanese. Modified leaf tips act as clam-like traps, snapping shut on insects that touch the sensitive trigger hairs — catching is also completed by the teeth-like marginal spines. Listed under CITES Appendix II.",
+    identificationPoints: [
+      "葉の先端が2枚の貝状に変形した捕虫器",
+      "捕虫器内部に3本の感覚毛、縁に細かいトゲ",
+      "白い5弁花を茎の先に数個咲かせる",
+    ],
+    enIdentificationPoints: [
+      "Leaf tips modified into two clam-like trap lobes",
+      "Three trigger hairs inside each trap; fine teeth along the margin",
+      "Small clusters of white 5-petaled flowers on a tall stalk",
+    ],
+    habitat: "栽培（鉢植え・食虫植物園芸）",
+    enHabitat: "Cultivated (potted, carnivorous plant collections)",
+    season: "5〜6月（花）",
+    enSeason: "May to June (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dionaea_muscipula.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハエトリグサ" },
+    ],
+    tags: ["草本", "多年草", "食虫植物", "北米原産", "観賞用"],
+    enTags: ["Herb", "Perennial", "Carnivorous", "North American", "Ornamental"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "evergreen", petalCount: 5, flowerColor: "white", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ハエトリグサ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハエトリグサ", totalViews: 43355, window: "202504-202603", months: [{ month: "202504", views: 2557 }, { month: "202505", views: 4507 }, { month: "202506", views: 5235 }, { month: "202507", views: 6938 }, { month: "202508", views: 4706 }, { month: "202509", views: 3412 }, { month: "202510", views: 2299 }, { month: "202511", views: 3732 }, { month: "202512", views: 2879 }, { month: "202601", views: 1733 }, { month: "202602", views: 1944 }, { month: "202603", views: 3413 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 128. キヌア（YList: キノア）─────
+  {
+    id: "quinoa",
+    jaName: "キヌア",
+    enName: "Quinoa",
+    scientificName: "Chenopodium quinoa",
+    familyId: "amaranthaceae",
+    familyJaName: "ヒユ科",
+    description:
+      "ヒユ科アカザ亜科アカザ属の擬穀類。南米アンデス山脈の高地原産で、ペルー・ボリビアで数千年前から栽培。ホウレンソウやビートと同科、アカザと同属。栄養価が高く完全食に近いスーパーフードとして世界100カ国以上に普及。日本でも北海道・静岡で少量栽培される。",
+    enDescription: "A pseudo-cereal in the amaranth family, related to spinach and beet. Native to the high Andes of South America, cultivated for thousands of years in Peru and Bolivia. Its exceptional nutritional profile — close to a complete food — has made it a globally popular 'superfood' grown in over 100 countries. Grown in small quantities in Hokkaido and Shizuoka in Japan.",
+    identificationPoints: [
+      "草丈1〜2m、茎は赤・黄・緑など多彩",
+      "葉は互生で三角状菱形〜菱形、軟毛あり",
+      "穂状の花序に小さな花、多数の種子",
+    ],
+    enIdentificationPoints: [
+      "Plant height 1–2 m, stems red, yellow, or green",
+      "Alternate triangular-rhombic leaves with fine hairs",
+      "Spike-like inflorescence with many tiny seeds",
+    ],
+    habitat: "栽培（アンデス高地、温帯の畑）",
+    enHabitat: "Cultivated (Andean highlands, temperate fields)",
+    season: "2〜4月（アンデス）、日本では9〜10月（収穫）",
+    enSeason: "February to April (Andes); September to October (harvest in Japan)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chenopodium_quinoa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キヌア" },
+    ],
+    tags: ["草本", "一年草", "穀物", "スーパーフード", "アンデス"],
+    enTags: ["Herb", "Annual", "Pseudo-cereal", "Superfood", "Andes"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/キヌア" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キヌア", totalViews: 43047, window: "202504-202603", months: [{ month: "202504", views: 4144 }, { month: "202505", views: 4736 }, { month: "202506", views: 4738 }, { month: "202507", views: 3561 }, { month: "202508", views: 4130 }, { month: "202509", views: 4120 }, { month: "202510", views: 4061 }, { month: "202511", views: 3142 }, { month: "202512", views: 2645 }, { month: "202601", views: 2472 }, { month: "202602", views: 2651 }, { month: "202603", views: 2647 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 129. マンゴスチン（YList: マンゴスチン）─────
+  {
+    id: "mangosteen",
+    jaName: "マンゴスチン",
+    enName: "Mangosteen",
+    scientificName: "Garcinia mangostana",
+    familyId: "clusiaceae",
+    familyJaName: "フクギ科",
+    description:
+      "フクギ科フクギ属の常緑高木。東南アジアのマレー原産。紫色の厚い果皮を開くと、白く瑞々しい果肉が現れ、甘酸っぱい上品な味わいから「果物の女王」と称される。マンゴー（Mango）とは関係がない。リンネの『植物の種』（1753年）に記載された種の一つ。",
+    enDescription: "An evergreen tree in the Clusiaceae family. Native to the Malay region of Southeast Asia. Beneath the thick purple rind is juicy white flesh with an elegant sweet-sour flavor, earning it the title 'queen of fruits'. Despite the name, it is unrelated to mango. One of the species described in Linnaeus's Species Plantarum (1753).",
+    identificationPoints: [
+      "果皮は暗紫色で厚く革質、直径5〜7cm",
+      "葉は大型の楕円形、濃緑色で光沢",
+      "果肉は白く、6〜8片に分かれる",
+    ],
+    enIdentificationPoints: [
+      "Thick leathery dark-purple rind, fruit 5–7 cm across",
+      "Large elliptic glossy dark-green leaves",
+      "Flesh white, divided into 6–8 segments",
+    ],
+    habitat: "栽培（熱帯）",
+    enHabitat: "Cultivated (tropical)",
+    season: "5〜9月（果実）",
+    enSeason: "May to September (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Garcinia_mangostana.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マンゴスチン" },
+    ],
+    tags: ["木本", "常緑高木", "果樹", "熱帯", "栽培"],
+    enTags: ["Tree", "Evergreen", "Fruit tree", "Tropical", "Cultivated"],
+    traits: { leafArr: "opp", leafType: "simple", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/マンゴスチン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マンゴスチン", totalViews: 42978, window: "202504-202603", months: [{ month: "202504", views: 3200 }, { month: "202505", views: 6154 }, { month: "202506", views: 7273 }, { month: "202507", views: 5738 }, { month: "202508", views: 4200 }, { month: "202509", views: 2834 }, { month: "202510", views: 2291 }, { month: "202511", views: 2202 }, { month: "202512", views: 2216 }, { month: "202601", views: 2248 }, { month: "202602", views: 2312 }, { month: "202603", views: 2310 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 130. ウコン（YList: ウコン）─────
+  {
+    id: "turmeric",
+    jaName: "ウコン",
+    enName: "Turmeric",
+    scientificName: "Curcuma longa",
+    familyId: "zingiberaceae",
+    familyJaName: "ショウガ科",
+    description:
+      "ショウガ科ウコン属の多年草。英称ターメリック。インド原産で紀元前から栽培される。根茎に含まれるクルクミンは黄色染料・カレー粉などスパイスの主要成分で、アーユルヴェーダなど伝統医学でも利用される。日本ではカレー、沖縄のウッチン茶、二日酔い対策ドリンクの原料として馴染み深い。",
+    enDescription: "A perennial in the ginger family, known in English as turmeric. Native to India and cultivated since antiquity. Curcumin in the rhizome is a major ingredient in curry powder and yellow dye, and has been used in traditional medicine including Ayurveda. In Japan, familiar in curry, Okinawan 'ucchin-cha', and hangover-prevention drinks.",
+    identificationPoints: [
+      "根茎は黄橙色で断面が鮮やかな黄色",
+      "葉は大型の長楕円形、根生葉",
+      "花は淡黄色で苞葉はピンク〜白",
+    ],
+    enIdentificationPoints: [
+      "Orange-yellow rhizome with vivid yellow cross-section",
+      "Large elongated basal leaves",
+      "Pale-yellow flowers with pink-to-white bracts",
+    ],
+    habitat: "栽培（熱帯・亜熱帯）",
+    enHabitat: "Cultivated (tropical and subtropical)",
+    season: "8〜10月（花）、秋〜冬（根茎収穫）",
+    enSeason: "August to October (flowers); autumn to winter (rhizome harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Curcuma_longa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ウコン" },
+    ],
+    tags: ["草本", "多年草", "香辛料", "薬用", "熱帯"],
+    enTags: ["Herb", "Perennial", "Spice", "Medicinal", "Tropical"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ウコン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ウコン", totalViews: 42847, window: "202504-202603", months: [{ month: "202504", views: 4169 }, { month: "202505", views: 4137 }, { month: "202506", views: 3848 }, { month: "202507", views: 3553 }, { month: "202508", views: 3457 }, { month: "202509", views: 3389 }, { month: "202510", views: 3334 }, { month: "202511", views: 3404 }, { month: "202512", views: 3504 }, { month: "202601", views: 3438 }, { month: "202602", views: 3005 }, { month: "202603", views: 3609 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 131. サルナシ（YList: サルナシ）─────
+  {
+    id: "sarunashi",
+    jaName: "サルナシ",
+    enName: "Hardy Kiwi",
+    scientificName: "Actinidia arguta",
+    familyId: "actinidiaceae",
+    familyJaName: "マタタビ科",
+    description:
+      "マタタビ科マタタビ属のつる性落葉植物。雌雄異株または雌雄雑居性。別名シラクチカズラ、コクワ、ベビーキウイ。山地の林縁に生える。果実はキウイフルーツを小さくしたような外見で、皮ごと食べられ酸味と甘味がある。サルがこの実を食べることから和名が付いた。",
+    enDescription: "A deciduous climbing plant in the Actinidiaceae family, dioecious or polygamo-dioecious. Also called 'shirakuchi-kazura', 'kokuwa', or 'baby kiwi'. Grows at montane forest edges. The fruit resembles a small kiwifruit and is eaten skin-and-all, with a sweet-tart flavor. The Japanese name means 'monkey pear' from monkeys eating the fruit.",
+    identificationPoints: [
+      "つる性でほかの樹木に巻きつく",
+      "葉は広卵形で縁に鋸歯",
+      "果実は緑色の小型卵形、直径2〜3cm",
+    ],
+    enIdentificationPoints: [
+      "Twining vine climbing other trees",
+      "Broadly ovate leaves with serrated margins",
+      "Small green ovoid fruit, 2–3 cm across",
+    ],
+    habitat: "山地の林縁、崖地",
+    enHabitat: "Montane forest edges, cliffs",
+    season: "6〜7月（花）、10〜11月（果実）",
+    enSeason: "June to July (flowers), October to November (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Actinidia_arguta.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サルナシ" },
+    ],
+    tags: ["木本", "つる植物", "落葉", "山菜", "果樹"],
+    enTags: ["Tree", "Vine", "Deciduous", "Wild edible", "Fruit"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "vine", deciduous: "deciduous", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/サルナシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サルナシ", totalViews: 42405, window: "202504-202603", months: [{ month: "202504", views: 2907 }, { month: "202505", views: 3880 }, { month: "202506", views: 3858 }, { month: "202507", views: 3143 }, { month: "202508", views: 3655 }, { month: "202509", views: 6436 }, { month: "202510", views: 5770 }, { month: "202511", views: 4572 }, { month: "202512", views: 2388 }, { month: "202601", views: 1935 }, { month: "202602", views: 1800 }, { month: "202603", views: 2061 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 132. アシタバ（YList: アシタバ）─────
+  {
+    id: "ashitaba",
+    jaName: "アシタバ",
+    enName: "Ashitaba",
+    scientificName: "Angelica keiskei",
+    familyId: "apiaceae",
+    familyJaName: "セリ科",
+    description:
+      "セリ科シシウド属の多年草。別名ハチジョウソウ（八丈草）。伊豆諸島・房総・紀伊半島などの太平洋岸に自生。「今日摘んでも明日には芽が出る」ほど生命力が旺盛なことが和名の由来。若葉はお浸し、和え物、天ぷらなど食用に。種小名は植物学者伊藤圭介への献名。春の季語。",
+    enDescription: "A perennial in the carrot family, also called 'hachijō-sō'. Native to the Pacific coast of Japan (Izu Islands, Bōsō Peninsula, Kii Peninsula). The name 'ashitaba' ('tomorrow leaf') refers to its legendary vitality — new shoots appear the day after picking. Young leaves are eaten boiled, dressed, or tempura-fried. The specific epithet honors botanist Itō Keisuke. A seasonal word for spring.",
+    identificationPoints: [
+      "茎や葉を切ると黄色い汁が出る（チャルコン）",
+      "葉は2〜3回3出羽状複葉、小葉は卵形で鋸歯",
+      "夏に白い小花を傘形に多数つける",
+    ],
+    enIdentificationPoints: [
+      "Yellow sap (chalcones) exudes from cut stems and leaves",
+      "2–3-times ternate-pinnate compound leaves with ovate serrated leaflets",
+      "Many small white flowers in compound umbels in summer",
+    ],
+    habitat: "海岸近くの草地、林縁（伊豆諸島など）",
+    enHabitat: "Coastal grasslands and forest edges (Izu Islands etc.)",
+    season: "8〜10月（花）",
+    enSeason: "August to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Angelica_keiskei.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アシタバ" },
+    ],
+    tags: ["草本", "多年草", "山菜", "薬用", "日本自生"],
+    enTags: ["Herb", "Perennial", "Wild edible", "Medicinal", "Native to Japan"],
+    traits: { leafArr: "alt", leafType: "compound", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "coastal" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アシタバ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アシタバ", totalViews: 42069, window: "202504-202603", months: [{ month: "202504", views: 4746 }, { month: "202505", views: 5762 }, { month: "202506", views: 3853 }, { month: "202507", views: 3234 }, { month: "202508", views: 3581 }, { month: "202509", views: 2965 }, { month: "202510", views: 3742 }, { month: "202511", views: 3411 }, { month: "202512", views: 1963 }, { month: "202601", views: 2445 }, { month: "202602", views: 3030 }, { month: "202603", views: 3337 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 133. ランタナ（YList: シチヘンゲ）─────
+  {
+    id: "lantana",
+    jaName: "ランタナ",
+    enName: "Lantana",
+    scientificName: "Lantana camara",
+    familyId: "verbenaceae",
+    familyJaName: "クマツヅラ科",
+    description:
+      "クマツヅラ科シチヘンゲ属の常緑小低木。中南米原産。和名シチヘンゲ（七変化）は、咲き進むにつれて花色が黄→橙→赤などに変化することから。観賞用に栽培されるが、世界的には侵略的外来種として問題視される。日本でも温暖地に逸出。",
+    enDescription: "A small evergreen shrub in the vervain family, native to Central and South America. The Japanese name 'Shichi-henge' ('seven-changes') refers to the way flower colors shift from yellow to orange to red as the flowers age. Popular as an ornamental, but considered a major invasive species worldwide. Naturalized in warm regions of Japan.",
+    identificationPoints: [
+      "小さな花が球形の頭状花序に集まる",
+      "花色が咲き進むにつれ黄→橙→赤に変化",
+      "葉は卵形で対生、縁に鋸歯、揉むと独特の匂い",
+    ],
+    enIdentificationPoints: [
+      "Small flowers clustered in dense spherical heads",
+      "Flower color changes yellow → orange → red as flowers age",
+      "Opposite ovate leaves with serrated margins, pungent when crushed",
+    ],
+    habitat: "栽培（鉢・庭）、温暖地で逸出",
+    enHabitat: "Cultivated (pots, gardens); naturalized in warm regions",
+    season: "5〜10月（花）",
+    enSeason: "May to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lantana_camara.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ランタナ" },
+    ],
+    tags: ["木本", "常緑低木", "花木", "外来種", "観賞用"],
+    enTags: ["Tree", "Evergreen", "Flowering shrub", "Non-native", "Ornamental"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "evergreen", flowerColor: "orange", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ランタナ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ランタナ", totalViews: 41851, window: "202504-202603", months: [{ month: "202504", views: 1402 }, { month: "202505", views: 4772 }, { month: "202506", views: 7150 }, { month: "202507", views: 4996 }, { month: "202508", views: 4336 }, { month: "202509", views: 4265 }, { month: "202510", views: 5500 }, { month: "202511", views: 4504 }, { month: "202512", views: 1941 }, { month: "202601", views: 1201 }, { month: "202602", views: 751 }, { month: "202603", views: 1033 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 134. タカナ（YList: タカナ）─────
+  {
+    id: "takana",
+    jaName: "タカナ",
+    enName: "Takana (Leaf Mustard)",
+    scientificName: "Brassica juncea var. integrifolia",
+    familyId: "brassicaceae",
+    familyJaName: "アブラナ科",
+    description:
+      "アブラナ科アブラナ属の越年草でカラシナの変種。葉は大きく草丈20〜60cm。中央アジア原産で平安時代の『和名抄』に記述がある。辛味成分はマスタードと同じイソチオシアン酸アリル。福岡県瀬高町（三池高菜）、和歌山県新宮市、山形県内陸部などで栽培され、高菜漬けとして食される。野沢菜、広島菜と共に日本三大漬け菜。",
+    enDescription: "A winter annual in the cabbage family, a cultivated form of mustard (Brassica juncea). Leaves grow 20–60 cm long. Native to Central Asia; cited in the Heian-era dictionary 'Wamyōshō'. Its pungency comes from allyl isothiocyanate — the same compound as mustard. Cultivated in Fukuoka (Miike-takana), Wakayama, and inland Yamagata. Pickled as 'takana-zuke' — one of Japan's three great pickled greens alongside nozawana and hiroshimana.",
+    identificationPoints: [
+      "葉は大型で長さ20〜60cm、緑〜赤紫色",
+      "ロゼット状の根生葉から立ち上がる株",
+      "冬が旬、辛味のある葉",
+    ],
+    enIdentificationPoints: [
+      "Large leaves 20–60 cm long, green to reddish-purple",
+      "Plant rising from a rosette of basal leaves",
+      "In season in winter; leaves have a mustard-like pungency",
+    ],
+    habitat: "栽培（畑）",
+    enHabitat: "Cultivated (fields)",
+    season: "11〜3月（収穫）",
+    enSeason: "November to March (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_juncea_integrifolia.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/タカナ" },
+    ],
+    tags: ["草本", "越年草", "野菜", "漬物", "栽培"],
+    enTags: ["Herb", "Winter annual", "Vegetable", "Pickle", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/タカナ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タカナ", totalViews: 41789, window: "202504-202603", months: [{ month: "202504", views: 4212 }, { month: "202505", views: 3691 }, { month: "202506", views: 2883 }, { month: "202507", views: 2383 }, { month: "202508", views: 2879 }, { month: "202509", views: 2998 }, { month: "202510", views: 3224 }, { month: "202511", views: 3775 }, { month: "202512", views: 3925 }, { month: "202601", views: 4320 }, { month: "202602", views: 3594 }, { month: "202603", views: 3905 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 135. バオバブ（YList: バオバブ）─────
+  {
+    id: "baobab",
+    jaName: "バオバブ",
+    enName: "Baobab",
+    scientificName: "Adansonia digitata",
+    familyId: "malvaceae",
+    familyJaName: "アオイ科",
+    description:
+      "アオイ科バオバブ属の樹木の総称。アフリカ大陸、マダガスカル、オーストラリアに分布。幹が極端に太くなり（直径10m超）、水を貯える。樹齢数千年に達する個体もある「生命の木」。サン・テグジュペリの『星の王子さま』で描かれたことでも有名。果実・葉・樹皮が食用・薬用に使われる。",
+    enDescription: "The general name for trees in the genus Adansonia, mallow family. Distributed in Africa, Madagascar, and Australia. Known for its enormously thick water-storing trunk (over 10 m in diameter). Some trees live for thousands of years — hence 'tree of life'. Famous from Saint-Exupéry's 'The Little Prince'. Fruit, leaves, and bark are all used as food and medicine.",
+    identificationPoints: [
+      "幹が極端に太く瓶型、高さ20m超",
+      "葉は掌状複葉で乾季に落葉",
+      "白い大きな花が夜に開き、コウモリが受粉",
+    ],
+    enIdentificationPoints: [
+      "Bottle-shaped massively thick trunk, 20+ m tall",
+      "Palmately compound leaves, deciduous in the dry season",
+      "Large white night-blooming flowers pollinated by bats",
+    ],
+    habitat: "サバンナ、乾燥地（アフリカ）",
+    enHabitat: "Savannas and dry lands (Africa)",
+    season: "乾季（葉は落葉）、雨季に開花",
+    enSeason: "Deciduous in dry season; flowers in rainy season",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Adansonia_digitata.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/バオバブ" },
+    ],
+    tags: ["木本", "落葉高木", "熱帯", "巨木", "アフリカ"],
+    enTags: ["Tree", "Deciduous", "Tropical", "Massive tree", "African"],
+    traits: { leafArr: "alt", leafType: "compound", compoundType: "palmate", habit: "tree", deciduous: "deciduous", flowerColor: "white", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/バオバブ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "バオバブ", totalViews: 41630, window: "202504-202603", months: [{ month: "202504", views: 3220 }, { month: "202505", views: 4497 }, { month: "202506", views: 4426 }, { month: "202507", views: 3467 }, { month: "202508", views: 3927 }, { month: "202509", views: 4761 }, { month: "202510", views: 4134 }, { month: "202511", views: 3044 }, { month: "202512", views: 2779 }, { month: "202601", views: 2545 }, { month: "202602", views: 2274 }, { month: "202603", views: 2556 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 136. セコイア（YList: セコイア）─────
+  {
+    id: "sequoia",
+    jaName: "セコイア",
+    enName: "Coast Redwood",
+    scientificName: "Sequoia sempervirens",
+    familyId: "cupressaceae",
+    familyJaName: "ヒノキ科",
+    description:
+      "ヒノキ科セコイア属の常緑針葉樹で1属1種。アメリカ西海岸原産。樹高115mに達する個体が報告されており、現生の樹木の中では地球上で最も背が高い。葉は扁平な披針形でイチイに似るため「イチイモドキ」の別名。属名はチェロキー文字を発明したシクウォイアに由来。絶滅危惧種。",
+    enDescription: "An evergreen conifer in the cypress family, the only species of its genus. Native to the Pacific coast of North America. Individuals reaching 115 m tall have been reported — the tallest living trees on Earth. Flat lanceolate leaves resemble yew (hence the Japanese alternative 'ichii-modoki'). The genus name honors Sequoyah, inventor of the Cherokee syllabary. Endangered.",
+    identificationPoints: [
+      "巨大な常緑針葉樹、樹高50〜100m超",
+      "葉は扁平な披針形、2列状に並ぶ",
+      "厚い赤褐色の樹皮で山火事に強い",
+    ],
+    enIdentificationPoints: [
+      "Giant evergreen conifer, 50–100 m+ tall",
+      "Flat lanceolate leaves in two-ranked arrangement",
+      "Thick reddish-brown bark, resistant to wildfire",
+    ],
+    habitat: "温帯雨林（北米西海岸）",
+    enHabitat: "Temperate rainforests (North American West Coast)",
+    season: "通年（針葉樹）",
+    enSeason: "Year-round (conifer)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sequoia_sempervirens.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セコイア" },
+    ],
+    tags: ["木本", "常緑針葉樹", "巨木", "絶滅危惧", "北米原産"],
+    enTags: ["Tree", "Evergreen conifer", "Giant tree", "Endangered", "North American"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "needle", habit: "tree", deciduous: "evergreen", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/セコイア" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "セコイア", totalViews: 41264, window: "202504-202603", months: [{ month: "202504", views: 3788 }, { month: "202505", views: 7570 }, { month: "202506", views: 2948 }, { month: "202507", views: 3296 }, { month: "202508", views: 2922 }, { month: "202509", views: 2823 }, { month: "202510", views: 3063 }, { month: "202511", views: 3970 }, { month: "202512", views: 3615 }, { month: "202601", views: 2680 }, { month: "202602", views: 2131 }, { month: "202603", views: 2458 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 137. ヘクソカズラ（YList: ヘクソカズラ）─────
+  {
+    id: "hekusokazura",
+    jaName: "ヘクソカズラ",
+    enName: "Skunkvine",
+    scientificName: "Paederia scandens",
+    familyId: "rubiaceae",
+    familyJaName: "アカネ科",
+    description:
+      "アカネ科ヘクソカズラ属の蔓性多年草。藪や道端など至る所に生える雑草。夏に中心部が赤紅色の白い小花を咲かせる（そばかす模様）。葉や茎を傷つけると独特の悪臭を放つことが和名の由来。別名ヤイトバナ（灸花）、サオトメバナ（早乙女花）。夏の季語。",
+    enDescription: "A climbing perennial in the madder family. A common weed in thickets and roadsides. In summer it produces small white flowers with a crimson-red throat (the 'freckled' look). Crushing the leaves or stems releases a distinctive stench — the origin of its Japanese name 'he-kuso-kazura' ('fart-dung vine'). Also called 'yaito-bana' or 'saotome-bana'. A seasonal word for summer.",
+    identificationPoints: [
+      "他の植物に巻きつく蔓性",
+      "葉は卵状披針形で対生",
+      "花は白地で中央が赤紫、直径1cm",
+    ],
+    enIdentificationPoints: [
+      "Twining vine climbing on other plants",
+      "Ovate-lanceolate opposite leaves",
+      "White flowers with deep-red center, ~1 cm across",
+    ],
+    habitat: "野原、藪、道端、フェンス",
+    enHabitat: "Fields, thickets, roadsides, fences",
+    season: "7〜9月（花）",
+    enSeason: "July to September (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Paederia_scandens.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヘクソカズラ" },
+    ],
+    tags: ["草本", "多年草", "つる植物", "雑草", "悪臭"],
+    enTags: ["Herb", "Perennial", "Vine", "Weed", "Malodorous"],
+    traits: { leafArr: "opp", leafType: "simple", habit: "vine", deciduous: "deciduous", flowerColor: "white", floweringSeason: "summer", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヘクソカズラ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヘクソカズラ", totalViews: 41256, window: "202504-202603", months: [{ month: "202504", views: 1675 }, { month: "202505", views: 3807 }, { month: "202506", views: 3628 }, { month: "202507", views: 5212 }, { month: "202508", views: 7444 }, { month: "202509", views: 8268 }, { month: "202510", views: 3244 }, { month: "202511", views: 2347 }, { month: "202512", views: 1701 }, { month: "202601", views: 1368 }, { month: "202602", views: 1199 }, { month: "202603", views: 1363 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 138. ドリアン（YList: ドリアン）─────
+  {
+    id: "durian",
+    jaName: "ドリアン",
+    enName: "Durian",
+    scientificName: "Durio zibethinus",
+    familyId: "malvaceae",
+    familyJaName: "アオイ科",
+    description:
+      "アオイ科（旧パンヤ科）ドリアン属の常緑高木。東南アジア原産で「果物の王様」と称される。果実は直径20〜30cmの楕円球形でトゲに覆われ、濃厚な甘い果肉をもつが強烈な異臭を放つ。マレーシア、タイ、インドネシアの名物で、多くの国で交通機関への持ち込みが禁止される。",
+    enDescription: "An evergreen tree in the mallow family (formerly Bombacaceae), genus Durio. Native to Southeast Asia and known as 'king of fruits'. The 20–30 cm spiky oval fruit has rich sweet flesh but a notoriously powerful smell — banned from public transport in many countries. A specialty of Malaysia, Thailand, and Indonesia.",
+    identificationPoints: [
+      "果実は20〜30cmのトゲだらけの楕円球",
+      "樹高20〜40mの常緑高木",
+      "幹や太枝に直接果実がつく（幹生果）",
+    ],
+    enIdentificationPoints: [
+      "20–30 cm spiny oval fruit",
+      "Evergreen tree, 20–40 m tall",
+      "Fruit borne directly on trunk and large branches (cauliflory)",
+    ],
+    habitat: "栽培（熱帯雨林）",
+    enHabitat: "Cultivated (tropical rainforest)",
+    season: "6〜8月（果実）",
+    enSeason: "June to August (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Durio_zibethinus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ドリアン" },
+    ],
+    tags: ["木本", "常緑高木", "果樹", "熱帯", "異臭"],
+    enTags: ["Tree", "Evergreen", "Fruit tree", "Tropical", "Pungent"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ドリアン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ドリアン", totalViews: 41243, window: "202504-202603", months: [{ month: "202504", views: 3452 }, { month: "202505", views: 3692 }, { month: "202506", views: 3483 }, { month: "202507", views: 3196 }, { month: "202508", views: 3114 }, { month: "202509", views: 3340 }, { month: "202510", views: 3673 }, { month: "202511", views: 3654 }, { month: "202512", views: 3413 }, { month: "202601", views: 3266 }, { month: "202602", views: 3357 }, { month: "202603", views: 3603 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 139. ボケ（YList: クサボケの記事はボケ, 実体はChaenomeles speciosa）─────
+  {
+    id: "boke",
+    jaName: "ボケ",
+    enName: "Flowering Quince",
+    scientificName: "Chaenomeles speciosa",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "バラ科ボケ属の落葉低木。中国原産で平安時代に日本に渡来。春に枝に沿って赤、桃、白の5弁花を多数咲かせる。果実は楕円形で芳香があり、果実酒（ボケ酒）や漢方薬（木瓜）に使われる。日本自生種は同属のクサボケ（Chaenomeles japonica）。盆栽・庭木として親しまれる。",
+    enDescription: "A deciduous shrub in the rose family, native to China, introduced to Japan in the Heian period. In spring, red, pink, or white 5-petaled flowers line the branches. The ellipsoid fruit is fragrant and used for fruit liquor ('boke-shu') and Chinese medicine ('mokka'). The Japanese native congener is 'kusa-boke' (Chaenomeles japonica). Popular as bonsai and garden shrubs.",
+    identificationPoints: [
+      "枝に鋭い棘、葉は卵形で鋸歯",
+      "春に5弁花、赤・桃・白の品種多数",
+      "果実は楕円形で芳香",
+    ],
+    enIdentificationPoints: [
+      "Sharp thorns on branches; ovate leaves with serrated margins",
+      "5-petaled spring flowers in red, pink, or white cultivars",
+      "Fragrant ellipsoid fruit",
+    ],
+    habitat: "栽培（庭木、盆栽）",
+    enHabitat: "Cultivated (garden shrubs, bonsai)",
+    season: "3〜4月（花）、9〜10月（果実）",
+    enSeason: "March to April (flowers), September to October (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chaenomeles_speciosa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ボケ_(植物)" },
+    ],
+    tags: ["木本", "落葉低木", "花木", "盆栽", "中国原産"],
+    enTags: ["Tree", "Deciduous shrub", "Flowering tree", "Bonsai", "Chinese"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "deciduous", petalCount: 5, flowerColor: "red", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ボケ_(植物)" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ボケ", totalViews: 2125, window: "202504-202603", months: [{ month: "202504", views: 273 }, { month: "202505", views: 179 }, { month: "202506", views: 134 }, { month: "202507", views: 119 }, { month: "202508", views: 173 }, { month: "202509", views: 171 }, { month: "202510", views: 152 }, { month: "202511", views: 126 }, { month: "202512", views: 211 }, { month: "202601", views: 198 }, { month: "202602", views: 130 }, { month: "202603", views: 259 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 140. ヒヤシンス（YList: ヒアシンス）─────
+  {
+    id: "hyacinth",
+    jaName: "ヒヤシンス",
+    enName: "Hyacinth",
+    scientificName: "Hyacinthus orientalis",
+    familyId: "asparagaceae",
+    familyJaName: "キジカクシ科",
+    description:
+      "キジカクシ科ツルボ亜科ヒヤシンス属の球根性多年草。別名ヒアシンス、風信子（ふうしんし）。地中海東岸〜中央アジア原産。耐寒性秋植え球根で、鉢植えや水栽培で観賞される。春に総状花序にベル型の花を多数密集させ、甘い芳香を放つ。花色は青・紫・ピンク・白・黄など多彩。春の季語。",
+    enDescription: "A bulbous perennial in the asparagus family's scilla subfamily. Japanese aliases 'hiacinth' and 'fūshinshi'. Native to the eastern Mediterranean and Central Asia. Grown as a cold-hardy autumn-planted bulb in pots or water culture. Bears dense racemes of fragrant bell-shaped flowers in spring — blue, purple, pink, white, or yellow. A seasonal word for spring.",
+    identificationPoints: [
+      "球根から太い花茎が1本立ち、密な総状花序",
+      "花はベル型の小花、6花被片",
+      "葉は線形で太く直立",
+    ],
+    enIdentificationPoints: [
+      "A single thick flower stalk with a dense raceme from the bulb",
+      "Bell-shaped flowers with 6 tepals",
+      "Thick linear erect leaves",
+    ],
+    habitat: "栽培（鉢植え、水栽培、花壇）",
+    enHabitat: "Cultivated (pots, water culture, flowerbeds)",
+    season: "3〜4月（花）",
+    enSeason: "March to April (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hyacinthus_orientalis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒヤシンス" },
+    ],
+    tags: ["草本", "多年草", "球根", "花卉", "観賞用"],
+    enTags: ["Herb", "Perennial", "Bulb", "Flower", "Ornamental"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "linear", habit: "herb", deciduous: "deciduous", petalCount: 6, flowerColor: "purple", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヒヤシンス" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒヤシンス", totalViews: 41004, window: "202504-202603", months: [{ month: "202504", views: 5583 }, { month: "202505", views: 3295 }, { month: "202506", views: 2068 }, { month: "202507", views: 1976 }, { month: "202508", views: 2015 }, { month: "202509", views: 1989 }, { month: "202510", views: 2914 }, { month: "202511", views: 2632 }, { month: "202512", views: 4054 }, { month: "202601", views: 4207 }, { month: "202602", views: 4246 }, { month: "202603", views: 6025 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 141. クサボケ（YList: クサボケ, 日本自生）─────
+  {
+    id: "kusaboke",
+    jaName: "クサボケ",
+    enName: "Japanese Quince",
+    scientificName: "Chaenomeles japonica",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "バラ科ボケ属の落葉小低木。日本自生種で本州（岩手以南）〜九州の日当たりの良い野山に自生する。背丈は30〜100cmと小型で地を這うように広がる。春に朱赤色の5弁花を咲かせ、夏には黄色く熟す直径3〜4cmの香り高い果実をつける。果実酒や薬用（木瓜）に利用され、盆栽や庭木としても親しまれる。",
+    enDescription: "A small deciduous shrub in the rose family's Chaenomeles genus. Native to Japan, growing wild from Honshu (south of Iwate) to Kyushu in sunny fields and hillsides. Only 30–100 cm tall, spreading low along the ground. Bears vermilion-red 5-petaled flowers in spring and fragrant yellow 3–4 cm fruits in summer. Used for fruit liquor and medicinal purposes ('mokka'), and popular as bonsai and garden shrubs.",
+    identificationPoints: [
+      "背丈30〜100cmの小型低木、地を這う",
+      "枝に棘、葉は卵形で鋸歯",
+      "朱赤色の5弁花、直径2.5〜3.5cm",
+    ],
+    enIdentificationPoints: [
+      "Small low-growing shrub 30–100 cm tall",
+      "Thorny branches with ovate serrated leaves",
+      "Vermilion-red 5-petaled flowers 2.5–3.5 cm across",
+    ],
+    habitat: "山野の草地・林縁（本州岩手以南〜九州）",
+    enHabitat: "Mountain grasslands and forest edges (Honshu south of Iwate to Kyushu)",
+    season: "3〜5月（花）、8〜9月（果実）",
+    enSeason: "March to May (flowers), August to September (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chaenomeles_japonica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クサボケ" },
+    ],
+    tags: ["木本", "落葉低木", "花木", "日本自生", "盆栽"],
+    enTags: ["Tree", "Deciduous shrub", "Flowering tree", "Native to Japan", "Bonsai"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "shrub", deciduous: "deciduous", petalCount: 5, flowerColor: "red", floweringSeason: "spring", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/クサボケ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ボケ (植物)", totalViews: 41224, window: "202504-202603", months: [{ month: "202504", views: 8337 }, { month: "202505", views: 3199 }, { month: "202506", views: 1823 }, { month: "202507", views: 1470 }, { month: "202508", views: 1790 }, { month: "202509", views: 1799 }, { month: "202510", views: 1850 }, { month: "202511", views: 1943 }, { month: "202512", views: 2057 }, { month: "202601", views: 3405 }, { month: "202602", views: 4139 }, { month: "202603", views: 9412 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+  // ───── 142. ジャイアント・ホグウィード（YList外、Heracleum mantegazzianum）─────
+  {
+    id: "giant_hogweed",
+    jaName: "ジャイアント・ホグウィード",
+    enName: "Giant Hogweed",
+    scientificName: "Heracleum mantegazzianum",
+    familyId: "apiaceae",
+    familyJaName: "セリ科",
+    description:
+      "セリ科ハナウド属の大型多年草。コーカサス地方原産で、ヨーロッパ・北米に侵入し特定外来種・駆除対象とされる。樹液（フロクマリン類）が皮膚に付くと紫外線と反応して重度の光線過敏性皮膚炎を起こすことで「世界で最も危険な植物の一つ」として知られる。高さ3〜5mに達し、セリ科らしい大型の白い複散形花序をつける。日本では未定着とされるが要注意外来生物。",
+    enDescription: "A giant perennial in the carrot family, native to the Caucasus. Invasive in Europe and North America where it is designated for eradication. Sap containing furocoumarins causes severe phytophotodermatitis (skin burns) on contact with sunlight — making it one of the 'most dangerous plants in the world'. Reaches 3–5 m with large white compound umbels. Not yet naturalized in Japan but listed as an alert invasive species.",
+    identificationPoints: [
+      "草丈3〜5m、茎は中空で直径5〜10cm、紫の斑点",
+      "葉は深裂する大型の掌状、最大1.5m幅",
+      "白色の複散形花序、直径50〜80cm",
+    ],
+    enIdentificationPoints: [
+      "3–5 m tall; hollow stem 5–10 cm thick with purple blotches",
+      "Deeply lobed palmate leaves up to 1.5 m wide",
+      "White compound umbel 50–80 cm across",
+    ],
+    habitat: "河原、路傍、荒地（原産地：コーカサス。侵入地：欧米の河川敷など）",
+    enHabitat: "Riverbanks, roadsides, wastelands (native to the Caucasus; invasive in Europe and North America)",
+    season: "6〜7月（花）",
+    enSeason: "June to July (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Heracleum_mantegazzianum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ジャイアント・ホグウィード" },
+    ],
+    tags: ["草本", "多年草", "有毒植物", "侵略的外来種", "大型"],
+    enTags: ["Herb", "Perennial", "Toxic", "Invasive", "Giant"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "white", floweringSeason: "summer", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ジャイアント・ホグウィード" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ジャイアント・ホグウィード", totalViews: 293032, window: "202504-202603", months: [{ month: "202504", views: 2492 }, { month: "202505", views: 1439 }, { month: "202506", views: 185099 }, { month: "202507", views: 81712 }, { month: "202508", views: 5500 }, { month: "202509", views: 2163 }, { month: "202510", views: 1870 }, { month: "202511", views: 1503 }, { month: "202512", views: 6629 }, { month: "202601", views: 1830 }, { month: "202602", views: 1426 }, { month: "202603", views: 1369 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 143. トリカブト（YList外（属総称）、Aconitum）─────
+  {
+    id: "aconitum",
+    jaName: "トリカブト",
+    enName: "Monkshood (Aconitum)",
+    scientificName: "Aconitum",
+    familyId: "ranunculaceae",
+    familyJaName: "キンポウゲ科",
+    description:
+      "キンポウゲ科トリカブト属の多年草の総称。北半球の温帯に約300種が分布し、日本には約30種が自生。兜（烏帽子）のような独特な花形が名前の由来で、青紫・白・黄などの花を総状につける。全草にアコニチン系アルカロイドを含み、日本三大有毒植物の一つ。古来より狩猟の矢毒や薬用（附子）に用いられた。山地の湿った林床や草原に自生。",
+    enDescription: "The collective name for perennials in genus Aconitum, buttercup family. About 300 species across the temperate Northern Hemisphere; ~30 native to Japan. The distinctive hood-shaped flower (resembling a medieval helmet) gives it both the Japanese name 'tori-kabuto' and the English 'monkshood'. Purple, white, or yellow flowers on racemes. All parts contain aconitine-type alkaloids — one of Japan's three most poisonous plants. Used historically as arrow poison and in traditional medicine ('bushi'). Grows in moist mountain forests and meadows.",
+    identificationPoints: [
+      "花は兜形の独特な形、青紫が代表色",
+      "葉は深く3〜5裂し、更に細裂",
+      "根茎は塊状の紡錘形（附子）",
+    ],
+    enIdentificationPoints: [
+      "Distinctive hood-shaped flowers, typically blue-purple",
+      "Leaves deeply 3–5 lobed with further fine divisions",
+      "Spindle-shaped tuberous rootstock ('bushi')",
+    ],
+    habitat: "山地の湿った林床、草原",
+    enHabitat: "Moist mountain forests and meadows",
+    season: "7〜10月（花）",
+    enSeason: "July to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aconitum_japonicum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トリカブト" },
+    ],
+    tags: ["草本", "多年草", "有毒植物", "薬用", "日本自生"],
+    enTags: ["Herb", "Perennial", "Toxic", "Medicinal", "Native to Japan"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "summer", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/トリカブト" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トリカブト", totalViews: 125963, window: "202504-202603", months: [{ month: "202504", views: 13361 }, { month: "202505", views: 15252 }, { month: "202506", views: 10593 }, { month: "202507", views: 8937 }, { month: "202508", views: 11110 }, { month: "202509", views: 12698 }, { month: "202510", views: 12122 }, { month: "202511", views: 9312 }, { month: "202512", views: 7478 }, { month: "202601", views: 8295 }, { month: "202602", views: 6855 }, { month: "202603", views: 9950 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 144. シナモン（YList外、Cinnamomum verum）─────
+  {
+    id: "cinnamon",
+    jaName: "シナモン",
+    enName: "Cinnamon",
+    scientificName: "Cinnamomum verum",
+    familyId: "lauraceae",
+    familyJaName: "クスノキ科",
+    description:
+      "クスノキ科ニッケイ属の常緑高木。スリランカ原産で「セイロンシナモン」とも呼ばれる。樹皮を乾燥させた香辛料シナモンは世界最古のスパイスの一つで、古代エジプト以来利用されてきた。甘く温かみのある独特の香りで、菓子・飲料・料理に広く用いられる。日本の近縁種ニッケイ（Cinnamomum sieboldii）は別種。カシア（C. cassia）も「シナモン」として流通することが多い。",
+    enDescription: "An evergreen tree in the laurel family. Native to Sri Lanka (hence 'Ceylon cinnamon'). The dried inner bark is among the world's oldest spices, used since ancient Egypt. Its warm, sweet fragrance is prized in pastries, drinks, and savory cooking worldwide. A close relative is Japanese cinnamon (C. sieboldii). Chinese cinnamon (C. cassia) is also sold as 'cinnamon'.",
+    identificationPoints: [
+      "葉は革質で光沢、3本の主脈が目立つ",
+      "樹皮は薄い灰褐色、剥がして巻くと筒状（スティック）",
+      "小さな黄白色の花を円錐花序につける",
+    ],
+    enIdentificationPoints: [
+      "Leathery glossy leaves with three prominent main veins",
+      "Pale grey-brown bark rolled into quills (sticks) when peeled",
+      "Small yellowish-white flowers in panicles",
+    ],
+    habitat: "栽培（熱帯）",
+    enHabitat: "Cultivated (tropical)",
+    season: "通年（常緑）、1〜3月（花）",
+    enSeason: "Year-round (evergreen); January to March (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cinnamomum_verum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シナモン" },
+    ],
+    tags: ["木本", "常緑高木", "香辛料", "熱帯", "古代から利用"],
+    enTags: ["Tree", "Evergreen", "Spice", "Tropical", "Ancient use"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "evergreen", flowerColor: "yellow", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/シナモン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シナモン", totalViews: 86141, window: "202504-202603", months: [{ month: "202504", views: 8621 }, { month: "202505", views: 6710 }, { month: "202506", views: 4658 }, { month: "202507", views: 5962 }, { month: "202508", views: 6045 }, { month: "202509", views: 6908 }, { month: "202510", views: 8116 }, { month: "202511", views: 8192 }, { month: "202512", views: 8388 }, { month: "202601", views: 7315 }, { month: "202602", views: 7073 }, { month: "202603", views: 8153 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 145. ギンピ・ギンピ（YList外、Dendrocnide moroides）─────
+  {
+    id: "gympie_gympie",
+    jaName: "ギンピ・ギンピ",
+    enName: "Gympie-Gympie",
+    scientificName: "Dendrocnide moroides",
+    familyId: "urticaceae",
+    familyJaName: "イラクサ科",
+    description:
+      "イラクサ科デンドロクニデ属の低木。オーストラリア東部〜マレー諸島の熱帯雨林に自生。葉や茎を覆う微細なケイ酸質の毒針毛が刺さると、モロイジンという神経毒ペプチドが注入され、「世界一痛い植物」と呼ばれる激痛が数ヶ月〜数年続く。触れただけで致命的な痛みを引き起こすため、馬や犬の死亡例も記録されている。別名スティンギング・ツリー（stinging tree）。",
+    enDescription: "A shrub in the nettle family native to tropical rainforests from eastern Australia to the Malay Archipelago. Fine silica-tipped stinging hairs on leaves and stems inject the neurotoxic peptide moroidin, causing excruciating pain that can last for months or years — earning the title 'world's most painful plant'. Fatal cases in horses and dogs are recorded. Also known as 'stinging tree'.",
+    identificationPoints: [
+      "葉は大きなハート形、表裏に密な毒針毛",
+      "茎や葉柄にも針毛",
+      "小さな桃色〜赤色の液果を房状につける",
+    ],
+    enIdentificationPoints: [
+      "Large heart-shaped leaves densely covered with stinging hairs on both sides",
+      "Stinging hairs also on stems and petioles",
+      "Small pink to red berries in clusters",
+    ],
+    habitat: "熱帯雨林（オーストラリア東部〜マレー諸島）",
+    enHabitat: "Tropical rainforests (eastern Australia to Malay Archipelago)",
+    season: "通年（常緑）",
+    enSeason: "Year-round (evergreen)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocnide_moroides.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ギンピ・ギンピ" },
+    ],
+    tags: ["木本", "常緑低木", "有毒植物", "熱帯", "神経毒"],
+    enTags: ["Tree", "Evergreen shrub", "Toxic", "Tropical", "Neurotoxin"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "cordate", habit: "tree", deciduous: "evergreen", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ギンピ・ギンピ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ギンピ・ギンピ", totalViews: 74910, window: "202504-202603", months: [{ month: "202504", views: 13528 }, { month: "202505", views: 6974 }, { month: "202506", views: 13491 }, { month: "202507", views: 7511 }, { month: "202508", views: 6994 }, { month: "202509", views: 5903 }, { month: "202510", views: 3542 }, { month: "202511", views: 3892 }, { month: "202512", views: 5223 }, { month: "202601", views: 2928 }, { month: "202602", views: 2332 }, { month: "202603", views: 2592 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 146. ユリ（YList外（属総称）、Lilium）─────
+  {
+    id: "lilium",
+    jaName: "ユリ",
+    enName: "Lily (Lilium)",
+    scientificName: "Lilium",
+    familyId: "liliaceae",
+    familyJaName: "ユリ科",
+    description:
+      "ユリ科ユリ属の球根性多年草の総称。北半球の温帯に約100種が分布し、日本は15種を産する世界的な固有種中心地の一つ。明治期に欧米へ輸出されたヤマユリ・テッポウユリ・オニユリなどは観賞用・園芸品種の祖となった。大型で華やかな6花被片の花と独特の強い芳香が特徴。アジアティック系・オリエンタル系など多数の品種群がある。",
+    enDescription: "The collective name for bulbous perennials in genus Lilium, lily family. About 100 species across the temperate Northern Hemisphere; Japan is a major endemic centre with 15 species. Species exported from Japan in the Meiji era — including Lilium auratum, L. longiflorum, and L. lancifolium — are the ancestors of many modern cultivars. Characterised by large, showy 6-tepaled flowers with intense fragrance. Major horticultural groups include Asiatic and Oriental hybrids.",
+    identificationPoints: [
+      "球根から直立する茎、葉は線形〜披針形で互生または輪生",
+      "花は大型で6花被片、平開〜漏斗状、強い芳香",
+      "果実は蒴果で扁平な種子を多数含む",
+    ],
+    enIdentificationPoints: [
+      "Erect stem from a scaly bulb; linear to lanceolate leaves, alternate or whorled",
+      "Large flowers with 6 tepals; flat to trumpet-shaped; strongly fragrant",
+      "Capsule fruit with numerous flat seeds",
+    ],
+    habitat: "山地の草原・林縁（自生種）、栽培（園芸種）",
+    enHabitat: "Mountain meadows and forest edges (wild); cultivated (ornamental)",
+    season: "5〜8月（花）",
+    enSeason: "May to August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lilium_auratum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ユリ" },
+    ],
+    tags: ["草本", "多年草", "球根", "花卉", "日本自生"],
+    enTags: ["Herb", "Perennial", "Bulb", "Flower", "Native to Japan"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "linear", habit: "herb", deciduous: "deciduous", petalCount: 6, flowerColor: "white", floweringSeason: "summer", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ユリ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ユリ", totalViews: 70051, window: "202504-202603", months: [{ month: "202504", views: 5189 }, { month: "202505", views: 7457 }, { month: "202506", views: 8025 }, { month: "202507", views: 8043 }, { month: "202508", views: 7794 }, { month: "202509", views: 5443 }, { month: "202510", views: 5961 }, { month: "202511", views: 4579 }, { month: "202512", views: 4339 }, { month: "202601", views: 4529 }, { month: "202602", views: 4035 }, { month: "202603", views: 4657 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い（個別種はオニユリ・コオニユリ・エゾスカシユリを別掲載）。" },
+  },
+
+  // ───── 147. カエデ（YList外（属総称）、Acer）─────
+  {
+    id: "acer",
+    jaName: "カエデ",
+    enName: "Maple (Acer)",
+    scientificName: "Acer",
+    familyId: "sapindaceae",
+    familyJaName: "ムクロジ科",
+    description:
+      "ムクロジ科カエデ属の落葉高木〜低木の総称。北半球の温帯を中心に約160種が分布し、日本には約25種が自生。和名「カエデ」は葉が蛙の手に似ることから「蛙手（かえるで）」が転じた。秋の紅葉の主役であり、日本文化においては古来より詩歌・絵画に多く題材とされてきた。翼果（プロペラ状の果実）が特徴。北米のサトウカエデ（A. saccharum）は樹液がメープルシロップの原料。",
+    enDescription: "The collective name for deciduous trees and shrubs in genus Acer, soapberry family. About 160 species worldwide, mostly in the temperate Northern Hemisphere; ~25 native to Japan. The Japanese name 'kaede' derives from 'kaeru-de' (frog's hand), describing the leaf shape. Maples are iconic for autumn colour and have long been subjects of Japanese poetry and painting. Characterised by winged fruits (samaras). The sap of sugar maple (A. saccharum, North America) is the source of maple syrup.",
+    identificationPoints: [
+      "葉は掌状に3〜7裂、対生",
+      "果実は2翼のプロペラ状の翼果",
+      "秋に赤・橙・黄の紅葉",
+    ],
+    enIdentificationPoints: [
+      "Opposite palmate leaves with 3–7 lobes",
+      "Paired winged samaras (propeller-like)",
+      "Red, orange, and yellow autumn foliage",
+    ],
+    habitat: "温帯の森林",
+    enHabitat: "Temperate forests",
+    season: "10〜12月（紅葉）",
+    enSeason: "October to December (autumn colour)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Acer_palmatum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カエデ" },
+    ],
+    tags: ["木本", "落葉", "紅葉", "日本自生", "代表樹"],
+    enTags: ["Tree", "Deciduous", "Autumn colour", "Native to Japan", "Iconic tree"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "palmate", habit: "tree", deciduous: "deciduous", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カエデ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カエデ", totalViews: 69320, window: "202504-202603", months: [{ month: "202504", views: 6303 }, { month: "202505", views: 7470 }, { month: "202506", views: 5624 }, { month: "202507", views: 5058 }, { month: "202508", views: 4943 }, { month: "202509", views: 5525 }, { month: "202510", views: 7963 }, { month: "202511", views: 9968 }, { month: "202512", views: 5534 }, { month: "202601", views: 4021 }, { month: "202602", views: 3385 }, { month: "202603", views: 3526 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い（個別種はイロハモミジ・トウカエデを別掲載）。" },
+  },
+
+  // ───── 148. グミ（YList外（属総称）、Elaeagnus）─────
+  {
+    id: "elaeagnus",
+    jaName: "グミ",
+    enName: "Silverberry / Oleaster (Elaeagnus)",
+    scientificName: "Elaeagnus",
+    familyId: "elaeagnaceae",
+    familyJaName: "グミ科",
+    description:
+      "グミ科グミ属の落葉または常緑の低木〜小高木の総称。日本には15種ほどが自生。枝には棘があり、葉や若い果実は銀色〜褐色の鱗状毛で覆われる。春〜初夏に筒状の白〜淡黄花を咲かせ、楕円形の赤い液果（小核果）をつける。果実は甘酸っぱく生食や果実酒に。ナツグミ、アキグミ、ビックリグミ、ナワシログミなど多数の種がある。菓子のグミとは無関係。",
+    enDescription: "The collective name for deciduous or evergreen shrubs and small trees in genus Elaeagnus, Elaeagnaceae family. ~15 species native to Japan. Branches bear thorns; leaves and young fruit are covered with silvery to brownish scales. Tubular white to pale yellow flowers in spring or early summer produce elliptical red drupes with sweet-tart flesh, eaten fresh or made into liquor. Includes natsu-gumi, aki-gumi, bikkuri-gumi, and nawashiro-gumi among others. Unrelated to the confectionery gummy.",
+    identificationPoints: [
+      "葉や新芽に銀色の鱗状毛",
+      "枝に棘",
+      "赤い楕円形の果実、縦筋がある",
+    ],
+    enIdentificationPoints: [
+      "Silvery scales on leaves and shoots",
+      "Thorny branches",
+      "Elliptical red fruit with longitudinal striations",
+    ],
+    habitat: "山野の林縁・草地",
+    enHabitat: "Mountain forest edges and grasslands",
+    season: "4〜6月（花）、5〜11月（果実、種により異なる）",
+    enSeason: "April to June (flowers); May to November (fruit, depending on species)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Elaeagnus_umbellata.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/グミ_(植物)" },
+    ],
+    tags: ["木本", "落葉低木", "果樹", "日本自生", "山菜"],
+    enTags: ["Tree", "Deciduous shrub", "Fruit", "Native to Japan", "Wild edible"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "deciduous", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/グミ_(植物)" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "グミ (植物)", totalViews: 64784, window: "202504-202603", months: [{ month: "202504", views: 4523 }, { month: "202505", views: 10597 }, { month: "202506", views: 12023 }, { month: "202507", views: 7589 }, { month: "202508", views: 4665 }, { month: "202509", views: 4425 }, { month: "202510", views: 3761 }, { month: "202511", views: 4684 }, { month: "202512", views: 2798 }, { month: "202601", views: 2372 }, { month: "202602", views: 3077 }, { month: "202603", views: 4270 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い（個別種はナツグミを別掲載）。" },
+  },
+
+  // ───── 149. マンドレイク（YList外、Mandragora officinarum）─────
+  {
+    id: "mandrake",
+    jaName: "マンドレイク",
+    enName: "Mandrake",
+    scientificName: "Mandragora officinarum",
+    familyId: "solanaceae",
+    familyJaName: "ナス科",
+    description:
+      "ナス科マンドラゴラ属の多年草。地中海沿岸〜ヒマラヤ原産。根が人型に分岐することから古来より魔術・伝承の対象となり、「引き抜くと悲鳴を上げ聞いた者は命を落とす」と中世ヨーロッパで信じられた。『旧約聖書』『ハリー・ポッター』など多くの物語に登場。全草にアルカロイドを含み有毒だが、古代より麻酔薬・媚薬として用いられた。和名：コイナスビ。",
+    enDescription: "A perennial in the nightshade family, native from the Mediterranean to the Himalayas. Roots branching in a human-like form made this plant a subject of magic and folklore — medieval Europe believed it would scream when uprooted and kill those who heard. Famous from the Old Testament to Harry Potter. All parts contain tropane alkaloids and are toxic, but have been used since antiquity as anaesthetics and aphrodisiacs. Japanese name 'koi-nasubi'.",
+    identificationPoints: [
+      "ロゼット状に大きな根生葉を地面に広げる",
+      "根は太く長い人型の紡錘形",
+      "鐘形の紫〜淡黄色の花、中心から直接出る",
+    ],
+    enIdentificationPoints: [
+      "Large rosette of basal leaves spread on the ground",
+      "Thick spindle-shaped root often branching in a human-like form",
+      "Bell-shaped purple to pale yellow flowers arising from the centre",
+    ],
+    habitat: "地中海沿岸の岩地・草地",
+    enHabitat: "Rocky grounds and grasslands of the Mediterranean",
+    season: "3〜5月（花）",
+    enSeason: "March to May (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Mandragora_officinarum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マンドレイク" },
+    ],
+    tags: ["草本", "多年草", "有毒植物", "薬用", "伝承"],
+    enTags: ["Herb", "Perennial", "Toxic", "Medicinal", "Folklore"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "spring", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/マンドレイク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マンドレイク", totalViews: 62342, window: "202504-202603", months: [{ month: "202504", views: 5826 }, { month: "202505", views: 5885 }, { month: "202506", views: 5871 }, { month: "202507", views: 4931 }, { month: "202508", views: 5208 }, { month: "202509", views: 4187 }, { month: "202510", views: 4944 }, { month: "202511", views: 5073 }, { month: "202512", views: 4642 }, { month: "202601", views: 4811 }, { month: "202602", views: 6221 }, { month: "202603", views: 4743 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 150. ジャスミン（YList外（属総称）、Jasminum）─────
+  {
+    id: "jasminum",
+    jaName: "ジャスミン",
+    enName: "Jasmine (Jasminum)",
+    scientificName: "Jasminum",
+    familyId: "oleaceae",
+    familyJaName: "モクセイ科",
+    description:
+      "モクセイ科ソケイ属の常緑または落葉の低木・つる性植物の総称。ユーラシア・アフリカの熱帯〜温帯に約200種が分布。芳香の強い花は香料として珍重され、ジャスミンティー（ジャスミン花茶）やジャスミン精油の原料になる。代表種マツリカ（ハゴロモジャスミン：J. sambac）はフィリピン・インドネシアの国花。オウバイ（J. nudiflorum）、ソケイなど多様。",
+    enDescription: "The collective name for evergreen or deciduous shrubs and climbers in genus Jasminum, olive family. About 200 species across tropical and temperate Eurasia and Africa. The intensely fragrant flowers are prized in perfumery and are the source of jasmine tea and jasmine essential oil. The type species 'matsurika' (J. sambac) is the national flower of the Philippines and Indonesia. Also includes winter jasmine (J. nudiflorum) and common jasmine.",
+    identificationPoints: [
+      "葉は単葉または羽状複葉、対生または互生",
+      "花冠は筒状で先が5〜9裂し、白〜黄色",
+      "強い甘い芳香",
+    ],
+    enIdentificationPoints: [
+      "Simple or pinnately compound leaves, opposite or alternate",
+      "Tubular corolla with 5–9 lobes; white or yellow",
+      "Strong sweet fragrance",
+    ],
+    habitat: "栽培（鉢・庭・温室）",
+    enHabitat: "Cultivated (pots, gardens, greenhouses)",
+    season: "種により異なる（春〜秋）",
+    enSeason: "Varies by species (spring to autumn)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jasminum_sambac.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ジャスミン" },
+    ],
+    tags: ["木本", "つる植物", "花木", "香料", "観賞用"],
+    enTags: ["Tree", "Vine", "Flowering tree", "Fragrance", "Ornamental"],
+    traits: { leafArr: "opp", leafType: "compound", habit: "vine", deciduous: "evergreen", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ジャスミン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ジャスミン", totalViews: 60629, window: "202504-202603", months: [{ month: "202504", views: 7750 }, { month: "202505", views: 10517 }, { month: "202506", views: 5762 }, { month: "202507", views: 4647 }, { month: "202508", views: 4537 }, { month: "202509", views: 4212 }, { month: "202510", views: 4161 }, { month: "202511", views: 3636 }, { month: "202512", views: 3090 }, { month: "202601", views: 3435 }, { month: "202602", views: 3684 }, { month: "202603", views: 5198 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い（代表種マツリカ等は記述に含む）。" },
+  },
+
+  // ───── 151. マンチニール（YList外、Hippomane mancinella）─────
+  {
+    id: "manchineel",
+    jaName: "マンチニール",
+    enName: "Manchineel",
+    scientificName: "Hippomane mancinella",
+    familyId: "euphorbiaceae",
+    familyJaName: "トウダイグサ科",
+    description:
+      "トウダイグサ科ヒッポマネ属の常緑高木。中央アメリカ〜南アメリカ北部・カリブ海沿岸の海岸地帯に自生。全身から強力な毒を出し、「世界で最も危険な木」としてギネス記録に登録されている。樹液（乳液）は皮膚に水疱を生じさせ、樹の下の雨宿りも皮膚炎を引き起こすほど。果実はリンゴに似るが食べると激しく毒性を示す。種小名 mancinella（小さなリンゴ）とスペイン語名 manzanilla de la muerte（死のリンゴ）はそれに由来。",
+    enDescription: "An evergreen tree in the spurge family, native to the coasts of Central America, northern South America, and the Caribbean. Recognised by Guinness as 'the world's most dangerous tree'. Its milky sap causes blistering on skin contact — even standing under it in rain causes dermatitis. The apple-like fruit is extremely toxic to eat; its specific epithet 'mancinella' (little apple) and Spanish name 'manzanilla de la muerte' (little apple of death) refer to this.",
+    identificationPoints: [
+      "樹高5〜15m、樹皮は灰色",
+      "葉は光沢のある卵形で互生、縁に鋸歯",
+      "果実はリンゴに似た緑〜黄緑色、直径3〜4cm",
+    ],
+    enIdentificationPoints: [
+      "5–15 m tall with grey bark",
+      "Alternate glossy ovate leaves with serrated margins",
+      "Apple-like green to yellow-green fruit, 3–4 cm across",
+    ],
+    habitat: "熱帯の海岸・マングローブ縁",
+    enHabitat: "Tropical coasts and mangrove edges",
+    season: "通年（常緑）",
+    enSeason: "Year-round (evergreen)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hippomane_mancinella.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マンチニール" },
+    ],
+    tags: ["木本", "常緑高木", "有毒植物", "熱帯", "海岸"],
+    enTags: ["Tree", "Evergreen", "Toxic", "Tropical", "Coastal"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "evergreen", habitat: "coastal" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/マンチニール" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マンチニール", totalViews: 58268, window: "202504-202603", months: [{ month: "202504", views: 7484 }, { month: "202505", views: 6011 }, { month: "202506", views: 12714 }, { month: "202507", views: 5472 }, { month: "202508", views: 4674 }, { month: "202509", views: 3808 }, { month: "202510", views: 3482 }, { month: "202511", views: 3806 }, { month: "202512", views: 3278 }, { month: "202601", views: 2899 }, { month: "202602", views: 2425 }, { month: "202603", views: 2215 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 152. パプリカ（YList外（品種）、Capsicum annuum 'Paprika'）─────
+  {
+    id: "paprika",
+    jaName: "パプリカ",
+    enName: "Paprika (Bell Pepper)",
+    scientificName: "Capsicum annuum 'Paprika'",
+    familyId: "solanaceae",
+    familyJaName: "ナス科",
+    description:
+      "ナス科トウガラシ属の一年草（多年草として育つこともある）トウガラシの栽培品種群。辛味がほとんどなく、肉厚で甘みのある大型のピーマン状の果実が特徴。赤・黄・橙など鮮やかな色の品種があり、サラダや料理の彩りに利用される。ピーマンの改良品種で、1990年代以降オランダなどから輸入が増え、日本でも定着した野菜となった。乾燥粉末（パプリカパウダー）は香辛料。",
+    enDescription: "A cultivar group of Capsicum annuum (Solanaceae). Virtually mild, with thick, sweet fruit larger and fleshier than green bell pepper. Bright red, yellow, and orange cultivars are used as salad ingredients and for colour in cooking. Imports (notably from the Netherlands) rose in Japan from the 1990s, and paprika is now a familiar vegetable. The dried ground powder is used as a spice.",
+    identificationPoints: [
+      "果実は大型の釣り鐘形、肉厚で光沢",
+      "赤・黄・橙の鮮やかな色",
+      "辛味がほとんどない",
+    ],
+    enIdentificationPoints: [
+      "Large bell-shaped thick-walled fruit with a glossy surface",
+      "Bright red, yellow, or orange colours",
+      "Virtually no pungency",
+    ],
+    habitat: "栽培（畑・温室）",
+    enHabitat: "Cultivated (fields and greenhouses)",
+    season: "6〜10月（果実）",
+    enSeason: "June to October (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Capsicum_annuum_Paprika.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/パプリカ" },
+    ],
+    tags: ["草本", "一年草", "野菜", "栽培品種", "香辛料"],
+    enTags: ["Herb", "Annual", "Vegetable", "Cultivar", "Spice"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/パプリカ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "パプリカ", totalViews: 57187, window: "202504-202603", months: [{ month: "202504", views: 4442 }, { month: "202505", views: 5327 }, { month: "202506", views: 5833 }, { month: "202507", views: 4979 }, { month: "202508", views: 5198 }, { month: "202509", views: 4932 }, { month: "202510", views: 4695 }, { month: "202511", views: 5014 }, { month: "202512", views: 4281 }, { month: "202601", views: 5394 }, { month: "202602", views: 3462 }, { month: "202603", views: 3630 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 153. カリン（YList外、Pseudocydonia sinensis）─────
+  {
+    id: "karin",
+    jaName: "カリン",
+    enName: "Chinese Quince",
+    scientificName: "Pseudocydonia sinensis",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "バラ科カリン属の落葉高木。中国原産で古くに日本に渡来。春にピンクの5弁花を咲かせ、秋に直径10〜15cmの楕円形の黄色い大きな果実をつける。果実は強い芳香があり、生食はできないが砂糖漬け・果実酒・のど飴（カリンエキス）に加工される。樹皮は灰緑色〜褐色で雲状にまだら状にはがれ、観賞価値がある。同音の「花梨（マメ科の木材）」とは別植物。",
+    enDescription: "A deciduous tree in the rose family, native to China and long naturalized in Japan. Pink 5-petaled flowers in spring give rise to large yellow oval fruit 10–15 cm long in autumn. The fragrant fruit is too astringent to eat raw but is made into preserves, liquor, and throat lozenges (karin extract). The attractive mottled bark (grey-green to brown, peeling in patches) has ornamental value. Not to be confused with the unrelated tropical 'karin' timber (Pterocarpus).",
+    identificationPoints: [
+      "葉は楕円形で鋸歯、互生",
+      "春に淡桃色の5弁花",
+      "果実は黄色の楕円形、直径10〜15cm、強い芳香",
+    ],
+    enIdentificationPoints: [
+      "Alternate elliptic leaves with serrated margins",
+      "Pale pink 5-petaled flowers in spring",
+      "Yellow oval fruit 10–15 cm across with strong fragrance",
+    ],
+    habitat: "栽培（庭木・果樹園）",
+    enHabitat: "Cultivated (gardens and orchards)",
+    season: "4〜5月（花）、10〜11月（果実）",
+    enSeason: "April to May (flowers); October to November (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pseudocydonia_sinensis.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カリン_(バラ科)" },
+    ],
+    tags: ["木本", "落葉高木", "果樹", "花木", "薬用"],
+    enTags: ["Tree", "Deciduous", "Fruit tree", "Flowering tree", "Medicinal"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "deciduous", petalCount: 5, flowerColor: "pink", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カリン_(バラ科)" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カリン (バラ科)", totalViews: 55575, window: "202504-202603", months: [{ month: "202504", views: 5584 }, { month: "202505", views: 4648 }, { month: "202506", views: 3537 }, { month: "202507", views: 3012 }, { month: "202508", views: 3385 }, { month: "202509", views: 4242 }, { month: "202510", views: 6806 }, { month: "202511", views: 8761 }, { month: "202512", views: 5441 }, { month: "202601", views: 3448 }, { month: "202602", views: 3599 }, { month: "202603", views: 3112 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 154. ローゼル（YList外、Hibiscus sabdariffa）─────
+  {
+    id: "roselle",
+    jaName: "ローゼル",
+    enName: "Roselle",
+    scientificName: "Hibiscus sabdariffa",
+    familyId: "malvaceae",
+    familyJaName: "アオイ科",
+    description:
+      "アオイ科フヨウ属の一年草または短命多年草。西アフリカ原産で、熱帯〜亜熱帯で広く栽培される。花の基部に発達する多肉質の赤い萼（がく）が主な利用部で、乾燥させてハイビスカスティー（ローゼルティー）の原料になる。ビタミンC・クエン酸・アントシアニンに富み、鮮やかな赤色と酸味が特徴。ジャム・清涼飲料・ソースにも利用される。日本では沖縄・九州の一部で栽培。",
+    enDescription: "An annual or short-lived perennial in the mallow family, native to West Africa and widely cultivated in tropical and subtropical regions. The fleshy red calyces at the base of the flowers are the main product — dried, they are the source of hibiscus (roselle) tea. Rich in vitamin C, citric acid, and anthocyanins, giving a vivid red colour and tart taste. Also used in jams, drinks, and sauces. In Japan, cultivated in parts of Okinawa and Kyushu.",
+    identificationPoints: [
+      "草丈1〜2m、茎は赤みを帯びる",
+      "葉は3〜5裂、掌状",
+      "花は淡黄色で中心が赤、基部の萼が赤く肥厚",
+    ],
+    enIdentificationPoints: [
+      "1–2 m tall with reddish stems",
+      "Palmately 3–5 lobed leaves",
+      "Pale yellow flowers with a red centre; thickened red calyces at the base",
+    ],
+    habitat: "栽培（熱帯・亜熱帯）",
+    enHabitat: "Cultivated (tropical and subtropical)",
+    season: "10〜12月（花・萼の収穫）",
+    enSeason: "October to December (flowers and calyx harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hibiscus_sabdariffa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ローゼル" },
+    ],
+    tags: ["草本", "一年草", "ハーブ", "野菜", "熱帯"],
+    enTags: ["Herb", "Annual", "Herb", "Vegetable", "Tropical"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "palmate", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ローゼル" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ローゼル", totalViews: 52765, window: "202504-202603", months: [{ month: "202504", views: 1901 }, { month: "202505", views: 2666 }, { month: "202506", views: 2254 }, { month: "202507", views: 1990 }, { month: "202508", views: 2588 }, { month: "202509", views: 6038 }, { month: "202510", views: 17679 }, { month: "202511", views: 8505 }, { month: "202512", views: 2856 }, { month: "202601", views: 2181 }, { month: "202602", views: 1913 }, { month: "202603", views: 2194 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 155. ナツメグ（YList外、Myristica fragrans）─────
+  {
+    id: "nutmeg",
+    jaName: "ナツメグ",
+    enName: "Nutmeg",
+    scientificName: "Myristica fragrans",
+    familyId: "myristicaceae",
+    familyJaName: "ニクズク科",
+    description:
+      "ニクズク科ニクズク属の常緑高木。インドネシア・モルッカ諸島原産で、現在はインドネシア・グレナダなど熱帯で広く栽培。和名ニクズク。種子を挽いたナツメグと、種子を覆う赤い仮種皮を乾かしたメースの2種類の香辛料が採れる。独特の温かく甘い香りでハンバーグや菓子、飲料に広く使われる。大量摂取で幻覚・中毒を起こすため、香辛料として少量のみ使う。16世紀の「スパイス戦争」の引き金となった歴史的香辛料。",
+    enDescription: "An evergreen tree in the Myristicaceae family, native to the Moluccas of Indonesia, now cultivated throughout the tropics (Indonesia, Grenada, etc.). Japanese name 'niku-zuku'. Two spices come from it: nutmeg (the ground seed) and mace (the dried red aril enclosing the seed). Its warm sweet fragrance is widely used in meat dishes, baked goods, and drinks. Large doses cause hallucinations and poisoning; only small amounts are used as spice. Historically the cause of the 16th-century 'Spice Wars'.",
+    identificationPoints: [
+      "常緑高木、樹高10〜20m",
+      "葉は光沢のある楕円形で互生",
+      "果実は桃形、熟すと裂開して赤い仮種皮で包まれた種子が現れる",
+    ],
+    enIdentificationPoints: [
+      "Evergreen tree 10–20 m tall",
+      "Alternate glossy elliptic leaves",
+      "Peach-like fruit splitting at maturity to reveal the seed in a red aril",
+    ],
+    habitat: "栽培（熱帯）",
+    enHabitat: "Cultivated (tropical)",
+    season: "通年（果実は年2回）",
+    enSeason: "Year-round (fruit twice a year)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Myristica_fragrans.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ナツメグ" },
+    ],
+    tags: ["木本", "常緑高木", "香辛料", "熱帯", "歴史"],
+    enTags: ["Tree", "Evergreen", "Spice", "Tropical", "Historic"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ナツメグ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナツメグ", totalViews: 52177, window: "202504-202603", months: [{ month: "202504", views: 4461 }, { month: "202505", views: 4668 }, { month: "202506", views: 3552 }, { month: "202507", views: 4191 }, { month: "202508", views: 3850 }, { month: "202509", views: 3759 }, { month: "202510", views: 7115 }, { month: "202511", views: 4184 }, { month: "202512", views: 3400 }, { month: "202601", views: 3543 }, { month: "202602", views: 5983 }, { month: "202603", views: 3471 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 156. ナデシコ（YList外（属総称）、Dianthus）─────
+  {
+    id: "dianthus",
+    jaName: "ナデシコ",
+    enName: "Pink / Dianthus",
+    scientificName: "Dianthus",
+    familyId: "caryophyllaceae",
+    familyJaName: "ナデシコ科",
+    description:
+      "ナデシコ科ナデシコ属の多年草（一部一年草）の総称。ユーラシア・アフリカに約300種が分布、日本には4種が自生。秋の七草のひとつ「カワラナデシコ（大和撫子）」は日本の代表的な野の花で、「日本女性の美徳」の象徴としても知られる。花弁の縁が細かく切れ込む独特の形が特徴。古くから「撫でるように可愛がる子」の意味で万葉集にも詠まれる。カーネーション（D. caryophyllus）も同属。",
+    enDescription: "The collective name for perennials (some annuals) in genus Dianthus, pink family. About 300 species across Eurasia and Africa; 4 native to Japan. 'Kawara-nadeshiko' (D. superbus), one of the seven autumn flowers, is an iconic Japanese wildflower and a symbol of 'yamato-nadeshiko' (the idealised Japanese woman). Petals typically have finely fringed or toothed margins. Appears in the Manyōshū — 'nadeshiko' means 'beloved child one strokes'. Carnation (D. caryophyllus) is also in this genus.",
+    identificationPoints: [
+      "葉は線形で対生、無毛",
+      "花弁の縁が細かく切れ込む",
+      "花色はピンクが代表、白・赤・紫など",
+    ],
+    enIdentificationPoints: [
+      "Linear opposite glabrous leaves",
+      "Petals with finely fringed or toothed margins",
+      "Typically pink; also white, red, purple",
+    ],
+    habitat: "草原、河原、栽培（園芸）",
+    enHabitat: "Meadows, riverbanks, cultivated (ornamental)",
+    season: "6〜9月（花）",
+    enSeason: "June to September (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dianthus_superbus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ナデシコ" },
+    ],
+    tags: ["草本", "多年草", "秋の七草", "花卉", "日本自生"],
+    enTags: ["Herb", "Perennial", "Autumn seven flowers", "Flower", "Native to Japan"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "linear", habit: "herb", deciduous: "deciduous", flowerColor: "pink", floweringSeason: "summer", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ナデシコ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナデシコ", totalViews: 50077, window: "202504-202603", months: [{ month: "202504", views: 4743 }, { month: "202505", views: 7292 }, { month: "202506", views: 4829 }, { month: "202507", views: 3711 }, { month: "202508", views: 4656 }, { month: "202509", views: 4794 }, { month: "202510", views: 4495 }, { month: "202511", views: 3551 }, { month: "202512", views: 2709 }, { month: "202601", views: 2930 }, { month: "202602", views: 2654 }, { month: "202603", views: 3713 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い。" },
+  },
+
+  // ───── 157. サボテン（YList外（科総称）、Cactaceae）─────
+  {
+    id: "cactaceae",
+    jaName: "サボテン",
+    enName: "Cactus",
+    scientificName: "Cactaceae",
+    familyId: "cactaceae",
+    familyJaName: "サボテン科",
+    description:
+      "サボテン科の多肉植物の総称。新大陸（主に南北アメリカ）の乾燥地に約2000種が分布。茎が肥大して水分を貯え、葉は退化して棘（刺座：アレオーレ）となるのが基本形。独自の棘の束「アレオーレ」の存在でサボテン科か他の多肉植物かを区別できる。花は鮮やかで種によっては夜咲き。園芸・観賞用に世界中で栽培される。ウチワサボテンの果実は食用（プリックリーペア）。",
+    enDescription: "The collective name for succulents in the Cactaceae family. About 2,000 species native to the New World (mainly the Americas), adapted to arid conditions. The typical form has a thickened water-storing stem and leaves reduced to spines arising from specialised areoles — the presence of areoles distinguishes true cacti from other succulents. Flowers are often brilliantly coloured, some blooming at night. Widely cultivated ornamentals worldwide. Prickly pear (Opuntia) fruit is edible.",
+    identificationPoints: [
+      "茎が肉厚で水を貯える、形は球状・円筒状・扁平など",
+      "葉は退化して棘に変化、棘の束「アレオーレ」をもつ",
+      "花は鮮やかで大型、多くは5花弁以上",
+    ],
+    enIdentificationPoints: [
+      "Thick water-storing stems; spherical, cylindrical, or flattened",
+      "Leaves reduced to spines arising from specialised areoles",
+      "Large showy flowers with many tepals",
+    ],
+    habitat: "乾燥地（原産）、栽培（鉢植え）",
+    enHabitat: "Arid regions (native); cultivated (pots)",
+    season: "種により異なる",
+    enSeason: "Varies by species",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cactus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サボテン" },
+    ],
+    tags: ["草本", "多肉植物", "観賞用", "乾燥地", "新大陸"],
+    enTags: ["Herb", "Succulent", "Ornamental", "Arid", "New World"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "evergreen", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/サボテン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "サボテン", totalViews: 49936, window: "202504-202603", months: [{ month: "202504", views: 4214 }, { month: "202505", views: 5421 }, { month: "202506", views: 5348 }, { month: "202507", views: 4423 }, { month: "202508", views: 4606 }, { month: "202509", views: 4596 }, { month: "202510", views: 3705 }, { month: "202511", views: 3463 }, { month: "202512", views: 3208 }, { month: "202601", views: 3546 }, { month: "202602", views: 3326 }, { month: "202603", views: 4080 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。科総称扱い（ウチワサボテンは別掲載）。" },
+  },
+
+  // ───── 158. マツ（YList外（属総称）、Pinus）─────
+  {
+    id: "pinus",
+    jaName: "マツ",
+    enName: "Pine (Pinus)",
+    scientificName: "Pinus",
+    familyId: "pinaceae",
+    familyJaName: "マツ科",
+    description:
+      "マツ科マツ属の常緑針葉樹の総称。北半球の温帯〜亜寒帯に約100種が分布し、日本には6種が自生（アカマツ・クロマツ・ゴヨウマツ・ハイマツ・リュウキュウマツ・チョウセンゴヨウ）。長い針状の葉（2本または5本束生）が束生する葉鞘が特徴。日本では「松竹梅」の筆頭として吉祥の象徴であり、庭園・盆栽・門松に欠かせない。種子（松の実）は食用。建材・薪炭材としても重要。",
+    enDescription: "The collective name for evergreen conifers in genus Pinus, pine family. About 100 species across temperate and subarctic Northern Hemisphere; 6 species native to Japan (red pine, black pine, five-needle pine, creeping pine, Ryukyu pine, and Korean pine). Characterised by long needle-like leaves in bundles of 2 or 5 held by a basal sheath. In Japan, pine is the foremost of the 'shōchikubai' auspicious trio and is indispensable in gardens, bonsai, and New Year decorations. Pine nuts are edible; timber and firewood are also important uses.",
+    identificationPoints: [
+      "針状の葉が2本または5本束生",
+      "毬果（松ぼっくり）をつける",
+      "樹皮は鱗状または亀甲状に割れる",
+    ],
+    enIdentificationPoints: [
+      "Needle-like leaves bundled in 2s or 5s",
+      "Bears cones ('pine cones')",
+      "Bark scaly or fissured in plates",
+    ],
+    habitat: "山地・海岸・栽培（庭木・盆栽）",
+    enHabitat: "Mountains, coasts; cultivated (gardens and bonsai)",
+    season: "通年（常緑）、4〜6月（花粉）",
+    enSeason: "Year-round (evergreen); April to June (pollen)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_densiflora.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マツ" },
+    ],
+    tags: ["木本", "常緑針葉樹", "日本自生", "代表樹", "吉祥"],
+    enTags: ["Tree", "Evergreen conifer", "Native to Japan", "Iconic tree", "Auspicious"],
+    traits: { leafArr: "whor", leafType: "simple", shape: "needle", habit: "tree", deciduous: "evergreen", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/マツ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マツ", totalViews: 47312, window: "202504-202603", months: [{ month: "202504", views: 4483 }, { month: "202505", views: 6858 }, { month: "202506", views: 3939 }, { month: "202507", views: 3319 }, { month: "202508", views: 3715 }, { month: "202509", views: 3435 }, { month: "202510", views: 3770 }, { month: "202511", views: 3747 }, { month: "202512", views: 3774 }, { month: "202601", views: 4009 }, { month: "202602", views: 2940 }, { month: "202603", views: 3323 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い（アカマツ・クロマツは別掲載）。" },
+  },
+
+  // ───── 159. アマランサス（YList外（属総称）、Amaranthus）─────
+  {
+    id: "amaranthus",
+    jaName: "アマランサス",
+    enName: "Amaranth (Amaranthus)",
+    scientificName: "Amaranthus",
+    familyId: "amaranthaceae",
+    familyJaName: "ヒユ科",
+    description:
+      "ヒユ科ヒユ属の一年草の総称。和名ヒユ。アメリカ大陸原産の種が多く、世界各地で擬穀物・野菜・観賞用として栽培される。A. caudatus（センニンコク）の種子はアンデスで古代インカ時代から主食として栽培され、キヌアと並ぶスーパーフード。カルシウム・鉄分・食物繊維に富み、栄養価が高い。葉は菜としても食用になる。赤い尾状花序が観賞される種（ハゲイトウ）もある。",
+    enDescription: "The collective name for annuals in genus Amaranthus, amaranth family. Japanese name 'hiyu'. Many species native to the Americas are cultivated worldwide as pseudo-cereals, vegetables, and ornamentals. A. caudatus has been a staple in the Andes since Inca times; along with quinoa, it is regarded as a superfood, rich in calcium, iron, and dietary fibre. Young leaves are also eaten as a vegetable. A. tricolor (ha-geito) is grown for its ornamental red foliage and tail-like inflorescence.",
+    identificationPoints: [
+      "草丈0.5〜2m、茎は太く赤みを帯びる種も",
+      "葉は卵形で互生、長い葉柄",
+      "穂状・円錐状の小さな花が多数集まる、赤が代表",
+    ],
+    enIdentificationPoints: [
+      "Plant 0.5–2 m tall; stems thick, often reddish",
+      "Alternate ovate leaves with long petioles",
+      "Many small flowers in spikes or panicles; often red",
+    ],
+    habitat: "栽培（畑・家庭菜園・花壇）",
+    enHabitat: "Cultivated (fields, home gardens, flowerbeds)",
+    season: "7〜10月（花・収穫）",
+    enSeason: "July to October (flowers and harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Amaranthus_caudatus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アマランサス" },
+    ],
+    tags: ["草本", "一年草", "擬穀物", "スーパーフード", "観賞用"],
+    enTags: ["Herb", "Annual", "Pseudo-cereal", "Superfood", "Ornamental"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "red", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アマランサス" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アマランサス", totalViews: 46373, window: "202504-202603", months: [{ month: "202504", views: 2221 }, { month: "202505", views: 2786 }, { month: "202506", views: 2758 }, { month: "202507", views: 2621 }, { month: "202508", views: 2965 }, { month: "202509", views: 2918 }, { month: "202510", views: 2716 }, { month: "202511", views: 2087 }, { month: "202512", views: 1696 }, { month: "202601", views: 9996 }, { month: "202602", views: 9870 }, { month: "202603", views: 3739 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い。" },
+  },
+
+  // ───── 160. カルダモン（YList外、Elettaria cardamomum）─────
+  {
+    id: "cardamom",
+    jaName: "カルダモン",
+    enName: "Cardamom",
+    scientificName: "Elettaria cardamomum",
+    familyId: "zingiberaceae",
+    familyJaName: "ショウガ科",
+    description:
+      "ショウガ科ショウズク属の多年草。南インド・スリランカ原産。種子を乾燥させた香辛料カルダモンは「香辛料の女王」と呼ばれ、サフラン・バニラに次いで世界で3番目に高価なスパイス。清涼感のある甘い芳香でインド料理（ガラムマサラ・チャイ）や北欧菓子（シナモンロールのような菓子）に広く使われる。和名：ショウズク（小豆蔲）。草丈2〜3mに達し、地下茎から花茎を伸ばして白い花をつける。",
+    enDescription: "A perennial in the ginger family, native to southern India and Sri Lanka. The dried seeds — the spice cardamom — are called 'queen of spices' and are the third most expensive spice after saffron and vanilla. Their cool, sweet fragrance is central to Indian cooking (garam masala, chai) and to Nordic baking. Japanese name 'shōzuku'. Reaches 2–3 m, with flowering stalks bearing white flowers emerging from the rhizome.",
+    identificationPoints: [
+      "草丈2〜3m、葉は長い楕円形で互生",
+      "地下茎から別の花茎が出る",
+      "果実は3稜の緑色の蒴果、中に黒い小さな種子",
+    ],
+    enIdentificationPoints: [
+      "2–3 m tall; alternate long-elliptic leaves",
+      "Flowering stalks arise separately from the rhizome",
+      "Three-sided green capsule containing small black seeds",
+    ],
+    habitat: "栽培（熱帯雨林の林床）",
+    enHabitat: "Cultivated (tropical rainforest understory)",
+    season: "通年（花・果実）",
+    enSeason: "Year-round (flowers and fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Elettaria_cardamomum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カルダモン" },
+    ],
+    tags: ["草本", "多年草", "香辛料", "熱帯", "高価"],
+    enTags: ["Herb", "Perennial", "Spice", "Tropical", "Premium"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "evergreen", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カルダモン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カルダモン", totalViews: 44568, window: "202504-202603", months: [{ month: "202504", views: 4256 }, { month: "202505", views: 3589 }, { month: "202506", views: 3216 }, { month: "202507", views: 2748 }, { month: "202508", views: 3503 }, { month: "202509", views: 2912 }, { month: "202510", views: 2901 }, { month: "202511", views: 2896 }, { month: "202512", views: 3331 }, { month: "202601", views: 3259 }, { month: "202602", views: 3085 }, { month: "202603", views: 8872 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 161. ドラゴンフルーツ（YList外、Hylocereus undatus）─────
+  {
+    id: "dragon_fruit",
+    jaName: "ドラゴンフルーツ",
+    enName: "Dragon Fruit / Pitaya",
+    scientificName: "Hylocereus undatus",
+    familyId: "cactaceae",
+    familyJaName: "サボテン科",
+    description:
+      "サボテン科ヒロケレウス属のつる性多肉植物。中米原産で、現在はベトナム・台湾・インドネシアなど熱帯で広く栽培。和名ピタヤ。夜に直径30cmもの大きな白い花を一晩だけ咲かせ、同属の他種で受粉すると赤〜桃色の鱗状外皮をもつ果実ができる。果肉は白または赤で、ゴマ粒のような黒い種子が多数散らばり、シャリシャリとした食感と淡い甘さをもつ。ビタミンC・食物繊維・マグネシウムに富む。",
+    enDescription: "A climbing succulent in the cactus family, native to Central America and now widely cultivated in Vietnam, Taiwan, Indonesia, and other tropical regions. Also known as pitaya. Large white flowers (up to 30 cm across) open for a single night; when cross-pollinated, they develop into red to pink fruit with a scaly skin. The white or red flesh is studded with tiny black seeds, with a crunchy texture and mild sweetness. Rich in vitamin C, fibre, and magnesium.",
+    identificationPoints: [
+      "つる性サボテン、3稜の茎が支えを求めて伸びる",
+      "夜一晩だけ咲く直径20〜30cmの白い大輪",
+      "果実は赤〜桃色の鱗片状外皮、果肉に黒い小さな種子が多数",
+    ],
+    enIdentificationPoints: [
+      "Climbing cactus with three-ribbed stems seeking support",
+      "Large night-blooming white flowers 20–30 cm across, open only for one night",
+      "Red to pink scaly fruit; flesh with many small black seeds",
+    ],
+    habitat: "栽培（熱帯・亜熱帯）",
+    enHabitat: "Cultivated (tropical and subtropical)",
+    season: "6〜11月（花・果実）",
+    enSeason: "June to November (flowers and fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hylocereus_undatus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ドラゴンフルーツ" },
+    ],
+    tags: ["草本", "多肉植物", "つる植物", "果樹", "熱帯"],
+    enTags: ["Herb", "Succulent", "Vine", "Fruit", "Tropical"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "vine", deciduous: "evergreen", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ドラゴンフルーツ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ドラゴンフルーツ", totalViews: 43783, window: "202504-202603", months: [{ month: "202504", views: 3203 }, { month: "202505", views: 4138 }, { month: "202506", views: 4305 }, { month: "202507", views: 4386 }, { month: "202508", views: 5430 }, { month: "202509", views: 4198 }, { month: "202510", views: 3929 }, { month: "202511", views: 3119 }, { month: "202512", views: 2847 }, { month: "202601", views: 2541 }, { month: "202602", views: 2602 }, { month: "202603", views: 3085 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+  // ───── 162. ジンダイアケボノ（YList外、桜品種）─────
+  {
+    id: "jindai_akebono",
+    jaName: "ジンダイアケボノ",
+    enName: "Jindai-akebono Cherry",
+    scientificName: "Cerasus × yedoensis 'Jindai-akebono'",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "バラ科サクラ属（Cerasus）の栽培品種。ソメイヨシノに代わる街路・公園桜として日本花の会などが推奨する桜の代表品種。ソメイヨシノよりやや濃いピンク色の花を咲かせ、開花期もほぼ同じ。アメリカのアーノルド樹木園から日本に逆輸入され、神代植物公園で発見・命名された経緯から和名が付いた。てんぐ巣病に強く、樹勢が健全なためソメイヨシノの後継品種として全国に植栽が広がる。",
+    enDescription: "A cultivar of Cerasus in the rose family. Recommended by the Japan Cherry Blossom Association as a successor to Somei-yoshino for street and park plantings. Bears slightly deeper pink flowers than Somei-yoshino at a similar time. Re-introduced to Japan from the Arnold Arboretum in the U.S., then identified and named at Jindai Botanical Gardens. Resistant to witches'-broom disease, and now widely planted nationwide as a healthier replacement for Somei-yoshino.",
+    identificationPoints: [
+      "花はソメイヨシノよりやや濃いピンクの5弁花",
+      "開花期はソメイヨシノとほぼ同じ（3月末〜4月初）",
+      "樹勢健全、てんぐ巣病に強い",
+    ],
+    enIdentificationPoints: [
+      "5-petaled flowers slightly deeper pink than Somei-yoshino",
+      "Similar bloom time (late March to early April)",
+      "Healthy growth; resistant to witches'-broom disease",
+    ],
+    habitat: "栽培（街路樹・公園）",
+    enHabitat: "Cultivated (street trees, parks)",
+    season: "3月末〜4月初（花）",
+    enSeason: "Late March to early April (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cerasus_yedoensis_Jindai-akebono.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ジンダイアケボノ" },
+    ],
+    tags: ["木本", "落葉高木", "桜", "栽培品種", "花木"],
+    enTags: ["Tree", "Deciduous", "Cherry", "Cultivar", "Flowering tree"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "deciduous", petalCount: 5, flowerColor: "pink", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ジンダイアケボノ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ジンダイアケボノ", totalViews: 42649, window: "202504-202603", months: [{ month: "202504", views: 11072 }, { month: "202505", views: 1697 }, { month: "202506", views: 859 }, { month: "202507", views: 488 }, { month: "202508", views: 419 }, { month: "202509", views: 428 }, { month: "202510", views: 477 }, { month: "202511", views: 420 }, { month: "202512", views: 589 }, { month: "202601", views: 728 }, { month: "202602", views: 1338 }, { month: "202603", views: 24134 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 163. ポプラ（YList外（属総称）、Populus）─────
+  {
+    id: "populus",
+    jaName: "ポプラ",
+    enName: "Poplar (Populus)",
+    scientificName: "Populus",
+    familyId: "salicaceae",
+    familyJaName: "ヤナギ科",
+    description:
+      "ヤナギ科ハコヤナギ属（ヤマナラシ属）の落葉高木の総称。北半球の温帯を中心に約35種が分布。日本にはヤマナラシ、ドロノキなどが自生する。街路樹や風よけ、パルプ材として広く植栽される。特にセイヨウハコヤナギ（イタリアヤマナラシ、Populus nigra var. italica）は細長い独特の樹形で、北海道大学ポプラ並木など日本各地の「ポプラ並木」のシンボル。成長が早いことが特徴。",
+    enDescription: "The collective name for deciduous trees in genus Populus, willow family. About 35 species across the temperate Northern Hemisphere. Yamanarashi (P. tremula var. sieboldii) and dorono-ki (P. maximowiczii) are native to Japan. Widely planted as street and windbreak trees and for pulpwood. The slender Lombardy poplar (P. nigra var. italica) is the iconic tree of 'poplar rows' at Hokkaido University and elsewhere. Notable for fast growth.",
+    identificationPoints: [
+      "葉は三角形〜卵形で互生、葉柄が長く平たい",
+      "風で葉が震えやすい",
+      "成長が早い落葉高木、樹高20〜30m",
+    ],
+    enIdentificationPoints: [
+      "Alternate triangular to ovate leaves with long flattened petioles",
+      "Leaves tremble easily in wind",
+      "Fast-growing deciduous tree, 20–30 m tall",
+    ],
+    habitat: "栽培（街路樹・並木）、山地（自生）",
+    enHabitat: "Cultivated (street and row plantings); mountains (native)",
+    season: "通年、春に花（尾状花序）",
+    enSeason: "Year-round; flowers (catkins) in spring",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Populus_nigra_Italica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ポプラ" },
+    ],
+    tags: ["木本", "落葉高木", "街路樹", "成長が早い", "属総称"],
+    enTags: ["Tree", "Deciduous", "Street tree", "Fast-growing", "Genus"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ポプラ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ポプラ", totalViews: 42469, window: "202504-202603", months: [{ month: "202504", views: 3498 }, { month: "202505", views: 4460 }, { month: "202506", views: 5849 }, { month: "202507", views: 3272 }, { month: "202508", views: 3727 }, { month: "202509", views: 4137 }, { month: "202510", views: 3444 }, { month: "202511", views: 3911 }, { month: "202512", views: 2908 }, { month: "202601", views: 2564 }, { month: "202602", views: 2099 }, { month: "202603", views: 2600 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い。" },
+  },
+
+  // ───── 164. ハンノキ（YList: ハンノキ）─────
+  {
+    id: "hannoki",
+    jaName: "ハンノキ",
+    enName: "Japanese Alder",
+    scientificName: "Alnus japonica",
+    familyId: "betulaceae",
+    familyJaName: "カバノキ科",
+    description:
+      "カバノキ科ハンノキ属の落葉高木。日本全国〜朝鮮・中国・ロシア極東に分布。低地の湿地・沼沢・水田畦など湿ったところに多く生える。根に根粒菌を持ち、痩せ地や湿地でもよく育つ。冬に尾状花序を垂らし、小さな松かさ状の球果をつける。材は水中でも腐りにくいため杭や下駄に利用された。花粉症の原因植物の一つとしても知られる。",
+    enDescription: "A deciduous tree in the birch family. Distributed across Japan, Korea, China, and the Russian Far East. Grows in lowland wetlands, swamps, and rice-paddy margins. Nitrogen-fixing root nodules allow it to thrive in poor or waterlogged soils. In winter, pendant catkins precede small pine-cone-like strobili. The rot-resistant wood was used for stakes and geta clogs. Also a notable source of seasonal allergens.",
+    identificationPoints: [
+      "葉は倒卵形で互生、縁に浅い鋸歯",
+      "小さな松かさ状の球果をつける",
+      "湿地を好む",
+    ],
+    enIdentificationPoints: [
+      "Alternate obovate leaves with shallow serrations",
+      "Small pine-cone-like strobili",
+      "Thrives in wetlands",
+    ],
+    habitat: "湿地、沼沢、水田の畦",
+    enHabitat: "Wetlands, swamps, rice-paddy margins",
+    season: "11〜3月（花）",
+    enSeason: "November to March (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alnus_japonica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハンノキ" },
+    ],
+    tags: ["木本", "落葉高木", "湿地", "日本自生", "花粉症"],
+    enTags: ["Tree", "Deciduous", "Wetland", "Native to Japan", "Allergen"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "deciduous", habitat: "wetland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ハンノキ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハンノキ", totalViews: 40817, window: "202504-202603", months: [{ month: "202504", views: 4476 }, { month: "202505", views: 4435 }, { month: "202506", views: 3395 }, { month: "202507", views: 2706 }, { month: "202508", views: 2572 }, { month: "202509", views: 2755 }, { month: "202510", views: 2892 }, { month: "202511", views: 2693 }, { month: "202512", views: 2321 }, { month: "202601", views: 3418 }, { month: "202602", views: 3127 }, { month: "202603", views: 6027 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 165. ヒエ（YList: ヒエ）─────
+  {
+    id: "hie",
+    jaName: "ヒエ",
+    enName: "Japanese Millet",
+    scientificName: "Echinochloa esculenta",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "イネ科ヒエ属の一年草。アワ・キビと並ぶ日本最古の雑穀で、縄文時代から栽培された。野生種イヌビエ（Echinochloa crus-galli）を栽培化したもの。稲作に適さない寒冷地や東北地方で主食として重要だったが、明治以降は米の増産で衰退。現在はアレルギー対応食材や伝統食（ヒエ餅・ヒエ雑炊）として再評価されている。",
+    enDescription: "An annual in the grass family. Along with foxtail millet (awa) and proso millet (kibi), one of Japan's oldest cereals, cultivated since the Jōmon period. Domesticated from the wild barnyard grass (E. crus-galli). Important as a staple in cold regions and Tōhoku where rice was difficult to grow; declined after the Meiji era as rice production expanded. Now revalued as an allergen-friendly grain and in traditional foods (hie-mochi, hie-zōsui).",
+    identificationPoints: [
+      "草丈1〜1.5m、茎は直立",
+      "葉は線形で幅広（イネに似る）",
+      "穂状花序、小穂は尖る、種子は円形",
+    ],
+    enIdentificationPoints: [
+      "1–1.5 m tall with erect stems",
+      "Wide linear leaves (similar to rice)",
+      "Spike-like inflorescence with pointed spikelets; rounded seeds",
+    ],
+    habitat: "栽培（畑）、寒冷地",
+    enHabitat: "Cultivated (fields), cold regions",
+    season: "8〜10月（収穫）",
+    enSeason: "August to October (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Echinochloa_esculenta.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒエ" },
+    ],
+    tags: ["草本", "一年草", "雑穀", "栽培", "伝統食"],
+    enTags: ["Herb", "Annual", "Millet", "Cultivated", "Traditional food"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "linear", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヒエ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒエ", totalViews: 40459, window: "202504-202603", months: [{ month: "202504", views: 3391 }, { month: "202505", views: 3815 }, { month: "202506", views: 3718 }, { month: "202507", views: 3066 }, { month: "202508", views: 5167 }, { month: "202509", views: 4434 }, { month: "202510", views: 3191 }, { month: "202511", views: 3696 }, { month: "202512", views: 2617 }, { month: "202601", views: 2713 }, { month: "202602", views: 2438 }, { month: "202603", views: 2213 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 166. クレマチス（YList外（属総称）、Clematis）─────
+  {
+    id: "clematis",
+    jaName: "クレマチス",
+    enName: "Clematis",
+    scientificName: "Clematis",
+    familyId: "ranunculaceae",
+    familyJaName: "キンポウゲ科",
+    description:
+      "キンポウゲ科センニンソウ属のつる性多年草・低木の総称。世界に約300種が分布し、日本にはカザグルマ、ハンショウヅル、ボタンヅル、センニンソウなど約20種が自生。欧米・日本で大型花を持つ園芸品種（特にカザグルマ×中国テッセン系の交雑）が数百種発達し、「つる性植物の女王」と呼ばれる。花弁に見えるのは萼で、色・形が極めて多彩。",
+    enDescription: "The collective name for climbing perennials and shrubs in genus Clematis, buttercup family. About 300 species worldwide; ~20 native to Japan including kazaguruma, hanshō-zuru, botan-zuru, and sennin-sō. Hundreds of large-flowered cultivars (especially hybrids of Japanese kazaguruma and Chinese tessen types) have been developed in Europe and Japan — earning the title 'queen of climbing plants'. The 'petals' are actually sepals, and show great diversity of shape and colour.",
+    identificationPoints: [
+      "つる性で他物に絡みつく",
+      "葉は対生、多くは複葉",
+      "花弁に見えるのは萼、4〜8枚、色・形が多彩",
+    ],
+    enIdentificationPoints: [
+      "Climbing vine twining over supports",
+      "Opposite leaves, often compound",
+      "4–8 'petals' are actually sepals; highly variable colour and form",
+    ],
+    habitat: "栽培（庭・フェンス）、山地（自生）",
+    enHabitat: "Cultivated (gardens, fences); mountains (native)",
+    season: "5〜10月（花、品種により異なる）",
+    enSeason: "May to October (flowers, varies by cultivar)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Clematis_patens.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クレマチス" },
+    ],
+    tags: ["草本", "つる植物", "花卉", "観賞用", "属総称"],
+    enTags: ["Herb", "Vine", "Flower", "Ornamental", "Genus"],
+    traits: { leafArr: "opp", leafType: "compound", habit: "vine", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/クレマチス" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "クレマチス", totalViews: 40381, window: "202504-202603", months: [{ month: "202504", views: 5987 }, { month: "202505", views: 10395 }, { month: "202506", views: 4789 }, { month: "202507", views: 2374 }, { month: "202508", views: 2292 }, { month: "202509", views: 2278 }, { month: "202510", views: 2293 }, { month: "202511", views: 2160 }, { month: "202512", views: 1817 }, { month: "202601", views: 1764 }, { month: "202602", views: 1653 }, { month: "202603", views: 2579 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い（センニンソウは別掲載）。" },
+  },
+
+  // ───── 167. ギボウシ（YList外（属総称）、Hosta）─────
+  {
+    id: "hosta",
+    jaName: "ギボウシ",
+    enName: "Hosta / Plantain Lily",
+    scientificName: "Hosta",
+    familyId: "asparagaceae",
+    familyJaName: "キジカクシ科",
+    description:
+      "キジカクシ科リュウゼツラン亜科ギボウシ属の多年草の総称。日本・朝鮮・中国に約40種が分布するアジア原産の植物で、日本にはオオバギボウシ（ウルイ）、コバギボウシなどが自生。大型でうねりのある葉が美しく、欧米では「シェードガーデンの女王」として人気の園芸植物。和名は擬宝珠（ぎぼうし、欄干の飾り）に蕾の形が似ることから。若葉（ウルイ）は山菜として食用。",
+    enDescription: "The collective name for perennials in genus Hosta, asparagus family (Agavoideae subfamily). About 40 species native to Japan, Korea, and China — including ōba-giboshi ('uru-i') and koba-giboshi in Japan. With their large undulating leaves, hostas are prized as 'queens of the shade garden' in Western horticulture. The Japanese name refers to a temple-bridge finial ('giboshi') resembling the flower bud shape. Young leaves ('uru-i') are eaten as wild greens.",
+    identificationPoints: [
+      "根生葉でロゼット状、葉は卵形〜長卵形で平行脈",
+      "花茎を立て、漏斗状の白・薄紫の花を総状に",
+      "葉色の斑入り・青緑・黄緑など園芸品種多数",
+    ],
+    enIdentificationPoints: [
+      "Basal rosette of ovate to oblong-ovate leaves with parallel veins",
+      "Flower stalks bearing racemes of funnel-shaped white to pale purple flowers",
+      "Many cultivars with variegated, blue-green, or yellow-green foliage",
+    ],
+    habitat: "山地の林床・湿地（自生）、栽培（庭・シェードガーデン）",
+    enHabitat: "Mountain forests and wetlands (native); cultivated (gardens, shade gardens)",
+    season: "7〜8月（花）",
+    enSeason: "July to August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hosta_sieboldiana.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ギボウシ" },
+    ],
+    tags: ["草本", "多年草", "山菜", "日本自生", "シェードガーデン"],
+    enTags: ["Herb", "Perennial", "Wild edible", "Native to Japan", "Shade garden"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "summer", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ギボウシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ギボウシ", totalViews: 40369, window: "202504-202603", months: [{ month: "202504", views: 5899 }, { month: "202505", views: 7895 }, { month: "202506", views: 6243 }, { month: "202507", views: 5682 }, { month: "202508", views: 3530 }, { month: "202509", views: 2500 }, { month: "202510", views: 1403 }, { month: "202511", views: 1139 }, { month: "202512", views: 890 }, { month: "202601", views: 1181 }, { month: "202602", views: 1372 }, { month: "202603", views: 2635 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い。" },
+  },
+
+  // ───── 168. エゴマ（YList: エゴマ）─────
+  {
+    id: "egoma",
+    jaName: "エゴマ",
+    enName: "Perilla / Egoma",
+    scientificName: "Perilla frutescens var. frutescens",
+    familyId: "lamiaceae",
+    familyJaName: "シソ科",
+    description:
+      "シソ科シソ属の一年草。シソ（青ジソ・赤ジソ）の変種で、東南アジア原産。縄文時代には既に日本で栽培されていた古い作物。葉はシソに似るが香りがより強く、韓国料理ではサムギョプサルを包む「ケンニプ」として知られる。種子を搾ったエゴマ油はα-リノレン酸を豊富に含み、健康食品として人気。福島・岩手などで栽培される。",
+    enDescription: "An annual in the mint family, a variety of shiso (P. frutescens). Native to Southeast Asia and already cultivated in Japan by the Jōmon period. Leaves resemble shiso but are more strongly aromatic — in Korean cuisine known as 'kkaennip', used to wrap samgyeopsal. The pressed seed oil ('egoma-abura') is rich in α-linolenic acid and popular as a health food. Cultivated in Fukushima, Iwate, and other regions.",
+    identificationPoints: [
+      "葉は大きな卵形で縁に鋸歯、シソに似るが強い香り",
+      "茎は四角く、対生の葉",
+      "秋に白〜淡紫色の小花を穂状に",
+    ],
+    enIdentificationPoints: [
+      "Large ovate leaves with serrated margins; shiso-like but stronger fragrance",
+      "Square stems with opposite leaves",
+      "Small white to pale purple flowers on spikes in autumn",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "8〜10月（花）、10〜11月（種子収穫）",
+    enSeason: "August to October (flowers); October to November (seed harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Perilla_frutescens.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/エゴマ" },
+    ],
+    tags: ["草本", "一年草", "ハーブ", "油糧作物", "栽培"],
+    enTags: ["Herb", "Annual", "Herb", "Oil crop", "Cultivated"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/エゴマ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "エゴマ", totalViews: 40243, window: "202504-202603", months: [{ month: "202504", views: 3054 }, { month: "202505", views: 4382 }, { month: "202506", views: 4465 }, { month: "202507", views: 4125 }, { month: "202508", views: 4233 }, { month: "202509", views: 3981 }, { month: "202510", views: 3534 }, { month: "202511", views: 2856 }, { month: "202512", views: 2371 }, { month: "202601", views: 2485 }, { month: "202602", views: 2203 }, { month: "202603", views: 2554 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 169. ヨウサイ（YList: ヨウサイ）─────
+  {
+    id: "yousai",
+    jaName: "ヨウサイ（クウシンサイ・空心菜）",
+    enName: "Water Spinach",
+    scientificName: "Ipomoea aquatica",
+    familyId: "convolvulaceae",
+    familyJaName: "ヒルガオ科",
+    description:
+      "ヒルガオ科サツマイモ属の多年草（熱帯では。温帯では一年草扱い）。熱帯アジア原産。茎が中空なため「空心菜（クウシンサイ）」、「空芯菜」とも。東南アジアでは一般的な野菜で、ニンニクと炒めた「空心菜炒め」は人気料理。日本では沖縄を中心に栽培され、暑さに強く夏場の葉物野菜として流通する。アサガオに近縁で、白〜淡紫色の漏斗状の花を咲かせる。",
+    enDescription: "A perennial (annual in temperate zones) in the morning-glory family, native to tropical Asia. Called 'kūshinsai' ('hollow-heart vegetable') for its hollow stems. A staple vegetable in Southeast Asia — garlic stir-fried water spinach is a beloved dish. In Japan, mainly cultivated in Okinawa and used as a heat-tolerant summer leaf vegetable. Related to morning glory, producing white to pale-purple funnel-shaped flowers.",
+    identificationPoints: [
+      "茎は中空で匍匐または半直立",
+      "葉は長卵形〜披針形、互生",
+      "花は白〜淡紫の漏斗状、アサガオに似る",
+    ],
+    enIdentificationPoints: [
+      "Hollow stems, prostrate or semi-erect",
+      "Alternate ovate to lanceolate leaves",
+      "White to pale-purple funnel-shaped flowers, morning-glory-like",
+    ],
+    habitat: "栽培（畑・水辺）、熱帯アジア",
+    enHabitat: "Cultivated (fields, wet margins); tropical Asia",
+    season: "6〜10月（収穫）",
+    enSeason: "June to October (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ipomoea_aquatica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヨウサイ" },
+    ],
+    tags: ["草本", "多年草", "野菜", "熱帯", "つる植物"],
+    enTags: ["Herb", "Perennial", "Vegetable", "Tropical", "Vine"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "vine", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヨウサイ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヨウサイ", totalViews: 40172, window: "202504-202603", months: [{ month: "202504", views: 3573 }, { month: "202505", views: 3859 }, { month: "202506", views: 4014 }, { month: "202507", views: 5766 }, { month: "202508", views: 6703 }, { month: "202509", views: 5289 }, { month: "202510", views: 3203 }, { month: "202511", views: 1860 }, { month: "202512", views: 1474 }, { month: "202601", views: 1340 }, { month: "202602", views: 1567 }, { month: "202603", views: 1524 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 170. ニチニチソウ（YList: ニチニチソウ）─────
+  {
+    id: "nichinichisou",
+    jaName: "ニチニチソウ",
+    enName: "Madagascar Periwinkle",
+    scientificName: "Catharanthus roseus",
+    familyId: "apocynaceae",
+    familyJaName: "キョウチクトウ科",
+    description:
+      "キョウチクトウ科ニチニチソウ属の多年草（日本では一年草扱い）。マダガスカル原産。毎日次々と新しい花を咲かせることから「日々草」。鮮やかなピンクや白の5弁花を初夏から秋まで長期間咲かせ、花壇の定番。全草に抗がん作用のあるインドールアルカロイド（ビンブラスチン・ビンクリスチン）を含み、白血病治療薬の原料として重要。全草有毒でもある。",
+    enDescription: "A perennial (annual in Japan) in the dogbane family, native to Madagascar. 'Nichi-nichi-sō' ('daily-daily plant') refers to the continuous flowering. Vivid pink or white 5-petaled flowers bloom from early summer to autumn — a flowerbed staple. The plant contains the alkaloids vinblastine and vincristine, essential source materials for leukemia chemotherapy. Also toxic if ingested.",
+    identificationPoints: [
+      "葉は光沢のある楕円形、対生",
+      "花は径3〜5cmの5弁花、ピンク・白が代表",
+      "草丈30〜50cm、よく分枝する",
+    ],
+    enIdentificationPoints: [
+      "Glossy elliptic opposite leaves",
+      "5-petaled flowers 3–5 cm across, typically pink or white",
+      "30–50 cm tall, much-branched",
+    ],
+    habitat: "栽培（花壇・鉢）",
+    enHabitat: "Cultivated (flowerbeds, pots)",
+    season: "6〜10月（花）",
+    enSeason: "June to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Catharanthus_roseus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ニチニチソウ" },
+    ],
+    tags: ["草本", "一年草", "花卉", "薬用", "有毒植物"],
+    enTags: ["Herb", "Annual", "Flower", "Medicinal", "Toxic"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", petalCount: 5, flowerColor: "pink", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ニチニチソウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニチニチソウ", totalViews: 40124, window: "202504-202603", months: [{ month: "202504", views: 2924 }, { month: "202505", views: 4513 }, { month: "202506", views: 4467 }, { month: "202507", views: 4695 }, { month: "202508", views: 5548 }, { month: "202509", views: 5025 }, { month: "202510", views: 3759 }, { month: "202511", views: 2097 }, { month: "202512", views: 1368 }, { month: "202601", views: 1046 }, { month: "202602", views: 951 }, { month: "202603", views: 3731 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 171. タマリンド（YList: タマリンド）─────
+  {
+    id: "tamarind",
+    jaName: "タマリンド",
+    enName: "Tamarind",
+    scientificName: "Tamarindus indica",
+    familyId: "fabaceae",
+    familyJaName: "マメ科",
+    description:
+      "マメ科タマリンド属の常緑高木で1属1種。アフリカ原産だがインド〜東南アジアで古くから栽培され、タイ・インド料理の酸味調味料として重要。果肉はねっとりした茶色の酸味の強いペースト状で、種子を取り除いて煮込み料理やチャトニ、飲料、菓子（ウスターソースの原料にも）に使う。樹高20〜30mに達する熱帯の大木で、羽状複葉が日没後に閉じる就眠運動をする。",
+    enDescription: "An evergreen tree in the legume family, the only species of its genus. Native to Africa but long cultivated in India and Southeast Asia, where the fruit is essential as a souring agent in Thai and Indian cooking. The sticky brown tart pulp (seeds removed) is used in curries, chutneys, drinks, sweets, and Worcestershire sauce. Grows 20–30 m tall as a massive tropical tree; its pinnate leaves close at night (nyctinasty).",
+    identificationPoints: [
+      "羽状複葉、小葉は10〜20対の小さな長楕円形",
+      "夜に葉が閉じる就眠運動",
+      "豆果は長さ10〜15cmの褐色の莢、中に酸味の強い果肉",
+    ],
+    enIdentificationPoints: [
+      "Pinnate leaves with 10–20 pairs of small oblong leaflets",
+      "Leaves close at night (nyctinasty)",
+      "Brown legume pod 10–15 cm long with tart sticky pulp",
+    ],
+    habitat: "栽培（熱帯）",
+    enHabitat: "Cultivated (tropical)",
+    season: "4〜6月（花）、通年（果実）",
+    enSeason: "April to June (flowers); year-round (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Tamarindus_indica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/タマリンド" },
+    ],
+    tags: ["木本", "常緑高木", "熱帯", "果樹", "調味料"],
+    enTags: ["Tree", "Evergreen", "Tropical", "Fruit tree", "Seasoning"],
+    traits: { leafArr: "alt", leafType: "compound", compoundType: "pinnate", habit: "tree", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/タマリンド" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "タマリンド", totalViews: 40095, window: "202504-202603", months: [{ month: "202504", views: 3358 }, { month: "202505", views: 4071 }, { month: "202506", views: 3329 }, { month: "202507", views: 2973 }, { month: "202508", views: 3242 }, { month: "202509", views: 4115 }, { month: "202510", views: 3155 }, { month: "202511", views: 3698 }, { month: "202512", views: 2932 }, { month: "202601", views: 2988 }, { month: "202602", views: 2615 }, { month: "202603", views: 3619 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 172. インゲンマメ（YList: インゲンマメ）─────
+  {
+    id: "ingenmame",
+    jaName: "インゲンマメ",
+    enName: "Common Bean",
+    scientificName: "Phaseolus vulgaris",
+    familyId: "fabaceae",
+    familyJaName: "マメ科",
+    description:
+      "マメ科インゲンマメ属の一年草。中南米原産で15世紀以降世界に広まった。日本には江戸時代初期に隠元禅師によって中国経由で伝えられたため「隠元豆」の名を持つ（ただし禅師が伝えたのはフジマメという説もある）。若い莢ごと食用にする「さやいんげん」、熟した豆を食用にする「金時豆」「虎豆」「手亡豆」など用途により品種が分化。代表的な蛋白源。",
+    enDescription: "An annual in the legume family, Phaseolus genus. Native to Central and South America and spread worldwide after the 15th century. Introduced to Japan in the early Edo period, traditionally attributed to the Zen priest Ingen via China (though some argue he introduced hyacinth bean instead). Cultivated as green beans (immature pods), kintoki-mame, tora-mame, te-bō-mame, and many other dry-bean cultivars. A major source of plant protein.",
+    identificationPoints: [
+      "つる性と矮性の品種がある",
+      "葉は3出羽状複葉、小葉は卵形",
+      "蝶形花、白・桃・赤・紫の5弁花、莢は細長い",
+    ],
+    enIdentificationPoints: [
+      "Climbing and bush-type cultivars exist",
+      "Trifoliate pinnate leaves with ovate leaflets",
+      "Papilionaceous 5-petaled flowers in white, pink, red, or purple; slender pods",
+    ],
+    habitat: "栽培（畑）",
+    enHabitat: "Cultivated (fields)",
+    season: "6〜10月（収穫）",
+    enSeason: "June to October (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Phaseolus_vulgaris.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/インゲンマメ" },
+    ],
+    tags: ["草本", "一年草", "野菜", "豆類", "栽培"],
+    enTags: ["Herb", "Annual", "Vegetable", "Legume", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", compoundType: "pinnate", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/インゲンマメ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "インゲンマメ", totalViews: 40038, window: "202504-202603", months: [{ month: "202504", views: 4463 }, { month: "202505", views: 4625 }, { month: "202506", views: 4843 }, { month: "202507", views: 3322 }, { month: "202508", views: 3240 }, { month: "202509", views: 2937 }, { month: "202510", views: 3082 }, { month: "202511", views: 2846 }, { month: "202512", views: 2512 }, { month: "202601", views: 2974 }, { month: "202602", views: 2673 }, { month: "202603", views: 2521 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 173. フジバカマ（YList: フジバカマ）─────
+  {
+    id: "fujibakama",
+    jaName: "フジバカマ",
+    enName: "Thoroughwort / Fujibakama",
+    scientificName: "Eupatorium japonicum",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科ヒヨドリバナ属の多年草。日本・朝鮮・中国に分布。秋の七草の一つで、万葉集にも山上憶良の歌に詠まれている。秋に淡紅紫色の小さな頭花が散房状に多数咲き、乾燥すると桜餅のような香り（クマリン）を放つ。江戸時代には髪や服に香りを移す「薫香」として用いられた。河原や草原に自生していたが現在は激減し絶滅危惧種。栽培品や近縁のサワフジバカマが植栽される。",
+    enDescription: "A perennial in the daisy family, distributed across Japan, Korea, and China. One of the seven autumn flowers and mentioned by Yamanoue no Okura in the Manyōshū. In autumn, many small pale-pink-purple flower heads are borne in corymbs; dried plants release a scent of sakura-mochi (coumarin). In the Edo period it was used as perfume for hair and clothing. Now endangered in the wild due to loss of riverbank and grassland habitat — cultivated plants and close relatives (saw-fujibakama) are often grown instead.",
+    identificationPoints: [
+      "葉は3裂する独特の形、対生",
+      "淡紅紫色の小さな頭花、散房状",
+      "乾燥で桜餅の香り（クマリン）",
+    ],
+    enIdentificationPoints: [
+      "Distinctive three-lobed leaves, opposite",
+      "Many small pale pink-purple flower heads in corymbs",
+      "Coumarin scent (sakura-mochi aroma) when dried",
+    ],
+    habitat: "河原・草原（激減）、栽培",
+    enHabitat: "Riverbanks and meadows (now rare); cultivated",
+    season: "8〜10月（花）",
+    enSeason: "August to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Eupatorium_japonicum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フジバカマ" },
+    ],
+    tags: ["草本", "多年草", "秋の七草", "絶滅危惧", "日本自生"],
+    enTags: ["Herb", "Perennial", "Autumn seven flowers", "Endangered", "Native to Japan"],
+    traits: { leafArr: "opp", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "pink", floweringSeason: "summer", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/フジバカマ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "フジバカマ", totalViews: 39915, window: "202504-202603", months: [{ month: "202504", views: 1916 }, { month: "202505", views: 2526 }, { month: "202506", views: 3762 }, { month: "202507", views: 2282 }, { month: "202508", views: 3373 }, { month: "202509", views: 5804 }, { month: "202510", views: 10305 }, { month: "202511", views: 4197 }, { month: "202512", views: 1800 }, { month: "202601", views: 1404 }, { month: "202602", views: 1135 }, { month: "202603", views: 1411 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 174. アネモネ（YList外（属総称）、Anemone）─────
+  {
+    id: "anemone",
+    jaName: "アネモネ",
+    enName: "Anemone / Windflower",
+    scientificName: "Anemone",
+    familyId: "ranunculaceae",
+    familyJaName: "キンポウゲ科",
+    description:
+      "キンポウゲ科イチリンソウ属の多年草の総称。世界に約150種が分布し、日本にはイチリンソウ、ニリンソウ、キクザキイチゲ、アズマイチゲ、シュウメイギクなどが自生。属名Anemoneはギリシャ語で「風の娘」を意味し、和名の「牡丹一華」「花一華」もある。花弁に見えるのは萼片で、園芸では南欧原産のA. coronariaを指す場合が多く、鮮やかな赤・青・紫の大輪春咲き花が切花として人気。",
+    enDescription: "The collective name for perennials in genus Anemone, buttercup family. About 150 species worldwide; Japanese natives include ichirin-sō, nirin-sō, kikuzaki-ichige, azuma-ichige, and shūmei-giku. The genus name derives from Greek meaning 'daughter of the wind'. The 'petals' are actually sepals. In horticulture the name usually refers to A. coronaria from the Mediterranean, grown for its vivid red, blue, and purple spring flowers as cut flowers.",
+    identificationPoints: [
+      "葉は掌状または羽状に深裂",
+      "花弁に見えるのは萼片、5〜20枚、色は白・赤・青・紫",
+      "春咲きの種が多いが秋咲きもある（シュウメイギク）",
+    ],
+    enIdentificationPoints: [
+      "Palmately or pinnately deeply lobed leaves",
+      "5–20 'petals' that are actually sepals; white, red, blue, or purple",
+      "Mostly spring-flowering but some autumn-flowering (shūmei-giku)",
+    ],
+    habitat: "山地（自生）、栽培（花壇・切花）",
+    enHabitat: "Mountains (native); cultivated (flowerbeds, cut flowers)",
+    season: "3〜5月（春咲き種）",
+    enSeason: "March to May (spring-flowering species)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Anemone_coronaria.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アネモネ" },
+    ],
+    tags: ["草本", "多年草", "花卉", "観賞用", "属総称"],
+    enTags: ["Herb", "Perennial", "Flower", "Ornamental", "Genus"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "palmate", habit: "herb", deciduous: "deciduous", flowerColor: "red", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アネモネ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アネモネ", totalViews: 39405, window: "202504-202603", months: [{ month: "202504", views: 4328 }, { month: "202505", views: 3412 }, { month: "202506", views: 2885 }, { month: "202507", views: 2624 }, { month: "202508", views: 2850 }, { month: "202509", views: 2721 }, { month: "202510", views: 3175 }, { month: "202511", views: 2835 }, { month: "202512", views: 2991 }, { month: "202601", views: 2987 }, { month: "202602", views: 3669 }, { month: "202603", views: 4928 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い（キクザキイチゲを別掲載）。" },
+  },
+
+  // ───── 175. ムスカリ（YList: ムスカリ）─────
+  {
+    id: "muscari",
+    jaName: "ムスカリ",
+    enName: "Grape Hyacinth",
+    scientificName: "Muscari armeniacum",
+    familyId: "asparagaceae",
+    familyJaName: "キジカクシ科",
+    description:
+      "キジカクシ科ムスカリ属の球根性多年草。地中海沿岸〜西アジア原産。深い青紫色のブドウの房のような小花を密集して咲かせる。秋植え球根で、チューリップやヒヤシンスと並び春の花壇の定番。植えっぱなしでも毎年咲くほど丈夫で、「葡萄ヒヤシンス」の英名もこの姿から。属名Muscariはラテン語でムスク（麝香）の香りを意味し、花に微かな香りがある。",
+    enDescription: "A bulbous perennial in the asparagus family, native to the eastern Mediterranean and Western Asia. Produces dense clusters of deep blue-purple bead-like flowers resembling grape clusters. A reliable autumn-planted spring bulb alongside tulip and hyacinth — the English name 'grape hyacinth' captures this look. Tough enough to naturalize if left in place. The genus name derives from the Latin for musk, referring to the faint fragrance.",
+    identificationPoints: [
+      "球根性、葉は線形で根生",
+      "花茎の先に小さな壺形の青紫色花を密集",
+      "草丈15〜25cm",
+    ],
+    enIdentificationPoints: [
+      "Bulbous plant with linear basal leaves",
+      "Dense cluster of small urn-shaped blue-purple flowers atop the stalk",
+      "15–25 cm tall",
+    ],
+    habitat: "栽培（花壇・鉢）",
+    enHabitat: "Cultivated (flowerbeds, pots)",
+    season: "3〜5月（花）",
+    enSeason: "March to May (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Muscari_armeniacum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ムスカリ" },
+    ],
+    tags: ["草本", "多年草", "球根", "花卉", "観賞用"],
+    enTags: ["Herb", "Perennial", "Bulb", "Flower", "Ornamental"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "linear", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ムスカリ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ムスカリ", totalViews: 39368, window: "202504-202603", months: [{ month: "202504", views: 13930 }, { month: "202505", views: 4534 }, { month: "202506", views: 1312 }, { month: "202507", views: 830 }, { month: "202508", views: 961 }, { month: "202509", views: 1188 }, { month: "202510", views: 1232 }, { month: "202511", views: 1025 }, { month: "202512", views: 776 }, { month: "202601", views: 1264 }, { month: "202602", views: 1700 }, { month: "202603", views: 10616 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 176. ブーゲンビリア（YList: イカダカズラ）─────
+  {
+    id: "bougainvillea",
+    jaName: "ブーゲンビリア（イカダカズラ）",
+    enName: "Bougainvillea",
+    scientificName: "Bougainvillea glabra",
+    familyId: "nyctaginaceae",
+    familyJaName: "オシロイバナ科",
+    description:
+      "オシロイバナ科ブーゲンビリア属の常緑つる性低木。南米原産で、フランスの探検家ブーガンヴィルの世界周航（1766-69年）で発見され、彼の名に因む。花弁のように見える鮮やかな赤紫・ピンク・オレンジ・白は実は苞葉で、本来の花はその中央の小さな筒状の白い花。熱帯〜亜熱帯で一年中花を咲かせ、沖縄や南欧では塀や壁を覆う。和名イカダカズラ（筏葛）。",
+    enDescription: "An evergreen climbing shrub in the four-o'clock family, native to South America. Discovered on the world circumnavigation (1766–69) of French explorer Louis Antoine de Bougainville and named for him. The showy magenta, pink, orange, or white 'petals' are actually bracts; the true flowers are small tubular white blooms at their centre. Blooms year-round in the tropics, covering walls in Okinawa and the Mediterranean. Japanese name 'ikada-kazura'.",
+    identificationPoints: [
+      "茎に棘があり他物に絡みつく",
+      "鮮やかな苞葉が3枚並び、中央に小さな白い花",
+      "葉は卵形で互生",
+    ],
+    enIdentificationPoints: [
+      "Thorny stems climbing on supports",
+      "Three vivid bracts surrounding small white tubular flowers",
+      "Alternate ovate leaves",
+    ],
+    habitat: "栽培（熱帯・亜熱帯）",
+    enHabitat: "Cultivated (tropical and subtropical)",
+    season: "通年（熱帯）、5〜11月（温帯）",
+    enSeason: "Year-round (tropics); May to November (temperate zones)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Bougainvillea_glabra.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ブーゲンビリア" },
+    ],
+    tags: ["木本", "つる植物", "常緑", "花木", "熱帯"],
+    enTags: ["Tree", "Vine", "Evergreen", "Flowering tree", "Tropical"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "vine", deciduous: "evergreen", flowerColor: "pink", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ブーゲンビリア" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ブーゲンビリア", totalViews: 39274, window: "202504-202603", months: [{ month: "202504", views: 3621 }, { month: "202505", views: 5032 }, { month: "202506", views: 4092 }, { month: "202507", views: 3856 }, { month: "202508", views: 3871 }, { month: "202509", views: 3485 }, { month: "202510", views: 2852 }, { month: "202511", views: 2466 }, { month: "202512", views: 2518 }, { month: "202601", views: 2530 }, { month: "202602", views: 2213 }, { month: "202603", views: 2738 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 177. ミツマタ（YList: ミツマタ）─────
+  {
+    id: "mitsumata",
+    jaName: "ミツマタ",
+    enName: "Oriental Paperbush",
+    scientificName: "Edgeworthia chrysantha",
+    familyId: "thymelaeaceae",
+    familyJaName: "ジンチョウゲ科",
+    description:
+      "ジンチョウゲ科ミツマタ属の落葉低木。中国原産で、日本には室町時代に渡来。枝が必ず3つに分岐することから「三椏（みつまた）」の名。樹皮の繊維が強靭で、コウゾ・ガンピと並ぶ和紙の三大原料。特に日本銀行券（紙幣）の原料として重要。早春、葉の出る前に球状の黄色い花序が枝先に垂れ下がるように咲き、独特の甘い芳香を放つ。観賞用としても植栽される。",
+    enDescription: "A deciduous shrub in the Thymelaeaceae family, native to China, introduced to Japan in the Muromachi period. The name 'mitsu-mata' ('three forks') describes the trifurcating branches. The strong bark fibres make it, alongside kōzo and gampi, one of Japan's three major washi paper materials — especially important as the raw material for Japanese banknotes. In early spring, before the leaves emerge, spherical yellow flower heads hang from branch tips with a sweet fragrance. Also planted as an ornamental.",
+    identificationPoints: [
+      "枝は必ず3本に分岐",
+      "葉は披針形で互生、若葉は絹毛を持つ",
+      "早春に黄色い球状の花序が枝先に垂れる、芳香",
+    ],
+    enIdentificationPoints: [
+      "Branches always in threes",
+      "Alternate lanceolate leaves; young leaves silky-hairy",
+      "Fragrant spherical yellow flower heads at branch tips in early spring",
+    ],
+    habitat: "栽培（山間部の畑・庭）",
+    enHabitat: "Cultivated (mountain-area fields and gardens)",
+    season: "3〜4月（花）",
+    enSeason: "March to April (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Edgeworthia_chrysantha.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミツマタ" },
+    ],
+    tags: ["木本", "落葉低木", "花木", "和紙", "栽培"],
+    enTags: ["Tree", "Deciduous shrub", "Flowering tree", "Washi paper", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "tree", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ミツマタ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ミツマタ", totalViews: 39267, window: "202504-202603", months: [{ month: "202504", views: 8161 }, { month: "202505", views: 2029 }, { month: "202506", views: 1436 }, { month: "202507", views: 1237 }, { month: "202508", views: 1427 }, { month: "202509", views: 1654 }, { month: "202510", views: 1472 }, { month: "202511", views: 1704 }, { month: "202512", views: 1727 }, { month: "202601", views: 2845 }, { month: "202602", views: 3716 }, { month: "202603", views: 11859 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 178. ケッパー（YList: トゲフウチョウボク）─────
+  {
+    id: "caper",
+    jaName: "ケッパー（トゲフウチョウボク）",
+    enName: "Caper",
+    scientificName: "Capparis spinosa",
+    familyId: "capparaceae",
+    familyJaName: "フウチョウボク科",
+    description:
+      "フウチョウボク科フウチョウボク属の半低木。地中海沿岸〜西アジア原産。蕾を塩漬け・酢漬けにしたものがケッパー（カッパー）で、スモークサーモンやパスタ、肉料理の薬味として使われる。乾燥に強く、石垣や岩の割れ目にも育つ。白〜淡桃色の美しい花を開き、長い紫色の雄しべが放射状に広がる。和名トゲフウチョウボクは枝に棘があることから。",
+    enDescription: "A sub-shrub in the Capparaceae family, native from the Mediterranean to Western Asia. Brined or pickled flower buds are the culinary 'capers', used with smoked salmon, pasta, and meat dishes. Drought-hardy, growing in stone walls and rock crevices. Bears beautiful white to pale pink flowers with long radiating purple stamens. The Japanese name 'toge-fūchō-boku' refers to the thorns on its stems.",
+    identificationPoints: [
+      "茎に小さな棘、匍匐性〜半直立",
+      "葉は円形〜楕円形、肉厚、互生",
+      "花は径5〜7cm、白〜淡桃で中心に紫の長い雄しべが多数",
+    ],
+    enIdentificationPoints: [
+      "Small thorns on stems; prostrate to semi-erect habit",
+      "Thick round to elliptic alternate leaves",
+      "Flowers 5–7 cm across, white to pale pink, with many long purple stamens",
+    ],
+    habitat: "栽培（地中海沿岸）、岩場・石垣",
+    enHabitat: "Cultivated (Mediterranean); rocky ground and stone walls",
+    season: "5〜8月（花）",
+    enSeason: "May to August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Capparis_spinosa.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ケッパー" },
+    ],
+    tags: ["木本", "低木", "香辛料", "地中海", "花木"],
+    enTags: ["Tree", "Shrub", "Spice", "Mediterranean", "Flowering tree"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "round", habit: "tree", deciduous: "deciduous", flowerColor: "white", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ケッパー" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ケッパー", totalViews: 39231, window: "202504-202603", months: [{ month: "202504", views: 3571 }, { month: "202505", views: 4287 }, { month: "202506", views: 3694 }, { month: "202507", views: 3130 }, { month: "202508", views: 3480 }, { month: "202509", views: 3329 }, { month: "202510", views: 3789 }, { month: "202511", views: 2660 }, { month: "202512", views: 2904 }, { month: "202601", views: 3088 }, { month: "202602", views: 2614 }, { month: "202603", views: 2685 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 179. イヌホオズキ（YList: イヌホオズキ）─────
+  {
+    id: "inuhoozuki",
+    jaName: "イヌホオズキ",
+    enName: "Black Nightshade",
+    scientificName: "Solanum nigrum",
+    familyId: "solanaceae",
+    familyJaName: "ナス科",
+    description:
+      "ナス科ナス属の一年草。世界の温帯〜熱帯に広く分布し、日本各地の畑・道端・荒地に自生する雑草。ホオズキに似ているが役に立たない、という意味で「イヌホオズキ（犬酸漿）」。別名バカナス。小さな白い5弁花を咲かせ、黒く熟す直径1cm弱の液果をつける。全草にソラニン系アルカロイドを含み有毒。一方で一部地域では若葉を茹でて食用とする伝統もある。",
+    enDescription: "An annual in the nightshade family, distributed across temperate and tropical regions worldwide. Common weed in fields, roadsides, and wastelands throughout Japan. The Japanese name 'inu-hōzuki' ('dog hōzuki') implies a useless look-alike of Chinese lantern (hōzuki). Also called 'baka-nasu'. Bears small white 5-petaled flowers and black berries under 1 cm across. Contains toxic solanine alkaloids, though young leaves are traditionally eaten (cooked) in some regions.",
+    identificationPoints: [
+      "葉は卵形で互生、縁は波状または全縁",
+      "白い5弁花、小さい",
+      "黒く熟す液果、直径5〜8mm、数個集まる",
+    ],
+    enIdentificationPoints: [
+      "Alternate ovate leaves with wavy or entire margins",
+      "Small white 5-petaled flowers",
+      "Black berries 5–8 mm across in small clusters",
+    ],
+    habitat: "畑、道端、荒地",
+    enHabitat: "Fields, roadsides, wastelands",
+    season: "8〜10月（花・果実）",
+    enSeason: "August to October (flowers and fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Solanum_nigrum.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イヌホオズキ" },
+    ],
+    tags: ["草本", "一年草", "雑草", "有毒植物", "世界分布"],
+    enTags: ["Herb", "Annual", "Weed", "Toxic", "Cosmopolitan"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", petalCount: 5, flowerColor: "white", floweringSeason: "summer", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/イヌホオズキ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イヌホオズキ", totalViews: 39103, window: "202504-202603", months: [{ month: "202504", views: 1815 }, { month: "202505", views: 4078 }, { month: "202506", views: 5106 }, { month: "202507", views: 4746 }, { month: "202508", views: 4026 }, { month: "202509", views: 5082 }, { month: "202510", views: 4878 }, { month: "202511", views: 3877 }, { month: "202512", views: 2069 }, { month: "202601", views: 1491 }, { month: "202602", views: 829 }, { month: "202603", views: 1106 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 180. オジギソウ（YList: オジギソウ）─────
+  {
+    id: "ojigisou",
+    jaName: "オジギソウ",
+    enName: "Sensitive Plant / Mimosa",
+    scientificName: "Mimosa pudica",
+    familyId: "fabaceae",
+    familyJaName: "マメ科",
+    description:
+      "マメ科オジギソウ属の多年草（日本では一年草扱い）。ブラジル原産で、園芸植物として世界中に広まる。葉に触れると小葉が急速に閉じ、葉柄全体が垂れ下がる就眠運動を示すことから「お辞儀草」「含羞草」と呼ばれる。夕方にも同様の就眠運動を行う。夏に桃色のふわふわした球状の頭花を咲かせる。植物の運動・電気信号の研究対象としても有名。近縁のネムノキとは別種。",
+    enDescription: "A perennial (annual in Japan) in the legume family, native to Brazil, grown worldwide as an ornamental. Upon touch, the leaflets fold rapidly and the petiole droops — the basis of its Japanese names 'ojigi-sō' (bowing plant) and 'ganshū-sō' (bashful plant). The leaves also perform this movement at night (nyctinasty). In summer, it bears fluffy pink spherical flower heads. A classic subject for research on plant movement and electrical signalling. Distinct from the related nemu-no-ki.",
+    identificationPoints: [
+      "2回羽状複葉、触れると小葉が閉じ葉柄が垂れる",
+      "茎に棘、草丈30〜60cm",
+      "桃色のふわふわした球状の花、径1〜2cm",
+    ],
+    enIdentificationPoints: [
+      "Bipinnate leaves; leaflets close and petiole drops on touch",
+      "Thorny stems, 30–60 cm tall",
+      "Fluffy pink spherical flower heads 1–2 cm across",
+    ],
+    habitat: "栽培（鉢・花壇・温室）",
+    enHabitat: "Cultivated (pots, flowerbeds, greenhouses)",
+    season: "7〜9月（花）",
+    enSeason: "July to September (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Mimosa_pudica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オジギソウ" },
+    ],
+    tags: ["草本", "一年草", "観賞用", "就眠運動", "熱帯"],
+    enTags: ["Herb", "Annual", "Ornamental", "Nyctinastic", "Tropical"],
+    traits: { leafArr: "alt", leafType: "compound", compoundType: "pinnate", habit: "herb", deciduous: "deciduous", flowerColor: "pink", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/オジギソウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オジギソウ", totalViews: 38716, window: "202504-202603", months: [{ month: "202504", views: 4270 }, { month: "202505", views: 5694 }, { month: "202506", views: 4263 }, { month: "202507", views: 4201 }, { month: "202508", views: 4342 }, { month: "202509", views: 3238 }, { month: "202510", views: 2557 }, { month: "202511", views: 1999 }, { month: "202512", views: 1479 }, { month: "202601", views: 1577 }, { month: "202602", views: 1699 }, { month: "202603", views: 3397 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 181. イヌサフラン（YList: イヌサフラン）─────
+  {
+    id: "inusafran",
+    jaName: "イヌサフラン",
+    enName: "Autumn Crocus / Meadow Saffron",
+    scientificName: "Colchicum autumnale",
+    familyId: "colchicaceae",
+    familyJaName: "イヌサフラン科",
+    description:
+      "イヌサフラン科イヌサフラン属の球根性多年草。ヨーロッパ〜北アフリカ原産。サフラン（アヤメ科）に似るがアヤメ科ではない（1科1属）。秋に葉のないまま直接地面から淡紫色のクロッカスに似た花を咲かせ、「秋咲きクロッカス」と呼ばれる。春に葉と果実が現れる特異な生態。全草、特に球茎・種子に強い毒性のコルヒチンを含み、食中毒死亡例が多く報告される。一方でコルヒチンは痛風治療薬として医療利用される。染色体倍加剤としても有名。",
+    enDescription: "A bulbous perennial in the Colchicaceae family, native from Europe to North Africa. Resembles saffron (Iridaceae) but belongs to a different family. Pale-purple crocus-like flowers emerge directly from the ground in autumn without leaves — hence 'autumn crocus'. Leaves and fruit appear in spring, an unusual life cycle. All parts, especially the corm and seeds, contain the powerful toxin colchicine; fatal poisonings are frequently reported. Yet colchicine is also used medically to treat gout and is famous as a chromosome-doubling agent.",
+    identificationPoints: [
+      "秋に葉のないまま淡紫色のクロッカス状の花が直接地面から",
+      "6花被片、花茎は細く10〜30cm",
+      "春に幅広の葉と蒴果",
+    ],
+    enIdentificationPoints: [
+      "Pale-purple crocus-like flowers emerging from bare ground in autumn",
+      "6 tepals; slender flower stalks 10–30 cm",
+      "Broad leaves and capsules appearing in spring",
+    ],
+    habitat: "栽培（花壇・鉢）、草原（原産地）",
+    enHabitat: "Cultivated (flowerbeds, pots); meadows (native)",
+    season: "9〜10月（花）、4〜6月（葉・果実）",
+    enSeason: "September to October (flowers); April to June (leaves and fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Colchicum_autumnale.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イヌサフラン" },
+    ],
+    tags: ["草本", "多年草", "球根", "有毒植物", "薬用"],
+    enTags: ["Herb", "Perennial", "Bulb", "Toxic", "Medicinal"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 6, flowerColor: "purple", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/イヌサフラン" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イヌサフラン", totalViews: 38684, window: "202504-202603", months: [{ month: "202504", views: 2191 }, { month: "202505", views: 2191 }, { month: "202506", views: 1544 }, { month: "202507", views: 1239 }, { month: "202508", views: 1296 }, { month: "202509", views: 9705 }, { month: "202510", views: 6035 }, { month: "202511", views: 1565 }, { month: "202512", views: 1151 }, { month: "202601", views: 949 }, { month: "202602", views: 1029 }, { month: "202603", views: 9789 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+  // ───── 182. ケイトウ（YList: ケイトウ）─────
+  {
+    id: "keitou",
+    jaName: "ケイトウ",
+    enName: "Cockscomb",
+    scientificName: "Celosia argentea var. cristata",
+    familyId: "amaranthaceae",
+    familyJaName: "ヒユ科",
+    description:
+      "ヒユ科ケイトウ属の一年草。熱帯アジア〜アフリカ原産。花序がニワトリのとさか（鶏頭）に似ることから命名。奈良時代以前に渡来した古い園芸植物で、万葉集にも「韓藍（からあい）」の名で詠まれる。赤・黄・橙の鮮やかな花序は秋の花壇の定番で、とさか状・羽毛状・槍状など品種が多彩。切花や染料としても利用。",
+    enDescription: "An annual in the amaranth family, native from tropical Asia to Africa. Named for its inflorescence resembling a rooster's comb (keitou = 'rooster head'). An ancient ornamental introduced to Japan before the Nara period, mentioned in the Manyōshū as 'kara-ai'. Vibrant red, yellow, and orange crest-, plume-, and spike-shaped inflorescences are autumn flowerbed staples. Also used as a cut flower and dye plant.",
+    identificationPoints: [
+      "花序は扁平なとさか状、羽毛状、または槍状",
+      "花色は赤・黄・橙・桃が鮮やか",
+      "葉は披針形〜卵形で互生、草丈30〜90cm",
+    ],
+    enIdentificationPoints: [
+      "Inflorescence crest-, plume-, or spike-shaped",
+      "Vivid red, yellow, orange, or pink",
+      "Lanceolate to ovate alternate leaves, 30–90 cm tall",
+    ],
+    habitat: "栽培（花壇・切花）",
+    enHabitat: "Cultivated (flowerbeds, cut flowers)",
+    season: "7〜11月（花）",
+    enSeason: "July to November (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Celosia_argentea_var_cristata.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ケイトウ" },
+    ],
+    tags: ["草本", "一年草", "花卉", "観賞用", "栽培"],
+    enTags: ["Herb", "Annual", "Flower", "Ornamental", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "red", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ケイトウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ケイトウ", totalViews: 38676, window: "202504-202603", months: [{ month: "202504", views: 1346 }, { month: "202505", views: 2695 }, { month: "202506", views: 1841 }, { month: "202507", views: 2347 }, { month: "202508", views: 5331 }, { month: "202509", views: 11893 }, { month: "202510", views: 5926 }, { month: "202511", views: 3029 }, { month: "202512", views: 1437 }, { month: "202601", views: 1019 }, { month: "202602", views: 890 }, { month: "202603", views: 922 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 183. ジギタリス（YList: ジギタリス）─────
+  {
+    id: "digitalis",
+    jaName: "ジギタリス",
+    enName: "Foxglove",
+    scientificName: "Digitalis purpurea",
+    familyId: "plantaginaceae",
+    familyJaName: "オオバコ科",
+    description:
+      "オオバコ科ジギタリス属の二年草または多年草。ヨーロッパ〜西アジア原産。初夏に1〜2mの長い花茎に釣鐘状の大きな花を総状に咲かせ、花色は紫・桃・白・黄と多彩で内側に斑紋がある。全草にジギトキシン・ギトキシンなどの強心配糖体を含み、強い毒性と薬効を併せ持つ。心不全治療薬として19世紀以降医療に利用され、現在も医薬品として重要。",
+    enDescription: "A biennial or perennial in the plantain family, native from Europe to Western Asia. In early summer, flower stalks 1–2 m tall bear large racemes of bell-shaped blooms in purple, pink, white, or yellow with speckled interiors. All parts contain the cardiac glycosides digitoxin and gitoxin — both highly toxic and medicinally valuable. A treatment for heart failure since the 19th century and still an important pharmaceutical.",
+    identificationPoints: [
+      "草丈1〜2m、長い花茎",
+      "釣鐘状の大きな花を総状に、内側に斑紋",
+      "葉は長卵形、根生葉は大きくロゼット状",
+    ],
+    enIdentificationPoints: [
+      "1–2 m tall with long flower stalks",
+      "Bell-shaped flowers on a one-sided raceme with speckled throats",
+      "Large ovate leaves, forming a basal rosette",
+    ],
+    habitat: "栽培（花壇）、帰化（山地）",
+    enHabitat: "Cultivated (flowerbeds); naturalized (mountains)",
+    season: "5〜7月（花）",
+    enSeason: "May to July (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Digitalis_purpurea_03.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ジギタリス" },
+    ],
+    tags: ["草本", "多年草", "花卉", "有毒植物", "薬用"],
+    enTags: ["Herb", "Perennial", "Flower", "Toxic", "Medicinal"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ジギタリス" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ジギタリス", totalViews: 38503, window: "202504-202603", months: [{ month: "202504", views: 3610 }, { month: "202505", views: 6956 }, { month: "202506", views: 5032 }, { month: "202507", views: 3657 }, { month: "202508", views: 2809 }, { month: "202509", views: 2964 }, { month: "202510", views: 2232 }, { month: "202511", views: 2380 }, { month: "202512", views: 2595 }, { month: "202601", views: 2372 }, { month: "202602", views: 1859 }, { month: "202603", views: 2037 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 184. オオハマボウ（YList: オオハマボウ）─────
+  {
+    id: "oohamabou",
+    jaName: "オオハマボウ",
+    enName: "Sea Hibiscus",
+    scientificName: "Hibiscus tiliaceus",
+    familyId: "malvaceae",
+    familyJaName: "アオイ科",
+    description:
+      "アオイ科フヨウ属の常緑高木。熱帯・亜熱帯の海岸に広く分布し、日本では沖縄・奄美・小笠原に自生。海辺の防風林・防潮樹として重要で、塩害に強い。朝、鮮やかな黄色い大型の花を咲かせ、午後には橙色〜赤色に変化して夕方落下する「一日花」。樹皮の繊維は縄・布に利用され、ポリネシアでは「プランケット」の原料に。和名の「ゆうな」は万葉集にも登場。",
+    enDescription: "An evergreen tree in the mallow family, distributed along tropical and subtropical coasts. Native to Okinawa, the Amami Islands, and the Ogasawara Islands. An important windbreak and salt-tolerant coastal tree. The large bright yellow flowers open in the morning, turn orange to red by afternoon, and fall by evening — each flower lasts a single day. Bark fibres are used for ropes and cloth, including Polynesian 'purauke'. The Japanese name 'yūna' appears in the Manyōshū.",
+    identificationPoints: [
+      "葉は大きな心形〜円形、革質",
+      "黄色→橙→赤と1日で色変化する大型の花",
+      "海岸に自生、塩害に強い",
+    ],
+    enIdentificationPoints: [
+      "Large leathery cordate to round leaves",
+      "Large flowers shifting yellow → orange → red in one day",
+      "Coastal, salt-tolerant",
+    ],
+    habitat: "海岸、栽培",
+    enHabitat: "Coastal; cultivated",
+    season: "5〜10月（花）",
+    enSeason: "May to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hibiscus_tiliaceus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オオハマボウ" },
+    ],
+    tags: ["木本", "常緑高木", "海岸", "花木", "沖縄"],
+    enTags: ["Tree", "Evergreen", "Coastal", "Flowering tree", "Okinawa"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "cordate", habit: "tree", deciduous: "evergreen", flowerColor: "yellow", floweringSeason: "summer", habitat: "coastal" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/オオハマボウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオハマボウ", totalViews: 38375, window: "202504-202603", months: [{ month: "202504", views: 2947 }, { month: "202505", views: 3681 }, { month: "202506", views: 4699 }, { month: "202507", views: 2667 }, { month: "202508", views: 3213 }, { month: "202509", views: 4498 }, { month: "202510", views: 4246 }, { month: "202511", views: 2721 }, { month: "202512", views: 3282 }, { month: "202601", views: 2864 }, { month: "202602", views: 1621 }, { month: "202603", views: 1936 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 185. ササ（YList外（属総称）、Sasa）─────
+  {
+    id: "sasa",
+    jaName: "ササ",
+    enName: "Sasa / Dwarf Bamboo",
+    scientificName: "Sasa",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "イネ科ササ属および関連属の小型竹類の総称。日本に最多様化し、クマザサ・ミヤコザサ・チマキザサ・アズマザサなど多数の種が自生。タケ類との区別は稈鞘が脱落せずに残る点で、一般に草丈2m以下と小型。雪の多い山地の林床を広く覆い、クマ・シカ・ウサギ・ノネズミの食草や隠れ場所となる生態的重要性を持つ。笹団子・笹寿司・ちまきなど日本の食文化にも欠かせない。",
+    enDescription: "The collective name for small bamboos in genus Sasa and related genera. Most diverse in Japan — kuma-zasa, miyako-zasa, chimaki-zasa, azuma-zasa, and many others are native. Distinguished from bamboo (take) in that the culm sheaths persist rather than shed, and they generally stay under 2 m tall. An ecologically important understory plant across snowy mountain forests, providing food and shelter for bears, deer, rabbits, and field mice. Essential in Japanese food culture for sasa-dango, sasa-zushi, and chimaki.",
+    identificationPoints: [
+      "小型竹類、草丈2m以下",
+      "稈鞘が脱落せずに残る（タケとの違い）",
+      "葉は長披針形、冬に縁が白くなる種（クマザサ）も",
+    ],
+    enIdentificationPoints: [
+      "Small bamboo under 2 m tall",
+      "Culm sheaths persist (unlike Take bamboo)",
+      "Long-lanceolate leaves; some species (kuma-zasa) whiten at edges in winter",
+    ],
+    habitat: "山地・林床・雪国",
+    enHabitat: "Mountains, understory, snowy regions",
+    season: "通年（常緑）",
+    enSeason: "Year-round (evergreen)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sasa_veitchii.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ササ" },
+    ],
+    tags: ["草本", "常緑", "竹", "日本自生", "属総称"],
+    enTags: ["Herb", "Evergreen", "Bamboo", "Native to Japan", "Genus"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "linear", habit: "herb", deciduous: "evergreen", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ササ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ササ", totalViews: 38314, window: "202504-202603", months: [{ month: "202504", views: 2760 }, { month: "202505", views: 5457 }, { month: "202506", views: 4640 }, { month: "202507", views: 4461 }, { month: "202508", views: 3635 }, { month: "202509", views: 3070 }, { month: "202510", views: 2688 }, { month: "202511", views: 2472 }, { month: "202512", views: 2389 }, { month: "202601", views: 2394 }, { month: "202602", views: 2031 }, { month: "202603", views: 2317 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称扱い（クマザサ等は未掲載）。" },
+  },
+
+  // ───── 186. コーヒーノキ（YList: コーヒーノキ）─────
+  {
+    id: "coffee_tree",
+    jaName: "コーヒーノキ",
+    enName: "Coffee Tree",
+    scientificName: "Coffea arabica",
+    familyId: "rubiaceae",
+    familyJaName: "アカネ科",
+    description:
+      "アカネ科コーヒーノキ属の常緑低木。エチオピア原産。世界で最も重要な嗜好飲料コーヒーの原料で、アラビカ種（C. arabica、全生産量の60-70%）とロブスタ種（C. canephora）が主要。白い芳香のある花を咲かせ、赤く熟す「コーヒーチェリー」の中の種子が焙煎されてコーヒー豆になる。熱帯高地（標高600-2000m、「コーヒーベルト」）で栽培。カフェインによる薬理作用でも知られる。",
+    enDescription: "An evergreen shrub in the madder family, native to Ethiopia. Source of coffee, the world's most important beverage — Arabica (C. arabica, 60–70% of production) and Robusta (C. canephora) are the main species. Fragrant white flowers are followed by red 'cherries'; the roasted seeds become coffee beans. Cultivated in the tropical highlands (600–2000 m, the 'coffee belt'). Also known for the pharmacological effects of caffeine.",
+    identificationPoints: [
+      "葉は楕円形で対生、革質で光沢",
+      "白い小花、強い甘い香り",
+      "赤く熟す1.5cm程度の液果、中に2個の種子",
+    ],
+    enIdentificationPoints: [
+      "Glossy leathery elliptic opposite leaves",
+      "Small white flowers with strong sweet fragrance",
+      "Red 1.5 cm berries containing two seeds (beans)",
+    ],
+    habitat: "栽培（熱帯高地）",
+    enHabitat: "Cultivated (tropical highlands)",
+    season: "通年（熱帯）、花は雨季後、実は8〜12ヶ月後",
+    enSeason: "Year-round (tropics); flowers after rainy season, fruit 8–12 months later",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Coffea_arabica_6.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コーヒーノキ" },
+    ],
+    tags: ["木本", "常緑低木", "熱帯", "嗜好品", "栽培"],
+    enTags: ["Tree", "Evergreen shrub", "Tropical", "Beverage plant", "Cultivated"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "evergreen", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/コーヒーノキ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コーヒーノキ", totalViews: 37981, window: "202504-202603", months: [{ month: "202504", views: 3455 }, { month: "202505", views: 4509 }, { month: "202506", views: 3166 }, { month: "202507", views: 2867 }, { month: "202508", views: 3018 }, { month: "202509", views: 2878 }, { month: "202510", views: 3542 }, { month: "202511", views: 3400 }, { month: "202512", views: 2691 }, { month: "202601", views: 2826 }, { month: "202602", views: 2860 }, { month: "202603", views: 2769 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 187. レモングラス（YList: レモングラス）─────
+  {
+    id: "lemongrass",
+    jaName: "レモングラス",
+    enName: "Lemongrass",
+    scientificName: "Cymbopogon citratus",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "イネ科オガルカヤ属の多年草。インド〜東南アジア原産。葉と茎にレモンに似た強い香り（シトラール）をもち、タイ料理のトムヤムクン、ベトナム料理、ハーブティーに欠かせない。精油は香水・アロマテラピー・防虫剤の原料。温帯では越冬困難だが、沖縄・九州南部では露地栽培可能。株は直径1m以上になる大型の多年草。",
+    enDescription: "A perennial in the grass family, native to India and Southeast Asia. The leaves and stems contain citral, giving a strong lemon-like aroma. Essential in Thai tom yum kung, Vietnamese cuisine, and herbal teas. The essential oil is used in perfumes, aromatherapy, and insect repellents. Cannot overwinter in temperate climates but can be grown outdoors in Okinawa and southern Kyūshū. Forms large clumps over 1 m across.",
+    identificationPoints: [
+      "葉は細長い線形、幅1〜1.5cm",
+      "株は直径1m以上の大型クランプ",
+      "葉と茎を揉むと強いレモンの香り",
+    ],
+    enIdentificationPoints: [
+      "Long, narrow linear leaves 1–1.5 cm wide",
+      "Large clump over 1 m across",
+      "Strong lemon scent when leaves or stems are crushed",
+    ],
+    habitat: "栽培（熱帯〜温暖地）",
+    enHabitat: "Cultivated (tropical to warm temperate)",
+    season: "通年（熱帯）、4〜11月（温帯）",
+    enSeason: "Year-round (tropics); April to November (temperate)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cymbopogon_citratus_002.JPG",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/レモングラス" },
+    ],
+    tags: ["草本", "多年草", "ハーブ", "香料", "熱帯"],
+    enTags: ["Herb", "Perennial", "Herb", "Fragrance", "Tropical"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "linear", habit: "herb", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/レモングラス" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "レモングラス", totalViews: 37945, window: "202504-202603", months: [{ month: "202504", views: 3013 }, { month: "202505", views: 3460 }, { month: "202506", views: 4064 }, { month: "202507", views: 5138 }, { month: "202508", views: 4629 }, { month: "202509", views: 3717 }, { month: "202510", views: 3229 }, { month: "202511", views: 2911 }, { month: "202512", views: 1982 }, { month: "202601", views: 1790 }, { month: "202602", views: 1832 }, { month: "202603", views: 2180 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 188. シオン（YList外、Aster tataricus）─────
+  {
+    id: "shion",
+    jaName: "シオン",
+    enName: "Tatarian Aster",
+    scientificName: "Aster tataricus",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科シオン属の多年草。シベリア〜中国〜日本（九州）に自生。草丈1.5〜2mの大型で、秋に淡紫色〜青紫色の頭花を散房状に多数咲かせる。古名「しをに」、今昔物語集・源氏物語にも登場する古い観賞植物で、根は「紫菀（しおん）」と呼ばれる生薬（去痰薬）として中国・日本で古くから使われた。日本では絶滅危惧種（Ⅱ類）。",
+    enDescription: "A perennial in the daisy family, distributed from Siberia through China to Kyūshū, Japan. A large plant 1.5–2 m tall, bearing many pale purple to blue-purple flower heads in corymbs in autumn. A classical ornamental mentioned in Konjaku Monogatari and the Tale of Genji. The dried root, known as 'shi-on' (purple aster), is a traditional Chinese and Japanese expectorant herb. Classified as endangered (Category II) in Japan.",
+    identificationPoints: [
+      "草丈1.5〜2mと大型",
+      "淡紫色の頭花が散房状に多数",
+      "葉は長楕円形で大きい、根生葉は長さ30cmに達する",
+    ],
+    enIdentificationPoints: [
+      "Large, 1.5–2 m tall",
+      "Many pale purple flower heads in corymbs",
+      "Large oblong leaves; basal leaves up to 30 cm",
+    ],
+    habitat: "山地・湿地（自生）、栽培",
+    enHabitat: "Mountains and wetlands (native); cultivated",
+    season: "9〜10月（花）",
+    enSeason: "September to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aster_tataricus01.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シオン_(植物)" },
+    ],
+    tags: ["草本", "多年草", "薬用", "絶滅危惧", "日本自生"],
+    enTags: ["Herb", "Perennial", "Medicinal", "Endangered", "Native to Japan"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "summer", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/シオン_(植物)" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シオン (植物)", totalViews: 37940, window: "202504-202603", months: [{ month: "202504", views: 2973 }, { month: "202505", views: 3562 }, { month: "202506", views: 3241 }, { month: "202507", views: 2650 }, { month: "202508", views: 3279 }, { month: "202509", views: 5335 }, { month: "202510", views: 5206 }, { month: "202511", views: 3979 }, { month: "202512", views: 2269 }, { month: "202601", views: 2109 }, { month: "202602", views: 1604 }, { month: "202603", views: 1733 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 189. ベラドンナ（YList: ベラドンナ）─────
+  {
+    id: "belladonna",
+    jaName: "ベラドンナ",
+    enName: "Deadly Nightshade / Belladonna",
+    scientificName: "Atropa belladonna",
+    familyId: "solanaceae",
+    familyJaName: "ナス科",
+    description:
+      "ナス科オオカミナスビ属の多年草。ヨーロッパ〜西アジア原産。全草に強力な副交感神経抑制薬アトロピン・スコポラミンを含み、猛毒。イタリア語「美しい女性」の意で、瞳孔散大効果を利用して古代〜中世の女性が化粧に用いた逸話から命名。現代は散瞳薬・鎮痙薬として医療用途に使われるほか、魔女の妙薬や毒薬として文学・伝説に登場。釣鐘状の紫褐色の花、黒い液果をつける。",
+    enDescription: "A perennial in the nightshade family, native from Europe to Western Asia. All parts contain atropine and scopolamine — powerful anticholinergic alkaloids that make it highly poisonous. The name (Italian for 'beautiful lady') refers to the historic use of its pupil-dilating effect for cosmetics. Modern uses include mydriatics and antispasmodics. Iconic as a witch's potion and assassin's drug in literature. Bears bell-shaped purple-brown flowers and black berries.",
+    identificationPoints: [
+      "釣鐘状の紫褐色〜茶色の花、下向き",
+      "黒く光沢のある液果（人の致死量は2〜5個）",
+      "葉は長卵形で互生、草丈1.5m",
+    ],
+    enIdentificationPoints: [
+      "Nodding bell-shaped brown-purple flowers",
+      "Glossy black berries (lethal to adults in 2–5 fruits)",
+      "Ovate alternate leaves, 1.5 m tall",
+    ],
+    habitat: "森林・薮（自生）、栽培（薬用）",
+    enHabitat: "Forests and thickets (native); cultivated (medicinal)",
+    season: "6〜8月（花）",
+    enSeason: "June to August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Atropa_belladonna_001.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ベラドンナ" },
+    ],
+    tags: ["草本", "多年草", "有毒植物", "薬用", "歴史"],
+    enTags: ["Herb", "Perennial", "Toxic", "Medicinal", "Historical"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "summer", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ベラドンナ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ベラドンナ", totalViews: 37644, window: "202504-202603", months: [{ month: "202504", views: 2857 }, { month: "202505", views: 3805 }, { month: "202506", views: 2966 }, { month: "202507", views: 2968 }, { month: "202508", views: 5066 }, { month: "202509", views: 3157 }, { month: "202510", views: 3073 }, { month: "202511", views: 3159 }, { month: "202512", views: 2539 }, { month: "202601", views: 2434 }, { month: "202602", views: 2676 }, { month: "202603", views: 2944 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 190. セイヨウオトギリ（YList: セイヨウオトギリ）─────
+  {
+    id: "seiyou_otogiri",
+    jaName: "セイヨウオトギリ",
+    enName: "St. John's Wort",
+    scientificName: "Hypericum perforatum",
+    familyId: "clusiaceae",
+    familyJaName: "オトギリソウ科",
+    description:
+      "オトギリソウ科オトギリソウ属の多年草。ヨーロッパ原産で世界各地に帰化、日本でも各地で見られる。夏に鮮黄色の5弁花を多数咲かせ、葉に光を透かすと明るい油点が見えるのが特徴。ハーブ名「セントジョンズワート」として軽度〜中程度の鬱病治療に欧米で広く用いられ、ヒペリシン・ハイパーフォリンが有効成分。ただし他薬との相互作用（特にピル・抗血栓薬）が多数報告され注意が必要。",
+    enDescription: "A perennial in the Hypericaceae/Clusiaceae family, native to Europe and naturalized worldwide, including Japan. In summer, many bright yellow 5-petaled flowers open; held to the light, the leaves show translucent oil glands. Known as 'St. John's Wort' in Western herbalism for treating mild to moderate depression, with hypericin and hyperforin as active ingredients. Notable for many drug interactions — especially with oral contraceptives and anticoagulants.",
+    identificationPoints: [
+      "鮮黄色の5弁花、多数",
+      "葉に透かし模様の油点",
+      "茎は赤褐色で直立、草丈30〜60cm",
+    ],
+    enIdentificationPoints: [
+      "Many bright yellow 5-petaled flowers",
+      "Translucent oil-gland dots on leaves",
+      "Reddish-brown erect stems, 30–60 cm tall",
+    ],
+    habitat: "草原、路傍（帰化）",
+    enHabitat: "Grasslands, roadsides (naturalized)",
+    season: "6〜8月（花）",
+    enSeason: "June to August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hypericum_perforatum01.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セイヨウオトギリ" },
+    ],
+    tags: ["草本", "多年草", "ハーブ", "薬用", "帰化植物"],
+    enTags: ["Herb", "Perennial", "Herb", "Medicinal", "Naturalized"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", petalCount: 5, flowerColor: "yellow", floweringSeason: "summer", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/セイヨウオトギリ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "セイヨウオトギリ", totalViews: 37626, window: "202504-202603", months: [{ month: "202504", views: 3132 }, { month: "202505", views: 5378 }, { month: "202506", views: 4996 }, { month: "202507", views: 3128 }, { month: "202508", views: 3068 }, { month: "202509", views: 2941 }, { month: "202510", views: 3242 }, { month: "202511", views: 2610 }, { month: "202512", views: 2248 }, { month: "202601", views: 2544 }, { month: "202602", views: 2137 }, { month: "202603", views: 2202 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 191. ワレモコウ（YList: ワレモコウ）─────
+  {
+    id: "waremokou",
+    jaName: "ワレモコウ",
+    enName: "Great Burnet",
+    scientificName: "Sanguisorba officinalis",
+    familyId: "rosaceae",
+    familyJaName: "バラ科",
+    description:
+      "バラ科ワレモコウ属の多年草。ユーラシアに広く分布し、日本各地の日当たりの良い草原に自生。夏〜秋に暗紫紅色の楕円形〜円筒形の頭花を咲かせ、無花弁で4枚の萼が花弁のように見える独特の姿。和風庭園・切花・秋の野草の代表格で、俳句の秋の季語。根は「地楡（ちゆ）」と呼ばれ、止血・収斂作用の生薬に使われる。",
+    enDescription: "A perennial in the rose family, widespread across Eurasia, native to sunny grasslands throughout Japan. From summer to autumn, dark maroon ellipsoid to cylindrical flower heads appear — petalless, with four petaloid sepals creating their distinctive look. A classic of Japanese-style gardens, cut flowers, and autumn wildflowers; a kigo ('season word') in haiku for autumn. The root ('jiyu' / 'chiyu') is used as a haemostatic and astringent herb.",
+    identificationPoints: [
+      "暗紫紅色の楕円形〜円筒形の頭花",
+      "羽状複葉、小葉は長楕円形で鋸歯",
+      "草丈50〜100cm",
+    ],
+    enIdentificationPoints: [
+      "Dark maroon ellipsoid to cylindrical flower heads",
+      "Pinnately compound leaves with toothed oblong leaflets",
+      "50–100 cm tall",
+    ],
+    habitat: "山野の草原",
+    enHabitat: "Mountain and field grasslands",
+    season: "8〜10月（花）",
+    enSeason: "August to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sanguisorba_officinalis_03.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ワレモコウ" },
+    ],
+    tags: ["草本", "多年草", "日本自生", "薬用", "切花"],
+    enTags: ["Herb", "Perennial", "Native to Japan", "Medicinal", "Cut flower"],
+    traits: { leafArr: "alt", leafType: "compound", compoundType: "pinnate", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "summer", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ワレモコウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ワレモコウ", totalViews: 37530, window: "202504-202603", months: [{ month: "202504", views: 2815 }, { month: "202505", views: 2693 }, { month: "202506", views: 1881 }, { month: "202507", views: 2341 }, { month: "202508", views: 5755 }, { month: "202509", views: 6745 }, { month: "202510", views: 4546 }, { month: "202511", views: 2657 }, { month: "202512", views: 2463 }, { month: "202601", views: 2054 }, { month: "202602", views: 1881 }, { month: "202603", views: 1699 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 192. ガーベラ（YList外、Gerbera）─────
+  {
+    id: "gerbera",
+    jaName: "ガーベラ",
+    enName: "Gerbera",
+    scientificName: "Gerbera jamesonii",
+    familyId: "asteraceae",
+    familyJaName: "キク科",
+    description:
+      "キク科ガーベラ属の多年草。南アフリカ原産。明治〜大正期に日本へ導入された切花・鉢花の代表格で、世界的に切花売上第5位。直径5〜15cmの大輪頭花が特徴で、花色は赤・桃・黄・橙・白など多彩（青・紫のみ自然にはない）。茎葉の少ないすっきりした草姿と長い花茎で花束・アレンジメントに広く使われる。",
+    enDescription: "A perennial in the daisy family, native to South Africa. Introduced to Japan in the Meiji to Taishō periods, now a leading cut flower and potted plant — ranked fifth worldwide among cut flower sales. Large 5–15 cm flower heads come in red, pink, yellow, orange, and white (but never naturally in blue or purple). The clean form with minimal stem foliage and long flower stalks suits bouquets and flower arrangements.",
+    identificationPoints: [
+      "直径5〜15cmの大輪頭花、花色は多彩",
+      "葉は根生で深く羽裂",
+      "花茎は長く、葉をつけない",
+    ],
+    enIdentificationPoints: [
+      "Large flower heads 5–15 cm across in many colours",
+      "Basal deeply pinnate leaves",
+      "Long leafless flower stalks",
+    ],
+    habitat: "栽培（切花・鉢花）",
+    enHabitat: "Cultivated (cut flowers, pots)",
+    season: "4〜10月（花、周年開花も）",
+    enSeason: "April to October (or year-round under cultivation)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Gerbera_jamesonii01.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ガーベラ" },
+    ],
+    tags: ["草本", "多年草", "花卉", "切花", "観賞用"],
+    enTags: ["Herb", "Perennial", "Flower", "Cut flower", "Ornamental"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "red", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ガーベラ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ガーベラ", totalViews: 36877, window: "202504-202603", months: [{ month: "202504", views: 4376 }, { month: "202505", views: 4984 }, { month: "202506", views: 3216 }, { month: "202507", views: 2365 }, { month: "202508", views: 2461 }, { month: "202509", views: 2657 }, { month: "202510", views: 4072 }, { month: "202511", views: 2802 }, { month: "202512", views: 2262 }, { month: "202601", views: 2503 }, { month: "202602", views: 2176 }, { month: "202603", views: 3003 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 193. セロリ（YList: セロリ）─────
+  {
+    id: "celery",
+    jaName: "セロリ",
+    enName: "Celery",
+    scientificName: "Apium graveolens",
+    familyId: "apiaceae",
+    familyJaName: "セリ科",
+    description:
+      "セリ科オランダミツバ属の二年草。地中海沿岸原産。古代ギリシャ・ローマ時代から薬用・香料として利用され、17世紀頃に野菜化された。日本には江戸時代に「清正人参」として伝わり、明治以降本格的に栽培。独特の香り（セダノリド・アピイン）をもつ葉柄を生食・煮込み料理・サラダに使う。欧州ではセルリアック（根セロリ）やリーフセロリ（葉セロリ）も用途別に栽培される。",
+    enDescription: "A biennial in the carrot family, native to the Mediterranean. Used since ancient Greece and Rome for medicine and fragrance; domesticated as a vegetable in the 17th century. Introduced to Japan in the Edo period as 'seishō-ninjin' (after Katō Kiyomasa), and cultivated in earnest from the Meiji era. The aromatic petioles (with sedanolide and apiin) are eaten raw, stewed, or in salads. In Europe, celeriac (root celery) and leaf celery are also grown.",
+    identificationPoints: [
+      "葉柄は太くて肉厚、独特の香り",
+      "羽状複葉、小葉は鋸歯のある卵形",
+      "2年目に花茎を立て、白い小花を散形に",
+    ],
+    enIdentificationPoints: [
+      "Thick, fleshy, aromatic petioles",
+      "Pinnately compound leaves with toothed ovate leaflets",
+      "In the second year, flower stalk with white umbels",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "10〜2月（旬）",
+    enSeason: "October to February (season)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Apium_graveolens.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セロリ" },
+    ],
+    tags: ["草本", "二年草", "野菜", "香草", "栽培"],
+    enTags: ["Herb", "Biennial", "Vegetable", "Aromatic", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", compoundType: "pinnate", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/セロリ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "セロリ", totalViews: 36730, window: "202504-202603", months: [{ month: "202504", views: 3349 }, { month: "202505", views: 3741 }, { month: "202506", views: 3362 }, { month: "202507", views: 2685 }, { month: "202508", views: 2775 }, { month: "202509", views: 3899 }, { month: "202510", views: 2772 }, { month: "202511", views: 2679 }, { month: "202512", views: 2622 }, { month: "202601", views: 3038 }, { month: "202602", views: 2792 }, { month: "202603", views: 3016 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 194. アブラナ（YList: アブラナ）─────
+  {
+    id: "aburana",
+    jaName: "アブラナ（ナノハナ）",
+    enName: "Field Mustard / Rapeseed",
+    scientificName: "Brassica rapa var. nippo-oleifera",
+    familyId: "brassicaceae",
+    familyJaName: "アブラナ科",
+    description:
+      "アブラナ科アブラナ属の越年草。地中海〜西アジア原産と考えられる古い栽培作物。種子から菜種油を採るため古くから栽培され、現在は「菜の花」として春の景色を彩る景観作物、また若い花茎・蕾は「菜花（なばな）」として食用される。春先に黄色い4弁の十字花を多数咲かせ、千葉・三重の菜の花畑は観光名所。野生化した個体も河原で多く見られる。近縁種カブ・ハクサイ・コマツナ等と種分類上連続。",
+    enDescription: "An annual/biennial in the mustard family, thought to originate from the Mediterranean to Western Asia. Long cultivated for rapeseed oil; now also grown as a landscape plant ('na-no-hana', rape blossoms) and a spring vegetable ('nabana'). The small 4-petaled yellow cruciform flowers cover fields in early spring, making the rape-blossom fields of Chiba and Mie tourist attractions. Naturalized individuals are common along rivers. Taxonomically contiguous with turnip, Chinese cabbage, and komatsuna.",
+    identificationPoints: [
+      "黄色の4弁花（十字花）、総状に",
+      "下部の葉は羽状、上部は基部で茎を抱く",
+      "草丈40〜80cm",
+    ],
+    enIdentificationPoints: [
+      "Yellow 4-petaled (cruciform) flowers in racemes",
+      "Lower leaves pinnate; upper leaves clasping the stem",
+      "40–80 cm tall",
+    ],
+    habitat: "栽培（畑・景観作物）、河原（帰化）",
+    enHabitat: "Cultivated (fields, landscape); riverbanks (naturalized)",
+    season: "3〜5月（花）",
+    enSeason: "March to May (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_rapa_plant.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アブラナ" },
+    ],
+    tags: ["草本", "越年草", "野菜", "油糧作物", "景観作物"],
+    enTags: ["Herb", "Biennial", "Vegetable", "Oil crop", "Landscape plant"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", petalCount: 4, flowerColor: "yellow", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アブラナ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アブラナ", totalViews: 36561, window: "202504-202603", months: [{ month: "202504", views: 7141 }, { month: "202505", views: 5358 }, { month: "202506", views: 2892 }, { month: "202507", views: 2215 }, { month: "202508", views: 2098 }, { month: "202509", views: 1914 }, { month: "202510", views: 1845 }, { month: "202511", views: 1806 }, { month: "202512", views: 1896 }, { month: "202601", views: 2386 }, { month: "202602", views: 2578 }, { month: "202603", views: 4432 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 195. トネリコ（YList: トネリコ）─────
+  {
+    id: "toneriko",
+    jaName: "トネリコ",
+    enName: "Japanese Ash",
+    scientificName: "Fraxinus japonica",
+    familyId: "oleaceae",
+    familyJaName: "モクセイ科",
+    description:
+      "モクセイ科トネリコ属の落葉高木。本州中部以北の山地に自生する日本固有種。樹皮から灰白色の粘液を採り、鳥もちの原料にしたことから「戸塗り木（とねりこ）」の名が由来とも。材は弾力があり硬く、野球のバット・家具・農具の柄に利用される。近縁のヤチダモ・シオジ・アオダモと共に日本の重要な木材樹種。春に小さな花を円錐花序に、秋に翼果をつける。",
+    enDescription: "A deciduous tree in the olive family, endemic to mountains of central and northern Honshū, Japan. The bark exudes a grey-white sticky latex, historically used for bird-lime — possibly the origin of the name 'to-nuri-ki' ('door-coating tree'). The elastic, hard wood is used for baseball bats, furniture, and tool handles. A major Japanese timber alongside related yachidamo, shioji, and aodamo. Small flowers in panicles in spring; winged samaras in autumn.",
+    identificationPoints: [
+      "奇数羽状複葉、対生",
+      "樹皮は灰褐色、不規則に縦に割れる",
+      "翼果（細長い翼のある果実）をつける",
+    ],
+    enIdentificationPoints: [
+      "Odd-pinnate opposite compound leaves",
+      "Grey-brown irregularly fissured bark",
+      "Elongated winged samaras",
+    ],
+    habitat: "山地、渓流沿い",
+    enHabitat: "Mountains, streamsides",
+    season: "4〜5月（花）、9〜10月（果実）",
+    enSeason: "April to May (flowers); September to October (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fraxinus_japonica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トネリコ" },
+    ],
+    tags: ["木本", "落葉高木", "日本固有種", "用材", "山地"],
+    enTags: ["Tree", "Deciduous", "Endemic to Japan", "Timber", "Mountain"],
+    traits: { leafArr: "opp", leafType: "compound", compoundType: "pinnate", habit: "tree", deciduous: "deciduous", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/トネリコ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "トネリコ", totalViews: 36466, window: "202504-202603", months: [{ month: "202504", views: 3617 }, { month: "202505", views: 3968 }, { month: "202506", views: 3319 }, { month: "202507", views: 3186 }, { month: "202508", views: 3552 }, { month: "202509", views: 2936 }, { month: "202510", views: 2870 }, { month: "202511", views: 2788 }, { month: "202512", views: 3023 }, { month: "202601", views: 2340 }, { month: "202602", views: 2289 }, { month: "202603", views: 2578 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 196. キビ（YList: キビ）─────
+  {
+    id: "kibi",
+    jaName: "キビ",
+    enName: "Proso Millet",
+    scientificName: "Panicum miliaceum",
+    familyId: "poaceae",
+    familyJaName: "イネ科",
+    description:
+      "イネ科キビ属の一年草。中央アジア原産、新石器時代から栽培される世界最古の穀物の一つ。アワ・ヒエと並ぶ日本三大雑穀で、稲作以前から東アジアで主食として栽培された。黍（きび）団子・黍餅として古くから親しまれ、昔話「桃太郎」の「きびだんご」でも知られる。現在は健康食・アレルギー対応食材として再評価。岡山県が日本の主産地。",
+    enDescription: "An annual in the grass family, native to Central Asia; one of the world's oldest cultivated cereals since the Neolithic. One of Japan's three main traditional millets with awa and hie, cultivated as a staple across East Asia before rice. Long familiar in kibi-dango and kibi-mochi — famously the 'kibi-dango' given in the Momotarō folktale. Now revalued as a health food and allergy-friendly grain. Okayama is the main producing area in Japan.",
+    identificationPoints: [
+      "草丈0.5〜1.5m",
+      "円錐花序が垂れ下がる",
+      "種子は1〜2mmで黄色〜橙、丸みがある",
+    ],
+    enIdentificationPoints: [
+      "0.5–1.5 m tall",
+      "Drooping panicle inflorescence",
+      "Rounded yellow-orange seeds 1–2 mm",
+    ],
+    habitat: "栽培（畑）",
+    enHabitat: "Cultivated (fields)",
+    season: "8〜10月（収穫）",
+    enSeason: "August to October (harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Panicum_miliaceum0.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キビ" },
+    ],
+    tags: ["草本", "一年草", "雑穀", "栽培", "伝統食"],
+    enTags: ["Herb", "Annual", "Millet", "Cultivated", "Traditional food"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "linear", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/キビ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "キビ", totalViews: 36435, window: "202504-202603", months: [{ month: "202504", views: 3094 }, { month: "202505", views: 3359 }, { month: "202506", views: 2973 }, { month: "202507", views: 2713 }, { month: "202508", views: 3436 }, { month: "202509", views: 3172 }, { month: "202510", views: 2837 }, { month: "202511", views: 4414 }, { month: "202512", views: 2814 }, { month: "202601", views: 2764 }, { month: "202602", views: 2455 }, { month: "202603", views: 2404 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 197. ソラマメ（YList: ソラマメ）─────
+  {
+    id: "soramame",
+    jaName: "ソラマメ",
+    enName: "Broad Bean / Fava Bean",
+    scientificName: "Vicia faba",
+    familyId: "fabaceae",
+    familyJaName: "マメ科",
+    description:
+      "マメ科ソラマメ属の一年草または越年草。地中海〜西アジア原産で、紀元前数千年から栽培される世界最古の作物の一つ。莢が空を向いて直立することから「空豆（そらまめ）」の名。大型の豆は塩茹で・炒め物・ソラマメ餡・揚げ豆など、初夏の旬の味覚として人気。蚕豆（さんとう）とも書く。古代エジプト・ギリシャ・ローマで主要食糧だった。一部の人で溶血性貧血（ソラマメ中毒）を起こす。",
+    enDescription: "An annual or biennial in the legume family, native from the Mediterranean to Western Asia; cultivated since several millennia BC, one of the oldest crops. The name 'sora-mame' ('sky bean') comes from the upright pods pointing skyward. The large beans are enjoyed salt-boiled, stir-fried, as paste, or fried — a favourite early-summer treat. A staple food in ancient Egypt, Greece, and Rome. Can cause haemolytic anaemia ('favism') in some people.",
+    identificationPoints: [
+      "莢は空に向かって直立する",
+      "葉は偶数羽状複葉、頂小葉が巻きひげにならない（エンドウと異なる）",
+      "花は白〜淡紫、旗弁に黒色斑紋",
+    ],
+    enIdentificationPoints: [
+      "Pods stand upright, pointing skyward",
+      "Even-pinnate leaves without a terminal tendril (unlike pea)",
+      "White to pale purple flowers with a black blotch on the standard petal",
+    ],
+    habitat: "栽培（畑）",
+    enHabitat: "Cultivated (fields)",
+    season: "4〜6月（花・収穫）",
+    enSeason: "April to June (flowers and harvest)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Vicia_faba_2.JPG",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ソラマメ" },
+    ],
+    tags: ["草本", "越年草", "野菜", "豆類", "栽培"],
+    enTags: ["Herb", "Biennial", "Vegetable", "Legume", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "compound", compoundType: "pinnate", habit: "herb", deciduous: "deciduous", flowerColor: "white", floweringSeason: "spring", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ソラマメ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ソラマメ", totalViews: 36153, window: "202504-202603", months: [{ month: "202504", views: 4382 }, { month: "202505", views: 7140 }, { month: "202506", views: 5331 }, { month: "202507", views: 2050 }, { month: "202508", views: 2096 }, { month: "202509", views: 1998 }, { month: "202510", views: 2238 }, { month: "202511", views: 2035 }, { month: "202512", views: 1760 }, { month: "202601", views: 2098 }, { month: "202602", views: 2122 }, { month: "202603", views: 2903 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 198. ヒハツ（YList: インドナガコショウ）─────
+  {
+    id: "hihatsu",
+    jaName: "ヒハツ（インドナガコショウ）",
+    enName: "Long Pepper",
+    scientificName: "Piper longum",
+    familyId: "piperaceae",
+    familyJaName: "コショウ科",
+    description:
+      "コショウ科コショウ属のつる性木質多年草。インド原産。コショウ（Piper nigrum）が16世紀以降に広く普及する以前、古代ギリシャ・ローマではこちらの長胡椒が主要な香辛料だった。細長い円柱状の穂状果実を乾燥させて使う。現在はインド・インドネシア料理、沖縄の「ピパーチ」（ヒハツモドキ P. retrofractum）として利用。刺激的なピペリン系辛味成分を含む。",
+    enDescription: "A climbing woody perennial in the pepper family, native to India. Before common pepper (P. nigrum) spread in the 16th century, this long pepper was the primary spice in ancient Greece and Rome. The elongated cylindrical spike fruits are dried and used as a spice. Used today in Indian and Indonesian cuisine and, as the related 'pippāchi' (P. retrofractum), in Okinawan cooking. Contains pungent piperine-class alkaloids.",
+    identificationPoints: [
+      "つる性木質、葉は心形で光沢のある緑色",
+      "果実は細長い円柱状の穂状で、乾燥させると黒褐色",
+      "ピペリンを含み刺激的な辛味",
+    ],
+    enIdentificationPoints: [
+      "Woody climber with glossy green cordate leaves",
+      "Elongated cylindrical spike fruits, drying to dark brown",
+      "Pungent flavour from piperine",
+    ],
+    habitat: "栽培（熱帯）",
+    enHabitat: "Cultivated (tropical)",
+    season: "通年（熱帯）",
+    enSeason: "Year-round (tropics)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Piper_longum_Blanco1.192.png",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒハツ" },
+    ],
+    tags: ["木本", "つる植物", "香辛料", "熱帯", "栽培"],
+    enTags: ["Tree", "Vine", "Spice", "Tropical", "Cultivated"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "cordate", habit: "vine", deciduous: "evergreen", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヒハツ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヒハツ", totalViews: 36117, window: "202504-202603", months: [{ month: "202504", views: 4001 }, { month: "202505", views: 3512 }, { month: "202506", views: 3352 }, { month: "202507", views: 2972 }, { month: "202508", views: 3139 }, { month: "202509", views: 2696 }, { month: "202510", views: 3022 }, { month: "202511", views: 3422 }, { month: "202512", views: 2651 }, { month: "202601", views: 2906 }, { month: "202602", views: 2328 }, { month: "202603", views: 2116 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 199. ロマネスコ（YList外、Brassica oleracea 'Romanesco'）─────
+  {
+    id: "romanesco",
+    jaName: "ロマネスコ",
+    enName: "Romanesco",
+    scientificName: "Brassica oleracea var. botrytis 'Romanesco'",
+    familyId: "brassicaceae",
+    familyJaName: "アブラナ科",
+    description:
+      "アブラナ科アブラナ属の栽培品種。カリフラワー（同種同変種）の一品種で、16世紀イタリア・ローマ近郊で育種された。黄緑色の花蕾が自己相似的な螺旋（フラクタル）状の塔を成し、数学的美として知られる。花蕾の螺旋数はフィボナッチ数列に従う。味はカリフラワー・ブロッコリーに似てナッツ風で、茹で・ソテー・スープなど同様に調理される。近年、見た目の美しさから日本の高級スーパーや家庭菜園でも普及。",
+    enDescription: "A cultivar of Brassica oleracea in the mustard family, bred near Rome in 16th-century Italy as a type of cauliflower (same species and variety). The chartreuse flower head forms self-similar fractal spirals of remarkable mathematical beauty — the number of spirals follows the Fibonacci sequence. The flavour is cauliflower/broccoli-like with a nutty note, and it is cooked similarly (boiled, sautéed, or in soup). Its striking appearance has made it increasingly common in upscale supermarkets and home gardens in Japan.",
+    identificationPoints: [
+      "黄緑色の花蕾がフラクタル状の螺旋構造",
+      "螺旋数はフィボナッチ数列に従う",
+      "カリフラワーの一品種、葉はカリフラワーと同じ",
+    ],
+    enIdentificationPoints: [
+      "Chartreuse fractal spiral flower heads",
+      "Number of spirals follows Fibonacci sequence",
+      "A cauliflower cultivar; leaves are cauliflower-like",
+    ],
+    habitat: "栽培（畑・家庭菜園）",
+    enHabitat: "Cultivated (fields, home gardens)",
+    season: "11〜2月（旬）",
+    enSeason: "November to February (season)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Romanesco_broccoli_(3).jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ロマネスコ" },
+    ],
+    tags: ["草本", "野菜", "栽培品種", "栽培", "フラクタル"],
+    enTags: ["Herb", "Vegetable", "Cultivar", "Cultivated", "Fractal"],
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ロマネスコ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ロマネスコ", totalViews: 36105, window: "202504-202603", months: [{ month: "202504", views: 2213 }, { month: "202505", views: 2209 }, { month: "202506", views: 1872 }, { month: "202507", views: 1750 }, { month: "202508", views: 1430 }, { month: "202509", views: 2437 }, { month: "202510", views: 2026 }, { month: "202511", views: 2459 }, { month: "202512", views: 5486 }, { month: "202601", views: 5229 }, { month: "202602", views: 4486 }, { month: "202603", views: 4508 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 200. アカメガシワ（YList: アカメガシワ）─────
+  {
+    id: "akamegashiwa",
+    jaName: "アカメガシワ",
+    enName: "Japanese Mallotus",
+    scientificName: "Mallotus japonicus",
+    familyId: "euphorbiaceae",
+    familyJaName: "トウダイグサ科",
+    description:
+      "トウダイグサ科アカメガシワ属の落葉高木。本州〜沖縄、中国・朝鮮に分布。伐採跡地・造成地にいち早く侵入する典型的なパイオニア植物で、山野の遷移初期に優占する。新葉が鮮やかな紅色をすることから「赤芽柏」の名。葉が食べ物を盛る柏の葉のように大きく利用された歴史もある。樹皮は「野梧桐（やごどう）」として胃腸薬の生薬に、材は下駄・彫刻・爪楊枝に利用。",
+    enDescription: "A deciduous tree in the spurge family, distributed from Honshū to Okinawa and into China and Korea. A classic pioneer species, quickly colonizing clear-cuts and disturbed sites and dominating early succession. The name 'aka-me-gashiwa' ('red-bud oak') refers to the vivid red emerging leaves. The large leaves were historically used like oak leaves to serve food. The bark ('yago-dō') is a traditional digestive medicine; the wood is used for geta, carving, and toothpicks.",
+    identificationPoints: [
+      "新葉は鮮やかな紅色",
+      "葉は大きな三角形〜卵形、浅く3裂することも",
+      "パイオニア植物、伐採跡地に多い",
+    ],
+    enIdentificationPoints: [
+      "Vivid red new leaves",
+      "Large triangular to ovate leaves, sometimes shallowly 3-lobed",
+      "Pioneer species common in clear-cuts",
+    ],
+    habitat: "伐採跡地、道端、二次林",
+    enHabitat: "Clear-cuts, roadsides, secondary forests",
+    season: "6〜7月（花）",
+    enSeason: "June to July (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Mallotus_japonicus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アカメガシワ" },
+    ],
+    tags: ["木本", "落葉高木", "パイオニア", "日本自生", "薬用"],
+    enTags: ["Tree", "Deciduous", "Pioneer", "Native to Japan", "Medicinal"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "deciduous", habitat: "roadside" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/アカメガシワ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "アカメガシワ", totalViews: 36104, window: "202504-202603", months: [{ month: "202504", views: 2950 }, { month: "202505", views: 4520 }, { month: "202506", views: 5223 }, { month: "202507", views: 4349 }, { month: "202508", views: 4460 }, { month: "202509", views: 4373 }, { month: "202510", views: 3305 }, { month: "202511", views: 2513 }, { month: "202512", views: 1477 }, { month: "202601", views: 972 }, { month: "202602", views: 944 }, { month: "202603", views: 1018 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+
+  // ───── 201. コケモモ（YList: コケモモ）─────
+  {
+    id: "kokemomo",
+    jaName: "コケモモ",
+    enName: "Lingonberry / Cowberry",
+    scientificName: "Vaccinium vitis-idaea",
+    familyId: "ericaceae",
+    familyJaName: "ツツジ科",
+    description:
+      "ツツジ科スノキ属の常緑小低木。北半球の寒帯〜亜寒帯に広く分布し、日本では本州中部以北の高山帯〜亜高山帯の岩場や針葉樹林下に自生。草丈10〜30cm程度と小型で、光沢のある小さな常緑葉と、秋に赤く熟す直径5〜10mmの液果が特徴。北欧ではジャム・ソース（リンゴンベリー）として広く食され、肉料理の付け合わせに欠かせない。日本でも高山植物として人気、登山者に親しまれる。",
+    enDescription: "A small evergreen shrub in the heath family, widespread across the Boreal Northern Hemisphere. Native to alpine and subalpine rocky areas and conifer forests north of central Honshū in Japan. Low-growing (10–30 cm) with small glossy evergreen leaves and 5–10 mm red berries ripening in autumn. Widely eaten as lingonberry jam or sauce in Northern Europe, traditionally served with meat. In Japan, known and loved as an alpine plant, familiar to hikers.",
+    identificationPoints: [
+      "常緑小低木、草丈10〜30cm",
+      "葉は革質で光沢、倒卵形、下面に褐色斑点",
+      "赤く熟す直径5〜10mmの液果",
+    ],
+    enIdentificationPoints: [
+      "Small evergreen shrub, 10–30 cm tall",
+      "Leathery, glossy obovate leaves with brown dots beneath",
+      "Red berries 5–10 mm across",
+    ],
+    habitat: "高山・亜高山帯、針葉樹林下",
+    enHabitat: "Alpine and subalpine zones, under conifers",
+    season: "6〜7月（花）、8〜9月（果実）",
+    enSeason: "June to July (flowers); August to September (fruit)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Vaccinium_vitis-idaea_20060824_003.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コケモモ" },
+    ],
+    tags: ["木本", "常緑小低木", "高山植物", "果実", "日本自生"],
+    enTags: ["Tree", "Evergreen shrub", "Alpine", "Edible fruit", "Native to Japan"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "evergreen", flowerColor: "pink", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/コケモモ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "コケモモ", totalViews: 36034, window: "202504-202603", months: [{ month: "202504", views: 2517 }, { month: "202505", views: 4970 }, { month: "202506", views: 3837 }, { month: "202507", views: 3244 }, { month: "202508", views: 3897 }, { month: "202509", views: 3302 }, { month: "202510", views: 2651 }, { month: "202511", views: 2638 }, { month: "202512", views: 2189 }, { month: "202601", views: 2288 }, { month: "202602", views: 2123 }, { month: "202603", views: 2378 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
+  },
+  // ───── 202. ヤマユリ（Lilium auratum）─────
+  {
+    id: "yamayuri",
+    jaName: "ヤマユリ",
+    enName: "Golden-rayed Lily",
+    scientificName: "Lilium auratum",
+    familyId: "liliaceae",
+    familyJaName: "ユリ科",
+    description:
+      "ユリ科ユリ属の多年草。日本固有種で、本州の近畿地方以北に分布。神奈川県の県花。草丈1〜2mになる日本のユリの中で最大級で、7〜8月に直径20〜25cmもの大輪の白い花を重量感たっぷりに咲かせる。花弁の中央に黄色い筋、全体に濃紅色の斑点があり強い芳香を放つ。鱗茎は百合根として食用にされ、かつては輸出品としても重要だった。「ユリの王」とも呼ばれる。",
+    enDescription: "A perennial in the lily family, endemic to Japan and distributed in Honshū from Kinki northwards. The floral emblem of Kanagawa Prefecture. One of Japan's largest lilies (1–2 m tall), bearing massive white flowers 20–25 cm across in July and August. Each petal bears a yellow central band and crimson spots, and the flowers are intensely fragrant. The scaly bulb ('yuri-ne') is edible and was once an important export. Known as the 'King of Lilies'.",
+    identificationPoints: [
+      "直径20〜25cmの大輪白花、花弁中央に黄色い筋と紅色斑点",
+      "草丈1〜2m、日本のユリ最大級",
+      "強い芳香、葉は披針形で互生",
+    ],
+    enIdentificationPoints: [
+      "Large white flowers 20–25 cm with a yellow stripe and crimson spots on each petal",
+      "1–2 m tall, among the largest Japanese lilies",
+      "Strongly fragrant; alternate lanceolate leaves",
+    ],
+    habitat: "山地の明るい林縁・草原",
+    enHabitat: "Bright mountain forest edges and grasslands",
+    season: "7〜8月（花）",
+    enSeason: "July to August (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lilium_auratum_Gold_Band.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤマユリ" },
+    ],
+    tags: ["草本", "多年草", "日本固有種", "花卉", "芳香"],
+    enTags: ["Herb", "Perennial", "Endemic to Japan", "Flower", "Fragrant"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "linear", habit: "herb", deciduous: "deciduous", petalCount: 6, flowerColor: "white", floweringSeason: "summer", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヤマユリ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマユリ", totalViews: 26665, window: "202504-202603", months: [{ month: "202504", views: 1499 }, { month: "202505", views: 2195 }, { month: "202506", views: 3079 }, { month: "202507", views: 6348 }, { month: "202508", views: 4472 }, { month: "202509", views: 1619 }, { month: "202510", views: 1398 }, { month: "202511", views: 1361 }, { month: "202512", views: 1297 }, { month: "202601", views: 1260 }, { month: "202602", views: 1004 }, { month: "202603", views: 1133 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称ユリの代表種。学名・分類・説明要確認。" },
+  },
+
+  // ───── 203. ヤマトリカブト（Aconitum japonicum）─────
+  {
+    id: "yama_torikabuto",
+    jaName: "ヤマトリカブト",
+    enName: "Japanese Monkshood",
+    scientificName: "Aconitum japonicum",
+    familyId: "ranunculaceae",
+    familyJaName: "キンポウゲ科",
+    description:
+      "キンポウゲ科トリカブト属の多年草。本州（福島県以南）の山地に自生する日本のトリカブト属の代表種。秋、青紫色の兜形の花を総状に咲かせる。全草、特に根にアコニチン系アルカロイドを含み、日本三大有毒植物の一つ。アイヌの狩猟用の矢毒としても使われた。花の姿は美しく山野草として栽培されるが、山菜のニリンソウやモミジガサと誤食した死亡事故が毎年報告される。",
+    enDescription: "A perennial in the buttercup family, native to mountains of Honshū south of Fukushima — the representative species of Japanese Aconitum. In autumn, bluish-purple helmet-shaped flowers form racemes. All parts, especially the root, contain aconitine alkaloids, making it one of Japan's three most poisonous plants. Historically used by the Ainu as arrow poison. Though cultivated for its beauty, fatal poisonings occur every year when misidentified as the edible nirin-sō or momiji-gasa.",
+    identificationPoints: [
+      "青紫色の兜形の花、総状に",
+      "葉は掌状に3〜5裂",
+      "草丈1m前後、晩夏〜秋に咲く",
+    ],
+    enIdentificationPoints: [
+      "Bluish-purple helmet-shaped flowers in racemes",
+      "Palmately 3–5 lobed leaves",
+      "About 1 m tall; late summer to autumn",
+    ],
+    habitat: "山地の林縁・草原",
+    enHabitat: "Mountain forest edges and grasslands",
+    season: "8〜10月（花）",
+    enSeason: "August to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aconitum_japonicum_subsp._subcuneatum.JPG",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤマトリカブト" },
+    ],
+    tags: ["草本", "多年草", "有毒植物", "日本自生", "山野草"],
+    enTags: ["Herb", "Perennial", "Toxic", "Native to Japan", "Wildflower"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "palmate", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "summer", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヤマトリカブト" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマトリカブト", totalViews: 5761, window: "202504-202603", months: [{ month: "202504", views: 514 }, { month: "202505", views: 590 }, { month: "202506", views: 350 }, { month: "202507", views: 401 }, { month: "202508", views: 453 }, { month: "202509", views: 906 }, { month: "202510", views: 924 }, { month: "202511", views: 448 }, { month: "202512", views: 257 }, { month: "202601", views: 257 }, { month: "202602", views: 243 }, { month: "202603", views: 418 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称トリカブトの代表種。学名・分類・説明要確認。" },
+  },
+
+  // ───── 204. カワラナデシコ（Dianthus superbus var. longicalycinus）─────
+  {
+    id: "kawara_nadeshiko",
+    jaName: "カワラナデシコ",
+    enName: "Fringed Pink",
+    scientificName: "Dianthus superbus var. longicalycinus",
+    familyId: "caryophyllaceae",
+    familyJaName: "ナデシコ科",
+    description:
+      "ナデシコ科ナデシコ属の多年草。本州〜九州、朝鮮・中国に分布。秋の七草の一つ「なでしこ」で、万葉集・古今和歌集にも多く詠まれる。「大和撫子」の語源となった、細かく糸状に深裂した美しい花弁が特徴。花色は淡紅紫色が基本で白花品もある。河原・草原の日当たりの良い場所を好むが、開発・ゴルフ場化で減少し、自生地は急激に狭まっている。",
+    enDescription: "A perennial in the pink family, distributed across Honshū, Kyūshū, Korea, and China. One of the seven autumn flowers ('nadeshiko'), frequently praised in the Manyōshū and Kokin-Wakashū. The namesake of 'Yamato Nadeshiko' — the idealized Japanese woman — for its beautifully fringed, thread-like petals. Typically pale pink-purple with rare white forms. Prefers sunny riverbanks and grasslands; rapidly declining due to development and golf-course conversion.",
+    identificationPoints: [
+      "花弁は深く糸状に裂ける（フリンジ状）",
+      "花は淡紅紫色、5弁花、径4〜5cm",
+      "葉は線形で対生",
+    ],
+    enIdentificationPoints: [
+      "Deeply fringed, thread-like petal margins",
+      "5-petaled pale pink-purple flowers 4–5 cm across",
+      "Linear opposite leaves",
+    ],
+    habitat: "河原・草原（日当たりの良い）",
+    enHabitat: "Sunny riverbanks and grasslands",
+    season: "7〜10月（花）",
+    enSeason: "July to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dianthus_superbus_var_longicalycinus.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カワラナデシコ" },
+    ],
+    tags: ["草本", "多年草", "秋の七草", "日本自生", "花卉"],
+    enTags: ["Herb", "Perennial", "Autumn seven flowers", "Native to Japan", "Flower"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "linear", habit: "herb", deciduous: "deciduous", petalCount: 5, flowerColor: "pink", floweringSeason: "summer", habitat: "grassland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/カワラナデシコ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "カワラナデシコ", totalViews: 15422, window: "202504-202603", months: [{ month: "202504", views: 975 }, { month: "202505", views: 1991 }, { month: "202506", views: 1782 }, { month: "202507", views: 1546 }, { month: "202508", views: 2096 }, { month: "202509", views: 1744 }, { month: "202510", views: 1102 }, { month: "202511", views: 750 }, { month: "202512", views: 478 }, { month: "202601", views: 1463 }, { month: "202602", views: 716 }, { month: "202603", views: 779 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称ナデシコの代表種。学名・分類・説明要確認。" },
+  },
+
+  // ───── 205. ヤマナラシ（Populus tremula var. sieboldii）─────
+  {
+    id: "yamanarashi",
+    jaName: "ヤマナラシ",
+    enName: "Japanese Aspen",
+    scientificName: "Populus tremula var. sieboldii",
+    familyId: "salicaceae",
+    familyJaName: "ヤナギ科",
+    description:
+      "ヤナギ科ハコヤナギ属の落葉高木。日本固有変種で本州〜九州の山地に分布、ポプラ属の日本代表種。樹高15〜25m。葉柄が長く平たく扁平なため、わずかな風でも葉が震え、独特のざわざわという音を立てる（和名「山鳴らし」の由来）。パイオニア的で崩壊地・伐採跡に先駆的に侵入し、シラカンバと同様に森林遷移初期を担う。材はマッチの軸・パルプに利用される。",
+    enDescription: "A deciduous tree in the willow family, an endemic Japanese variety of the European aspen — the representative Populus of Japan. Distributed in mountains from Honshū to Kyūshū, growing 15–25 m tall. The long flattened petioles cause the leaves to tremble and rustle in the slightest breeze — the source of the Japanese name 'yama-narashi' ('mountain-rustler'). A pioneer species like white birch, quickly colonizing landslides and clear-cuts and dominating early forest succession. Wood used for match sticks and pulp.",
+    identificationPoints: [
+      "葉柄が長く扁平、わずかな風で葉が震える",
+      "葉は円形〜卵形、縁に鋸歯",
+      "樹皮は灰白色で若木は平滑",
+    ],
+    enIdentificationPoints: [
+      "Long flattened petioles; leaves tremble in slight breeze",
+      "Round to ovate leaves with toothed margins",
+      "Grey-white smooth bark when young",
+    ],
+    habitat: "山地、伐採跡地、崩壊地",
+    enHabitat: "Mountains, clear-cuts, landslide scars",
+    season: "3〜4月（花）",
+    enSeason: "March to April (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Populus_tremula.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤマナラシ" },
+    ],
+    tags: ["木本", "落葉高木", "日本固有", "パイオニア", "山地"],
+    enTags: ["Tree", "Deciduous", "Endemic", "Pioneer", "Mountain"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "round", habit: "tree", deciduous: "deciduous", habitat: "mountain" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ヤマナラシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ヤマナラシ", totalViews: 6466, window: "202504-202603", months: [{ month: "202504", views: 594 }, { month: "202505", views: 734 }, { month: "202506", views: 568 }, { month: "202507", views: 473 }, { month: "202508", views: 559 }, { month: "202509", views: 486 }, { month: "202510", views: 546 }, { month: "202511", views: 475 }, { month: "202512", views: 500 }, { month: "202601", views: 547 }, { month: "202602", views: 521 }, { month: "202603", views: 463 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称ポプラの代表種（日本自生）。学名・分類・説明要確認。" },
+  },
+
+  // ───── 206. オオバギボウシ（Hosta sieboldiana）─────
+  {
+    id: "oba_giboushi",
+    jaName: "オオバギボウシ（ウルイ）",
+    enName: "Siebold's Hosta",
+    scientificName: "Hosta sieboldiana",
+    familyId: "asparagaceae",
+    familyJaName: "キジカクシ科",
+    description:
+      "キジカクシ科ギボウシ属の多年草。日本固有種で北海道〜九州の山地湿地・林縁に自生。ギボウシ属の中で最大級で、葉は長さ30〜40cmに達する大型の卵形・青緑色。夏に高さ1m近い花茎を立て、白〜淡紫色の漏斗状花を多数総状に咲かせる。若葉は「ウルイ」として東北地方・山形の代表山菜で、早春の味覚として広く親しまれる。欧米でもシェードガーデンの定番品種の母種。",
+    enDescription: "A perennial in the asparagus family, endemic to Japan — found in mountain wetlands and forest edges from Hokkaidō to Kyūshū. Among the largest Hosta species, with blue-green ovate leaves 30–40 cm long. In summer, flower stalks reach nearly 1 m, bearing many white to pale-purple funnel-shaped flowers in racemes. The young leaves ('uru-i') are a major spring wild edible, especially in Tōhoku and Yamagata. In Western horticulture, an important parent of many shade-garden cultivars.",
+    identificationPoints: [
+      "葉は長さ30〜40cmの大型、青緑色、平行脈",
+      "花茎は1m近く、漏斗状の白〜淡紫花を総状に",
+      "若葉は山菜「ウルイ」",
+    ],
+    enIdentificationPoints: [
+      "Large blue-green leaves 30–40 cm long with parallel venation",
+      "Flower stalk nearly 1 m with racemes of funnel-shaped white-lilac flowers",
+      "Young leaves are the wild edible 'uru-i'",
+    ],
+    habitat: "山地の湿地・林縁",
+    enHabitat: "Mountain wetlands and forest edges",
+    season: "7〜8月（花）、4〜5月（若葉）",
+    enSeason: "July to August (flowers); April to May (young leaves)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hosta_sieboldiana_2.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オオバギボウシ" },
+    ],
+    tags: ["草本", "多年草", "日本固有種", "山菜", "シェードガーデン"],
+    enTags: ["Herb", "Perennial", "Endemic to Japan", "Wild edible", "Shade garden"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "white", floweringSeason: "summer", habitat: "wetland" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/オオバギボウシ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オオバギボウシ", totalViews: 12386, window: "202504-202603", months: [{ month: "202504", views: 1898 }, { month: "202505", views: 2655 }, { month: "202506", views: 1664 }, { month: "202507", views: 1776 }, { month: "202508", views: 950 }, { month: "202509", views: 566 }, { month: "202510", views: 356 }, { month: "202511", views: 341 }, { month: "202512", views: 305 }, { month: "202601", views: 416 }, { month: "202602", views: 590 }, { month: "202603", views: 869 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称ギボウシの代表種。学名・分類・説明要確認。" },
+  },
+
+  // ───── 207. マツリカ（Jasminum sambac）─────
+  {
+    id: "matsurika",
+    jaName: "マツリカ",
+    enName: "Arabian Jasmine",
+    scientificName: "Jasminum sambac",
+    familyId: "oleaceae",
+    familyJaName: "モクセイ科",
+    description:
+      "モクセイ科ソケイ属の常緑つる性低木。ヒマラヤ〜東南アジア原産。フィリピンとインドネシアの国花。純白で非常に強い芳香を放つ小さな花は、ジャスミン茶（特に中国の花茶）の主要な香りづけ素材で、加工済みの花が大量に茶に添加される。ハワイのレイ、インド・東南アジアの宗教儀礼の花輪、伝統的な花嫁の髪飾りなど、文化的に極めて重要。品種に一重・八重があり、八重品種は日本でもマツリカ（茉莉花）として流通する。",
+    enDescription: "An evergreen climbing shrub in the olive family, native from the Himalayas to Southeast Asia. The national flower of both the Philippines and Indonesia. The small, pure-white, intensely fragrant flowers are the main scenting ingredient in jasmine tea (especially Chinese 'hua cha'), added in large quantities during processing. Culturally essential in Hawaiian lei, Indian and Southeast Asian religious garlands, and traditional wedding hair ornaments. Comes in single and double-flowered forms.",
+    identificationPoints: [
+      "常緑つる性低木、茎は細い",
+      "花は純白の5〜9弁、強い甘い芳香",
+      "葉は光沢のある卵形で対生",
+    ],
+    enIdentificationPoints: [
+      "Evergreen climbing shrub with slender stems",
+      "Pure white 5–9 petaled flowers with intense sweet fragrance",
+      "Glossy ovate opposite leaves",
+    ],
+    habitat: "栽培（熱帯・亜熱帯）",
+    enHabitat: "Cultivated (tropical and subtropical)",
+    season: "通年（熱帯）、6〜9月（温室・温帯）",
+    enSeason: "Year-round (tropics); June to September (greenhouse, temperate)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jasminum_sambac_flowers.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マツリカ" },
+    ],
+    tags: ["木本", "つる植物", "常緑", "香料", "熱帯"],
+    enTags: ["Tree", "Vine", "Evergreen", "Fragrance", "Tropical"],
+    traits: { leafArr: "opp", leafType: "simple", shape: "ovate", habit: "vine", deciduous: "evergreen", flowerColor: "white", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/マツリカ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "マツリカ", totalViews: 26130, window: "202504-202603", months: [{ month: "202504", views: 2720 }, { month: "202505", views: 4311 }, { month: "202506", views: 2297 }, { month: "202507", views: 1903 }, { month: "202508", views: 2447 }, { month: "202509", views: 1620 }, { month: "202510", views: 2062 }, { month: "202511", views: 1702 }, { month: "202512", views: 1468 }, { month: "202601", views: 1468 }, { month: "202602", views: 1706 }, { month: "202603", views: 2426 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称ジャスミンの代表種（ジャスミン茶原料）。学名・分類・説明要確認。" },
+  },
+
+  // ───── 208. ニリンソウ（Anemone flaccida）─────
+  {
+    id: "nirin_sou",
+    jaName: "ニリンソウ",
+    enName: "Soft Windflower",
+    scientificName: "Anemone flaccida",
+    familyId: "ranunculaceae",
+    familyJaName: "キンポウゲ科",
+    description:
+      "キンポウゲ科イチリンソウ属の多年草。日本全土〜朝鮮・中国・サハリン・千島に分布。春、山地の林床に群生して白い花を咲かせる代表的な春植物（スプリング・エフェメラル）。1本の花茎に通常2輪（まれに1〜3輪）の花をつけることが名前の由来。若葉は山菜として食用されるが、猛毒のヤマトリカブトの葉と非常によく似ているため、誤食による死亡事故が毎年発生する。",
+    enDescription: "A perennial in the buttercup family, distributed across Japan, Korea, China, Sakhalin, and the Kurils. A representative spring ephemeral, forming carpets of white flowers in mountain forests. Named 'ni-rin-sō' ('two-flowered plant') because each stalk typically bears two flowers (sometimes 1–3). The young leaves are eaten as wild vegetables but are extremely similar to the deadly poisonous Japanese monkshood (yama-torikabuto); fatal misidentifications occur every year.",
+    identificationPoints: [
+      "花茎1本に通常2輪の白花（5弁に見えるのは萼片）",
+      "春の林床に群生",
+      "葉は深く3裂、さらに細裂",
+    ],
+    enIdentificationPoints: [
+      "Usually two white flowers per stalk (the '5 petals' are actually sepals)",
+      "Carpets spring forest floors",
+      "Deeply 3-lobed leaves, further dissected",
+    ],
+    habitat: "山地の林床",
+    enHabitat: "Mountain forest floors",
+    season: "3〜5月（花）",
+    enSeason: "March to May (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Anemone_flaccida.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ニリンソウ" },
+    ],
+    tags: ["草本", "多年草", "春植物", "日本自生", "山菜"],
+    enTags: ["Herb", "Perennial", "Spring ephemeral", "Native to Japan", "Wild edible"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "palmate", habit: "herb", deciduous: "deciduous", flowerColor: "white", floweringSeason: "spring", habitat: "forest" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ニリンソウ" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ニリンソウ", totalViews: 32341, window: "202504-202603", months: [{ month: "202504", views: 8270 }, { month: "202505", views: 6354 }, { month: "202506", views: 2699 }, { month: "202507", views: 1281 }, { month: "202508", views: 1456 }, { month: "202509", views: 1317 }, { month: "202510", views: 1172 }, { month: "202511", views: 1444 }, { month: "202512", views: 1008 }, { month: "202601", views: 1216 }, { month: "202602", views: 1381 }, { month: "202603", views: 4743 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称アネモネの代表種（春植物）。学名・分類・説明要確認。" },
+  },
+
+  // ───── 209. シュウメイギク（Anemone hupehensis var. japonica）─────
+  {
+    id: "shumei_giku",
+    jaName: "シュウメイギク",
+    enName: "Japanese Anemone",
+    scientificName: "Anemone hupehensis var. japonica",
+    familyId: "ranunculaceae",
+    familyJaName: "キンポウゲ科",
+    description:
+      "キンポウゲ科イチリンソウ属の多年草。中国原産で古く日本に渡来し、京都・貴船に自生化したことから「貴船菊（キブネギク）」の別名をもつ。秋のアネモネ属では唯一日本で親しまれる種。9〜10月、細長い花茎の先に直径5〜7cmの淡紅紫色〜白色の花を咲かせる。花弁に見えるのは多数の萼片（25〜30枚）。キクと名がつくがキク科ではなくキンポウゲ科。日陰の和風庭園の秋の定番。",
+    enDescription: "A perennial in the buttercup family, native to China and long ago introduced to Japan. Naturalized at Kibune near Kyoto, giving it the alternate name 'Kibune-giku'. The only autumn-flowering Anemone commonly cultivated in Japan. From September to October, slender stalks bear 5–7 cm flowers in pale pink-purple to white; the 25–30 'petals' are in fact sepals. Despite 'giku' in the name, it is not in the daisy family but in Ranunculaceae. A classic autumn plant in shaded Japanese gardens.",
+    identificationPoints: [
+      "直径5〜7cmの花、花弁に見えるのは25〜30枚の萼片",
+      "花色は淡紅紫〜白、一重・八重あり",
+      "草丈50〜80cm、秋咲き",
+    ],
+    enIdentificationPoints: [
+      "Flowers 5–7 cm with 25–30 sepals (not petals)",
+      "Pale pink-purple to white; single and double forms",
+      "50–80 cm tall, autumn-flowering",
+    ],
+    habitat: "栽培（庭園）、帰化（日陰）",
+    enHabitat: "Cultivated (gardens); naturalized (shaded sites)",
+    season: "9〜10月（花）",
+    enSeason: "September to October (flowers)",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Anemone_hupehensis_var_japonica.jpg",
+    externalLinks: [
+      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シュウメイギク" },
+    ],
+    tags: ["草本", "多年草", "花卉", "観賞用", "和風庭園"],
+    enTags: ["Herb", "Perennial", "Flower", "Ornamental", "Japanese garden"],
+    traits: { leafArr: "alt", leafType: "simple", shape: "palmate", habit: "herb", deciduous: "deciduous", flowerColor: "pink", floweringSeason: "summer", habitat: "cultivated" },
+    sources: [
+      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
+      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/シュウメイギク" },
+    ],
+    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シュウメイギク", totalViews: 25265, window: "202504-202603", months: [{ month: "202504", views: 1040 }, { month: "202505", views: 1318 }, { month: "202506", views: 1044 }, { month: "202507", views: 1170 }, { month: "202508", views: 1657 }, { month: "202509", views: 4326 }, { month: "202510", views: 8147 }, { month: "202511", views: 3839 }, { month: "202512", views: 891 }, { month: "202601", views: 607 }, { month: "202602", views: 515 }, { month: "202603", views: 711 }] },
+    review: { status: "ai_generated", note: "Claude AI生成。属総称アネモネの代表種（秋咲き）。学名・分類・説明要確認。" },
+  },
 ];
