@@ -319,7 +319,7 @@ export const plants: Plant[] = [
     enHabitat: "Flower beds, fields, roadsides",
     season: "7〜11月（花）",
     enSeason: "July to November (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cosmos_bipinnatus_flowers.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/CosmosBipinnatus002.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コスモス" },
     ],
@@ -370,7 +370,7 @@ export const plants: Plant[] = [
     enHabitat: "Parks, street plantings, riverbanks",
     season: "3〜4月（花）",
     enSeason: "March to April (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Prunus_×_yedoensis_01.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/2020-04-07_Prunus_%C3%97_yedoensis_Tambasasayama%2CHyogo(%E4%B8%B9%E6%B3%A2%E7%AF%A0%E5%B1%B1%E5%B8%82%E7%AF%A0%E5%B1%B1%E5%B7%9D%E3%81%AE%E3%82%BD%E3%83%A1%E3%82%A4%E3%83%A8%E3%82%B7%E3%83%8E)DSCF2986%E2%98%86%E5%BD%A1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ソメイヨシノ" },
     ],
@@ -862,7 +862,7 @@ export const plants: Plant[] = [
     enHabitat: "Farmland, riverbanks, fields",
     season: "3〜5月（花）",
     enSeason: "March to May (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_napus_flowering.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/(MHNT)_Brassica_napus_-_Habit.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/セイヨウアブラナ" },
     ],
@@ -1012,7 +1012,7 @@ export const plants: Plant[] = [
     enHabitat: "Grasslands, roadsides, embankments, meadows",
     season: "5〜7月（花）",
     enSeason: "May to July (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rumex_acetosa.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/20150423Rumex_acetosa4.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スイバ" },
     ],
@@ -1749,7 +1749,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain forests, gardens, parks",
     season: "12〜4月（花）",
     enSeason: "December to April (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Camellia_japonica_002.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Camellia_japonica_var._decumbens_3.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツバキ" },
     ],
@@ -1998,7 +1998,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain forests, plantation forests",
     season: "通年",
     enSeason: "Year-round",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cryptomeria_japonica_in_Nikko.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sugi_(Cryptomeria_japonica)%2C_Nagata-ku%2C_Kobe_(22615368281).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スギ" },
     ],
@@ -2048,7 +2048,7 @@ export const plants: Plant[] = [
     enHabitat: "Streets, parks, shrines and temples",
     season: "通年（黄葉は10〜11月）",
     enSeason: "Year-round (golden autumn foliage in October to November)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ginkgo_biloba_-_leaves.JPG",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/GINKGOBAUM-2.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イチョウ" },
     ],
@@ -2399,7 +2399,7 @@ export const plants: Plant[] = [
     enHabitat: "Moist forest edges, stream valleys, and along brooks in mountain areas",
     season: "4〜5月（若芽）／9〜10月（胞子葉）",
     enSeason: "April to May (young fiddleheads) / September to October (fertile fronds)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Matteuccia_struthiopteris_-_Strau%C3%9Fenfarn.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Matteuccia_struthiopteris_fiddleheads.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クサソテツ" },
     ],
@@ -2450,7 +2450,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain woodlands, gardens, parks",
     season: "4月（花）・10〜11月（紅葉）",
     enSeason: "April (flowers); October to November (autumn foliage)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Acer_palmatum_January_2008.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Japanse_esdoorn_(Acer_palmatum)_03-04-2023_(d.j.b.).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イロハモミジ" },
     ],
@@ -2753,7 +2753,7 @@ export const plants: Plant[] = [
     enHabitat: "Paddy field embankments, cemeteries, forest edges, and satoyama areas",
     season: "9〜10月（花）・11〜翌6月（葉）",
     enSeason: "September–October (flowers); November–June (leaves)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lycoris_radiata_002.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Spider_Lily----Lycoris_radiata.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒガンバナ" },
     ],
@@ -2876,7 +2876,7 @@ export const plants: Plant[] = [
     enHabitat: "Roadsides, grasslands, embankments, and sunny sites",
     season: "3〜5月（花）",
     enSeason: "March–May (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Viola_mandshurica1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Viola_mandshurica_f._hasegawae_(flower).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スミレ" },
     ],
@@ -2918,7 +2918,7 @@ export const plants: Plant[] = [
     enHabitat: "Grasslands, embankments, roadsides, and mountain meadows",
     season: "5〜8月（花）",
     enSeason: "May–August (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cirsium_japonicum_flower.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cirsium_japonicum_var._maackii_3.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ノアザミ" },
     ],
@@ -2956,7 +2956,7 @@ export const plants: Plant[] = [
     enHabitat: "Moist grasslands, riversides, forest edges, and field margins",
     season: "3〜4月（花・フキノトウ）・4〜9月（葉）",
     enSeason: "March–April (flowers / fuki-no-to); April–September (leaves)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Petasites_japonicus_1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Japans_hoefblad_(Petasites_japonicus)._22-03-2021._(d.j.b).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フキ" },
     ],
@@ -2994,7 +2994,7 @@ export const plants: Plant[] = [
     enHabitat: "Roadsides, vacant lots, and field margins",
     season: "9〜11月（花）",
     enSeason: "September–November (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Bidens_pilosa_flowers.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Bidens_pilosa_at_Elmina_West_in_Seksyen_U15%2C_Shah_Alam_20231126_101332.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コセンダングサ" },
     ],
@@ -3112,7 +3112,7 @@ export const plants: Plant[] = [
     enHabitat: "Forest edges, mountain trails, and semi-shaded grasslands",
     season: "8〜10月（花）",
     enSeason: "August–October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Persicaria_filiformis.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Persicaria_virginiana_filiformis_%5E_Euphorbia_donii_Amjillassa_-_Flickr_-_peganum.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミズヒキ" },
     ],
@@ -3152,7 +3152,7 @@ export const plants: Plant[] = [
     enHabitat: "Roadsides, grasslands, and forest edges",
     season: "7〜10月（花）",
     enSeason: "July–October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Geranium_thunbergii01.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Geranium_thunbergii.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ゲンノショウコ" },
     ],
@@ -3192,7 +3192,7 @@ export const plants: Plant[] = [
     enHabitat: "Forest floor of deciduous broadleaf woodlands",
     season: "3〜5月（花）",
     enSeason: "March–May (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Erythronium_japonicum_4.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Erythronium_japonicum_2006_005.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カタクリ" },
     ],
@@ -3234,7 +3234,7 @@ export const plants: Plant[] = [
     enHabitat: "Sunny mountain meadows and grasslands",
     season: "7〜9月（花）",
     enSeason: "July–September (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Platycodon_grandiflorus_1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Platycodon_grandiflorum2.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キキョウ" },
     ],
@@ -3316,7 +3316,7 @@ export const plants: Plant[] = [
     enHabitat: "Forest edges, gardens, and parks (ground cover)",
     season: "8〜10月（花）・11〜12月（実）",
     enSeason: "August–October (flowers); November–December (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Liriope_muscari_flowers.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Liriope_muscari_-_Fleurs-2.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤブラン" },
     ],
@@ -3406,7 +3406,7 @@ export const plants: Plant[] = [
     enHabitat: "Stone walls, cliffs, roadsides, and around wells",
     season: "周年（胞子は夏〜秋）",
     enSeason: "Year-round; spores produced in summer–autumn",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pteris_multifida1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pteris_multifida_inomotosou.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イノモトソウ" },
     ],
@@ -3545,7 +3545,7 @@ export const plants: Plant[] = [
     enHabitat: "Rocky surfaces, stone walls, rooftops, and roadsides",
     season: "5〜7月（花）",
     enSeason: "May–July (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sedum_japonicum1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sedum_japonicum_subsp._oryzifolium.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マンネングサ" },
     ],
@@ -3614,7 +3614,7 @@ export const plants: Plant[] = [
     enHabitat: "Flower beds, planters, and street plantings",
     season: "4〜11月（花）",
     enSeason: "April–November (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Verbena_hybrid_cultivars.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Verbena_hybrida_3.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/バーベナ" },
     ],
@@ -3649,7 +3649,7 @@ export const plants: Plant[] = [
     enHabitat: "Roadsides, stone walls, near houses, and wastelands",
     season: "4〜7月（花）",
     enSeason: "April–July (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chelidonium_majus_bloem.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chelidonium_majus_bgiu.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クサノオウ" },
     ],
@@ -3719,7 +3719,7 @@ export const plants: Plant[] = [
     enHabitat: "Rice paddies, wetlands, and ditch margins",
     season: "6〜8月（花）",
     enSeason: "June–August (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Juncus_effusus.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Juncus_decipiens_Curly_Wurly_1zz.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イグサ" },
     ],
@@ -3754,7 +3754,7 @@ export const plants: Plant[] = [
     enHabitat: "Vineyards, gardens, and fences",
     season: "8〜10月（果実）",
     enSeason: "August–October (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Vitis_vinifera_grapes.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ブドウ" },
     ],
@@ -3789,7 +3789,7 @@ export const plants: Plant[] = [
     enHabitat: "Wetlands, waterside areas, pond margins, and iris gardens",
     season: "6〜7月（花）",
     enSeason: "June–July (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Iris_ensata1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Iris_ensata_cv_kumoinogan.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハナショウブ" },
     ],
@@ -3825,7 +3825,7 @@ export const plants: Plant[] = [
     enHabitat: "Rice paddies, wetlands, and pond margins",
     season: "8〜11月（花）",
     enSeason: "August–November (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Eriocaulon_cinereum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Eriocaulon_cinereum.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホシクサ" },
     ],
@@ -3860,7 +3860,7 @@ export const plants: Plant[] = [
     enHabitat: "Coastal forests, urban areas, and parks",
     season: "5〜6月（花）、10〜翌2月（果実）",
     enSeason: "May–June (flowers); October–February (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Melia_azedarach2.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Melia_azedarach_01434.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/センダン" },
     ],
@@ -3894,7 +3894,7 @@ export const plants: Plant[] = [
     enHabitat: "Grasslands, lawns, and bright areas at forest edges",
     season: "4〜6月（胞子葉）",
     enSeason: "April–June (fertile fronds)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ophioglossum_vulgatum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ophioglossum_vulgatum_Saarland_01.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハナヤスリ" },
     ],
@@ -3928,7 +3928,7 @@ export const plants: Plant[] = [
     enHabitat: "Forest floors, cliff faces, and valley sides in warm-temperate regions",
     season: "周年（胞子は夏〜秋）",
     enSeason: "Year-round; spores produced in summer–autumn",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Microlepia_strigosa1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Microlepia_strigosa_var._strigosa_(5188218312).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ウラゲシダ" },
     ],
@@ -3962,7 +3962,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain forests and near rural settlements (cultivated)",
     season: "10〜11月（紅葉）",
     enSeason: "October–November (autumn foliage)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Toxicodendron_vernicifluum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Toxicodendron_vernicifluum_01.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ウルシ" },
     ],
@@ -3996,7 +3996,7 @@ export const plants: Plant[] = [
     enHabitat: "Forest edges, gardens, roadsides, and stone walls (semi-shade)",
     season: "8〜10月（花）",
     enSeason: "August–October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Begonia_grandis_evansiana1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Begonia_grandis_evansiana_alba001.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シュウカイドウ" },
     ],
@@ -4031,7 +4031,7 @@ export const plants: Plant[] = [
     enHabitat: "On rocks, tree trunks, and stone walls (epiphytic)",
     season: "周年",
     enSeason: "Year-round",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Davallia_mariesii1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Davallia_mariesii_sinibu01.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シノブ" },
     ],
@@ -4065,7 +4065,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain forests, parks, and gardens",
     season: "2〜3月（花）",
     enSeason: "February–March (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hamamelis_japonica_2.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hamamelis_japonica5.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マンサク" },
     ],
@@ -4168,7 +4168,7 @@ export const plants: Plant[] = [
     enHabitat: "Along mountain streams, moist forest edges, and mountain wetlands",
     season: "8〜10月（花）",
     enSeason: "August–October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Impatiens_textori1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Impatiens_textori.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツリフネソウ" },
     ],
@@ -4204,7 +4204,7 @@ export const plants: Plant[] = [
     enHabitat: "Warm-temperate woodlands, gardens, and hedges",
     season: "10〜11月（果実）",
     enSeason: "October–November (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Podocarpus_macrophyllus_fruit.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Podocarpus_macrophyllus.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イヌマキ" },
     ],
@@ -4238,7 +4238,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain forest edges and along valleys",
     season: "6〜7月（花・白化）、9〜10月（果実）",
     enSeason: "June–July (flowers and leaf whitening); September–October (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Actinidia_polygama_leaves.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Actinidia_polygama_071027b.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マタタビ" },
     ],
@@ -4273,7 +4273,7 @@ export const plants: Plant[] = [
     enHabitat: "Rural areas, gardens, and satoyama landscapes",
     season: "10〜11月（果実）",
     enSeason: "October–November (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Kaki_fruits_on_tree.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カキノキ" },
     ],
@@ -4309,7 +4309,7 @@ export const plants: Plant[] = [
     enHabitat: "Tropical and subtropical orchards and gardens (Okinawa, Ogasawara Islands)",
     season: "8〜11月（果実）",
     enSeason: "August–November (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Annona_squamosa_fruits.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Annona_squamosa_(Custurd_Apple)_plant_in_Hyderabad%2C_AP_W_IMG_9354.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/バンレイシ" },
     ],
@@ -4344,7 +4344,7 @@ export const plants: Plant[] = [
     enHabitat: "Parks, flower beds, and street plantings",
     season: "7〜10月（花）",
     enSeason: "July–October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Canna_generalis_flower.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Yellow_with_red_striped_flower_of_Canna.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カンナ" },
     ],
@@ -4449,7 +4449,7 @@ export const plants: Plant[] = [
     enHabitat: "Rice paddies, ponds, and reservoirs",
     season: "8〜9月（花）",
     enSeason: "August–September (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Monochoria_korsakowii.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Monochoria_korsakowii_5.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミズアオイ" },
     ],
@@ -4518,7 +4518,7 @@ export const plants: Plant[] = [
     enHabitat: "Grasslands, forest edges, thickets, and roadsides",
     season: "周年（胞子は夏〜秋）",
     enSeason: "Year-round (spores in summer–autumn)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lygodium_japonicum1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lygodium_japonicum_kanikusa01.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カニクサ" },
     ],
@@ -4553,7 +4553,7 @@ export const plants: Plant[] = [
     enHabitat: "Montane forests in warm regions, parks, and streets",
     season: "6〜7月（果実）",
     enSeason: "June–July (fruits)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Morella_rubra_fruits.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Myrica_rubra3.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤマモモ" },
     ],
@@ -4657,7 +4657,7 @@ export const plants: Plant[] = [
     enHabitat: "Tropical and subtropical orchards and gardens (Okinawa)",
     season: "4〜11月（果実）",
     enSeason: "April–November (fruits)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Malpighia_emarginata_fruits.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Malpighia_glabra_blossom_and_fruit.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アセロラ" },
     ],
@@ -4692,7 +4692,7 @@ export const plants: Plant[] = [
     enHabitat: "Parks, gardens, and temple grounds",
     season: "1〜2月（花）",
     enSeason: "January–February (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chimonanthus_praecox_flower.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Frutti_Chimonanthus_praecox.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ロウバイ" },
     ],
@@ -4796,7 +4796,7 @@ export const plants: Plant[] = [
     enHabitat: "Pond and marsh margins, waterways, and wetlands",
     season: "5〜7月（花）",
     enSeason: "May–July (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Acorus_calamus.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/AcorusCalamus.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ショウブ" },
     ],
@@ -4831,7 +4831,7 @@ export const plants: Plant[] = [
     enHabitat: "Parks, greenhouses, and flower beds (cultivated)",
     season: "1〜5月（花）",
     enSeason: "January–May (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Strelitzia_reginae_flowers.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Strelitzia_larger.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ゴクラクチョウカ" },
     ],
@@ -5174,7 +5174,7 @@ export const plants: Plant[] = [
     enHabitat: "Botanical gardens and parks (cultivated)",
     season: "夏（観察最適）",
     enSeason: "Summer (best viewing)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Gunnera_manicata_leaves.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Gunnera_manicata3.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/グンネラ" },
     ],
@@ -5381,7 +5381,7 @@ export const plants: Plant[] = [
     enHabitat: "Tropical and subtropical plantations and gardens (Okinawa, southern Kagoshima)",
     season: "周年（熱帯）",
     enSeason: "Year-round (in tropical climates)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Moringa_oleifera_Blanco2.350.png",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Moringa_flower_5.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/モリンガ" },
     ],
@@ -5416,7 +5416,7 @@ export const plants: Plant[] = [
     enHabitat: "Parks, gardens, and tea plantations (cultivated)",
     season: "10〜11月（果実）",
     enSeason: "October–November (fruits)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Eucommia_ulmoides.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Eucommia-ulmoides.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トチュウ" },
     ],
@@ -5451,7 +5451,7 @@ export const plants: Plant[] = [
     enHabitat: "Rice paddy margins, wetlands, roadsides, and wastelands",
     season: "7〜10月（花穂）",
     enSeason: "July–October (inflorescence)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cyperus_microiria1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cyperus_microiria_(21686707801).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カヤツリグサ" },
     ],
@@ -5488,7 +5488,7 @@ export const plants: Plant[] = [
     enHabitat: "Flower beds, gardens, and parks (cultivated)",
     season: "6〜11月（花）",
     enSeason: "June–November (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Torenia_fournieri_flowers.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Torenia_fournieri%2C_Beechview%2C_2022-06-22%2C_03.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トレニア" },
     ],
@@ -5527,7 +5527,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain grasslands, forest edges, and clear-cut sites",
     season: "3〜5月（若芽）、夏〜秋（成葉）",
     enSeason: "March–May (young shoots); summer–autumn (mature fronds)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pteridium_aquilinum_young_fronds.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pteridium_aquilinum_(subsp._aquilinum)_sl48.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ワラビ" },
     ],
@@ -5564,7 +5564,7 @@ export const plants: Plant[] = [
     enHabitat: "Forest understory, forest edges, and moist montane sites",
     season: "春〜秋（葉）",
     enSeason: "Spring–autumn (fronds)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Athyrium_niponicum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_Painted_Fern_Athyrium_nipponicum_'Pictum'_Leaf_1500px.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イヌワラビ" },
     ],
@@ -5637,7 +5637,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain grasslands and forest edges",
     season: "9〜11月（花）",
     enSeason: "September–November (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Gentiana_scabra_var_buergeri.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Gentiana_scabra_var._buergeri_03.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/リンドウ" },
     ],
@@ -5676,7 +5676,7 @@ export const plants: Plant[] = [
     enHabitat: "Rocks and tree trunks in humid forests",
     season: "通年（常緑）",
     enSeason: "Year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Crepidomanes_minutum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Crepidomanes_minutum_(4743439285).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コケシノブ科" },
     ],
@@ -5750,7 +5750,7 @@ export const plants: Plant[] = [
     enHabitat: "Rock walls, stone walls, and rock crevices in mountain areas",
     season: "通年（常緑）",
     enSeason: "Year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Asplenium_trichomanes.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/2017-12-28_(155)_Asplenium_trichomanes_(maidenhair_spleenwort)_between_Wei%C3%9Fenburggegend_and_Hofstadtgegend%2C_Frankenfels%2C_Austria.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/チャセンシダ" },
     ],
@@ -5785,7 +5785,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain forest edges, secondary forests, and gardens (cultivated)",
     season: "10〜11月（紅葉）、5〜6月（花）",
     enSeason: "October–November (fall foliage); May–June (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Euonymus_alatus_wings.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Euonymous_alatus.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ニシキギ" },
     ],
@@ -5822,7 +5822,7 @@ export const plants: Plant[] = [
     enHabitat: "Flower beds, parks (cultivated), and fields",
     season: "9〜11月（紅葉）",
     enSeason: "September–November (fall coloring)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Bassia_scoparia_summer_cypress.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Bassia_scoparia_sl16.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ホウキギ" },
     ],
@@ -5894,7 +5894,7 @@ export const plants: Plant[] = [
     enHabitat: "Forest edges and thickets on mountains and hills",
     season: "4〜5月（花）、10〜11月（実）",
     enSeason: "April–May (flowers); October–November (fruits)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Smilax_china_fruits.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Smilax_china_(Montage_s3).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サルトリイバラ" },
     ],
@@ -5931,7 +5931,7 @@ export const plants: Plant[] = [
     enHabitat: "Gardens and parks (cultivated)",
     season: "2〜4月（花）",
     enSeason: "February–April (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Daphne_odora_flowers.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Daphne_odora-ja01.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ジンチョウゲ" },
     ],
@@ -5968,7 +5968,7 @@ export const plants: Plant[] = [
     enHabitat: "Rice paddies, ponds, and slow-flowing sections of rivers",
     season: "6〜9月（花）",
     enSeason: "June–September (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Potamogeton_distinctus.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Potamogeton_distinctus_060628_Korea.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒルムシロ" },
     ],
@@ -6005,7 +6005,7 @@ export const plants: Plant[] = [
     enHabitat: "Wetlands, rice paddy levees, and marshes",
     season: "7〜9月（花）",
     enSeason: "July–September (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lythrum_anceps.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/LythrumSalicaria-flowers-1mb.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミソハギ" },
     ],
@@ -6044,7 +6044,7 @@ export const plants: Plant[] = [
     enHabitat: "Montane to subalpine forests, and gardens (cultivated)",
     season: "9〜10月（実）",
     enSeason: "September–October (fruits)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Taxus_cuspidata_fruits.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Taxus_cuspidata_2.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イチイ" },
     ],
@@ -6118,7 +6118,7 @@ export const plants: Plant[] = [
     enHabitat: "Dry rocks and rock walls in mountain areas",
     season: "通年（常緑）",
     enSeason: "Year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Selaginella_tamariscina.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Selaginella_tamariscina_cv3.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イワヒバ" },
     ],
@@ -6154,7 +6154,7 @@ export const plants: Plant[] = [
     enHabitat: "Gardens and parks (cultivated); forest edges in warm areas",
     season: "通年（葉）、夏（花）",
     enSeason: "Year-round (foliage); summer (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Musa_basjoo_in_garden.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Musa_basjooSochi1.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/バショウ" },
     ],
@@ -6303,7 +6303,7 @@ export const plants: Plant[] = [
     enHabitat: "Mixed forests of mountains and hills; parks (cultivated)",
     season: "5〜6月（花）、9〜10月（実）",
     enSeason: "May–June (flowers), September–October (fruits)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Styrax_japonica.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Styrax_japonicus_01.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/エゴノキ" },
     ],
@@ -6378,7 +6378,7 @@ export const plants: Plant[] = [
     enHabitat: "Along mountain valleys and in moist forests",
     season: "4月（花）、9〜10月（実）",
     enSeason: "April (flowers), September–October (fruits)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Juglans_mandshurica_fruits.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Juglans_mandshurica_var._sachalinensis_05.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オニグルミ" },
     ],
@@ -6415,7 +6415,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain valleys, rocky sites, and forest edges",
     season: "7〜8月（花）",
     enSeason: "July–August (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Buddleja_japonica.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Buddleja_japonica1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フジウツギ" },
     ],
@@ -6565,7 +6565,7 @@ export const plants: Plant[] = [
     enHabitat: "Estuarine mangrove forests of southern Kyushu and Okinawa",
     season: "7〜8月（花）、通年（常緑）",
     enSeason: "July–August (flowers), year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Kandelia_obovata.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Kandelia_obovata_at_Ting_Kok_mangrove.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/メヒルギ" },
     ],
@@ -6602,7 +6602,7 @@ export const plants: Plant[] = [
     enHabitat: "Forest edges of the Ryukyu Islands; gardens (cultivated)",
     season: "7〜9月（花）",
     enSeason: "July–September (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Combretum_indicum_flower.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Combretum_indicum_01.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シクンシ" },
     ],
@@ -6674,7 +6674,7 @@ export const plants: Plant[] = [
     enHabitat: "Shallow waters of rice paddies, ponds, and wetlands",
     season: "7〜9月（花）",
     enSeason: "July–September (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Elatine_triandra.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Elatine_triandra_sl65.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ミズハコベ" },
     ],
@@ -6856,7 +6856,7 @@ export const plants: Plant[] = [
     enHabitat: "Tropical origin (greenhouses and botanical gardens in Okinawa, Japan)",
     season: "通年（常緑）",
     enSeason: "Year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Myristica_fragrans_fruits.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Myristica_fragrans_at_Elmina_West_in_Seksyen_U15%2C_Shah_Alam_20231126_100924.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ニクズク" },
     ],
@@ -6929,7 +6929,7 @@ export const plants: Plant[] = [
     enHabitat: "Flower beds and pots (cultivated)",
     season: "5〜7月（花）",
     enSeason: "May–July (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Reseda_odorata.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Reseda_odorata_2019-06-18_2334.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/モクセイソウ" },
     ],
@@ -7150,7 +7150,7 @@ export const plants: Plant[] = [
     enHabitat: "Gardens and fields of the Ryukyu Islands and southern Kyushu (cultivated and naturalized)",
     season: "通年（常緑）、周年（果実）",
     enSeason: "Year-round (evergreen), year-round (fruits)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Carica_papaya_fruits.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Carica_papaya_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-029.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/パパイア" },
     ],
@@ -7186,7 +7186,7 @@ export const plants: Plant[] = [
     enHabitat: "Forest edges and grasslands of mountains and hills (somewhat dry sites)",
     season: "通年（常緑）",
     enSeason: "Year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Gleichenia_japonica.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Gleichenia_japonica_urajiro_gunraku.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ウラジロ" },
     ],
@@ -7223,7 +7223,7 @@ export const plants: Plant[] = [
     enHabitat: "Wetlands and rice paddies of the Ryukyu and Ogasawara Islands (extremely rare)",
     season: "春〜夏（花）",
     enSeason: "Spring–Summer (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Centrolepis_banksii.jpg",
+
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Centrolepidaceae" },
     ],
@@ -7296,7 +7296,7 @@ export const plants: Plant[] = [
     enHabitat: "Warm-temperate to subtropical forest understory (parasitic on tree roots)",
     season: "10〜12月（花序）",
     enSeason: "October–December (inflorescence)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Balanophora_japonica.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツチトリモチ" },
     ],
@@ -7369,7 +7369,7 @@ export const plants: Plant[] = [
     enHabitat: "Alpine to subalpine grasslands of Hokkaido and central Honshu",
     season: "7〜8月（花）",
     enSeason: "July–August (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Polemonium_caeruleum_var_yezoense.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Polemonium_caeruleum20170605_8001.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハナシノブ" },
     ],
@@ -7407,7 +7407,7 @@ export const plants: Plant[] = [
     enHabitat: "Moist forest understory and rocks of the Ryukyu Islands and southern Kyushu",
     season: "通年（常緑）",
     enSeason: "Year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lindsaea_odorata.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lindsaea_odorata_honguusd01.jpg",
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Lindsaeaceae" },
     ],
@@ -7478,7 +7478,7 @@ export const plants: Plant[] = [
     enHabitat: "Evergreen forests of the Ryukyu Islands (Iriomote Island, etc.) (extremely rare)",
     season: "通年（常緑）",
     enSeason: "Year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dichapetalum_gelonioides.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dichapetalum_gelonioides_09756.jpg",
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Dichapetalaceae" },
     ],
@@ -7548,7 +7548,7 @@ export const plants: Plant[] = [
     enHabitat: "Rice paddies and wetlands of the Ryukyu Islands (naturalized)",
     season: "夏〜秋（花）",
     enSeason: "Summer–Autumn (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sphenoclea_zeylanica.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sphenoclea_zeylanica_MS_2295.JPG",
     externalLinks: [
       { label: "Wikipedia（英語）", url: "https://en.wikipedia.org/wiki/Sphenoclea_zeylanica" },
     ],
@@ -11540,7 +11540,7 @@ export const plants: Plant[] = [
     enHabitat: "Paddy fields and wetlands",
     season: "6〜11月（生育期）、9〜10月（収穫）",
     enSeason: "June–November (growing season), September–October (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oryza_sativa_-_Flickr_-_thewamphyri_(4).jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Oryza_sativa_(Asian_rice)-_Root.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イネ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Rice" },
@@ -11612,7 +11612,7 @@ export const plants: Plant[] = [
     enHabitat: "Fields and farmland",
     season: "秋播き：10〜11月播種、翌5〜6月収穫",
     enSeason: "Autumn sowing: October–November, harvest the following May–June",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hordeum_vulgare_-_Köhler–s_Medizinal-Pflanzen-232.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Escourgeon-Hordeum_vulgare_subsp._vulgare.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オオムギ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Barley" },
@@ -11684,7 +11684,7 @@ export const plants: Plant[] = [
     enHabitat: "Fields and farmland",
     season: "6〜7月播種、9〜10月収穫",
     enSeason: "Sowing: June–July, harvest: September–October",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Vigna_angularis_var._angularis_W.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アズキ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Adzuki_bean" },
@@ -11828,7 +11828,7 @@ export const plants: Plant[] = [
     enHabitat: "Fields and farmland",
     season: "春播き・秋播きで年中栽培可能",
     enSeason: "Year-round cultivation possible with spring and autumn sowings",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_oleracea_var_capitata_Lokal_Profil.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_oleracea0.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キャベツ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Cabbage" },
@@ -11936,7 +11936,7 @@ export const plants: Plant[] = [
     enHabitat: "Fields, farmland, and home gardens",
     season: "4〜6月定植、6〜9月収穫",
     enSeason: "Transplanting: April–June, harvest: June–September",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cucumber_on_a_vine.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cucumis_sativus_0001.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キュウリ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Cucumber" },
@@ -12116,7 +12116,7 @@ export const plants: Plant[] = [
     enHabitat: "Fields, farmland, and home gardens",
     season: "春〜秋播種、通年収穫可能",
     enSeason: "Sowing: spring–autumn; harvest year-round",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Allium_fistulosum_008.JPG",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/HK_SYP_Best_of_Best_Vegetable_Peking_Welsh_onion_Allium_Aug-2012.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ネギ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Welsh_onion" },
@@ -12300,7 +12300,7 @@ export const plants: Plant[] = [
     enHabitat: "Prefers cool climates. Orchards and gardens",
     season: "4〜5月（開花）、9〜11月（収穫）",
     enSeason: "April–May (flowering), September–November (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Apple_-_Malus_domestica.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Malus_domestica_(Apple)_flowers_3.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/リンゴ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Apple" },
@@ -12414,7 +12414,7 @@ export const plants: Plant[] = [
     enHabitat: "Farmland, home gardens, and vinyl greenhouses",
     season: "3〜5月（露地栽培）、12〜3月（促成栽培）",
     enSeason: "March–May (open-field cultivation), December–March (forcing culture)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fragaria_×_ananassa_single2.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Life_cycle_of_Fragaria_%C3%97_ananassa.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オランダイチゴ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Strawberry" },
@@ -12527,7 +12527,7 @@ export const plants: Plant[] = [
     enHabitat: "Sunny slopes, forest edges, and garden trees in mountains and fields",
     season: "4〜5月（若葉・開花）、7〜8月（実の収穫）",
     enSeason: "April–May (young leaves/flowering), July–August (berry harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Zanthoxylum_piperitum1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Zanthoxylum_piperitum.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サンショウ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Zanthoxylum_piperitum" },
@@ -12600,7 +12600,7 @@ export const plants: Plant[] = [
     enHabitat: "Warm, humid farmland and home gardens; frost-sensitive, suited to warm regions",
     season: "10〜11月（根茎収穫）",
     enSeason: "October–November (rhizome harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Zingiber_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-206.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Zingiber_officinale_230935597.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ショウガ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Ginger" },
@@ -12637,7 +12637,7 @@ export const plants: Plant[] = [
     enHabitat: "Gardens, parks, flower beds, and rose gardens; prefers sunny, well-drained locations",
     season: "5〜6月（春）、10〜11月（秋）が最盛期（品種により四季咲き）",
     enSeason: "May–June (spring) and October–November (autumn) peak seasons; some cultivars are repeat-flowering",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rose_Hybrid_Tea_variety_La_France.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_Hybrida.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/バラ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Rose" },
@@ -12750,7 +12750,7 @@ export const plants: Plant[] = [
     enHabitat: "Forest edges and riversides in mountains and fields; pergolas in parks and gardens",
     season: "4〜5月（開花）",
     enSeason: "April–May (flowering)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Wisteria_floribunda_20070430.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Wisteria_floribunda3.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フジ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Wisteria_floribunda" },
@@ -12788,7 +12788,7 @@ export const plants: Plant[] = [
     enHabitat: "Parks, roadside plantings, gardens, and hedges; also native on rocky areas and forest edges in mountains",
     season: "4〜5月（開花）",
     enSeason: "April–May (flowering)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rhododendron_obtusum1.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B4%D0%B6%D0%B0%D0%BD%D1%81%D0%BA%D0%B0_%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0_Rhododendron_ponticum.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キリシマツツジ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Rhododendron_obtusum" },
@@ -12826,7 +12826,7 @@ export const plants: Plant[] = [
     enHabitat: "Coastal areas, cliffs, gardens, and flower beds; partial shade to full sun",
     season: "12〜3月（開花）",
     enSeason: "December–March (flowering)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Narcissus_tazetta_subsp._lacticolor.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Narcissus_tazetta_var_chinensis1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ニホンズイセン" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Narcissus_tazetta" },
@@ -12864,7 +12864,7 @@ export const plants: Plant[] = [
     enHabitat: "Forests and bamboo groves on warm lowlands to low mountains; tends to spread rapidly",
     season: "4〜5月（タケノコ）、通年（緑の稈）",
     enSeason: "April–May (bamboo shoots), year-round (green culms)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Moso_bamboo_in_Kyoto.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Phyllostachys_heterocycla.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/モウソウチク" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Moso_bamboo" },
@@ -12900,7 +12900,7 @@ export const plants: Plant[] = [
     enHabitat: "Forms pure stands in cool-temperate mountains at 500–1,500 m elevation, mainly in heavy-snowfall areas along the Sea of Japan side",
     season: "4〜5月（新緑・開花）、10〜11月（黄葉・結実）",
     enSeason: "April–May (fresh green leaves/flowering), October–November (autumn foliage/fruiting)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fagus_crenata_Siebold.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fagus_crenata_flower_and_fruits.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ブナ" },
       { label: "Wikipedia（English）", url: "https://en.wikipedia.org/wiki/Fagus_crenata" },
@@ -16993,7 +16993,7 @@ export const plants: Plant[] = [
     enHabitat: "Lakes, wetlands, paddy field edges",
     season: "8〜10月（花・若芽）",
     enSeason: "August to October (flowers, shoots)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Zizania_latifolia.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Starr-130322-3856-Zizania_latifolia-habit-Hanalei_NWR-Kauai_(25091512352).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マコモ" },
     ],
@@ -17073,7 +17073,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields)",
     season: "5〜6月（花、数年に一度）",
     enSeason: "May to June (flowers, every few years)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Amorphophallus_konjac.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Amorphophallus_konjac_CBM.png",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コンニャク" },
     ],
@@ -17233,7 +17233,7 @@ export const plants: Plant[] = [
     enHabitat: "Hills, roadsides, riverbanks",
     season: "8〜9月（花）",
     enSeason: "August to September (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pueraria_lobata.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ternate_leaves_of_Pueraria_lobata_subsp._thomsonii_in_Urasoe_Park%2C_Okinawa.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クズ" },
     ],
@@ -17433,7 +17433,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (mainly Sichuan, China)",
     season: "4〜5月（花）",
     enSeason: "April to May (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_juncea_tumida.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ザーサイ" },
     ],
@@ -17633,7 +17633,7 @@ export const plants: Plant[] = [
     enHabitat: "Roadsides, hedges, vacant lots",
     season: "6〜8月（花）",
     enSeason: "June to August (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Causonis_japonica.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cayratia_japonica1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤブガラシ" },
     ],
@@ -17713,7 +17713,7 @@ export const plants: Plant[] = [
     enHabitat: "Tropical regions (wild and cultivated)",
     season: "通年（花・果実）",
     enSeason: "Year-round (flowers, fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Areca_catechu.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pair_of_areca_palm_tree.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ビンロウ" },
     ],
@@ -17753,7 +17753,7 @@ export const plants: Plant[] = [
     enHabitat: "Gardens, bonsai",
     season: "5月（花）、10月（果実）",
     enSeason: "May (flowers), October (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Crataegus_cuneata.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Crataegus_cuneata_f_lutea1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/サンザシ" },
     ],
@@ -17913,7 +17913,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (orchards, warm dry regions)",
     season: "2〜4月（花）、8〜9月（収穫）",
     enSeason: "February to April (flowers), August to September (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Prunus_amygdalus.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アーモンド" },
     ],
@@ -17953,7 +17953,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields, greenhouses, home gardens)",
     season: "6〜9月（果実）",
     enSeason: "June to September (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Capsicum_annuum_Grossum.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ピーマン" },
     ],
@@ -18193,7 +18193,7 @@ export const plants: Plant[] = [
     enHabitat: "Paddy fields, shallow wetlands (cultivated)",
     season: "7〜10月（花）、11〜12月（収穫）",
     enSeason: "July to October (flowers), November to December (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sagittaria_trifolia.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/クワイ" },
     ],
@@ -18273,7 +18273,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields, arid regions)",
     season: "8〜10月（穂）",
     enSeason: "August to October (panicle)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sorghum_bicolor.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sorghum_bicolor03.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/モロコシ" },
     ],
@@ -18313,7 +18313,7 @@ export const plants: Plant[] = [
     enHabitat: "Subalpine coniferous forests, wetlands",
     season: "4〜5月（若芽採取）、6〜7月（花）",
     enSeason: "April to May (young shoots), June to July (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Allium_victorialis.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ギョウジャニンニク" },
     ],
@@ -18553,7 +18553,7 @@ export const plants: Plant[] = [
     enHabitat: "Wild grasslands, meadows",
     season: "5月（花）",
     enSeason: "May (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Iris_sanguinea.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Iris_sanguinea_kz01.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アヤメ" },
     ],
@@ -18633,7 +18633,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (medicinal gardens, fields), mountain forests (wild)",
     season: "5〜6月（花）、8〜9月（果実）",
     enSeason: "May to June (flowers), August to September (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Panax_ginseng.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ginsengpflanze.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オタネニンジン" },
     ],
@@ -18713,7 +18713,7 @@ export const plants: Plant[] = [
     enHabitat: "Gardens, hedges, parks",
     season: "4〜5月（花）、10〜11月（紅葉）",
     enSeason: "April to May (flowers), October to November (autumn color)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Enkianthus_perulatus.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Enkianthus_perulatus3.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ドウダンツツジ" },
     ],
@@ -18833,7 +18833,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain deciduous forests",
     season: "4〜5月（若芽採取）、8月（花）",
     enSeason: "April to May (young shoots), August (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chengiopanax_sciadophylloides.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chengiopanax_sciadophylloides3.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コシアブラ" },
     ],
@@ -18873,7 +18873,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields)",
     season: "7〜8月（花）、11〜12月（収穫）",
     enSeason: "July to August (flowers), November to December (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Stachys_sieboldii.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Stachys_affinis_kz02.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/チョロギ" },
     ],
@@ -19193,7 +19193,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields, home gardens)",
     season: "11〜3月（主な収穫期）",
     enSeason: "November to March (main harvest season)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_rapa_var_perviridis.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/コマツナ" },
     ],
@@ -19593,7 +19593,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields, home gardens)",
     season: "7〜8月（収穫）",
     enSeason: "July to August (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cucumis_melo_makuwa.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_melon-Chamoe-01.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マクワウリ" },
     ],
@@ -19673,7 +19673,7 @@ export const plants: Plant[] = [
     enHabitat: "Wetlands, mountains (Hokkaido), cultivated",
     season: "5月（花）、6〜7月（果実）",
     enSeason: "May (flowers), June to July (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lonicera_caerulea_edulis.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%82%AF%E3%83%AD%E3%83%9F%E3%83%8E%E3%82%A6%E3%82%B0%E3%82%A4%E3%82%B9%E3%82%AB%E3%82%B0%E3%83%A9(%E9%BB%92%E5%AE%9F%E3%81%AE%E9%B6%AF%E7%A5%9E%E6%A5%BD)(Lonicera_caerulea_var._emphyllocalyx)-%E8%8A%B1_(5844543955).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハスカップ" },
     ],
@@ -19793,7 +19793,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (Mediterranean region)",
     season: "11〜3月（果実）",
     enSeason: "November to March (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Citrus_bergamia.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Citrus_bergamia_fructus_back.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ベルガモット" },
     ],
@@ -19833,7 +19833,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (subtropical regions)",
     season: "5〜7月（果実）",
     enSeason: "May to July (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Litchi_chinensis.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Starr-090617-0938-Litchi_chinensis-fruiting_habit-Haiku-Maui_(41353189901).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/レイシ" },
     ],
@@ -19953,7 +19953,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields, home gardens)",
     season: "7〜10月（収穫）",
     enSeason: "July to October (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Benincasa_pruriens.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トウガン" },
     ],
@@ -19993,7 +19993,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (warm, dry regions)",
     season: "5〜7月（花）、7〜8月（収穫）",
     enSeason: "May to July (flowers), July to August (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cicer_arietinum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cicer_arietinum_HabitusFruits_BotGardBln0906a.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒヨコマメ" },
     ],
@@ -20113,7 +20113,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (tropical), greenhouses",
     season: "通年（熱帯）",
     enSeason: "Year-round (tropical)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Vanilla_planifolia.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Vanilla_plantation_in_wood_dsc00190.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/バニラ" },
     ],
@@ -20193,7 +20193,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields)",
     season: "9〜10月（収穫）",
     enSeason: "September to October (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Setaria_italica.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Setaria_italica_leaf_(04).jpeg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アワ" },
     ],
@@ -20513,7 +20513,7 @@ export const plants: Plant[] = [
     enHabitat: "Roadsides, riverbanks, waste ground (naturalized)",
     season: "4〜6月（花）",
     enSeason: "April to June (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Papaver_setigerum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Papaver_April_2010-3.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/アツミゲシ" },
     ],
@@ -20593,7 +20593,7 @@ export const plants: Plant[] = [
     enHabitat: "Wetlands, ponds, paddy margins",
     season: "5〜6月（花）",
     enSeason: "May to June (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Iris_laevigata.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Iris_laevigata_Snowdrift_1zz.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カキツバタ" },
     ],
@@ -20673,7 +20673,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (gardens, parks, plantations); native to Australia",
     season: "種により異なる",
     enSeason: "Varies by species",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus_globulus.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/EucalyptusGlobulusPatra.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ユーカリ" },
     ],
@@ -21153,7 +21153,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields, home gardens)",
     season: "7〜8月（花）、8〜10月（果実）",
     enSeason: "July to August (flowers), August to October (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lagenaria_siceraria_var_hispida.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ユウガオ" },
     ],
@@ -21193,7 +21193,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (cold-climate fields, home gardens)",
     season: "5〜7月（葉柄）",
     enSeason: "May to July (leaf stalks)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rheum_rhabarbarum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rheum_rhabarbarum.2006-04-27.uellue.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ルバーブ" },
     ],
@@ -21313,7 +21313,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (Andean highlands, temperate fields)",
     season: "2〜4月（アンデス）、日本では9〜10月（収穫）",
     enSeason: "February to April (Andes); September to October (harvest in Japan)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chenopodium_quinoa.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Calca_Peru-_Quinoa_seller_at_mercado.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/キヌア" },
     ],
@@ -21553,7 +21553,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields)",
     season: "11〜3月（収穫）",
     enSeason: "November to March (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_juncea_integrifolia.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Brassica_juncea_var._juncea.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/タカナ" },
     ],
@@ -21673,7 +21673,7 @@ export const plants: Plant[] = [
     enHabitat: "Fields, thickets, roadsides, fences",
     season: "7〜9月（花）",
     enSeason: "July to September (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Paederia_scandens.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Starr_001101-0044_Paederia_foetida.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヘクソカズラ" },
     ],
@@ -21713,7 +21713,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (tropical rainforest)",
     season: "6〜8月（果実）",
     enSeason: "June to August (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Durio_zibethinus.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Durio_zibethinus_115520164.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ドリアン" },
     ],
@@ -21912,7 +21912,7 @@ export const plants: Plant[] = [
     enHabitat: "Moist mountain forests and meadows",
     season: "7〜10月（花）",
     enSeason: "July to October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aconitum_japonicum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aconitum_variegatum_110807.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トリカブト" },
     ],
@@ -21992,7 +21992,7 @@ export const plants: Plant[] = [
     enHabitat: "Tropical rainforests (eastern Australia to Malay Archipelago)",
     season: "通年（常緑）",
     enSeason: "Year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocnide_moroides.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocnide_moroides_small_plant_SF21168.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ギンピ・ギンピ" },
     ],
@@ -22152,7 +22152,7 @@ export const plants: Plant[] = [
     enHabitat: "Rocky grounds and grasslands of the Mediterranean",
     season: "3〜5月（花）",
     enSeason: "March to May (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Mandragora_officinarum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Mandragora_officinarum_001.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マンドレイク" },
     ],
@@ -22232,7 +22232,7 @@ export const plants: Plant[] = [
     enHabitat: "Tropical coasts and mangrove edges",
     season: "通年（常緑）",
     enSeason: "Year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hippomane_mancinella.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hippomane_mancinella_(fruit).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マンチニール" },
     ],
@@ -22272,7 +22272,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields and greenhouses)",
     season: "6〜10月（果実）",
     enSeason: "June to October (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Capsicum_annuum_Paprika.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Capsicum_annuum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-027.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/パプリカ" },
     ],
@@ -22392,7 +22392,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (tropical)",
     season: "通年（果実は年2回）",
     enSeason: "Year-round (fruit twice a year)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Myristica_fragrans.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Myristica_fragrans_at_Elmina_West_in_Seksyen_U15%2C_Shah_Alam_20231126_100924.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ナツメグ" },
     ],
@@ -22512,7 +22512,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountains, coasts; cultivated (gardens and bonsai)",
     season: "通年（常緑）、4〜6月（花粉）",
     enSeason: "Year-round (evergreen); April to June (pollen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_densiflora.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_lambertiana_cones_Cucamonga_Peak.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マツ" },
     ],
@@ -22671,7 +22671,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (street trees, parks)",
     season: "3月末〜4月初（花）",
     enSeason: "Late March to early April (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cerasus_yedoensis_Jindai-akebono.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ジンダイアケボノ" },
     ],
@@ -22751,7 +22751,7 @@ export const plants: Plant[] = [
     enHabitat: "Wetlands, swamps, rice-paddy margins",
     season: "11〜3月（花）",
     enSeason: "November to March (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alnus_japonica.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alnus_japonica_%E3%83%8F%E3%83%B3%E3%83%8E%E3%82%AD_%E3%82%84%E3%81%97%E3%82%8D%E3%81%AE%E6%A3%AE%E5%85%AC%E5%9C%92DSCF8698.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハンノキ" },
     ],
@@ -22791,7 +22791,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields), cold regions",
     season: "8〜10月（収穫）",
     enSeason: "August to October (harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Echinochloa_esculenta.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Echinochloa_esculenta_sl19.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒエ" },
     ],
@@ -23111,7 +23111,7 @@ export const plants: Plant[] = [
     enHabitat: "Riverbanks and meadows (now rare); cultivated",
     season: "8〜10月（花）",
     enSeason: "August to October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Eupatorium_japonicum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Eupatorium_japonicum_flower_leaf.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/フジバカマ" },
     ],
@@ -23231,7 +23231,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (tropical and subtropical)",
     season: "通年（熱帯）、5〜11月（温帯）",
     enSeason: "Year-round (tropics); May to November (temperate zones)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Bougainvillea_glabra.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Flor_de_Santa_Rita_(Bougainvillea_glabra)_una_especie_de_planta_trepadora_de_la_familia_de_las_Nyctaginaceae_(sobre_Ruta_Provincial_7%2C_municipio_de_Ruiz_de_Montoya%2C_Provincia_de_Misiones%2C_Rep%C3%BAblica_Argentina).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ブーゲンビリア" },
     ],
@@ -23470,7 +23470,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (flowerbeds, cut flowers)",
     season: "7〜11月（花）",
     enSeason: "July to November (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Celosia_argentea_var_cristata.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cockscomb_(Celosia_argentea_var._cristata).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ケイトウ" },
     ],
@@ -23510,7 +23510,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (flowerbeds); naturalized (mountains)",
     season: "5〜7月（花）",
     enSeason: "May to July (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Digitalis_purpurea_03.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Digitalis-stora_hultrum.sweden-24.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ジギタリス" },
     ],
@@ -23590,7 +23590,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountains, understory, snowy regions",
     season: "通年（常緑）",
     enSeason: "Year-round (evergreen)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sasa_veitchii.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sasa_senanensis.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ササ" },
     ],
@@ -23670,7 +23670,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (tropical to warm temperate)",
     season: "通年（熱帯）、4〜11月（温帯）",
     enSeason: "Year-round (tropics); April to November (temperate)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cymbopogon_citratus_002.JPG",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cymbopogon_citratus_(Brazil).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/レモングラス" },
     ],
@@ -23710,7 +23710,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountains and wetlands (native); cultivated",
     season: "9〜10月（花）",
     enSeason: "September to October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aster_tataricus01.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aster_tataricus1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シオン_(植物)" },
     ],
@@ -23750,7 +23750,7 @@ export const plants: Plant[] = [
     enHabitat: "Forests and thickets (native); cultivated (medicinal)",
     season: "6〜8月（花）",
     enSeason: "June to August (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Atropa_belladonna_001.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_Atropa_bella-donna0_clean.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ベラドンナ" },
     ],
@@ -23830,7 +23830,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain and field grasslands",
     season: "8〜10月（花）",
     enSeason: "August to October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sanguisorba_officinalis_03.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sanguisorba_officinalis_RF.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ワレモコウ" },
     ],
@@ -23870,7 +23870,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (cut flowers, pots)",
     season: "4〜10月（花、周年開花も）",
     enSeason: "April to October (or year-round under cultivation)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Gerbera_jamesonii01.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Gerbera_jamesonii_(Asteraceae).jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ガーベラ" },
     ],
@@ -23990,7 +23990,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountains, streamsides",
     season: "4〜5月（花）、9〜10月（果実）",
     enSeason: "April to May (flowers); September to October (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fraxinus_japonica.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fraxinus_japonica3.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/トネリコ" },
     ],
@@ -24070,7 +24070,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (fields)",
     season: "4〜6月（花・収穫）",
     enSeason: "April to June (flowers and harvest)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Vicia_faba_2.JPG",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Illustration_Vicia_faba1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ソラマメ" },
     ],
@@ -24110,7 +24110,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (tropical)",
     season: "通年（熱帯）",
     enSeason: "Year-round (tropics)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Piper_longum_Blanco1.192.png",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Piper_longum.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヒハツ" },
     ],
@@ -24269,7 +24269,7 @@ export const plants: Plant[] = [
     enHabitat: "Bright mountain forest edges and grasslands",
     season: "7〜8月（花）",
     enSeason: "July to August (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lilium_auratum_Gold_Band.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lilium_auratum1.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤマユリ" },
     ],
@@ -24309,7 +24309,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain forest edges and grasslands",
     season: "8〜10月（花）",
     enSeason: "August to October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aconitum_japonicum_subsp._subcuneatum.JPG",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aconitum_japonicum_subsp._japonicum_01.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ヤマトリカブト" },
     ],
@@ -24349,7 +24349,7 @@ export const plants: Plant[] = [
     enHabitat: "Sunny riverbanks and grasslands",
     season: "7〜10月（花）",
     enSeason: "July to October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dianthus_superbus_var_longicalycinus.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%82%AB%E3%83%AF%E3%83%A9%E3%83%8A%E3%83%87%E3%82%B7%E3%82%B3_Dianthus_superbus_var._longicalycinus.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/カワラナデシコ" },
     ],
@@ -24429,7 +24429,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain wetlands and forest edges",
     season: "7〜8月（花）、4〜5月（若葉）",
     enSeason: "July to August (flowers); April to May (young leaves)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hosta_sieboldiana_2.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Hosta_fortunei1Sten_Porse.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オオバギボウシ" },
     ],
@@ -24469,7 +24469,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (tropical and subtropical)",
     season: "通年（熱帯）、6〜9月（温室・温帯）",
     enSeason: "Year-round (tropics); June to September (greenhouse, temperate)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jasminum_sambac_flowers.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/JasminumSambac.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マツリカ" },
     ],
@@ -24549,7 +24549,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (gardens); naturalized (shaded sites)",
     season: "9〜10月（花）",
     enSeason: "September to October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Anemone_hupehensis_var_japonica.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Eriocapitella_hupehensis.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シュウメイギク" },
     ],
@@ -24589,7 +24589,7 @@ export const plants: Plant[] = [
     enHabitat: "Fields, home vegetable gardens",
     season: "6〜9月（果実）",
     enSeason: "June to September (fruits)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cucurbita_pepo.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cucurbita_pepo_collage_1.png",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ズッキーニ" },
     ],
@@ -24794,7 +24794,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (parks, streets, hedges)",
     season: "4〜5月（花）",
     enSeason: "April to May (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rhododendron_pulchrum.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rhododendron_pulchrum_-_National_Taiwan_University_-_DSC01097.JPG",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/オオムラサキ_(植物)" },
     ],
@@ -24835,7 +24835,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (tropical to subtropical)",
     season: "通年（常緑）、筍は夏",
     enSeason: "Year-round (evergreen); shoots in summer",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocalamus_latiflorus.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dendrocalamus_latiflorus_-_Shinjuku_Gyo-en_Greenhouse_-_Tokyo%2C_Japan_-_DSC05729.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/マチク" },
     ],
@@ -24999,7 +24999,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountains, old temples and shrines",
     season: "3〜4月（花）",
     enSeason: "March to April (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cerasus_spachiana.jpg",
+
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/エドヒガン" },
     ],
@@ -25163,7 +25163,7 @@ export const plants: Plant[] = [
     enHabitat: "Mountain forest edges and streamsides",
     season: "9〜10月（花）",
     enSeason: "September to October (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Urtica_thunbergiana.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Urtica_thunbergiana02.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イラクサ" },
     ],
@@ -25245,7 +25245,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (gardens, symbol trees)",
     season: "5〜7月（花）",
     enSeason: "May to July (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fraxinus_griffithii.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fraxinus_griffithii3.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シマトネリコ" },
     ],
@@ -25286,7 +25286,7 @@ export const plants: Plant[] = [
     enHabitat: "Cultivated (tropical to subtropical)",
     season: "3〜5月（花）、10〜5月（果実）",
     enSeason: "March to May (flowers); October to May (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Citrus_paradisi.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Citrus_x_paradisi_(Macfad.)_Pompelino_Grapefruit_002.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/グレープフルーツ" },
     ],
@@ -25408,7 +25408,7 @@ export const plants: Plant[] = [
     enHabitat: "Flower beds, gardens, kitchen gardens (cultivated)",
     season: "7〜10月（葉色）",
     enSeason: "July to October (foliage)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Amaranthus_tricolor.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Amaranthus_tricolor_kz01.jpg",
     externalLinks: [
       { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ハゲイトウ" },
     ],
