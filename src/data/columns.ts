@@ -17,6 +17,9 @@ import { metadata as nanakusaApgJa } from "@/content/columns/nanakusa-apg.ja.mdx
 import { metadata as nanakusaApgEn } from "@/content/columns/nanakusa-apg.en.mdx";
 import { metadata as tanpopoWarJa } from "@/content/columns/tanpopo-war.ja.mdx";
 import { metadata as tanpopoWarEn } from "@/content/columns/tanpopo-war.en.mdx";
+import { metadata as pageviewRankingJa } from "@/content/columns/pageview-ranking.ja.mdx";
+import { metadata as pageviewRankingEn } from "@/content/columns/pageview-ranking.en.mdx";
+import { metadata as ancientSpringGreensJa } from "@/content/columns/ancient-spring-greens.ja.mdx";
 
 const allColumns: ColumnMeta[] = [
   plantourIntroJa as ColumnMeta,
@@ -25,6 +28,9 @@ const allColumns: ColumnMeta[] = [
   nanakusaApgEn as ColumnMeta,
   tanpopoWarJa as ColumnMeta,
   tanpopoWarEn as ColumnMeta,
+  pageviewRankingJa as ColumnMeta,
+  pageviewRankingEn as ColumnMeta,
+  ancientSpringGreensJa as ColumnMeta,
 ];
 
 export function getColumns(lang: Locale): ColumnMeta[] {

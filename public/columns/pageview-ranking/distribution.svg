@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="600" height="400" fill="#fafaf8" rx="12"/>
+  <text x="300" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">順位 vs 閲覧数（両対数プロット）</text>
+  <text x="300" y="46" text-anchor="middle" font-size="11" fill="#666">Plantour 掲載 656 種 / 12ヶ月合計</text>
+
+  <!-- Plot area: x=80..560 (width 480), y=330..70 (height 260) -->
+  <!-- X: log10(rank) 0..3  → x = 80 + log10rank * 160 -->
+  <!-- Y: log10(views) 2..6 → y = 330 - (log10views - 2) * 65 -->
+
+  <!-- Y grid + labels (log10 views 2..6 = 100, 1k, 10k, 100k, 1M) -->
+  <g stroke="#e0ddd4" stroke-width="1">
+    <line x1="80" y1="330" x2="560" y2="330"/>
+    <line x1="80" y1="265" x2="560" y2="265" stroke-dasharray="2 3"/>
+    <line x1="80" y1="200" x2="560" y2="200" stroke-dasharray="2 3"/>
+    <line x1="80" y1="135" x2="560" y2="135" stroke-dasharray="2 3"/>
+    <line x1="80" y1="70" x2="560" y2="70" stroke-dasharray="2 3"/>
+  </g>
+  <g font-size="10" fill="#888" text-anchor="end">
+    <text x="74" y="334">100</text>
+    <text x="74" y="269">1,000</text>
+    <text x="74" y="204">10,000</text>
+    <text x="74" y="139">100,000</text>
+    <text x="74" y="74">1,000,000</text>
+  </g>
+  <text x="22" y="200" font-size="11" fill="#666" text-anchor="middle" transform="rotate(-90 22 200)">12ヶ月閲覧数 (log)</text>
+
+  <!-- X grid + labels (log10 rank 0..3 = 1, 10, 100, 1000) -->
+  <g stroke="#e0ddd4" stroke-width="1">
+    <line x1="80" y1="330" x2="80" y2="70"/>
+    <line x1="240" y1="70" x2="240" y2="330" stroke-dasharray="2 3"/>
+    <line x1="400" y1="70" x2="400" y2="330" stroke-dasharray="2 3"/>
+    <line x1="560" y1="70" x2="560" y2="330" stroke-dasharray="2 3"/>
+  </g>
+  <g font-size="10" fill="#888" text-anchor="middle">
+    <text x="80" y="348">1位</text>
+    <text x="240" y="348">10位</text>
+    <text x="400" y="348">100位</text>
+    <text x="560" y="348">1000位</text>
+  </g>
+  <text x="320" y="378" font-size="11" fill="#666" text-anchor="middle">閲覧数ランキング (log)</text>
+
+  <!-- Trend line (Zipf, slope ≈ -0.5) for upper portion: from rank 1 to 200 -->
+  <!-- (0,5.47)→(80, 65.95)  (2.30,4.71)→(448, 153.85) -->
+  <line x1="80" y1="65.95" x2="448" y2="153.85" stroke="#7a8aa6" stroke-width="1.4" stroke-dasharray="4 3" opacity="0.6"/>
+  <text x="380" y="125" font-size="10" fill="#5a6a86">傾き ≈ -0.5（ジップ則的減衰）</text>
+
+  <!-- Data points -->
+  <!-- rank 1: 293032 → x=80, y=330 - 3.47*65 = 104.45 → wait recompute. Let me redo.
+       y = 330 - (log10v - 2) * 65
+       rank 1 v=293032 log10=5.467 → y = 330 - 3.467*65 = 330 - 225.36 = 104.64
+       Hmm, I want bigger spread. Let me recompute mappings using fresh formula.
+       Plot area y range: 330 (bottom for log10v=2) to 70 (top for log10v=6). diff = 260, log10 range = 4. Per unit = 65. ✓
+       rank 1, log10v=5.467: y = 330 - (5.467-2)*65 = 330 - 225.4 = 104.6 -->
+  <g fill="#3a8aa3">
+    <!-- (logR=0, logV=5.467): x=80, y=104.6 → rank 1 -->
+    <circle cx="80" cy="104.6" r="4.5"/>
+    <!-- (logR=0.301, logV=5.417): x=128.2, y=107.85 → rank 2 -->
+    <circle cx="128.2" cy="107.9" r="4"/>
+    <!-- (logR=0.699, logV=5.220): x=191.8, y=120.7 → rank 5 -->
+    <circle cx="191.8" cy="120.7" r="4"/>
+    <!-- (logR=1.000, logV=5.140): x=240, y=125.9 → rank 10 -->
+    <circle cx="240" cy="125.9" r="4"/>
+    <!-- (logR=1.301, logV=5.083): x=288.2, y=129.6 → rank 20 -->
+    <circle cx="288.2" cy="129.6" r="3.5"/>
+    <!-- (logR=1.699, logV=4.935): x=351.8, y=139.2 → rank 50 -->
+    <circle cx="351.8" cy="139.2" r="3.5"/>
+    <!-- (logR=2.000, logV=4.831): x=400, y=146.0 → rank 100 -->
+    <circle cx="400" cy="146.0" r="3.5"/>
+    <!-- (logR=2.301, logV=4.714): x=448.2, y=153.6 → rank 200 -->
+    <circle cx="448.2" cy="153.6" r="3.5"/>
+    <!-- (logR=2.699, logV=4.003): x=511.8, y=199.8 → rank 500 -->
+    <circle cx="511.8" cy="199.8" r="3.5"/>
+    <!-- (logR=2.804, logV=2.937): x=528.6, y=269.1 → rank 637 (sakuraisou 866) -->
+    <circle cx="528.6" cy="269.1" r="3.5"/>
+    <!-- (logR=2.817, logV=2.080): x=530.7, y=324.8 → rank 656 (kostus 120) -->
+    <circle cx="530.7" cy="324.8" r="4" fill="#c93a3a"/>
+  </g>
+
+  <!-- Annotations -->
+  <text x="92" y="100" font-size="10" fill="#1a6480">ジャイアント・ホグウィード</text>
+  <text x="538" y="320" font-size="10" fill="#a83333">コスタス</text>
+  <text x="538" y="332" font-size="9" fill="#888">120 views</text>
+
+  <!-- Curve breakdown indicator: dashed bracket at the tail -->
+  <line x1="500" y1="180" x2="540" y2="305" stroke="#a83333" stroke-width="0.8" stroke-dasharray="2 2" opacity="0.5"/>
+  <text x="455" y="245" font-size="10" fill="#a83333">急減</text>
+  <text x="438" y="258" font-size="9" fill="#a83333">（単型科の固有種）</text>
+</svg>

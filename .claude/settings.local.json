@@ -125,7 +125,9 @@
       "Bash(xxd)",
       "Bash(git check-attr *)",
       "Bash(git config *)",
-      "Bash(awk 'BEGIN{ORS=\"\\\\r\\\\n\"} {sub\\(/\\\\r$/,\"\"\\); print}' src/data/plants.ts)"
+      "Bash(awk 'BEGIN{ORS=\"\\\\r\\\\n\"} {sub\\(/\\\\r$/,\"\"\\); print}' src/data/plants.ts)",
+      "Bash(git -C C:/Users/terua/plantour pull --ff-only origin main)",
+      "Bash(git ls-remote *)"
     ]
   },
   "hooks": {
