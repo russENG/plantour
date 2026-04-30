@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <!-- Sky / atmosphere (warm humid Carboniferous) -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cce4d4"/>
+      <stop offset="1" stop-color="#e6efd3"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4a30"/>
+      <stop offset="1" stop-color="#3a2e1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" fill="url(#sky)" rx="12"/>
+  <rect x="0" y="320" width="600" height="60" fill="url(#ground)"/>
+  <!-- Swamp water hints -->
+  <ellipse cx="200" cy="335" rx="80" ry="6" fill="#3a4a3a" opacity="0.4"/>
+  <ellipse cx="450" cy="345" rx="100" ry="6" fill="#3a4a3a" opacity="0.4"/>
+
+  <!-- Title -->
+  <text x="300" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">石炭紀の森（約 3.2〜2.9 億年前）</text>
+  <text x="300" y="44" text-anchor="middle" font-size="10" fill="#666">花も種子もない巨大な維管束植物が森を作っていた</text>
+
+  <!-- ============ LEPIDODENDRON (left, ~40m tall) ============ -->
+  <g transform="translate(120,320)">
+    <!-- Trunk: tall, with diamond-pattern bark (rhomboidal leaf scars) -->
+    <path d="M -15,0 L -10,-220 L 10,-220 L 15,0 Z" fill="#7a5a3a"/>
+    <!-- Diamond scale pattern -->
+    <g fill="#5a3e22" opacity="0.7">
+      <polygon points="-10,-30 -3,-37 4,-30 -3,-23"/>
+      <polygon points="3,-50 10,-57 17,-50 10,-43"/>
+      <polygon points="-13,-65 -6,-72 1,-65 -6,-58"/>
+      <polygon points="0,-85 7,-92 14,-85 7,-78"/>
+      <polygon points="-12,-105 -5,-112 2,-105 -5,-98"/>
+      <polygon points="2,-125 9,-132 16,-125 9,-118"/>
+      <polygon points="-12,-145 -5,-152 2,-145 -5,-138"/>
+      <polygon points="3,-165 10,-172 17,-165 10,-158"/>
+      <polygon points="-12,-185 -5,-192 2,-185 -5,-178"/>
+    </g>
+    <!-- Crown: dichotomous branches with grass-like leaves -->
+    <g stroke="#5e7a3a" stroke-width="2.5" fill="none">
+      <path d="M 0,-220 L -25,-245"/>
+      <path d="M 0,-220 L 25,-245"/>
+      <path d="M -25,-245 L -45,-275"/>
+      <path d="M -25,-245 L -10,-275"/>
+      <path d="M 25,-245 L 10,-275"/>
+      <path d="M 25,-245 L 45,-275"/>
+    </g>
+    <g stroke="#6e8c4a" stroke-width="1.2" fill="none">
+      <!-- Microphyll leaves at branch tips -->
+      <path d="M -45,-275 L -55,-285 M -45,-275 L -50,-290 M -45,-275 L -42,-292"/>
+      <path d="M -10,-275 L -18,-290 M -10,-275 L -10,-294 M -10,-275 L -2,-289"/>
+      <path d="M  10,-275 L  18,-290 M  10,-275 L  10,-294 M  10,-275 L  2,-289"/>
+      <path d="M  45,-275 L  55,-285 M  45,-275 L  50,-290 M  45,-275 L  42,-292"/>
+    </g>
+    <text x="0" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">リンボク</text>
+    <text x="0" y="34" text-anchor="middle" font-size="9" fill="#444" font-style="italic">Lepidodendron</text>
+    <text x="0" y="48" text-anchor="middle" font-size="9" fill="#666">（ヒカゲノカズラ類）</text>
+    <!-- Height indicator -->
+    <line x1="-55" y1="-220" x2="-55" y2="0" stroke="#555" stroke-width="0.8" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+    <text x="-66" y="-105" text-anchor="end" font-size="10" fill="#555" font-weight="bold">40m</text>
+  </g>
+
+  <!-- ============ CALAMITES (middle, ~20m tall) ============ -->
+  <g transform="translate(310,320)">
+    <!-- Trunk: jointed, segmented like horsetail -->
+    <rect x="-10" y="-150" width="20" height="150" fill="#7d8a5a"/>
+    <!-- Joint nodes -->
+    <g stroke="#4d5e35" stroke-width="1.2" fill="none">
+      <line x1="-12" y1="-25" x2="12" y2="-25"/>
+      <line x1="-12" y1="-50" x2="12" y2="-50"/>
+      <line x1="-12" y1="-75" x2="12" y2="-75"/>
+      <line x1="-12" y1="-100" x2="12" y2="-100"/>
+      <line x1="-12" y1="-125" x2="12" y2="-125"/>
+    </g>
+    <!-- Whorled branches at each node (like big sugina) -->
+    <g stroke="#6d8a3e" stroke-width="1.4" fill="none" stroke-linecap="round">
+      <!-- node -25 -->
+      <path d="M -10,-25 L -28,-22 M -10,-25 L -32,-15"/>
+      <path d="M  10,-25 L  28,-22 M  10,-25 L  32,-15"/>
+      <!-- node -50 -->
+      <path d="M -10,-50 L -32,-50 M -10,-50 L -34,-44"/>
+      <path d="M  10,-50 L  32,-50 M  10,-50 L  34,-44"/>
+      <!-- node -75 -->
+      <path d="M -10,-75 L -34,-78 M -10,-75 L -36,-70"/>
+      <path d="M  10,-75 L  34,-78 M  10,-75 L  36,-70"/>
+      <!-- node -100 -->
+      <path d="M -10,-100 L -32,-105 M -10,-100 L -36,-98"/>
+      <path d="M  10,-100 L  32,-105 M  10,-100 L  36,-98"/>
+      <!-- node -125 -->
+      <path d="M -10,-125 L -28,-128 M -10,-125 L -30,-120"/>
+      <path d="M  10,-125 L  28,-128 M  10,-125 L  30,-120"/>
+    </g>
+    <!-- Top whorl -->
+    <g stroke="#6d8a3e" stroke-width="1.4" fill="none" stroke-linecap="round">
+      <path d="M 0,-150 L -20,-160 M 0,-150 L 0,-165 M 0,-150 L 20,-160"/>
+      <path d="M 0,-150 L -12,-168 M 0,-150 L 12,-168"/>
+    </g>
+    <text x="0" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">カラミテス</text>
+    <text x="0" y="34" text-anchor="middle" font-size="9" fill="#444" font-style="italic">Calamites</text>
+    <text x="0" y="48" text-anchor="middle" font-size="9" fill="#666">（巨大スギナ＝トクサ類）</text>
+    <line x1="50" y1="-150" x2="50" y2="0" stroke="#555" stroke-width="0.8" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+    <text x="62" y="-72" font-size="10" fill="#555" font-weight="bold">20m</text>
+  </g>
+
+  <!-- ============ TREE FERN (right, ~15m tall) ============ -->
+  <g transform="translate(490,320)">
+    <!-- Slender trunk -->
+    <rect x="-7" y="-110" width="14" height="110" fill="#6a4a30"/>
+    <!-- Fern fronds (crown at top) -->
+    <g stroke="#4a7a3a" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <path d="M 0,-110 Q -25,-130 -55,-130"/>
+      <path d="M 0,-110 Q -22,-138 -42,-150"/>
+      <path d="M 0,-110 Q -10,-145 -15,-165"/>
+      <path d="M 0,-110 Q  10,-145  15,-165"/>
+      <path d="M 0,-110 Q  22,-138  42,-150"/>
+      <path d="M 0,-110 Q  25,-130  55,-130"/>
+      <path d="M 0,-110 Q -15,-122 -35,-118"/>
+      <path d="M 0,-110 Q  15,-122  35,-118"/>
+    </g>
+    <!-- Pinnae detail (feather strokes) -->
+    <g stroke="#5a8a4a" stroke-width="0.8" fill="none">
+      <path d="M -45,-130 L -50,-135 M -38,-128 L -42,-134 M -30,-124 L -33,-130"/>
+      <path d="M -35,-148 L -39,-153 M -28,-145 L -32,-150 M -20,-142 L -22,-147"/>
+      <path d="M -10,-150 L -13,-156 M -8,-140 L -11,-144"/>
+      <path d="M  10,-150 L  13,-156 M  8,-140 L  11,-144"/>
+      <path d="M  35,-148 L  39,-153 M  28,-145 L  32,-150 M  20,-142 L  22,-147"/>
+      <path d="M  45,-130 L  50,-135 M  38,-128 L  42,-134 M  30,-124 L  33,-130"/>
+    </g>
+    <text x="0" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">木性シダ</text>
+    <text x="0" y="34" text-anchor="middle" font-size="9" fill="#444">（古生代シダ植物）</text>
+    <text x="0" y="48" text-anchor="middle" font-size="9" fill="#666">高さ約 15m</text>
+  </g>
+
+  <!-- Markers -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- Caption -->
+  <text x="300" y="370" text-anchor="middle" font-size="9" fill="#666">この森の倒木が長い時間をかけて炭化し、現在の石炭層になった</text>
+</svg>
