@@ -115,7 +115,17 @@
       "Bash(head -30 .next/server/app/sitemap.xml/index.html)",
       "Bash(pkill -f \"next dev\")",
       "Bash(unzip -o angiodata.zip -d extracted)",
-      "Bash(npx ts-node:*)"
+      "Bash(npx ts-node:*)",
+      "Bash(awk '/id: \"\\(tsubaki|sugina|natsume|ringo|ichigo|shiso|tsutsuji\\)\",/{print NR\": \"$0}' src/data/plants.ts)",
+      "Bash(awk '/shape: \"oblong\"/{print NR\": \"$0}' src/data/plants.ts)",
+      "Bash(awk '/shape: \"elliptic\"/{print NR\": \"$0}' src/data/plants.ts)",
+      "Bash(awk '!/^[0-9]+: fixed$/' src/data/plants.ts)",
+      "Bash(awk '/^[0-9]+: fixed$/{print \"STILL: \"NR}' src/data/plants.ts)",
+      "Bash(awk '/floweringSeason: \"autumn\"/{print NR\": \"$0}' src/data/plants.ts)",
+      "Bash(xxd)",
+      "Bash(git check-attr *)",
+      "Bash(git config *)",
+      "Bash(awk 'BEGIN{ORS=\"\\\\r\\\\n\"} {sub\\(/\\\\r$/,\"\"\\); print}' src/data/plants.ts)"
     ]
   },
   "hooks": {

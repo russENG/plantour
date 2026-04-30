@@ -1730,7 +1730,7 @@ export const plants: Plant[] = [
   // ── ツバキ科 ──────────────────────────────────────
   {
     id: "tsubaki",
-    jaName: "ヤブツバキ（ツバキ）",
+    jaName: "ヤブツバキ",
     enName: "Japanese Camellia",
     scientificName: "Camellia japonica",
     familyId: "theaceae",
@@ -7981,7 +7981,7 @@ export const plants: Plant[] = [
     jaName: "ナツメ",
     enName: "Jujube",
     scientificName: "Ziziphus jujuba",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ziziphus_jujuba.jpg/330px-Ziziphus_jujuba.jpg",
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ziziphus_jujuba.jpg",
     familyId: "rhamnaceae",
     familyJaName: "クロウメモドキ科",
     description:
@@ -12280,7 +12280,7 @@ export const plants: Plant[] = [
   },
   {
     id: "ringo",
-    jaName: "セイヨウリンゴ（リンゴ）",
+    jaName: "リンゴ",
     enName: "Apple",
     scientificName: "Malus domestica",
     familyId: "rosaceae",
@@ -12545,7 +12545,7 @@ export const plants: Plant[] = [
     id: "shiso",
     jaName: "シソ",
     enName: "Perilla",
-    scientificName: "Perilla frutescens",
+    scientificName: "Perilla frutescens var. crispa",
     familyId: "lamiaceae",
     familyJaName: "シソ科",
     description:
@@ -17008,46 +17008,6 @@ export const plants: Plant[] = [
     review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
   },
 
-  // ───── 6. リンゴ（YList: セイヨウリンゴ）─────
-  {
-    id: "ringo",
-    jaName: "リンゴ",
-    enName: "Apple",
-    scientificName: "Malus domestica",
-    familyId: "rosaceae",
-    familyJaName: "バラ科",
-    description:
-      "バラ科リンゴ属の落葉高木で、植物学上の和名はセイヨウリンゴ。中央アジア原産で、世界中の温帯で広く栽培される代表的な果樹。日本では明治時代に導入され、現在は青森県が主産地。春に白〜薄紅の花を咲かせ、秋に赤や黄の果実をつける。",
-    enDescription: "A deciduous tree in the rose family; its botanical Japanese name is 'Seiyou-ringo'. Originating from Central Asia, it is one of the most widely cultivated fruit trees in temperate regions worldwide. Introduced to Japan during the Meiji era, Aomori Prefecture is now the main production area. White to pale pink flowers in spring, red or yellow fruit in autumn.",
-    identificationPoints: [
-      "春、枝先に白〜薄紅の5弁花を散房状につける",
-      "葉は楕円形で縁に鋸歯",
-      "秋にほぼ球形で上下がくぼんだ果実を実らせる",
-    ],
-    enIdentificationPoints: [
-      "White-to-pale-pink 5-petaled flowers in corymbs in spring",
-      "Elliptic leaves with serrate margins",
-      "Round fruit with depressed ends in autumn",
-    ],
-    habitat: "栽培（果樹園）",
-    enHabitat: "Cultivated (orchards)",
-    season: "4〜5月（花）、9〜11月（果実）",
-    enSeason: "April to May (flowers), September to November (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Malus_domestica.jpg",
-    externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/リンゴ" },
-    ],
-    tags: ["木本", "落葉高木", "果樹", "栽培", "春の花"],
-    enTags: ["Tree", "Deciduous", "Fruit tree", "Cultivated", "Spring flowers"],
-    traits: { leafArr: "alt", leafType: "simple", margin: "serrate", shape: "ovate", habit: "tree", deciduous: "deciduous", petalCount: 5, flowerColor: "white", floweringSeason: "spring", habitat: "cultivated" },
-    sources: [
-      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
-      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/リンゴ" },
-    ],
-    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "リンゴ", totalViews: 124023, window: "202504-202603", months: [{ month: "202504", views: 9555 }, { month: "202505", views: 10955 }, { month: "202506", views: 9764 }, { month: "202507", views: 9280 }, { month: "202508", views: 10000 }, { month: "202509", views: 10826 }, { month: "202510", views: 11712 }, { month: "202511", views: 13075 }, { month: "202512", views: 11113 }, { month: "202601", views: 10428 }, { month: "202602", views: 8901 }, { month: "202603", views: 8414 }] },
-    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
-  },
-
   // ───── 7. ハナミズキ（YList: アメリカヤマボウシ）─────
   {
     id: "hanamizuki",
@@ -17085,46 +17045,6 @@ export const plants: Plant[] = [
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ハナミズキ" },
     ],
     popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ハナミズキ", totalViews: 120989, window: "202504-202603", months: [{ month: "202504", views: 33717 }, { month: "202505", views: 17598 }, { month: "202506", views: 8469 }, { month: "202507", views: 6925 }, { month: "202508", views: 6696 }, { month: "202509", views: 6691 }, { month: "202510", views: 7487 }, { month: "202511", views: 7838 }, { month: "202512", views: 5079 }, { month: "202601", views: 5481 }, { month: "202602", views: 5477 }, { month: "202603", views: 9531 }] },
-    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
-  },
-
-  // ───── 8. ツバキ（YList: ヤブツバキ）─────
-  {
-    id: "tsubaki",
-    jaName: "ヤブツバキ",
-    enName: "Japanese Camellia",
-    scientificName: "Camellia japonica",
-    familyId: "theaceae",
-    familyJaName: "ツバキ科",
-    description:
-      "ツバキ科ツバキ属の常緑樹で、照葉樹林の代表種。単に「ツバキ」とも呼ばれる。日本の本州以南に自生し、冬から春にかけて赤色の花を咲かせる。庭木として広く植栽され、種子は椿油の原料となる。",
-    enDescription: "An evergreen tree in the tea family, representative of Japanese lucidophyllous forests. Also simply called 'Tsubaki'. Native to Japan from Honshu southward, it blooms red flowers from winter to spring. Widely planted in gardens, and its seeds are the source of 'tsubaki oil'.",
-    identificationPoints: [
-      "常緑樹で葉は厚い革質、濃緑色で光沢",
-      "冬〜春、赤色の大きな5弁花が開き、雄しべは筒状に合着",
-      "花ごとぽとりと落ちる（花びらが散らない）",
-    ],
-    enIdentificationPoints: [
-      "Evergreen with thick, leathery, glossy dark-green leaves",
-      "Large red 5-petaled flowers with stamens fused into a tube, winter to spring",
-      "Whole flower drops (petals don't fall individually)",
-    ],
-    habitat: "照葉樹林・庭木・公園",
-    enHabitat: "Evergreen broadleaf forests, gardens, parks",
-    season: "12〜4月（花）",
-    enSeason: "December to April (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Camellia_japonica.jpg",
-    externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツバキ" },
-    ],
-    tags: ["木本", "常緑樹", "冬の花", "赤花", "照葉樹林"],
-    enTags: ["Tree", "Evergreen", "Winter flowers", "Red flowers", "Lucidophyll forest"],
-    traits: { leafArr: "alt", leafType: "simple", shape: "ovate", habit: "tree", deciduous: "evergreen", petalCount: 5, flowerColor: "red", floweringSeason: "winter", habitat: "forest" },
-    sources: [
-      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
-      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ツバキ" },
-    ],
-    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツバキ", totalViews: 118729, window: "202504-202603", months: [{ month: "202504", views: 16304 }, { month: "202505", views: 9568 }, { month: "202506", views: 6659 }, { month: "202507", views: 5615 }, { month: "202508", views: 6611 }, { month: "202509", views: 5745 }, { month: "202510", views: 6795 }, { month: "202511", views: 8453 }, { month: "202512", views: 11243 }, { month: "202601", views: 14400 }, { month: "202602", views: 12220 }, { month: "202603", views: 15116 }] },
     review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
   },
 
@@ -17248,86 +17168,6 @@ export const plants: Plant[] = [
     review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
   },
 
-  // ───── 12. イチゴ（YList: オランダイチゴ）─────
-  {
-    id: "ichigo",
-    jaName: "イチゴ",
-    enName: "Strawberry",
-    scientificName: "Fragaria × ananassa",
-    familyId: "rosaceae",
-    familyJaName: "バラ科",
-    description:
-      "バラ科オランダイチゴ属の多年草。食用に供されるのは赤く肥大した花托で、表面に見える粒は種子ではなく痩果。18世紀のオランダで現在の栽培種が生まれたため、和名はオランダイチゴ。赤色のほか白色品種もある。",
-    enDescription: "A perennial herb in the rose family. The 'fruit' we eat is actually the enlarged red receptacle; the tiny grains on its surface are achenes, not seeds. The modern cultivated strawberry originated in the Netherlands in the 18th century, giving its Japanese name 'Oranda-ichigo'. White varieties also exist.",
-    identificationPoints: [
-      "3小葉の複葉、鋸歯がある",
-      "白い5弁花を春に咲かせる",
-      "赤色（または白色）の偽果の表面に粒状の痩果",
-    ],
-    enIdentificationPoints: [
-      "Compound leaves of 3 serrated leaflets",
-      "White 5-petaled flowers in spring",
-      "Red (or white) accessory fruit with achenes on surface",
-    ],
-    habitat: "栽培（畑・ビニールハウス）",
-    enHabitat: "Cultivated (fields, greenhouses)",
-    season: "12〜5月（果実・促成栽培）",
-    enSeason: "December to May (fruit, forced culture)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Fragaria_ananassa.jpg",
-    externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/イチゴ" },
-    ],
-    tags: ["草本", "多年草", "果物", "栽培"],
-    enTags: ["Herb", "Perennial", "Fruit", "Cultivated"],
-    traits: { leafArr: "alt", leafType: "compound", margin: "serrate", habit: "herb", deciduous: "deciduous", petalCount: 5, flowerColor: "white", habitat: "cultivated" },
-    sources: [
-      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
-      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/イチゴ" },
-    ],
-    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "イチゴ", totalViews: 106812, window: "202504-202603", months: [{ month: "202504", views: 12853 }, { month: "202505", views: 11866 }, { month: "202506", views: 8526 }, { month: "202507", views: 6471 }, { month: "202508", views: 5932 }, { month: "202509", views: 12328 }, { month: "202510", views: 6400 }, { month: "202511", views: 5914 }, { month: "202512", views: 7145 }, { month: "202601", views: 9083 }, { month: "202602", views: 9992 }, { month: "202603", views: 10302 }] },
-    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
-  },
-
-  // ───── 13. ツツジ（YList: アケボノツツジ）※ 要注意：Wikipedia記事は属全体の解説 ─────
-  {
-    id: "tsutsuji",
-    jaName: "ツツジ",
-    enName: "Azalea",
-    scientificName: "Rhododendron",
-    familyId: "ericaceae",
-    familyJaName: "ツツジ科",
-    description:
-      "ツツジ科ツツジ属の植物の総称。主にアジアに広く分布し、日本には多くの野生種・園芸種がある。庭木・街路樹として広く植栽され、春に鮮やかな花を咲かせる。ネパールの国花。",
-    enDescription: "A general name for plants in the genus Rhododendron (heath family). Widely distributed mainly in Asia, with many wild and cultivated species in Japan. Widely planted as garden and street trees; blooms vivid flowers in spring. National flower of Nepal.",
-    identificationPoints: [
-      "常緑または落葉の低木〜小高木",
-      "春、漏斗状の5裂した花を多数咲かせる",
-      "葉は互生、多くは全縁",
-    ],
-    enIdentificationPoints: [
-      "Evergreen or deciduous shrub to small tree",
-      "Funnel-shaped, 5-lobed flowers in spring",
-      "Leaves alternate, mostly entire margin",
-    ],
-    habitat: "庭木・街路樹・山地",
-    enHabitat: "Gardens, street trees, mountains",
-    season: "4〜5月（花）",
-    enSeason: "April to May (flowers)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rhododendron_japonicum.jpg",
-    externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ツツジ" },
-    ],
-    tags: ["木本", "低木", "春の花", "栽培", "園芸"],
-    enTags: ["Tree", "Shrub", "Spring flowers", "Cultivated", "Horticultural"],
-    traits: { leafArr: "alt", leafType: "simple", habit: "shrub", flowerColor: "pink", floweringSeason: "spring", habitat: "cultivated" },
-    sources: [
-      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
-      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ツツジ" },
-    ],
-    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ツツジ", totalViews: 98980, window: "202504-202603", months: [{ month: "202504", views: 28887 }, { month: "202505", views: 23998 }, { month: "202506", views: 8209 }, { month: "202507", views: 4629 }, { month: "202508", views: 4411 }, { month: "202509", views: 3722 }, { month: "202510", views: 3854 }, { month: "202511", views: 3910 }, { month: "202512", views: 3628 }, { month: "202601", views: 4012 }, { month: "202602", views: 3960 }, { month: "202603", views: 5760 }] },
-    review: { status: "ai_generated", note: "⚠️ 属全体の解説。種を特定して個別エントリにするか検討。" },
-  },
-
   // ───── 14. ナガエツルノゲイトウ（YList: ナガエツルノゲイトウ）─────
   {
     id: "nagae_tsurunogeito",
@@ -17399,7 +17239,7 @@ export const plants: Plant[] = [
     ],
     tags: ["草本", "つる植物", "多年草", "秋の七草", "薬用"],
     enTags: ["Herb", "Vine", "Perennial", "Seven flowers of autumn", "Medicinal"],
-    traits: { leafArr: "alt", leafType: "compound", habit: "vine", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "autumn", habitat: "mountain" },
+    traits: { leafArr: "alt", leafType: "compound", habit: "vine", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "fall", habitat: "mountain" },
     sources: [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/クズ" },
@@ -17608,46 +17448,6 @@ export const plants: Plant[] = [
     review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
   },
 
-  // ───── 21. スギナ（YList: オクエゾスギナ）─────
-  {
-    id: "sugina",
-    jaName: "スギナ",
-    enName: "Field Horsetail",
-    scientificName: "Equisetum arvense",
-    familyId: "equisetaceae",
-    familyJaName: "トクサ科",
-    description:
-      "トクサ科トクサ属のシダ植物。日本に生育するトクサ類では最も小型。栄養茎をスギナ、胞子茎をツクシ（土筆）と呼び分ける。春に出るツクシは山菜として親しまれる。畑の強害雑草としても知られる。",
-    enDescription: "A pteridophyte in the horsetail family, the smallest horsetail in Japan. The vegetative shoot is called 'Sugina' and the spore-bearing shoot is 'Tsukushi' (field horsetail). 'Tsukushi' is enjoyed as a spring wild vegetable. Also known as a persistent agricultural weed.",
-    identificationPoints: [
-      "栄養茎は緑色で節から輪生する細い枝を出す",
-      "胞子茎（ツクシ）は早春に出現、先端に胞子嚢穂",
-      "地下茎で広く繁殖",
-    ],
-    enIdentificationPoints: [
-      "Green vegetative stems with whorls of thin branches at nodes",
-      "Fertile stems (Tsukushi) emerge in early spring with strobili",
-      "Spreads extensively via underground rhizomes",
-    ],
-    habitat: "畑・道ばた・空き地・土手",
-    enHabitat: "Fields, roadsides, vacant lots, embankments",
-    season: "3〜4月（ツクシ）、4〜9月（スギナ）",
-    enSeason: "March to April (Tsukushi), April to September (Sugina)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Equisetum_arvense.jpg",
-    externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/スギナ" },
-    ],
-    tags: ["シダ植物", "多年草", "雑草", "山菜", "道ばた"],
-    enTags: ["Fern ally", "Perennial", "Weed", "Wild vegetable", "Roadsides"],
-    traits: { habit: "herb", deciduous: "deciduous", habitat: "roadside" },
-    sources: [
-      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
-      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/スギナ" },
-    ],
-    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "スギナ", totalViews: 88099, window: "202504-202603", months: [{ month: "202504", views: 18811 }, { month: "202505", views: 14572 }, { month: "202506", views: 9211 }, { month: "202507", views: 5456 }, { month: "202508", views: 5873 }, { month: "202509", views: 4226 }, { month: "202510", views: 3522 }, { month: "202511", views: 2923 }, { month: "202512", views: 2429 }, { month: "202601", views: 2928 }, { month: "202602", views: 3380 }, { month: "202603", views: 14768 }] },
-    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
-  },
-
   // ───── 22. ブロッコリー（YList: ブロッコリー）─────
   {
     id: "broccoli",
@@ -17719,7 +17519,7 @@ export const plants: Plant[] = [
     ],
     tags: ["草本", "一年草", "帰化植物", "花粉症", "雑草"],
     enTags: ["Herb", "Annual", "Introduced", "Hay fever", "Weed"],
-    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "autumn", habitat: "roadside" },
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "fall", habitat: "roadside" },
     sources: [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ブタクサ" },
@@ -17805,46 +17605,6 @@ export const plants: Plant[] = [
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ザクロ" },
     ],
     popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ザクロ", totalViews: 83507, window: "202504-202603", months: [{ month: "202504", views: 5541 }, { month: "202505", views: 7243 }, { month: "202506", views: 7115 }, { month: "202507", views: 5942 }, { month: "202508", views: 6929 }, { month: "202509", views: 7763 }, { month: "202510", views: 10406 }, { month: "202511", views: 8590 }, { month: "202512", views: 7165 }, { month: "202601", views: 6137 }, { month: "202602", views: 5127 }, { month: "202603", views: 5549 }] },
-    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
-  },
-
-  // ───── 26. ナツメ（YList: サネブトナツメ）─────
-  {
-    id: "natsume",
-    jaName: "ナツメ",
-    enName: "Jujube",
-    scientificName: "Ziziphus jujuba",
-    familyId: "rhamnaceae",
-    familyJaName: "クロウメモドキ科",
-    description:
-      "クロウメモドキ科の落葉小高木。和名は夏に芽が出ること（夏芽）に由来。果実は乾燥させて干しなつめにしたり、菓子材料や漢方薬（大棗）にされる。ナツメヤシ・ナツメグとは別種。",
-    enDescription: "A small deciduous tree in the buckthorn family. The Japanese name comes from its late budding ('natsu-me', summer bud). The fruit is dried or used as a confection ingredient and in traditional medicine ('taisou'). Unrelated to date palms or nutmeg despite similar Japanese names.",
-    identificationPoints: [
-      "枝にトゲがある",
-      "葉は小さな楕円形で3本の主脈が目立つ",
-      "果実は楕円形で熟すと赤褐色",
-    ],
-    enIdentificationPoints: [
-      "Branches are thorny",
-      "Small elliptic leaves with 3 prominent veins",
-      "Ellipsoidal fruit turning reddish-brown when ripe",
-    ],
-    habitat: "庭木・栽培（中国・東アジア）",
-    enHabitat: "Gardens, cultivated (China, East Asia)",
-    season: "5〜6月（花）、9〜10月（果実）",
-    enSeason: "May to June (flowers), September to October (fruit)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Ziziphus_jujuba.jpg",
-    externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/ナツメ" },
-    ],
-    tags: ["木本", "落葉小高木", "果樹", "薬用", "食用"],
-    enTags: ["Tree", "Deciduous", "Fruit tree", "Medicinal", "Edible"],
-    traits: { leafArr: "alt", leafType: "simple", shape: "elliptic", habit: "tree", deciduous: "deciduous", habitat: "cultivated" },
-    sources: [
-      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
-      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/ナツメ" },
-    ],
-    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "ナツメ", totalViews: 82515, window: "202504-202603", months: [{ month: "202504", views: 6359 }, { month: "202505", views: 7560 }, { month: "202506", views: 6766 }, { month: "202507", views: 5721 }, { month: "202508", views: 7515 }, { month: "202509", views: 10993 }, { month: "202510", views: 12004 }, { month: "202511", views: 6781 }, { month: "202512", views: 4871 }, { month: "202601", views: 4639 }, { month: "202602", views: 4458 }, { month: "202603", views: 4848 }] },
     review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
   },
 
@@ -18325,46 +18085,6 @@ export const plants: Plant[] = [
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/オリーブ" },
     ],
     popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "オリーブ", totalViews: 67704, window: "202504-202603", months: [{ month: "202504", views: 6167 }, { month: "202505", views: 6734 }, { month: "202506", views: 5396 }, { month: "202507", views: 4806 }, { month: "202508", views: 5291 }, { month: "202509", views: 5730 }, { month: "202510", views: 6400 }, { month: "202511", views: 6150 }, { month: "202512", views: 5137 }, { month: "202601", views: 5053 }, { month: "202602", views: 5165 }, { month: "202603", views: 5675 }] },
-    review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
-  },
-
-  // ───── 39. シソ（YList: アカジソ）─────
-  {
-    id: "shiso",
-    jaName: "シソ",
-    enName: "Perilla",
-    scientificName: "Perilla frutescens var. crispa",
-    familyId: "lamiaceae",
-    familyJaName: "シソ科",
-    description:
-      "シソ科シソ属の芳香性一年草。中国原産。赤ジソと青ジソがあり、青ジソの葉は「大葉」として広く食用にされる。防腐・殺菌作用があり、刺身のつまや薬味、梅干しの着色など用途が多い。",
-    enDescription: "An aromatic annual herb in the mint family, native to China. Comes in red-leaved ('Aka-jiso') and green-leaved ('Ao-jiso') forms. The green type, called 'Ooba', is widely used as garnish. Known for its antimicrobial properties and used with sashimi, pickled plum ('umeboshi'), and many other dishes.",
-    identificationPoints: [
-      "葉は卵形で鋸歯があり、独特の芳香",
-      "赤ジソは全体が赤紫色",
-      "茎は断面が四角（シソ科の特徴）",
-    ],
-    enIdentificationPoints: [
-      "Ovate, serrate leaves with distinctive aroma",
-      "Red perilla has entirely reddish-purple foliage",
-      "Square stems (characteristic of the mint family)",
-    ],
-    habitat: "栽培（畑・家庭菜園・庭）",
-    enHabitat: "Cultivated (fields, home gardens)",
-    season: "6〜9月（葉）、9〜10月（花・実）",
-    enSeason: "June to September (leaves), September to October (flowers, seeds)",
-    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Perilla_frutescens_crispa.jpg",
-    externalLinks: [
-      { label: "Wikipedia（日本語）", url: "https://ja.wikipedia.org/wiki/シソ" },
-    ],
-    tags: ["草本", "一年草", "ハーブ", "薬味", "栽培"],
-    enTags: ["Herb", "Annual", "Culinary herb", "Condiment", "Cultivated"],
-    traits: { leafArr: "opp", leafType: "simple", margin: "serrate", shape: "ovate", habit: "herb", deciduous: "deciduous", flowerColor: "white", habitat: "cultivated" },
-    sources: [
-      { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
-      { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/シソ" },
-    ],
-    popularity: { source: "wikipedia_ja_pageviews", wikiTitle: "シソ", totalViews: 67119, window: "202504-202603", months: [{ month: "202504", views: 5781 }, { month: "202505", views: 6752 }, { month: "202506", views: 8722 }, { month: "202507", views: 8322 }, { month: "202508", views: 6941 }, { month: "202509", views: 5994 }, { month: "202510", views: 4945 }, { month: "202511", views: 3873 }, { month: "202512", views: 3481 }, { month: "202601", views: 3397 }, { month: "202602", views: 3111 }, { month: "202603", views: 5800 }] },
     review: { status: "ai_generated", note: "Claude AI生成。学名・分類・説明要確認。" },
   },
 
@@ -18959,7 +18679,7 @@ export const plants: Plant[] = [
     ],
     tags: ["草本", "多年草", "球根", "香辛料", "栽培"],
     enTags: ["Herb", "Perennial", "Bulb", "Spice", "Cultivated"],
-    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "autumn", habitat: "cultivated" },
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "purple", floweringSeason: "fall", habitat: "cultivated" },
     sources: [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/サフラン" },
@@ -19559,7 +19279,7 @@ export const plants: Plant[] = [
     ],
     tags: ["草本", "多年草", "帰化植物", "根菜", "健康食品"],
     enTags: ["Herb", "Perennial", "Introduced", "Root vegetable", "Health food"],
-    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "autumn", habitat: "roadside" },
+    traits: { leafArr: "alt", leafType: "simple", habit: "herb", deciduous: "deciduous", flowerColor: "yellow", floweringSeason: "fall", habitat: "roadside" },
     sources: [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/キクイモ" },
@@ -19839,7 +19559,7 @@ export const plants: Plant[] = [
     ],
     tags: ["木本", "落葉低木", "庭木", "秋の花", "園芸"],
     enTags: ["Shrub", "Deciduous", "Garden tree", "Autumn flower", "Horticultural"],
-    traits: { leafArr: "alt", leafType: "simple", habit: "shrub", deciduous: "deciduous", petalCount: 5, flowerColor: "pink", floweringSeason: "autumn", habitat: "cultivated" },
+    traits: { leafArr: "alt", leafType: "simple", habit: "shrub", deciduous: "deciduous", petalCount: 5, flowerColor: "pink", floweringSeason: "fall", habitat: "cultivated" },
     sources: [
       { type: "claude_ai", label: "Claude AI生成（未確認）", note: "Wikipediaリードを根拠に生成。要確認。" },
       { type: "wikipedia_ja", label: "Wikipedia 日本語版", url: "https://ja.wikipedia.org/wiki/フヨウ" },

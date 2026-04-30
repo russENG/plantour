@@ -60,6 +60,18 @@ function warn(category: string, message: string) {
   issues.push({ level: "warn", category, message });
 }
 
+// 0. plants 内の重複ID検出
+const plantIdCounts = new Map<string, number>();
+for (const p of plants) {
+  plantIdCounts.set(p.id, (plantIdCounts.get(p.id) ?? 0) + 1);
+}
+for (const [id, count] of plantIdCounts) {
+  if (count > 1) {
+    const names = plants.filter((p) => p.id === id).map((p) => p.jaName).join(" / ");
+    error("duplicate", `plants.ts に id "${id}" が ${count} 件重複（${names}）`);
+  }
+}
+
 // 1. plants → taxonomy: 種が分類体系に登録されているか
 for (const p of plants) {
   if (!taxPlantIds.has(p.id)) {
@@ -150,7 +162,7 @@ const errors = issues.filter((i) => i.level === "error");
 const warnings = issues.filter((i) => i.level === "warn");
 
 // カテゴリ別にグループ化して表示
-const categories = ["taxonomy", "family", "key", "quiz", "i18n"];
+const categories = ["duplicate", "taxonomy", "family", "key", "quiz", "i18n"];
 for (const cat of categories) {
   const catIssues = issues.filter((i) => i.category === cat);
   if (catIssues.length === 0) continue;

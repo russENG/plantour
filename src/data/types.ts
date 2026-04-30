@@ -58,7 +58,12 @@ export type CompoundType = "ternate" | "pinnate" | "palmate" | "bipinnate";
 export type Venation = "pinnate" | "palmate" | "parallel";
 export type VenationNet = "reticulate" | "open";
 export type Margin = "entire" | "crenate" | "serrate" | "dentate";
-export type LeafShape = "linear" | "ovate" | "cordate" | "needle" | "round" | "palmate";
+// 葉の形状。Watson & Dallwitz DELTA 文字 #62 (leaf lamina form) を基本とし、
+// Plantour 独自に cordate / palmate / elliptic を追加し、一部を分かりやすい呼称に改名している。
+//   DELTA準拠: linear, ovate, oblong, obovate
+//   DELTA独自呼称: needle (DELTA: acicular), round (DELTA: orbicular)
+//   Plantour独自: cordate, palmate, elliptic (DELTA #62 には存在しない)
+export type LeafShape = "linear" | "ovate" | "obovate" | "cordate" | "needle" | "round" | "palmate" | "oblong" | "elliptic";
 export type Dissection = "entire" | "dissected";
 export type Stipules = "present" | "absent";
 export type Habit = "tree" | "shrub" | "herb" | "vine";
