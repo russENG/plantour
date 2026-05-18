@@ -4,7 +4,7 @@ import Image from "next/image";
 import { getColumns } from "@/data/columns";
 import type { Locale } from "@/dictionaries";
 
-const BASE_URL = "https://plantour-pearl.vercel.app";
+const BASE_URL = "https://plantour.app";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;

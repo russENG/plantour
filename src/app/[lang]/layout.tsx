@@ -6,7 +6,7 @@ export async function generateStaticParams() {
   return [{ lang: "ja" }, { lang: "en" }];
 }
 
-const BASE_URL = "https://plantour-pearl.vercel.app";
+const BASE_URL = "https://plantour.app";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;

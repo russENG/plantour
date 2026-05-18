@@ -1,6 +1,6 @@
 import type { Locale } from "@/dictionaries";
 
-const SITE_URL = "https://plantour-pearl.vercel.app";
+const SITE_URL = "https://plantour.app";
 
 const dict = {
   ja: {

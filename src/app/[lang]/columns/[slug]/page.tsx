@@ -6,7 +6,7 @@ import ColumnShareButton from "@/components/ColumnShareButton";
 import { getColumn, getColumns } from "@/data/columns";
 import type { Locale } from "@/dictionaries";
 
-const BASE_URL = "https://plantour-pearl.vercel.app";
+const BASE_URL = "https://plantour.app";
 
 export async function generateStaticParams() {
   const params: { lang: string; slug: string }[] = [];

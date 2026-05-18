@@ -15,7 +15,7 @@ import { getPlantAffiliateLinks } from "@/lib/affiliate";
 import { getDictionary, type Locale } from "@/dictionaries";
 import { plantName, plantDesc, plantHabitat, plantSeason, plantIdPoints, plantTags, plantEvoNote, plantFamilyName, familyPhylo, familyDivergence } from "@/lib/i18n-helpers";
 
-const BASE_URL = "https://plantour-pearl.vercel.app";
+const BASE_URL = "https://plantour.app";
 
 interface Props {
   params: Promise<{ lang: string; id: string }>;

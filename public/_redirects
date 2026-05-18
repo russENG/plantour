@@ -1,0 +1,5 @@
+# Cloudflare Pages リダイレクト設定
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+# ルート / は日本語版トップへ 301 リダイレクト
+/  /ja/  301

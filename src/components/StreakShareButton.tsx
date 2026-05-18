@@ -3,7 +3,7 @@
 import type { Locale } from "@/dictionaries";
 
 const MILESTONES = [5, 10, 15, 20, 25, 30, 50, 100];
-const SITE_URL = "https://plantour-pearl.vercel.app";
+const SITE_URL = "https://plantour.app";
 
 const dict = {
   ja: {

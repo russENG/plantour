@@ -128,7 +128,9 @@
       "Bash(awk 'BEGIN{ORS=\"\\\\r\\\\n\"} {sub\\(/\\\\r$/,\"\"\\); print}' src/data/plants.ts)",
       "Bash(git -C C:/Users/terua/plantour pull --ff-only origin main)",
       "Bash(git ls-remote *)",
-      "Bash(awk '/jaName: \"ヒガンバナ\",/,/imageUrl/{print; if \\(/imageUrl/\\) exit}' src/data/plants.ts)"
+      "Bash(awk '/jaName: \"ヒガンバナ\",/,/imageUrl/{print; if \\(/imageUrl/\\) exit}' src/data/plants.ts)",
+      "mcp__mcp-registry__search_mcp_registry",
+      "mcp__mcp-registry__list_connectors"
     ]
   },
   "hooks": {

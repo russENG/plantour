@@ -3,7 +3,10 @@ import { plants } from "@/data/plants";
 import { families } from "@/data/families";
 import { getColumns } from "@/data/columns";
 
-const BASE_URL = "https://plantour-pearl.vercel.app";
+const BASE_URL = "https://plantour.app";
+
+// output: 'export' で静的書き出しするために必要
+export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

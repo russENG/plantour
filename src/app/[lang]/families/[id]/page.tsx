@@ -14,7 +14,7 @@ import { familyTraits } from "@/data/familyTraits";
 import { getTraitIcon } from "@/components/TraitIcons";
 import { familyName, familyOverview, familyChars, familyPhylo, familyDivergence, familyEvoEvents, plantName } from "@/lib/i18n-helpers";
 
-const BASE_URL = "https://plantour-pearl.vercel.app";
+const BASE_URL = "https://plantour.app";
 
 interface Props {
   params: Promise<{ lang: string; id: string }>;
