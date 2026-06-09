@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/strip-rsc-payloads.mjs",
     "start": "next start",
     "lint": "eslint",
     "check-data": "tsx scripts/check-data.ts"
